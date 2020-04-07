@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 7</value>
+  </data>
+  <data name="pnlBottomContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>907, 44</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uiPanelManager1.PanelPadding.Right" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlSearch.AutoHide" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlBottomContainer.Name" xml:space="preserve">
+    <value>pnlBottomContainer</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlOfficesContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOfficeContainer.Name" xml:space="preserve">
+    <value>pnlBrowseOfficeContainer</value>
+  </data>
+  <data name="pnlSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 200</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Name" xml:space="preserve">
+    <value>buttonOK</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOfficeContainer.Name" xml:space="preserve">
+    <value>pnlSearchOfficeContainer</value>
+  </data>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.AutoHideButtonVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlSearchOfficesContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOfficesContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;pnlOffices.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSelectedFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="pnlOfficesContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>905, 300</value>
+  </data>
+  <data name="pnlBrowseOffices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pnlSearch.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelGroup, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOfficeContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOffices.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOffices.Parent" xml:space="preserve">
+    <value>pnlSearch</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOfficesContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="pnlSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pnlBrowseOffices.Closed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlBrowseOfficeContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Office Selector</value>
+  </data>
+  <data name="pnlSearchOffices.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOfficesContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlBrowseOffice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 295</value>
+  </data>
+  <data name="pnlSearchOffice.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOffice.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOffices.Name" xml:space="preserve">
+    <value>pnlBrowseOffices</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOffice.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentFile.Name" xml:space="preserve">
+    <value>lblCurrentFile</value>
+  </data>
+  <data name="pnlSearchOffices.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pnlBrowseOfficesContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblCurrentFile.Text" xml:space="preserve">
+    <value>[Office]</value>
+  </data>
+  <data name="pnlBrowseOffice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 268</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAfCgICRSoLC4cqCwuHKgsLhyoLC4cqCwuHKgsLhykKCoEmCAh/IwYGgyAEBI8eAgKdHQEBpwcB
+        AU0AAAAfAAAADwAAABc4FxeD2snJ/9bFxf+Ab2//qpmZ/5mIiP/WxcX/2snJ/7Sjo/+0o6P/uKen/x8B
+        AZsAAAAXAAAAD////wH///8BSiYme9jHx//Pvr7/koGB/4h3d/+aiYn/z76+/9jHx/+tnJz/rZyc/7al
+        pf8hAQGP////Af///wH///8B////AVQvL2vaycn/0cDA/9HAwP/RwMD/0cDA/9HAwP/aycn/r56e/6+e
+        nv+4p6f/IwAAe////wH///8B////Af///wFZMzN3wbCw/6uamv+7qqr/qZiY/7moqP+mlZX/u6qq/6CP
+        j/+VhIT/ppWV/yQAAIP///8B////Af///wH///8BXTc3aeDPz//Xxsb/18bG/9fGxv/Xxsb/18bG/+DP
+        z/+1pKT/taSk/76trf8lAAB1////Af///wH///8B////AWE7O3PHtrb/sqGh/8GwsP+vnp7/v66u/6yb
+        m//BsLD/ppWV/5uKiv+rmpr/JQAAff///wH///8B////Af///wFmPz9n5dTU/9zLy//cy8v/3MvL/9zL
+        y//cy8v/5dTU/7qpqf+6qan/w7Ky/yYAAG////8B////Af///wH///8BakJCb8++vv+6qan/yLe3/7em
+        pv/Htrb/taSk/8m4uP+unZ3/o5KS/7Khof8nAAB3////Af///wH///8B////AW5GRmPs29v/49LS/+PS
+        0v/j0tL/49LS/+PS0v/s29v/wbCw/8GwsP/Kubn/JwAAaf///wH///8B////Af///wFxSUlt1MPD/8Cv
+        r//Pvr7/vq2t/828vP+8q6v/0L+//7Sjo/+qmZn/uKen/ygAAHH///8B////Af///wH///8BdUxMYfXk
+        5P/w39//8N/f//Df3//w39//8N/f//Xk5P/Ovb3/zr29/9PCwv8oAABl////Af///wH///8B////AXhP
+        T094T09pKgAAZ8y7u//Kubn/yrm5/8y7u/+ol5f/qpmZ/yMEBIspAABtKQAAUf///wH///8B////Af//
+        /wH///8B////AXtSUmn25eX/7dzc/+3c3P/25eX/y7q6/9TDw/8pAABr////Af///wH///8B////Af//
+        /wH///8B////Af///wF+VFRn++rq//bl5f/25eX/++rq/9TDw//ZyMj/KgAAaf///wH///8B////Af//
+        /wH///8B////Af///wH///8BgFZWTYBWVmeAVlZnflRUZW5ERF9TKSldNw0NYyoAAE3///8B////Af//
+        /wH///8BAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//w==
+</value>
+  </data>
+  <data name="&gt;&gt;officeGridEX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedFile.Parent" xml:space="preserve">
+    <value>pnlBottomContainer</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOfficeContainer.Parent" xml:space="preserve">
+    <value>pnlBrowseOffice</value>
+  </data>
+  <data name="pnlSearch.Closed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlSearch.Name" xml:space="preserve">
+    <value>pnlSearch</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.UseFormIcons" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOffices.Name" xml:space="preserve">
+    <value>pnlSearchOffices</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOffice.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="pnlSearchOffice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblCurrentFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 13</value>
+  </data>
+  <data name="officeGridEX_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Key&gt;Office&lt;/Key&gt;&lt;Caption&gt;Office&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="OfficeId"&gt;&lt;Caption&gt;Office Id&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;OfficeId&lt;/DataMember&gt;&lt;Key&gt;OfficeId&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="ParentOfficeId"&gt;&lt;Caption&gt;Parent Office Id&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;ParentOfficeId&lt;/DataMember&gt;&lt;Key&gt;ParentOfficeId&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column1&gt;&lt;Column2 ID="AddressId"&gt;&lt;Caption&gt;Address Id&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;AddressId&lt;/DataMember&gt;&lt;Key&gt;AddressId&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column2&gt;&lt;Column3 ID="OfficeCode"&gt;&lt;Caption&gt;Office Code&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;ColumnType&gt;Link&lt;/ColumnType&gt;&lt;DataMember&gt;OfficeCode&lt;/DataMember&gt;&lt;Key&gt;OfficeCode&lt;/Key&gt;&lt;MaxLength&gt;6&lt;/MaxLength&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;85&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="Active"&gt;&lt;Caption&gt;Active&lt;/Caption&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;Active&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;Key&gt;Active&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;42&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="OfficeName"&gt;&lt;Caption&gt;Name&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;OfficeName&lt;/DataMember&gt;&lt;Key&gt;OfficeName&lt;/Key&gt;&lt;MaxLength&gt;50&lt;/MaxLength&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;277&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="OfficeTypeCode"&gt;&lt;CompareTarget&gt;Text&lt;/CompareTarget&gt;&lt;Caption&gt;Office Type&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;OfficeTypeCode&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Text&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;MultiColumnCombo&lt;/EditType&gt;&lt;Key&gt;OfficeTypeCode&lt;/Key&gt;&lt;MaxLength&gt;4&lt;/MaxLength&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;103&lt;/Width&gt;&lt;DropDownIndex&gt;0&lt;/DropDownIndex&gt;&lt;/Column6&gt;&lt;Column7 ID="OfficeFileId"&gt;&lt;Caption&gt;Office File&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;OfficeFileId&lt;/DataMember&gt;&lt;Key&gt;OfficeFileId&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column7&gt;&lt;Column8 ID="DepartmentID"&gt;&lt;CompareTarget&gt;Text&lt;/CompareTarget&gt;&lt;Caption&gt;Department&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;DepartmentID&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Text&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;MultiColumnCombo&lt;/EditType&gt;&lt;Key&gt;DepartmentID&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;72&lt;/Width&gt;&lt;DropDownIndex&gt;1&lt;/DropDownIndex&gt;&lt;/Column8&gt;&lt;Column9 ID="ProvinceCode"&gt;&lt;Caption&gt;Province&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;ProvinceCode&lt;/DataMember&gt;&lt;Key&gt;ProvinceCode&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;64&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="CountryCode"&gt;&lt;Caption&gt;Country&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;CountryCode&lt;/DataMember&gt;&lt;Key&gt;CountryCode&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;54&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="Address1"&gt;&lt;Caption&gt;Address 1&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;Address1&lt;/DataMember&gt;&lt;Key&gt;Address1&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;144&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="Address2"&gt;&lt;Caption&gt;Address 2&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;Address2&lt;/DataMember&gt;&lt;Key&gt;Address2&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;/Column12&gt;&lt;Column13 ID="City"&gt;&lt;Caption&gt;City&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;City&lt;/DataMember&gt;&lt;Key&gt;City&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;/Column13&gt;&lt;Column14 ID="PostalCode"&gt;&lt;Caption&gt;Postal Code&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;PostalCode&lt;/DataMember&gt;&lt;Key&gt;PostalCode&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;/Column14&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;3&lt;/ColIndex&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;GroupCondition /&gt;&lt;RowHeaders&gt;True&lt;/RowHeaders&gt;&lt;/RootTable&gt;&lt;DropDowns Collection="true" ElementName="DropDown"&gt;&lt;DropDown0 ID="ddOfficeType"&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="officetypedesceng"&gt;&lt;Caption&gt;officetypedesceng&lt;/Caption&gt;&lt;DataMember&gt;officetypedesceng&lt;/DataMember&gt;&lt;Key&gt;officetypedesceng&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;Font&gt;Microsoft Sans Serif, 8.25pt&lt;/Font&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;Key&gt;ddOfficeType&lt;/Key&gt;&lt;DisplayMember&gt;OfficeTypeDescEng&lt;/DisplayMember&gt;&lt;ValueMember&gt;OfficeTypeCode&lt;/ValueMember&gt;&lt;/DropDown0&gt;&lt;DropDown1 ID="ddDepartment"&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="DepartmentNameEng"&gt;&lt;Caption&gt;DepartmentNameEng&lt;/Caption&gt;&lt;DataMember&gt;DepartmentNameEng&lt;/DataMember&gt;&lt;Key&gt;DepartmentNameEng&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;Font&gt;Microsoft Sans Serif, 8.25pt&lt;/Font&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;Key&gt;ddDepartment&lt;/Key&gt;&lt;DisplayMember&gt;DepartmentNameEng&lt;/DisplayMember&gt;&lt;ValueMember&gt;departmentid&lt;/ValueMember&gt;&lt;/DropDown1&gt;&lt;/DropDowns&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="pnlBrowseOfficesContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOffices.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="officeGridEX.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOfficesContainer.Name" xml:space="preserve">
+    <value>pnlSearchOfficesContainer</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>pnlBottomContainer</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" xml:space="preserve">
+    <value>buttonCancel</value>
+  </data>
+  <data name="buttonOK.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOfficeContainer.Parent" xml:space="preserve">
+    <value>pnlSearchOffice</value>
+  </data>
+  <data name="pnlOffices.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;officeGridEX.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="pnlOfficesContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOfficeContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.TabCaptionTrimming" type="System.Drawing.StringTrimming, System.Drawing">
+    <value>Character</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>fBrowseOffices</value>
+  </data>
+  <data name="buttonCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblSelectedFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnlBrowseOfficeContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 268</value>
+  </data>
+  <data name="&gt;&gt;uiPanelManager1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelManager, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblSelectedFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>700, 300</value>
+  </data>
+  <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="lblCurrentFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="pnlBottomContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;officeGridEX.Name" xml:space="preserve">
+    <value>officeGridEX</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>818, 7</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOffices.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlOffices.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlBottomContainer.Parent" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;pnlOfficesContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.ShowCloseButton" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CloseButtonVisible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pnlBrowseOffice.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionHeight" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="pnlSearchOfficeContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 160</value>
+  </data>
+  <data name="pnlSearchOffices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 269</value>
+  </data>
+  <data name="officeGridEX.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.AllowDrag" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="lblSelectedFile.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="pnlBrowseOffices.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedFile.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>907, 44</value>
+  </data>
+  <data name="&gt;&gt;officeDB.Name" xml:space="preserve">
+    <value>officeDB</value>
+  </data>
+  <data name="&gt;&gt;pnlOfficesContainer.Name" xml:space="preserve">
+    <value>pnlOfficesContainer</value>
+  </data>
+  <data name="lblCurrentFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlBottomContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentFile.Parent" xml:space="preserve">
+    <value>pnlBottomContainer</value>
+  </data>
+  <data name="pnlSearchOfficesContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 269</value>
+  </data>
+  <data name="pnlSearchOffice.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlBrowseOffices.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAAAAAP///6R9g5OEiMS/0aykxaylxZ6nyKavz6mxz7C41rO716my0IGPuZOhyrW+
+        2bW+142fypinzJ2r0IKZyoGYyYecyZCk0pGkz5Om0IKazIKbzIGZyoGZyYOby4edy4qfypCl0Juv1oyp
+        2Iqm1qC22aG22Yqo1o6r15ew17/Y7bnh/6fa/6jb/6rT7a7V7bbY7azV7bzn/6/W7b3c7dvy/+75/7Pl
+        /7Tm/73v/8jx/7/x/8Lt+r/y/8Hz/8Tv+szx+sH0/8P1/8T1/8b1/8P2/8nz+sz0+tH1+tT1+sb5/83/
+        /9T//9X//9b//9n//9z//+T//+X//+n//+v//+z///b///j///v///Hz7/Hy7/Hy7vHx7fHx7ru7utDM
+        xfnRl/nUn/60UP63U/63VPrKivrMi8aqhNCLV6yopct+S8d6Ssd7TO3t7QAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAAAACwAAAAAEAAQAAAIoQABCBwoEEIEChswLCDIcIIIFUB4vCDhgKHABykC2NDBAgeREwksZoBRY0WO
+        HUKCxLBgUcMPGT6WMHHSxEiFlj9a9HAShYoUJB0sXnBxQwmUKlis0ABhUcGIIUWeTLkSoMQBhmG+NEAx
+        40gSGiYkMCxDBk0aBh84eAiBgKEZMmoEELBI0MwYNgIM0B0IRgzeAnsHnlkjAHBggV4GGD7MmGFAADs=
+</value>
+  </data>
+  <data name="&gt;&gt;pnlBottomContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSelectedFile.Text" xml:space="preserve">
+    <value>Selected Office:</value>
+  </data>
+  <data name="officeGridEX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="pnlSearchOffices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSelectedFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="pnlBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblCurrentFile.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="pnlOfficesContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOfficesContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;officeBindingSource.Name" xml:space="preserve">
+    <value>officeBindingSource</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlOfficesContainer.Parent" xml:space="preserve">
+    <value>pnlOffices</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Bottom" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
+    <value>pnlBottomContainer</value>
+  </data>
+  <data name="pnlSearchOfficeContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblCurrentFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOfficesContainer.Parent" xml:space="preserve">
+    <value>pnlSearchOffices</value>
+  </data>
+  <data name="&gt;&gt;officeGridEX.Parent" xml:space="preserve">
+    <value>pnlOfficesContainer</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOfficesContainer.Parent" xml:space="preserve">
+    <value>pnlBrowseOffices</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOfficeContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlSearchOffice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 160</value>
+  </data>
+  <data name="pnlSearchOffice.Closed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOffice.Name" xml:space="preserve">
+    <value>pnlSearchOffice</value>
+  </data>
+  <data name="pnlBrowseOffices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 160</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedFile.Name" xml:space="preserve">
+    <value>lblSelectedFile</value>
+  </data>
+  <data name="pnlBottomContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;officeDB.Type" xml:space="preserve">
+    <value>lmDatasets.officeDB, lmDatasets, Version=4.1.6432.13566, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;pnlOffices.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 302</value>
+  </data>
+  <data name="officeGridEX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>905, 300</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Top" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlOffices.Text" xml:space="preserve">
+    <value>Offices</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.MaxTabSize" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOffice.Name" xml:space="preserve">
+    <value>pnlBrowseOffice</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>907, 346</value>
+  </data>
+  <data name="pnlOffices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOfficeContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlBrowseOffice.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pnlOffices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>907, 302</value>
+  </data>
+  <data name="pnlBrowseOfficeContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlBrowseOfficesContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 160</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pnlSearchOfficeContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="pnlBrowseOffices.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchOffice.Parent" xml:space="preserve">
+    <value>pnlSearch</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.Name" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;officeBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseOfficesContainer.Name" xml:space="preserve">
+    <value>pnlBrowseOfficesContainer</value>
+  </data>
+  <data name="pnlSearchOffice.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAAAAAP///6R9g5OEiMS/0aykxaylxZ6nyKavz6mxz7C41rO716my0IGPuZOhyrW+
+        2bW+142fypinzJ2r0IKZyoGYyYecyZCk0pGkz5Om0IKazIKbzIGZyoGZyYOby4edy4qfypCl0Juv1oyp
+        2Iqm1qC22aG22Yqo1o6r15ew17/Y7bnh/6fa/6jb/6rT7a7V7bbY7azV7bzn/6/W7b3c7dvy/+75/7Pl
+        /7Tm/73v/8jx/7/x/8Lt+r/y/8Hz/8Tv+szx+sH0/8P1/8T1/8b1/8P2/8nz+sz0+tH1+tT1+sb5/83/
+        /9T//9X//9b//9n//9z//+T//+X//+n//+v//+z///b///j///v///Hz7/Hy7/Hy7vHx7fHx7ru7utDM
+        xfnRl/nUn/60UP63U/63VPrKivrMi8aqhNCLV6yopct+S8d6Ssd7TO3t7QAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAAAACwAAAAAEAAQAAAIoQABCBwoEEIEChswLCDIcIIIFUB4vCDhgKHABykC2NDBAgeREwksZoBRY0WO
+        HUKCxLBgUcMPGT6WMHHSxEiFlj9a9HAShYoUJB0sXnBxQwmUKlis0ABhUcGIIUWeTLkSoMQBhmG+NEAx
+        40gSGiYkMCxDBk0aBh84eAiBgKEZMmoEELBI0MwYNgIM0B0IRgzeAnsHnlkjAHBggV4GGD7MmGFAADs=
+</value>
+  </data>
+  <data name="officeGridEX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;uiPanelManager1.Name" xml:space="preserve">
+    <value>uiPanelManager1</value>
+  </data>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Left" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlOffices.Name" xml:space="preserve">
+    <value>pnlOffices</value>
+  </data>
+  <data name="pnlSearchOfficesContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.BorderCaption" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSelectedFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="officeBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>247, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="officeDB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>154, 17</value>
+  </metadata>
+  <metadata name="uiPanelManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

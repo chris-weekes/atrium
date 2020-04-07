@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imageListBase.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACy
+        GwAAAk1TRnQBSQFMAgEBEwEAARgBAAFcAQMBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAVADAAEBAQABCAYAARQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/yIADu0SAAEHAq4B6gET
+        AW0CEgHqARIDZgESAgABBwHsAbUMAAG8DvEB+BEAAewCtQFmAUMBBwG2Ad0BtQGuBGYCAAEcAUwB7AG1
+        CwABvAHxA5EK8QH4EQAB7QHWAc8BtQGuAWYBrgH0AfMBrgFmAoYBZgIAAZoBegFMAewBtQoAAbwB8QGR
+        AfECkQnxAfgRAAGuAdYBtQHWAYYBCgFmAd0BGQHPA4YBZgMAAZoBegFMAewBtQkAAbwB8gWRCPIB+BEA
+        Aa4D1gGMAa4BZgGLBK4BhgFmBAABmgF6AUwB7AG8CAABvALzBZEH8wH4EQABtQEJAtYDtQKuAc8CiwGu
+        AWYFAAGaAXoBdAHvAQcFtQIAAbwD8wWRBvMB+BEAAbUB3QHWAc8BrgKLBIYCzwGGBgABmgG8ArUBCQIZ
+        AgkBtQEAAbwE9AWRBfQB+BEAAe0BCQHPAfQC/wL0Ad0CCQGGAc8BhgcAAQcBtQIZAeID/wEJAbUBvAX0
+        B5EC9AH4EQAB9wHdAa4C/wH0Af8BGQH/At0ChgGuBwABtQEJARkC4gP/AQkBtQG8BvQHkQH0AfgRAAHv
+        Ad0BzwX/AhkB3QGGAbUB6gcAAbUBGQEJARkB4gH0Af8B9AEZAbUBvAf1ApEC9QKRAfUB+BEAAe8B3QG1
+        A/8C9gL/ARkBZgGvARIHAAG1AxkE4gEZAbUBvAf/ApED/wGRAf8B+BEAAQcB3QG1Av8B9AH2AfMB/wH0
+        Af8BhgFmAa4HAAG1AQkGGQEJAbUBvAf/A5EE/wH4EQABtgHdAbUF/wL0Af8BhgHPAa4HAAEJAbsC/wEZ
+        AdwCGQG1AQcBvAj/A5ED/wH4EQACvAG1AQcB7wT3ArUCrwGNCAACtQEJAhkBCQK1AQABvA7/AfgoAAEH
+        BLUBBwMADvEXAAJsAa4XABD/FAABbAGuAfEB7AJsAewJAAJzAW4BSgEUARUBIgIQASIBEAEAEP8CAAH3
+        CmYFAAFtAesC8wHrAuoBrgFmAWwIAAHsAaABegJ5AXQCUgJLAUMBABD/AgAB9wH/CPcBZgMAAZEBrgHz
+        AfQB7wGSAbsBtQFuAewBrgFtAWYBbAYAAe0BwwGgAZoDegFZAVMBUgEVAQAC/wEcBEsGSgJEAf8CAAH3
+        A/8B9AHzARkB8AG8AfcBZgMAAbUB8wG8AfcB8AEZAfMBTAElAW8B7wESA2wFAAEcAcMBoAKaA3oBWQFS
+        AUQBAAL/ARwBwwKaCHoBRAH/AgAB9wT/AfQB8wEZAfAB9wFmAwABvAG1AfEC9AEaAUwBTQFGASUBkwEH
+        Aa4BEgFsAQAB9wNmAZICwwGgApoDegFSAUoBAAL/ARwBGgigAXoBeQFKAf8CAAH3Bf8C8wHxAfcBZgMA
+        AfABtQG8AfQB/wFGAU0BdQHjAU0BRgK8Ae0B7AEAAfcB9AHzARkBHAPDAaABmgN6AVIBbgEAAv8BHAF5
+        AZoCoAN6AqABegFRAUoB/wIAAbUF/wH0AfMBGQH3AWYDAAEHAZEBtAG1AfADlAHzAZQCTAH3AZEB7wEA
+        AfcB/wL0ARwEwwKgAZoCegFuAQAC/wEcARoBeQJ6A1ICegFSAXkBSgH/AgABtQb/AvMB9wFmAwABkQK0
+        AW0BkQHvARoB9AH/AfABFgFMAUsCBwEAAbUC/wH0ChwB9wEAAv8BmQHDAaABegF5AXoBoAGaAVIBeQJ6
+        AUoB/wIAAe8G/wH0AfMB9wFmAwABrgG0AW0BcQF3AZABtAG7AQcBkQFyAW8BRgFuAQcBAAG1A/8BHAEa
+        AcMBmgEcAQcGAAL/AZkBwwGaAXkBmgSgAXQCegFKAf8CAAG7B/8B9AH3AWYDAAGRAewBTwF3AZEDtAFx
+        AU8BcQGuAXQBRgHtAQAB7wP/AfMDHAFtAwAB7wEUAfcBAAL/AZkBwwF5AZoGoAFSAXkBSgH/AgABuwf/
+        AvcBZgMAAbUBkQJWAXIDtAGQAU8BcQGuAQABlAFMAQABBwT/AfQB8QG8AWYDAAGLAmYBAAL/AZkBmgTD
+        BKABmgFSAUoB/wIAAQcG/wH3A2YEAAGRAXgDmAG0AdUBtAFxAa4B9wQAAQcE/wH3A2YDAAEHARQCAAL/
+        AZkKwwGaAW0B/wIAAQcG/wG1AbwBZgEJBAABtQGSAQgBwgHiAcEBkQGzAZEBrgUAAQkE/wG1AbwBZgEH
+        AgABBwHsARQCAAL/B5kGHAH/AgABCQb/AbUBZgEJBgABtQGSAbsBkQGYA5EGAAEJBP8B7wFmAbwCAAOu
+        Ae8CABD/AgAFCQIHAbsBCQkAAfcDkQgAAgkDBwG7AbwJABD/EAAQExEAAfcNZgEACP8B8QGRAQkB9AT/
+        AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwQAAesBFQEAAa4BiwdmAQAB9wH/C/cBZgEAB/8BBwG1Aa4B7wHz
+        BP8B9wL/AfAC/wHwAv8B8AL/AfAC/wETBAABkgH/AVIBAAEZAfAFCQFmAQAB9wL/AfQC8wMZAfABvAEJ
+        AfcBZgEABP8B9AEHAbUBrgG7AbQBrgHvAfQD/wH3DvABEwQAAZEBHAGaAXoBAAL0ARkC3QEJAWYBAAH3
+        A/8BuwHPAoYBrgG1AfABvAH3AWYBAAP/AfQBBwKRAbUBCQG1Aa4BiwGRAfMC/wH3Av8B8AL/AfAC/wHw
+        Av8B8AL/ARMBcwHsAW0B6gFtAUsBwwF5AXoBAAH0AhkB3QEJAWYBAAH3Av8BtQGtAbUCCQG0AaYBzwHw
+        AfcBZgEAA/8BvAG1AbsE3AG7AbUBiwGuAfQB/wH3Av8B8AL/AfAC/wHwAv8B8AL/ARMBcwGaAXoBeQFS
+        AXkBSwHDAXkBegEAAfQCGQEJAWYBAAH3Af8BCQGtAQkB/wG8AYYBGQHcAaYBtQH3AWYBAAL/AbwBtQG7
+        ARkBtQKLAbQCCQG1AYsBtQH/AfcI8ARFAvABEwHsARoBoAGaAnoBvAFzAcMBeQF6AQAC9AEJAWYBAAH3
+        Af8BtAHcAv8B8AG1AfQBGQG0Aa4B9wFmAQAC/wG7AbwC4gEJAbQBiwG7ARkB3QHcAbUBiwH/AfcC/wHw
+        Av8B8AL/AUUC/wFFAv8BEwHtARoCoAGaAXoBBwH/AXMBwwFZAbQBPwHxAfABZgEAAbUB/wHUAQkD/wGL
+        AbQB9AEJAQQB9wFmAQAB/wHdAbsD4gEJAbQBiwG7ARkC3QHcAYsBvAH3Av8B8AL/AfAC/wFFAv8BRQL/
+        ARMB7QLDAqABmgEHAv8BdAEJAeMBdAE/AfABZgEAAbUB/wHVAQkC/wHzAfABiwG1AQkBhgH3AWYBAAH/
+        ArwD4gHyAbQBiwG7A+IB3QGuAbwB9wjwBEUC8AETAe0BwwEaA6ABBwP/AUUBdQHjAW4B8QFmAQAB7wH/
+        AdwBCQH/AbUBiwHwAYsCtQHPAfcBZgEAAf8B3QHwAf8B4gH0AbUCiwG7BOIBkQG8AfcC/wHwAv8B8AL/
+        AfAC/wHwAv8BEwHtA8MCoAG7A/8B9AJuAv8BZgEAAbsB/wEZAdUBCQHzAbUBiwG1AQkBrQEJAfcBZgEA
+        Av8B8AL/AfQBCQK1AfEC4gH/Ad0BtQH/AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwGSBMMBoAO7AgcB8AIH
+        ArUBAAG7Av8BCQHVAQkCGQEJAbQBCQL3AWYBAAL/AfAE/wIZBP8B8AG8Af8B9weGB/cBEwEcBsMDoAGa
+        A3oB6wIAAQcD/wEZAdwC1QHWAd0B9wNmAQAD/wHdAv8BvAGuAYsBuwL/ARkBvAL/AfcHhgf3ARMIHAbt
+        AbwCAAEHCf8BtQG8AWYBvAEABv8B8wL3AfMB/wLiA/8P9wETARwBGgPDAZoBHAG8CQABCQn/AbUBZgG8
+        AgAQ/xAAAfMFHAHzCgAGCQQHAbsBvAMAEP9sAALrIwABBwHsCusB7AMACeoB6wGSAW4B6gQAAewLbQHs
+        EQAB8QwqAW0B7AEAAjEDKwQqAUsB7QJSARMDAAJSAUwKKgETAewDAAHsCf8DAAJSAaAJegFSASoB6wEA
+        ASsBWAHDBnoBkgFSAVkBKgFKAesBAAFSAXoBUgGgCHoBUgGgASoBbQMAAewD/wEABf8DAAJSAXoBoAh6
+        AVgBSwFtAQcBMQFSAcMBoAGZAbwCBwH3AVICegErASoB6gEAAVIBegFSAaAIegFSAaABKgFtAwAB7AL/
+        AQAG/wMAAlIBWAigAZoBWQFSAW0B7AJSAXoBvAH0Af8C4gEJAZkB5QGgAVIBMQETAQABUgF6AVIJoAFY
+        AaABKgFtAwAB7AL/AgAF/wMAAVIBWAFSCaACeQEqAesBUgFYAVIB8AP/AeIBGQG8AqABeQEqAUoB6wFS
+        AXoBUgmgAXoBoAEqAW0DAAHsAv8DAAH/AQAC/wMAAVIBegFSCaABegGgAUsB6wFSAXoBMQEJAeIB/wHi
+        AhkB8AKgAXoBWAEqARMBUgF6AVIJoAF6AaABKgFtAwAB7AP/BAAC/wMAAVIBmgFSAXkC/wH2Bf8BmgH/
+        AUsB7AFSAeUBWAEJA+IBGQHiAfAC/wGgAXoBKgHqAVIBegFSCf8BmgH/ASoB7AMAAewE/wMAAv8DAAFS
+        AaABeQxSAQcBUgGgAXoB7AIZAeIB/wEZAVIEMQEqAQABUgGgAZoMUgQAAewD/wQAAv8DAAFSBqAF/wFS
+        AUsBBwEAAVIDoAEHAgkBvAHyA/8BKgHrAgABUgagBf8BKgHsBQAB7An/AwABUgH/BKAB/wZSAfECAAFS
+        Af8EoAH/BTEBKwMAAVIB/wSgAf8FUgFMBgAK7AQAAVIE/wFSAQcJAAFSBP8BUgoAAVIE/wFSGwAEUgHx
+        CwAEUgwABFKtAAHqPgABrgEOARMHAAGuAewSAAG0Aa4DiwGGAwABtAKuAosBZgkAAQkBtQgAAbUBDwER
+        Aa4FAAHsARUBtQgAARIBFAEQBwABtQH/AbwBtQG0AYYDAAG0AfMBvAG1Ac8BhgkAAQkB1QHPAbUHAAFt
+        AREBFAQAAfcBEwHrCQACbQEUBwABtQH/AbwBtQG0AYYDAAG0AvMBCQG0AYYKAAEJAdUBzwgAARQBEAHq
+        AgAB9wHrARUB9wkAAeoB7QFtAREGAAG1Af8BvAG1AbQBhgMAAbQC8wEJAbQBhgsAAc8B1QG1CAABEwER
+        AW0B9wHqAUMBkQoAAeoB7wHsARQGAAG1Af8B8wG8AbUBhgMAAbQC8wEJAbQBhgsAAbsBrQHVCQABEwJD
+        ARUBFAoAAfAB6gEHAZIBFAEHBQABtQG0Aa4BiwKGAaYBhgG0Aa4BiwKGAWUBiwMABa0BiwMAAa0B1QEJ
+        CAABkQFDAhQBkgkAAfABEgGSAfAB7wHrAQ8BBwQAAQkBtAH/AfABtQGuAaYBuwG0AfEBGQG1Ac8BhgG1
+        AwABtAGtAtUBtAQAAa0BtAHcBwABuwHqAxUB6gH3BwAB8AFtAQcB8gHxAQcB7QHqAQ8BBwQAAbUB9AH/
+        ARkBtAGGAYsBtAL/Ad0BzwGGBAABtAPVAc8EAAKtAdwGAAH3AhQB7AEAAewBFAHsAfcFAAHwAesBBwHz
+        Af8B8wHwAQcBkgHqAQ8BBwQAAbUBtAGuA4sBzwG0Aa4ChgUAAbQD1QKtAwABiwGtAdwEAAEHAesCFAHs
+        AwAB6wEUAewBBwMAAfAB7AHwAfMD/wHyAfABBwHtARIBDwEHAwABtQH/AQkBtAGGAQABtQH/AQkBtQGG
+        BQAB1gIJAdwBtAKtAc8BrQGLAdUEAAH3AesBFQEUAZIFAAH3ARIB7AMAAewBvAHzAv8B9AHzAfIBvAEH
+        AZIBbQESAQ8DAAG7AbUBrgKLAQACtQGuAYsBhgUAAdYCAAEJAdwB1QStBQAB9wEUARMB7wcAAvcDAAHv
+        AQcB8AG8AgcB7wL3AZIB7AHrAW0BEwQAAbQB/wGGAwABtAH/AYYKAAEJAtwC1gYAAfcB6wH3HwABtQG0
+        AYsDAAG1AbQBiwwAAgkmAAFCAU0BPgcAAT4DAAEoAwABQAMAAVADAAEBAQABAQUAAYABAhYAA/8BAAT/
+        AYABAQIAAYABAQGPAf8EAAGAAQEBhwH/BAABgAEBAYMB/wQAAYABAQHBAf8EAAGAAQEB4AH/BAABgAEB
+        AfABAwQAAYABAQH4AQEEAAGAAQEB/AUAAYABAQH8BQABgAEBAfwFAAGAAQEB/AUAAYABAQH8BQABgAEB
+        AfwFAAGAAQEB/gEBBAAD/wEDAYABAQIAAfwBfwL/AgAC/wHwAR8B8AEBAgABwAEHAcABDwHwAQECAAHA
+        AQcBAAEDAfABAQIAAcABBwEAAQEB8AEBAgABwAEHAQABAQEAAQECAAHAAQcBAAEBAQABAQIAAcABBwEA
+        AQEBAAEBAgABwAEHAQABAQEAAQECAAHAAQcBAAEBAQABPwIAAcABBwEAAQEBAAFxAgABwAEHAQABCQEA
+        AXECAAHAAQcBgAEPAQABcwIAAcABBwGAAR8BAAFjAgABwAEPAcABPwEAAcMCAAHAAR8B8AH/AQEB/wIA
+        Av8CAAL/AYABAQQAAfABAAGAAQEEAAHwAQABgAEBBAAB8AEAAYABAQYAAYABAQYAAYABAQYAAYABAQYA
+        AYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQUAAQEBgAEBBQABAQGAAQEFAAH/AYABAwIAAv8BAQH/
+        AYABBwIADf8B8wT/AYABAwGAAQMBwAEBAeABAwEAAQEBAAEDAYABAAHgAQMBAAEBAQABAQIAAeABAwMA
+        AQECAAHgAQMDAAEBAgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDAwABAQEAAQEB4AEDAQABAQEAAQMBAAED
+        AeABAwEAAQMBAAEHAQABBwHgAQMBgAH/AYEB/wGBA/8BwQH/AcMB/wHDFf8B7wf/AccB8wL/AQMBgQH/
+        AT8BwwHjAfwBPwEDAYEB/wEPAeMBxwH8AT8BAwGBAf8BjwHxAYcB/AE/AQMBgQH/AccB+AEPAfwBPwED
+        AYEB/wHHAfwBHwH4AR8BAAEBAcAB4wH8AR8B8AEPAQABAQHBAeMB+AEPAeABBwGAAQMBwQHjAfABhwHA
+        AQMBwAEHAcAB4wHBAcMBgAEBAcEBBwHAAQcBgwHjAYABAQHBAQcB2AEPAYcB8wGAAQEB4wGPAfwBHwGP
+        A/8B4wGPAf8BPwT/FgAL
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 148</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Somme des taxes :</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 31</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Honoraires :</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Taxes</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Montants</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 85</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 17</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Débours non taxable :</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 58</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Débours :</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 121</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 17</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Somme des honoraires et débours :</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 175</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Total  taxé :</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 146</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Somme des taxes :</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Honoraires :</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Taxes</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Montants</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 83</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 17</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Débours non taxable :</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Débours :</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 119</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 17</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Somme des honoraires et débours :</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 173</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Total réclamé :</value>
+  </data>
+  <data name="dateTaxedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="dateTaxedLabel.Text" xml:space="preserve">
+    <value>Taxé le :</value>
+  </data>
+  <data name="officerCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="officerCodeLabel.Text" xml:space="preserve">
+    <value>Taxé par :</value>
+  </data>
+  <data name="fileTotalTaxedLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 40</value>
+  </data>
+  <data name="fileTotalTaxedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 17</value>
+  </data>
+  <data name="fileTotalTaxedLabel.Text" xml:space="preserve">
+    <value>Total taxé à date (dossier) :</value>
+  </data>
+  <data name="sINLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="sINLabel.Text" xml:space="preserve">
+    <value>NAS :</value>
+  </data>
+  <data name="percentOfPrincipalLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 68</value>
+  </data>
+  <data name="percentOfPrincipalLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="percentOfPrincipalLabel.Text" xml:space="preserve">
+    <value>% du solde :</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 96</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Différence :</value>
+  </data>
+  <data name="fileIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="fileIDLabel.Text" xml:space="preserve">
+    <value>Dossier :</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Date du SDP :</value>
+  </data>
+  <data name="officeIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 10</value>
+  </data>
+  <data name="officeIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="officeIDLabel.Text" xml:space="preserve">
+    <value>Bureau :</value>
+  </data>
+  <data name="pnlIRPsContainer.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 625</value>
+  </data>
+  <data name="uiTab2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 405</value>
+  </data>
+  <data name="uiTab2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 238</value>
+  </data>
+  <data name="totalTaxedNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="totalTaxTaxedNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="netTotalTaxedNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="uiTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 212</value>
+  </data>
+  <data name="uiTabPage2.Text" xml:space="preserve">
+    <value>Taxé</value>
+  </data>
+  <data name="uiTab1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 238</value>
+  </data>
+  <data name="totalClaimedNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 24</value>
+  </data>
+  <data name="totalTaxClaimedNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 24</value>
+  </data>
+  <data name="netTotalClaimedNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 24</value>
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="uiTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 212</value>
+  </data>
+  <data name="uiTabPage1.Text" xml:space="preserve">
+    <value>Réclamé</value>
+  </data>
+  <data name="uiTab3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 147</value>
+  </data>
+  <data name="btnValidateSIN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="btnValidateSIN.Text" xml:space="preserve">
+    <value>Validation de NAS</value>
+  </data>
+  <data name="uiCommandBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 23</value>
+  </data>
+  <data name="uiCommandBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 28</value>
+  </data>
+  <data name="tsSaveIRP.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tsSaveIRP.ToolTipText" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tsDeleteIRP.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="tsDeleteIRP.ToolTipText" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="tsNewIRP.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALCSURBVDhPVZHJTxNhGIe/k/43itGDCcQYAiii4YB6
+        8KAeKILEjUTFBRcWpalIUA4mJOrJkweFYpSyBOgCyqJQ2rK1lJ3SsnSZb6bT4ef7TWHQwzPfN8m8z/t7
+        32EAWE5V79VzlgFb4auBDUIiuE6DOAd5ocXFC8wOd+Y9e1NWadsBUbOH/sivs/eHozy8EZdTkbiMSGyf
+        cFTA4V2Ooqp1Hqbm6URmadvB/wQF9Y5QVEqmXHNJDAZVDM6rGJhT4Qgo6J2W8d0Th6wCVp+Eqi9BFL+Z
+        lk6UW3WJLjhrdkrbCQXDCymMLKh0qvilSxT0zcjo8CRIoGF4OYXBpSRqv80j+0HPp/0EZicXglES/F5U
+        MbqY0mU/g0nYZxV0TkoIrMX1UWJcxdpmArlP+ijTP4KtuIJx6uAmxlc0/NElIkVST2GjFO3uGNrGtrFF
+        e8qrtnNDcKbeyTdJ4F3ZgYeKJwj3soYxkg3RTlyBtKRrSoKN9rAZTyKvxrkvyCdBhAS+1R0dL+Eh2fhS
+        OokuoST9NI4QRUiQW/2P4FStk4djCjxGsWYkERKxF/dKit5Vnc2EiivNo7IhyK128HX636LrXrEuoDH2
+        UkyFNLC3DKyJaGCo+OBWDEH2Mwdf3ZYxsZSOnYaWSfhWNUxT8aQQNDI08ctgZoZbLWNCkK0LTj628+Ut
+        jgtWGRetHOfbOYroXtQq46lLMboyC0ND7BJYDd2fE1WEEGRV9vKFCMfNPg0ffcB7L9DiAd7R+TVIH1Cx
+        6CyKX4SL8Ch4GpX+XLDKXcHxOz2JwHpip7RHw7WuFEzdKoq7UzqWEYr+kj6sS3cVxewh3e8St3cFR8s6
+        /aFtORoIc82/LsEfkjCzywZtfEtKb15Evj+bA1bBUNY4NGfs4Nh1W3mGqaPzSIktklHSwQ1MHfwwccj0
+        g5e8HlKMrjdopM+TFgDsL8H7FUzJlASDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsNewIRP.Text" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="tsNewIRP.ToolTipText" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="tsGoToSRP.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ8SURBVDhPpZP/S1NhGMXvvHMz6J8IM0KkoiiEohDp
+        K31RrKmZGZlW/0cQpvhtpBWFSFIUBiaUoIkKYVRSCcq9iYupuOHGdMwXlSnP6bx3LYv6IWhwGNzL55zn
+        Oe97DQD/JWPLzRFoZV0fQlbNELzVb+Ct6oe3sg+e8tfw+HrhKelBZlE3Mk8/h/vEU7iPdsEs6IR5uAOO
+        gfSfhPQWQrryIf48SH0ONgCV3IBaXYdSSaiKVisZW4EKL4uajUMFlwDz4EMYWTeGIX3HIT0FkM4DkNZc
+        SF02CIMwXQSJVaDSb2NhGZhLADOEpxYFZv59GtQO4do9+zdVt9u40pZS1V3bgS9RF1ttlLVYKGu24Wu2
+        kLG/nQY1g+wi9dsQYJ3Ja04ynOQlKqKEsOUkBxaBr1FgIgJk7GuD4b064MBbi/uxTgP9/6s0HOLY5UwP
+        cOz08y9hgWuPnwZsnJyTnmTyCpVYEyYLogqEBXNx4ei2kzwZEYyHgbF5wLWrhQY8Lg1r11WOnU6IrgBh
+        XVocCDK5lDtbhNPvP8xxgrxGGlT0bTa+BsR1sgML5gnrvadjggs0GOfYn0IgDIzO0iC3AYan7NXPxi//
+        0biNUrbuY+vnmyyUNFoopooaLJytt+DaeYcGvpdOcoLiRcGCs3cqORAD7KhgYgGEbXzk3u9mgbdBwfA3
+        gbGjjga8phpedI5rE07vqvWZpenk99w7/WwwQIPtt2FkFr/AEpMJq9CPa8qzVlMxUZMRKO6txuZFnau3
+        kqMzokaCogirgWkaZGuDM91wn3oG97EnMAsfwzzSAfPQI17TB85Ny9jrh2t3CxtvSpWm987h6Breduvv
+        n+i/C8Z3w9P9HY1vQDIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tsGoToSRP.Text" xml:space="preserve">
+    <value>Info SDP</value>
+  </data>
+  <data name="tsGoToSRP.ToolTipText" xml:space="preserve">
+    <value>Info SDP</value>
+  </data>
+  <data name="tsGoToBillingReview.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABSklEQVQ4T5WRMcuCUBSG+13S
+        ILQ4tDjkFEJLS4OLYBBC/QFBW4r+TVuCgiASLS0NDQ1x7hqc774H9LO+Psrh8Z5773mfq94eM/cWi0Wk
+        oS/Ya1yN5IA8giAgpRR/YrVa8XK5VLrf1fWvwPd9ut/vDEajkYzvgOB4PD7CMFQ64zYCz/PodrtxHMci
+        AJi/AgHGsiwf8/lc6ZwrgtlsRtfrVYIY/wOCNjq3F8F0OqXL5cIAkrr+BHIimEwmdD6fuQaS9hzsdrsn
+        sIacCMbjMZ1Op+b78S8w/wRyInAch6qqYgBBXYPNZsPb7bYZa7CHnAhs26aiKLgryIlgOBxSlmXcFeRE
+        YFkWHQ4HXq/XnCTJH/BPQHsN/ciJYDAYUJqmsvHu/l+BDP3IicA0Tcrz/OkN6hPbp9c1QD9yIuj3+80t
+        dAE5ERiGEWmoO0b0A3v38m3QvnIrAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsGoToBillingReview.Text" xml:space="preserve">
+    <value>Révision de facturation</value>
+  </data>
+  <data name="tsGoToBillingReview.ToolTipText" xml:space="preserve">
+    <value>Révision de facturation</value>
+  </data>
+  <data name="tsScreenTitleIRP.Text" xml:space="preserve">
+    <value>Détails SDP</value>
+  </data>
+  <data name="tsScreenTitleIRP.ToolTipText" xml:space="preserve">
+    <value>Détails SDP</value>
+  </data>
+  <data name="tsEditmode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAAAAAAP///////wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAACACwAAAAAEAAQ
+        AAAIHQAFCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFgQEBADs=
+</value>
+  </data>
+  <data name="tsMessage.Text" xml:space="preserve">
+    <value>La taxation est complétée sur ce SDP. Vous ne pouvez amener aucune modifications, cet écran est en mode lecture seule.</value>
+  </data>
+  <data name="cmdFile.Text" xml:space="preserve">
+    <value>&amp;Fichier</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>&amp;Édition</value>
+  </data>
+  <data name="cmdJumpToActivity.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjbQg61a
+        AAACRUlEQVQ4T8WS+0tTcRiH/QMkgrCSstaFAkuwsIKkQINgWFFUFKQRSGI3sosJYik6b7NcSS5vtamz
+        PC7EzOxmFnQRIjUMs8gaXtJpU1cON88ZPJ2dI0aB/eoHPr+9z/Pyffn6zX7aHsSH3rUY+LeNQs72qZH/
+        xzfs6K/HM9qodMIhMN5TQE35FeosurSpsZljrchnujIkmC9Tbcrjzk09t0tzsZRkU1mcRfmNTMxGHebC
+        DKUGXWK0Iqg25zHpbP6rnl8NSCNWpCEz3u+FeG16pE+peDrO43obz88XMSQnxKIIqspyVGjqCW6nFdFR
+        gTRwHW9PDt7uFMQPp3G/i2X85X7GHmtpLw78I6gsyZoWiKN1iD8sSINGvL25MnyJyc4E3K1HGX91kLEn
+        WgaFDbQY/DkRe0AVmOT3+AS+zZKjSoaLZDgP6WsqYucZGY5TYOfTKBz3ttBnWctzvT/Re7WqoOxaGp6R
+        hzIsINlL8fYZZDhNhs/hbovH9foQzqadjNzfil1YT++tlTSkzyVqW7gqKMq/yMRwnXwwE97+AqRv6Ygf
+        E3G3H8P1Jgbns104GiKw14QxUBlMtzEIISWA8LAQVVCoT2bCXqNcW7LpELsu4H5/HFfLYZzNu2U4kiHr
+        RgYsa7CVaOi6Oh9T0iJCVmtUQUF2Ek5bBcOtCfQ+0vKldhOfhRA6ylfRUrSMpnwNtRlLsKYGKpt9sPHs
+        UjSLA1SB/CHITD5J0qkjxMXsYd+OSCI2ryM0eAXLgxawcN6cGasIZjl+fr8BF1LVBHwte3cAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="cmdJumpToActivity.Text" xml:space="preserve">
+    <value>Écran activité du dossier</value>
+  </data>
+  <data name="cmdJumpToTaxation.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjbQg61a
+        AAACRUlEQVQ4T8WS+0tTcRiH/QMkgrCSstaFAkuwsIKkQINgWFFUFKQRSGI3sosJYik6b7NcSS5vtamz
+        PC7EzOxmFnQRIjUMs8gaXtJpU1cON88ZPJ2dI0aB/eoHPr+9z/Pyffn6zX7aHsSH3rUY+LeNQs72qZH/
+        xzfs6K/HM9qodMIhMN5TQE35FeosurSpsZljrchnujIkmC9Tbcrjzk09t0tzsZRkU1mcRfmNTMxGHebC
+        DKUGXWK0Iqg25zHpbP6rnl8NSCNWpCEz3u+FeG16pE+peDrO43obz88XMSQnxKIIqspyVGjqCW6nFdFR
+        gTRwHW9PDt7uFMQPp3G/i2X85X7GHmtpLw78I6gsyZoWiKN1iD8sSINGvL25MnyJyc4E3K1HGX91kLEn
+        WgaFDbQY/DkRe0AVmOT3+AS+zZKjSoaLZDgP6WsqYucZGY5TYOfTKBz3ttBnWctzvT/Re7WqoOxaGp6R
+        hzIsINlL8fYZZDhNhs/hbovH9foQzqadjNzfil1YT++tlTSkzyVqW7gqKMq/yMRwnXwwE97+AqRv6Ygf
+        E3G3H8P1Jgbns104GiKw14QxUBlMtzEIISWA8LAQVVCoT2bCXqNcW7LpELsu4H5/HFfLYZzNu2U4kiHr
+        RgYsa7CVaOi6Oh9T0iJCVmtUQUF2Ek5bBcOtCfQ+0vKldhOfhRA6ylfRUrSMpnwNtRlLsKYGKpt9sPHs
+        UjSLA1SB/CHITD5J0qkjxMXsYd+OSCI2ryM0eAXLgxawcN6cGasIZjl+fr8BF1LVBHwte3cAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="cmdJumpToTaxation.Text" xml:space="preserve">
+    <value>Écran taxation du dossier</value>
+  </data>
+  <data name="TopRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 51</value>
+  </data>
+  <data name="uiButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="uiButton2.Text" xml:space="preserve">
+    <value>Recommendations de taxation</value>
+  </data>
+  <data name="percentOfPrincipalNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="uiButton1.Text" xml:space="preserve">
+    <value>Allez ...</value>
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="taxingDifferenceNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="uiTabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>761, 121</value>
+  </data>
+  <data name="uiTabPage3.Text" xml:space="preserve">
+    <value>Demande de paiement individuelle</value>
+  </data>
+  <data name="officeIDucOfficeSelectBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 5</value>
+  </data>
+  <data name="officeIDucOfficeSelectBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 24</value>
+  </data>
+  <data name="calendarCombo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 5</value>
+  </data>
+  <data name="calendarCombo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 24</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 61</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 186</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>                             Récupération des données ... veuillez patienter.</value>
+  </data>
+  <data name="iRPGridEX_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Key&gt;IRP&lt;/Key&gt;&lt;Caption&gt;IRP&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="NameE"&gt;&lt;Caption&gt;Dossier&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;NameE&lt;/DataMember&gt;&lt;Key&gt;NameE&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;175&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="TotalClaimed"&gt;&lt;Caption&gt;Réclamé&lt;/Caption&gt;&lt;DataTypeCode&gt;Decimal&lt;/DataTypeCode&gt;&lt;DataMember&gt;TotalClaimed&lt;/DataMember&gt;&lt;FormatString&gt;c&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;TotalClaimed&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="TotalTaxed"&gt;&lt;Caption&gt;Taxé&lt;/Caption&gt;&lt;DataTypeCode&gt;Decimal&lt;/DataTypeCode&gt;&lt;DataMember&gt;TotalTaxed&lt;/DataMember&gt;&lt;FormatString&gt;c&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;TotalTaxed&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="TaxingDifference"&gt;&lt;Caption&gt;Différence&lt;/Caption&gt;&lt;DataTypeCode&gt;Decimal&lt;/DataTypeCode&gt;&lt;DataMember&gt;TaxingDifference&lt;/DataMember&gt;&lt;FormatString&gt;c&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;TaxingDifference&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="DateTaxed"&gt;&lt;Caption&gt;Date taxée&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;DateTaxed&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd&lt;/FormatString&gt;&lt;Key&gt;DateTaxed&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="OfficerCode"&gt;&lt;Caption&gt;Agent&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;OfficerCode&lt;/DataMember&gt;&lt;Key&gt;OfficerCode&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;125&lt;/Width&gt;&lt;/Column5&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;RowHeaders&gt;True&lt;/RowHeaders&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeaderWidth&gt;50&lt;/RowHeaderWidth&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="iRPGridEX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 217</value>
+  </data>
+  <data name="gbMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 53</value>
+  </data>
+  <data name="pnlIRPsContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 646</value>
+  </data>
+  <data name="pnlIRPs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 646</value>
+  </data>
+  <data name="pnlTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 646</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 697</value>
+  </data>
+</root>

@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAA+
+        EwAAAk1TRnQBSQFMAgEBDQEAAUwBAQFMAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAUADAAEBAQABCAYAARAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8ABQAB7An/NgAB7AP/
+        AQAF/zYAAewC/wEABv82AAHsAv8CAAX/NgAB7AL/AwAB/wEAAv82AAHsA/8EAAL/NgAB7AT/AwAC/zYA
+        AewD/wQAAv82AAHsCf82AArsswABCgFfAQQBoQMAAaEChQWhAgAJ6wHsFgAJ6wbsAQABFAG8AYYBhQGG
+        AWYBbQHsAesBEwESAWYBBAGFAaEBAAHrAf8B8Qb/AewWAAHrAf8B8Qb/AewC9AH/AfYB7AEAARIB9AHr
+        AW0BcwHsAnMD7AMcARIBAAHrAf8B8AG1AaYBBwP0AewFDxEAAesB/wHwAbUBpgEHA/QB7ATwAe0BDgHq
+        AfMC7ALtAesB6gJtBQ4BAAHrAf8BtQGmAQkE/wHsAVIBMQJLAQ8RAAHrAf8BtQGmAQkE/wHsBP8BkgER
+        AesB/wHsBhwBBwFuATECSwEPAQAB6wH/AfABpgGLAbUB9AGmAfQB7AJSATEBSwERAwAB7An/BAAB6wH/
+        AfABpgGLAbUB9AGmAfQB7ATwAe8BFAHsAf8B7QS8AfAB7wFuAlIBMQFLAREBAAHrAf8B8wG1BKYB/wHt
+        AVMCUgExARUDAAHsA/8BAAX/BAAB6wH/AfMBtQSmAf8B7QT/Ae8BZgESAe0EcwEcAXMBUgFZAVMCUgEx
+        ARUBAAHrAf8B8wH0AbUDpgH0AewBWQFTAVIBMQETAwAB7AL/AQAG/wQAAesB/wHzAfQBtQOmAfQB7ATw
+        Ae8BAAHtAsMBoAKaBHoBWQFTAVIBMQETAQAB6wH/AfMBtASmAf8B7QF6AVkBUgExARIDAAHsAv8CAAX/
+        BAAB6wH/AfMBtASmAf8B7QT/Ae8BAAEcAsMCoAKaBHoBWQFSATEBEgEAAesB/wHzBvQB7AJ6AVIBMQFt
+        AwAB7AL/AwAB/wEAAv8EAAHrAf8B8wb0AewE8AHvAQABHAPDAqACmgR6AVIBMQFtAQAB6wPsBu0DegFS
+        AesDAAHsA/8EAAL/BAAB6wPsBu0E/wEHAQABHATDAqACmgR6AVIB6wEAARwGwwKgApoDegHrAwAB7AT/
+        AwAC/wYAAQcL8AEHAQABHAbDAqACmgN6AesBAAccAZIGHAG8AwAB7AP/BAAC/wYAAQcJ/wHyAfEBBwEA
+        BxwBkgYcAbwBAAEcARoDwwGaARwBvAoAAewJ/wYAAQcI/wQHAQABHAEaA8MBmgEcAbwIAAH0BRwB8wsA
+        CuwGAAEHAf8B8gHzAf8B8gHzAf8B8gEHAfQBBwIAAfQFHAHzKwABBwH/AQcB8QH/AQcB8QH/AQcBvAEH
+        NQACBwH0AgcB9AIHAfQBB0MAAewF9AQABfQC7AX0EAAB9wLwAfcWAAHsAfQBAAP0AQABEQEPAQAD9AEA
+        AfQC7AH0AQAD9AEAAREIDwUAAQcEGQG7BgABcwHsAesB6gETARUBEQgPAewB9AEAAewBAAH0AQACUgEA
+        AfQBAAHsAQAB9ALsAfQBAAHsAQAB9AEABVIBMQJLAQ8DAAG1AfAGGQG8AbUEAAFzAZoBegF5AVgGUgEx
+        AksBDwHsAvQCAAH0AQACegEAAfQCAAL0AuwC9AIAAfQBAAJ6AVkBUwJSATEBSwERAgABBwPxARkB8QIZ
+        AfEB3QEJAbsDAAHsARoBoAGaAnoCeQFSAVMCUgExAUsBEQHsBfQBAAJ6AQAF9ALsBfQBAAN6AVkBUwJS
+        ATEBFQIAAbwB8AHdAvEB3QLxAd0BCQK8AwAB7QEaAqABmgF6AXkBbQF5AVIBUwJSATEBFQbsAQACegEA
+        DOwBAAR6AVkBUwFSATEBEwIAAQcCvAHwAd0D8AO8AQkDAAHtAsMBoAKaAewB6wFtAXkBUgFTAVIBMQET
+        AQABHALDAqACmgR6AVkBUgExARIBAAEcAsMCoAKaBHoBWQFSATEBEgIAAQcJvAEJAQcDAAEcAsMCoAGS
+        Ae0BcwFyAesBeQFYAVIBMQESAQABHAPDAqACmgR6AVIBMQFtAQABHAPDAqACmgR6AVIBMQFtAgABuwQH
+        AbwB8AG8AgkBBwG7AwABHAPDAe8DHAFzAnIBegFSATEBbQEAARwEwwKgApoEegFSAesBAAEcBMMCoAKa
+        BHoBUgHrAgADuwEHAfAC8QHwAbwBuwIHAwABHATDAqACmgR6AVIB6wEAARwGwwKgApoDegHrAQABHAbD
+        AqACmgN6AesCAAIHAbwB8QEZAfED8AG8AQcB7wMAARwGwwKgApoDegHrAQAHHAGSBhwBvAEABxwBkgYc
+        AbwCAAEHAd0DGQHxA/ACvAEHAwAHHAGSBhwBvAEAARwBGgPDAZoBHAG8CAABHAEaA8MBmgEcAbwKAAUZ
+        A/EB8AG8BAABHAEaA8MBmgEcAbwIAAH0BRwB8wkAAfQFHAHzDQAFGQHxAQkFAAH0BRwB8y4AAfECGQHx
+        uAAB9wpmFQAB7AttAewCAAEHAewK6wHsBAAB9wH/CPcBZgQAAXMB7AHrAeoBEwEVAREIDwEAAlIBTAoq
+        ARMB7AHxDCoBbQHsAwAB9wP/AfQB8wEZAfABvAH3AWYEAAFzAZoBegF5AVgGUgExAksBDwFSAXoBUgGg
+        CHoBUgGgASoBbQJSAaAJegFSASoB6wMAAfcE/wH0AfMBGQHwAfcBZgQAAewBGgGgAZoEegFZAVMCUgEx
+        AUsBEQFSAXoBUgGgCHoBUgGgASoBbQJSAXoBoAh6AVgBSwFtAQcCAAH3Bf8C8wHxAfcBZgQAAe0BGgKg
+        AZoEegFZAVMCUgExARUBUgF6AVIJoAFYAaABKgFtAlIBWAigAZoBWQFSAW0B7AIAAbUF/wH0AfMBGQH3
+        AWYEAAHtAsMBoAKaBHoBWQFTAVIBMQETAVIBegFSCaABegGgASoBbQFSAVgBUgmgAnkBKgHrAgABtQb/
+        AvMB9wFmBAABHALDAqACmgR6AVkBUgExARIBUgF6AVIJoAF6AaABKgFtAVIBegFSCaABegGgAUsB6wIA
+        Ae8G/wH0AfMB9wFmBAABHAPDAqACmgR6AVIBMQFtAVIBegFSCf8BmgH/ASoB7AFSAZoBUgF5Av8B9gX/
+        AZoB/wFLAewCAAG7B/8B9AH3AWYEAAEcBMMCoAKaBHoBUgHrAVIBoAGaDFIBAAFSAaABeQxSAQcCAAG7
+        B/8C9wFmBAABHAbDAqACmgN6AesBUgagBf8BKgHsAgABUgagBf8BUgFLAQcDAAEHBv8B9wNmBAAHHAGS
+        BhwBvAFSAf8EoAH/BVIBTAMAAVIB/wSgAf8GUgHxBAABBwb/AbUBvAFmAQkEAAEcARoDwwGaARwBvAgA
+        AVIE/wFSCgABUgT/AVIBBwoAAQkG/wG1AWYBCQUAAfQFHAHzCgAEUgwABFIB8QsABQkCBwG7AQlVAAFC
+        AU0BPgcAAT4DAAEoAwABQAMAAUADAAEBAQABAQYAAQIWAAP/AQAC/wYAAv8GAAL/BgAB4AEDBgAB4AED
+        BgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDBgAC/wYA
+        Av8GAAEOAQEBgAEfAv8BgAMAAYABHwL/AYADAAGAAQAC/wGAAwABgAEAAeABAwGAAwABgAEAAeABAwGA
+        AwABgAEAAeABAwGAAwABgAEAAeABAwGAAQABgAEAAYABAAHgAQMBgAEAAYABAAGAAQAB4AEDAYABAAGA
+        AQABgAEAAeABAwGAAQABgAEAAYABAAHgAQMB4AEAAYABAAGAAQAB4AEDAeABAAGAAQABgAF/AeABAwHg
+        AQABgAF/AYAB/wHgAQMB4AEBAYAF/wHgAQMG/wHgAQcBAQGAAQEF/wEBAYABAQH/AfwBPwL/BAAB+AEf
+        AYAFAAHgAQcBgAUAAcABAwGABQABwAEDAYAFAAHAAQMBgAEAAYABAAGAAQABwAEDAYABAAGAAQABgAEA
+        AcABAwGAAQABgAEAAYABAAHAAQMBgAEAAYABAAGAAQABwAEDAYABAAGAAQABgAEAAcABAwGAAQABgAF/
+        AYABfwHgAQcBgAF/AYAB/wGAAf8B+AEPAYAF/wH8AT8W/wHAAQcC/wHAAQEBgAEDAcABBwGAAQABgAIA
+        AQEBwAEHAYAEAAEBAcABBwGABQABwAEHAYAFAAHAAQcBgAUAAcABBwGABQABwAEHAYAFAAHAAQcBgAIA
+        AQECAAHAAQcBgAIAAQMBAAEBAcABBwGAAgABBwEAAQMBwAEHAYABfwGBAf8BgAH/AcABDwGAAf8BwwH/
+        AcEB/wHAAR8K/ws=
+</value>
+  </data>
+  <metadata name="uiCommandManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uiCommandManager1.AllowMerge" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uiCommandManager1.AlwaysShowFullMenus" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BottomRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BottomRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 356</value>
+  </data>
+  <data name="BottomRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 0</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Name" xml:space="preserve">
+    <value>BottomRebar1</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmdShowFN2.Key" xml:space="preserve">
+    <value>cmdShowFN</value>
+  </data>
+  <data name="Separator3.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdShowOpenFiles2.Key" xml:space="preserve">
+    <value>cmdShowOpenFiles</value>
+  </data>
+  <data name="Separator4.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdHideXRef2.Key" xml:space="preserve">
+    <value>cmdHideXRef</value>
+  </data>
+  <data name="Separator1.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdJump1.Key" xml:space="preserve">
+    <value>cmdJump</value>
+  </data>
+  <data name="Separator2.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdReset1.Key" xml:space="preserve">
+    <value>cmdReset</value>
+  </data>
+  <data name="uiCommandBar1.Key" xml:space="preserve">
+    <value>cbBrowse</value>
+  </data>
+  <data name="uiCommandBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uiCommandBar1.RowIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 28</value>
+  </data>
+  <data name="uiCommandBar1.Text" xml:space="preserve">
+    <value>CommandBar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Name" xml:space="preserve">
+    <value>uiCommandBar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandBar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Parent" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdShowFN.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAe
+        vAAAHrwB7kRN9wAAAAd0SU1FB9oIHwwjIMumNywAAAEESURBVDhPY6AK+J9boPJ/1Zr/QMBALEYBYM0U
+        GQASRDLgAwNHNhD/f8XA/v8REN8E4nMMbP+PAPF2IF7NwIpqAtwFK1bBDSGEUQA2BYQwCvi/ZNn//wsW
+        /f/vH6yCTTE2jALAgu7eKv8nTQUyMRVjwyjgv62jyv/+iUBxiOQBBrbsrcDAWg4MrFlA3APE9Qws/wuA
+        OImB+X8oAxNaIHb3/v/f2v7/f2ML3BBCGAVgU0AIo4D/VbX//1dU//9fWgGUw64BHaMAsCBQ8zMGdvJj
+        AawZ6oIcBpbsOGBgBQIDyw2ILYBYn4HxvzJQqTgQcwExVCsEgDUC8RsG9g6YDYQwlQADAwASF/AGLRGg
+        LQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdShowFN.Key" xml:space="preserve">
+    <value>cmdShowFN</value>
+  </data>
+  <data name="cmdShowFN.Text" xml:space="preserve">
+    <value>Show File Numbers</value>
+  </data>
+  <data name="cmdShowFN.ToolTipText" xml:space="preserve">
+    <value>Show File Numbers</value>
+  </data>
+  <data name="cmdShowOpenFiles.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAAAAAAP////Ds/fr4//f1//Tx//Pw/vLv/fHu/PDt+/f1/vb0/fXz/PTy+/v6//n4
+        /fj3/NLN+rOw2NbT+9zZ/tvY/drX/Id/9qOd+Lm087+6+cO/+t7d/N3c+9zb+goA3QkA2woA30tE9Gpi
+        73Nr+HJq91xXwHt1+H55+H9643554nx34JSP+IqG2Kej+aqm+LCt+q+s+a6r+K2q98jF+8fE+ubl/+Tj
+        /+Pi/uHg/ODf+wMA0AUA3wQA3wQA3QQA4QMA3gQA4woE8AsF2gwI6w0J7BEL9xAK9hAL8w8K8g8L7hIN
+        9REM9BQP9xgP8hUR9BQQ8xkR7ygg5yci9CUh3yom4Tg08j469Tw4809J9lxZ+F1a+Wdh92dk9WFf521q
+        93Fv92FdwYF992hkyIJ/9mhnx4WC+YSB+HRw1IqI+YJ+4piU+Jyb+5ua+pqZ+Z+d+J2b9qSi/aCe+ayq
+        86qo8ba0/bSy+7Ox+rKw+bGv+K2r9Li3+7a1+bW0+K6t8a2s8M3L/szK/cvJ/MrI+62s2c3M+cbF8tHQ
+        /dDP/M/O+87N+u7u/+jo/+bm/eXl/OTk++Pj+gAA0gIA0wIA6wAA4gMA3QgF4xMQ7hEP6RgW8D496nV0
+        93h493t75JCP+4+O+oyL94iI8ZGR+pCQ+Y+P+Kin/aWk+qSj+Zyc7qen+amp+76+/b29/Ly8+7q6+be3
+        37Oz28fH79jY/9XV/dTU/NPT+9LS+tDQ+ISG+4KE+XBx1Jud+8HC/MDB+7/A+rK0+8XH+8rN/cTF6bm6
+        3trb/9jZ/dfY/NbX++/v/+3t/uzs/evr/NjY6d7g/d3f/Nze+9vd+tXa/efp/+Pm/+Ll/vHz/+/x/eru
+        //b4//T2/f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAADaACwAAAAAEAAQAAAI2wC1QVDwoKDBgwogaGNQDJoHD9cC
+        HGCEgxitWhY8GEBgyxYgRc6UHWiw4IA1AccSIbDRik+AlzBf1gqwwZWNR31mBFjWqGcjagduBYBx55EH
+        OZ5ixvQVgJQcD9FG5QowK5jVYDWa7QlgZlQ0RBe+KIWJJ9sJMYlYgdky9E2btyx4xZC2aZMgPVB6jH35
+        CZWRJH70PAkSoMWYw2NMEMI1YokTPYIJ7+1ShckSyIP3BrCCybKeOU8mxTJEunQsKUos/8FzqUklILBj
+        V0ICBcqlPNry0IHMu7ceOrgDAgA7
+</value>
+  </data>
+  <data name="cmdShowOpenFiles.Key" xml:space="preserve">
+    <value>cmdShowOpenFiles</value>
+  </data>
+  <data name="cmdShowOpenFiles.Text" xml:space="preserve">
+    <value>Show Only Open Files</value>
+  </data>
+  <data name="cmdShowOpenFiles.ToolTipText" xml:space="preserve">
+    <value>Show Only Open Files</value>
+  </data>
+  <data name="cmdHideXRef.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIpgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARw4QNq1aFADgg
+        5KpXqy3ChhVyIIAQsWGvjj0rJIABtmdbmDDRQogJth5WsL0r10ZdsUI2PIj7Vy1aIQIJh70rpLHjxI4d
+        BwQAOw==
+</value>
+  </data>
+  <data name="cmdHideXRef.Key" xml:space="preserve">
+    <value>cmdHideXRef</value>
+  </data>
+  <data name="cmdHideXRef.Text" xml:space="preserve">
+    <value>Hide Cross-References</value>
+  </data>
+  <data name="cmdHideXRef.ToolTipText" xml:space="preserve">
+    <value>Hide Cross-References</value>
+  </data>
+  <data name="cmdReset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUAAP797/vwtPnolPnji/vpnvTmrvndevHag7eUJPHTc/vehfnTZvnNX72EFrB2Erh+
+        FLN6E7J4E7uBFbqBFbZ9FLd+FbuBFrqBFqluEKhuEKxxEaxzEaluEahuEbB1Eq91Eq1yEqxxEqxyEqxz
+        EqtxEq91E6ZrEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAAEAAQ
+        AAAIfQBPCBxIsKBBgg0aHDTYAIDChQMnAAAgQYIFiBUEBNgY4MCDhRAMEBg5MgGChR4YKHDwQWUJgQ8J
+        hmBA4oQGBiFgPkwoEEMHgR0ywHR4omHMgSdPSCxw4QIApgspDOC48QCFhRFEkjQQAeKIDSIULAABcSCG
+        BRzKDjRhAmJAADs=
+</value>
+  </data>
+  <data name="cmdReset.Key" xml:space="preserve">
+    <value>cmdReset</value>
+  </data>
+  <data name="cmdReset.Text" xml:space="preserve">
+    <value>Reset Explorer</value>
+  </data>
+  <data name="cmdJumpPersonal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAANjr9RwUqgAAACBjSFJNAACH
+        EAAAjBAAAPf7AACFDwAAdecAAOltAAA/pQAAHt+KSET8AAABLGlDQ1BQaG90b3Nob3AgSUNDIHByb2Zp
+        bGUAACjPY2Bg0nB0cXJlEmBgyM0rKQpyd1KIiIxSYD/PwMbAzAAGicnFBY4BAT4gdl5+XioDKmBkYPh2
+        DUQyMFzWBZnFQBrgSi4oKgHSf4DYKCW1OBlopAGQnVJeUgAUZ5wCZIskZYPZK0DsopAgZyB7D5DNlw5h
+        nwGxkyDsOyB2EdATQPYbkPp0MJuJAWwOhC0CYpekVoDsZXDOL6gsykzPKFEwtLS0VHBMyU9KVQiuLC5J
+        zS1W8MxLzi8qyC9KLElNATkK7D6Iux0LCnJSFYAhxkBdAAp/COtzIDhcGcXOIMQQILm0qAwWB4xnCfMR
+        ZlTuZWBwDGJgYNmJEAv7wcCwRp+BQZYZIaamxMAgVM/AsLEAAPOlUD4QRgkdAAAACXBIWXMAAAsOAAAL
+        DgFAvuFBAAABlElEQVQ4T6WS3ytDYRzG30slpZQUIhEpSfMP+A+UOxdy52qTViRLzSzRGZE0d0pKKanR
+        NpEfWSZLKe1mtbmwLdxpGi093uddO45zpsRbn53zru/znO/7fF8B4F/oL7H1Xlz7bbha68HlajdSqZT8
+        2yowo34oNq/zpU5Eo1G+WkRGDOJ1E8DxQhsO51oQnG3CwUwjAu567E3XfetOsG3kl4HcopUya9dVC03T
+        kEwmuRWCZ8azF8i4EVnpKsuprwNH860IeZux725QnRB2IhgY7qdU4a+W/BDX5lil6kQo4d0oilmYc7Dy
+        FhlWzw1HBRwOBwTTRmxEjVAVMQ8DAX9fWXwTNtjtdgiejwbFI0gD5mGAxaX1UXhFLhvG443zy4CjosGJ
+        1i5LpIHMwwgNCvks3l8SSvx061LoBpwzDZiwMpB5GKFBLhOSBHVxyUBlwFEYLwnnvDNZg+3xamw5q5RB
+        OjKk2qaQT+5p4PF4ireJV5YbtmSGBiVx+mIQD2cDSIT7lQF1+p1mJ/F43AILf4I63eBvQHwCHS4Fradk
+        +D4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdJumpPersonal.Key" xml:space="preserve">
+    <value>cmdJumpPersonal</value>
+  </data>
+  <data name="cmdJumpPersonal.Text" xml:space="preserve">
+    <value>My Personal File</value>
+  </data>
+  <data name="cmdJumpPersonal.ToolTipText" xml:space="preserve">
+    <value>My Personal File</value>
+  </data>
+  <data name="cmdJumpShortcuts.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABs0lEQVQ4T6WPvUsjURTFp04n
+        Wwi2dqkXbNQtVLDYQhBEbQLrGtiIIGixu1UKP+r8HTZrKWJYUdRVnE1UYpKRxPjBxEwyEnaSmC+O71wd
+        sRCj7oPfvHfvPee8eRqA/0L7Mp/TJhas4a+L+ZQCryBFPX0SMPozTVLR5K2qWy/qqKdPlZo2GPhL0Gw2
+        Ua/XW9JoNEA9fRLQNbZOUKvVUC6Xhb1DC+w9xR/cl1m1WnV79wHez78IKpUKisXiI9u6Cfafous6DMNw
+        6/uAzoFlglKpBNu2kcvllOgU0egRxmd/gzOXSOQQJycJt3YDVggcx8HVlYlYLInj4ziGvq0p0QrG57Zk
+        J+zH46du7T4hTNTNBSSTGSQSZxiZ2VG/GIbvh46Li2ts/OFzwjIzjHM50ycBH0ciRN2eRzptwvc9Btb+
+        oAHTtKVHtg4KD+eszOmTgB5fhihxEZeXN9iN/MP0UhaW5Uj9HNTTJwF9kwWinnCLbLYi2Hb18fwc1NMn
+        AW0d3Vq/306tbjrI5xstoY56+iRArQ/eT6FA/6R1pgYcvozSeXtDU/S5AR5Fu6LjDVDvkQB+3g+0O9zm
+        wUHBdDWoAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdJumpShortcuts.Key" xml:space="preserve">
+    <value>cmdJumpShortcuts</value>
+  </data>
+  <data name="cmdJumpShortcuts.Text" xml:space="preserve">
+    <value>My Shortcuts</value>
+  </data>
+  <data name="cmdJumpShortcuts.ToolTipText" xml:space="preserve">
+    <value>My Shortcuts</value>
+  </data>
+  <data name="cmdJumpOffice.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAACc0lEQVQ4T23SX0jTURQH8Psb
+        w0SRHkdEq5jN5osPPqzwwZAhGOqYqdCDhFJLTSZGtXCUM6V0Dw0Gwz9TSaZz07bJKHV//JOim1mtbPTP
+        gUH6IgW91EsPp3Ou/YayfvCBew+c77l3u6ympuOQ2lpzBdKT6ur71zQawxWV6lJdTo66gbH8CsQO0elM
+        XFWViWEDub639wd2d39ztF5ZSUAs9hmwoTEtoLLSyGm1dzGonYIaqTGZ/MHROhTa4CGMqZoRNh5wIECL
+        mjBVHw6/gmDwJUfrvj43DAxMglSqsGBTC9KlAsrLb4vqd3Z+wfb2zzRUn59/wy0vv8eTnL2KMACVlbWJ
+        WuiYfv8SLCzEwetdgEjkNUxNRWBx8S04nc/4KSYm5iigLRVQWmoQNWxtfYfNzW9pqD49/YKjazGWh1fN
+        wwBUUtIsaqXJHk8IZmdj4HLNwsxMFMbGnsPc3DoMD/vAZnPC6GiAAoypgOJivUifSOzCxkYyDdUpmAQC
+        KxigNCAMQEVF9aKbNJEm0FFHRvzg8y2Cw/GU7+12F1gsDhgcnMKAM/cQBiC1uk7UFI9/hbW1j2moTlch
+        9ONi461UQGHhZdEdmkQTJifD0N/vAbc7yCfT3mp9At3ddr5nLLcLYQDKzb3ACgqqyY319S+wtPQuDdXp
+        SmT/b1S0Iww4jvCTy88zpfKiKRr9xN9AZ6cNjMYe6O0d5HuqDw15ufHxGRCE01ZBOLbfjN9RJJPJzj2g
+        SaurH6C11cwfTU/PAN9TnR4SoRMIwkkH9fzrZXKJJEuTnZ3/6D8eZmWpzJmZyo6MDEWXVHrqsUQiHxaE
+        Ey5BOFLOGJP/BTS58hl4+ftjAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdJumpOffice.Key" xml:space="preserve">
+    <value>cmdJumpOffice</value>
+  </data>
+  <data name="cmdJumpOffice.Text" xml:space="preserve">
+    <value>My Office</value>
+  </data>
+  <data name="cmdJumpOffice.ToolTipText" xml:space="preserve">
+    <value>My Office</value>
+  </data>
+  <data name="cmdJumpPersonal1.Key" xml:space="preserve">
+    <value>cmdJumpPersonal</value>
+  </data>
+  <data name="cmdJumpShortcuts1.Key" xml:space="preserve">
+    <value>cmdJumpShortcuts</value>
+  </data>
+  <data name="cmdJumpOffice1.Key" xml:space="preserve">
+    <value>cmdJumpOffice</value>
+  </data>
+  <data name="cmdJump.Key" xml:space="preserve">
+    <value>cmdJump</value>
+  </data>
+  <data name="cmdJump.Text" xml:space="preserve">
+    <value>Jump to ...</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="tvFiles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tvFiles.Indent" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="tvFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="tvFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 325</value>
+  </data>
+  <data name="tvFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tvFiles.Name" xml:space="preserve">
+    <value>tvFiles</value>
+  </data>
+  <data name="&gt;&gt;tvFiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tvFiles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tvFiles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LeftRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LeftRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="LeftRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 328</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Name" xml:space="preserve">
+    <value>LeftRebar1</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RightRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="RightRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 28</value>
+  </data>
+  <data name="RightRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 328</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Name" xml:space="preserve">
+    <value>RightRebar1</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TopRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TopRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TopRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 28</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Name" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ucFileContextMenu1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ucFileContextMenu1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 56</value>
+  </data>
+  <data name="ucFileContextMenu1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ucFileContextMenu1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="ucFileContextMenu1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ucFileContextMenu1.Name" xml:space="preserve">
+    <value>ucFileContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;ucFileContextMenu1.Type" xml:space="preserve">
+    <value>LawMate.ucFileContextMenu, AtriumCRA, Version=4.1.6421.17173, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;ucFileContextMenu1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucFileContextMenu1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 356</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Name" xml:space="preserve">
+    <value>uiCommandManager1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandManager, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdShowFN2.Name" xml:space="preserve">
+    <value>cmdShowFN2</value>
+  </data>
+  <data name="&gt;&gt;cmdShowFN2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Name" xml:space="preserve">
+    <value>Separator3</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdShowOpenFiles2.Name" xml:space="preserve">
+    <value>cmdShowOpenFiles2</value>
+  </data>
+  <data name="&gt;&gt;cmdShowOpenFiles2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator4.Name" xml:space="preserve">
+    <value>Separator4</value>
+  </data>
+  <data name="&gt;&gt;Separator4.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdHideXRef2.Name" xml:space="preserve">
+    <value>cmdHideXRef2</value>
+  </data>
+  <data name="&gt;&gt;cmdHideXRef2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
+    <value>Separator1</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJump1.Name" xml:space="preserve">
+    <value>cmdJump1</value>
+  </data>
+  <data name="&gt;&gt;cmdJump1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator2.Name" xml:space="preserve">
+    <value>Separator2</value>
+  </data>
+  <data name="&gt;&gt;Separator2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdReset1.Name" xml:space="preserve">
+    <value>cmdReset1</value>
+  </data>
+  <data name="&gt;&gt;cmdReset1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdShowFN.Name" xml:space="preserve">
+    <value>cmdShowFN</value>
+  </data>
+  <data name="&gt;&gt;cmdShowFN.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdShowOpenFiles.Name" xml:space="preserve">
+    <value>cmdShowOpenFiles</value>
+  </data>
+  <data name="&gt;&gt;cmdShowOpenFiles.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdHideXRef.Name" xml:space="preserve">
+    <value>cmdHideXRef</value>
+  </data>
+  <data name="&gt;&gt;cmdHideXRef.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdReset.Name" xml:space="preserve">
+    <value>cmdReset</value>
+  </data>
+  <data name="&gt;&gt;cmdReset.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpPersonal.Name" xml:space="preserve">
+    <value>cmdJumpPersonal</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpPersonal.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpShortcuts.Name" xml:space="preserve">
+    <value>cmdJumpShortcuts</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpShortcuts.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpOffice.Name" xml:space="preserve">
+    <value>cmdJumpOffice</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpOffice.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJump.Name" xml:space="preserve">
+    <value>cmdJump</value>
+  </data>
+  <data name="&gt;&gt;cmdJump.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpPersonal1.Name" xml:space="preserve">
+    <value>cmdJumpPersonal1</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpPersonal1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpShortcuts1.Name" xml:space="preserve">
+    <value>cmdJumpShortcuts1</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpShortcuts1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpOffice1.Name" xml:space="preserve">
+    <value>cmdJumpOffice1</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpOffice1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucBrowse</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.Key" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandManager1.LockCommandBars" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiCommandManager1.ShowShortcutInToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlTopContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlTopContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 96</value>
+  </data>
+  <data name="pnlTopContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlTopContainer.Name" xml:space="preserve">
+    <value>pnlTopContainer</value>
+  </data>
+  <data name="&gt;&gt;pnlTopContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlTopContainer.Parent" xml:space="preserve">
+    <value>pnlTop</value>
+  </data>
+  <data name="&gt;&gt;pnlTopContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="pnlTop.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 96</value>
+  </data>
+  <data name="pnlTop.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnlTop.Name" xml:space="preserve">
+    <value>pnlTop</value>
+  </data>
+  <data name="&gt;&gt;pnlTop.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+</root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/Advisory.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/Advisory.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/Advisory.xsd" id="Advisory" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False" name="Advisory">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Opinion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OpinionId" type="xs:int" />
+              <xs:element name="FileId" type="xs:int" />
+              <xs:element minOccurs="0" name="Subject">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1024" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Number" type="xs:int" />
+              <xs:element minOccurs="0" name="RequestDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="AssignedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="AcknowledgeDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="DueDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CompletedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="AssignedToId" type="xs:int" />
+              <xs:element minOccurs="0" name="DocId" type="xs:int" />
+              <xs:element minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+              <xs:element minOccurs="0" name="OfficerCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ReceivedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="RequestDocId" type="xs:int" />
+              <xs:element minOccurs="0" name="OpinionTypeId" type="xs:int" />
+              <xs:element minOccurs="0" name="RequestContactId" type="xs:int" />
+              <xs:element minOccurs="0" name="RequestOfficeId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:Opinion" />
+      <xs:field xpath="mstns:OpinionId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

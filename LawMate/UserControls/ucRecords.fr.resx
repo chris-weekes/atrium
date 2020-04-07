@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imageListBase.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB4
+        HAAAAk1TRnQBSQFMAgEBFAEAARgBAAEMAQABEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAWADAAEBAQABCAYAARgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8ANgAO7QIA
+        AQcCrgHqARMBbQISAeoBEgNmARICAAEHAewBtRwAAbwO8QH4AQAB7AK1AWYBQwEHAbYB3QG1Aa4EZgIA
+        ARwBTAHsAbUMAAr/BQABvAHxA5EK8QH4AQAB7QHWAc8BtQGuAWYBrgH0AfMBrgFmAoYBZgIAAZoBegFM
+        AewBtQsAAf8CAAH/BQAB/wUAAbwB8QGRAfECkQnxAfgBAAGuAdYBtQHWAYYBCgFmAd0BGQHPA4YBZgMA
+        AZoBegFMAewBtQoACv8FAAG8AfIFkQjyAfgBAAGuA9YBjAGuAWYBiwSuAYYBZgQAAZoBegFMAewBvAkA
+        Af8CAAH/BQAB/wUAAbwC8wWRB/MB+AEAAbUBCQLWA7UCrgHPAosBrgFmBQABmgF6AXQB7wEHBbUDAAr/
+        BQABvAPzBZEG8wH4AQABtQHdAdYBzwGuAosEhgLPAYYGAAGaAbwCtQEJAhkCCQG1AgAH/wEAAv8FAAG8
+        BPQFkQX0AfgBAAHtAQkBzwH0Av8C9AHdAgkBhgHPAYYHAAEHAbUCGQHiA/8BCQG1AQAB/wIAA/8BAAEH
+        AQAB/wQAAQQBvAX0B5EC9AH4AQAB9wHdAa4C/wH0Af8BGQH/At0ChgGuBwABtQEJARkC4gP/AQkBtQEA
+        Af8BAAEHAQAB/wEAAQcBAAEHBAACBAG8BvQHkQH0AfgBAAHvAd0BzwX/AhkB3QGGAbUB6gcAAbUBGQEJ
+        ARkB4gH0Af8B9AEZAbUBAAL/AQABBwEAAQcBAAEHAQADBwEAAgQBvAf1ApEC9QKRAfUB+AEAAe8B3QG1
+        A/8C9gL/ARkBZgGvARIHAAG1AxkE4gEZAbUFAAEHAQABBwEABQcCBAG8B/8CkQP/AZEB/wH4AQABBwHd
+        AbUC/wH0AfYB8wH/AfQB/wGGAWYBrgcAAbUBCQYZAQkBtQYAAQcBAAYHAgQBvAf/A5EE/wH4AQABtgHd
+        AbUF/wL0Af8BhgHPAa4HAAEJAbsC/wEZAdwCGQG1AQcHAAYHAQACBAG8CP8DkQP/AfgBAAK8AbUBBwHv
+        BPcCtQKvAY0IAAK1AQkCGQEJArUPAAIEAbwO/wH4GAABBwS1AQcTAA7xBwACbAGuFwAQ/xQAAWwBrgHx
+        AewCbAHsCQACcwFuAUoBFAEVASICEAEiARABABD/AgAB9wpmBQABbQHrAvMB6wLqAa4BZgFsCAAB7AGg
+        AXoCeQF0AlICSwFDAQAQ/wIAAfcB/wj3AWYDAAGRAa4B8wH0Ae8BkgG7AbUBbgHsAa4BbQFmAWwGAAHt
+        AcMBoAGaA3oBWQFTAVIBFQEAAv8BHARLBkoCRAH/AgAB9wP/AfQB8wEZAfABvAH3AWYDAAG1AfMBvAH3
+        AfABGQHzAUwBJQFvAe8BEgNsBQABHAHDAaACmgN6AVkBUgFEAQAC/wEcAcMCmgh6AUQB/wIAAfcE/wH0
+        AfMBGQHwAfcBZgMAAbwBtQHxAvQBGgFMAU0BRgElAZMBBwGuARIBbAEAAfcDZgGSAsMBoAKaA3oBUgFK
+        AQAC/wEcARoIoAF6AXkBSgH/AgAB9wX/AvMB8QH3AWYDAAHwAbUBvAH0Af8BRgFNAXUB4wFNAUYCvAHt
+        AewBAAH3AfQB8wEZARwDwwGgAZoDegFSAW4BAAL/ARwBeQGaAqADegKgAXoBUQFKAf8CAAG1Bf8B9AHz
+        ARkB9wFmAwABBwGRAbQBtQHwA5QB8wGUAkwB9wGRAe8BAAH3Af8C9AEcBMMCoAGaAnoBbgEAAv8BHAEa
+        AXkCegNSAnoBUgF5AUoB/wIAAbUG/wLzAfcBZgMAAZECtAFtAZEB7wEaAfQB/wHwARYBTAFLAgcBAAG1
+        Av8B9AocAfcBAAL/AZkBwwGgAXoBeQF6AaABmgFSAXkCegFKAf8CAAHvBv8B9AHzAfcBZgMAAa4BtAFt
+        AXEBdwGQAbQBuwEHAZEBcgFvAUYBbgEHAQABtQP/ARwBGgHDAZoBHAEHBgAC/wGZAcMBmgF5AZoEoAF0
+        AnoBSgH/AgABuwf/AfQB9wFmAwABkQHsAU8BdwGRA7QBcQFPAXEBrgF0AUYB7QEAAe8D/wHzAxwBbQMA
+        Ae8BFAH3AQAC/wGZAcMBeQGaBqABUgF5AUoB/wIAAbsH/wL3AWYDAAG1AZECVgFyA7QBkAFPAXEBrgEA
+        AZQBTAEAAQcE/wH0AfEBvAFmAwABiwJmAQAC/wGZAZoEwwSgAZoBUgFKAf8CAAEHBv8B9wNmBAABkQF4
+        A5gBtAHVAbQBcQGuAfcEAAEHBP8B9wNmAwABBwEUAgAC/wGZCsMBmgFtAf8CAAEHBv8BtQG8AWYBCQQA
+        AbUBkgEIAcIB4gHBAZEBswGRAa4FAAEJBP8BtQG8AWYBBwIAAQcB7AEUAgAC/weZBhwB/wIAAQkG/wG1
+        AWYBCQYAAbUBkgG7AZEBmAORBgABCQT/Ae8BZgG8AgADrgHvAgAQ/wIABQkCBwG7AQkJAAH3A5EIAAIJ
+        AwcBuwG8CQAQ/xAAEBMRAAH3DWYBAAj/AfEBkQEJAfQE/wH3Av8B8AL/AfAC/wHwAv8B8AL/ARMEAAHr
+        ARUBAAGuAYsHZgEAAfcB/wv3AWYBAAf/AQcBtQGuAe8B8wT/AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwQA
+        AZIB/wFSAQABGQHwBQkBZgEAAfcC/wH0AvMDGQHwAbwBCQH3AWYBAAT/AfQBBwG1Aa4BuwG0Aa4B7wH0
+        A/8B9w7wARMEAAGRARwBmgF6AQAC9AEZAt0BCQFmAQAB9wP/AbsBzwKGAa4BtQHwAbwB9wFmAQAD/wH0
+        AQcCkQG1AQkBtQGuAYsBkQHzAv8B9wL/AfAC/wHwAv8B8AL/AfAC/wETAXMB7AFtAeoBbQFLAcMBeQF6
+        AQAB9AIZAd0BCQFmAQAB9wL/AbUBrQG1AgkBtAGmAc8B8AH3AWYBAAP/AbwBtQG7BNwBuwG1AYsBrgH0
+        Af8B9wL/AfAC/wHwAv8B8AL/AfAC/wETAXMBmgF6AXkBUgF5AUsBwwF5AXoBAAH0AhkBCQFmAQAB9wH/
+        AQkBrQEJAf8BvAGGARkB3AGmAbUB9wFmAQAC/wG8AbUBuwEZAbUCiwG0AgkBtQGLAbUB/wH3CPAERQLw
+        ARMB7AEaAaABmgJ6AbwBcwHDAXkBegEAAvQBCQFmAQAB9wH/AbQB3AL/AfABtQH0ARkBtAGuAfcBZgEA
+        Av8BuwG8AuIBCQG0AYsBuwEZAd0B3AG1AYsB/wH3Av8B8AL/AfAC/wFFAv8BRQL/ARMB7QEaAqABmgF6
+        AQcB/wFzAcMBWQG0AT8B8QHwAWYBAAG1Af8B1AEJA/8BiwG0AfQBCQEEAfcBZgEAAf8B3QG7A+IBCQG0
+        AYsBuwEZAt0B3AGLAbwB9wL/AfAC/wHwAv8BRQL/AUUC/wETAe0CwwKgAZoBBwL/AXQBCQHjAXQBPwHw
+        AWYBAAG1Af8B1QEJAv8B8wHwAYsBtQEJAYYB9wFmAQAB/wK8A+IB8gG0AYsBuwPiAd0BrgG8AfcI8ARF
+        AvABEwHtAcMBGgOgAQcD/wFFAXUB4wFuAfEBZgEAAe8B/wHcAQkB/wG1AYsB8AGLArUBzwH3AWYBAAH/
+        Ad0B8AH/AeIB9AG1AosBuwTiAZEBvAH3Av8B8AL/AfAC/wHwAv8B8AL/ARMB7QPDAqABuwP/AfQCbgL/
+        AWYBAAG7Af8BGQHVAQkB8wG1AYsBtQEJAa0BCQH3AWYBAAL/AfAC/wH0AQkCtQHxAuIB/wHdAbUB/wH3
+        Av8B8AL/AfAC/wHwAv8B8AL/ARMBkgTDAaADuwIHAfACBwK1AQABuwL/AQkB1QEJAhkBCQG0AQkC9wFm
+        AQAC/wHwBP8CGQT/AfABvAH/AfcHhgf3ARMBHAbDA6ABmgN6AesCAAEHA/8BGQHcAtUB1gHdAfcDZgEA
+        A/8B3QL/AbwBrgGLAbsC/wEZAbwC/wH3B4YH9wETCBwG7QG8AgABBwn/AbUBvAFmAbwBAAb/AfMC9wHz
+        Af8C4gP/D/cBEwEcARoDwwGaARwBvAkAAQkJ/wG1AWYBvAIAEP8QAAHzBRwB8woABgkEBwG7AbwDABD/
+        bAAC6yMAAQcB7ArrAewDAAnqAesBkgFuAeoEAAHsC20B7BEAAfEMKgFtAewBAAIxAysEKgFLAe0CUgET
+        AwACUgFMCioBEwHsAwAB7An/AwACUgGgCXoBUgEqAesBAAErAVgBwwZ6AZIBUgFZASoBSgHrAQABUgF6
+        AVIBoAh6AVIBoAEqAW0DAAHsA/8BAAX/AwACUgF6AaAIegFYAUsBbQEHATEBUgHDAaABmQG8AgcB9wFS
+        AnoBKwEqAeoBAAFSAXoBUgGgCHoBUgGgASoBbQMAAewC/wEABv8DAAJSAVgIoAGaAVkBUgFtAewCUgF6
+        AbwB9AH/AuIBCQGZAeUBoAFSATEBEwEAAVIBegFSCaABWAGgASoBbQMAAewC/wIABf8DAAFSAVgBUgmg
+        AnkBKgHrAVIBWAFSAfAD/wHiARkBvAKgAXkBKgFKAesBUgF6AVIJoAF6AaABKgFtAwAB7AL/AwAB/wEA
+        Av8DAAFSAXoBUgmgAXoBoAFLAesBUgF6ATEBCQHiAf8B4gIZAfACoAF6AVgBKgETAVIBegFSCaABegGg
+        ASoBbQMAAewD/wQAAv8DAAFSAZoBUgF5Av8B9gX/AZoB/wFLAewBUgHlAVgBCQPiARkB4gHwAv8BoAF6
+        ASoB6gFSAXoBUgn/AZoB/wEqAewDAAHsBP8DAAL/AwABUgGgAXkMUgEHAVIBoAF6AewCGQHiAf8BGQFS
+        BDEBKgEAAVIBoAGaDFIEAAHsA/8EAAL/AwABUgagBf8BUgFLAQcBAAFSA6ABBwIJAbwB8gP/ASoB6wIA
+        AVIGoAX/ASoB7AUAAewJ/wMAAVIB/wSgAf8GUgHxAgABUgH/BKAB/wUxASsDAAFSAf8EoAH/BVIBTAYA
+        CuwEAAFSBP8BUgEHCQABUgT/AVIKAAFSBP8BUhsABFIB8QsABFIMAARSrQAB6j4AAa4BDgETBwABrgHs
+        EgABtAGuA4sBhgMAAbQCrgKLAWYJAAEJAbUIAAG1AQ8BEQGuBQAB7AEVAbUIAAESARQBEAcAAbUB/wG8
+        AbUBtAGGAwABtAHzAbwBtQHPAYYJAAEJAdUBzwG1BwABbQERARQEAAH3ARMB6wkAAm0BFAcAAbUB/wG8
+        AbUBtAGGAwABtALzAQkBtAGGCgABCQHVAc8IAAEUARAB6gIAAfcB6wEVAfcJAAHqAe0BbQERBgABtQH/
+        AbwBtQG0AYYDAAG0AvMBCQG0AYYLAAHPAdUBtQgAARMBEQFtAfcB6gFDAZEKAAHqAe8B7AEUBgABtQH/
+        AfMBvAG1AYYDAAG0AvMBCQG0AYYLAAG7Aa0B1QkAARMCQwEVARQKAAHwAeoBBwGSARQBBwUAAbUBtAGu
+        AYsChgGmAYYBtAGuAYsChgFlAYsDAAWtAYsDAAGtAdUBCQgAAZEBQwIUAZIJAAHwARIBkgHwAe8B6wEP
+        AQcEAAEJAbQB/wHwAbUBrgGmAbsBtAHxARkBtQHPAYYBtQMAAbQBrQLVAbQEAAGtAbQB3AcAAbsB6gMV
+        AeoB9wcAAfABbQEHAfIB8QEHAe0B6gEPAQcEAAG1AfQB/wEZAbQBhgGLAbQC/wHdAc8BhgQAAbQD1QHP
+        BAACrQHcBgAB9wIUAewBAAHsARQB7AH3BQAB8AHrAQcB8wH/AfMB8AEHAZIB6gEPAQcEAAG1AbQBrgOL
+        Ac8BtAGuAoYFAAG0A9UCrQMAAYsBrQHcBAABBwHrAhQB7AMAAesBFAHsAQcDAAHwAewB8AHzA/8B8gHw
+        AQcB7QESAQ8BBwMAAbUB/wEJAbQBhgEAAbUB/wEJAbUBhgUAAdYCCQHcAbQCrQHPAa0BiwHVBAAB9wHr
+        ARUBFAGSBQAB9wESAewDAAHsAbwB8wL/AfQB8wHyAbwBBwGSAW0BEgEPAwABuwG1Aa4CiwEAArUBrgGL
+        AYYFAAHWAgABCQHcAdUErQUAAfcBFAETAe8HAAL3AwAB7wEHAfABvAIHAe8C9wGSAewB6wFtARMEAAG0
+        Af8BhgMAAbQB/wGGCgABCQLcAtYGAAH3AesB9x8AAbUBtAGLAwABtQG0AYsMAAIJJgABQgFNAT4HAAE+
+        AwABKAMAAUADAAFgAwABAQEAAQEGAAEDFgAD/4EABv8BgAEBAYABAQGPAf8BAAEPAgABgAEBAYcB/wEA
+        AQ8CAAGAAQEBgwH/AQABDwIAAYABAQHBAf8BAAEPAgABgAEBAeAB/wEAAQ8CAAGAAQEB8AEDAQABDwIA
+        AYABAQH4AQEBAAEPAgABgAEBAfwCAAEOAgABgAEBAfwCAAEEAgABgAEBAfwFAAGAAQEB/AUAAYABAQH8
+        AQAB+AMAAYABAQH8AQAB/AMAAYABAQH+AQEB/gEEAgAD/wEDAv8BgAEBAfwBfwL/AgAC/wHwAR8B8AEB
+        AgABwAEHAcABDwHwAQECAAHAAQcBAAEDAfABAQIAAcABBwEAAQEB8AEBAgABwAEHAQABAQEAAQECAAHA
+        AQcBAAEBAQABAQIAAcABBwEAAQEBAAEBAgABwAEHAQABAQEAAQECAAHAAQcBAAEBAQABPwIAAcABBwEA
+        AQEBAAFxAgABwAEHAQABCQEAAXECAAHAAQcBgAEPAQABcwIAAcABBwGAAR8BAAFjAgABwAEPAcABPwEA
+        AcMCAAHAAR8B8AH/AQEB/wIAAv8CAAL/AYABAQQAAfABAAGAAQEEAAHwAQABgAEBBAAB8AEAAYABAQYA
+        AYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQUAAQEBgAEBBQABAQGA
+        AQEFAAH/AYABAwIAAv8BAQH/AYABBwIADf8B8wT/AYABAwGAAQMBwAEBAeABAwEAAQEBAAEDAYABAAHg
+        AQMBAAEBAQABAQIAAeABAwMAAQECAAHgAQMDAAEBAgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDAwABAQEA
+        AQEB4AEDAQABAQEAAQMBAAEDAeABAwEAAQMBAAEHAQABBwHgAQMBgAH/AYEB/wGBA/8BwQH/AcMB/wHD
+        Ff8B7wf/AccB8wL/AQMBgQH/AT8BwwHjAfwBPwEDAYEB/wEPAeMBxwH8AT8BAwGBAf8BjwHxAYcB/AE/
+        AQMBgQH/AccB+AEPAfwBPwEDAYEB/wHHAfwBHwH4AR8BAAEBAcAB4wH8AR8B8AEPAQABAQHBAeMB+AEP
+        AeABBwGAAQMBwQHjAfABhwHAAQMBwAEHAcAB4wHBAcMBgAEBAcEBBwHAAQcBgwHjAYABAQHBAQcB2AEP
+        AYcB8wGAAQEB4wGPAfwBHwGPA/8B4wGPAf8BPwT/FgAL
+</value>
+  </data>
+  <data name="uiPanel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uiPanel1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiPanel1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiPanel1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiPanel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uiPanel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucDocView1.Datasource" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFRsbURhdGFzZXRzLCBWZXJzaW9uPTQuMS42NDMyLjEzNTY2LCBD
+        dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPThjYjNiMGRhN2U2YTJjNTUMAwAAAE5TeXN0ZW0u
+        RGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1
+        YzU2MTkzNGUwODkFAQAAABBsbURhdGFzZXRzLmRvY0RCBAAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lv
+        bh9TY2hlbWFTZXJpYWxpemF0aW9uTW9kZS5EYXRhU2V0CVhtbFNjaGVtYQtYbWxEaWZmR3JhbQMEAQEO
+        U3lzdGVtLlZlcnNpb24jU3lzdGVtLkRhdGEuU2NoZW1hU2VyaWFsaXphdGlvbk1vZGUDAAAAAgAAAAkE
+        AAAABfv///8jU3lzdGVtLkRhdGEuU2NoZW1hU2VyaWFsaXphdGlvbk1vZGUBAAAAB3ZhbHVlX18ACAMA
+        AAACAAAABgYAAADQBDw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi0xNiI/Pg0KPHhzOnNj
+        aGVtYSBpZD0iZG9jREIiIHRhcmdldE5hbWVzcGFjZT0iaHR0cDovL3RlbXB1cmkub3JnL2RvY0RCLnhz
+        ZCIgeG1sbnM6bXN0bnM9Imh0dHA6Ly90ZW1wdXJpLm9yZy9kb2NEQi54c2QiIHhtbG5zPSJodHRwOi8v
+        dGVtcHVyaS5vcmcvZG9jREIueHNkIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxT
+        Y2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIiBh
+        dHRyaWJ1dGVGb3JtRGVmYXVsdD0icXVhbGlmaWVkIiBlbGVtZW50Rm9ybURlZmF1bHQ9InF1YWxpZmll
+        ZCI+DQogIDx4czplbGVtZW50IG5hbWU9ImRvY0RCIiBtc2RhdGE6SXNEYXRhU2V0PSJ0cnVlIiBtc2Rh
+        dGE6TG9jYWxlPSJlbi1DQSIgbXNkYXRhOkVuZm9yY2VDb25zdHJhaW50cz0iRmFsc2UiPg0KICAgIDx4
+        czpjb21wbGV4VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVu
+        Ym91bmRlZCIgLz4NCiAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICA8L3hzOmVsZW1lbnQ+DQo8L3hzOnNj
+        aGVtYT4GBwAAAIABPGRpZmZncjpkaWZmZ3JhbSB4bWxuczptc2RhdGE9InVybjpzY2hlbWFzLW1pY3Jv
+        c29mdC1jb206eG1sLW1zZGF0YSIgeG1sbnM6ZGlmZmdyPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29t
+        OnhtbC1kaWZmZ3JhbS12MSIgLz4EBAAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZf
+        QnVpbGQJX1JldmlzaW9uAAAAAAgICAgCAAAAAAAAAP//////////Cw==
+</value>
+  </data>
+  <data name="ucDocView1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ucDocView1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucDocView1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ucDocView1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucDocView1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ucDocView1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucDocView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiPanel1Container.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiPanel1Container.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiPanel1Container.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiPanel1Container.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiPanel1Container.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiPanel1Container.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanel1Container.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGrid.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGrid.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlGrid.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlGrid.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlGrid.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlGrid.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucRecordList1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ucRecordList1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucRecordList1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ucRecordList1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucRecordList1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ucRecordList1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucRecordList1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGridContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGridContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlGridContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlGridContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlGridContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlGridContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlGridContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGrid.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BottomRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="BottomRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BottomRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BottomRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BottomRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiCommandBar2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiCommandBar2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tsDelete2.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="tsDelete2.ToolTipText" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="tsSave2.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tsSave2.ToolTipText" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tsPreviewPane.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIQAAKCgpNfX15mZzN3d3bKysuPj46bK8Mzs//Hx8ZnMzJnM/2aZ/2aZzDNmzJmZ/zMz
+        Zv///37rEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBF
+        Mi4wAwEBAAAh+QQBAAARACwAAAAAEAAQAAAIfAAjCBxIsKBABwgRLmDAkEGDhw0OGjCgoKLCBRgXRIyQ
+        0EFDhxAfCkwAoaRJCAhSHjjwYORJkykRrGwZgeTLmCtZCiRwE+cBAzQFnIwpcyVQgUJLEj2g8mgEAEqJ
+        4nQKFWVKq01pQi0wYECArxPDan1AtqzZsgbTql07MCAAOw==
+</value>
+  </data>
+  <data name="tsPreviewPane.Text" xml:space="preserve">
+    <value>Prévisualisation</value>
+  </data>
+  <data name="tsPreviewPane.ToolTipText" xml:space="preserve">
+    <value>Prévisualisation</value>
+  </data>
+  <data name="tsAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALDAAA
+        CwwBP0AiyAAAAQJJREFUOE+lkTEKwkAQRfcIlrERBJsFT5HeA5jOeg+QXqwX67CVvSksvEDAI+gBBNs9
+        wjh/w5jEbKKi8NjMLP/NsCoi+otoU3DWkJCb7AXudqUjEA0ChPwt61JpuhQ6SIKgMuPhdKE64cdpRr7k
+        HpPZlLJS8yqHK70ojmHdEF4mjaQVvtiadD8PBIHnsaAXxslhSCToNhzmWudT0kXSCDphrnFiaqh5suL3
+        Fvin1IolQcBrywYSbteYitCx8qQmmrvNWyVrvmsLYmDd691HBWBQgJCAsDsPCWwtwCnfZut64K1GBWOT
+        5W/+agMEYxuYYkCAy0+TER4V4OJbeoL3xm+QegL3MsVzdOKZ3AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsAudit.ToolTipText" xml:space="preserve">
+    <value>Propriétés de la rangée selectionnée</value>
+  </data>
+  <data name="tsEditmode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAAAAAAP///////wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAACACwAAAAAEAAQ
+        AAAIHQAFCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFgQEBADs=
+</value>
+  </data>
+  <data name="tsEditmode.Text" xml:space="preserve">
+    <value>Vous êtes en mode d'édition</value>
+  </data>
+  <data name="tsEditmode.ToolTipText" xml:space="preserve">
+    <value>Vous êtes actuellement en mode d'édition, les données ont changées</value>
+  </data>
+  <data name="tsAdd.Text" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="tsCopy.Text" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="tsCheckout.Text" xml:space="preserve">
+    <value>Effectuer un retrait du document</value>
+  </data>
+  <data name="tsCheckin.Text" xml:space="preserve">
+    <value>Retourner le document en retrait</value>
+  </data>
+  <data name="tsUndoCheckout.Text" xml:space="preserve">
+    <value>Annulation du retrait </value>
+  </data>
+  <data name="tsPrint.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="tsPrintPreview.Text" xml:space="preserve">
+    <value>Aperçu avant impression</value>
+  </data>
+  <data name="cmdRevise.Text" xml:space="preserve">
+    <value>Réviser</value>
+  </data>
+  <data name="tsTemplate.Text" xml:space="preserve">
+    <value>Gabarit</value>
+  </data>
+  <data name="tsAddRec.Text" xml:space="preserve">
+    <value>Nouvel enregistrement</value>
+  </data>
+  <data name="cmdFile.Text" xml:space="preserve">
+    <value>&amp;Fichier</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>&amp;Edition</value>
+  </data>
+  <data name="cmdView.Text" xml:space="preserve">
+    <value>&amp;Affichage</value>
+  </data>
+  <data name="cmdJumpToActivity.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAjFJREFUOE+lkvtP
+        UmEcxs+f1FrOdVlrtmWXVag4jVm02WarlauZLSyGxtAcq1atQpJC0tQREY3VNCHEUENJI7WbXbALHEIu
+        EZSt8/S+L4MQ+KX13T477znf53n27N3hAPwXnNryEW13fFAa30PRN49T3W8gM7x6UkhsGA7LuxzhheuP
+        Qui0BdHxMAgunvyFXBpuzAmFAvSOxe+5Wu6MqwVKpxwKhwwnbY3sY732OdHnB+jsX9m+e+Ya9N6r6Jy6
+        xBbLhgoOXJmmx7wA7VCQ7bOH63EGkA0V7LvoYbs0Nb3l4kr9duzUlKK6o2yZnjOO+qk4M8FoEtJzbnpk
+        ZkmPSFyh2yY0DzWhdbgZovNbmZFO34g/FWAeD8A85od1wo+3X2LY1T5G91yVYYe4TLtFkD1oQJVWhPWn
+        i1Gq2oh+VwBGyiif3+D1pygqVS6QyhJSWWi01qOkba2wTlG0WX13AdHEEkzjPNOayZMFsBakgYlQZ9wL
+        Uhm1t2pwxHIQG1SrhTXyVZuInms1fUAkvgSLm8e9iRTcwFMescTfm5V2SaCwy3DIXEcrC8VNK5mZ0tL/
+        DuFvP3Hfk2owOEV+JOskj2yqNRW0MkhlFJ1YkTFT5L3zLGCAGKmZBdwmF5E9L3wRSNUueswY08huvsQi
+        CbA9C5JXwO4lAdSQy+72x7/TpmyO6ecQiv0AH0nicygBHx8HV650IpeS44PmQgFHdbMjhzXe+P7L06i9
+        4MGes+580b8B7g/nHxnMple+CwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdJumpToActivity.Text" xml:space="preserve">
+    <value>Activité liée</value>
+  </data>
+  <data name="cmdJumpToActivity.ToolTipText" xml:space="preserve">
+    <value>Activité liée</value>
+  </data>
+  <data name="tsFilter.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAuIgAA
+        LiIBquLdkgAAAWVJREFUOE/tkb/LAXEcx2/xDxjJkSvdoSiFQV3HYKCuyGCk20RZXOkmBoPkslD+AoMi
+        E4MuGQxMSkm33X6zDO/H832+9fTU05PB+LymT33f7/f384N5C7FYDI1GA7PZDJZl4X6/w7ZtUl+vV5xO
+        JyyXS+i6TnT5fB7BYBDU/oaAaDQ6KRQK6Ha72Gw2ME0Th8MB8/kco9EI7XYbiqJAlmWkUimEQiF4vd4J
+        tTNMIBBwxOPxbaVSwXQ6xeVywfF4JAGDwQDNZhPlchmZTAaRSAQ+n2/rcrkc1P6FIAhOURRvqqrCMAyc
+        z2csFgv0+33UajXyeyKRAMdxN7fb7aS2n4TDYT6Xy9nj8Zh0sVqt0Ov1UK1WkU6nwfO87fF4eCr/nWeL
+        2ecoj/1+j/V6jU6ng1KphOeeHizLZqnsb5LJZH04HOIzRNM0SJIEv99fp8+v0Wq1yCl3ux2KxeL3yV7l
+        P+ANAa/BMB+64Bp7qAWItgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsGroupBy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAALKysoaGhufn1v///yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAADACwAAAAAEAAQ
+        AAAIQwAHCBxIsKDBgwgTDgTAsKFDAAEIAhBAsaLFiAstahSAUWCAjyBDflTokWTBjgcfqkQ5cWNFli5f
+        EhRJE6XJmzgLBgQAOw==
+</value>
+  </data>
+  <data name="cmdFieldSelector.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIIAAOfn1q2pkIaGhv///5nMZgAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAAEACwAAAAAEAAQAAAITgAJCBxIsKDBgwYDKFzIUCFBhgAiAmD4sKFFggIGaNzIUQDGjQJCZtToceBI
+        jh0/khQJUiXKliZBsiTp8uWAkgJP2sRJQKTPnwiDCj0YEAA7
+</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.ImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.LargeImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="LeftRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LeftRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LeftRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="RightRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="RightRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RightRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiCommandBar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiCommandBar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TopRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="TopRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TopRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TopRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TopRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="$this.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionHeight" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.AllowDrag" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.MaxTabSize" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.ShowCloseButton" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.TabCaptionTrimming" type="System.Drawing.StringTrimming, System.Drawing">
+    <value>Character</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.UseFormIcons" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>

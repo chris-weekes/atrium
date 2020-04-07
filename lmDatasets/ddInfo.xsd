@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ddInfo" targetNamespace="http://tempuri.org/ddInfo.xsd" xmlns:mstns="http://tempuri.org/ddInfo.xsd" xmlns="http://tempuri.org/ddInfo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ddInfo" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="ddInfo" msprop:Generator_DataSetName="ddInfo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ddField" msprop:Generator_UserTableName="ddField" msprop:Generator_RowDeletedName="ddFieldRowDeleted" msprop:Generator_RowChangedName="ddFieldRowChanged" msprop:Generator_RowClassName="ddFieldRow" msprop:Generator_RowChangingName="ddFieldRowChanging" msprop:Generator_RowEvArgName="ddFieldRowChangeEvent" msprop:Generator_RowEvHandlerName="ddFieldRowChangeEventHandler" msprop:Generator_TableClassName="ddFieldDataTable" msprop:Generator_TableVarName="tableddField" msprop:Generator_RowDeletingName="ddFieldRowDeleting" msprop:Generator_TablePropName="ddField">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TableId" msprop:Generator_UserColumnName="TableId" msprop:Generator_ColumnVarNameInTable="columnTableId" msprop:Generator_ColumnPropNameInRow="TableId" msprop:Generator_ColumnPropNameInTable="TableIdColumn" type="xs:int" />
+              <xs:element name="TableName" msprop:Generator_UserColumnName="TableName" msprop:Generator_ColumnVarNameInTable="columnTableName" msprop:Generator_ColumnPropNameInRow="TableName" msprop:Generator_ColumnPropNameInTable="TableNameColumn" type="xs:string" />
+              <xs:element name="FieldId" msprop:Generator_UserColumnName="FieldId" msprop:Generator_ColumnVarNameInTable="columnFieldId" msprop:Generator_ColumnPropNameInRow="FieldId" msprop:Generator_ColumnPropNameInTable="FieldIdColumn" type="xs:int" />
+              <xs:element name="FieldName" msprop:Generator_UserColumnName="FieldName" msprop:Generator_ColumnVarNameInTable="columnFieldName" msprop:Generator_ColumnPropNameInRow="FieldName" msprop:Generator_ColumnPropNameInTable="FieldNameColumn" type="xs:string" />
+              <xs:element name="LeftEng" msprop:Generator_UserColumnName="LeftEng" msprop:Generator_ColumnVarNameInTable="columnLeftEng" msprop:Generator_ColumnPropNameInRow="LeftEng" msprop:Generator_ColumnPropNameInTable="LeftEngColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LeftFre" msprop:Generator_UserColumnName="LeftFre" msprop:Generator_ColumnVarNameInTable="columnLeftFre" msprop:Generator_ColumnPropNameInRow="LeftFre" msprop:Generator_ColumnPropNameInTable="LeftFreColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DataType" msprop:Generator_UserColumnName="DataType" msprop:Generator_ColumnVarNameInTable="columnDataType" msprop:Generator_ColumnPropNameInRow="DataType" msprop:Generator_ColumnPropNameInTable="DataTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FieldType" msprop:Generator_UserColumnName="FieldType" msprop:Generator_ColumnVarNameInTable="columnFieldType" msprop:Generator_ColumnPropNameInRow="FieldType" msprop:Generator_ColumnPropNameInTable="FieldTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Lookup" msprop:Generator_UserColumnName="Lookup" msprop:Generator_ColumnVarNameInTable="columnLookup" msprop:Generator_ColumnPropNameInRow="Lookup" msprop:Generator_ColumnPropNameInTable="LookupColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TopEng" msprop:Generator_UserColumnName="TopEng" msprop:Generator_ColumnVarNameInTable="columnTopEng" msprop:Generator_ColumnPropNameInRow="TopEng" msprop:Generator_ColumnPropNameInTable="TopEngColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TopFre" msprop:Generator_UserColumnName="TopFre" msprop:Generator_ColumnVarNameInTable="columnTopFre" msprop:Generator_ColumnPropNameInRow="TopFre" msprop:Generator_ColumnPropNameInTable="TopFreColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescEng" msprop:Generator_UserColumnName="DescEng" msprop:Generator_ColumnVarNameInTable="columnDescEng" msprop:Generator_ColumnPropNameInRow="DescEng" msprop:Generator_ColumnPropNameInTable="DescEngColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescFre" msprop:Generator_UserColumnName="DescFre" msprop:Generator_ColumnVarNameInTable="columnDescFre" msprop:Generator_ColumnPropNameInRow="DescFre" msprop:Generator_ColumnPropNameInTable="DescFreColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolEng" msprop:Generator_UserColumnName="ToolEng" msprop:Generator_ColumnVarNameInTable="columnToolEng" msprop:Generator_ColumnPropNameInRow="ToolEng" msprop:Generator_ColumnPropNameInTable="ToolEngColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolFre" msprop:Generator_UserColumnName="ToolFre" msprop:Generator_ColumnVarNameInTable="columnToolFre" msprop:Generator_ColumnPropNameInRow="ToolFre" msprop:Generator_ColumnPropNameInTable="ToolFreColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HelpEng" msprop:Generator_UserColumnName="HelpEng" msprop:Generator_ColumnVarNameInTable="columnHelpEng" msprop:Generator_ColumnPropNameInRow="HelpEng" msprop:Generator_ColumnPropNameInTable="HelpEngColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HelpFre" msprop:Generator_UserColumnName="HelpFre" msprop:Generator_ColumnVarNameInTable="columnHelpFre" msprop:Generator_ColumnPropNameInRow="HelpFre" msprop:Generator_ColumnPropNameInTable="HelpFreColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="entryUser" msprop:Generator_UserColumnName="entryUser" msprop:Generator_ColumnVarNameInTable="columnentryUser" msprop:Generator_ColumnPropNameInRow="entryUser" msprop:Generator_ColumnPropNameInTable="entryUserColumn" type="xs:string" />
+              <xs:element name="entryDate" msprop:Generator_UserColumnName="entryDate" msprop:Generator_ColumnVarNameInTable="columnentryDate" msprop:Generator_ColumnPropNameInRow="entryDate" msprop:Generator_ColumnPropNameInTable="entryDateColumn" type="xs:dateTime" />
+              <xs:element name="updateUser" msprop:Generator_UserColumnName="updateUser" msprop:Generator_ColumnVarNameInTable="columnupdateUser" msprop:Generator_ColumnPropNameInRow="updateUser" msprop:Generator_ColumnPropNameInTable="updateUserColumn" type="xs:string" />
+              <xs:element name="updateDate" msprop:Generator_UserColumnName="updateDate" msprop:Generator_ColumnVarNameInTable="columnupdateDate" msprop:Generator_ColumnPropNameInRow="updateDate" msprop:Generator_ColumnPropNameInTable="updateDateColumn" type="xs:dateTime" />
+              <xs:element name="ts" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ts" msprop:Generator_ColumnVarNameInTable="columnts" msprop:Generator_ColumnPropNameInRow="ts" msprop:Generator_ColumnPropNameInTable="tsColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="isDBField" msprop:Generator_UserColumnName="isDBField" msprop:Generator_ColumnVarNameInTable="columnisDBField" msprop:Generator_ColumnPropNameInRow="isDBField" msprop:Generator_ColumnPropNameInTable="isDBFieldColumn" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ddTable" msprop:Generator_UserTableName="ddTable" msprop:Generator_RowDeletedName="ddTableRowDeleted" msprop:Generator_RowChangedName="ddTableRowChanged" msprop:Generator_RowClassName="ddTableRow" msprop:Generator_RowChangingName="ddTableRowChanging" msprop:Generator_RowEvArgName="ddTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ddTableRowChangeEventHandler" msprop:Generator_TableClassName="ddTableDataTable" msprop:Generator_TableVarName="tableddTable" msprop:Generator_RowDeletingName="ddTableRowDeleting" msprop:Generator_TablePropName="ddTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TableId" msprop:Generator_UserColumnName="TableId" msprop:Generator_ColumnVarNameInTable="columnTableId" msprop:Generator_ColumnPropNameInRow="TableId" msprop:Generator_ColumnPropNameInTable="TableIdColumn" type="xs:int" />
+              <xs:element name="TableName" msprop:Generator_UserColumnName="TableName" msprop:Generator_ColumnVarNameInTable="columnTableName" msprop:Generator_ColumnPropNameInRow="TableName" msprop:Generator_ColumnPropNameInTable="TableNameColumn" type="xs:string" />
+              <xs:element name="entryUser" msprop:Generator_UserColumnName="entryUser" msprop:Generator_ColumnVarNameInTable="columnentryUser" msprop:Generator_ColumnPropNameInRow="entryUser" msprop:Generator_ColumnPropNameInTable="entryUserColumn" type="xs:string" />
+              <xs:element name="entryDate" msprop:Generator_UserColumnName="entryDate" msprop:Generator_ColumnVarNameInTable="columnentryDate" msprop:Generator_ColumnPropNameInRow="entryDate" msprop:Generator_ColumnPropNameInTable="entryDateColumn" type="xs:dateTime" />
+              <xs:element name="updateUser" msprop:Generator_UserColumnName="updateUser" msprop:Generator_ColumnVarNameInTable="columnupdateUser" msprop:Generator_ColumnPropNameInRow="updateUser" msprop:Generator_ColumnPropNameInTable="updateUserColumn" type="xs:string" />
+              <xs:element name="updateDate" msprop:Generator_UserColumnName="updateDate" msprop:Generator_ColumnVarNameInTable="columnupdateDate" msprop:Generator_ColumnPropNameInRow="updateDate" msprop:Generator_ColumnPropNameInTable="updateDateColumn" type="xs:dateTime" />
+              <xs:element name="ts" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ts" msprop:Generator_ColumnVarNameInTable="columnts" msprop:Generator_ColumnPropNameInRow="ts" msprop:Generator_ColumnPropNameInTable="tsColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="DescriptionEng" msprop:Generator_UserColumnName="DescriptionEng" msprop:Generator_ColumnVarNameInTable="columnDescriptionEng" msprop:Generator_ColumnPropNameInRow="DescriptionEng" msprop:Generator_ColumnPropNameInTable="DescriptionEngColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DescriptionFre" msprop:Generator_UserColumnName="DescriptionFre" msprop:Generator_ColumnVarNameInTable="columnDescriptionFre" msprop:Generator_ColumnPropNameInRow="DescriptionFre" msprop:Generator_ColumnPropNameInTable="DescriptionFreColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="isDBTable" msprop:Generator_UserColumnName="isDBTable" msprop:Generator_ColumnVarNameInTable="columnisDBTable" msprop:Generator_ColumnPropNameInRow="isDBTable" msprop:Generator_ColumnPropNameInTable="isDBTableColumn" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="ddInfoKey2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ddField" />
+      <xs:field xpath="mstns:FieldId" />
+    </xs:unique>
+    <xs:unique name="ddInfoKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ddTable" />
+      <xs:field xpath="mstns:TableId" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="ddTable_ddField" msdata:parent="ddTable" msdata:child="ddField" msdata:parentkey="TableId" msdata:childkey="TableId" msprop:Generator_UserRelationName="ddTable_ddField" msprop:Generator_RelationVarName="relationddTable_ddField" msprop:Generator_UserChildTable="ddField" msprop:Generator_UserParentTable="ddTable" msprop:Generator_ParentPropName="ddTableRow" msprop:Generator_ChildPropName="GetddFieldRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

@@ -1,0 +1,1770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imageListBase.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABq
+        HAAAAk1TRnQBSQFMAgEBFAEAARgBAAHUAQABEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAWADAAEBAQABCAYAARgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8AJgAO7RIA
+        AQcCrgHqARMBbQISAeoBEgNmARICAAEHAewBtQwAAbwO8QHsEQAB7AK1AWYBQwEHAbYB3QG1Aa4EZgIA
+        ARwBTAHsAbULAAG8AfEDkQrxAewBAAr/BgAB7QHWAc8BtQGuAWYBrgH0AfMBrgFmAoYBZgIAAZoBegFM
+        AewBtQoAAbwB8QGRAfECkQnxAewBAAH/AgAB/wUAAf8GAAGuAdYBtQHWAYYBCgFmAd0BGQHPA4YBZgMA
+        AZoBegFMAewBtQkAAbwB8gWRCPIB7AEACv8GAAGuA9YBjAGuAWYBiwSuAYYBZgQAAZoBegFMAewBvAgA
+        AbwC8wWRB/MB7AEAAf8CAAH/BQAB/wYAAbUBCQLWA7UCrgHPAosBrgFmBQABmgF6AXQB7wEHBbUCAAG8
+        A/MFkQbzAewBAAr/BgABtQHdAdYBzwGuAosEhgLPAYYGAAGaAbwCtQEJAhkCCQG1AQABvAT0BZEF9AHs
+        AQAH/wEAAv8GAAHtAQkBzwH0Av8C9AHdAgkBhgHPAYYHAAEHAbUCGQHiA/8BCQG1AbwF9AeRAvQB7AEA
+        Af8CAAP/AQABBwEAAf8EAAEEAQAB9wHdAa4C/wH0Af8BGQH/At0ChgGuBwABtQEJARkC4gP/AQkBtQG8
+        BvQHkQH0AewBAAH/AQABBwEAAf8BAAEHAQABBwQAAgQBAAHvAd0BzwX/AhkB3QGGAbUB6gcAAbUBGQEJ
+        ARkB4gH0Af8B9AEZAbUBvAf/ApEC/wKRAf8B7AEAAv8BAAEHAQABBwEAAQcBAAMHAQACBAEAAe8B3QG1
+        A/8C9gL/ARkBZgGvARIHAAG1AxkE4gEZAbUBvAf/ApED/wGRAf8B7AUAAQcBAAEHAQAFBwIEAQABBwHd
+        AbUC/wH0AfYB8wH/AfQB/wGGAWYBrgcAAbUBCQYZAQkBtQG8B/8DkQT/AewGAAEHAQAGBwIEAQABtgHd
+        AbUF/wL0Af8BhgHPAa4HAAEJAbsC/wEZAdwCGQG1AQcBvAj/A5ED/wHsBwAGBwEAAgQBAAK8AbUBBwHv
+        BPcCtQKvAY0IAAK1AQkCGQEJArUBAAG8Dv8B7A4AAgQYAAEHBLUBBwMADvEXAAJsAa4XABD/FAABbAGu
+        AfEB7AJsAewJAAJzAW4BSgEUARUBIgIQASIBEAEAEP8CAAH3CmYFAAFtAesC8wHrAuoBrgFmAWwIAAHs
+        AaABegJ5AXQCUgJLAUMBABD/AgAB9wH/CPcBZgMAAZEBrgHzAfQB7wGSAbsBtQFuAewBrgFtAWYBbAYA
+        Ae0BwwGgAZoDegFZAVMBUgEVAQAC/wEcBEsGSgJEAf8CAAH3A/8B9AHzARkB8AG8AfcBZgMAAbUB8wG8
+        AfcB8AEZAfMBTAElAW8B7wESA2wFAAEcAcMBoAKaA3oBWQFSAUQBAAL/ARwBwwKaCHoBRAH/AgAB9wT/
+        AfQB8wEZAfAB9wFmAwABvAG1AfEC9AEaAUwBTQFGASUBkwEHAa4BEgFsAQAB9wNmAZICwwGgApoDegFS
+        AUoBAAL/ARwBGgigAXoBeQFKAf8CAAH3Bf8C8wHxAfcBZgMAAfABtQG8AfQB/wFGAU0BdQHjAU0BRgK8
+        Ae0B7AEAAfcB9AHzARkBHAPDAaABmgN6AVIBbgEAAv8BHAF5AZoCoAN6AqABegFRAUoB/wIAAbUF/wH0
+        AfMBGQH3AWYDAAEHAZEBtAG1AfADlAHzAZQCTAH3AZEB7wEAAfcB/wL0ARwEwwKgAZoCegFuAQAC/wEc
+        ARoBeQJ6A1ICegFSAXkBSgH/AgABtQb/AvMB9wFmAwABkQK0AW0BkQHvARoB9AH/AfABFgFMAUsCBwEA
+        AbUC/wH0ChwB9wEAAv8BmQHDAaABegF5AXoBoAGaAVIBeQJ6AUoB/wIAAe8G/wH0AfMB9wFmAwABrgG0
+        AW0BcQF3AZABtAG7AQcBkQFyAW8BRgFuAQcBAAG1A/8BHAEaAcMBmgEcAQcGAAL/AZkBwwGaAXkBmgSg
+        AXQCegFKAf8CAAG7B/8B9AH3AWYDAAGRAewBTwF3AZEDtAFxAU8BcQGuAXQBRgHtAQAB7wP/AfMDHAFt
+        AwAB7wEUAfcBAAL/AZkBwwF5AZoGoAFSAXkBSgH/AgABuwf/AvcBZgMAAbUBkQJWAXIDtAGQAU8BcQGu
+        AQABlAFMAQABBwT/AfQB8QG8AWYDAAGLAmYBAAL/AZkBmgTDBKABmgFSAUoB/wIAAQcG/wH3A2YEAAGR
+        AXgDmAG0AdUBtAFxAa4B9wQAAQcE/wH3A2YDAAEHARQCAAL/AZkKwwGaAW0B/wIAAQcG/wG1AbwBZgEJ
+        BAABtQGSAQgBwgHiAcEBkQGzAZEBrgUAAQkE/wG1AbwBZgEHAgABBwHsARQCAAL/B5kGHAH/AgABCQb/
+        AbUBZgEJBgABtQGSAbsBkQGYA5EGAAEJBP8B7wFmAbwCAAOuAe8CABD/AgAFCQIHAbsBCQkAAfcDkQgA
+        AgkDBwG7AbwJABD/EAAQExEAAfcNZgEACP8B8QGRAQkB9AT/AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwQA
+        AesBFQEAAa4BiwdmAQAB9wH/C/cBZgEAB/8BBwG1Aa4B7wHzBP8B9wL/AfAC/wHwAv8B8AL/AfAC/wET
+        BAABkgH/AVIBAAEZAfAFCQFmAQAB9wL/AfQC8wMZAfABvAEJAfcBZgEABP8B9AEHAbUBrgG7AbQBrgHv
+        AfQD/wH3DvABEwQAAZEBHAGaAXoBAAL0ARkC3QEJAWYBAAH3A/8BuwHPAoYBrgG1AfABvAH3AWYBAAP/
+        AfQBBwKRAbUBCQG1Aa4BiwGRAfMC/wH3Av8B8AL/AfAC/wHwAv8B8AL/ARMBcwHsAW0B6gFtAUsBwwF5
+        AXoBAAH0AhkB3QEJAWYBAAH3Av8BtQGtAbUCCQG0AaYBzwHwAfcBZgEAA/8BvAG1AbsE3AG7AbUBiwGu
+        AfQB/wH3Av8B8AL/AfAC/wHwAv8B8AL/ARMBcwGaAXoBeQFSAXkBSwHDAXkBegEAAfQCGQEJAWYBAAH3
+        Af8BCQGtAQkB/wG8AYYBGQHcAaYBtQH3AWYBAAL/AbwBtQG7ARkBtQKLAbQCCQG1AYsBtQH/AfcI8ARF
+        AvABEwHsARoBoAGaAnoBvAFzAcMBeQF6AQAC9AEJAWYBAAH3Af8BtAHcAv8B8AG1AfQBGQG0Aa4B9wFm
+        AQAC/wG7AbwC4gEJAbQBiwG7ARkB3QHcAbUBiwH/AfcC/wHwAv8B8AL/AUUC/wFFAv8BEwHtARoCoAGa
+        AXoBBwH/AXMBwwFZAbQBPwHxAfABZgEAAbUB/wHUAQkD/wGLAbQB9AEJAQQB9wFmAQAB/wHdAbsD4gEJ
+        AbQBiwG7ARkC3QHcAYsBvAH3Av8B8AL/AfAC/wFFAv8BRQL/ARMB7QLDAqABmgEHAv8BdAEJAeMBdAE/
+        AfABZgEAAbUB/wHVAQkC/wHzAfABiwG1AQkBhgH3AWYBAAH/ArwD4gHyAbQBiwG7A+IB3QGuAbwB9wjw
+        BEUC8AETAe0BwwEaA6ABBwP/AUUBdQHjAW4B8QFmAQAB7wH/AdwBCQH/AbUBiwHwAYsCtQHPAfcBZgEA
+        Af8B3QHwAf8B4gH0AbUCiwG7BOIBkQG8AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwHtA8MCoAG7A/8B9AJu
+        Av8BZgEAAbsB/wEZAdUBCQHzAbUBiwG1AQkBrQEJAfcBZgEAAv8B8AL/AfQBCQK1AfEC4gH/Ad0BtQH/
+        AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwGSBMMBoAO7AgcB8AIHArUBAAG7Av8BCQHVAQkCGQEJAbQBCQL3
+        AWYBAAL/AfAE/wIZBP8B8AG8Af8B9weGB/cBEwEcBsMDoAGaA3oB6wIAAQcD/wEZAdwC1QHWAd0B9wNm
+        AQAD/wHdAv8BvAGuAYsBuwL/ARkBvAL/AfcHhgf3ARMIHAbtAbwCAAEHCf8BtQG8AWYBvAEABv8B8wL3
+        AfMB/wLiA/8P9wETARwBGgPDAZoBHAG8CQABCQn/AbUBZgG8AgAQ/xAAAfMFHAHzCgAGCQQHAbsBvAMA
+        EP9sAALrIwABBwHsCusB7AMACeoB6wGSAW4B6gQAAewLbQHsEQAB8QwqAW0B7AEAAjEDKwQqAUsB7QJS
+        ARMDAAJSAUwKKgETAewDAAHsCf8DAAJSAaAJegFSASoB6wEAASsBWAHDBnoBkgFSAVkBKgFKAesBAAFS
+        AXoBUgGgCHoBUgGgASoBbQMAAewD/wEABf8DAAJSAXoBoAh6AVgBSwFtAQcBMQFSAcMBoAGZAbwCBwH3
+        AVICegErASoB6gEAAVIBegFSAaAIegFSAaABKgFtAwAB7AL/AQAG/wMAAlIBWAigAZoBWQFSAW0B7AJS
+        AXoBvAH0Af8C4gEJAZkB5QGgAVIBMQETAQABUgF6AVIJoAFYAaABKgFtAwAB7AL/AgAF/wMAAVIBWAFS
+        CaACeQEqAesBUgFYAVIB8AP/AeIBGQG8AqABeQEqAUoB6wFSAXoBUgmgAXoBoAEqAW0DAAHsAv8DAAH/
+        AQAC/wMAAVIBegFSCaABegGgAUsB6wFSAXoBMQEJAeIB/wHiAhkB8AKgAXoBWAEqARMBUgF6AVIJoAF6
+        AaABKgFtAwAB7AP/BAAC/wMAAVIBmgFSAXkC/wH2Bf8BmgH/AUsB7AFSAeUBWAEJA+IBGQHiAfAC/wGg
+        AXoBKgHqAVIBegFSCf8BmgH/ASoB7AMAAewE/wMAAv8DAAFSAaABeQxSAQcBUgGgAXoB7AIZAeIB/wEZ
+        AVIEMQEqAQABUgGgAZoMUgQAAewD/wQAAv8DAAFSBqAF/wFSAUsBBwEAAVIDoAEHAgkBvAHyA/8BKgHr
+        AgABUgagBf8BKgHsBQAB7An/AwABUgH/BKAB/wZSAfECAAFSAf8EoAH/BTEBKwMAAVIB/wSgAf8FUgFM
+        BgAK7AQAAVIE/wFSAQcJAAFSBP8BUgoAAVIE/wFSGwAEUgHxCwAEUgwABFKtAAHqPgABrgEOARMHAAGu
+        AewSAAG0Aa4DiwGGAwABtAKuAosBZgkAAQkBtQgAAbUBDwERAa4FAAHsARUBtQgAARIBFAEQBwABtQH/
+        AbwBtQG0AYYDAAG0AfMBvAG1Ac8BhgkAAQkB1QHPAbUHAAFtAREBFAQAAfcBEwHrCQACbQEUBwABtQH/
+        AbwBtQG0AYYDAAG0AvMBCQG0AYYKAAEJAdUBzwgAARQBEAHqAgAB9wHrARUB9wkAAeoB7QFtAREGAAG1
+        Af8BvAG1AbQBhgMAAbQC8wEJAbQBhgsAAc8B1QG1CAABEwERAW0B9wHqAUMBkQoAAeoB7wHsARQGAAG1
+        Af8B8wG8AbUBhgMAAbQC8wEJAbQBhgsAAbsBrQHVCQABEwJDARUBFAoAAfAB6gEHAZIBFAEHBQABtQG0
+        Aa4BiwKGAaYBhgG0Aa4BiwKGAWUBiwMABa0BiwMAAa0B1QEJCAABkQFDAhQBkgkAAfABEgGSAfAB7wHr
+        AQ8BBwQAAQkBtAH/AfABtQGuAaYBuwG0AfEBGQG1Ac8BhgG1AwABtAGtAtUBtAQAAa0BtAHcBwABuwHq
+        AxUB6gH3BwAB8AFtAQcB8gHxAQcB7QHqAQ8BBwQAAbUB9AH/ARkBtAGGAYsBtAL/Ad0BzwGGBAABtAPV
+        Ac8EAAKtAdwGAAH3AhQB7AEAAewBFAHsAfcFAAHwAesBBwHzAf8B8wHwAQcBkgHqAQ8BBwQAAbUBtAGu
+        A4sBzwG0Aa4ChgUAAbQD1QKtAwABiwGtAdwEAAEHAesCFAHsAwAB6wEUAewBBwMAAfAB7AHwAfMD/wHy
+        AfABBwHtARIBDwEHAwABtQH/AQkBtAGGAQABtQH/AQkBtQGGBQAB1gIJAdwBtAKtAc8BrQGLAdUEAAH3
+        AesBFQEUAZIFAAH3ARIB7AMAAewBvAHzAv8B9AHzAfIBvAEHAZIBbQESAQ8DAAG7AbUBrgKLAQACtQGu
+        AYsBhgUAAdYCAAEJAdwB1QStBQAB9wEUARMB7wcAAvcDAAHvAQcB8AG8AgcB7wL3AZIB7AHrAW0BEwQA
+        AbQB/wGGAwABtAH/AYYKAAEJAtwC1gYAAfcB6wH3HwABtQG0AYsDAAG1AbQBiwwAAgkmAAFCAU0BPgcA
+        AT4DAAEoAwABQAMAAWADAAEBAQABAQYAAQMWAAP/gQAE/wGAAQEC/wGAAQEBjwH/AwABDwGAAQEBhwH/
+        AwABDwGAAQEBgwH/AwABDwGAAQEBwQH/AwABDwGAAQEB4AH/AwABDwGAAQEB8AEDAwABDwGAAQEB+AEB
+        AwABDwGAAQEB/AQAAQ4BgAEBAfwEAAEEAYABAQH8BQABgAEBAfwFAAGAAQEB/AMAAfgBAAGAAQEB/AMA
+        AfwBAAGAAQEB/gEBAgAB/gEEA/8BAwGAAQEC/wH8AX8C/wIAAv8B8AEfAfABAQIAAcABBwHAAQ8B8AEB
+        AgABwAEHAQABAwHwAQECAAHAAQcBAAEBAfABAQIAAcABBwEAAQEBAAEBAgABwAEHAQABAQEAAQECAAHA
+        AQcBAAEBAQABAQIAAcABBwEAAQEBAAEBAgABwAEHAQABAQEAAT8CAAHAAQcBAAEBAQABcQIAAcABBwEA
+        AQkBAAFxAgABwAEHAYABDwEAAXMCAAHAAQcBgAEfAQABYwIAAcABDwHAAT8BAAHDAgABwAEfAfAB/wEB
+        Af8CAAL/AgAC/wGAAQEEAAHwAQABgAEBBAAB8AEAAYABAQQAAfABAAGAAQEGAAGAAQEGAAGAAQEGAAGA
+        AQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEFAAEBAYABAQUAAQEBgAEBBQAB/wGAAQMCAAL/
+        AQEB/wGAAQcCAA3/AfME/wGAAQMBgAEDAcABAQHgAQMBAAEBAQABAwGAAQAB4AEDAQABAQEAAQECAAHg
+        AQMDAAEBAgAB4AEDAwABAQIAAeABAwYAAeABAwYAAeABAwYAAeABAwMAAQEBAAEBAeABAwEAAQEBAAED
+        AQABAwHgAQMBAAEDAQABBwEAAQcB4AEDAYAB/wGBAf8BgQP/AcEB/wHDAf8BwxX/Ae8H/wHHAfMC/wED
+        AYEB/wE/AcMB4wH8AT8BAwGBAf8BDwHjAccB/AE/AQMBgQH/AY8B8QGHAfwBPwEDAYEB/wHHAfgBDwH8
+        AT8BAwGBAf8BxwH8AR8B+AEfAQABAQHAAeMB/AEfAfABDwEAAQEBwQHjAfgBDwHgAQcBgAEDAcEB4wHw
+        AYcBwAEDAcABBwHAAeMBwQHDAYABAQHBAQcBwAEHAYMB4wGAAQEBwQEHAdgBDwGHAfMBgAEBAeMBjwH8
+        AR8BjwP/AeMBjwH/AT8E/xYACw==
+</value>
+  </data>
+  <data name="insolvencyTypeLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="insolvencyTypeLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyTypeLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="insolvencyTypeLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyTypeLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="insolvencyTypeLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="insolvencyTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 38</value>
+  </data>
+  <data name="insolvencyTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="insolvencyTypeLabel.Text" xml:space="preserve">
+    <value>Type d'insolvabilité :</value>
+  </data>
+  <data name="insolvencyTypeLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="insolvencyFiledDateLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="insolvencyFiledDateLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="insolvencyFiledDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="insolvencyFiledDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="insolvencyFiledDateLabel.Text" xml:space="preserve">
+    <value>Insolvabilité déposée :</value>
+  </data>
+  <data name="insolvencyFiledDateLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="acceptanceDateLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="acceptanceDateLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="acceptanceDateLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="acceptanceDateLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="acceptanceDateLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="acceptanceDateLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="acceptanceDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 153</value>
+  </data>
+  <data name="acceptanceDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="acceptanceDateLabel.Text" xml:space="preserve">
+    <value>(Réputée) acceptée :</value>
+  </data>
+  <data name="acceptanceDateLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="insolvencyFulfilledDateLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="insolvencyFulfilledDateLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="insolvencyFulfilledDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 207</value>
+  </data>
+  <data name="insolvencyFulfilledDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="insolvencyFulfilledDateLabel.Text" xml:space="preserve">
+    <value>Réalisée :</value>
+  </data>
+  <data name="insolvencyFulfilledDateLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="provenClaimAmountLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="provenClaimAmountLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="provenClaimAmountLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="provenClaimAmountLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="provenClaimAmountLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="provenClaimAmountLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="provenClaimAmountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 109</value>
+  </data>
+  <data name="provenClaimAmountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 17</value>
+  </data>
+  <data name="provenClaimAmountLabel.Text" xml:space="preserve">
+    <value>Montant de la preuve :</value>
+  </data>
+  <data name="provenClaimAmountLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="defaultDateLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="defaultDateLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="defaultDateLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="defaultDateLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="defaultDateLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="defaultDateLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="defaultDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 180</value>
+  </data>
+  <data name="defaultDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="defaultDateLabel.Text" xml:space="preserve">
+    <value>En défaut le :</value>
+  </data>
+  <data name="defaultDateLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 17</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateLabel.Text" xml:space="preserve">
+    <value>PÉCs admissibles à la libération :</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="dateofTrusteeDischargeLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dateofTrusteeDischargeLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dateofTrusteeDischargeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="dateofTrusteeDischargeLabel.Text" xml:space="preserve">
+    <value>Syndic libéré le :</value>
+  </data>
+  <data name="dateofTrusteeDischargeLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 89</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 17</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateLabel.Text" xml:space="preserve">
+    <value>Date de libération automatique :</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="proofOfClaimFiledDateLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="proofOfClaimFiledDateLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="proofOfClaimFiledDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 82</value>
+  </data>
+  <data name="proofOfClaimFiledDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 17</value>
+  </data>
+  <data name="proofOfClaimFiledDateLabel.Text" xml:space="preserve">
+    <value>Preuve de réclamation déposée :</value>
+  </data>
+  <data name="proofOfClaimFiledDateLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ceasedToBeStudentDateLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ceasedToBeStudentDateLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ceasedToBeStudentDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 17</value>
+  </data>
+  <data name="ceasedToBeStudentDateLabel.Text" xml:space="preserve">
+    <value>Fin de la période d'études :</value>
+  </data>
+  <data name="ceasedToBeStudentDateLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 12</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Durée de l'insolvabilité :</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>534, 12</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>mois</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAll.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAll.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAll.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlAll.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAll.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlAll.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiTab3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTab3.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTab3.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiTab3.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTab3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiTab3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cSLNonDischargeableUICheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cSLNonDischargeableUICheckBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cSLNonDischargeableUICheckBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="cSLNonDischargeableUICheckBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cSLNonDischargeableUICheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cSLNonDischargeableUICheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cSLNonDischargeableUICheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 35</value>
+  </data>
+  <data name="cSLNonDischargeableUICheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 21</value>
+  </data>
+  <data name="cSLNonDischargeableUICheckBox.Text" xml:space="preserve">
+    <value>PÉCs non libérables :</value>
+  </data>
+  <data name="cSLNonDischargeableUICheckBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <assembly alias="Janus.Windows.CalendarCombo.v4" name="Janus.Windows.CalendarCombo.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" />
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 8</value>
+  </data>
+  <data name="ceasedToBeStudentDateCalendarCombo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="stayOfProceedingUICheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="stayOfProceedingUICheckBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="stayOfProceedingUICheckBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="stayOfProceedingUICheckBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="stayOfProceedingUICheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="stayOfProceedingUICheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="stayOfProceedingUICheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 8</value>
+  </data>
+  <data name="stayOfProceedingUICheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 21</value>
+  </data>
+  <data name="stayOfProceedingUICheckBox.Text" xml:space="preserve">
+    <value>Suspension d'instance en vigueur :</value>
+  </data>
+  <data name="stayOfProceedingUICheckBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 84</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 24</value>
+  </data>
+  <data name="debtorDischargeNonCSLDebtDateCalendarCombo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 84</value>
+  </data>
+  <data name="dateofTrusteeDischargeCalendarCombo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 35</value>
+  </data>
+  <data name="cSLEligibleForDischargeDateCalendarCombo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTabPage3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTabPage3.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTabPage3.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiTabPage3.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTabPage3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiTabPage3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiTabPage3.Text" xml:space="preserve">
+    <value>Libération</value>
+  </data>
+  <data name="uiTabPage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTab3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTab1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTab1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTab1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiTab1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTab1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiTab1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ebInsolvencyPeriod.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ebInsolvencyPeriod.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ebInsolvencyPeriod.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ebInsolvencyPeriod.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ebInsolvencyPeriod.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ebInsolvencyPeriod.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ebInsolvencyPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 7</value>
+  </data>
+  <data name="ebInsolvencyPeriod.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="provenClaimAmountNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="provenClaimAmountNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="provenClaimAmountNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="provenClaimAmountNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="provenClaimAmountNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="provenClaimAmountNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="provenClaimAmountNumericEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 104</value>
+  </data>
+  <data name="provenClaimAmountNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 7</value>
+  </data>
+  <data name="insolvencyFiledDateCalendarCombo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ucInsolvencyTypeMcc.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ucInsolvencyTypeMcc.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucInsolvencyTypeMcc.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ucInsolvencyTypeMcc.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucInsolvencyTypeMcc.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ucInsolvencyTypeMcc.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucInsolvencyTypeMcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 35</value>
+  </data>
+  <data name="ucInsolvencyTypeMcc.Middle" type="System.Int32, mscorlib">
+    <value>313</value>
+  </data>
+  <data name="ucInsolvencyTypeMcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 24</value>
+  </data>
+  <data name="ucInsolvencyTypeMcc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="defaultDateCalendarCombo.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="defaultDateCalendarCombo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="defaultDateCalendarCombo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="defaultDateCalendarCombo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="defaultDateCalendarCombo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="defaultDateCalendarCombo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="defaultDateCalendarCombo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="defaultDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 175</value>
+  </data>
+  <data name="defaultDateCalendarCombo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="acceptanceDateCalendarCombo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="acceptanceDateCalendarCombo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="acceptanceDateCalendarCombo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 148</value>
+  </data>
+  <data name="acceptanceDateCalendarCombo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 201</value>
+  </data>
+  <data name="insolvencyFulfilledDateCalendarCombo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 77</value>
+  </data>
+  <data name="proofOfClaimFiledDateCalendarCombo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTabPage1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTabPage1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTabPage1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiTabPage1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTabPage1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiTabPage1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiTabPage1.Text" xml:space="preserve">
+    <value>Insolvabilité</value>
+  </data>
+  <data name="uiTabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTab1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAllContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAllContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAllContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlAllContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAllContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlAllContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlAllContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAll.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BottomRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="BottomRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BottomRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BottomRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BottomRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiCommandBar2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiCommandBar2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tsEditmode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAAAAAAP///////wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAACACwAAAAAEAAQ
+        AAAIHQAFCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFgQEBADs=
+</value>
+  </data>
+  <data name="tsDelete.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="tsDelete.ToolTipText" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="tsSave.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tsSave.ToolTipText" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tsScreenTitle.Text" xml:space="preserve">
+    <value>Insolvabilité</value>
+  </data>
+  <data name="tsAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALDAAA
+        CwwBP0AiyAAAAQJJREFUOE+lkTEKwkAQRfcIlrERBJsFT5HeA5jOeg+QXqwX67CVvSksvEDAI+gBBNs9
+        wjh/w5jEbKKi8NjMLP/NsCoi+otoU3DWkJCb7AXudqUjEA0ChPwt61JpuhQ6SIKgMuPhdKE64cdpRr7k
+        HpPZlLJS8yqHK70ojmHdEF4mjaQVvtiadD8PBIHnsaAXxslhSCToNhzmWudT0kXSCDphrnFiaqh5suL3
+        Fvin1IolQcBrywYSbteYitCx8qQmmrvNWyVrvmsLYmDd691HBWBQgJCAsDsPCWwtwCnfZut64K1GBWOT
+        5W/+agMEYxuYYkCAy0+TER4V4OJbeoL3xm+QegL3MsVzdOKZ3AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsAudit.ToolTipText" xml:space="preserve">
+    <value>Propriétés de la ligne de données</value>
+  </data>
+  <data name="cmdFile.Text" xml:space="preserve">
+    <value>&amp;Fichier</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>&amp;Édition</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.ImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.LargeImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="LeftRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LeftRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LeftRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="RightRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="RightRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RightRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiCommandBar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiCommandBar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TopRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="TopRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TopRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TopRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TopRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="$this.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.AutoHideButtonVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionHeight" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.AllowDrag" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.MaxTabSize" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.ShowCloseButton" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.TabCaptionTrimming" type="System.Drawing.StringTrimming, System.Drawing">
+    <value>Character</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.UseFormIcons" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>

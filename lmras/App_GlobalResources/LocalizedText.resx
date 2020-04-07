@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllFlows" xml:space="preserve">
+    <value>All Workflows</value>
+  </data>
+  <data name="AtWFDocCentre" xml:space="preserve">
+    <value>Atrium Workflow Documentation Centre</value>
+  </data>
+  <data name="backToTop" xml:space="preserve">
+    <value>Back to top</value>
+  </data>
+  <data name="Collapse" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="Expand" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="inEditMode" xml:space="preserve">
+    <value>In: &lt;strong&gt;Edit/Insert Mode&lt;/strong&gt;</value>
+  </data>
+  <data name="inViewMode" xml:space="preserve">
+    <value>In: &lt;strong&gt;View Mode&lt;/strong&gt;</value>
+  </data>
+  <data name="switchToEditMode" xml:space="preserve">
+    <value>Insert/Edit Mode</value>
+  </data>
+  <data name="switchToViewMode" xml:space="preserve">
+    <value>View Mode</value>
+  </data>
+  <data name="WFAlwaysAvail" xml:space="preserve">
+    <value>Always Available</value>
+  </data>
+  <data name="WFCode" xml:space="preserve">
+    <value>Workflow Code</value>
+  </data>
+  <data name="WFCreatesFile" xml:space="preserve">
+    <value>Creates File</value>
+  </data>
+  <data name="WFDesc" xml:space="preserve">
+    <value>Workflow Description</value>
+  </data>
+  <data name="WFEnglishDesc" xml:space="preserve">
+    <value>English Description</value>
+  </data>
+  <data name="WFFrenchDesc" xml:space="preserve">
+    <value>French Description</value>
+  </data>
+  <data name="WFStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="acdocAdd" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="acdocDelete" xml:space="preserve">
+    <value>DELETE</value>
+  </data>
+  <data name="acdocEdit" xml:space="preserve">
+    <value>EDIT</value>
+  </data>
+  <data name="acdocWFObjective" xml:space="preserve">
+    <value>Workflow Objective</value>
+  </data>
+  <data name="lblAllowOnce" xml:space="preserve">
+    <value>can only be performed once on a given file.</value>
+  </data>
+  <data name="lblAlwaysAvailable" xml:space="preserve">
+    <value>This workflow is always available (i.e. is in the list of workflows that appear in the "Always Available" Tab of the New Activity Wizard).</value>
+  </data>
+  <data name="lblCanBeMoved" xml:space="preserve">
+    <value>This workflow can be moved to a different file than the one in which it was initiated</value>
+  </data>
+  <data name="lblContainer" xml:space="preserve">
+    <value>The file container in which each new file that is created each time the workflow is engaged is</value>
+  </data>
+  <data name="lblContainerNotDefined" xml:space="preserve">
+    <value>The file container in which each new file that is created is not pre-defined by the workflow.  The creation of the file will be context-based, meaning the file container will be selected at the time the new file will be created.</value>
+  </data>
+  <data name="lblContents" xml:space="preserve">
+    <value>Contents (List of Recorded Steps)</value>
+  </data>
+  <data name="lblCreatesFile" xml:space="preserve">
+    <value>creates a file.</value>
+  </data>
+  <data name="lblIncObsolete" xml:space="preserve">
+    <value>Include Obsolete Paths</value>
+  </data>
+  <data name="lblRecordedSteps" xml:space="preserve">
+    <value>Workflow Recorded Steps for</value>
+  </data>
+  <data name="lblReloading" xml:space="preserve">
+    <value>Reloading ... Please Wait</value>
+  </data>
+  <data name="lblRestrictions" xml:space="preserve">
+    <value>Restrictions on Moving Workflows</value>
+  </data>
+  <data name="lblSee" xml:space="preserve">
+    <value>see</value>
+  </data>
+  <data name="switchLang" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="WFHelpTextEng" xml:space="preserve">
+    <value>English Help Text</value>
+  </data>
+  <data name="WFHelpTextFre" xml:space="preserve">
+    <value>French Help Text</value>
+  </data>
+  <data name="WFProps" xml:space="preserve">
+    <value>Workflow Properties</value>
+  </data>
+  <data name="lblAboveU" xml:space="preserve">
+    <value>Above</value>
+  </data>
+  <data name="lblActionsMnu" xml:space="preserve">
+    <value>File - Actions Dropdown Menu</value>
+  </data>
+  <data name="lblActionsTK" xml:space="preserve">
+    <value>File - Actions - Timekeeping Menu</value>
+  </data>
+  <data name="lblAlwAvailTab" xml:space="preserve">
+    <value>The Always Available Processes tab of the New Activity Wizard</value>
+  </data>
+  <data name="lblAtExp" xml:space="preserve">
+    <value>Atrium Explorer Context Menu (New File)</value>
+  </data>
+  <data name="lblComingOut" xml:space="preserve">
+    <value>Coming out of the</value>
+  </data>
+  <data name="lblDDCntxtMenu" xml:space="preserve">
+    <value>The following dropdown/context menu(s):</value>
+  </data>
+  <data name="lblEnabledBy" xml:space="preserve">
+    <value>Enabled by</value>
+  </data>
+  <data name="lblFinish" xml:space="preserve">
+    <value> is a workflow &lt;strong&gt;end point&lt;/strong&gt; (finish step)</value>
+  </data>
+  <data name="lblHowAccessed" xml:space="preserve">
+    <value>How the workflow is accessed:</value>
+  </data>
+  <data name="lblInvalidMenu" xml:space="preserve">
+    <value>Invalid Menu Type</value>
+  </data>
+  <data name="lblInWFPage" xml:space="preserve">
+    <value>in Workflow Property page</value>
+  </data>
+  <data name="lblMandatesBtn" xml:space="preserve">
+    <value>The Mandates button from the Main Atrium screen, for the following Office(s):</value>
+  </data>
+  <data name="lblProcess" xml:space="preserve">
+    <value>process</value>
+  </data>
+  <data name="lblRestrictionsU" xml:space="preserve">
+    <value>Restrictions</value>
+  </data>
+  <data name="lblSeeU" xml:space="preserve">
+    <value>See</value>
+  </data>
+  <data name="lblStart" xml:space="preserve">
+    <value> is a workflow &lt;strong&gt;kick starter&lt;/strong&gt; (start step)</value>
+  </data>
+  <data name="lblStartFinish" xml:space="preserve">
+    <value> is a &lt;strong&gt;one-step process&lt;/strong&gt; (it starts and ends with one step)</value>
+  </data>
+  <data name="lblSubp" xml:space="preserve">
+    <value>subprocess in the</value>
+  </data>
+  <data name="lblCouldNotDetermine" xml:space="preserve">
+    <value>Atrium could not determine how this workflow is accessed.</value>
+  </data>
+  <data name="lblCreateFile" xml:space="preserve">
+    <value>Creates File:</value>
+  </data>
+  <data name="lblCreatesNewFile" xml:space="preserve">
+    <value>creates a new file</value>
+  </data>
+  <data name="lblInFile" xml:space="preserve">
+    <value>in the following file:</value>
+  </data>
+  <data name="lblInThe" xml:space="preserve">
+    <value>in the</value>
+  </data>
+  <data name="lblmustBePerformed" xml:space="preserve">
+    <value>must be performed by the following role</value>
+  </data>
+  <data name="lblNextSteps" xml:space="preserve">
+    <value>Expected Next Steps:</value>
+  </data>
+  <data name="lblNoRole" xml:space="preserve">
+    <value>There are no role restrictions for this Step Code</value>
+  </data>
+  <data name="lblOutputPaths" xml:space="preserve">
+    <value>Possible Next Steps (Output Paths):</value>
+  </data>
+  <data name="lblProcessesDisabledByStep" xml:space="preserve">
+    <value>Processes disabled by performing this step:</value>
+  </data>
+  <data name="lblProcessesEnabledByStep" xml:space="preserve">
+    <value>Processes enabled by performing this step:</value>
+  </data>
+  <data name="lblRole" xml:space="preserve">
+    <value>Role:</value>
+  </data>
+  <data name="lblStepsEnableProcess" xml:space="preserve">
+    <value>The following steps enable this subprocess:</value>
+  </data>
+  <data name="lblStepsLeadToProcess" xml:space="preserve">
+    <value>The following steps lead into this subprocess:</value>
+  </data>
+  <data name="lblStepsThatLeadTo" xml:space="preserve">
+    <value>Steps that lead to</value>
+  </data>
+  <data name="lblsubprocess" xml:space="preserve">
+    <value>subprocess</value>
+  </data>
+  <data name="lblTransferEnabledBy" xml:space="preserve">
+    <value>Transfer - Enabled by</value>
+  </data>
+  <data name="acdocBlock1Proc" xml:space="preserve">
+    <value>Block 1 Processing</value>
+  </data>
+  <data name="acdocBlock1Pur" xml:space="preserve">
+    <value>Block 1 Purpose</value>
+  </data>
+  <data name="acdocBlock2Proc" xml:space="preserve">
+    <value>Block 2 Processing</value>
+  </data>
+  <data name="acdocBlock2Pur" xml:space="preserve">
+    <value>Block 2 Purpose</value>
+  </data>
+  <data name="acdocBlock3Proc" xml:space="preserve">
+    <value>Block 3 Processing</value>
+  </data>
+  <data name="acdocBlock3Pur" xml:space="preserve">
+    <value>Block 3 Purpose</value>
+  </data>
+  <data name="acdocBlock4Proc" xml:space="preserve">
+    <value>Block 4 Processing</value>
+  </data>
+  <data name="acdocBlock4Pur" xml:space="preserve">
+    <value>Block 4 Purpose</value>
+  </data>
+  <data name="acdocBlock5Proc" xml:space="preserve">
+    <value>Block 5 Processing</value>
+  </data>
+  <data name="acdocBlock5Pur" xml:space="preserve">
+    <value>Block 5 Purpose</value>
+  </data>
+  <data name="acdocDocBlockProc" xml:space="preserve">
+    <value>Document Block Processing</value>
+  </data>
+  <data name="acdocDocBlockPur" xml:space="preserve">
+    <value>Document Block Purpose</value>
+  </data>
+  <data name="acdocFinishNote" xml:space="preserve">
+    <value>On Finish Note</value>
+  </data>
+  <data name="acdocIssuePur" xml:space="preserve">
+    <value>Issue Purpose</value>
+  </data>
+  <data name="acdocRelFldObj" xml:space="preserve">
+    <value>Related Fields Block Objective</value>
+  </data>
+  <data name="acdocScheduleProc" xml:space="preserve">
+    <value>Scheduling Block Processing</value>
+  </data>
+  <data name="acdocStepObjective" xml:space="preserve">
+    <value>Step Objective</value>
+  </data>
+  <data name="ctlAddress" xml:space="preserve">
+    <value>Address Control</value>
+  </data>
+  <data name="ctlCal" xml:space="preserve">
+    <value>Date/Calendar Control</value>
+  </data>
+  <data name="ctlchkbx" xml:space="preserve">
+    <value>Checkbox</value>
+  </data>
+  <data name="ctlCurrencyFld" xml:space="preserve">
+    <value>Currency Field ($ mask)</value>
+  </data>
+  <data name="ctlDD" xml:space="preserve">
+    <value>Dropdown List</value>
+  </data>
+  <data name="ctlGrd" xml:space="preserve">
+    <value>Grid Control (Multiple Rows)</value>
+  </data>
+  <data name="ctlMulticolumnDD" xml:space="preserve">
+    <value>Multi Column Dropdown</value>
+  </data>
+  <data name="ctlMultilineText" xml:space="preserve">
+    <value>Multiline Text Field</value>
+  </data>
+  <data name="ctlpercent" xml:space="preserve">
+    <value>Percent Field (% mask)</value>
+  </data>
+  <data name="ctlSelectContact" xml:space="preserve">
+    <value>Select a Contact</value>
+  </data>
+  <data name="ctlSelectDoc" xml:space="preserve">
+    <value>Select a Document</value>
+  </data>
+  <data name="ctlSelectFile" xml:space="preserve">
+    <value>Select a File</value>
+  </data>
+  <data name="ctlSelectIssue" xml:space="preserve">
+    <value>Select an Issue</value>
+  </data>
+  <data name="ctlSelectOffice" xml:space="preserve">
+    <value>Select an Office</value>
+  </data>
+  <data name="ctlSelectParty" xml:space="preserve">
+    <value>Select a Party</value>
+  </data>
+  <data name="ctlTxtFld" xml:space="preserve">
+    <value>Text Field</value>
+  </data>
+  <data name="ctlUploadDoc" xml:space="preserve">
+    <value>Upload Document</value>
+  </data>
+  <data name="lblAtriumExpects" xml:space="preserve">
+    <value>Atrium expects the following fields to be completed based on the activity you have chosen:</value>
+  </data>
+  <data name="lblAutoStep" xml:space="preserve">
+    <value>Auto Step</value>
+  </data>
+  <data name="lblDirectBF" xml:space="preserve">
+    <value>Direct BF</value>
+  </data>
+  <data name="lblInvalidStepToEnable" xml:space="preserve">
+    <value>Invalid Step Type is enabling a subprocess</value>
+  </data>
+  <data name="lblInvalidStepToTransfer" xml:space="preserve">
+    <value>Invalid Step Type is transferring to subprocess</value>
+  </data>
+  <data name="lblRelatedFields" xml:space="preserve">
+    <value>Related Fields</value>
+  </data>
+  <data name="lblRoleBF" xml:space="preserve">
+    <value>Role-Based BF</value>
+  </data>
+  <data name="lblStepCodeNotFound" xml:space="preserve">
+    <value>Step Code not found.</value>
+  </data>
+  <data name="lblTTGet" xml:space="preserve">
+    <value>Accesses/uses record</value>
+  </data>
+  <data name="lblTTInc" xml:space="preserve">
+    <value>Includes all Related Fields data from Step Code</value>
+  </data>
+  <data name="lblTTIssue" xml:space="preserve">
+    <value>Predetermines location (if Primary), or cross-references (if Secondary)</value>
+  </data>
+  <data name="lblTTLoad" xml:space="preserve">
+    <value>Loads a record that is outside the scope of the file</value>
+  </data>
+  <data name="lblTTNewRec" xml:space="preserve">
+    <value>Creates new record</value>
+  </data>
+  <data name="lblTTQuery" xml:space="preserve">
+    <value>Queries specific row that fits criteria</value>
+  </data>
+  <data name="lblTTSelect" xml:space="preserve">
+    <value>Selects all available rows that fit criteria</value>
+  </data>
+  <data name="lblTTSpecial" xml:space="preserve">
+    <value>Accesses/uses a special pre-defined object</value>
+  </data>
+  <data name="lblViewSourceTemplate" xml:space="preserve">
+    <value>Click to view the source template document</value>
+  </data>
+  <data name="WFDecision" xml:space="preserve">
+    <value>Decision</value>
+  </data>
+  <data name="WFNonRecordedAct" xml:space="preserve">
+    <value>Non-Recorded Activity</value>
+  </data>
+  <data name="WFRecordedAct" xml:space="preserve">
+    <value>Recorded Activity</value>
+  </data>
+  <data name="WFSubprocess" xml:space="preserve">
+    <value>Subprocess</value>
+  </data>
+  <data name="lblADMSDataRetrieval" xml:space="preserve">
+    <value>&lt;strong&gt;ADMS Data Retrieval&lt;/strong&gt;: This step performs a &lt;strong&gt;lookup in ADMS to retrieve information&lt;/strong&gt;</value>
+  </data>
+  <data name="lblADMSDataXchange" xml:space="preserve">
+    <value>&lt;strong&gt;ADMS Data Exchange&lt;/strong&gt;: This step &lt;strong&gt;sends data about the appeal&lt;/strong&gt; to ADMS</value>
+  </data>
+  <data name="lblADMSDecision" xml:space="preserve">
+    <value>&lt;strong&gt;ADMS Data Exchange&lt;/strong&gt;: This step &lt;strong&gt;sends the decision document&lt;/strong&gt; to ADMS</value>
+  </data>
+  <data name="lblADMSParticipantDump" xml:space="preserve">
+    <value>&lt;strong&gt;ADMS Data Exchange&lt;/strong&gt;: This step &lt;strong&gt;sends all participant data&lt;/strong&gt; to ADMS</value>
+  </data>
+  <data name="lblBlock1" xml:space="preserve">
+    <value>Related Fields Block 1</value>
+  </data>
+  <data name="lblBlock2" xml:space="preserve">
+    <value>Related Fields Block 2</value>
+  </data>
+  <data name="lblBlock3" xml:space="preserve">
+    <value>Related Fields Block 3</value>
+  </data>
+  <data name="lblBlock4" xml:space="preserve">
+    <value>Related Fields Block 4</value>
+  </data>
+  <data name="lblBlock5" xml:space="preserve">
+    <value>Related Fields Block 5</value>
+  </data>
+  <data name="lblDocBlock" xml:space="preserve">
+    <value>Document Block</value>
+  </data>
+  <data name="lblDocDump" xml:space="preserve">
+    <value>&lt;strong&gt;Document Exchange&lt;/strong&gt;: This step prompts the user to &lt;strong&gt;select documents to send&lt;/strong&gt; to the EI Commission (EI) or HRSDC (IS)</value>
+  </data>
+  <data name="lblInit" xml:space="preserve">
+    <value>Initiate Block</value>
+  </data>
+  <data name="lblNAWContents" xml:space="preserve">
+    <value>New Activity Wizard Contents</value>
+  </data>
+  <data name="lblOnFinish" xml:space="preserve">
+    <value>On Finish</value>
+  </data>
+  <data name="lblPastE" xml:space="preserve">
+    <value>Past Tense (Eng.):</value>
+  </data>
+  <data name="lblPastF" xml:space="preserve">
+    <value>Past Tense (Fre.):</value>
+  </data>
+  <data name="lblPresentE" xml:space="preserve">
+    <value>Present Tense (Eng.):</value>
+  </data>
+  <data name="lblPresentF" xml:space="preserve">
+    <value>Present Tense (Fre.):</value>
+  </data>
+  <data name="lblSchedBlock" xml:space="preserve">
+    <value>Scheduling Block</value>
+  </data>
+  <data name="lblSelectIssue" xml:space="preserve">
+    <value>Select Issue(s)</value>
+  </data>
+  <data name="lblStepCode" xml:space="preserve">
+    <value>Step Code:</value>
+  </data>
+  <data name="lblStepCodeProperties" xml:space="preserve">
+    <value>Step Code Properties</value>
+  </data>
+  <data name="lblDefaultValue" xml:space="preserve">
+    <value>Default Value</value>
+  </data>
+  <data name="lblField" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="lblFileName" xml:space="preserve">
+    <value>File Name:</value>
+  </data>
+  <data name="lblFileNum" xml:space="preserve">
+    <value>File Number:</value>
+  </data>
+  <data name="lblInitPar" xml:space="preserve">
+    <value>Upon clicking Next in the New Activity Wizard when performing this activity, the following processing of records occurs &lt;strong&gt;before displaying&lt;/strong&gt; the appropriate block to the user:</value>
+  </data>
+  <data name="lblIssueName" xml:space="preserve">
+    <value>Issue Name:</value>
+  </data>
+  <data name="lblLayout" xml:space="preserve">
+    <value>Layout:</value>
+  </data>
+  <data name="lblObjectAlias" xml:space="preserve">
+    <value>Object Alias</value>
+  </data>
+  <data name="lblParentRow" xml:space="preserve">
+    <value>Parent Row</value>
+  </data>
+  <data name="lblPrimaryIsSet" xml:space="preserve">
+    <value>In the &lt;strong&gt;Select Issue(s)&lt;/strong&gt; block, the following &lt;strong&gt;Primary Issue&lt;/strong&gt; is set by default:</value>
+  </data>
+  <data name="lblProcessing" xml:space="preserve">
+    <value>Processing:</value>
+  </data>
+  <data name="lblPurpose" xml:space="preserve">
+    <value>Purpose:</value>
+  </data>
+  <data name="lblTable" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="lblTask" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="lblADMSIssue" xml:space="preserve">
+    <value>&lt;strong&gt;ADMS Data Exchange&lt;/strong&gt;: This step &lt;strong&gt;sends all appeal issue data&lt;/strong&gt; to ADMS</value>
+  </data>
+  <data name="lblControlType" xml:space="preserve">
+    <value>Type of Control</value>
+  </data>
+  <data name="lblDisplayedFields" xml:space="preserve">
+    <value>The following fields are &lt;strong&gt;shown to the user&lt;/strong&gt; (for display or data entry purposes):</value>
+  </data>
+  <data name="lblFoundInWF" xml:space="preserve">
+    <value>Found in Workflow:</value>
+  </data>
+  <data name="lblHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="lblLabel" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblLookupTable" xml:space="preserve">
+    <value>Lookup Table</value>
+  </data>
+  <data name="lblNotVisible" xml:space="preserve">
+    <value>The following fields are &lt;strong&gt;not visible to the user&lt;/strong&gt; and are applied the following values:</value>
+  </data>
+  <data name="lblObject" xml:space="preserve">
+    <value>Object</value>
+  </data>
+  <data name="lblReadOnly" xml:space="preserve">
+    <value>Read Only</value>
+  </data>
+  <data name="lblRequired" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="lblUsedRecordInit" xml:space="preserve">
+    <value>The following processing of records occurs &lt;strong&gt;before displaying&lt;/strong&gt; the appropriate block to the user:</value>
+  </data>
+  <data name="lblGoTo" xml:space="preserve">
+    <value>Go To</value>
+  </data>
+  <data name="lblParameter" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="lblAttachedDocs" xml:space="preserve">
+    <value>The following documents &lt;strong&gt;will be attached&lt;/strong&gt; to the base document:</value>
+  </data>
+  <data name="lblAttachmentVals" xml:space="preserve">
+    <value>The attachments are applied the following values:</value>
+  </data>
+  <data name="lblAttendeeDefaults" xml:space="preserve">
+    <value>The following &lt;strong&gt;Attendee&lt;/strong&gt; values are applied:</value>
+  </data>
+  <data name="lblAutoReply" xml:space="preserve">
+    <value>Auto Reply to</value>
+  </data>
+  <data name="lblAutoReplyAll" xml:space="preserve">
+    <value>Auto Reply to All to</value>
+  </data>
+  <data name="lblBaseDocPar" xml:space="preserve">
+    <value>The following values are applied to the base document (i.e. &lt;strong&gt;Document0&lt;/strong&gt;) before it is generated and displayed to the user:</value>
+  </data>
+  <data name="lblBFDate" xml:space="preserve">
+    <value>BF Date Calculation</value>
+  </data>
+  <data name="lblBFDesc" xml:space="preserve">
+    <value>BF Description</value>
+  </data>
+  <data name="lblBFOnlyBF" xml:space="preserve">
+    <value>BF Only</value>
+  </data>
+  <data name="lblBFRole" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lblBFsCreated" xml:space="preserve">
+    <value>BFs Created:</value>
+  </data>
+  <data name="lblBFType" xml:space="preserve">
+    <value>BF Type</value>
+  </data>
+  <data name="lblCompletedBy" xml:space="preserve">
+    <value>Completed By</value>
+  </data>
+  <data name="lblConnector" xml:space="preserve">
+    <value>Connector</value>
+  </data>
+  <data name="lblDocDisp" xml:space="preserve">
+    <value>Document Display Block</value>
+  </data>
+  <data name="lblFwd" xml:space="preserve">
+    <value>Forward of</value>
+  </data>
+  <data name="lblHasMailConnector" xml:space="preserve">
+    <value>&lt;p&gt;This step has an incoming &lt;strong&gt;Mail Connector&lt;/strong&gt;. The following action will take place upon generating this template:&lt;/p&gt;</value>
+  </data>
+  <data name="lblNextStepBF" xml:space="preserve">
+    <value>Next Step</value>
+  </data>
+  <data name="lblNote" xml:space="preserve">
+    <value>Note:</value>
+  </data>
+  <data name="lblRecipientVals" xml:space="preserve">
+    <value>The following &lt;strong&gt;Recipient&lt;/strong&gt; values are applied:</value>
+  </data>
+  <data name="lblRoleType" xml:space="preserve">
+    <value>Role Type</value>
+  </data>
+  <data name="lblSchedDefaults" xml:space="preserve">
+    <value>The following values are applied to the appointment before it is displayed to the user:</value>
+  </data>
+  <data name="lblViewDoc" xml:space="preserve">
+    <value>View the source template document:</value>
+  </data>
+  <data name="lblAllowedOn" xml:space="preserve">
+    <value>Allowed on:</value>
+  </data>
+  <data name="lblAvailRestrictions" xml:space="preserve">
+    <value>Availability Restrictions:</value>
+  </data>
+  <data name="lblDeniedOn" xml:space="preserve">
+    <value>Denied on:</value>
+  </data>
+  <data name="lblFileType" xml:space="preserve">
+    <value>File Type</value>
+  </data>
+  <data name="lblIssueContext" xml:space="preserve">
+    <value>where its location is predetermined through the Primary Issue Related Fields data associated with this step&lt;/p&gt;</value>
+  </data>
+  <data name="lblMetaFileType" xml:space="preserve">
+    <value>Meta File Type</value>
+  </data>
+  <data name="lblRestrictionFileNum" xml:space="preserve">
+    <value>Full File Number</value>
+  </data>
+  <data name="lblRestrictionType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lblTreeContext" xml:space="preserve">
+    <value>where its location is determined by the context in which the Context Menu is used to create the new file&lt;/p&gt;</value>
+  </data>
+  <data name="lblAutoCreate" xml:space="preserve">
+    <value>The following steps are &lt;strong&gt;automatically created&lt;/strong&gt; as part of performing</value>
+  </data>
+  <data name="lblAutomaticStep" xml:space="preserve">
+    <value>Automatic Step:</value>
+  </data>
+  <data name="lblAutoNextSteps" xml:space="preserve">
+    <value>Automatic Next Steps:</value>
+  </data>
+  <data name="lblCreatedAutomatically" xml:space="preserve">
+    <value>This step is &lt;strong&gt;created automatically&lt;/strong&gt; as part of performing</value>
+  </data>
+  <data name="lblInWF" xml:space="preserve">
+    <value>in worfklow</value>
+  </data>
+  <data name="CALFileNumber" xml:space="preserve">
+    <value>File Number: </value>
+  </data>
+  <data name="CALFileType" xml:space="preserve">
+    <value>File Type: </value>
+  </data>
+  <data name="CALHearingMethod" xml:space="preserve">
+    <value>Hearing Type: </value>
+  </data>
+  <data name="CALHearingStatus" xml:space="preserve">
+    <value>Hearing Status: </value>
+  </data>
+  <data name="AtriumCal" xml:space="preserve">
+    <value>Atrium Calendar</value>
+  </data>
+  <data name="AtriumCalFor" xml:space="preserve">
+    <value>Atrium Calendar for</value>
+  </data>
+  <data name="MyCal" xml:space="preserve">
+    <value>My Calendar</value>
+  </data>
+  <data name="SelectCal" xml:space="preserve">
+    <value>Select the calendar you wish to subscribe to</value>
+  </data>
+  <data name="CALGeneralAppointmentMessage" xml:space="preserve">
+    <value>This is a generic appointment. It is currently not associated with a hearing in Atrium. It may have been created on a personal, appeal, or administrative file. The subject, date, and time associated with the appointment in Atrium has been used in the creation of this Outlook appointment.</value>
+  </data>
+  <data name="CALNoteAppointment" xml:space="preserve">
+    <value>Note: \n\n•	This appointment is not marked as busy in your Outlook calendar. \n\n•	There is no Outlook reminder for this appointment. \n\n•	It is your responsibility to track hearings and appointments in Atrium. \n\n•	This appointment is read-only. It cannot be edited via Outlook. \n\n•	This appointment can be edited in Atrium. This appointment will update when it is updated in Atrium.</value>
+  </data>
+  <data name="CALNoteHearing" xml:space="preserve">
+    <value>Note: \n\n•	This appointment is not marked as busy in your Outlook calendar. \n\n•	There is no Outlook reminder for this appointment. \n\n•	It is your responsibility to track hearings and appointments in Atrium. \n\n•	This appointment is read-only. It cannot be edited via Outlook. \n\n•	This appointment can be edited in Atrium. This appointment will update when it is updated in Atrium.\n\n•	If there are issues with the hearing appointment, communicate with the file CMO via Atrium. The CMO can edit the hearing appointment details. This appointment will be updated in Outlook once it has been updated by the CMO in Atrium.</value>
+  </data>
+  <data name="CALAppellantName" xml:space="preserve">
+    <value>Appellant Name: </value>
+  </data>
+  <data name="CALCMO" xml:space="preserve">
+    <value>Case Management Officer (CMO): </value>
+  </data>
+  <data name="CALFileName" xml:space="preserve">
+    <value>File Name: </value>
+  </data>
+  <data name="CALGeneralAppointment" xml:space="preserve">
+    <value>General Appointment</value>
+  </data>
+  <data name="CALHearingAppointment" xml:space="preserve">
+    <value>Hearing Appointment</value>
+  </data>
+  <data name="CALHearingDateTime" xml:space="preserve">
+    <value>Hearing Date / Time: </value>
+  </data>
+  <data name="CALLevel" xml:space="preserve">
+    <value>Level: </value>
+  </data>
+  <data name="CALProgram" xml:space="preserve">
+    <value>Program: </value>
+  </data>
+  <data name="CALRepName" xml:space="preserve">
+    <value>Rep Name: </value>
+  </data>
+  <data name="CALTribunalMember" xml:space="preserve">
+    <value>Tribunal Member: </value>
+  </data>
+  <data name="AtriumVideos" xml:space="preserve">
+    <value>Atrium Videos</value>
+  </data>
+</root>

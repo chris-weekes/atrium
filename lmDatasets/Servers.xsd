@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Servers" targetNamespace="http://tempuri.org/Servers.xsd" xmlns:mstns="http://tempuri.org/Servers.xsd" xmlns="http://tempuri.org/Servers.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Servers" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Servers" msprop:Generator_DataSetName="Servers">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Server" msprop:Generator_UserTableName="Server" msprop:Generator_RowDeletedName="ServerRowDeleted" msprop:Generator_RowChangedName="ServerRowChanged" msprop:Generator_RowClassName="ServerRow" msprop:Generator_RowChangingName="ServerRowChanging" msprop:Generator_RowEvArgName="ServerRowChangeEvent" msprop:Generator_RowEvHandlerName="ServerRowChangeEventHandler" msprop:Generator_TableClassName="ServerDataTable" msprop:Generator_TableVarName="tableServer" msprop:Generator_RowDeletingName="ServerRowDeleting" msprop:Generator_TablePropName="Server">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="serverName" msprop:Generator_UserColumnName="serverName" msprop:Generator_ColumnPropNameInRow="serverName" msprop:Generator_ColumnVarNameInTable="columnserverName" msprop:Generator_ColumnPropNameInTable="serverNameColumn" type="xs:string" />
+              <xs:element name="useRemote" msprop:Generator_UserColumnName="useRemote" msprop:Generator_ColumnPropNameInRow="useRemote" msprop:Generator_ColumnVarNameInTable="columnuseRemote" msprop:Generator_ColumnPropNameInTable="useRemoteColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="remoteUrl" msprop:Generator_UserColumnName="remoteUrl" msprop:Generator_ColumnPropNameInRow="remoteUrl" msprop:Generator_ColumnVarNameInTable="columnremoteUrl" msprop:Generator_ColumnPropNameInTable="remoteUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="dbConnect" msprop:Generator_UserColumnName="dbConnect" msprop:Generator_ColumnPropNameInRow="dbConnect" msprop:Generator_ColumnVarNameInTable="columndbConnect" msprop:Generator_ColumnPropNameInTable="dbConnectColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="helpUrl" msprop:Generator_UserColumnName="helpUrl" msprop:Generator_ColumnPropNameInRow="helpUrl" msprop:Generator_ColumnVarNameInTable="columnhelpUrl" msprop:Generator_ColumnPropNameInTable="helpUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="reportUrl" msprop:Generator_UserColumnName="reportUrl" msprop:Generator_ColumnPropNameInRow="reportUrl" msprop:Generator_ColumnVarNameInTable="columnreportUrl" msprop:Generator_ColumnPropNameInTable="reportUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="reportService" msprop:Generator_UserColumnName="reportService" msprop:Generator_ColumnPropNameInRow="reportService" msprop:Generator_ColumnVarNameInTable="columnreportService" msprop:Generator_ColumnPropNameInTable="reportServiceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="whatsnew" msprop:Generator_UserColumnName="whatsnew" msprop:Generator_ColumnPropNameInRow="whatsnew" msprop:Generator_ColumnVarNameInTable="columnwhatsnew" msprop:Generator_ColumnPropNameInTable="whatsnewColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DeskbookHomePath" msprop:Generator_UserColumnName="DeskbookHomePath" msprop:Generator_ColumnPropNameInRow="DeskbookHomePath" msprop:Generator_ColumnVarNameInTable="columnDeskbookHomePath" msprop:Generator_ColumnPropNameInTable="DeskbookHomePathColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DeskbookSearchPath" msprop:Generator_UserColumnName="DeskbookSearchPath" msprop:Generator_ColumnPropNameInRow="DeskbookSearchPath" msprop:Generator_ColumnVarNameInTable="columnDeskbookSearchPath" msprop:Generator_ColumnPropNameInTable="DeskbookSearchPathColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DeskbookCheatSheet" msprop:Generator_UserColumnName="DeskbookCheatSheet" msprop:Generator_ColumnPropNameInRow="DeskbookCheatSheet" msprop:Generator_ColumnVarNameInTable="columnDeskbookCheatSheet" msprop:Generator_ColumnPropNameInTable="DeskbookCheatSheetColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DeskbookQuickSearchHelpPath" msprop:Generator_UserColumnName="DeskbookQuickSearchHelpPath" msprop:Generator_ColumnVarNameInTable="columnDeskbookQuickSearchHelpPath" msprop:Generator_ColumnPropNameInRow="DeskbookQuickSearchHelpPath" msprop:Generator_ColumnPropNameInTable="DeskbookQuickSearchHelpPathColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="reportAdminUrl" msprop:Generator_UserColumnName="reportAdminUrl" msprop:Generator_ColumnPropNameInRow="reportAdminUrl" msprop:Generator_ColumnVarNameInTable="columnreportAdminUrl" msprop:Generator_ColumnPropNameInTable="reportAdminUrlColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Server" />
+      <xs:field xpath="mstns:serverName" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

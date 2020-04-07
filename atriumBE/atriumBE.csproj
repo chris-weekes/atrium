@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CAFC739-5ADC-4205-A2C9-A4157126071D}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>atriumBE</AssemblyName>
+    <AssemblyOriginatorKeyFile>asptek.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>atriumBE</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Remote|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug Remote\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release 32|AnyCPU'">
+    <OutputPath>bin\Release 32\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug Remote|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug Remote\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release 32|x86'">
+    <OutputPath>bin\x86\Release 32\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\atLayers\atDAL.csproj">
+      <Project>{4eab95b9-ef29-4b01-80f6-1911ad5ac313}</Project>
+      <Name>atDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atriumDAL\atriumDAL.csproj">
+      <Project>{1c4fa2f9-056b-4d21-85d5-41938478edc4}</Project>
+      <Name>atriumDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lmDatasets\lmDatasets.csproj">
+      <Project>{9f21694a-11ad-43db-8db8-62f4e52684ab}</Project>
+      <Name>lmDatasets</Name>
+    </ProjectReference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\atDates\atDates.csproj">
+      <Name>atDates</Name>
+      <Project>{B9C1627D-F333-484E-8B2E-54DDF3EDE336}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\atLogic\atLogic.csproj">
+      <Project>{2C02D0C1-3DA4-448C-AF1E-39ABC558B0D7}</Project>
+      <Name>atLogic</Name>
+    </ProjectReference>
+    <Reference Include="TXTextControl, Version=21.0.1400.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 21.0.NET for Windows Forms\Assembly\TXTextControl.dll</HintPath>
+    </Reference>
+    <Reference Include="TXTextControl.Windows.Forms, Version=21.0.600.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 21.0.NET for Windows Forms\Assembly\TXTextControl.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACManagement\ACControlType_BE.cs" />
+    <Compile Include="ACManagement\ACDependencyType_BE.cs" />
+    <Compile Include="ACManagement\ACDocumentation_BE.cs" />
+    <Compile Include="ACManagement\ACFileType_BE.cs" />
+    <Compile Include="ACManagement\ACMenu_BE.cs" />
+    <Compile Include="ACManagement\ACSeriesType_BE.cs" />
+    <Compile Include="ACManagement\ACTaskType_BE.cs" />
+    <Compile Include="ACManagement\Menu_BE.cs" />
+    <Compile Include="ACManagement\SeriesPackage_BE.cs" />
+    <Compile Include="ACManagement\SeriesStatus_BE.cs" />
+    <Compile Include="ACManagement\WFValidator.cs" />
+    <Compile Include="AdvisoryManagment\AdvisoryManager.cs" />
+    <Compile Include="AppSetting_BE.cs" />
+    <Compile Include="AtriumApp.cs" />
+    <Compile Include="CLASManagement\BankruptcyAccount_BE.cs" />
+    <Compile Include="CLASManagement\Bankruptcy_BE.cs" />
+    <Compile Include="CLASManagement\CashBlotter_BE.cs" />
+    <Compile Include="CLASManagement\CBDetail_BE.cs" />
+    <Compile Include="CLASManagement\CompOfferDetail_BE.cs" />
+    <Compile Include="CLASManagement\CompOffer_BE.cs" />
+    <Compile Include="CLASManagement\Cost_BE.cs" />
+    <Compile Include="CLASManagement\Debtor_BE.cs" />
+    <Compile Include="CLASManagement\Debt_BE.cs" />
+    <Compile Include="CLASManagement\CLASManager.cs" />
+    <Compile Include="CLASManagement\Hardship_BE.cs" />
+    <Compile Include="CLASManagement\InsolvencyAccount_BE.cs" />
+    <Compile Include="CLASManagement\Insolvency_BE.cs" />
+    <Compile Include="CLASManagement\JudgmentAccount_BE.cs" />
+    <Compile Include="CLASManagement\Judgment_BE.cs" />
+    <Compile Include="CLASManagement\Property_BE.cs" />
+    <Compile Include="CLASManagement\WritHistory_BE.cs" />
+    <Compile Include="CLASManagement\Writ_BE.cs" />
+    <Compile Include="ddGeneric_BE.cs" />
+    <Compile Include="ddLookup_BE.cs" />
+    <Compile Include="ddRuleBE.cs" />
+    <Compile Include="EventLog_BE.cs" />
+    <Compile Include="FileManagement\ACEngine.cs" />
+    <Compile Include="ACManagement\ACBF_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACManagement\ACConvert_BE.cs" />
+    <Compile Include="ACManagement\OfficeMandate_BE.cs" />
+    <Compile Include="ddField_BE.cs" />
+    <Compile Include="ddTable_BE.cs" />
+    <Compile Include="DocManagement\DocContent_BE.cs" />
+    <Compile Include="CLASManagement\ActivityAttribution_BE.cs" />
+    <Compile Include="FileManagement\ActivityXRef_BE.cs" />
+    <Compile Include="atriumRes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>atriumRes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="DocManagement\Attachment_BE.cs" />
+    <Compile Include="DocManagement\DocManager.cs" />
+    <Compile Include="DocManagement\Document_BE.cs" />
+    <Compile Include="DocManagement\DocXRef_BE.cs" />
+    <Compile Include="FileManagement\Appointment_BE.cs" />
+    <Compile Include="FileManagement\ApptRecurrence_BE.cs" />
+    <Compile Include="FileManagement\Attendee_BE.cs" />
+    <Compile Include="FileManagement\ddEntity.cs" />
+    <Compile Include="FileManagement\FileAccess_BE.cs" />
+    <Compile Include="FileManagement\FileAKA_BE.cs" />
+    <Compile Include="FileManagement\FileFlag_BE.cs" />
+    <Compile Include="FileManagement\ProcessContext_BE.cs" />
+    <Compile Include="HelpManagement\HelpManager.cs" />
+    <Compile Include="HelpManagement\hlpImage_BE.cs" />
+    <Compile Include="HelpManagement\hlpPage_BE.cs" />
+    <Compile Include="HelpManagement\hlpXml_BE.cs" />
+    <Compile Include="IddRuleBE.cs" />
+    <Compile Include="Legislation_BE.cs" />
+    <Compile Include="FileManagement\Person_BE.cs" />
+    <Compile Include="FileManagement\FileMetaType_BE.cs" />
+    <Compile Include="FileManagement\FileXRef_BE.cs" />
+    <Compile Include="DocManagement\Recipient_BE.cs" />
+    <Compile Include="CLASManagement\AccountHistory_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACManagement\ACDependency_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACManagement\ACDisb_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACManagement\ACManager.cs" />
+    <Compile Include="ACManagement\ACSeries_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\ActivityBF_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACManagement\ActivityCode_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACManagement\ActivityField_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\ActivityTime_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\Activity_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\Address_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\AKA_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\ArchiveBatch_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AtriumEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Batch_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BEManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\Contact_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACManagement\DisbursementType_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\Disbursement_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\EFile_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="fields.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLASManagement\FileAccount_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\FileContact_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLASManagement\FileHistory_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\FileManager.cs" />
+    <Compile Include="FileManagement\FileOffice_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Issue_BE.cs" />
+    <Compile Include="AdvisoryManagment\Opinion_BE.cs" />
+    <Compile Include="FileManagement\Process_BE.cs" />
+    <Compile Include="MemberManagement\MemberManager.cs" />
+    <Compile Include="MemberManagement\TribunalMemberAssignment_BE.cs" />
+    <Compile Include="SearchTerm_BE.cs" />
+    <Compile Include="Search_BE.cs" />
+    <Compile Include="Msg_BE.cs" />
+    <Compile Include="OfficeManagement\MemberProfile_BE.cs" />
+    <Compile Include="OutlookCalAppMsg_BE.cs" />
+    <Compile Include="PostalCodeLocation_BE.cs" />
+    <Compile Include="Provision_BE.cs" />
+    <Compile Include="FileManagement\RelatedFieldBP.cs" />
+    <Compile Include="ListMember_BE.cs" />
+    <Compile Include="List_BE.cs" />
+    <Compile Include="Map_BE.cs" />
+    <Compile Include="OfficeManagement\ContactEmail_BE.cs" />
+    <Compile Include="FileManagement\IRP_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLASManagement\OfficeAccount_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OfficeManagement\OfficeManager.cs" />
+    <Compile Include="OfficeManagement\OfficerDelegate_BE.cs" />
+    <Compile Include="OfficeManagement\OfficerPrefs_BE.cs" />
+    <Compile Include="OfficeManagement\OfficerRole_BE.cs" />
+    <Compile Include="OfficeManagement\Officer_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OfficeManagement\Office_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PLOffice_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="FileManagement\RAClientImpact_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\RiskAssessment_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACManagement\Series_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManagement\SRP_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CLASManagement\Taxing_BE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Province_BE.cs" />
+    <Compile Include="Proxy.cs" />
+    <Compile Include="RedemptionLoader.cs" />
+    <Compile Include="SecurityManagement\secFeature_BE.cs" />
+    <Compile Include="FileManagement\secFileRule_BE.cs" />
+    <Compile Include="SecurityManagement\secGroup_BE.cs" />
+    <Compile Include="SecurityManagement\secMembership_BE.cs" />
+    <Compile Include="SecurityManagement\secPermission_BE.cs" />
+    <Compile Include="SecurityManagement\secPermLevel_BE.cs" />
+    <Compile Include="SecurityManagement\secRule_BE.cs" />
+    <Compile Include="SecurityManagement\SecurityExceptions.cs" />
+    <Compile Include="SecurityManagement\SecurityManager.cs" />
+    <Compile Include="SecurityManagement\secUser_BE.cs" />
+    <Compile Include="Servers.cs">
+      <DependentUpon>Servers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Servers.Designer.cs">
+      <DependentUpon>Servers.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="OfficeManagement\ServiceCentre_BE.cs" />
+    <Compile Include="SSTManagement\ADMSEAppeal_BE.cs" />
+    <Compile Include="SSTManagement\ADMSEDecision_BE.cs" />
+    <Compile Include="SSTManagement\ADMSEIssues_BE.cs" />
+    <Compile Include="SSTManagement\ADMSEParticipant_BE.cs" />
+    <Compile Include="SSTManagement\ADMSPAppeal_BE.cs" />
+    <Compile Include="SSTManagement\ADMSPDecision_BE.cs" />
+    <Compile Include="SSTManagement\ADMSPIssues_BE.cs" />
+    <Compile Include="SSTManagement\ADMSPParticipant_BE.cs" />
+    <Compile Include="SSTManagement\ADMS_Lookup.cs" />
+    <Compile Include="SSTManagement\DocDumpBE.cs" />
+    <Compile Include="SSTManagement\DocTransferBE.cs" />
+    <Compile Include="SSTManagement\FileParty_BE.cs" />
+    <Compile Include="SSTManagement\ADMSLookup_BE.cs" />
+    <Compile Include="SSTManagement\FormHearing_BE.cs" />
+    <Compile Include="SSTManagement\Hearing_BE.cs" />
+    <Compile Include="SSTManagement\SSTAppealGround_BE.cs" />
+    <Compile Include="SSTManagement\SSTCaseMatter_BE.cs" />
+    <Compile Include="SSTManagement\SSTCase_BE.cs" />
+    <Compile Include="SSTManagement\SSTDecision_BE.cs" />
+    <Compile Include="SSTManagement\SSTGroup_BE.cs" />
+    <Compile Include="SSTManagement\SSTManager.cs" />
+    <Compile Include="SSTManagement\SSTReqRecipient_BE.cs" />
+    <Compile Include="SSTManagement\SSTRequest_BE.cs" />
+    <Compile Include="TaxRate_BE.cs" />
+    <Compile Include="TemplateBE.cs" />
+    <Compile Include="FileManagement\Workflow.cs" />
+    <None Include="asptek.snk" />
+    <None Include="Properties\DataSources\lmDatasets.atriumDB.datasource" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Servers.xsc">
+      <DependentUpon>Servers.xsd</DependentUpon>
+    </None>
+    <None Include="Servers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Servers.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Servers.xss">
+      <DependentUpon>Servers.xsd</DependentUpon>
+    </None>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="atriumRes.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>atriumRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Redemption">
+      <Guid>{2D5E2D34-BED5-4B9F-9793-A31E26E6806E}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CodeManagement\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SentToShare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SentToShareFail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SentToShareSuccess.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,2183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AtriumX" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="basicAtriumX_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsoma:OptimizedMimeSerialization xmlns:wsoma="http://schemas.xmlsoap.org/ws/2004/09/policy/optimizedmimeserialization" />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:54039/lmras/AtriumX.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:54039/lmras/AtriumX.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:54039/lmras/AtriumX.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/lmras" />
+      <xsd:import schemaLocation="http://localhost:54039/lmras/AtriumX.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost:54039/lmras/AtriumX.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/lmDatasets" />
+      <xsd:import schemaLocation="http://localhost:54039/lmras/AtriumX.svc?xsd=xsd7" namespace="http://tempuri.org/appDB.xsd" />
+      <xsd:import schemaLocation="http://localhost:54039/lmras/AtriumX.svc?xsd=xsd9" namespace="http://tempuri.org/HelpDB.xsd" />
+      <xsd:import schemaLocation="http://localhost:54039/lmras/AtriumX.svc?xsd=xsd11" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+      <xsd:import schemaLocation="http://localhost:54039/lmras/AtriumX.svc?xsd=xsd12" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:54039/lmras/AtriumX.svc?xsd=xsd14" namespace="http://tempuri.org/Advisory.xsd" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAtriumX_OfficerPrefsLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerPrefsLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerPrefsLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerPrefsLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerRoleLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerRoleLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerRoleLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerRoleLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ServiceCentreLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:ServiceCentreLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ServiceCentreLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ServiceCentreLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_secMembershipLoadByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:secMembershipLoadByUserId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_secMembershipLoadByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:secMembershipLoadByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_secUserLoadByUserid_InputMessage">
+    <wsdl:part name="parameters" element="tns:secUserLoadByUserid" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_secUserLoadByUserid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:secUserLoadByUseridResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_secUserLoadByUserName_InputMessage">
+    <wsdl:part name="parameters" element="tns:secUserLoadByUserName" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_secUserLoadByUserName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:secUserLoadByUserNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocContentAuditDelete_InputMessage">
+    <wsdl:part name="parameters" element="tns:DocContentAuditDelete" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocContentAuditDelete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DocContentAuditDeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocContentIsLatest_InputMessage">
+    <wsdl:part name="parameters" element="tns:DocContentIsLatest" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocContentIsLatest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DocContentIsLatestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocContentLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:DocContentLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocContentLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DocContentLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocContentLoadVersionHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:DocContentLoadVersionHistory" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocContentLoadVersionHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DocContentLoadVersionHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocXrefLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:DocXrefLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocXrefLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DocXrefLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityBFLoadBF_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityBFLoadBF" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityBFLoadBF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityBFLoadBFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ContactLoadByte_InputMessage">
+    <wsdl:part name="parameters" element="tns:ContactLoadByte" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ContactLoadByte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ContactLoadByteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileSearch" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocShortcuts_InputMessage">
+    <wsdl:part name="parameters" element="tns:DocShortcuts" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DocShortcuts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DocShortcutsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ContactSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:ContactSearch" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ContactSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ContactSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_PartySearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:PartySearch" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_PartySearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PartySearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileSearchDates_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileSearchDates" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileSearchDates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileSearchDatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileSearchSimple_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileSearchSimple" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileSearchSimple_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileSearchSimpleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileSearchAdvanced_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileSearchAdvanced" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileSearchAdvanced_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileSearchAdvancedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileSearchByThread_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileSearchByThread" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileSearchByThread_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileSearchByThreadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_HitHilite_InputMessage">
+    <wsdl:part name="parameters" element="tns:HitHilite" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_HitHilite_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HitHiliteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_SearchByContact_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchByContact" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_SearchByContact_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchByContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_Search_InputMessage">
+    <wsdl:part name="parameters" element="tns:Search" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_Search_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_SearchQuick_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchQuick" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_SearchQuick_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchQuickResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AddressLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddressLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AddressLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddressLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AddressLoadByContactId_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddressLoadByContactId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AddressLoadByContactId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddressLoadByContactIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_hlpImageLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:hlpImageLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_hlpImageLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:hlpImageLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_hlpPageLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:hlpPageLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_hlpPageLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:hlpPageLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_hlpXmlLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:hlpXmlLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_hlpXmlLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:hlpXmlLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_CashBlotterLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:CashBlotterLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_CashBlotterLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CashBlotterLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_CashBlotterLoadbyOfficeId_InputMessage">
+    <wsdl:part name="parameters" element="tns:CashBlotterLoadbyOfficeId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_CashBlotterLoadbyOfficeId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CashBlotterLoadbyOfficeIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_CBDetailLoadByCashBlotterId_InputMessage">
+    <wsdl:part name="parameters" element="tns:CBDetailLoadByCashBlotterId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_CBDetailLoadByCashBlotterId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CBDetailLoadByCashBlotterIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DebtorLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:DebtorLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DebtorLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DebtorLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficeAccountLoadByFileId_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficeAccountLoadByFileId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficeAccountLoadByFileId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficeAccountLoadByFileIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_TaxingLoadByOfficeId_InputMessage">
+    <wsdl:part name="parameters" element="tns:TaxingLoadByOfficeId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_TaxingLoadByOfficeId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TaxingLoadByOfficeIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_TaxingLoadBySrpID_InputMessage">
+    <wsdl:part name="parameters" element="tns:TaxingLoadBySrpID" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_TaxingLoadBySrpID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TaxingLoadBySrpIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DisbursementLoadByActivityId_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisbursementLoadByActivityId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_DisbursementLoadByActivityId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisbursementLoadByActivityIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_Activity_Load_InputMessage">
+    <wsdl:part name="parameters" element="tns:Activity_Load" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_Activity_Load_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Activity_LoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityLoadByProcessId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityLoadByProcessId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityLoadByProcessId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityLoadByProcessIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityBFLoadCompleted_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityBFLoadCompleted" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityBFLoadCompleted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityBFLoadCompletedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityBFLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityBFLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityBFLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityBFLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityBFLoadByActivityId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityBFLoadByActivityId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityBFLoadByActivityId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityBFLoadByActivityIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadByActivityId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadByActivityId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadByActivityId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadByActivityIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadSRPClientByOfficerId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadSRPClientByOfficerId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadSRPClientByOfficerId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadSRPClientByOfficerIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadSRPClientBySRPID_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadSRPClientBySRPID" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadSRPClientBySRPID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadSRPClientBySRPIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadByOfficerId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadByOfficerId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadByOfficerId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadByOfficerIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadBySRPID_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadBySRPID" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadBySRPID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadBySRPIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadBranchByOfficerId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadBranchByOfficerId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadBranchByOfficerId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadBranchByOfficerIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadBranchBySRPID_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadBranchBySRPID" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityTimeLoadBranchBySRPID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityTimeLoadBranchBySRPIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityXRefLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityXRefLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ActivityXRefLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivityXRefLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AppointmentLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:AppointmentLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AppointmentLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AppointmentLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AppointmentLoadByContactId_InputMessage">
+    <wsdl:part name="parameters" element="tns:AppointmentLoadByContactId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AppointmentLoadByContactId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AppointmentLoadByContactIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AppointmentLoadByContactIdDates_InputMessage">
+    <wsdl:part name="parameters" element="tns:AppointmentLoadByContactIdDates" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AppointmentLoadByContactIdDates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AppointmentLoadByContactIdDatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ApptRecurrenceLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:ApptRecurrenceLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ApptRecurrenceLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ApptRecurrenceLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ArchiveBatchLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:ArchiveBatchLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ArchiveBatchLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ArchiveBatchLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AttendeeLoadByApptId_InputMessage">
+    <wsdl:part name="parameters" element="tns:AttendeeLoadByApptId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_AttendeeLoadByApptId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AttendeeLoadByApptIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ddEntityLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:ddEntityLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ddEntityLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ddEntityLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileAccessLoadByFileId_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileAccessLoadByFileId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileAccessLoadByFileId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileAccessLoadByFileIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileContactLoadByFileId_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileContactLoadByFileId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileContactLoadByFileId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileContactLoadByFileIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileXRefLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileXRefLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileXRefLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileXRefLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileXRefLoadByFileId_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileXRefLoadByFileId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileXRefLoadByFileId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileXRefLoadByFileIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileXRefLoadByOtherFileId_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileXRefLoadByOtherFileId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_FileXRefLoadByOtherFileId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileXRefLoadByOtherFileIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_IRPLoadBySRPId_InputMessage">
+    <wsdl:part name="parameters" element="tns:IRPLoadBySRPId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_IRPLoadBySRPId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IRPLoadBySRPIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_PersonLoadBySIN_InputMessage">
+    <wsdl:part name="parameters" element="tns:PersonLoadBySIN" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_PersonLoadBySIN_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PersonLoadBySINResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ProcessLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:ProcessLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ProcessLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ProcessLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_secFileRuleLoadByFileId_InputMessage">
+    <wsdl:part name="parameters" element="tns:secFileRuleLoadByFileId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_secFileRuleLoadByFileId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:secFileRuleLoadByFileIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_SRPLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:SRPLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_SRPLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SRPLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_SRPLoadByFileId_InputMessage">
+    <wsdl:part name="parameters" element="tns:SRPLoadByFileId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_SRPLoadByFileId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SRPLoadByFileIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_SubmitSRP_InputMessage">
+    <wsdl:part name="parameters" element="tns:SubmitSRP" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_SubmitSRP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SubmitSRPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_EFileLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:EFileLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_EFileLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EFileLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_EFileLoadByFullFileNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:EFileLoadByFullFileNumber" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_EFileLoadByFullFileNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EFileLoadByFullFileNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_Alert_InputMessage">
+    <wsdl:part name="parameters" element="tns:Alert" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_Alert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_GetDataTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataTable" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_GetDataTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_GetDataTableByte_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataTableByte" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_GetDataTableByte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataTableByteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_PKIDGet_InputMessage">
+    <wsdl:part name="parameters" element="tns:PKIDGet" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_PKIDGet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PKIDGetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_PKIDSet_InputMessage">
+    <wsdl:part name="parameters" element="tns:PKIDSet" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_PKIDSet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PKIDSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteSP_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteSP" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteSP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteSPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteNonQuery_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteNonQuery" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteNonQuery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteNonQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteDatasetByte_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteDatasetByte" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteDatasetByte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteDatasetByteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteDatasetSQL_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteDatasetSQL" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteDatasetSQL_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteDatasetSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteScalar_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteScalar" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteScalar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteScalarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteScalarSQL_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteScalarSQL" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ExecuteScalarSQL_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteScalarSQLResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateMsg">
+    <wsdl:part name="parameters" element="tns:UpdateMsg" />
+  </wsdl:message>
+  <wsdl:message name="UpdateMsg_Headers">
+    <wsdl:part name="Connect" element="tns:Connect" />
+    <wsdl:part name="Pwd" element="tns:Pwd" />
+    <wsdl:part name="User" element="tns:User" />
+    <wsdl:part name="dtList" element="tns:dtList" />
+  </wsdl:message>
+  <wsdl:message name="ResponseMsg">
+    <wsdl:part name="parameters" element="tns:ResponseMsg" />
+  </wsdl:message>
+  <wsdl:message name="UpdateMsgComp">
+    <wsdl:part name="parameters" element="tns:UpdateMsgComp" />
+  </wsdl:message>
+  <wsdl:message name="UpdateMsgComp_Headers">
+    <wsdl:part name="Connect" element="tns:Connect" />
+    <wsdl:part name="Pwd" element="tns:Pwd" />
+    <wsdl:part name="User" element="tns:User" />
+    <wsdl:part name="dtList" element="tns:dtList" />
+  </wsdl:message>
+  <wsdl:message name="ResponseMsgComp">
+    <wsdl:part name="parameters" element="tns:ResponseMsgComp" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFile" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadCLAS_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCLAS" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadCLAS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCLASResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadSST_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadSST" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadSST_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadSSTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadActivity_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadActivity" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadActivity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadActivityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadDoc_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDoc" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadDoc_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDocResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadDocbyDocId_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDocbyDocId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadDocbyDocId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDocbyDocIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_Load_InputMessage">
+    <wsdl:part name="parameters" element="tns:Load" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_Load_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadACInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadACInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadACInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadACInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadDDInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDDInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LoadDDInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDDInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LogEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogEvent" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_LogEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByUserName_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByUserName" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByUserName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByUserNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByRoleCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByRoleCode" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByRoleCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByRoleCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByEmail" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByOfficerCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByOfficerCode" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByOfficerCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByOfficerCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByMyFileId_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByMyFileId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByMyFileId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByMyFileIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByOfficeId_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByOfficeId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerLoadByOfficeId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerLoadByOfficeIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OpinionLoadByFileId_InputMessage">
+    <wsdl:part name="parameters" element="tns:OpinionLoadByFileId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OpinionLoadByFileId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OpinionLoadByFileIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ContactEmailLoadByContactId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ContactEmailLoadByContactId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ContactEmailLoadByContactId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ContactEmailLoadByContactIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ContactEmailLoadByEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:ContactEmailLoadByEmail" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_ContactEmailLoadByEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ContactEmailLoadByEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficeLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficeLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficeLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficeLoadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficeLoadByOfficeFileId_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficeLoadByOfficeFileId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficeLoadByOfficeFileId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficeLoadByOfficeFileIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficeLoadbyOfficeCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficeLoadbyOfficeCode" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficeLoadbyOfficeCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficeLoadbyOfficeCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerDelegateLoadByOfficerId_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerDelegateLoadByOfficerId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerDelegateLoadByOfficerId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerDelegateLoadByOfficerIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerDelegateLoadByDelegateId_InputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerDelegateLoadByDelegateId" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_OfficerDelegateLoadByDelegateId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OfficerDelegateLoadByDelegateIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_MemberProfileLoad_InputMessage">
+    <wsdl:part name="parameters" element="tns:MemberProfileLoad" />
+  </wsdl:message>
+  <wsdl:message name="IAtriumX_MemberProfileLoad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MemberProfileLoadResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAtriumX">
+    <wsdl:operation name="OfficerPrefsLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerPrefsLoad" message="tns:IAtriumX_OfficerPrefsLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerPrefsLoadResponse" message="tns:IAtriumX_OfficerPrefsLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficerRoleLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerRoleLoad" message="tns:IAtriumX_OfficerRoleLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerRoleLoadResponse" message="tns:IAtriumX_OfficerRoleLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ServiceCentreLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ServiceCentreLoad" message="tns:IAtriumX_ServiceCentreLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ServiceCentreLoadResponse" message="tns:IAtriumX_ServiceCentreLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="secMembershipLoadByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/secMembershipLoadByUserId" message="tns:IAtriumX_secMembershipLoadByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/secMembershipLoadByUserIdResponse" message="tns:IAtriumX_secMembershipLoadByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="secUserLoadByUserid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/secUserLoadByUserid" message="tns:IAtriumX_secUserLoadByUserid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/secUserLoadByUseridResponse" message="tns:IAtriumX_secUserLoadByUserid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="secUserLoadByUserName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/secUserLoadByUserName" message="tns:IAtriumX_secUserLoadByUserName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/secUserLoadByUserNameResponse" message="tns:IAtriumX_secUserLoadByUserName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DocContentAuditDelete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/DocContentAuditDelete" message="tns:IAtriumX_DocContentAuditDelete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/DocContentAuditDeleteResponse" message="tns:IAtriumX_DocContentAuditDelete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DocContentIsLatest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/DocContentIsLatest" message="tns:IAtriumX_DocContentIsLatest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/DocContentIsLatestResponse" message="tns:IAtriumX_DocContentIsLatest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DocContentLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/DocContentLoad" message="tns:IAtriumX_DocContentLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/DocContentLoadResponse" message="tns:IAtriumX_DocContentLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DocContentLoadVersionHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/DocContentLoadVersionHistory" message="tns:IAtriumX_DocContentLoadVersionHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/DocContentLoadVersionHistoryResponse" message="tns:IAtriumX_DocContentLoadVersionHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DocXrefLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/DocXrefLoad" message="tns:IAtriumX_DocXrefLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/DocXrefLoadResponse" message="tns:IAtriumX_DocXrefLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityBFLoadBF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityBFLoadBF" message="tns:IAtriumX_ActivityBFLoadBF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityBFLoadBFResponse" message="tns:IAtriumX_ActivityBFLoadBF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ContactLoadByte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ContactLoadByte" message="tns:IAtriumX_ContactLoadByte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ContactLoadByteResponse" message="tns:IAtriumX_ContactLoadByte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FileSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/FileSearch" message="tns:IAtriumX_FileSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/FileSearchResponse" message="tns:IAtriumX_FileSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DocShortcuts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/DocShortcuts" message="tns:IAtriumX_DocShortcuts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/DocShortcutsResponse" message="tns:IAtriumX_DocShortcuts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ContactSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ContactSearch" message="tns:IAtriumX_ContactSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ContactSearchResponse" message="tns:IAtriumX_ContactSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PartySearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/PartySearch" message="tns:IAtriumX_PartySearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/PartySearchResponse" message="tns:IAtriumX_PartySearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FileSearchDates">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/FileSearchDates" message="tns:IAtriumX_FileSearchDates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/FileSearchDatesResponse" message="tns:IAtriumX_FileSearchDates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FileSearchSimple">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/FileSearchSimple" message="tns:IAtriumX_FileSearchSimple_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/FileSearchSimpleResponse" message="tns:IAtriumX_FileSearchSimple_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FileSearchAdvanced">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/FileSearchAdvanced" message="tns:IAtriumX_FileSearchAdvanced_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/FileSearchAdvancedResponse" message="tns:IAtriumX_FileSearchAdvanced_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FileSearchByThread">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/FileSearchByThread" message="tns:IAtriumX_FileSearchByThread_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/FileSearchByThreadResponse" message="tns:IAtriumX_FileSearchByThread_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HitHilite">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/HitHilite" message="tns:IAtriumX_HitHilite_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/HitHiliteResponse" message="tns:IAtriumX_HitHilite_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchByContact">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/SearchByContact" message="tns:IAtriumX_SearchByContact_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/SearchByContactResponse" message="tns:IAtriumX_SearchByContact_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/Search" message="tns:IAtriumX_Search_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/SearchResponse" message="tns:IAtriumX_Search_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchQuick">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/SearchQuick" message="tns:IAtriumX_SearchQuick_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/SearchQuickResponse" message="tns:IAtriumX_SearchQuick_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddressLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/AddressLoad" message="tns:IAtriumX_AddressLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/AddressLoadResponse" message="tns:IAtriumX_AddressLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddressLoadByContactId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/AddressLoadByContactId" message="tns:IAtriumX_AddressLoadByContactId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/AddressLoadByContactIdResponse" message="tns:IAtriumX_AddressLoadByContactId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="hlpImageLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/hlpImageLoad" message="tns:IAtriumX_hlpImageLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/hlpImageLoadResponse" message="tns:IAtriumX_hlpImageLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="hlpPageLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/hlpPageLoad" message="tns:IAtriumX_hlpPageLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/hlpPageLoadResponse" message="tns:IAtriumX_hlpPageLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="hlpXmlLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/hlpXmlLoad" message="tns:IAtriumX_hlpXmlLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/hlpXmlLoadResponse" message="tns:IAtriumX_hlpXmlLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CashBlotterLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/CashBlotterLoad" message="tns:IAtriumX_CashBlotterLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/CashBlotterLoadResponse" message="tns:IAtriumX_CashBlotterLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CashBlotterLoadbyOfficeId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/CashBlotterLoadbyOfficeId" message="tns:IAtriumX_CashBlotterLoadbyOfficeId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/CashBlotterLoadbyOfficeIdResponse" message="tns:IAtriumX_CashBlotterLoadbyOfficeId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CBDetailLoadByCashBlotterId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/CBDetailLoadByCashBlotterId" message="tns:IAtriumX_CBDetailLoadByCashBlotterId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/CBDetailLoadByCashBlotterIdResponse" message="tns:IAtriumX_CBDetailLoadByCashBlotterId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DebtorLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/DebtorLoad" message="tns:IAtriumX_DebtorLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/DebtorLoadResponse" message="tns:IAtriumX_DebtorLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficeAccountLoadByFileId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficeAccountLoadByFileId" message="tns:IAtriumX_OfficeAccountLoadByFileId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficeAccountLoadByFileIdResponse" message="tns:IAtriumX_OfficeAccountLoadByFileId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TaxingLoadByOfficeId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/TaxingLoadByOfficeId" message="tns:IAtriumX_TaxingLoadByOfficeId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/TaxingLoadByOfficeIdResponse" message="tns:IAtriumX_TaxingLoadByOfficeId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TaxingLoadBySrpID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/TaxingLoadBySrpID" message="tns:IAtriumX_TaxingLoadBySrpID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/TaxingLoadBySrpIDResponse" message="tns:IAtriumX_TaxingLoadBySrpID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisbursementLoadByActivityId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/DisbursementLoadByActivityId" message="tns:IAtriumX_DisbursementLoadByActivityId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/DisbursementLoadByActivityIdResponse" message="tns:IAtriumX_DisbursementLoadByActivityId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Activity_Load">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/Activity_Load" message="tns:IAtriumX_Activity_Load_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/Activity_LoadResponse" message="tns:IAtriumX_Activity_Load_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityLoadByProcessId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityLoadByProcessId" message="tns:IAtriumX_ActivityLoadByProcessId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityLoadByProcessIdResponse" message="tns:IAtriumX_ActivityLoadByProcessId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityBFLoadCompleted">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityBFLoadCompleted" message="tns:IAtriumX_ActivityBFLoadCompleted_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityBFLoadCompletedResponse" message="tns:IAtriumX_ActivityBFLoadCompleted_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityBFLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityBFLoad" message="tns:IAtriumX_ActivityBFLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityBFLoadResponse" message="tns:IAtriumX_ActivityBFLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityBFLoadByActivityId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityBFLoadByActivityId" message="tns:IAtriumX_ActivityBFLoadByActivityId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityBFLoadByActivityIdResponse" message="tns:IAtriumX_ActivityBFLoadByActivityId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoad" message="tns:IAtriumX_ActivityTimeLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadResponse" message="tns:IAtriumX_ActivityTimeLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadByActivityId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadByActivityId" message="tns:IAtriumX_ActivityTimeLoadByActivityId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadByActivityIdResponse" message="tns:IAtriumX_ActivityTimeLoadByActivityId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadSRPClientByOfficerId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadSRPClientByOfficerId" message="tns:IAtriumX_ActivityTimeLoadSRPClientByOfficerId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadSRPClientByOfficerIdResponse" message="tns:IAtriumX_ActivityTimeLoadSRPClientByOfficerId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadSRPClientBySRPID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadSRPClientBySRPID" message="tns:IAtriumX_ActivityTimeLoadSRPClientBySRPID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadSRPClientBySRPIDResponse" message="tns:IAtriumX_ActivityTimeLoadSRPClientBySRPID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadByOfficerId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadByOfficerId" message="tns:IAtriumX_ActivityTimeLoadByOfficerId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadByOfficerIdResponse" message="tns:IAtriumX_ActivityTimeLoadByOfficerId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadBySRPID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadBySRPID" message="tns:IAtriumX_ActivityTimeLoadBySRPID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadBySRPIDResponse" message="tns:IAtriumX_ActivityTimeLoadBySRPID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadBranchByOfficerId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadBranchByOfficerId" message="tns:IAtriumX_ActivityTimeLoadBranchByOfficerId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadBranchByOfficerIdResponse" message="tns:IAtriumX_ActivityTimeLoadBranchByOfficerId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadBranchBySRPID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadBranchBySRPID" message="tns:IAtriumX_ActivityTimeLoadBranchBySRPID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityTimeLoadBranchBySRPIDResponse" message="tns:IAtriumX_ActivityTimeLoadBranchBySRPID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivityXRefLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ActivityXRefLoad" message="tns:IAtriumX_ActivityXRefLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ActivityXRefLoadResponse" message="tns:IAtriumX_ActivityXRefLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AppointmentLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/AppointmentLoad" message="tns:IAtriumX_AppointmentLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/AppointmentLoadResponse" message="tns:IAtriumX_AppointmentLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AppointmentLoadByContactId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/AppointmentLoadByContactId" message="tns:IAtriumX_AppointmentLoadByContactId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/AppointmentLoadByContactIdResponse" message="tns:IAtriumX_AppointmentLoadByContactId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AppointmentLoadByContactIdDates">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/AppointmentLoadByContactIdDates" message="tns:IAtriumX_AppointmentLoadByContactIdDates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/AppointmentLoadByContactIdDatesResponse" message="tns:IAtriumX_AppointmentLoadByContactIdDates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ApptRecurrenceLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ApptRecurrenceLoad" message="tns:IAtriumX_ApptRecurrenceLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ApptRecurrenceLoadResponse" message="tns:IAtriumX_ApptRecurrenceLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ArchiveBatchLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ArchiveBatchLoad" message="tns:IAtriumX_ArchiveBatchLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ArchiveBatchLoadResponse" message="tns:IAtriumX_ArchiveBatchLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AttendeeLoadByApptId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/AttendeeLoadByApptId" message="tns:IAtriumX_AttendeeLoadByApptId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/AttendeeLoadByApptIdResponse" message="tns:IAtriumX_AttendeeLoadByApptId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ddEntityLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ddEntityLoad" message="tns:IAtriumX_ddEntityLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ddEntityLoadResponse" message="tns:IAtriumX_ddEntityLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FileAccessLoadByFileId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/FileAccessLoadByFileId" message="tns:IAtriumX_FileAccessLoadByFileId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/FileAccessLoadByFileIdResponse" message="tns:IAtriumX_FileAccessLoadByFileId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FileContactLoadByFileId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/FileContactLoadByFileId" message="tns:IAtriumX_FileContactLoadByFileId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/FileContactLoadByFileIdResponse" message="tns:IAtriumX_FileContactLoadByFileId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FileXRefLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/FileXRefLoad" message="tns:IAtriumX_FileXRefLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/FileXRefLoadResponse" message="tns:IAtriumX_FileXRefLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FileXRefLoadByFileId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/FileXRefLoadByFileId" message="tns:IAtriumX_FileXRefLoadByFileId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/FileXRefLoadByFileIdResponse" message="tns:IAtriumX_FileXRefLoadByFileId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FileXRefLoadByOtherFileId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/FileXRefLoadByOtherFileId" message="tns:IAtriumX_FileXRefLoadByOtherFileId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/FileXRefLoadByOtherFileIdResponse" message="tns:IAtriumX_FileXRefLoadByOtherFileId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IRPLoadBySRPId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/IRPLoadBySRPId" message="tns:IAtriumX_IRPLoadBySRPId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/IRPLoadBySRPIdResponse" message="tns:IAtriumX_IRPLoadBySRPId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PersonLoadBySIN">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/PersonLoadBySIN" message="tns:IAtriumX_PersonLoadBySIN_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/PersonLoadBySINResponse" message="tns:IAtriumX_PersonLoadBySIN_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcessLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ProcessLoad" message="tns:IAtriumX_ProcessLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ProcessLoadResponse" message="tns:IAtriumX_ProcessLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="secFileRuleLoadByFileId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/secFileRuleLoadByFileId" message="tns:IAtriumX_secFileRuleLoadByFileId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/secFileRuleLoadByFileIdResponse" message="tns:IAtriumX_secFileRuleLoadByFileId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SRPLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/SRPLoad" message="tns:IAtriumX_SRPLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/SRPLoadResponse" message="tns:IAtriumX_SRPLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SRPLoadByFileId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/SRPLoadByFileId" message="tns:IAtriumX_SRPLoadByFileId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/SRPLoadByFileIdResponse" message="tns:IAtriumX_SRPLoadByFileId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitSRP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/SubmitSRP" message="tns:IAtriumX_SubmitSRP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/SubmitSRPResponse" message="tns:IAtriumX_SubmitSRP_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EFileLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/EFileLoad" message="tns:IAtriumX_EFileLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/EFileLoadResponse" message="tns:IAtriumX_EFileLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EFileLoadByFullFileNumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/EFileLoadByFullFileNumber" message="tns:IAtriumX_EFileLoadByFullFileNumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/EFileLoadByFullFileNumberResponse" message="tns:IAtriumX_EFileLoadByFullFileNumber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Alert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/Alert" message="tns:IAtriumX_Alert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/AlertResponse" message="tns:IAtriumX_Alert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/GetDataTable" message="tns:IAtriumX_GetDataTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/GetDataTableResponse" message="tns:IAtriumX_GetDataTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTableByte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/GetDataTableByte" message="tns:IAtriumX_GetDataTableByte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/GetDataTableByteResponse" message="tns:IAtriumX_GetDataTableByte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PKIDGet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/PKIDGet" message="tns:IAtriumX_PKIDGet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/PKIDGetResponse" message="tns:IAtriumX_PKIDGet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PKIDSet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/PKIDSet" message="tns:IAtriumX_PKIDSet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/PKIDSetResponse" message="tns:IAtriumX_PKIDSet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ExecuteSP" message="tns:IAtriumX_ExecuteSP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ExecuteSPResponse" message="tns:IAtriumX_ExecuteSP_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ExecuteNonQuery" message="tns:IAtriumX_ExecuteNonQuery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ExecuteNonQueryResponse" message="tns:IAtriumX_ExecuteNonQuery_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteDatasetByte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ExecuteDatasetByte" message="tns:IAtriumX_ExecuteDatasetByte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ExecuteDatasetByteResponse" message="tns:IAtriumX_ExecuteDatasetByte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteDatasetSQL">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ExecuteDatasetSQL" message="tns:IAtriumX_ExecuteDatasetSQL_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ExecuteDatasetSQLResponse" message="tns:IAtriumX_ExecuteDatasetSQL_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScalar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ExecuteScalar" message="tns:IAtriumX_ExecuteScalar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ExecuteScalarResponse" message="tns:IAtriumX_ExecuteScalar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScalarSQL">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ExecuteScalarSQL" message="tns:IAtriumX_ExecuteScalarSQL_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ExecuteScalarSQLResponse" message="tns:IAtriumX_ExecuteScalarSQL_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/Update" name="UpdateMsg" message="tns:UpdateMsg" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/UpdateResponse" name="ResponseMsg" message="tns:ResponseMsg" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateComp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/UpdateComp" name="UpdateMsgComp" message="tns:UpdateMsgComp" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/UpdateCompResponse" name="ResponseMsgComp" message="tns:ResponseMsgComp" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/LoadFile" message="tns:IAtriumX_LoadFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/LoadFileResponse" message="tns:IAtriumX_LoadFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadCLAS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/LoadCLAS" message="tns:IAtriumX_LoadCLAS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/LoadCLASResponse" message="tns:IAtriumX_LoadCLAS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadSST">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/LoadSST" message="tns:IAtriumX_LoadSST_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/LoadSSTResponse" message="tns:IAtriumX_LoadSST_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadActivity">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/LoadActivity" message="tns:IAtriumX_LoadActivity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/LoadActivityResponse" message="tns:IAtriumX_LoadActivity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadDoc">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/LoadDoc" message="tns:IAtriumX_LoadDoc_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/LoadDocResponse" message="tns:IAtriumX_LoadDoc_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadDocbyDocId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/LoadDocbyDocId" message="tns:IAtriumX_LoadDocbyDocId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/LoadDocbyDocIdResponse" message="tns:IAtriumX_LoadDocbyDocId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Load">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/Load" message="tns:IAtriumX_Load_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/LoadResponse" message="tns:IAtriumX_Load_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadACInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/LoadACInfo" message="tns:IAtriumX_LoadACInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/LoadACInfoResponse" message="tns:IAtriumX_LoadACInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadDDInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/LoadDDInfo" message="tns:IAtriumX_LoadDDInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/LoadDDInfoResponse" message="tns:IAtriumX_LoadDDInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogEvent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/LogEvent" message="tns:IAtriumX_LogEvent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/LogEventResponse" message="tns:IAtriumX_LogEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByUserName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByUserName" message="tns:IAtriumX_OfficerLoadByUserName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByUserNameResponse" message="tns:IAtriumX_OfficerLoadByUserName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoad" message="tns:IAtriumX_OfficerLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadResponse" message="tns:IAtriumX_OfficerLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByRoleCode">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByRoleCode" message="tns:IAtriumX_OfficerLoadByRoleCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByRoleCodeResponse" message="tns:IAtriumX_OfficerLoadByRoleCode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByEmail" message="tns:IAtriumX_OfficerLoadByEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByEmailResponse" message="tns:IAtriumX_OfficerLoadByEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByOfficerCode">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByOfficerCode" message="tns:IAtriumX_OfficerLoadByOfficerCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByOfficerCodeResponse" message="tns:IAtriumX_OfficerLoadByOfficerCode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByMyFileId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByMyFileId" message="tns:IAtriumX_OfficerLoadByMyFileId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByMyFileIdResponse" message="tns:IAtriumX_OfficerLoadByMyFileId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByOfficeId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByOfficeId" message="tns:IAtriumX_OfficerLoadByOfficeId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerLoadByOfficeIdResponse" message="tns:IAtriumX_OfficerLoadByOfficeId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OpinionLoadByFileId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OpinionLoadByFileId" message="tns:IAtriumX_OpinionLoadByFileId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OpinionLoadByFileIdResponse" message="tns:IAtriumX_OpinionLoadByFileId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ContactEmailLoadByContactId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ContactEmailLoadByContactId" message="tns:IAtriumX_ContactEmailLoadByContactId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ContactEmailLoadByContactIdResponse" message="tns:IAtriumX_ContactEmailLoadByContactId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ContactEmailLoadByEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/ContactEmailLoadByEmail" message="tns:IAtriumX_ContactEmailLoadByEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/ContactEmailLoadByEmailResponse" message="tns:IAtriumX_ContactEmailLoadByEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficeLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficeLoad" message="tns:IAtriumX_OfficeLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficeLoadResponse" message="tns:IAtriumX_OfficeLoad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficeLoadByOfficeFileId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficeLoadByOfficeFileId" message="tns:IAtriumX_OfficeLoadByOfficeFileId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficeLoadByOfficeFileIdResponse" message="tns:IAtriumX_OfficeLoadByOfficeFileId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficeLoadbyOfficeCode">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficeLoadbyOfficeCode" message="tns:IAtriumX_OfficeLoadbyOfficeCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficeLoadbyOfficeCodeResponse" message="tns:IAtriumX_OfficeLoadbyOfficeCode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficerDelegateLoadByOfficerId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerDelegateLoadByOfficerId" message="tns:IAtriumX_OfficerDelegateLoadByOfficerId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerDelegateLoadByOfficerIdResponse" message="tns:IAtriumX_OfficerDelegateLoadByOfficerId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OfficerDelegateLoadByDelegateId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/OfficerDelegateLoadByDelegateId" message="tns:IAtriumX_OfficerDelegateLoadByDelegateId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/OfficerDelegateLoadByDelegateIdResponse" message="tns:IAtriumX_OfficerDelegateLoadByDelegateId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MemberProfileLoad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAtriumX/MemberProfileLoad" message="tns:IAtriumX_MemberProfileLoad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAtriumX/MemberProfileLoadResponse" message="tns:IAtriumX_MemberProfileLoad_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="basicAtriumX" type="tns:IAtriumX">
+    <wsp:PolicyReference URI="#basicAtriumX_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="OfficerPrefsLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerPrefsLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficerRoleLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerRoleLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServiceCentreLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ServiceCentreLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="secMembershipLoadByUserId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/secMembershipLoadByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="secUserLoadByUserid">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/secUserLoadByUserid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="secUserLoadByUserName">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/secUserLoadByUserName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocContentAuditDelete">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/DocContentAuditDelete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocContentIsLatest">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/DocContentIsLatest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocContentLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/DocContentLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocContentLoadVersionHistory">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/DocContentLoadVersionHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocXrefLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/DocXrefLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityBFLoadBF">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityBFLoadBF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ContactLoadByte">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ContactLoadByte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileSearch">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/FileSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocShortcuts">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/DocShortcuts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ContactSearch">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ContactSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PartySearch">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/PartySearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileSearchDates">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/FileSearchDates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileSearchSimple">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/FileSearchSimple" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileSearchAdvanced">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/FileSearchAdvanced" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileSearchByThread">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/FileSearchByThread" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HitHilite">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/HitHilite" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchByContact">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/SearchByContact" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/Search" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchQuick">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/SearchQuick" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddressLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/AddressLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddressLoadByContactId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/AddressLoadByContactId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="hlpImageLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/hlpImageLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="hlpPageLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/hlpPageLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="hlpXmlLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/hlpXmlLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CashBlotterLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/CashBlotterLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CashBlotterLoadbyOfficeId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/CashBlotterLoadbyOfficeId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CBDetailLoadByCashBlotterId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/CBDetailLoadByCashBlotterId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DebtorLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/DebtorLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficeAccountLoadByFileId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficeAccountLoadByFileId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TaxingLoadByOfficeId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/TaxingLoadByOfficeId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TaxingLoadBySrpID">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/TaxingLoadBySrpID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisbursementLoadByActivityId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/DisbursementLoadByActivityId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Activity_Load">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/Activity_Load" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityLoadByProcessId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityLoadByProcessId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityBFLoadCompleted">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityBFLoadCompleted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityBFLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityBFLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityBFLoadByActivityId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityBFLoadByActivityId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityTimeLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadByActivityId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityTimeLoadByActivityId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadSRPClientByOfficerId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityTimeLoadSRPClientByOfficerId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadSRPClientBySRPID">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityTimeLoadSRPClientBySRPID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadByOfficerId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityTimeLoadByOfficerId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadBySRPID">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityTimeLoadBySRPID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadBranchByOfficerId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityTimeLoadBranchByOfficerId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityTimeLoadBranchBySRPID">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityTimeLoadBranchBySRPID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivityXRefLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ActivityXRefLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AppointmentLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/AppointmentLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AppointmentLoadByContactId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/AppointmentLoadByContactId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AppointmentLoadByContactIdDates">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/AppointmentLoadByContactIdDates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApptRecurrenceLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ApptRecurrenceLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ArchiveBatchLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ArchiveBatchLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AttendeeLoadByApptId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/AttendeeLoadByApptId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ddEntityLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ddEntityLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileAccessLoadByFileId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/FileAccessLoadByFileId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileContactLoadByFileId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/FileContactLoadByFileId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileXRefLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/FileXRefLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileXRefLoadByFileId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/FileXRefLoadByFileId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileXRefLoadByOtherFileId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/FileXRefLoadByOtherFileId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IRPLoadBySRPId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/IRPLoadBySRPId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PersonLoadBySIN">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/PersonLoadBySIN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcessLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ProcessLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="secFileRuleLoadByFileId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/secFileRuleLoadByFileId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SRPLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/SRPLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SRPLoadByFileId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/SRPLoadByFileId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitSRP">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/SubmitSRP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EFileLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/EFileLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EFileLoadByFullFileNumber">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/EFileLoadByFullFileNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Alert">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/Alert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTable">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/GetDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTableByte">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/GetDataTableByte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PKIDGet">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/PKIDGet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PKIDSet">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/PKIDSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSP">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ExecuteSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ExecuteNonQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteDatasetByte">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ExecuteDatasetByte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteDatasetSQL">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ExecuteDatasetSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScalar">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ExecuteScalar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScalarSQL">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ExecuteScalarSQL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/Update" style="document" />
+      <wsdl:input name="UpdateMsg">
+        <soap:header message="tns:UpdateMsg_Headers" part="Connect" use="literal" />
+        <soap:header message="tns:UpdateMsg_Headers" part="Pwd" use="literal" />
+        <soap:header message="tns:UpdateMsg_Headers" part="User" use="literal" />
+        <soap:header message="tns:UpdateMsg_Headers" part="dtList" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ResponseMsg">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateComp">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/UpdateComp" style="document" />
+      <wsdl:input name="UpdateMsgComp">
+        <soap:header message="tns:UpdateMsgComp_Headers" part="Connect" use="literal" />
+        <soap:header message="tns:UpdateMsgComp_Headers" part="Pwd" use="literal" />
+        <soap:header message="tns:UpdateMsgComp_Headers" part="User" use="literal" />
+        <soap:header message="tns:UpdateMsgComp_Headers" part="dtList" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ResponseMsgComp">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadFile">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/LoadFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadCLAS">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/LoadCLAS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadSST">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/LoadSST" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadActivity">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/LoadActivity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadDoc">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/LoadDoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadDocbyDocId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/LoadDocbyDocId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Load">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/Load" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadACInfo">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/LoadACInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadDDInfo">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/LoadDDInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogEvent">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/LogEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByUserName">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerLoadByUserName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByRoleCode">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerLoadByRoleCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByEmail">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerLoadByEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByOfficerCode">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerLoadByOfficerCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByMyFileId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerLoadByMyFileId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficerLoadByOfficeId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerLoadByOfficeId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OpinionLoadByFileId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OpinionLoadByFileId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ContactEmailLoadByContactId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ContactEmailLoadByContactId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ContactEmailLoadByEmail">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/ContactEmailLoadByEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficeLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficeLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficeLoadByOfficeFileId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficeLoadByOfficeFileId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficeLoadbyOfficeCode">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficeLoadbyOfficeCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficerDelegateLoadByOfficerId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerDelegateLoadByOfficerId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OfficerDelegateLoadByDelegateId">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/OfficerDelegateLoadByDelegateId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MemberProfileLoad">
+      <soap:operation soapAction="http://tempuri.org/IAtriumX/MemberProfileLoad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AtriumX">
+    <wsdl:port name="basicAtriumX" binding="tns:basicAtriumX">
+      <soap:address location="http://localhost:54039/lmras/AtriumX.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

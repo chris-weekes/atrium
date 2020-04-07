@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="uiCommandManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>190, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BottomRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BottomRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 150</value>
+  </data>
+  <data name="BottomRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 0</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Name" xml:space="preserve">
+    <value>BottomRebar1</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="cmdRefresh.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUAAP797/vwtPnolPnji/vpnvTmrvndevHag7eUJPHTc/vehfnTZvnNX72EFrB2Erh+
+        FLN6E7J4E7uBFbqBFbZ9FLd+FbuBFrqBFqluEKhuEKxxEaxzEaluEahuEbB1Eq91Eq1yEqxxEqxyEqxz
+        EqtxEq91E6ZrEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAAEAAQ
+        AAAIfQBPCBxIsKBBgg0aHDTYAIDChQMnAAAgQYIFiBUEBNgY4MCDhRAMEBg5MgGChR4YKHDwQWUJgQ8J
+        hmBA4oQGBiFgPkwoEEMHgR0ywHR4omHMgSdPSCxw4QIApgspDOC48QCFhRFEkjQQAeKIDSIULAABcSCG
+        BRzKDjRhAmJAADs=
+</value>
+  </data>
+  <data name="cmdRefresh.Key" xml:space="preserve">
+    <value>cmdRefresh</value>
+  </data>
+  <data name="cmdRefresh.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="cmdNewContainer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAArVJREFUOE+lkvtLU2EcxvcHSARhF8paGRWWoWIGmZEKwrIrBglNiyKxG2hhwjIdanl3
+        OnKIWps6y7OVWa5lZkrXEaWVZOKtOS9zzjmPbW66M316dxZCYr/UD885vC/n8/m+5zmHA+C/suTm4vQ8
+        2iajP4bxYRTwe+u8GRgSYqe/HYgi+4lLAovj6D4SMtDo78BUPoZeRwNTRdCqd1qsHbxwTvvTeL8HchEW
+        R01lRyxIjILrsEgsmDfDMvIQmOsHWYPs7+e4HjYNP8GMWc3GZqJg0YmhqCxAvTxT6BJ0KzYwutYo2M1v
+        MA8rbOMquNbDTQEfOMqqQiyEQJQsH7XSPNy/k4t75TmQl2Xh6yshmVwMML2sBIwGc5PiaXKCM5xaWR5m
+        6ZY/MvNTBWZCCWZMBudICeESoXseiDlTOfTvY8i9AD0NAfNsBzUV2W7o9yvYaSUcpiow+ttw6rLh7EuB
+        oSUCtk8xsH/hY7Q1CAPqvchPPQX2K1SX3VoQOMz1cIzLwYxK4BzMIXAqZjsTYG87B8vbaEw28TBK7YJG
+        5IGLZ0+Qesh/IC3JYAWuyYyphsClBM4D058GR2cigeNYmH4RCdPjEAzJd6A11wP8KJ5bUFEsxMzEMwJT
+        YAzlcA6JCCwk8FXY2+NhfXcSdPMhTDTsg4EKwODdzVClL0dkeLBbUFp4AzZjPSlMCuewGMyPdDi+J8H+
+        +TyspDD65WGYVKEwKAKhr/ZBn8QLVIonggN93YKSXAFsBoW7bW0mHF3XSFkXYNXEgm45SuAwjCmDoJdv
+        h7aMi66ilZAmr4XvVq5bIM5KBq2tgrEtAYONPPTW7UY35YuOyi3QlG5EcyEXdRnroUxbw052wZIrG8Bd
+        5+kWiDKTcFNwCcmXTyMu5hiOHwxD6B5/+Pl4Y5PXKqxeseyvYQWuy78HnF/Hrukrome/iAAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="cmdNewContainer.Key" xml:space="preserve">
+    <value>cmdNewContainer</value>
+  </data>
+  <data name="cmdNewContainer.Text" xml:space="preserve">
+    <value>New Folder</value>
+  </data>
+  <data name="cmdRename.Key" xml:space="preserve">
+    <value>cmdRename</value>
+  </data>
+  <data name="cmdRename.Text" xml:space="preserve">
+    <value>Rename Shortcut</value>
+  </data>
+  <data name="cmdDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP//////AP8A//8AAAD//wD/AAAA/wAAAEA4QCkjLFdRWkI+SHFvel9hb36CkZGW
+        pjk6PEhJS7W/0b3J3Ku1xlpjcJGox6O73KG42IaZsrLJ6MHV72dxfkFESGp8kmd4ja/E33+PorjO6mRv
+        fUNKU8PX77PE2FRbZMTU5668zZCbqUlOVD5CR3Z9hlVhb6a70mx4hcTY76S1yMbZ777Q5Ky7zJuntXV+
+        iFRaYX+HkG1zehAYICAoMD9KVTA4QGxzend+hUJFSFpeYl9xgElbaJyrtZOhqTg6O3aDiDI8OUBAQDAw
+        MCAgIBAQEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABOACwAAAAAEAAQAAAIhgCdCBxIsKDAIgyKGFxYREkECgttGBloQ4cPJQ8K2lDQgmCNH0qUABkIQwmS
+        GgZVhMzhxIGSGzYWOpEhxAcECC5UyBQYYgmCIBl3OumxZImPBUJ78Ghg48SSEDJZMMEh0AaHIxMLVkjQ
+        gaCNFSMKZtjBw0PBHEkyEBzShMTCDywJEhFKd2FAADs=
+</value>
+  </data>
+  <data name="cmdDelete.Key" xml:space="preserve">
+    <value>cmdDelete</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Delete Shortcut</value>
+  </data>
+  <data name="cmdViewInExternal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAABF6uBd8uEeLREaLRk6SQ1+cRWWcXmyiS26jUXKmQxSAvSiHvxWJxBiLxReSyxmV
+        zCGb0Caf0j2fzjWl1VmgyFKw22So0Was0mC13mK333K11cQ/McZCKctNKcxQKc5ULc9YMtVjKtpyKtt2
+        K9x5K9l6P8xbRoCuRIOvSYOtWomzR5C4SZG4SouzYZu9dZzAV6LBY6PEYKXFY6/Cf7LNc7PNdrjRe9+I
+        KuSZKeWfKu2fKeahKeuuNuqzKuuyLO6yNvKpI/OrI/WyJPW3KPe5J/C4L9yBWNyAXd6OXtuGedayd+ev
+        TOeoXey3Q+KjZ+a/e/nAKvnBK/vKNPvNO/vQPvvPQPrVV+zEYPjUYfjXbPfZfIyJipGviJC0g56stIO0
+        0Yq61qnEjKLAnbjOhb7Ug73Tlr/OuZ3J34fF5Y/G5Z/O6anN1KHN5ajO5KjS6rnc8Lzd8N2yh+inkeey
+        qei1qsfaj9DNnsHPq8/CocnVqOXPn+rRl+7Wk/fdkfbelOzBt+zcpO7evfHeqfXYqfrdp/jcqPLXsvXT
+        vfjmrvLisMvWxs/ezMve6tfhx97oztvp8enfyeDd3vHPxPLQxuHq2uTk5Ofn5+Lq4urp5evs6+nu6O/0
+        9vLs4vns6PPx6PX19fT2+PT4+vz38/329Pv7+Pn6+fv7+/v8/fz8/P7+/f7+/v///wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQAAAAAACwAAAAAEAAQAAAI5gBXCRxIsCDBUZPozPkjyiDBJBs4
+        dPhwxFMqh51MeAgxggSSGWUcUVokppFASSBE3MCRIw4MFigQCBigSKCcEDd29PCBp0aMFQkIGMi0CpWR
+        Ek6Y8GiShwyNFycKcCm1apMXDWjeRDo0po4NGSoOmBHIpkGEDGrgXLoTxkWLFF00CbTAAEKFNG4AIUok
+        iM+VJ6hWhVqgwMEEDGf6+NGCZcoQPapWMQoAgMGDCWuwZLFCJcoPSALbUPgC5oIEO1WqSIESZAmmyKA+
+        BT71aE8RIkKA6FCyxZJDUoEKERpkiFMlUw6TCwwIADs=
+</value>
+  </data>
+  <data name="cmdViewInExternal.Key" xml:space="preserve">
+    <value>cmdViewInExternal</value>
+  </data>
+  <data name="cmdViewInExternal.Text" xml:space="preserve">
+    <value>View in External Application</value>
+  </data>
+  <data name="cmdViewInLMViewer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAbtJREFUOE+VktlL
+        AlEUxiWih6DHnnrrMQj6E0vL9oKgcsktckxHUyutsFLJJHpqIZN2XHBScxxzGXXqdMcO2WDr7+Uy93zf
+        ud85jOwrRnTWtqllR2jCZPfLNVQPXv8P48YuU+ar4Ng75FV2r4k0GsDS7wyqzB3UVuAJkLogALUVFEb1
+        Nj9KfkahtfSuB4/q6G/A1wUInVzCpMkRRNn3jBtpR6nCo/Wd5zIPkfsE3CUYIEm0KP2aeevmJfo+EBsc
+        X1xD4jErpjhBaStKnW3OtR+WxBepVOvwwGTh/C4Os2YXh/JWDG6f6eXlFW1NBHInNomnczBhtEdQLoUU
+        PBmWQ4sU0cwWK3BwGgWlzupCS5NxAx16zOVRLqXE1yCRyUOGK4HWuQNDaqoPbU3GDLQ3fBZNia98nqBc
+        rUGBLDD1xAGTK8CcZT2m0Fja0SZFqbdNz6w4o8eRG+BKfCO2uH32uQwMW4CrOAPkITfKv4fM6FmgPdUY
+        WVg6XyTx2capd/tYEr8LZT8zqDYPaNa2r26TaUhmWbhPZcXtb2D5b8jVVDeZOX1+G4NF2svINZZOLP0P
+        8usGhpdW+/HzEzLZG23urNO9JCtmAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdViewInLMViewer.Key" xml:space="preserve">
+    <value>cmdViewInLMViewer</value>
+  </data>
+  <data name="cmdViewInLMViewer.Text" xml:space="preserve">
+    <value>View in LawMate Viewer</value>
+  </data>
+  <data name="cmdJumpToFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIrgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARI4gFlE8PBDCQ
+        YcGMBDesNkgpVKuBCQtUXEgQIYiJBgPKbkVb4EIODRuCSIBxwMWLAh5W0KhQIYGGEQ/02ihx4kOEDQ96
+        SJ7c46HlywIDAgA7
+</value>
+  </data>
+  <data name="cmdJumpToFile.Key" xml:space="preserve">
+    <value>cmdJumpToFile</value>
+  </data>
+  <data name="cmdJumpToFile.Text" xml:space="preserve">
+    <value>Jump to File</value>
+  </data>
+  <data name="cmdExplorerFindFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAEHSURBVDhPlZDdasJAEIX3sXwIESzoRYk2VkuhVJCmupFSQbwRpP4RyBPone9QvO9d3+d0Zslu
+        MiEb6cXH2UnO7M4cFaTXMwEPZwCqDr4Ap1840h/g8xvoXICGPpGnutFiJmCjh9sTFIvhPMHjPFGG+Cj+
+        +XAHaoBloI9qoA++fMRU7hDODiSse4TTHR6mW9Ngs/Hl4g799y0svehLBdHGl0/1BEzwtiHJawtPU/5m
+        EcX9ZE0iDUy2TmUewtgdr0hkM1OXhzB2Xpck8puFXytlYfIQpruXBYlsvIUo2s8fJHnNr2a7ir2LHndg
+        WiON1lMM1uZQe/cu9ogLyvBrpZ3N3kWPaPg/UH8+Osc13qCZZgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdExplorerFindFile.Key" xml:space="preserve">
+    <value>cmdExplorerFindFile</value>
+  </data>
+  <data name="cmdExplorerFindFile.Text" xml:space="preserve">
+    <value>Browse in LawMate Explorer (Target)</value>
+  </data>
+  <data name="cmdJumpToFileDocXref.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIrgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARI4gFlE8PBDCQ
+        YcGMBDesNkgpVKuBCQtUXEgQIYiJBgPKbkVb4EIODRuCSIBxwMWLAh5W0KhQIYGGEQ/02ihx4kOEDQ96
+        SJ7c46HlywIDAgA7
+</value>
+  </data>
+  <data name="cmdJumpToFileDocXref.Key" xml:space="preserve">
+    <value>cmdJumpToFileDocXref</value>
+  </data>
+  <data name="cmdJumpToFileDocXref.Text" xml:space="preserve">
+    <value>Jump to File (Original Document)</value>
+  </data>
+  <data name="cmdJumpToFileFileXref.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIrgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARI4gFlE8PBDCQ
+        YcGMBDesNkgpVKuBCQtUXEgQIYiJBgPKbkVb4EIODRuCSIBxwMWLAh5W0KhQIYGGEQ/02ihx4kOEDQ96
+        SJ7c46HlywIDAgA7
+</value>
+  </data>
+  <data name="cmdJumpToFileFileXref.Key" xml:space="preserve">
+    <value>cmdJumpToFileFileXref</value>
+  </data>
+  <data name="cmdJumpToFileFileXref.Text" xml:space="preserve">
+    <value>Jump to File (Target)</value>
+  </data>
+  <data name="cmdDeleteFileShortcut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP//////AP8A//8AAAD//wD/AAAA/wAAAEA4QCkjLFdRWkI+SHFvel9hb36CkZGW
+        pjk6PEhJS7W/0b3J3Ku1xlpjcJGox6O73KG42IaZsrLJ6MHV72dxfkFESGp8kmd4ja/E33+PorjO6mRv
+        fUNKU8PX77PE2FRbZMTU5668zZCbqUlOVD5CR3Z9hlVhb6a70mx4hcTY76S1yMbZ777Q5Ky7zJuntXV+
+        iFRaYX+HkG1zehAYICAoMD9KVTA4QGxzend+hUJFSFpeYl9xgElbaJyrtZOhqTg6O3aDiDI8OUBAQDAw
+        MCAgIBAQEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABOACwAAAAAEAAQAAAIhgCdCBxIsKDAIgyKGFxYREkECgttGBloQ4cPJQ8K2lDQgmCNH0qUABkIQwmS
+        GgZVhMzhxIGSGzYWOpEhxAcECC5UyBQYYgmCIBl3OumxZImPBUJ78Ghg48SSEDJZMMEh0AaHIxMLVkjQ
+        gaCNFSMKZtjBw0PBHEkyEBzShMTCDywJEhFKd2FAADs=
+</value>
+  </data>
+  <data name="cmdDeleteFileShortcut.Key" xml:space="preserve">
+    <value>cmdDeleteFileShortcut</value>
+  </data>
+  <data name="cmdDeleteFileShortcut.Text" xml:space="preserve">
+    <value>Delete Shortcut</value>
+  </data>
+  <data name="cmdRenameFileShortcut.Key" xml:space="preserve">
+    <value>cmdRenameFileShortcut</value>
+  </data>
+  <data name="cmdRenameFileShortcut.Text" xml:space="preserve">
+    <value>Rename Shortcut</value>
+  </data>
+  <data name="cmdDeleteShortcutFolder.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP//////AP8A//8AAAD//wD/AAAA/wAAAEA4QCkjLFdRWkI+SHFvel9hb36CkZGW
+        pjk6PEhJS7W/0b3J3Ku1xlpjcJGox6O73KG42IaZsrLJ6MHV72dxfkFESGp8kmd4ja/E33+PorjO6mRv
+        fUNKU8PX77PE2FRbZMTU5668zZCbqUlOVD5CR3Z9hlVhb6a70mx4hcTY76S1yMbZ777Q5Ky7zJuntXV+
+        iFRaYX+HkG1zehAYICAoMD9KVTA4QGxzend+hUJFSFpeYl9xgElbaJyrtZOhqTg6O3aDiDI8OUBAQDAw
+        MCAgIBAQEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABOACwAAAAAEAAQAAAIhgCdCBxIsKDAIgyKGFxYREkECgttGBloQ4cPJQ8K2lDQgmCNH0qUABkIQwmS
+        GgZVhMzhxIGSGzYWOpEhxAcECC5UyBQYYgmCIBl3OumxZImPBUJ78Ghg48SSEDJZMMEh0AaHIxMLVkjQ
+        gaCNFSMKZtjBw0PBHEkyEBzShMTCDywJEhFKd2FAADs=
+</value>
+  </data>
+  <data name="cmdDeleteShortcutFolder.Key" xml:space="preserve">
+    <value>cmdDeleteShortcutFolder</value>
+  </data>
+  <data name="cmdDeleteShortcutFolder.Text" xml:space="preserve">
+    <value>Delete Folder</value>
+  </data>
+  <data name="cmdRenameFolder.Key" xml:space="preserve">
+    <value>cmdRenameFolder</value>
+  </data>
+  <data name="cmdRenameFolder.Text" xml:space="preserve">
+    <value>Rename Folder</value>
+  </data>
+  <data name="cmdMove.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAKCYgPDw8JCgsP/ooLDA4PD4/zBAUP/4wP/QcP/gkP/YcLDA0PDAUPDIYDAgEMDI
+        0IBwULC40KB4IFBooP/ggKCwwJCIcP/okJCowEA4IP/YgDAoEP/wwLW4y1ZllPDQcKCw0ODg8LCAIEde
+        hKWmvXBgQPDosP/4sP/woLq/zdCYIGBIMHmEocCIIKqnrjBAYJ2fs8CQIMfBw9Dg8JCIgFBgcPDgkJB4
+        YMbK2TAwIODIcODo4PCoMNC4YFBIMPC4QKKnusCYQLCIMHBYQKCowL/F0f/IUCghG/CwQKCYkKCQgP/I
+        YMCoUDc/V9DY4Lm7zf/wsDBIYLCgkP/4/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABUACwAAAAAEAAQAAAIyQAJEFiwIAIIHFQSKlRIYIrDKRWiFEk4YYIHEgkbPsTwIEqKhB1YGEi44OEU
+        AVFSKnwykkoEkwGcdFQ44kUTKhUe7pDCs4ZCIAZgUCHisIAUE1BsSJGxMCGGKQUC8JwqBYBVAC6oCIgq
+        9QAHDlAGXKCgwMgNrQFCzJByAErYBAoQNFABQWvKKEnaDkigQS6DGCWaAjixt28DBkharGiqBMpYBUsY
+        /OAhIkNTGig+6OjBJIgQCRJyNLVgAcIQHxk2OHCw4UjT168DAgA7
+</value>
+  </data>
+  <data name="cmdMove.Key" xml:space="preserve">
+    <value>cmdMove</value>
+  </data>
+  <data name="cmdMove.Text" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="cmdFJumpToFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIrgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARI4gFlE8PBDCQ
+        YcGMBDesNkgpVKuBCQtUXEgQIYiJBgPKbkVb4EIODRuCSIBxwMWLAh5W0KhQIYGGEQ/02ihx4kOEDQ96
+        SJ7c46HlywIDAgA7
+</value>
+  </data>
+  <data name="cmdFJumpToFile.Key" xml:space="preserve">
+    <value>cmdFJumpToFile</value>
+  </data>
+  <data name="cmdFJumpToFile.Text" xml:space="preserve">
+    <value>Jump to File</value>
+  </data>
+  <data name="cmdFNewActivity1.Key" xml:space="preserve">
+    <value>cmdFNewActivity</value>
+  </data>
+  <data name="Separator7.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdFNew.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUAAO3jmtzNiv/7x//xk/Tor+G/U//zlu7gi9iqIt63MP/7w+W+OdvTmdvSl9quJu7i
+        kd/Ymf/4v//wn//xkP/xjP3pfd+4Md+2L9zVoenQgebGXdzVo9G7bf3/8PnooM3AjPbhkf/wk+PCWM+9
+        efPlreW7NvbrtOLXi962Lv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAApACwAAAAAEAAQ
+        AAAIVABTCBxIsKDBgwgTKlwokEMAAA4eMPiQEIMFCiImoGiQEIABASQUGDiREEEBAh1MFCjRcUAEAgIG
+        SEi4IUEFDSEueEg4IsCBBRBAZGBItKjRo0YDAgA7
+</value>
+  </data>
+  <data name="cmdFNew.Key" xml:space="preserve">
+    <value>cmdFNew</value>
+  </data>
+  <data name="cmdFNew.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="cmdFNewActivity.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAAOzp2jVJYjVJZO3q24CeujRKYu/p2e7o2H6duX+duevp2n+cuuvo1+vn24uq6+vq
+        1v///XaHoYKdujdIYpmqvpOiuf/+/+7o2v7//2KP5Ozq1Z6uxe3n13+dt4ur6H6duqOyycG+r+3n2Zu9
+        /O7p1X6dvO3q2XOc9kB2436et+rp132dtjFJYTRIYUZ95MTDsThy3tnWxdnUwOvq1bOwoWqZ9YOduLiy
+        pI2p6oup6ZCeuLy9rdbVwX+euv3//sjHtYuq6kx95I2dtoSr+n+euzRIYzlx4IWm6dDPvZWmuoGRqzZI
+        YJShtDdIZnWc6ZK0/DhJY1eF5WqU5jBixTFkz+rp1TRJZDVKZb+5qc7IuFCA5sPAsbu4pzNJYH2o9+vo
+        2Ymr6n+fuFeI59TRvoGcuXeh9aPD/////+ro2c/MuZKjtZe4+3yd6jhJZZ/B/sfEs4KSrM3HuUF144yp
+        69XPvzdz5YKdu+nr1n6cuNjSwoqw+26X5+nq2H2i6KDD/Yal6Dpy4e7p1mSV8uvq2Ozp1uzp2P///wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAACGACwAAAAAEAAQAAAI/AANCRxIsKAhHB7mOHBwpI8TKRnE
+        aHGBApAhD2b8uBmx5omeIV7KnKghiIqhHA7AAPnDZk+GKEHkwKhjZIohEIQIXSh0p9CgQQoeFGowyIqh
+        DQAIGVBRKIGNDmTsrBggo4AhClV0KIkAgIAPCxAwSGDAI8BNE2gKEQKAR8KHEgQQaBjT4igAA4QaMHig
+        ocEMBoQGpGlzlcMgEQMKIVjQI8GHBQriCDCUZJAQOBEIEcAA9kyYQG9YGFITGOiXFB0SICCywMCWCYYq
+        XOBA4sGBQgcA4Fa7wyoTPjHy0EGS5ceLEFi43KBhtkKAAAUELLkSYIKAJl2gCChisDvBgAA7
+</value>
+  </data>
+  <data name="cmdFNewActivity.Key" xml:space="preserve">
+    <value>cmdFNewActivity</value>
+  </data>
+  <data name="cmdFNewActivity.Text" xml:space="preserve">
+    <value>Activity (Wizard)</value>
+  </data>
+  <data name="cmdFNewEmail.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAKC40PDw/+Do8MDY8NDg8NDY8P/okPDwsPDosKCw4MDQ8JCgsKCQgNBIIP/gkKCg
+        kJCIcKC44P/QcP/ooEBYcIBwYJCo0EBQcLDA4ODw8P/woICQoKCw0PDAUPDgkJCIgOvp45CYsNDQ8PC4
+        UKCYkPDQcKBAIPHv7bDA0PDgoJCg0Pbx5P/YgODo/4B4cPDIcODg8ICYsICg0MDQ4P/ggNfTv3BwYPC4
+        YPBgQLDI4PDQYNCYILCokKCowKCwwP/wwKCYgJCowP/4/7CgkP/wsPD4/zBIYLKJY////wAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABHACwAAAAAEAAQAAAIyACPCBxIsOCRFTwSJgRhcCAPBESIHPAwpEbDI0MyanxAAohHjwxOYPxB8kfE
+        CQYcsJDw4kaFIw9MStSQkoYEHR1G7HgJxCSAnz6C9hgapGiQngcAIFnKVEiRIgEEUGAQUWlTpwFwNBBx
+        gQGCCRyuQm3RwAQGIx8QGPCx1ClUAQIIFIhgBEKKEmxR+OgRZMECuQMS1HVhowcSHwtCxNgAWIHggT3c
+        ZohbYIACBRaMDAxSBMaAGTkwREhgQYUMzQKDULhgpLXr1wEBADs=
+</value>
+  </data>
+  <data name="cmdFNewEmail.Key" xml:space="preserve">
+    <value>cmdFNewEmail</value>
+  </data>
+  <data name="cmdFNewEmail.Text" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="cmdFNewDocument.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIQAAOfr9/fz9/f7/+fj96Wy1qWqxrXD1pSqxtbb97W61vfz/6W61qWyxsbL1sbL58bT
+        59bb59bT59bj97XH55SitTFJY/9UhP////9ThAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBF
+        Mi4wAwEBAAAh+QQBAAAWACwAAAAAEAAQAAAIcwAtCBxIsODACQgRGkhAYIJBCxMuSJxYoILDggYmTjzQ
+        wGLBBBolUqhAsuCCkCJHFiSAUkAAlQQZoAwAAObAAiEFABhgU+ABjS4BIOhpgYJGBTshEDUq0eUABA+W
+        TqQpIYIDqRSyas1aoeBIkmDDPhxLMCAAOw==
+</value>
+  </data>
+  <data name="cmdFNewDocument.Key" xml:space="preserve">
+    <value>cmdFNewDocument</value>
+  </data>
+  <data name="cmdFNewDocument.Text" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="cmdFNewMemo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAq1JREFUOE9VUz1I
+        W1EYtbVOxboFgw6FDnaoZCh0KKVgoOjopNDSRVQ6CFIVHDq49AcR/yYztA5ClkiXFqW2sdbEWGOeyYuJ
+        muS9lz8TxZ8k1vhP6+l3by685MAHLzfvnHvOufeVFWNkZOTJwMDAs66uLlNLS4uxoaGhwmw2l7e1tRn6
+        +/sfjI6OmoeHh5vE66VwOp2vUqmUls/ncXp6ivPzc1xeXv77S7i4uOC/2ezv7+empqbe1NXV3RTUAjRN
+        c5+dnaF4jo6O+BSvkSg2NzczRqOxXFALoMUvbOeTkxPkcjk+7JmtFc/V1RXIbZgEbghqAR6P5yMjZTIZ
+        HB8fg0XJZrP8eWdnF5oW5WssxszMjFPQdMzNzb1PpdKQJB9UNQqv149wWIGiaGQ5hEhEZfm5yPT09GdB
+        02G1WrsPDzOIxeKQ5QCkNR8nOpzLkP3rWFxcwtZWmDuanJycEDQddDzPmdVAcAN0Gtjb20MymcTubsF+
+        Or3D47GYQ0NDbwVNx9jY2AsmsLLigcv1m4pywSN54fcHEFFUJBJJHBwccJHx8fF3gqbDZrO9ZhnZ7gna
+        mdkNBDawRlF8Pj8Jr8LhcHFxcqDU1NTcF9QC7Hb7ByZgty9gxe3B+nqQRFh5Cu8lFovBYrGgr68Pvb29
+        3wRNh9vt/sRysx2Z9e8/flKMZSz8cmBiwoKOjg4MDg6SYASzs7NLgqbD6/V+ZYWpqop4PI5oNEqWHWht
+        bUV7ezvF8PFSt7e3KYYrUltbW3qRZFleTafT1LhGZ6/QUcro7OzE/Pw8FZgomVAolKUOSq8y5XopSVKY
+        lciE6MVrspsPBoN/KP8164ANCWd6enq6DQZD6cfE0Nzc/JA+38cmk+ke3fU7VVVVFZWVlbeqq6tv19fX
+        36X/HjU2Nj4VrxPKyv4DII5UR09bfGAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdFNewMemo.Key" xml:space="preserve">
+    <value>cmdFNewMemo</value>
+  </data>
+  <data name="cmdFNewMemo.Text" xml:space="preserve">
+    <value>Memo</value>
+  </data>
+  <data name="cmdFNewFaxCover.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAzFJREFUOE99kd1P
+        mlccx0+27NaLJcuy/QW72uV6uyimTdrghS6maxYxGiiYmJgFFrLY+LKaKdLpAw9arTwM5FXmC0yxaLY9
+        ZtUGo9TaR6kgUHxaoGTpHAtrQfj2SLNljU0vPjnfnOT3yfd3DgFA9h8eEuEgTh6JaVKp4AzJRPL91KPU
+        OxSSTCarJOIJEj+Mk9cEeweH5Nmff5FCofAf5XLlk0wmW8nl/nieSWfEx4+fhI6OxJlYLHbpjGBHeEji
+        yRRJp9P/8u7TbG6rVCrj/xSLJUT2IzuCsHdWEKEtTiuKokhSqdTl6EEUx8d55I//Rj6fr+Z0OoPg7aCV
+        5/k3C3Z2H5BEIkEEQbiTSCSRzWSRzVIyTyGKTxBYCsA3v/CRf8H3ZsHdzW2yHb736W88XxKEfZy2iB7E
+        EI3GEA7fg9HIik6Hk5zymmBrZ6/NvxRM+xZvF+Z8izmrzQ7OYoXD6YLf/zNWVlbAcRx0Ol2v0WgkBoPh
+        lWAvEvswFH7wC8PexFVlB65c+Qqy1nZ0fa2BfsQIs8WGiclbMI2No7v7WpkxGC4zDFPDjDKEftU/Fza3
+        7+ftTje0316rDp6/cBGfnTuHz2vrcX1Aj8FBFsN6E8WIoSFduaWl5UShUOT6+/tqyPr6Rpxf+x2hzS1s
+        boWxtBzE5JQZam03XB4vzXaMMhN071sYGWUqMpkMTU1NkEgktOmXu3SP8eeTk1PF6WlH0TPjPVkKBMCv
+        rWEjFMKdjbv4leexHFyF1WarqFQqdHV1oaGhoUq9RHJC7Pb5ZxM3bdDrWQx+f6P8w42RIsuaimaOe+F2
+        exCgQvp4Fa1WC5NpDB0dHbTBF3S4HnW1tSdkYX61xuMOqF3OxXWLZaYwPmbF8DCDvt7rlL7SwMBASa1W
+        lzUaDb0fhlKpRGNjIyR1dWiQSiPEt7BK5mZXyU/eZeJ2+Yl9ev6S9UevizO7jkzsVFmnG4FCrkBrayt6
+        enqqWSqVorm52d/e3vbeGYHHvUhcTh+Zts1S2ezHFs7V/V3/0K5KqaqwLAvlVeULebv8G7lcTqiAvFXg
+        sM/R00s4s4P09vR+oFFrONpC1tnZSV4J2shLnlqewtsRvXAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdFNewFaxCover.Key" xml:space="preserve">
+    <value>cmdFNewFaxCover</value>
+  </data>
+  <data name="cmdFNewFaxCover.Text" xml:space="preserve">
+    <value>Fax Cover Sheet</value>
+  </data>
+  <data name="cmdFNewFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAArVJREFUOE+lkvtLU2EcxvcHSARhF8paGRWWoWIGmZEKwrIrBglNiyKxG2hhwjIdanl3
+        OnKIWps6y7OVWa5lZkrXEaWVZOKtOS9zzjmPbW66M316dxZCYr/UD885vC/n8/m+5zmHA+C/suTm4vQ8
+        2iajP4bxYRTwe+u8GRgSYqe/HYgi+4lLAovj6D4SMtDo78BUPoZeRwNTRdCqd1qsHbxwTvvTeL8HchEW
+        R01lRyxIjILrsEgsmDfDMvIQmOsHWYPs7+e4HjYNP8GMWc3GZqJg0YmhqCxAvTxT6BJ0KzYwutYo2M1v
+        MA8rbOMquNbDTQEfOMqqQiyEQJQsH7XSPNy/k4t75TmQl2Xh6yshmVwMML2sBIwGc5PiaXKCM5xaWR5m
+        6ZY/MvNTBWZCCWZMBudICeESoXseiDlTOfTvY8i9AD0NAfNsBzUV2W7o9yvYaSUcpiow+ttw6rLh7EuB
+        oSUCtk8xsH/hY7Q1CAPqvchPPQX2K1SX3VoQOMz1cIzLwYxK4BzMIXAqZjsTYG87B8vbaEw28TBK7YJG
+        5IGLZ0+Qesh/IC3JYAWuyYyphsClBM4D058GR2cigeNYmH4RCdPjEAzJd6A11wP8KJ5bUFEsxMzEMwJT
+        YAzlcA6JCCwk8FXY2+NhfXcSdPMhTDTsg4EKwODdzVClL0dkeLBbUFp4AzZjPSlMCuewGMyPdDi+J8H+
+        +TyspDD65WGYVKEwKAKhr/ZBn8QLVIonggN93YKSXAFsBoW7bW0mHF3XSFkXYNXEgm45SuAwjCmDoJdv
+        h7aMi66ilZAmr4XvVq5bIM5KBq2tgrEtAYONPPTW7UY35YuOyi3QlG5EcyEXdRnroUxbw052wZIrG8Bd
+        5+kWiDKTcFNwCcmXTyMu5hiOHwxD6B5/+Pl4Y5PXKqxeseyvYQWuy78HnF/Hrukrome/iAAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="cmdFNewFile.Key" xml:space="preserve">
+    <value>cmdFNewFile</value>
+  </data>
+  <data name="cmdFNewFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="cmdFNewOffice.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAACc0lEQVQ4T23SX0jTURQH8Psb
+        w0SRHkdEq5jN5osPPqzwwZAhGOqYqdCDhFJLTSZGtXCUM6V0Dw0Gwz9TSaZz07bJKHV//JOim1mtbPTP
+        gUH6IgW91EsPp3Ou/YayfvCBew+c77l3u6ympuOQ2lpzBdKT6ur71zQawxWV6lJdTo66gbH8CsQO0elM
+        XFWViWEDub639wd2d39ztF5ZSUAs9hmwoTEtoLLSyGm1dzGonYIaqTGZ/MHROhTa4CGMqZoRNh5wIECL
+        mjBVHw6/gmDwJUfrvj43DAxMglSqsGBTC9KlAsrLb4vqd3Z+wfb2zzRUn59/wy0vv8eTnL2KMACVlbWJ
+        WuiYfv8SLCzEwetdgEjkNUxNRWBx8S04nc/4KSYm5iigLRVQWmoQNWxtfYfNzW9pqD49/YKjazGWh1fN
+        wwBUUtIsaqXJHk8IZmdj4HLNwsxMFMbGnsPc3DoMD/vAZnPC6GiAAoypgOJivUifSOzCxkYyDdUpmAQC
+        KxigNCAMQEVF9aKbNJEm0FFHRvzg8y2Cw/GU7+12F1gsDhgcnMKAM/cQBiC1uk7UFI9/hbW1j2moTlch
+        9ONi461UQGHhZdEdmkQTJifD0N/vAbc7yCfT3mp9At3ddr5nLLcLYQDKzb3ACgqqyY319S+wtPQuDdXp
+        SmT/b1S0Iww4jvCTy88zpfKiKRr9xN9AZ6cNjMYe6O0d5HuqDw15ufHxGRCE01ZBOLbfjN9RJJPJzj2g
+        SaurH6C11cwfTU/PAN9TnR4SoRMIwkkH9fzrZXKJJEuTnZ3/6D8eZmWpzJmZyo6MDEWXVHrqsUQiHxaE
+        Ey5BOFLOGJP/BTS58hl4+ftjAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdFNewOffice.Key" xml:space="preserve">
+    <value>cmdFNewOffice</value>
+  </data>
+  <data name="cmdFNewOffice.Text" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="cmdFLawMateExplorer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAEHSURBVDhPlZDdasJAEIX3sXwIESzoRYk2VkuhVJCmupFSQbwRpP4RyBPone9QvO9d3+d0Zslu
+        MiEb6cXH2UnO7M4cFaTXMwEPZwCqDr4Ap1840h/g8xvoXICGPpGnutFiJmCjh9sTFIvhPMHjPFGG+Cj+
+        +XAHaoBloI9qoA++fMRU7hDODiSse4TTHR6mW9Ngs/Hl4g799y0svehLBdHGl0/1BEzwtiHJawtPU/5m
+        EcX9ZE0iDUy2TmUewtgdr0hkM1OXhzB2Xpck8puFXytlYfIQpruXBYlsvIUo2s8fJHnNr2a7ir2LHndg
+        WiON1lMM1uZQe/cu9ogLyvBrpZ3N3kWPaPg/UH8+Osc13qCZZgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdFLawMateExplorer.Key" xml:space="preserve">
+    <value>cmdFLawMateExplorer</value>
+  </data>
+  <data name="cmdFLawMateExplorer.Text" xml:space="preserve">
+    <value>LawMate Explorer</value>
+  </data>
+  <data name="cmdFRename.Key" xml:space="preserve">
+    <value>cmdFRename</value>
+  </data>
+  <data name="cmdFRename.Text" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="cmdFRefresh.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUAAP797/vwtPnolPnji/vpnvTmrvndevHag7eUJPHTc/vehfnTZvnNX72EFrB2Erh+
+        FLN6E7J4E7uBFbqBFbZ9FLd+FbuBFrqBFqluEKhuEKxxEaxzEaluEahuEbB1Eq91Eq1yEqxxEqxyEqxz
+        EqtxEq91E6ZrEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAAEAAQ
+        AAAIfQBPCBxIsKBBgg0aHDTYAIDChQMnAAAgQYIFiBUEBNgY4MCDhRAMEBg5MgGChR4YKHDwQWUJgQ8J
+        hmBA4oQGBiFgPkwoEEMHgR0ywHR4omHMgSdPSCxw4QIApgspDOC48QCFhRFEkjQQAeKIDSIULAABcSCG
+        BRzKDjRhAmJAADs=
+</value>
+  </data>
+  <data name="cmdFRefresh.Key" xml:space="preserve">
+    <value>cmdFRefresh</value>
+  </data>
+  <data name="cmdFRefresh.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="cmdFSearchFiles1.Key" xml:space="preserve">
+    <value>cmdFSearchFiles</value>
+  </data>
+  <data name="cmdFSearchDocuments1.Key" xml:space="preserve">
+    <value>cmdFSearchDocuments</value>
+  </data>
+  <data name="cmdFSearchOpinions1.Key" xml:space="preserve">
+    <value>cmdFSearchOpinions</value>
+  </data>
+  <data name="cmdFSearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAAAAAP///6R9g5OEiMS/0aykxaylxZ6nyKavz6mxz7C41rO716my0IGPuZOhyrW+
+        2bW+142fypinzJ2r0IKZyoGYyYecyZCk0pGkz5Om0IKazIKbzIGZyoGZyYOby4edy4qfypCl0Juv1oyp
+        2Iqm1qC22aG22Yqo1o6r15ew17/Y7bnh/6fa/6jb/6rT7a7V7bbY7azV7bzn/6/W7b3c7dvy/+75/7Pl
+        /7Tm/73v/8jx/7/x/8Lt+r/y/8Hz/8Tv+szx+sH0/8P1/8T1/8b1/8P2/8nz+sz0+tH1+tT1+sb5/83/
+        /9T//9X//9b//9n//9z//+T//+X//+n//+v//+z///b///j///v///Hz7/Hy7/Hy7vHx7fHx7ru7utDM
+        xfnRl/nUn/60UP63U/63VPrKivrMi8aqhNCLV6yopct+S8d6Ssd7TO3t7QAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAAAACwAAAAAEAAQAAAIoQABCBwoEEIEChswLCDIcIIIFUB4vCDhgKHABykC2NDBAgeREwksZoBRY0WO
+        HUKCxLBgUcMPGT6WMHHSxEiFlj9a9HAShYoUJB0sXnBxQwmUKlis0ABhUcGIIUWeTLkSoMQBhmG+NEAx
+        40gSGiYkMCxDBk0aBh84eAiBgKEZMmoEELBI0MwYNgIM0B0IRgzeAnsHnlkjAHBggV4GGD7MmGFAADs=
+</value>
+  </data>
+  <data name="cmdFSearch.Key" xml:space="preserve">
+    <value>cmdFSearch</value>
+  </data>
+  <data name="cmdFSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="cmdFSearchFiles.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIrgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARI4gFlE8PBDCQ
+        YcGMBDesNkgpVKuBCQtUXEgQIYiJBgPKbkVb4EIODRuCSIBxwMWLAh5W0KhQIYGGEQ/02ihx4kOEDQ96
+        SJ7c46HlywIDAgA7
+</value>
+  </data>
+  <data name="cmdFSearchFiles.Key" xml:space="preserve">
+    <value>cmdFSearchFiles</value>
+  </data>
+  <data name="cmdFSearchFiles.Text" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="cmdFSearchDocuments.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIQAAOfr9/fz9/f7/+fj96Wy1qWqxrXD1pSqxtbb97W61vfz/6W61qWyxsbL1sbL58bT
+        59bb59bT59bj97XH55SitTFJY/9UhP////9ThAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBF
+        Mi4wAwEBAAAh+QQBAAAWACwAAAAAEAAQAAAIcwAtCBxIsODACQgRGkhAYIJBCxMuSJxYoILDggYmTjzQ
+        wGLBBBolUqhAsuCCkCJHFiSAUkAAlQQZoAwAAObAAiEFABhgU+ABjS4BIOhpgYJGBTshEDUq0eUABA+W
+        TqQpIYIDqRSyas1aoeBIkmDDPhxLMCAAOw==
+</value>
+  </data>
+  <data name="cmdFSearchDocuments.Key" xml:space="preserve">
+    <value>cmdFSearchDocuments</value>
+  </data>
+  <data name="cmdFSearchDocuments.Text" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="cmdFSearchOpinions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAAipJREFUOE+VjF1MkmEYhjtqdFJzHvezmo2DltRaa5m1dVZbsdyarVbOmpVzs/9NK5k1
+        K4OVMAubP5QrKjYyED4QYhI/lTAmaAWxpRESjMqIlNRI7nxfhEl9B/Zs1+577/O814K5UyuU4n+Z/Zoe
+        8uAeGZs3rILXn8Ypd+QqXL99F+ev3MC15nYo9Db6RnrmhlXgjSQodY1inKytx8WrN9H6SE0z0zM3rAJ/
+        NDFvMgI+h8N5vzgvf/DYOQGGvvyE2fUWGnMfOpVaKHueU+RqA83MjtxRwULOoih/TwmkbTLsmkm10Yyn
+        BgvF2u/N9gddTLbrLA4ERifSgqItxeGaCwLUXWrA8IdhlJftx737cvS/C8Boc0KpNULzzIqXHh8eq3QU
+        sgvFJtOCVQWr9U1iSaqbMaC5pRXBkY84cvgAJDOdMVnRN+Cj2cUYaXr8AZjsTkTiswIyXC7XKhSJUg6X
+        G91MD45WVWPpsuXofeGEQqWFvtdG+Tw2lUNWQIbH4+kOHirDipUFWLN+Iyoqq7C5eBuMZjusr1xwv/HT
+        TvANBfEt8StXQOZUvRA7dpdgSV4+Nm3djhOnz6JNJoPJYofd4aJJ8Hj9iE8k/xWQh+jod+wt3Ye1hYUQ
+        32pBecVxjE/9ZoVVMJmcRqfCCZHkIXbyS7FuQxGeaGwIhsL4GotTyA2BVZCcTuWg1enQ3tFB0zMwiFA4
+        glj8B92xCv6mWtCIyprLFNLPNDTN2UvxB3Y/l/pE9nkHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdFSearchOpinions.Key" xml:space="preserve">
+    <value>cmdFSearchOpinions</value>
+  </data>
+  <data name="cmdFSearchOpinions.Text" xml:space="preserve">
+    <value>Opinions</value>
+  </data>
+  <data name="cmdFMove.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAKCYgPDw8JCgsP/ooLDA4PD4/zBAUP/4wP/QcP/gkP/YcLDA0PDAUPDIYDAgEMDI
+        0IBwULC40KB4IFBooP/ggKCwwJCIcP/okJCowEA4IP/YgDAoEP/wwLW4y1ZllPDQcKCw0ODg8LCAIEde
+        hKWmvXBgQPDosP/4sP/woLq/zdCYIGBIMHmEocCIIKqnrjBAYJ2fs8CQIMfBw9Dg8JCIgFBgcPDgkJB4
+        YMbK2TAwIODIcODo4PCoMNC4YFBIMPC4QKKnusCYQLCIMHBYQKCowL/F0f/IUCghG/CwQKCYkKCQgP/I
+        YMCoUDc/V9DY4Lm7zf/wsDBIYLCgkP/4/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABUACwAAAAAEAAQAAAIyQAJEFiwIAIIHFQSKlRIYIrDKRWiFEk4YYIHEgkbPsTwIEqKhB1YGEi44OEU
+        AVFSKnwykkoEkwGcdFQ44kUTKhUe7pDCs4ZCIAZgUCHisIAUE1BsSJGxMCGGKQUC8JwqBYBVAC6oCIgq
+        9QAHDlAGXKCgwMgNrQFCzJByAErYBAoQNFABQWvKKEnaDkigQS6DGCWaAjixt28DBkharGiqBMpYBUsY
+        /OAhIkNTGig+6OjBJIgQCRJyNLVgAcIQHxk2OHCw4UjT168DAgA7
+</value>
+  </data>
+  <data name="cmdFMove.Key" xml:space="preserve">
+    <value>cmdFMove</value>
+  </data>
+  <data name="cmdFMove.Text" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="cmdFDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP//////AP8A//8AAAD//wD/AAAA/wAAAEA4QCkjLFdRWkI+SHFvel9hb36CkZGW
+        pjk6PEhJS7W/0b3J3Ku1xlpjcJGox6O73KG42IaZsrLJ6MHV72dxfkFESGp8kmd4ja/E33+PorjO6mRv
+        fUNKU8PX77PE2FRbZMTU5668zZCbqUlOVD5CR3Z9hlVhb6a70mx4hcTY76S1yMbZ777Q5Ky7zJuntXV+
+        iFRaYX+HkG1zehAYICAoMD9KVTA4QGxzend+hUJFSFpeYl9xgElbaJyrtZOhqTg6O3aDiDI8OUBAQDAw
+        MCAgIBAQEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABOACwAAAAAEAAQAAAIhgCdCBxIsKDAIgyKGFxYREkECgttGBloQ4cPJQ8K2lDQgmCNH0qUABkIQwmS
+        GgZVhMzhxIGSGzYWOpEhxAcECC5UyBQYYgmCIBl3OumxZImPBUJ78Ghg48SSEDJZMMEh0AaHIxMLVkjQ
+        gaCNFSMKZtjBw0PBHEkyEBzShMTCDywJEhFKd2FAADs=
+</value>
+  </data>
+  <data name="cmdFDelete.Key" xml:space="preserve">
+    <value>cmdFDelete</value>
+  </data>
+  <data name="cmdFDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdFAddToShortcuts.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABs0lEQVQ4T6WPvUsjURTFp04n
+        Wwi2dqkXbNQtVLDYQhBEbQLrGtiIIGixu1UKP+r8HTZrKWJYUdRVnE1UYpKRxPjBxEwyEnaSmC+O71wd
+        sRCj7oPfvHfvPee8eRqA/0L7Mp/TJhas4a+L+ZQCryBFPX0SMPozTVLR5K2qWy/qqKdPlZo2GPhL0Gw2
+        Ua/XW9JoNEA9fRLQNbZOUKvVUC6Xhb1DC+w9xR/cl1m1WnV79wHez78IKpUKisXiI9u6Cfafous6DMNw
+        6/uAzoFlglKpBNu2kcvllOgU0egRxmd/gzOXSOQQJycJt3YDVggcx8HVlYlYLInj4ziGvq0p0QrG57Zk
+        J+zH46du7T4hTNTNBSSTGSQSZxiZ2VG/GIbvh46Li2ts/OFzwjIzjHM50ycBH0ciRN2eRzptwvc9Btb+
+        oAHTtKVHtg4KD+eszOmTgB5fhihxEZeXN9iN/MP0UhaW5Uj9HNTTJwF9kwWinnCLbLYi2Hb18fwc1NMn
+        AW0d3Vq/306tbjrI5xstoY56+iRArQ/eT6FA/6R1pgYcvozSeXtDU/S5AR5Fu6LjDVDvkQB+3g+0O9zm
+        wUHBdDWoAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdFAddToShortcuts.Key" xml:space="preserve">
+    <value>cmdFAddToShortcuts</value>
+  </data>
+  <data name="cmdFAddToShortcuts.Text" xml:space="preserve">
+    <value>Create Shortcut</value>
+  </data>
+  <data name="cmdFAddToShortcuts.ToolTipText" xml:space="preserve">
+    <value>Create a new shortcut to this file</value>
+  </data>
+  <data name="cmdFNewXref.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIpgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARw4QNq1aFADgg
+        5KpXqy3ChhVyIIAQsWGvjj0rJIABtmdbmDDRQogJth5WsL0r10ZdsUI2PIj7Vy1aIQIJh70rpLHjxI4d
+        BwQAOw==
+</value>
+  </data>
+  <data name="cmdFNewXref.Key" xml:space="preserve">
+    <value>cmdFNewXref</value>
+  </data>
+  <data name="cmdFNewXref.Text" xml:space="preserve">
+    <value>Create Cross-Reference</value>
+  </data>
+  <data name="cmdFNewXref.ToolTipText" xml:space="preserve">
+    <value>Cross-reference this file to another file</value>
+  </data>
+  <data name="cmdFFileProperties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAAQJJREFUOE+lkTEKwkAQRfcIlrERBJsFT5HeA5jOeg+QXqwX67CVvSksvEDAI+gBBNs9
+        wjh/w5jEbKKi8NjMLP/NsCoi+otoU3DWkJCb7AXudqUjEA0ChPwt61JpuhQ6SIKgMuPhdKE64cdpRr7k
+        HpPZlLJS8yqHK70ojmHdEF4mjaQVvtiadD8PBIHnsaAXxslhSCToNhzmWudT0kXSCDphrnFiaqh5suL3
+        Fvin1IolQcBrywYSbteYitCx8qQmmrvNWyVrvmsLYmDd691HBWBQgJCAsDsPCWwtwCnfZut64K1GBWOT
+        5W/+agMEYxuYYkCAy0+TER4V4OJbeoL3xm+QegL3MsVzdOKZ3AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdFFileProperties.Key" xml:space="preserve">
+    <value>cmdFFileProperties</value>
+  </data>
+  <data name="cmdFFileProperties.Text" xml:space="preserve">
+    <value>File Properties</value>
+  </data>
+  <data name="cmdFFileStats.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAAAAAP///+fn9/f3/6WtxpSt94Sl94Sc1jFj1kJz52OM53Oc91KE54St/2NzlHOE
+        pefv/zFr1kJ754St96XG/2Oc92OU53Ol95S9/3OMtZS15zFKY3OUtWN7lHOMpYSctZStxqW1xsbW58bO
+        1nOElJSltbXG1uf3//f//7W9tff/99bWxufelPfvpf/3tffnhP/vlFJKIbWlUvfnlNa9UvfnpYRzMefO
+        c/fehMa1c1JCEHNjMZSEUufGY4RzQsa9pefGc/fWhIRaAIRrMee9Y5R7QqWMUsaUMVJCIXNjQpSEY6WU
+        c4RaGGNKIYRrQlJCKUIxGGNCGMatlLWllMa9tdbW1pSUlP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABXACwAAAAAEAAQAAAIyAALCJxgYIEFBQwkKExwpWEBChQwYNDQ4MKFBRUqRGh4ZaCBAxYSJhiZAAHH
+        EgFQoBgw4kPKlSM2nEw54ESIDDRtymxYYuUJCDd9At15pcQAASJM3DyaNARRAhwyeHjQwQEJElM7EAUR
+        4CXQrit4rCCKUiXLDz+M5GCRw8YSnjlDSMnhogYUGC9kKCkqNESRGS2eqNiBg0iSokyVOgHy4sWQIDeE
+        ICm6oXLlKU5oDOnB5EgUKxxDX6HiI8YRHU32ihZdxUeK0AEBADs=
+</value>
+  </data>
+  <data name="cmdFFileStats.Key" xml:space="preserve">
+    <value>cmdFFileStats</value>
+  </data>
+  <data name="cmdFFileStats.Text" xml:space="preserve">
+    <value>File Statistics</value>
+  </data>
+  <data name="cmdMoveShortcutContainer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAKCYgPDw8JCgsP/ooLDA4PD4/zBAUP/4wP/QcP/gkP/YcLDA0PDAUPDIYDAgEMDI
+        0IBwULC40KB4IFBooP/ggKCwwJCIcP/okJCowEA4IP/YgDAoEP/wwLW4y1ZllPDQcKCw0ODg8LCAIEde
+        hKWmvXBgQPDosP/4sP/woLq/zdCYIGBIMHmEocCIIKqnrjBAYJ2fs8CQIMfBw9Dg8JCIgFBgcPDgkJB4
+        YMbK2TAwIODIcODo4PCoMNC4YFBIMPC4QKKnusCYQLCIMHBYQKCowL/F0f/IUCghG/CwQKCYkKCQgP/I
+        YMCoUDc/V9DY4Lm7zf/wsDBIYLCgkP/4/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABUACwAAAAAEAAQAAAIyQAJEFiwIAIIHFQSKlRIYIrDKRWiFEk4YYIHEgkbPsTwIEqKhB1YGEi44OEU
+        AVFSKnwykkoEkwGcdFQ44kUTKhUe7pDCs4ZCIAZgUCHisIAUE1BsSJGxMCGGKQUC8JwqBYBVAC6oCIgq
+        9QAHDlAGXKCgwMgNrQFCzJByAErYBAoQNFABQWvKKEnaDkigQS6DGCWaAjixt28DBkharGiqBMpYBUsY
+        /OAhIkNTGig+6OjBJIgQCRJyNLVgAcIQHxk2OHCw4UjT168DAgA7
+</value>
+  </data>
+  <data name="cmdMoveShortcutContainer.Key" xml:space="preserve">
+    <value>cmdMoveShortcutContainer</value>
+  </data>
+  <data name="cmdMoveShortcutContainer.Text" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="cmdMoveFileShortcut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAKCYgPDw8JCgsP/ooLDA4PD4/zBAUP/4wP/QcP/gkP/YcLDA0PDAUPDIYDAgEMDI
+        0IBwULC40KB4IFBooP/ggKCwwJCIcP/okJCowEA4IP/YgDAoEP/wwLW4y1ZllPDQcKCw0ODg8LCAIEde
+        hKWmvXBgQPDosP/4sP/woLq/zdCYIGBIMHmEocCIIKqnrjBAYJ2fs8CQIMfBw9Dg8JCIgFBgcPDgkJB4
+        YMbK2TAwIODIcODo4PCoMNC4YFBIMPC4QKKnusCYQLCIMHBYQKCowL/F0f/IUCghG/CwQKCYkKCQgP/I
+        YMCoUDc/V9DY4Lm7zf/wsDBIYLCgkP/4/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABUACwAAAAAEAAQAAAIyQAJEFiwIAIIHFQSKlRIYIrDKRWiFEk4YYIHEgkbPsTwIEqKhB1YGEi44OEU
+        AVFSKnwykkoEkwGcdFQ44kUTKhUe7pDCs4ZCIAZgUCHisIAUE1BsSJGxMCGGKQUC8JwqBYBVAC6oCIgq
+        9QAHDlAGXKCgwMgNrQFCzJByAErYBAoQNFABQWvKKEnaDkigQS6DGCWaAjixt28DBkharGiqBMpYBUsY
+        /OAhIkNTGig+6OjBJIgQCRJyNLVgAcIQHxk2OHCw4UjT168DAgA7
+</value>
+  </data>
+  <data name="cmdMoveFileShortcut.Key" xml:space="preserve">
+    <value>cmdMoveFileShortcut</value>
+  </data>
+  <data name="cmdMoveFileShortcut.Text" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="cmdJumpToXref.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIrgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARI4gFlE8PBDCQ
+        YcGMBDesNkgpVKuBCQtUXEgQIYiJBgPKbkVb4EIODRuCSIBxwMWLAh5W0KhQIYGGEQ/02ihx4kOEDQ96
+        SJ7c46HlywIDAgA7
+</value>
+  </data>
+  <data name="cmdJumpToXref.Key" xml:space="preserve">
+    <value>cmdJumpToXref</value>
+  </data>
+  <data name="cmdJumpToXref.Text" xml:space="preserve">
+    <value>Jump to Cross-Reference</value>
+  </data>
+  <data name="cmdDeleteXRef.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP//////AP8A//8AAAD//wD/AAAA/wAAAEA4QCkjLFdRWkI+SHFvel9hb36CkZGW
+        pjk6PEhJS7W/0b3J3Ku1xlpjcJGox6O73KG42IaZsrLJ6MHV72dxfkFESGp8kmd4ja/E33+PorjO6mRv
+        fUNKU8PX77PE2FRbZMTU5668zZCbqUlOVD5CR3Z9hlVhb6a70mx4hcTY76S1yMbZ777Q5Ky7zJuntXV+
+        iFRaYX+HkG1zehAYICAoMD9KVTA4QGxzend+hUJFSFpeYl9xgElbaJyrtZOhqTg6O3aDiDI8OUBAQDAw
+        MCAgIBAQEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABOACwAAAAAEAAQAAAIhgCdCBxIsKDAIgyKGFxYREkECgttGBloQ4cPJQ8K2lDQgmCNH0qUABkIQwmS
+        GgZVhMzhxIGSGzYWOpEhxAcECC5UyBQYYgmCIBl3OumxZImPBUJ78Ghg48SSEDJZMMEh0AaHIxMLVkjQ
+        gaCNFSMKZtjBw0PBHEkyEBzShMTCDywJEhFKd2FAADs=
+</value>
+  </data>
+  <data name="cmdDeleteXRef.Key" xml:space="preserve">
+    <value>cmdDeleteXRef</value>
+  </data>
+  <data name="cmdDeleteXRef.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdFileAKA.Key" xml:space="preserve">
+    <value>cmdFileAKA</value>
+  </data>
+  <data name="cmdFileAKA.Text" xml:space="preserve">
+    <value>File AKAs</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="TopRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TopRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TopRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 0</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Name" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Name" xml:space="preserve">
+    <value>uiCommandManager1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandManager, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRefresh.Name" xml:space="preserve">
+    <value>cmdRefresh</value>
+  </data>
+  <data name="&gt;&gt;cmdRefresh.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdNewContainer.Name" xml:space="preserve">
+    <value>cmdNewContainer</value>
+  </data>
+  <data name="&gt;&gt;cmdNewContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRename.Name" xml:space="preserve">
+    <value>cmdRename</value>
+  </data>
+  <data name="&gt;&gt;cmdRename.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdDelete.Name" xml:space="preserve">
+    <value>cmdDelete</value>
+  </data>
+  <data name="&gt;&gt;cmdDelete.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdViewInExternal.Name" xml:space="preserve">
+    <value>cmdViewInExternal</value>
+  </data>
+  <data name="&gt;&gt;cmdViewInExternal.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdViewInLMViewer.Name" xml:space="preserve">
+    <value>cmdViewInLMViewer</value>
+  </data>
+  <data name="&gt;&gt;cmdViewInLMViewer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFile.Name" xml:space="preserve">
+    <value>cmdJumpToFile</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFile.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdExplorerFindFile.Name" xml:space="preserve">
+    <value>cmdExplorerFindFile</value>
+  </data>
+  <data name="&gt;&gt;cmdExplorerFindFile.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFileDocXref.Name" xml:space="preserve">
+    <value>cmdJumpToFileDocXref</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFileDocXref.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFileFileXref.Name" xml:space="preserve">
+    <value>cmdJumpToFileFileXref</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFileFileXref.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteFileShortcut.Name" xml:space="preserve">
+    <value>cmdDeleteFileShortcut</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteFileShortcut.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRenameFileShortcut.Name" xml:space="preserve">
+    <value>cmdRenameFileShortcut</value>
+  </data>
+  <data name="&gt;&gt;cmdRenameFileShortcut.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteShortcutFolder.Name" xml:space="preserve">
+    <value>cmdDeleteShortcutFolder</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteShortcutFolder.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRenameFolder.Name" xml:space="preserve">
+    <value>cmdRenameFolder</value>
+  </data>
+  <data name="&gt;&gt;cmdRenameFolder.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdMove.Name" xml:space="preserve">
+    <value>cmdMove</value>
+  </data>
+  <data name="&gt;&gt;cmdMove.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFJumpToFile.Name" xml:space="preserve">
+    <value>cmdFJumpToFile</value>
+  </data>
+  <data name="&gt;&gt;cmdFJumpToFile.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNew.Name" xml:space="preserve">
+    <value>cmdFNew</value>
+  </data>
+  <data name="&gt;&gt;cmdFNew.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewActivity1.Name" xml:space="preserve">
+    <value>cmdFNewActivity1</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewActivity1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator7.Name" xml:space="preserve">
+    <value>Separator7</value>
+  </data>
+  <data name="&gt;&gt;Separator7.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewActivity.Name" xml:space="preserve">
+    <value>cmdFNewActivity</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewActivity.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewEmail.Name" xml:space="preserve">
+    <value>cmdFNewEmail</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewEmail.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewDocument.Name" xml:space="preserve">
+    <value>cmdFNewDocument</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewDocument.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewMemo.Name" xml:space="preserve">
+    <value>cmdFNewMemo</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewMemo.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewFaxCover.Name" xml:space="preserve">
+    <value>cmdFNewFaxCover</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewFaxCover.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewFile.Name" xml:space="preserve">
+    <value>cmdFNewFile</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewFile.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewOffice.Name" xml:space="preserve">
+    <value>cmdFNewOffice</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewOffice.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFLawMateExplorer.Name" xml:space="preserve">
+    <value>cmdFLawMateExplorer</value>
+  </data>
+  <data name="&gt;&gt;cmdFLawMateExplorer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFRename.Name" xml:space="preserve">
+    <value>cmdFRename</value>
+  </data>
+  <data name="&gt;&gt;cmdFRename.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFRefresh.Name" xml:space="preserve">
+    <value>cmdFRefresh</value>
+  </data>
+  <data name="&gt;&gt;cmdFRefresh.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearch.Name" xml:space="preserve">
+    <value>cmdFSearch</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearch.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchFiles1.Name" xml:space="preserve">
+    <value>cmdFSearchFiles1</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchFiles1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchDocuments1.Name" xml:space="preserve">
+    <value>cmdFSearchDocuments1</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchDocuments1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchOpinions1.Name" xml:space="preserve">
+    <value>cmdFSearchOpinions1</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchOpinions1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchFiles.Name" xml:space="preserve">
+    <value>cmdFSearchFiles</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchFiles.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchDocuments.Name" xml:space="preserve">
+    <value>cmdFSearchDocuments</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchDocuments.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchOpinions.Name" xml:space="preserve">
+    <value>cmdFSearchOpinions</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearchOpinions.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFMove.Name" xml:space="preserve">
+    <value>cmdFMove</value>
+  </data>
+  <data name="&gt;&gt;cmdFMove.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFDelete.Name" xml:space="preserve">
+    <value>cmdFDelete</value>
+  </data>
+  <data name="&gt;&gt;cmdFDelete.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFAddToShortcuts.Name" xml:space="preserve">
+    <value>cmdFAddToShortcuts</value>
+  </data>
+  <data name="&gt;&gt;cmdFAddToShortcuts.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewXref.Name" xml:space="preserve">
+    <value>cmdFNewXref</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewXref.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFFileProperties.Name" xml:space="preserve">
+    <value>cmdFFileProperties</value>
+  </data>
+  <data name="&gt;&gt;cmdFFileProperties.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFFileStats.Name" xml:space="preserve">
+    <value>cmdFFileStats</value>
+  </data>
+  <data name="&gt;&gt;cmdFFileStats.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveShortcutContainer.Name" xml:space="preserve">
+    <value>cmdMoveShortcutContainer</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveShortcutContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveFileShortcut.Name" xml:space="preserve">
+    <value>cmdMoveFileShortcut</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveFileShortcut.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToXref.Name" xml:space="preserve">
+    <value>cmdJumpToXref</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToXref.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteXRef.Name" xml:space="preserve">
+    <value>cmdDeleteXRef</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteXRef.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFileAKA.Name" xml:space="preserve">
+    <value>cmdFileAKA</value>
+  </data>
+  <data name="&gt;&gt;cmdFileAKA.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu1.Name" xml:space="preserve">
+    <value>uiContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIContextMenu, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFile1.Name" xml:space="preserve">
+    <value>cmdJumpToFile1</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFile1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdNewContainer1.Name" xml:space="preserve">
+    <value>cmdNewContainer1</value>
+  </data>
+  <data name="&gt;&gt;cmdNewContainer1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRefresh1.Name" xml:space="preserve">
+    <value>cmdRefresh1</value>
+  </data>
+  <data name="&gt;&gt;cmdRefresh1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveShortcutContainer1.Name" xml:space="preserve">
+    <value>cmdMoveShortcutContainer1</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveShortcutContainer1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRenameFolder1.Name" xml:space="preserve">
+    <value>cmdRenameFolder1</value>
+  </data>
+  <data name="&gt;&gt;cmdRenameFolder1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
+    <value>Separator1</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteShortcutFolder1.Name" xml:space="preserve">
+    <value>cmdDeleteShortcutFolder1</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteShortcutFolder1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu2.Name" xml:space="preserve">
+    <value>uiContextMenu2</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIContextMenu, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdViewInLMViewer1.Name" xml:space="preserve">
+    <value>cmdViewInLMViewer1</value>
+  </data>
+  <data name="&gt;&gt;cmdViewInLMViewer1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdViewInExternal1.Name" xml:space="preserve">
+    <value>cmdViewInExternal1</value>
+  </data>
+  <data name="&gt;&gt;cmdViewInExternal1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRename1.Name" xml:space="preserve">
+    <value>cmdRename1</value>
+  </data>
+  <data name="&gt;&gt;cmdRename1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdMove2.Name" xml:space="preserve">
+    <value>cmdMove2</value>
+  </data>
+  <data name="&gt;&gt;cmdMove2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator2.Name" xml:space="preserve">
+    <value>Separator2</value>
+  </data>
+  <data name="&gt;&gt;Separator2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFileDocXref1.Name" xml:space="preserve">
+    <value>cmdJumpToFileDocXref1</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFileDocXref1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Name" xml:space="preserve">
+    <value>Separator3</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdDelete1.Name" xml:space="preserve">
+    <value>cmdDelete1</value>
+  </data>
+  <data name="&gt;&gt;cmdDelete1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu3.Name" xml:space="preserve">
+    <value>uiContextMenu3</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu3.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIContextMenu, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFileFileXref1.Name" xml:space="preserve">
+    <value>cmdJumpToFileFileXref1</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToFileFileXref1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdExplorerFindFile1.Name" xml:space="preserve">
+    <value>cmdExplorerFindFile1</value>
+  </data>
+  <data name="&gt;&gt;cmdExplorerFindFile1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRenameFileShortcut1.Name" xml:space="preserve">
+    <value>cmdRenameFileShortcut1</value>
+  </data>
+  <data name="&gt;&gt;cmdRenameFileShortcut1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveFileShortcut1.Name" xml:space="preserve">
+    <value>cmdMoveFileShortcut1</value>
+  </data>
+  <data name="&gt;&gt;cmdMoveFileShortcut1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator4.Name" xml:space="preserve">
+    <value>Separator4</value>
+  </data>
+  <data name="&gt;&gt;Separator4.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteFileShortcut1.Name" xml:space="preserve">
+    <value>cmdDeleteFileShortcut1</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteFileShortcut1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu4.Name" xml:space="preserve">
+    <value>uiContextMenu4</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu4.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIContextMenu, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFJumpToFile1.Name" xml:space="preserve">
+    <value>cmdFJumpToFile1</value>
+  </data>
+  <data name="&gt;&gt;cmdFJumpToFile1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNew1.Name" xml:space="preserve">
+    <value>cmdFNew1</value>
+  </data>
+  <data name="&gt;&gt;cmdFNew1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFLawMateExplorer1.Name" xml:space="preserve">
+    <value>cmdFLawMateExplorer1</value>
+  </data>
+  <data name="&gt;&gt;cmdFLawMateExplorer1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFRename1.Name" xml:space="preserve">
+    <value>cmdFRename1</value>
+  </data>
+  <data name="&gt;&gt;cmdFRename1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFRefresh1.Name" xml:space="preserve">
+    <value>cmdFRefresh1</value>
+  </data>
+  <data name="&gt;&gt;cmdFRefresh1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearch1.Name" xml:space="preserve">
+    <value>cmdFSearch1</value>
+  </data>
+  <data name="&gt;&gt;cmdFSearch1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFMove1.Name" xml:space="preserve">
+    <value>cmdFMove1</value>
+  </data>
+  <data name="&gt;&gt;cmdFMove1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFDelete1.Name" xml:space="preserve">
+    <value>cmdFDelete1</value>
+  </data>
+  <data name="&gt;&gt;cmdFDelete1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator5.Name" xml:space="preserve">
+    <value>Separator5</value>
+  </data>
+  <data name="&gt;&gt;Separator5.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFAddToShortcuts1.Name" xml:space="preserve">
+    <value>cmdFAddToShortcuts1</value>
+  </data>
+  <data name="&gt;&gt;cmdFAddToShortcuts1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewXref1.Name" xml:space="preserve">
+    <value>cmdFNewXref1</value>
+  </data>
+  <data name="&gt;&gt;cmdFNewXref1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator6.Name" xml:space="preserve">
+    <value>Separator6</value>
+  </data>
+  <data name="&gt;&gt;Separator6.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFileAKA1.Name" xml:space="preserve">
+    <value>cmdFileAKA1</value>
+  </data>
+  <data name="&gt;&gt;cmdFileAKA1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFFileProperties1.Name" xml:space="preserve">
+    <value>cmdFFileProperties1</value>
+  </data>
+  <data name="&gt;&gt;cmdFFileProperties1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu5.Name" xml:space="preserve">
+    <value>uiContextMenu5</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu5.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIContextMenu, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToXref1.Name" xml:space="preserve">
+    <value>cmdJumpToXref1</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToXref1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdExplorerFindFile2.Name" xml:space="preserve">
+    <value>cmdExplorerFindFile2</value>
+  </data>
+  <data name="&gt;&gt;cmdExplorerFindFile2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator8.Name" xml:space="preserve">
+    <value>Separator8</value>
+  </data>
+  <data name="&gt;&gt;Separator8.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteXRef1.Name" xml:space="preserve">
+    <value>cmdDeleteXRef1</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteXRef1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu6.Name" xml:space="preserve">
+    <value>uiContextMenu6</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu6.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIContextMenu, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu7.Name" xml:space="preserve">
+    <value>uiContextMenu7</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu7.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIContextMenu, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRefresh2.Name" xml:space="preserve">
+    <value>cmdRefresh2</value>
+  </data>
+  <data name="&gt;&gt;cmdRefresh2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdExplorerFindFile3.Name" xml:space="preserve">
+    <value>cmdExplorerFindFile3</value>
+  </data>
+  <data name="&gt;&gt;cmdExplorerFindFile3.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFileAKA2.Name" xml:space="preserve">
+    <value>cmdFileAKA2</value>
+  </data>
+  <data name="&gt;&gt;cmdFileAKA2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator9.Name" xml:space="preserve">
+    <value>Separator9</value>
+  </data>
+  <data name="&gt;&gt;Separator9.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucFileContextMenu</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="uiContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>350, 17</value>
+  </metadata>
+  <data name="cmdJumpToFile1.Key" xml:space="preserve">
+    <value>cmdJumpToFile</value>
+  </data>
+  <data name="cmdNewContainer1.Key" xml:space="preserve">
+    <value>cmdNewContainer</value>
+  </data>
+  <data name="cmdRefresh1.Key" xml:space="preserve">
+    <value>cmdRefresh</value>
+  </data>
+  <data name="cmdMoveShortcutContainer1.Key" xml:space="preserve">
+    <value>cmdMoveShortcutContainer</value>
+  </data>
+  <data name="cmdRenameFolder1.Key" xml:space="preserve">
+    <value>cmdRenameFolder</value>
+  </data>
+  <data name="Separator1.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdDeleteShortcutFolder1.Key" xml:space="preserve">
+    <value>cmdDeleteShortcutFolder</value>
+  </data>
+  <data name="uiContextMenu1.Key" xml:space="preserve">
+    <value>cmShortcutContainer</value>
+  </data>
+  <metadata name="uiContextMenu2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>482, 17</value>
+  </metadata>
+  <data name="cmdViewInLMViewer1.Key" xml:space="preserve">
+    <value>cmdViewInLMViewer</value>
+  </data>
+  <data name="cmdViewInExternal1.Key" xml:space="preserve">
+    <value>cmdViewInExternal</value>
+  </data>
+  <data name="cmdRename1.Key" xml:space="preserve">
+    <value>cmdRename</value>
+  </data>
+  <data name="cmdMove2.Key" xml:space="preserve">
+    <value>cmdMove</value>
+  </data>
+  <data name="Separator2.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdJumpToFileDocXref1.Key" xml:space="preserve">
+    <value>cmdJumpToFileDocXref</value>
+  </data>
+  <data name="Separator3.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdDelete1.Key" xml:space="preserve">
+    <value>cmdDelete</value>
+  </data>
+  <data name="uiContextMenu2.Key" xml:space="preserve">
+    <value>cmDocShortcut</value>
+  </data>
+  <metadata name="uiContextMenu3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>614, 17</value>
+  </metadata>
+  <data name="cmdJumpToFileFileXref1.Key" xml:space="preserve">
+    <value>cmdJumpToFileFileXref</value>
+  </data>
+  <data name="cmdExplorerFindFile1.Key" xml:space="preserve">
+    <value>cmdExplorerFindFile</value>
+  </data>
+  <data name="cmdRenameFileShortcut1.Key" xml:space="preserve">
+    <value>cmdRenameFileShortcut</value>
+  </data>
+  <data name="cmdMoveFileShortcut1.Key" xml:space="preserve">
+    <value>cmdMoveFileShortcut</value>
+  </data>
+  <data name="Separator4.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdDeleteFileShortcut1.Key" xml:space="preserve">
+    <value>cmdDeleteFileShortcut</value>
+  </data>
+  <data name="uiContextMenu3.Key" xml:space="preserve">
+    <value>cmFileShortcut</value>
+  </data>
+  <metadata name="uiContextMenu4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>746, 17</value>
+  </metadata>
+  <data name="cmdFJumpToFile1.Key" xml:space="preserve">
+    <value>cmdFJumpToFile</value>
+  </data>
+  <data name="cmdFNew1.Key" xml:space="preserve">
+    <value>cmdFNew</value>
+  </data>
+  <data name="cmdFLawMateExplorer1.Key" xml:space="preserve">
+    <value>cmdFLawMateExplorer</value>
+  </data>
+  <data name="cmdFRename1.Key" xml:space="preserve">
+    <value>cmdFRename</value>
+  </data>
+  <data name="cmdFRefresh1.Key" xml:space="preserve">
+    <value>cmdFRefresh</value>
+  </data>
+  <data name="cmdFSearch1.Key" xml:space="preserve">
+    <value>cmdFSearch</value>
+  </data>
+  <data name="cmdFMove1.Key" xml:space="preserve">
+    <value>cmdFMove</value>
+  </data>
+  <data name="cmdFDelete1.Key" xml:space="preserve">
+    <value>cmdFDelete</value>
+  </data>
+  <data name="Separator5.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdFAddToShortcuts1.Key" xml:space="preserve">
+    <value>cmdFAddToShortcuts</value>
+  </data>
+  <data name="cmdFNewXref1.Key" xml:space="preserve">
+    <value>cmdFNewXref</value>
+  </data>
+  <data name="Separator6.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdFileAKA1.Key" xml:space="preserve">
+    <value>cmdFileAKA</value>
+  </data>
+  <data name="cmdFFileProperties1.Key" xml:space="preserve">
+    <value>cmdFFileProperties</value>
+  </data>
+  <data name="uiContextMenu4.Key" xml:space="preserve">
+    <value>cmFile</value>
+  </data>
+  <metadata name="uiContextMenu5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>878, 17</value>
+  </metadata>
+  <data name="cmdJumpToXref1.Key" xml:space="preserve">
+    <value>cmdJumpToXref</value>
+  </data>
+  <data name="cmdExplorerFindFile2.Key" xml:space="preserve">
+    <value>cmdExplorerFindFile</value>
+  </data>
+  <data name="Separator8.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="cmdDeleteXRef1.Key" xml:space="preserve">
+    <value>cmdDeleteXRef</value>
+  </data>
+  <data name="uiContextMenu5.Key" xml:space="preserve">
+    <value>cmFileCrossReference</value>
+  </data>
+  <metadata name="uiContextMenu6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1010, 17</value>
+  </metadata>
+  <data name="uiContextMenu6.Key" xml:space="preserve">
+    <value>ContextMenu1</value>
+  </data>
+  <metadata name="uiContextMenu7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <data name="cmdRefresh2.Key" xml:space="preserve">
+    <value>cmdRefresh</value>
+  </data>
+  <data name="cmdExplorerFindFile3.Key" xml:space="preserve">
+    <value>cmdExplorerFindFile</value>
+  </data>
+  <data name="cmdFileAKA2.Key" xml:space="preserve">
+    <value>cmdFileAKA</value>
+  </data>
+  <data name="uiContextMenu7.Key" xml:space="preserve">
+    <value>cmBrowse</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.Key" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LeftRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LeftRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 150</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Name" xml:space="preserve">
+    <value>LeftRebar1</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="RightRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="RightRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 0</value>
+  </data>
+  <data name="RightRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 150</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Name" xml:space="preserve">
+    <value>RightRebar1</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="Separator9.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+</root>

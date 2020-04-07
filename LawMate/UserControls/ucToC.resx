@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblSharedFolder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblFullNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 72</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="cmdSelectAll.ToolTipText" xml:space="preserve">
+    <value>Check All Cross-References &amp; Shortcuts</value>
+  </data>
+  <data name="&gt;&gt;lblSINValue.Name" xml:space="preserve">
+    <value>lblSINValue</value>
+  </data>
+  <data name="&gt;&gt;lblOwnerOffice.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="tvContents.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZREAAAAEVGV4dAtUb29sVGlwVGV4dAROYW1lCUlzQ2hlY2tl
+        ZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNo
+        aWxkQ291bnQJY2hpbGRyZW4wCWNoaWxkcmVuMQljaGlsZHJlbjIJY2hpbGRyZW4zCWNoaWxkcmVuNAlj
+        aGlsZHJlbjUJY2hpbGRyZW42CWNoaWxkcmVuNwEBAQAAAQABAAQEBAQEBAQEAQgICB1TeXN0ZW0uV2lu
+        ZG93cy5Gb3Jtcy5UcmVlTm9kZQIAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5vZGUCAAAAHVN5
+        c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlAgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9k
+        ZQIAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5vZGUCAAAAHVN5c3RlbS5XaW5kb3dzLkZvcm1z
+        LlRyZWVOb2RlAgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQIAAAAdU3lzdGVtLldpbmRv
+        d3MuRm9ybXMuVHJlZU5vZGUCAAAAAgAAAAYDAAAABkUtRmlsZQYEAAAAAAYFAAAAB3VjRWZpbGUA////
+        /wYGAAAADXRvY2ZvbGRlci5wbmf/////CQYAAAAIAAAACQcAAAAJCAAAAAkJAAAACQoAAAAJCwAAAAkM
+        AAAACQ0AAAAJDgAAAAUHAAAAHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlCQAAAARUZXh0C1Rv
+        b2xUaXBUZXh0BE5hbWUJSXNDaGVja2VkCkltYWdlSW5kZXgISW1hZ2VLZXkSU2VsZWN0ZWRJbWFnZUlu
+        ZGV4EFNlbGVjdGVkSW1hZ2VLZXkKQ2hpbGRDb3VudAEBAQAAAQABAAEICAgCAAAABg8AAAAIQWN0aXZp
+        dHkJBAAAAAYRAAAACnVjQWN0aXZpdHkA/////wYSAAAAFGFwcGxpY2F0aW9uX2Zvcm0ucG5n/////wkS
+        AAAAAAAAAAUIAAAAHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlCQAAAARUZXh0C1Rvb2xUaXBU
+        ZXh0BE5hbWUJSXNDaGVja2VkCkltYWdlSW5kZXgISW1hZ2VLZXkSU2VsZWN0ZWRJbWFnZUluZGV4EFNl
+        bGVjdGVkSW1hZ2VLZXkKQ2hpbGRDb3VudAEBAQAAAQABAAEICAgCAAAABhMAAAAMRmlsZSBIaXN0b3J5
+        CQQAAAAGFQAAAA11Y0ZpbGVIaXN0b3J5AP////8JBAAAAP////8JBAAAAAAAAAAFCQAAAB1TeXN0ZW0u
+        V2luZG93cy5Gb3Jtcy5UcmVlTm9kZQkAAAAEVGV4dAtUb29sVGlwVGV4dAROYW1lCUlzQ2hlY2tlZApJ
+        bWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxk
+        Q291bnQBAQEAAAEAAQABCAgIAgAAAAYXAAAACFRheGF0aW9uCQQAAAAGGQAAAAp1Y1RheGF0aW9uAP//
+        //8JBAAAAP////8JBAAAAAAAAAAFCgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQkAAAAE
+        VGV4dAtUb29sVGlwVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVk
+        SW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQBAQEAAAEAAQABCAgIAgAAAAYbAAAA
+        CVRlbXBsYXRlcwkEAAAABh0AAAAJdGVtcGxhdGVzAP////8JBAAAAP////8JBAAAAAAAAAAFCwAAAB1T
+        eXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQkAAAAEVGV4dAtUb29sVGlwVGV4dAROYW1lCUlzQ2hl
+        Y2tlZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5
+        CkNoaWxkQ291bnQBAQEAAAEAAQABCAgIAgAAAAYfAAAAB1JlY29yZHMJBAAAAAYhAAAACXVjUmVjb3Jk
+        cwD/////CQQAAAD/////CQQAAAAAAAAABQwAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5vZGUK
+        AAAABFRleHQLVG9vbFRpcFRleHQETmFtZQlJc0NoZWNrZWQKSW1hZ2VJbmRleAhJbWFnZUtleRJTZWxl
+        Y3RlZEltYWdlSW5kZXgQU2VsZWN0ZWRJbWFnZUtleQpDaGlsZENvdW50CWNoaWxkcmVuMAEBAQAAAQAB
+        AAQBCAgIHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlAgAAAAIAAAAGIwAAAAhBY2NvdW50cwkE
+        AAAABiUAAAAIYWNjb3VudHMA/////wkEAAAA/////wkEAAAAAQAAAAknAAAABQ0AAAAdU3lzdGVtLldp
+        bmRvd3MuRm9ybXMuVHJlZU5vZGUKAAAABFRleHQLVG9vbFRpcFRleHQETmFtZQlJc0NoZWNrZWQKSW1h
+        Z2VJbmRleAhJbWFnZUtleRJTZWxlY3RlZEltYWdlSW5kZXgQU2VsZWN0ZWRJbWFnZUtleQpDaGlsZENv
+        dW50CWNoaWxkcmVuMAEBAQAAAQABAAQBCAgIHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlAgAA
+        AAIAAAAGKAAAAApCYW5rcnVwdGN5CQQAAAAGKgAAAAtiYW5rcnVwdGN5cwD/////CQQAAAD/////CQQA
+        AAABAAAACSwAAAAFDgAAAB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQoAAAAEVGV4dAtUb29s
+        VGlwVGV4dAROYW1lCUlzQ2hlY2tlZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRl
+        eBBTZWxlY3RlZEltYWdlS2V5CkNoaWxkQ291bnQJY2hpbGRyZW4wAQEBAAABAAEABAEICAgdU3lzdGVt
+        LldpbmRvd3MuRm9ybXMuVHJlZU5vZGUCAAAAAgAAAAYtAAAADjIwMDYvMDkvMzAgU1JQCQQAAAAGLwAA
+        AARzcnBzAP////8JBAAAAP////8JBAAAAAEAAAAJMQAAAAUnAAAAHVN5c3RlbS5XaW5kb3dzLkZvcm1z
+        LlRyZWVOb2RlCQAAAARUZXh0C1Rvb2xUaXBUZXh0BE5hbWUJSXNDaGVja2VkCkltYWdlSW5kZXgISW1h
+        Z2VLZXkSU2VsZWN0ZWRJbWFnZUluZGV4EFNlbGVjdGVkSW1hZ2VLZXkKQ2hpbGRDb3VudAEBAQAAAQAB
+        AAEICAgCAAAABjIAAAANQ1NMMSAoQWN0aXZlKQkEAAAABjQAAAAHYWNjb3VudAD/////CQQAAAD/////
+        CQQAAAAAAAAABSwAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5vZGUJAAAABFRleHQLVG9vbFRp
+        cFRleHQETmFtZQlJc0NoZWNrZWQKSW1hZ2VJbmRleAhJbWFnZUtleRJTZWxlY3RlZEltYWdlSW5kZXgQ
+        U2VsZWN0ZWRJbWFnZUtleQpDaGlsZENvdW50AQEBAAABAAEAAQgICAIAAAAGNgAAAAVOb2RlMQkEAAAA
+        BjgAAAAKYmFua3J1cHRjeQD/////CQQAAAD/////CQQAAAAAAAAABTEAAAAdU3lzdGVtLldpbmRvd3Mu
+        Rm9ybXMuVHJlZU5vZGUJAAAABFRleHQLVG9vbFRpcFRleHQETmFtZQlJc0NoZWNrZWQKSW1hZ2VJbmRl
+        eAhJbWFnZUtleRJTZWxlY3RlZEltYWdlSW5kZXgQU2VsZWN0ZWRJbWFnZUtleQpDaGlsZENvdW50AQEB
+        AAABAAEAAQgICAIAAAAGOgAAAAhTUlAgSW5mbwkEAAAABjwAAAAFdWNTUlAA/////wkEAAAA/////wkE
+        AAAAAAAAAAs=
+</value>
+  </data>
+  <data name="lblFullNumber.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt, style=Underline</value>
+  </data>
+  <data name="lblFileName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="lblParaLegalValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 126</value>
+  </data>
+  <data name="lnkJumpToLeadFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblFullNumberValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmdJumpToParent.ToolTipText" xml:space="preserve">
+    <value>Jump To Parent File</value>
+  </data>
+  <data name="TopRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlXRefsContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblProgram.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToParent.Name" xml:space="preserve">
+    <value>cmdJumpToParent</value>
+  </data>
+  <data name="&gt;&gt;lblStatusDateValue.Name" xml:space="preserve">
+    <value>lblStatusDateValue</value>
+  </data>
+  <data name="pnlSubFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="cmdJumpToExplorer.ToolTipText" xml:space="preserve">
+    <value>Display Explorer at Current File</value>
+  </data>
+  <data name="lblSharedFolder.Text" xml:space="preserve">
+    <value>Shared Folder:</value>
+  </data>
+  <data name="&gt;&gt;cmdImportantMessage.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="lblFullNumberValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblParalegal.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;pnlMetaToc.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelGroup, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Name" xml:space="preserve">
+    <value>uiCommandManager1</value>
+  </data>
+  <data name="cmdReloadFileData.Text" xml:space="preserve">
+    <value>Reload File Data</value>
+  </data>
+  <data name="lnkJumpToLeadFile.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="lblFullNumberValue.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseFiles.Parent" xml:space="preserve">
+    <value>pnlTab</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="&gt;&gt;lblProgram.Name" xml:space="preserve">
+    <value>lblProgram</value>
+  </data>
+  <data name="pnlFileMetaDataContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 18</value>
+  </data>
+  <data name="lblFilenameValue.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTypeValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flpParentLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;lnkJumpToOwnerFile.Name" xml:space="preserve">
+    <value>lnkJumpToOwnerFile</value>
+  </data>
+  <data name="pnlMetaToc.Text" xml:space="preserve">
+    <value>TABLE OF CONTENTS</value>
+  </data>
+  <data name="cmdLoadXrefData.Text" xml:space="preserve">
+    <value>Load Cross-Referenced Data</value>
+  </data>
+  <data name="lblFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblSharedFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkJumpToOwnerFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 90</value>
+  </data>
+  <data name="&gt;&gt;lblFullNumber.Name" xml:space="preserve">
+    <value>lblFullNumber</value>
+  </data>
+  <data name="&gt;&gt;cmdLoadXrefData.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlSubFiles.Parent" xml:space="preserve">
+    <value>pnlBrowseFiles</value>
+  </data>
+  <data name="lblFileName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt, style=Underline</value>
+  </data>
+  <data name="cmdLoadXrefData.ImageKey" xml:space="preserve">
+    <value>relInfoNewRecord.gif</value>
+  </data>
+  <data name="pnlDockTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 172</value>
+  </data>
+  <data name="lblStatusValue.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;lblCaseStatusValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lnkSINLabel.Text" xml:space="preserve">
+    <value>SIN:</value>
+  </data>
+  <data name="lblFilenameValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="BottomRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 0</value>
+  </data>
+  <data name="cmdSelectAll1.Key" xml:space="preserve">
+    <value>cmdSelectAll</value>
+  </data>
+  <data name="lblFileName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CloseButtonVisible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblCaseStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;pnlTab.Name" xml:space="preserve">
+    <value>pnlTab</value>
+  </data>
+  <data name="&gt;&gt;uiPanelManager1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelManager, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="cmdAddXref.Key" xml:space="preserve">
+    <value>cmdAddXref</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseFiles.Name" xml:space="preserve">
+    <value>pnlBrowseFiles</value>
+  </data>
+  <data name="cmdPin.ToolTipText" xml:space="preserve">
+    <value>Auto-Hide</value>
+  </data>
+  <data name="lblProgram.Text" xml:space="preserve">
+    <value>Program:</value>
+  </data>
+  <data name="cmdPin.Text" xml:space="preserve">
+    <value>Auto-Hide</value>
+  </data>
+  <data name="&gt;&gt;lblStatusValue.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="&gt;&gt;cmdReloadFileData.Name" xml:space="preserve">
+    <value>cmdReloadFileData</value>
+  </data>
+  <data name="lblCaseStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 18</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="lblFilenameValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnlMetaToc.Name" xml:space="preserve">
+    <value>pnlMetaToc</value>
+  </data>
+  <data name="pnlBrowseFiles.Text" xml:space="preserve">
+    <value>SUB-FILES</value>
+  </data>
+  <data name="&gt;&gt;lblSINValue.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="pnlDockTopContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Bottom" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblFilenameValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 18</value>
+  </data>
+  <data name="tvContents.ImageKey" xml:space="preserve">
+    <value>folder.png</value>
+  </data>
+  <data name="&gt;&gt;pnlDockTopContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCaseStatus.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="cmdReloadFileData.ToolTipText" xml:space="preserve">
+    <value>Reload All Data</value>
+  </data>
+  <data name="pnlSubFilesContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cmdSelectAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACBUlEQVQ4T5WSP2/TUBTF/aEY2OADMLAA
+        YmRDVTfGioWBASFIEYLEdozbxPljCYJKlbSiqdQgQKitoSmqCoXEif0c+zlOpUTq0OVwn2mKmzC0w7Hs
+        53vP+b13n/Q0lbLSmQzLZrNMPZXKVFVluq7F7y/TaSbqAEiTkujn0LZtuC5Dp9NFp/tXjHnwegF42Kf1
+        DkTdfw1EokPNiqZD0xewmMsjlzeQL5Tw7IUGfdFApfIaRHJMJhaRFKYMRLKsqjgniTdlYFPDAiWfk+Qo
+        SSIpdFie51FhMU6+KIkkyzLrhxxGsYwkyVKtjtpaA9X3G1hvfMTnrT3MzBXwdnUbh4MIiqrEU4kJHMdB
+        qVxGkqS29gFWcx/bO3to2S4qta+4dO0RzHdfMBj0zxrQHmAYBpIkK/UGfrW72D9owfE4bs9qmL1v4uC3
+        jTAMkJFPDMR8xZ5N00SS5NPmLopLm/jZclFdb+LKjRSW601EoQ+XMcjKicH4JhLJcZJka+cHbs5oePh8
+        FXfu5XB3roQwGiEIgjjg1EA8hMSpJknadhtvVr7h8vXHuHprHuayqAc45+j1erQF+ayBmCuRWERyJEia
+        u99hOz6eKHU8mK8iOhxhOBoiigZEwacNxhqTiBTOAwQ8RM/n1NiH7/sxgZ28B5MGCRJLpGiaammvslaG
+        1sS3EDX/u4mTBhcTpD8CaB75LMthGgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="lblOwnerOffice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 90</value>
+  </data>
+  <data name="&gt;&gt;lnkSharedFolder.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmdAddXref.ImageIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblSharedFolder.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="lblTypeValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="cmdAddXref.Text" xml:space="preserve">
+    <value>Create New Cross-Reference</value>
+  </data>
+  <data name="pnlTableOfContents.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblSINValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblOwnerOffice.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblCaseStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 108</value>
+  </data>
+  <data name="&gt;&gt;tvContents.Name" xml:space="preserve">
+    <value>tvContents</value>
+  </data>
+  <data name="&gt;&gt;lblStatusDate.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="uiCommandBar1.RowIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblProgramValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="lblCaseStatusValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOwnerOffice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="tvContents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 345</value>
+  </data>
+  <data name="&gt;&gt;pnlTofCContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlTofC.Name" xml:space="preserve">
+    <value>pnlTofC</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmdLoadXrefData1.Name" xml:space="preserve">
+    <value>cmdLoadXrefData1</value>
+  </data>
+  <data name="&gt;&gt;cmdSelectAll.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="lnkSharedFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseFiles.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblFullNumberValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 18</value>
+  </data>
+  <data name="&gt;&gt;lblStatusDateValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tvContents.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.LargeImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lblProgramValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkSharedFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.Key" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlTofCContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 351</value>
+  </data>
+  <data name="lblParaLegalValue.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="cmdDeselectAll.ToolTipText" xml:space="preserve">
+    <value>Uncheck All Cross-References &amp; Shortcuts</value>
+  </data>
+  <data name="pnlXRefsContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLeadOffice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 18</value>
+  </data>
+  <data name="lnkJumpToLeadFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 18</value>
+  </data>
+  <data name="lnkJumpToOwnerFile.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;lblStatusValue.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pnlTofCContainer.Parent" xml:space="preserve">
+    <value>pnlTofC</value>
+  </data>
+  <data name="lblOwnerOffice.Text" xml:space="preserve">
+    <value>Owner:</value>
+  </data>
+  <data name="lblProgramValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 54</value>
+  </data>
+  <data name="&gt;&gt;lblStatusValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageListStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="flpParentLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlSubFiles.ImageKey" xml:space="preserve">
+    <value>folder.gif</value>
+  </data>
+  <data name="pnlTableOfContents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>978, 85</value>
+  </data>
+  <data name="&gt;&gt;lblFullNumberValue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.BorderCaption" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblParalegal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.AllowDrag" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lnkJumpToLeadFile.Name" xml:space="preserve">
+    <value>lnkJumpToLeadFile</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Top" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="flpParentLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 374</value>
+  </data>
+  <data name="lblProgram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 54</value>
+  </data>
+  <data name="&gt;&gt;cmdSelectAll1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;lblFilenameValue.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="lblType.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;cmdPin.Name" xml:space="preserve">
+    <value>cmdPin</value>
+  </data>
+  <data name="&gt;&gt;pnlTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;flpParentLayout.Parent" xml:space="preserve">
+    <value>pnlDockTopContainer</value>
+  </data>
+  <data name="lnkSharedFolder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblStatusDateValue.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="&gt;&gt;lblStatusDateValue.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblSharedFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 36</value>
+  </data>
+  <data name="cmdReloadFileData.Key" xml:space="preserve">
+    <value>cmdReloadFileData</value>
+  </data>
+  <data name="lnkJumpToOwnerFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="cmdImportantMessage.ImageIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;flpParentLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdAddShortcut.ImageKey" xml:space="preserve">
+    <value>fileShortcuts.gif</value>
+  </data>
+  <data name="&gt;&gt;lblOwnerOffice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
+    <value>lblStatus</value>
+  </data>
+  <data name="lblStatusDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 108</value>
+  </data>
+  <data name="pnlDockTop.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pnlDockTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblStatusDate.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;lblParaLegalValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.TabCaptionTrimming" type="System.Drawing.StringTrimming, System.Drawing">
+    <value>Character</value>
+  </data>
+  <data name="flpParentLayout.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;pnlDockTop.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="lnkJumpToOwnerFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="lblTypeValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="cmdDeselectAll.Text" xml:space="preserve">
+    <value>Deselect All</value>
+  </data>
+  <data name="&gt;&gt;pnlFileMetaDataContainer.Parent" xml:space="preserve">
+    <value>pnlFileMetaData</value>
+  </data>
+  <data name="lnkSINLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 126</value>
+  </data>
+  <data name="lnkJumpToOwnerFile.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="pnlTableOfContents.Text" xml:space="preserve">
+    <value>Table of Contents</value>
+  </data>
+  <data name="&gt;&gt;pnlTableOfContentsContainer.Name" xml:space="preserve">
+    <value>pnlTableOfContentsContainer</value>
+  </data>
+  <data name="pnlBrowseFiles.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHnSURBVDhPpdHdb0thAMfx/hlu3Hi7E28R72SIl4yO
+        ICJiMUaEDLNIRITgT5gakbhz68qmZrtxsYi3LaxMZ6batadV69h0XV+er9/pOZ1zcW5w8Wmf03Oe7/Oc
+        pwHgv/j++DcCj9qDc6QseOT9HvYT6Ao1EH12WmMD5YxYDPfd8Mb8pGYD4Tt7NHcGiiOY7BX4fg3z84FC
+        SZeenWVJjJ77TZrrDZRzmFSLnMNYrZj0BazIGezd+azuNalAA5SyVOJHpQmTOE4lcYJkfyOdt3SvktYO
+        JySnsW3cUYxXI4FwR1CBDI/17a3bkwd7zzuBqXtyFyY7JCTtkLxUC+zGFNPVC8wv9z1r9N6lUZi4Cbnr
+        clV0TuOXIdbsCcxYTqAU0yFehGybtMpZ+NYCGf1LmVNyEtLNYB2DT3vdwO1dmELKCRSjutkIqSPa4mE5
+        JAchcQDG9kN8n8Y69LjO5kPdnwCFpBMoROCrrmP18GWn7IDR7bINPm+FkS1aeTMM18HASjcQ0oRpNzD9
+        FqKb4ONGGNqgVdbLOni/FiJrYHA1vLOtgr7FnkB+zAlMDVTL9NtWwBt5vRxeyctl8GKpLIHn0ruoFqjH
+        /BhyApnu6g165OlC6JYntgUQlq75Mg865eFcJ6CPiD34N8H8b8wfE2N+BUFPAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;pnlXRefsContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="pnlDockTop.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAFJSURBVDhPpZNLS8NQFIT7w0RRVEQRERERUXEhiBtBEalvpCBFpdZXpVIpQkEFF/4N0ZUrd67S
+        5tmENmmeHTmBVG/TYjUXhsBN5ps5BxIDEEmx1FkGUeQD3j8+f9VSPB16NgAvr2//UgPQ7tTrdV+e58Fx
+        HFiWBcMwUK1WoWkaC+hazqN75Ra96zfo377GUOKyLYC+DQF6VnPoi2cxuH+F4eQ5Rk9TvrG5tq7rGNjN
+        oFwus4AgdeQ4jbGLE0xkk3BdF7ZtwzRNX2SuVCoYzxxBURQWEKTSy8ncIabvDvzazQ2o+tzDFiRJYgFB
+        6lQ+gZnCHuYfN5mlBYuj6mQWBIEFBKmz9ztYeNrA4vMaarVaqIEsyxBFEaVSiQXQoY3/nJtmDuZWVdWf
+        m8w8z6NYLHYGIDNVJzNVJzOlcxz3DYiiln/YX9TysnMh9gWA4jEpCsJioQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;lblOwnerOffice.Name" xml:space="preserve">
+    <value>lblOwnerOffice</value>
+  </data>
+  <data name="lblSINValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 126</value>
+  </data>
+  <data name="lblFullNumberValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatusValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 72</value>
+  </data>
+  <data name="cmdAddShortcut.Text" xml:space="preserve">
+    <value>Add Shortcut</value>
+  </data>
+  <data name="&gt;&gt;lblFullNumber.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdAddShortcut.ToolTipText" xml:space="preserve">
+    <value>Add to My Shortcuts</value>
+  </data>
+  <data name="tvContents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 4</value>
+  </data>
+  <data name="&gt;&gt;lblCaseStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblParaLegalValue.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="&gt;&gt;lblCaseStatusValue.Name" xml:space="preserve">
+    <value>lblCaseStatusValue</value>
+  </data>
+  <data name="lblStatusDateValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkSINLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;pnlDockTopContainer.Name" xml:space="preserve">
+    <value>pnlDockTopContainer</value>
+  </data>
+  <data name="&gt;&gt;pnlFileMetaDataContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlXRefsContainer.Parent" xml:space="preserve">
+    <value>pnlXRefs</value>
+  </data>
+  <data name="lblParalegal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;pnlTofC.Parent" xml:space="preserve">
+    <value>pnlMetaToc</value>
+  </data>
+  <data name="&gt;&gt;lblParalegal.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;ucBrowse1.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucBrowse, AtriumCRA, Version=4.1.6450.15183, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;lblProgram.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="uiCommandManager1.AlwaysShowFullMenus" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Name" xml:space="preserve">
+    <value>uiCommandBar1</value>
+  </data>
+  <data name="&gt;&gt;lblFullNumberValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlFileMetaData.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="imageListStatus.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADO
+        CwAAAk1TRnQBSQFMAgEBBQEAAegBBQHwAQUBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wIAAfAMvAHwMQAB8ALs
+        CG0E7AHwMAABvAHsAesI8QTsAbwwAAG8AewB6wj/Ae0D7AG8MAABvAHsAesI/wHvA+wBvDAAAbwB7AHr
+        Af8B7wTtAewCBwH3AuwBvDAAAbwB7AFtCP8CBwLsAbwwAAHxAu8B/wW8AQcB8QG8AfQC7wHyMAAB8wEH
+        Ae8I/wHwAf8B7wEHAfIwAAHzAbwBBwH/AfME8gHxAfMB8AH/AQcBvAHzMAAB8wK8CP8B8QH/AQcBvAHz
+        MAAB9AHwAbwB/wf0AfIB/wG8AfAB9DAAAfQB8QHwCP8B8wH/AfEB8AH0MAAB9ATyAfMD9AH/A/QB8wHy
+        AfQwAAH/BPMB9AH/A/QF8wH0MQAO/zIADpoCAAHXDNYB1wIAAb0MtwG9AgAO2AEAAZoCMggxBDIBmgEJ
+        AvwIoQT8AdcBvQFGAUcIQARGAb0B2AJ/CKUEfwHYAZoCMggaBDIBmgHWAvwI3QGnA/wB1gG3AUYBQAEa
+        Br0BGgNGAUcBtwHYAn8I3gR/AdgBmgEyATEI/wFZAzIBmgHWAfwBoQj/AcgD/AHWAbcBRgFACP8BagJG
+        AUcBtwHYAX8BpQj/AasDfwHYAZoBMgExCP8BegMyAZoB1gH8AaEI/wHmAacC/AHWAbcBRgFACP8BFgJG
+        AUcBtwHYAX8BpQj/AecDfwHYAZoBMgExAf8BegRZAVMBmgJ6AjIBmgHWAfwBoQH/AbUFzwG1AdYB5gH8
+        AT0B1gG3AUYBQAH/AZMFbwEHAZQBbwFHAUYBtwHYAX8BpQH/AdIFqwLYAdICfwHYAZoBMgExCP8CmgIy
+        AZoB1gH8AaEI/wLWAvwB1gG3AUYBQAj/ApQBRwFAAb0B2AF/AaUI/wLYAn8B2AEaAnoB/waaARoBmgH2
+        AnoBwwHdAuYB/wHXBdYB3QHWAfQC5gHdAb0BFgHjAf8BvQWUAr0B9AIWAb0B3gLnAf8G2AHeAdgB9ALn
+        Ad4BwwJ6CP8BmgH2AnoBwwHdAdAB5gj/AQkB/wHmAdAB3QG9AhYI/wG9Af8CFgG9Ad4B0gHnCP8B2AH/
+        AucB3gHDAZoBegH/AcMEGgHDARsBGgH/AXoBmgHDARkC1gH/Bt0BGQHdAf8C1gEZAb0ClAH/Br0B8wG9
+        Af8ClAG9Ad4B2AHnAf8I3gH/AecB2AHeAcMCmgj/ARoB/wKaAcMBGQLWCP8B3QH/AtYBGQG9ApQI/wG9
+        Af8ClAG9Ad4C2Aj/Ad4B/wLYAd4BwwKaAf8H9gHDAf8CmgHDAfMBCQHWAf8B9AXzAfQB3QH/AdcBCQHz
+        AfQBvQG3Af8G9AH2ARoB/wK9AvQC2AL/BfQB/wHeAf8C2AH0AfYBGgGaCP8BwwH/AcMBGgH2AfMB3QEJ
+        CP8B3QH/At0B8wH0Ar0I/wG9Af8CvQL0Ad4B2Aj/Ad4B/wLeAfQB9gTDARsH9gLDAfYB9ATdARkC9AL/
+        A/QC3QL0BL0B8wH0AfYC/wH2AvQCvQH0Af8F3gf/At4B/wH2BMMB9gH/A/YBGwTDAfYB/wQZAfQB/wL0
+        AfMBGQPdARkC/wG9AfMCvQH0Af8B9gH0AvMEvQL/BN4E/wH0Bd4B/wEADvYCAA7/AgAO/wIADv8BAAFC
+        AU0BPgcAAT4DAAEoAwABQAMAASADAAEBAQABAQYAAQEWAAP/AQABgAEBdgABgAEBBgABgAEBAYABAQGA
+        AQEBgAEBcAABgAEBAYABAQGAAQEBgAEBFgAL
+</value>
+  </data>
+  <data name="&gt;&gt;pnlDockTop.Name" xml:space="preserve">
+    <value>pnlDockTop</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAA2
+        NgAAAk1TRnQBSQFMAgEBLAEAAegBBQHwAQUBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAcADAAEBAQABCAYAATAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8ABgAB1wzW
+        AdcCAA6aBQAC/wIAAv8KAAHyAe8B7AHqARIBEwFtAe0B8wMAAQkC/AihBPwB1wGaAjIIMQQyAZoB/wEA
+        AfQBtQHzAQAC/wEAAfEDuwH0AQAB/wIAAfQB7QHsAu0C7AFtAeoBEgEVAf8CAAHWAvwI3QGnA/wB1gGa
+        AjIIGgQyAZoB/wEAAfQBiwG1AQAB/wEAAf8BtAOLAfMBAAH/AgAB7QH3Ae0B7wKSAuwBbQHqARMB8wIA
+        AdYB/AGhCP8ByAP8AdYBmgEyATEI/wFZAzIBmgEAAf8BAAG0AYsD/wH0A4sBrgH/AQAB/wIAAZIC7wIH
+        AZIB7QHsAm0BFAL/AQAB1gH8AaEI/wHmAacC/AHWAZoBMgExCP8BegMyAZoBAAH/AQABuwGLAbQDrQOL
+        AbsBAAH/AwABkgG8AQcB7wH/AfcBkgHsAesCbQP/AdYB/AGhAf8BtQXPAbUB1gHmAfwBPQHWAZoBMgEx
+        Af8BegRZAVMBmgJ6AjIBmgEAAf8BAAH0AYsCtAG7AbQDiwHyAQAB/wMAAgcBvAH3Af8B8gGSAewB6wHq
+        AQcDAAHWAfwBoQj/AtYC/AHWAZoBMgExCP8CmgIyAZoBAAH/AQAB/wGLAbQC/wG1A4sB9AEAAf8DAAH0
+        Ae0B7wEcAZoBwwHvAesB6gHsAf8DAAHdAuYB/wHXBdYB3QHWAfQC5gHdARoCegH/BpoBGgGaAfYCegHD
+        AgAB/wEAAbsBiwH0Af8BrQKLAbUBAAH/BQAB9AEcAZoBeQFMAUsBFAEHBQAB3QHQAeYI/wEJAf8B5gHQ
+        Ad0BwwJ6CP8BmgH2AnoBwwIAAf8BAAHxAa0C9AGtAc8BrQG7AQAB/wUAAfQDegF5AUwB8wYAARkC1gH/
+        Bt0BGQHdAf8C1gEZAcMBmgF6Af8BwwQaAcMBGwEaAf8BegGaAcMCAAH/AQAB9AGtAbwB8QGtAbQBrQHy
+        AQAB/wUAARoCmgJ6AUsBGwYAARkC1gj/Ad0B/wLWARkBwwKaCP8BGgH/ApoBwwIAAf8BAAH/AbQCtQHP
+        ArQB9AEAAf8FAAGaAhoBmgF6AVIBcwYAAfMBCQHWAf8B9AXzAfQB3QH/AdcBCQHzAcMCmgH/B/YBwwH/
+        ApoBwwMAAf8BAAG7Ac8CtAHPAbQB/wEAAf8FAAGZAfYBwwGaAXoCSwYAAfMB3QEJCP8B3QH/At0B8wH2
+        ARoBmgj/AcMB/wHDARoB9gMAAf8BAAHzBLQBCQEAAf8GAAFLAhoBmgF0AksGAAH0BN0BGQL0Av8D9ALd
+        AfQB9gTDARsH9gLDAfYDAAH/AQAB/wS0AfIBAAH/BgABbgJ0AlIBdAFLBgAB/wQZAfQB/wL0AfMBGQPd
+        ARkB/wH2BMMB9gH/A/YBGwTDAfYGAAHyAfEB8gHwAf8BAAH/BgABGgKZAXQBSwF0AZMHAA7/AgAO9gYA
+        Af8EAAH/CQAB9AKZAZMBvAH/CgAI/wUAAfAMvAHwAgAO2AIAAb0MtwG9AwAM/wIAAfAC7AhtBOwB8AHY
+        An8IpQR/AdgBvQFGAUcIQARGAb0BAAP/AfQB7wFtAmYBrgHvAfQD/wEAAbwB7AHrCPEE7AG8AdgCfwje
+        BH8B2AG3AUYBQAEaBr0BGgNGAUcBtwEAAv8BvAFsAaYBhgKtAYYBZQFmAbwC/wEAAbwB7AHrCP8B7QPs
+        AbwB2AF/AaUI/wGrA38B2AG3AUYBQAj/AWoCRgFHAbcC/wHwAWYBhgWtAWwBhgFmAfAC/wG8AewB6wj/
+        Ae8D7AG8AdgBfwGlCP8B5wN/AdgBtwFGAUAI/wEWAkYBRwG3Af8B9AFJAWwGrQFQAWwBhgFsAfQB/wG8
+        AewB6wH/Ae8E7QHsAgcB9wLsAbwB2AF/AaUB/wHSBasC2AHSAn8B2AG3AUYBQAH/AZMFbwEHAZQBbwFH
+        AUYBtwH/AQcBSQFQA60BswKtAVYBUAGLAYYB7wH/AbwB7AFtCP8CBwLsAbwB2AF/AaUI/wLYAn8B2AG3
+        AUYBQAj/ApQBRwFAAb0B/wFyAlABkASzAYsCVgFyAa0BkQH/AfEC7wH/BbwBBwHxAbwB9ALvAfIB3gLn
+        Af8G2AHeAdgB9ALnAd4BvQEWAeMB/wG9BZQCvQH0AhYBvQH/AWwBkQOzAbQCswGRAlcBcgGtAYsB/wHz
+        AQcB7wj/AfAB/wHvAQcB8gHeAdIB5wj/AdgB/wLnAd4BvQIWCP8BvQH/AhYBvQH/AYsBswW0AZEDVwGR
+        AbMBiwH/AfMBvAEHAf8B8wTyAfEB8wHwAf8BBwG8AfMB3gHYAecB/wjeAf8B5wHYAd4BvQKUAf8GvQHz
+        Ab0B/wKUAb0B/wG0AbMDtAG6AXgBWARXAZEBtAH/AfMCvAj/AfEB/wEHAbwB8wHeAtgI/wHeAf8C2AHe
+        Ab0ClAj/Ab0B/wKUAb0B/wG8AZABtAO6AXkDWAFXAVgBcgG8Af8B9AHwAbwB/wf0AfIB/wG8AfAC9ALY
+        Av8F9AH/Ad4B/wLYAvQBvQG3Af8G9AH2ARoB/wK9AfQBAAH/Ae0BeAGYAbsCugN5AVgBeAFzAf8BAAH0
+        AfEB8Aj/AfMB/wHxAfAC9AHeAdgI/wHeAf8C3gL0Ar0I/wG9Af8CvQH0AQAB/wHzAXMBeQGZAbsBmQR5
+        AXMB8wH/AQAB9ATyAfMD9AH/A/QB8wHyAfQB/wXeB/8C3gH/AfQEvQHzAfQB9gL/AfYC9AK9AfQCAAH/
+        AfMBHAFzAXkCfgF5AXMBHAHzAf8CAAH/BPMB9AH/A/QF8wH0Af8E3gT/AfQF3gL/Ab0B8wK9AfQB/wH2
+        AfQC8wS9Af8EAAH/AfABmQIcAZkB8AH/BQAO/wIADv8CAA7/BwABBwjvAQcDAA1mJgABkQiKAZEDAAH3
+        ARkGCQK1AdYB1QFmAfQO8xH/AQAFvAGsCLQBrQMAAbUE9AYZAdYBZgFSAVMBegr/AlMBdAH/AfQM8wH0
+        Af8B7wUcAa0BCQa0AQkBrQMAAbUB9AS7AfQDuwEZAbUBZgFvAU0BdQX/Ab0E/wJNAZMB9A4gAfQCUgN0
+        AVMBswHdAtsB9gH0AtsBGQGtAwABtQP/A/QBuwEZAbsBGQG7AWYBbwFHAeMF/wG9BP8BFwFHAZMB9AHw
+        DP8B8AH0AlIEoAGzAd0BGQL/AfQB8gIZAbMBSQcoAUkBFQL0AbsBGQEJAWYBbwFHAeMC/wG9AZQBvQKU
+        Ab0C/wEXAUcBkwH0AUAMQQFAAfQBUgF0AZoBoAGaAXoBmgG0AdsBBwF0AUsB7AHcAbQB8AFPCP8BKAH/
+        AvQBGQEJAWYBaQFHAeMC/wEXA0EB+QHjAv8CRwGTAfQB8Qz/AfEB9AFSAXoBeQHDA5oBegGZARwBdAFz
+        AesBGgFSAQcBTwT/Ae0CSQFyASgDuwH0AQkBZgFvAUcB4wH0AfkGRwFBAf8BFwFHAZMB9AFmAbUBXwHP
+        AV8BzwFfAc8FQQFAAfQBUgGaAVIEwwJ6AnkCdAGaAXoBHAFQAZgDSQGYAU8BSQHvASgC/wG7AfQBCQFm
+        AW8BRwHjAf8C+QHjAkcB4wH5AUcB/wJHAZMB9AG1AWYBzwFfAc8BXwHPAV8F/wHzAfQBUgHDAXQEUgF6
+        ASMBoAGaAXkBdAFEAcMBdAFQAf8BmAFyAZgBcgFJAXIB8wEoA7sB9AEJAWYBbwFHAeMC/wGUAb0CQQG9
+        AZQC/wJHAZMB9AFmAbUBhgG1AYYBtQGGAbUERwFqAUYB9AFSAcMGegEjAXQBeQGaAXkBIgH2AVIBcgH/
+        AfABmAFyAU8BSQEIAf8BKAL/AbsB9AEJAWYBbwFHAeMD/wEXAkcBFgP/ARcBRwGTAfQBtQGuAbUBhgG1
+        AYYBtQGGBv8B9AFSAcMFegHlASMBSwFSAW4BRAEjAVIBdAFyAfMBmAGXAU8CcgFPAfABKAO7AgkBZgFv
+        AUcB4wP/AfQBlAG9AfMD/wEXAUcBkwH0AYYBtQGuAbUBrgG1Aa4BtQXjARcB9AFSAcMDegOaASMBSwFS
+        AUsBRAEjAQcBAAGXAZgBcgFQAf8B8AJyAe8BKAL/AfcDZgFvAUcB4wT/AfQF/wEXAUcBkwH0AbUBrgEH
+        Aa4BBwGuAQcBrgb/AfQBUgHDAnoEwwEaAUoBKgEjAUQBUgEHAQABlwj/ASgC/wG1AbwBZgEAAW8BFwEW
+        Cv8B4wEXAZMB/wGGAbUBhgG1AYYBtQGGAbUGFwH/AVIEwwhSAXQB8AEAApcDcgJQAk8BSQL/AbUBZgQA
+        Df8BABD/AXQEUgF0DQABCQcHArsHAAH/BgAB/ygAAQkBswLUAbQBGQgAArQBkQG0AfQB/wEAAf8BBwJP
+        AQgC/wEADrQFAAH0AewB7QH3AQcB8QH0Af8GAAH0AdQB1QHbA9wB2wHUAfMEAAHxAa0B2wPcAa0BswHx
+        AXECcgGYAe8BcgH/AQABtAwJAbQEAAHyAe0B8gHvAgcB7wHtAuwBBwQAAdQC2wLcAgkBGQEJAdQB8AMA
+        AYsE3AIJAfEBkQFJAU8B8wFyAfMB7QG8AQABtQIJCLUCCQG1AwAB8AHvAfIBvAGuAccBBwGtAQcBtQG8
+        AewEAAHVA9wCCQEZAfMBvAHcAdQB/wIAAYsD3AIJARkB8wJPAvMCcgGYAU8BAAEJAbUBCQi1AQkBtQEJ
+        AwAB7QHxAbQBuwGuAaYB7wGmAe8BpgG0AewEAAEZAdUC3AEJAhkB/wG8AQkB1AH/AgABiwPcAQkCGQH/
+        AUkB8wJPAfQBcgFPAUkBAAHzAbQCCQa1AgkBtAHzAwAB7QG0AbsB8gHvAQcB7wH3AQcBrgHvAewEAAH/
+        AdQC3AEJARkB8AEaAbwB3AHVAwAB/wGzAdwCCQEZAbwB8ARPAvMBSQFPAgABCQG0AgkEtQIJAbQBCQQA
+        Ae0B8AHyAfABkQHHAQcBrQHvAbQB7wHsBQAB9AHUAdsBCQH3AksBuwHUAf8EAAH/Aa0B3AEJAZIBSwFu
+        ApEBmAJPAfMBcgG8AwABCQG0AgkCtQIJAbQBCQUAAZIBCQG0AQcBrgGmAe8BpgH3AaYBtAHsBgAB/wEJ
+        AdQBSwJKAZIFAAH/AQAB/wG0Ae0BSwJKAQcBcgGYAZ0DcgH/BAAB8wEJAbUCCQG1AQkB8wYAAZIBtAG7
+        AfID7wHtAe8BrgH3AewIAAH/BEsBvAUAAf8CAAHzBEsB8wEHAk8BCAL/BAAB8gG0BAkBtAHyBgABkgLz
+        AfIBrgGsAe8BrQHvAZEB7wHsCAAB/wJuAnMBdAH/BQAB/wEAAfQCbgJzAZkEAAH/BQADCQK1AwkGAAH3
+        AQkBtAG8Aa4BxwEcAccB9wGmAbQB7AgAAfcBbgR0AfQGAAH/AewBbgN0AZMD/wcAAbQCCQK1AgkBtAYA
+        AfcBtAG1AfIB7QGRAfcBiwH3AYsBkQHsBwAB/wEUAUoBdAGZAZoBmQH0BAAB/wEAAfIBFQFuAXQBkwGZ
+        ARoB/wkAAbQCCQK1AgkBtAYAAfcC/wHzAbwEBwG8AQcB7AcAAfQBFAEVAZkBmgIaAf8EAAH/AQAB8wFD
+        ARIBmgMaAf8JAAgJBgABkgH3AfIB9AHyAvEB8gHwAZIB7wHyBwAB/wFtARQB7AEcAe0BHAH/BAAB/wEA
+        AfQCEwHsARwBcwG8CgAB8gG0BAkBtAHyBgAB/wHzAu8B9wKSAfcBBwHzCgABvAFtAeoB6wHtAbwB/wYA
+        Af8B7wJtAesBkgHxCwAB8gEJArQBCQHyHAABBwHrAfcB8wkAAfQB7AHrAe8B8xcAAf8O9AH/EgABkwRu
+        AUsBAwEqAjABUQJ5AZkQAAEJDrQBCRIAAbwB8wHxAfMB9AF5AVgCWQHlAlkBWAGZAQABkgFtDOsB7AG0
+        AdwM1gHcAbQBBwW0A88FrgEHAwAB8AHzAZkCGgGZA1gBAAJYAXkB9AEAAZINbQHsAbQB3AzWAdwCtA3y
+        Aa4DAAHwAfMBeQGZARoBdAFSAXkBWAEcAVgBeQGZAf8BAAHyAe0B6wptAewB8AG0DtwCtAHyAfMD8gEH
+        Bv8B8gGuAwAB8AH0AfEB8wH0AfIBvAF5AXoBAAJ5AfQDAAH/AfEB7wHsBW0B6wHtAQcB9AEAAbQO3AK0
+        AfMDtAHzAQcG/wHzAa4DAAH0AfEB8gHzAfQC8gF5AaABEgGaAZkB/wYAAfMBBwHsAusBkgHxAf8DAAG0
+        DtwCtAXzBwcB8wHPBAAB9AHxAfMB9ALyARoBeQGgAZkBGwgAAfQD7AHwBQABtQEJDNwBCQG1AbQN8wHP
+        BQAB9AHxAfQB8gHzAfABmQGgAZkB/wgAAfID7AEHAf8EAAG1AdwFCQfcAQkBtQG0BfQBBwb/AfQBzwUA
+        AfQB8QH0AfIB8wHxAbwBmQEbCAAB/wEHA+wB7QH0BAABtQcJB9wBtQG0AfQDtAH0AQcG/wH0AbQEAAH0
+        AfEC8wGZAfAB8gHxAfQJAAH0Ae8E7QHyAf8DAAi1AQkG3AG1AbQF9AcHAfQBtAMAAfQB8QLyARoCdAG8
+        AfIB8QH0CAAB9AHvBJIB8QH/AwAB7wH0BfIBCQG1BgkBtQG0DfQBtAMAAfIB9AHwAZkBGgN0AbwB8wHy
+        CAAB/wEHBJIB8wH/AwAB8QHvBv8Buwa1AfEPtAMAAfIB8wHxAfMB9APyAfEB8wHyCAAB/wHxA/cB7wH0
+        BQAB8QbvAfEHAAG1DQkBtAMAAfIB8wHxAfMB9APyAfEB8wHyCQAB9AG8Ae8BBwHzAf8UAAHxAbsLtAG1
+        AfEDAAHyAfMB8QHzAfQD8gHxAfMB8jUAAZkBdAJvBG4CdAGZFAAJ6wbsAQAJ6wHsBgAB/wz0Af8CAAEH
+        DBIBBwIAAesB/wHxBv8B7AL0Af8B9gHsAQAB6wH/AfEG/wHsBgAB9AEHCvcBBwH0AgABEgz/ARICAAHr
+        Af8B8AG1AaYBBwP0AewE8AHtAQAB6wH/AfABtQGmAQcD9AHsBQ8BAAGSA/cHkgHtAfcB9AIAAeoB/wH0
+        AUsBTAF0AZkBGwP0AfMB/wHqAgAB6wH/AbUBpgEJBP8B7AT/AZIBAAHrAf8BtQGmAQkE/wHsAVIBMQJL
+        AQ8B/wH3CvABkgH3AfQB/wEAAeoB/wH0AXQBGgGaAZkBTAH0A/MB/wHqAgAB6wH/AfABpgGLAbUB9AGm
+        AfQB7ATwAe8BAAHrAf8B8AGmAYsBtQH0AaYB9AHsAlIBMQFLAREB/wH3Ad0B9wHtAfcB8gT/AfABkgH3
+        AfQB/wEAAW0B/wH0AZMBGwHDARoBmgFSAfQC8wH/AW0CAAHrAf8B8wG1BKYB/wHtBP8B7wEAAesB/wHz
+        AbUEpgH/Ae0BUwJSATEBFQH/AfcC8QHyAfEC8AK8AfEBvAGSAfcB9AH/AQABbQH/AfQBGgF0Af8BGgFZ
+        AXQBUgH0AfMB/wFtAgAB6wH/AfMB9AG1A6YB9AHsBPAB7wEAAesB/wHzAfQBtQOmAfQB7AFZAVMBUgEx
+        ARMB/wH3Ad0BtQH3Ae0C7AG8AfAB/wHwAZIB9wH0Af8BAAHrAf8B9AHzAXQBGgFZATgBWAF0AVIB9AH/
+        AesCAAHrAf8B8wG0BKYB/wHtBP8B7wEAAesB/wHzAbQEpgH/Ae0BegFZAVIBMQESAf8BtQbxAfABvAHy
+        AfABkgH3AfQB/wEAAesB/wLzAfQBdAHDAVkBOAFYAnQB9AHrAgAB6wH/AfMG9AHsBPAB7wEAAesB/wHz
+        BvQB7AJ6AVIBMQFtAf8BtQHdAbUB9wHtAe8C8AG8AfEB8AL3AfQB/wEAAewB/wPzAfQBdAHDAVkBOAFY
+        AnQB9AIAAesD7AbtBP8BBwEAAesD7AbtA3oBUgHrAf8BtQHdA7wB8QHwA/8B8AL3AfQB/wEAAewB/wTz
+        AfQBdAHDAVkBOAFYAnQEAAEHC/ABBwEAARwGwwKgApoDegHrAf8BtQHdA7wB8QTwAbwC9wH0Af8BAAHs
+        Af8F8wH0AXQBwwFZATgBWAF0Af8DAAEHCf8B8gHxAQcBAAccAZIGHAG8Af8BtQHdAfcC7QEHAfED/wHx
+        AvcB9AH/AQAB7QH/BfMB8gH0AXQBwwFZAXQB7wQAAQcI/wQHAQABHAEaA8MBmgEcAbwHAAH/AbUB3QEJ
+        AbwBBwG8AfEE8AL3AfQB/wEAAe0B/wPzA/IB/wH0AnQBBwUAAQcB/wHyAfMB/wHyAfMB/wHyAQcB9AEH
+        AgAB9AUcAfMJAAG1Ad0DCQQHAe8BvAL3AfQCAAGSAf8B8wXyAf8B8wGSAbwGAAEHAf8BBwHxAf8BBwHx
+        Af8BBwG8AQcTAAG1Ad0BtQH3Au0D7AHrAe8B9wEHAfQCAAGSCP8BkgHwBwACBwH0AgcB9AIHAfQBBxQA
+        C7UB9wH0Af8CAAHwCPcB8CoAAioMAALsAa4BbQHqAWYB7AEAAbUCrgJsAewF9AsAARQDrgPsDQABKgF6
+        ASoLAAHsAQcEtQFmAQAB9wH/AvQB6gHsAfQBAAP0AQABEQgPAQABrgIZAd0B7wH/AbwLAAMqAZoBegEq
+        CgABkQH/At0BVgG1AWYBAAG1A/8BrgHsAfQBAAHsAQAB9AEABVIBMQJLAQ8BAAGuARkB9AG8ARUB8gEH
+        CgABKwF6BKABegErBgAB9wJmAe0B/wIZAd0BtQESAWYB7wP/Aa4B7AL0AgAB9AEAAnoBWQFTAlIBMQFL
+        AREBAAGuAbUB9wETAW0B/wEHCQABKwGaBcMBmgErBgAB9wH/AfEB7QH/AxkBtQESAQkBBwL/Ae0BkQHs
+        BfQBAAN6AVkBUwJSATEBFQEAAu0BAAEVAfMB/wEHCQABMQH2ARoCMQH2ARoBMQcAAfcC/wGSAf8B8wIZ
+        AbUB6gEZAQcD7wEABuwBAAR6AVkBUwFSATEBEwEAAZIB9wERAW0B8wH/AQcJAAExAfYBMQEAATEB9gEx
+        BgABUgEAAfcC/wH3BP8B8wFtAhkBuwFmAZEBhQEAARwCwwKgApoEegFZAVIBMQESAQAB7AEHAu8CBwH3
+        CQACMQIAAjECAAIqAgACKgEAAfcC/wH3AfAC9wGRAq4B8wEZAbsB6gG8AYUBAAEcA8MCoAKaBHoBUgEx
+        AW0IAAPsA64BFAIAATEGAAEqAXoBKgEAASoBegEqAQABtQL/Ae8B/wP0AQcB7ALzAQcB7QKFAQABHATD
+        AqACmgR6AVIB6wgAAbwB/wHvAd0CGQGuCAABKwF6AZoBKwEqAXoBmgEqAQAB7wL/AQcBvALvAe0C7AH0
+        AQkBhQEHAoUBAAEcBsMCoAKaA3oB6wgAAQcB8gEVAbwB9AEZAa4HAAErAXoFoAF6AVIBAAG1Av8BvAH/
+        A/QB8QHvAd0FhQEABxwBkgYcAbwIAAEHAf8BbQETAfcBtQGuBwABKwGgBMMBmgErAgABuwL/AfACBwPv
+        AQcB9AHdAYUBvAMAARwBGgPDAZoBHAG8DwABBwH/AfMBFQEAAu0IAAExAvYDMQMAAbsJ/wL0Ad0B7QMA
+        AfQFHAHzEAABBwH/AfMBbQERAfcBkgkAATEB9gExBQAE1gHVA7QGrRoAAfcCBwLvAQcB7AoAAjEFAAHW
+        AQkF3AHWBdUBrTIABdYC1QO0AbMDrWIAAbUPZgHsBfQEAAX0AewgAAHvAf8B8gLxAfABvAcJAbsBZgHs
+        AfQBAAP0AQABEQEPAQAD9AEAAfQB7CAAAfcG/wHwAqYBvAH0AhkBuwFmAewB9AEAAewBAAH0AQACUgEA
+        AfQBAAHsAQAB9AHsCAABZhcAAe8D/wGRAWwBZgG6AdwBrQGmAbwB9AEZAbsBZgHsAvQCAAH0AQACegEA
+        AfQCAAL0AewIAAFmDQABZgkAAbUD/wGRAv8BGQG6AdwBrQGmAvQBuwFmAewF9AEAAnoBAAX0AewIAAFm
+        DQAFZgUAAbUD/wGRA/8CqgG1ARkC9AEHAWYG7AEAAnoBAAbsBQAHZgoABWYFAAHvA/8BkQFsAWYBsAHY
+        AdEBqgHdAvQBBwFmAQABHALDAqACmgR6AVkBUgExARIGAAFmAgACZggABGYDAAFmBQABuwP/AZEC/wHz
+        AbAB3gHnAaoB/wH0AbwBZgEAARwDwwKgApoEegFSATEBbQYAAWYCAAJmCwABZgMAAWYFAAG7Av8CSwG8
+        Av8B8gKwA/8BBwFmAQABHATDAqACmgR6AVIB6wYAAWYCAAJmCwAFZgUAAbUB/wGZAXoBWAFLAfMH/wG8
+        AWYBAAEcBsMCoAKaA3oB6wYAAWYCAAJmCwABZgkAAbUB/wEbAZkBegFYAUsH/wEHAWYBAAccAZIGHAG8
+        BgAFZhUAAQcC/wHzAZkBeQn/AWYBAAEcARoDwwGaARwBvCcABdYB1QG0AdUBtAHUBq0BAAH0BRwB8ygA
+        AdwECQTcBtUBrTAAB9YB1QG0AdUBtAHVBK0cAAG8AesBkjwAAbwBEwFSAUoBAAG1DmYCAAEcAVEGSgHr
+        AZIBBwQAAXMB7AHrAeoBEwEVAREHDwoAAbUBuwG8ARMBUgGaAXMBAAH3ARsCGgO8AwcE7wFmAgABvAFS
+        AXkBWAFSAVEBSwFRAUsCSgHtAbwCAAFzAZoBegF5AVgGUgExAUsBDwgAAbUBkQK0AYsBSwGaAXMCAAG1
+        DBsB7wFmAwABmQFYAZoCegFYAUsBUQFSAUsBSgHrAQcBAAHsARoBoAGaBHoBWQFTAlIBSwERBwABuwG0
+        AhkBCQG7Aa4B6wMAAfcFGwa0ARsBBwFmAwABvAFYAXkBoAHlAXoBWAFLAVIBMQFRAUoB6wEJAe0BGgKg
+        AZoEegFZAVMBUgExARUHAAG1AQkB4gIZAQkBtARmAbUBGwH3Ae0BkQEbAbUE/wG0ARsBBwFmBAABmQFY
+        AqAB5QF6AlECSwJKAu0CwwGgApoEegFZAVMBMQETAgACbQHqARIBEwHtAfQC/wH0ARkBCQHqAQkBuwFm
+        Ae8FGwa0ARsBBwFmBAABvAFYA6AB5QF5AVEDWAJKARwCwwKgApoEegFZATEBEgIAAesBegJSATEBHAHy
+        Av8B9AEZAbsB7wEZAbsBZgG1DBsBvAFmBQABHAFmAYYBtQGgAeUCegFZAVgBUgFKARwDwwKgApoEegEx
+        AW0CAAHsAaACegFZAXkBBwH0Af8BGQG7Aa4BvAHzAbsBZgG7BRsBtAG1ArQBtQG0ARsBvAFmAQABCQGL
+        AYYB3AFmAccBpgGGAaAC5QN6AVgBSgEcBMMCoAKaA3oBUgHrAgAB7AKgAnoBWQF0Ae8BBwH3AZEBuwH0
+        AfMBBwFmAe8BGwG1Ae0BkQEbAbUE/wG1ARsBvAFmAQABtAGsAccBZQKmAccBZQGZAXkBoAHlAnoBeQFK
+        ARwGwwKgApoCegHrAgAB7QPDAZoBWQFSARIB8QG8AfAD9AEHAWYBtQUbAbQBtQG0ArUBtAEbARoBZgEA
+        Ac8B1QGtAaYBCQKtAaYBFAETAqAB5QJ6AUoHHAGSBRwB7wEAAWwBHANZA+wBBwP/A/QBBwFmAbsNGwFm
+        AQABtQHdAdUBrQG0AgkBpgLDA6AB5QF6AUoBHAEaAsMBmgEcAQcHAAG7AWwBBwIcAe0B7wf/A/QBZgXW
+        AdUDtAatAQABCQHWAbQB3AEJAbQBzwEJBMMCoAF6AUoBvAQcAbwGAAFsAbUBbAG7BAAC1gHVA7QGrQHW
+        AgkF3AHWBdUBrQYAAVgBGgbDAaAB5QFKDAACbAG1BQAB1gEJA9wB1gXVAa0G1gLVBLQDrQYAClgBbQwA
+        A2wFAAPWAtUDtAGzA612AAGhAoUJAAH3CmYUAAHsBEMBEQEQAQ8GDgcAAaEBCgFfCQAB9wH/CPcBZhQA
+        AewB/wIZAt0ECQPcAQ4HAAGhAQoBXwkAAfcD/wH0AfMBGQHwAbwB9wFmCgABbwFGCAAB7AP/AfQBGQGS
+        AxkB3QEJAdwBDgcAAaEBCgFfCQAB9wT/AfQB8wEZAfAB9wFmCgABdQFGARoHAAHsA/8BBwEVAbwEGQHd
+        AdwBDgMABKEBhQEKAV8FoQQAAfcF/wLzAfEB9wFmCgABGgGZCAAB7AL/AfEBQwETAvQEGQEJAQ4DAAGF
+        BAoCAAMKAV8BoQQAAbUF/wH0AfMBGQH3AWYKAAGaAZMIAAHsAv8BBwFDARAB7wL0AxkBCQEOAwABhQFf
+        AgoCXwEKAgABCgEEAaEEAAG1Bv8C8wH3AWYKAAJMARsHAAHsAv8B9AHsAQ4BQwEHAfQBuwGRARkBCQEP
+        BAABoQEKAV8CAAFfAgABBAYAAe8G/wH0AfMB9wFmCQABmQFNASYBmQcAAewD/wHwARQBDgEUAfcB6gEV
+        ARkBCQEQBAABoQEKAV8CAAFfAgABBAYAAbsH/wH0AfcBZgkAAXQBTQEmAUwHAAHsBP8B7wFDAQ4BEAER
+        AUMB9AHdAREEAAGhAQoBXwIAAV8CAAEEBgABuwf/AvcBZgkAAW8BdQFNASUHAAHsBf8B9wEQAQABDgER
+        AfQB3QFDBAABoQEKAV8CAAFfAgABBAYAAQcG/wH3A2YJAAF0AZQBdQFMBwAB7AT/AfABbQERAQ4BAAEP
+        Af8BGQFDBAABoQEKAV8CAAFfAgABBAYAAQcG/wG1AbwBZgEJCQABGgEWAW8BGwcAAewE/wHvAhIBFAJD
+        Af8BGQFDBAABoQUKAgABBAYAAQkG/wG1AWYBCRUAAewM/wFDBAABoQFfBgoBhQYABQkCBwG7AQkWAA7s
+        YwAM9zQAAfAE/wP0A/MB9xMAAXMB7AHrAeoBEwEVAREIDwIAAewLbQHsAwAB8AP/AfQC7wH0A/MB9wMA
+        AQcB7ArrAewDAAFzAZoBegF5AVgGUgExAksBDwEAAlIBTAoqARMB7AIAAfAE/wP0A/MB9wIAAfEMKgFt
+        AewCAAHsARoBoAGaBHoBWQFTAlIBMQFLAREBUgF6AVIBoAh6AVIBoAEqAW0CAAHwAf8CBwbvAfMB9wIA
+        AlIBoAl6AVIBKgHrAgAB7QEaAqABmgR6AVkBUwJSATEBFQFSAXoBUgGgCHoBUgGgASoBbQIAAfAE/wP0
+        A/MB9wIAAlIBegGgCHoBWAFLAW0BBwEAAe0CwwGgApoEegFZAVMBUgExARMBUgF6AVIJoAFYAaABKgFt
+        AgAB8AH/AgcG7wHzAfcCAAJSAVgIoAGaAVkBUgFtAewBAAEcAsMCoAKaBHoBWQFSATEBEgFSAXoBUgmg
+        AXoBoAEqAW0CAAHwBP8B9APzAvIB9wIAAVIBWAFSCaACeQEqAesBAAEcA8MCoAKaBHoBUgExAW0BUgF6
+        AVIJoAF6AaABKgFtAgAB8AH/BAcD7wG1AfEB9wIAAVIBegFSCaABegGgAUsB6wEAARwEwwKgApoEegFS
+        AesBUgF6AVIJ/wGaAf8BKgHsAgAB8Ab/AfQD8AH3AgABUgGaAVIBeQL/AfYF/wGaAf8BSwHsAQABHAbD
+        AqACmgN6AesBUgGgAZoMUgMAAfAB/wUHAe8BtQH3AbwB9wIAAVIBoAF5DFIBBwEABxwBkgYcAbwBUgag
+        Bf8BKgHsBAAB8AX/BvcCAAFSBqAF/wFSAUsBBwIAARwBGgPDAZoBHAG8BwABUgH/BKAB/wVSAUwFAAHw
+        Af8EBwHwBP8B9wIAAVIB/wSgAf8GUgHxAwAB9AUcAfMJAAFSBP8BUgsAAfAF/wHwA/8B9wQAAVIE/wFS
+        AQcaAARSDAAB8AX/AfAC/wH3BgAEUgHxKwAI8AH3FQABQgFNAT4HAAE+AwABKAMAAUADAAHAAwABAQEA
+        AQEGAAEGFgAD/4EAAYABAQGAAQEB8wE/AfABBwQAAUQBggHAAQMEAAFFAQIBwAEDBAABoAECAcABAQQA
+        AaABBQHABQABoAEFAcABBwQAAaABBQHAAQcEAAHQAQsB4AEfBAAB0AELAeABPwQAAdABCwHgAT8EAAHQ
+        AQsB4AE/BAAB6AELAeABPwQAAegBFwHgAT8EAAHoARcB4AE/BAAB/AEXAeABPwGAAQEBgAEBAfsB3wHw
+        AT8B8AEPAYABAQGAAQEBgAEBAcABAwYAAYABAQYAAYABAUYAAYABAQYAAYABAQYAAcABAwYAAfABDwGA
+        AQEBgAEBAYABAQH8AQAB4AEABP8B/AEAAeAFAAGAAQAB4AcAAeAHAAHgPgABAQcAAQEBAAEBBQABAQEA
+        AQMBwAEBAgABAwH/AeABBwH3Ae8E/wHwAT8BwAKAAQEB8AEPAcABDwIAAYABAQHgAQMBwAEHAgABgAEB
+        AcABAwHAAQMCAAGAAQEBwAEDAcABAwIAAYABAQHAAQMBwAEHAgABwAEDAcABAwHgAQcBgAEAAeABBwHA
+        AQMB8AEfAUABAAHwAQ8BwAEDAfwBDwGwAQAB8AEPAcABAwH8AQcB0AE9AfABDwHAAQMB/AEHAeABBwHw
+        AQ8BwAEDAfgBBwGgAR8B8AEPAcABAwH4AQcBoAEfAfABDwHAAQMB+AEHAaABPwHwAQ8BwAEPAfwBBwHg
+        AT8B+AEfAv8B/gEfAfABfwL/AgAC/wHAAQAC/wIAAv8BwAEAAYAEAAEBAcABAAGABAABAQHAAQABgAQA
+        AQEBwAEBAcABAQMAAQEBwAEBAfgBBwMAAQEB4AEDAfwBHwMAAQEB8AEDAfwBDwMAAQEB8AEHAfgBDwMA
+        AQEB4AEPAfgBBwMAAQEBwAEHAfgBBwMAAQEBwAEHAfgBBwMAAQEBwAEHAfgBDwGAAX8BAAEBAcABBwH8
+        AQ8C/wEAAQEBwAEHBv8BwAEHAv8BgAEAAYABHwGAAQEBgAEBAYABAAGAAR8BgAEBAYABAQGAAQABgAEA
+        AYABAQGAAQEBgAEAAYADAAGAAQEBgAEAAYADAAGAAQEBgAEAAYADAAGAAQEBgAEAAYADAAGAAQEBgAEA
+        AYADAAGAAQEBgAEAAYADAAGAAQEBgAEAAYADAAGAAQEB4AEAAYADAAGAAQAB4AEAAYADAAGAAQEB4AEA
+        AYABfwIAAYABAwHgAQEBgAH/AYABAQGAAQcB4AEDAv8BgAEBAYABDwHgAQcC/wGAAQEBgAEfAQED/wH5
+        Af8B4AEgAQEB/wGAAf8B+AH/AeABIAIAAYAB/wHgAX8B4AEgAgABgAH/AcABPwQAAYAB/wGAAT8EAAGA
+        Af8BgAF/AQABAQIAAYAB/wGIAf0CAAGAAQABgAH/ApkCAAGAAQAB/wEBAb8BEQIAAYABAAH/AQEB/gEB
+        AgABgAEAAf8BAQH8AQECAAGAAQAB/wEBAfwBAwEAAQMBgAF/Af8BAQH+AQcBAAEDAYAC/wEBAf8BHwEA
+        AQMD/wEBAf8BnwEAAQMG/wEAAQMG/wEBAYAE/wIAAQEBgAT/BAAE/wQAAf8BfwL/BAAB/wF/Af0B/wQA
+        Af8BfwH8AR8EAAH4AQ8B/AEfAgABgAEAAf0BnwHhAd8CAAGAAQAB/QGfAf0B3wIAAYABAAH9AZ8B/AEf
+        AgABgAEAAf0BnwH9Af8CAAGAAQAB/AEfAv8CAAGAAX8E/wIAAYAF/wIABv8CAAP/AfEH/wHhAQABAQGA
+        AQ8BAAEDAf8BAQEAAQEBgAEDAQABAwH8AQMBAAEBAcABAQEAAQMB+AEHAQABAQHAAgABAwH4AgABAQHg
+        AgABAwMAAQEB4AIAAQMDAAEBAfACAAEDAwABAQMAAQMDAAEBAwABAwMAAQEDAAECAwABAQIAAQEB/AMA
+        AQECAAEDAvACAAEBAfgBAAH/AfEB8AIAAQEB+AEAAf8B8QHwAQAO/wH8AX8BwAEHAv8BgAEBAfwBfwHA
+        AQcC/wGAAQEB/AF/AcABBwH+AX8BgAEBAfwBfwHAAQcB/gE/AYABAQHAAQMBwAEHAf4BfwGAAQEBwAED
+        AcABBwH+AX8BgAEBAcABAwHAAQcB/gE/AYABAQHjAQ8BwAEHAfwBPwGAAQEB4wEPAcABBwH8AT8BgAEB
+        AeMBDwHAAQcB/AE/AYABAQHjAQ8BwAEHAfwBPwGAAQEB4wEPAcABBwH8AT8BgAEBAeABDwHAAQ8C/wGA
+        AQEB4AEPAcABHwL/AYABAQz/AcABAwb/AcABAwL/AYABAAHAAQEBwAEDAYABAwGAAQABgAEAAcABAwEA
+        AQEBgAMAAcABAwEAAQEBgAMAAcABAwIAAYADAAHAAQMCAAGAAwABwAEDAgABgAMAAcABAwIAAYADAAHA
+        AQMCAAGAAgABAQHAAQMCAAGAAgABAwHAAQMBAAEBAYABfwEAAQcBwAEDAQABAwGAAf8BgQH/AcABBwGA
+        A/8BwwH/AcABDwHBBf8BwAEfAv8WAAs=
+</value>
+  </data>
+  <data name="LeftRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblCaseStatusValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="pnlFileMetaData.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblSINValue.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="lblParaLegalValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 18</value>
+  </data>
+  <data name="&gt;&gt;lblFullNumber.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="lblFullNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="lblStatusValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="flpParentLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 148</value>
+  </data>
+  <data name="lblOwnerOffice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="pnlXRefs.Text" xml:space="preserve">
+    <value>SHORTCUTS &amp; CROSS-REFERENCES</value>
+  </data>
+  <data name="lblFullNumberValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 18</value>
+  </data>
+  <data name="&gt;&gt;janusSuperTip1.Type" xml:space="preserve">
+    <value>Janus.Windows.Common.JanusSuperTip, Janus.Windows.Common.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlTab.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelGroup, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;lnkSINLabel.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="RightRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 28</value>
+  </data>
+  <data name="lblStatusDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdJumpToParent.Key" xml:space="preserve">
+    <value>cmdJumpToParent</value>
+  </data>
+  <data name="&gt;&gt;cmdPin.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="lblParalegal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblProgramValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 18</value>
+  </data>
+  <data name="lblLeadOffice.Text" xml:space="preserve">
+    <value>Lead:</value>
+  </data>
+  <data name="pnlXRefs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 351</value>
+  </data>
+  <data name="&gt;&gt;pnlBrowseFiles.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelGroup, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="lnkSINLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="&gt;&gt;lblProgramValue.Name" xml:space="preserve">
+    <value>lblProgramValue</value>
+  </data>
+  <data name="&gt;&gt;lblLeadOffice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFullNumberValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="BottomRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;pnlTofCContainer.Name" xml:space="preserve">
+    <value>pnlTofCContainer</value>
+  </data>
+  <data name="&gt;&gt;lblSharedFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Parent" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;lblParaLegalValue.Name" xml:space="preserve">
+    <value>lblParaLegalValue</value>
+  </data>
+  <data name="cmdLoadXrefData1.Key" xml:space="preserve">
+    <value>cmdLoadXrefData</value>
+  </data>
+  <data name="lblSharedFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;lblLeadOffice.Name" xml:space="preserve">
+    <value>lblLeadOffice</value>
+  </data>
+  <data name="pnlMetaToc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAGNJREFUOE9j
+        GByAZ+Xb/zAM4u8/f/4/MRisGQRAGjve/Ucx4PXHj3gxhgEUuQAEJs6fjypAKkA2gFgXgRXDAMgAGAZp
+        JBQmWA2AMsl3AZRJHqCKC2AYpJHkMEAGZLlgqAIGBgBMOE0WuGrvnQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdDeselectAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABsUlEQVQ4T52SS0/CUBCF+/83uhPaQkSh
+        JrhzISZKjPhYaHhFjQGR9HVbLK8iUA2b40yhUFETdHHam3bmnG/uvdLW9nYlkUyKVCol1F/E/7kOgLQu
+        aSeReNN1HbYtYBjmUvpCthDg/1z3owEnWNSspHeR3s1gbz+LzEJ72Rz2SfnDQ1DdjEgqRKJ9M+BEWVXD
+        pA1InB8NOHFDkiBOQgaqMEwzLPoPydIgm9PCwojkqFBE4ayEwmkJx6cXOKF18eIG56VrCOFAVdXwVCRa
+        CNO0kNPIIEZyUrxE9b6Bcv0JtYcGnpptGJZAuVqDZVlQIgNaCMdxoB3MDSISTufGOqnx3CZ8C26ng/uH
+        RxrPXhlE9yCfzyNOcka4zZaOtm6iQ429Xg/D4RCtlzaNICArytwguonkOIuTXN3chrN6ngff9zEejzGd
+        TsNvXLc04AeLdzVOcleuYjDoh6mTyQRBEODj/R1etwvXdZGU5a8GfK58vkQScEK1Vg+PizYIvT4ZjXz4
+        oxH6/QFeX73vBpEiEk7hZn7z5vE+sHgk3TBW92DdIEZS4TllSuK0uKh5dRPXDf4mSJ97+C+yF4+S5wAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;lblCaseStatusValue.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblLeadOffice.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="pnlXRefsContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Name" xml:space="preserve">
+    <value>lblFileName</value>
+  </data>
+  <data name="pnlXRefs.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVDhPpY+9SyNRFMWnTidbCLZ2qRds1C1UsNhC
+        EERtAusa2IggaLG7VQo/6vwdNmspYlhR1FWcTVRikpHE+MHETDISdpKYL47vXB2xEKPug9+8d+8957x5
+        GoD/Qvsyn9MmFqzhr4v5lAKvIEU9fRIw+jNNUtHkrapbL+qop0+VmjYY+EvQbDZRr9db0mg0QD19EtA1
+        tk5Qq9VQLpeFvUML7D3FH9yXWbVadXv3Ad7PvwgqlQqKxeIj27oJ9p+i6zoMw3Dr+4DOgWWCUqkE27aR
+        y+WU6BTR6BHGZ3+DM5dI5BAnJwm3dgNWCBzHwdWViVgsiePjOIa+rSnRCsbntmQn7Mfjp27tPiFM1M0F
+        JJMZJBJnGJnZUb8Yhu+HjouLa2z84XPCMjOMcznTJwEfRyJE3Z5HOm3C9z0G1v6gAdO0pUe2DgoP56zM
+        6ZOAHl+GKHERl5c32I38w/RSFpblSP0c1NMnAX2TBaKecItstiLYdvXx/BzU0ycBbR3dWr/fTq1uOsjn
+        Gy2hjnr6JECtD95PoUD/pHWmBhy+jNJ5e0NT9LkBHkW7ouMNUO+RAH7eD7Q73ObBQcF0NagAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;cmdImportantMessage.Name" xml:space="preserve">
+    <value>cmdImportantMessage</value>
+  </data>
+  <data name="&gt;&gt;cmdSelectAll1.Name" xml:space="preserve">
+    <value>cmdSelectAll1</value>
+  </data>
+  <data name="pnlMetaToc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="pnlTableOfContents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 26</value>
+  </data>
+  <data name="&gt;&gt;flpParentLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLeadOffice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblStatusDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSINValue.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="lblSharedFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="&gt;&gt;pnlTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblFilenameValue.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;lblLeadOffice.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="lnkJumpToLeadFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblStatusDateValue.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="pnlSubFilesContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lnkSharedFolder.Name" xml:space="preserve">
+    <value>lnkSharedFolder</value>
+  </data>
+  <data name="&gt;&gt;pnlDockTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tvContents.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="lblParalegal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 18</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="lblType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 72</value>
+  </data>
+  <data name="lblType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Parent" xml:space="preserve">
+    <value>pnlXRefsContainer</value>
+  </data>
+  <data name="lblFilenameValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pnlTofC.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lnkSINLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;lnkJumpToOwnerFile.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;pnlDockTopContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="lnkSharedFolder.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="&gt;&gt;ucBrowse1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlDockTop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblProgramValue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblProgramValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkSINLabel.Name" xml:space="preserve">
+    <value>lnkSINLabel</value>
+  </data>
+  <data name="&gt;&gt;pnlTofCContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Left" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandManager, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="tvContents.SelectedImageKey" xml:space="preserve">
+    <value>folder.png</value>
+  </data>
+  <data name="Separator1.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="&gt;&gt;lblSINValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCaseStatus.Text" xml:space="preserve">
+    <value>Case Status:</value>
+  </data>
+  <data name="lnkSharedFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 36</value>
+  </data>
+  <data name="uiCommandBar1.Key" xml:space="preserve">
+    <value>CommandBar1</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionHeight" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="flpParentLayout.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="lnkJumpToLeadFile.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="lblProgram.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdDeselectAll1.Key" xml:space="preserve">
+    <value>cmdDeselectAll</value>
+  </data>
+  <data name="ucBrowse1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlDockTopContainer.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;imageListStatus.Name" xml:space="preserve">
+    <value>imageListStatus</value>
+  </data>
+  <data name="lblStatusDateValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 108</value>
+  </data>
+  <data name="lblFilenameValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 0</value>
+  </data>
+  <data name="lblFullNumber.Text" xml:space="preserve">
+    <value>File Number:</value>
+  </data>
+  <data name="&gt;&gt;cmdLoadXrefData.Name" xml:space="preserve">
+    <value>cmdLoadXrefData</value>
+  </data>
+  <data name="lnkJumpToLeadFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tvContents.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblProgram.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;cmdReloadFileData.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;lblProgram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDeselectAll.Name" xml:space="preserve">
+    <value>cmdDeselectAll</value>
+  </data>
+  <data name="lblStatusValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStatusDateValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="cmdImportantMessage.Key" xml:space="preserve">
+    <value>cmdImportantMessage</value>
+  </data>
+  <data name="pnlSubFilesContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 351</value>
+  </data>
+  <data name="cmdReloadFileData.ImageKey" xml:space="preserve">
+    <value>reload.gif</value>
+  </data>
+  <data name="cmdPin.Key" xml:space="preserve">
+    <value>cmdPin</value>
+  </data>
+  <data name="&gt;&gt;lblSINValue.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="cmdJumpToParent.ImageIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="pnlTableOfContentsContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cmdJumpToParent.Text" xml:space="preserve">
+    <value>Jump To Parent File</value>
+  </data>
+  <data name="&gt;&gt;lblParalegal.Name" xml:space="preserve">
+    <value>lblParalegal</value>
+  </data>
+  <data name="&gt;&gt;lnkJumpToLeadFile.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="TopRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlSubFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 351</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="pnlXRefsContainer.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Name" xml:space="preserve">
+    <value>BottomRebar1</value>
+  </data>
+  <data name="lblProgramValue.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="lblSINValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="&gt;&gt;cmdSelectAll.Name" xml:space="preserve">
+    <value>cmdSelectAll</value>
+  </data>
+  <data name="pnlXRefsContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 351</value>
+  </data>
+  <data name="pnlDockTopContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LeftRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="cmdPin.ImageIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="uiCommandBar1.Text" xml:space="preserve">
+    <value>CommandBar1</value>
+  </data>
+  <data name="&gt;&gt;lnkJumpToOwnerFile.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="lblFullNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="&gt;&gt;lnkSINLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ucBrowse1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblParalegal.Text" xml:space="preserve">
+    <value>Paralegal:</value>
+  </data>
+  <data name="&gt;&gt;cmdLoadXrefData1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlFileMetaData.Name" xml:space="preserve">
+    <value>pnlFileMetaData</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="lblFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="pnlMetaToc.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Name" xml:space="preserve">
+    <value>RightRebar1</value>
+  </data>
+  <data name="&gt;&gt;pnlXRefs.Parent" xml:space="preserve">
+    <value>pnlTab</value>
+  </data>
+  <data name="lblStatusDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="&gt;&gt;lblFullNumberValue.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="lblTypeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 18</value>
+  </data>
+  <data name="lblFullNumber.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnlTofC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 351</value>
+  </data>
+  <data name="lblFullNumberValue.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.ImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucBrowse1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;pnlXRefsContainer.Name" xml:space="preserve">
+    <value>pnlXRefsContainer</value>
+  </data>
+  <data name="lblParaLegalValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblStatusDate.Name" xml:space="preserve">
+    <value>lblStatusDate</value>
+  </data>
+  <data name="lblStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnlXRefs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="lblCaseStatusValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 18</value>
+  </data>
+  <data name="pnlXRefs.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pnlDockTopContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 148</value>
+  </data>
+  <data name="lblStatusDateValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="lblFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="ucBrowse1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 351</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlSubFiles.Name" xml:space="preserve">
+    <value>pnlSubFiles</value>
+  </data>
+  <data name="&gt;&gt;lblFilenameValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblParaLegalValue.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lblStatusDateValue.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="TopRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 28</value>
+  </data>
+  <data name="pnlTofCContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblParaLegalValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tvContents.Parent" xml:space="preserve">
+    <value>pnlTofCContainer</value>
+  </data>
+  <data name="RightRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;lnkJumpToLeadFile.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;pnlSubFilesContainer.Name" xml:space="preserve">
+    <value>pnlSubFilesContainer</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlFileMetaData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>978, 85</value>
+  </data>
+  <data name="&gt;&gt;ucBrowse1.Name" xml:space="preserve">
+    <value>ucBrowse1</value>
+  </data>
+  <data name="&gt;&gt;pnlSubFiles.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiPanelManager1.Name" xml:space="preserve">
+    <value>uiPanelManager1</value>
+  </data>
+  <data name="&gt;&gt;lblStatusDate.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="&gt;&gt;pnlSubFilesContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandBar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;lblCaseStatusValue.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="cmdAddShortcut.Key" xml:space="preserve">
+    <value>cmdAddShortcut</value>
+  </data>
+  <data name="&gt;&gt;pnlTableOfContents.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;lblTypeValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTypeValue.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lnkSharedFolder.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="lblOwnerOffice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblSharedFolder.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblProgramValue.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucToC</value>
+  </data>
+  <data name="&gt;&gt;lnkSharedFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Name" xml:space="preserve">
+    <value>LeftRebar1</value>
+  </data>
+  <data name="pnlDockTop.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlTableOfContentsContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>978, 85</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
+    <value>Separator1</value>
+  </data>
+  <data name="pnlFileMetaDataContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>978, 85</value>
+  </data>
+  <data name="&gt;&gt;lblTypeValue.Name" xml:space="preserve">
+    <value>lblTypeValue</value>
+  </data>
+  <data name="lblSINValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lnkSINLabel.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="lblStatusValue.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="&gt;&gt;pnlTableOfContentsContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblParalegal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 126</value>
+  </data>
+  <data name="LeftRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="lblTypeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 72</value>
+  </data>
+  <data name="lblTypeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 546</value>
+  </data>
+  <data name="&gt;&gt;lblFullNumberValue.Name" xml:space="preserve">
+    <value>lblFullNumberValue</value>
+  </data>
+  <data name="uiCommandManager1.LockCommandBars" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlMetaToc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ucBrowse1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lblFilenameValue.Name" xml:space="preserve">
+    <value>lblFilenameValue</value>
+  </data>
+  <data name="cmdJumpToExplorer.Key" xml:space="preserve">
+    <value>cmdJumpToExplorer</value>
+  </data>
+  <data name="lblProgram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="&gt;&gt;ucBrowse1.Parent" xml:space="preserve">
+    <value>pnlSubFilesContainer</value>
+  </data>
+  <data name="&gt;&gt;pnlDockTopContainer.Parent" xml:space="preserve">
+    <value>pnlDockTop</value>
+  </data>
+  <data name="RightRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="&gt;&gt;pnlFileMetaDataContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdImportantMessage.Text" xml:space="preserve">
+    <value>Important Message Panel</value>
+  </data>
+  <data name="pnlTofCContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdSelectAll.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="&gt;&gt;pnlSubFiles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmdSelectAll.Key" xml:space="preserve">
+    <value>cmdSelectAll</value>
+  </data>
+  <data name="pnlBrowseFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 351</value>
+  </data>
+  <data name="&gt;&gt;janusSuperTip1.Name" xml:space="preserve">
+    <value>janusSuperTip1</value>
+  </data>
+  <data name="&gt;&gt;lnkJumpToOwnerFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFilenameValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblProgramValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="pnlFileMetaDataContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lnkSharedFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 18</value>
+  </data>
+  <data name="&gt;&gt;pnlTableOfContentsContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="lblTypeValue.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="lblCaseStatusValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 108</value>
+  </data>
+  <data name="&gt;&gt;pnlSubFilesContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="cmdJumpToExplorer.ImageIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmdAddXref.Name" xml:space="preserve">
+    <value>cmdAddXref</value>
+  </data>
+  <data name="pnlDockTop.Text" xml:space="preserve">
+    <value>FILE INFORMATION PANE</value>
+  </data>
+  <data name="&gt;&gt;pnlTofC.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="pnlTab.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lnkJumpToLeadFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlFileMetaDataContainer.Name" xml:space="preserve">
+    <value>pnlFileMetaDataContainer</value>
+  </data>
+  <data name="pnlTofC.Text" xml:space="preserve">
+    <value>Table of Contents</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.ShowCloseButton" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkJumpToOwnerFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCaseStatusValue.Text" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="BottomRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Name" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="cmdAddXref.ToolTipText" xml:space="preserve">
+    <value>Create New Cross-Reference</value>
+  </data>
+  <data name="pnlTofC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlSubFiles.Text" xml:space="preserve">
+    <value>Sub-Files</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblSharedFolder.Name" xml:space="preserve">
+    <value>lblSharedFolder</value>
+  </data>
+  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="lblParaLegalValue.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;cmdDeselectAll1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="lblCaseStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToParent.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlXRefs.Name" xml:space="preserve">
+    <value>pnlXRefs</value>
+  </data>
+  <data name="&gt;&gt;lblCaseStatus.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblLeadOffice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="pnlFileMetaData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 115</value>
+  </data>
+  <data name="&gt;&gt;pnlMetaToc.Parent" xml:space="preserve">
+    <value>pnlTab</value>
+  </data>
+  <data name="pnlTableOfContentsContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblStatusDate.Text" xml:space="preserve">
+    <value>Status Date:</value>
+  </data>
+  <data name="uiCommandManager1.ShowShortcutInToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCaseStatusValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblProgramValue.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.AutoHideButtonVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToExplorer.Name" xml:space="preserve">
+    <value>cmdJumpToExplorer</value>
+  </data>
+  <data name="pnlBrowseFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnlXRefs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblParalegal.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="pnlTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 172</value>
+  </data>
+  <data name="lblCaseStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;pnlTableOfContents.Name" xml:space="preserve">
+    <value>pnlTableOfContents</value>
+  </data>
+  <data name="pnlMetaToc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 351</value>
+  </data>
+  <data name="tvContents.Indent" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblStatusDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblCaseStatus.Name" xml:space="preserve">
+    <value>lblCaseStatus</value>
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblTypeValue.Parent" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="cmdDeselectAll.Key" xml:space="preserve">
+    <value>cmdDeselectAll</value>
+  </data>
+  <data name="cmdLoadXrefData.ToolTipText" xml:space="preserve">
+    <value>Load Cross-Referenced Data for all Checked Cross-References/Shortcuts</value>
+  </data>
+  <data name="pnlTofCContainer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToExplorer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tvContents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lnkSINLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblProgramValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="cmdJumpToExplorer.Text" xml:space="preserve">
+    <value>Display Explorer at Current File</value>
+  </data>
+  <data name="lblCaseStatusValue.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="lblLeadOffice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 90</value>
+  </data>
+  <data name="pnlTofC.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmdAddShortcut.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="cmdImportantMessage.ToolTipText" xml:space="preserve">
+    <value>Show File's Important Message</value>
+  </data>
+  <data name="&gt;&gt;pnlTableOfContentsContainer.Parent" xml:space="preserve">
+    <value>pnlTableOfContents</value>
+  </data>
+  <data name="lblOwnerOffice.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.MaxTabSize" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.UseFormIcons" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblStatusValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="lblProgram.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblStatusValue.Name" xml:space="preserve">
+    <value>lblStatusValue</value>
+  </data>
+  <data name="uiCommandBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;cmdDeselectAll1.Name" xml:space="preserve">
+    <value>cmdDeselectAll1</value>
+  </data>
+  <data name="&gt;&gt;lblLeadOffice.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;pnlXRefs.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="pnlTofC.ImageKey" xml:space="preserve">
+    <value>filetoc.gif</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="cmdLoadXrefData.Key" xml:space="preserve">
+    <value>cmdLoadXrefData</value>
+  </data>
+  <data name="&gt;&gt;cmdDeselectAll.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;flpParentLayout.Name" xml:space="preserve">
+    <value>flpParentLayout</value>
+  </data>
+  <data name="&gt;&gt;cmdAddShortcut.Name" xml:space="preserve">
+    <value>cmdAddShortcut</value>
+  </data>
+  <data name="lnkJumpToLeadFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 90</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name" xml:space="preserve">
+    <value>lblType</value>
+  </data>
+  <data name="lblParaLegalValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblFilenameValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdAddXref.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="uiCommandBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 28</value>
+  </data>
+  <data name="lblFullNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="lnkSharedFolder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tvContents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlSubFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Right" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlSubFilesContainer.Parent" xml:space="preserve">
+    <value>pnlSubFiles</value>
+  </data>
+  <data name="pnlBrowseFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imageListStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>205, 17</value>
+  </metadata>
+  <metadata name="uiCommandManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>472, 17</value>
+  </metadata>
+  <metadata name="uiPanelManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>335, 17</value>
+  </metadata>
+  <metadata name="janusSuperTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>632, 17</value>
+  </metadata>
+</root>

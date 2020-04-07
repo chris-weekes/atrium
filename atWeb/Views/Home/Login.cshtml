@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="container">
+    <div class="row">
+        <img id="AtImg" src="~/Content/images/atriumlogo.png" alt="Atrium CRA / Atrium ARC" title="Atrium CRA / Atrium ARC" />
+    </div>
+
+
+    <h3 class="marBottom">Login / Connexion</h3>
+
+    <div class="row">
+        <div class="col-sm-10">
+            @using (Html.BeginForm("VerifyLogin", "Home", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                if (@ViewBag.LoginFailed == "true")
+                {
+                    <div class="form-group">
+                        <div class="col-sm-8">
+                            <div class="alert alert-danger alert-dismissible" role="alert">
+                                @ViewBag.Message
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                <div class="form-group">
+                    <label for="username" class="control-label col-sm-3">User name / Nom d'utilisateur :</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" name="username" id="iUsername" autofocus />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="control-label col-sm-3">Password / Mot de passe :</label>
+                    <div class="col-sm-5">
+                        <input type="password" class="form-control" name="password" id="iPassword" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="db" class="control-label col-sm-3">Server / Serveur :</label>
+                    <div class="col-sm-5">
+                        <select name="db" class="form-control">
+                            @{ 
+                                atriumBE.Servers servers = new atriumBE.Servers();
+                                servers.ReadXml(HttpContext.Current.Server.MapPath("~") + "\\serverlist.xml");
+                                foreach (var server in servers.Server)
+                                {
+                                    <option value="@server.serverName">@server.serverName</option>
+                            
+                                    }
+                                }
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="control-label col-sm-3">Language / Langue :</label>
+                    <div class="col-sm-5">
+                        <select name="language" class="form-control">
+                            <option value="ENG">English / Anglais</option>
+                            <option value="FRE">French / Français</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-5">
+                        <input type="submit" class="btn btn-primary" value="Login / Ouverture de session" />
+                    </div>
+                </div>
+
+
+
+                                }
+        </div>
+    </div>
+</div>

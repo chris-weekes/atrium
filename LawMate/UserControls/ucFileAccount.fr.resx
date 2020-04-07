@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imageListBase.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB4
+        HAAAAk1TRnQBSQFMAgEBFAEAARgBAAHIAQEBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAWADAAEBAQABCAYAARgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8ANgAO7QIA
+        AQcCrgHqARMBbQISAeoBEgNmARICAAEHAewBtRwAAbwO8QH4AQAB7AK1AWYBQwEHAbYB3QG1Aa4EZgIA
+        ARwBTAHsAbUMAAr/BQABvAHxA5EK8QH4AQAB7QHWAc8BtQGuAWYBrgH0AfMBrgFmAoYBZgIAAZoBegFM
+        AewBtQsAAf8CAAH/BQAB/wUAAbwB8QGRAfECkQnxAfgBAAGuAdYBtQHWAYYBCgFmAd0BGQHPA4YBZgMA
+        AZoBegFMAewBtQoACv8FAAG8AfIFkQjyAfgBAAGuA9YBjAGuAWYBiwSuAYYBZgQAAZoBegFMAewBvAkA
+        Af8CAAH/BQAB/wUAAbwC8wWRB/MB+AEAAbUBCQLWA7UCrgHPAosBrgFmBQABmgF6AXQB7wEHBbUDAAr/
+        BQABvAPzBZEG8wH4AQABtQHdAdYBzwGuAosEhgLPAYYGAAGaAbwCtQEJAhkCCQG1AgAH/wEAAv8FAAG8
+        BPQFkQX0AfgBAAHtAQkBzwH0Av8C9AHdAgkBhgHPAYYHAAEHAbUCGQHiA/8BCQG1AQAB/wIAA/8BAAEH
+        AQAB/wQAAQQBvAX0B5EC9AH4AQAB9wHdAa4C/wH0Af8BGQH/At0ChgGuBwABtQEJARkC4gP/AQkBtQEA
+        Af8BAAEHAQAB/wEAAQcBAAEHBAACBAG8BvQHkQH0AfgBAAHvAd0BzwX/AhkB3QGGAbUB6gcAAbUBGQEJ
+        ARkB4gH0Af8B9AEZAbUBAAL/AQABBwEAAQcBAAEHAQADBwEAAgQBvAf1ApEC9QKRAfUB+AEAAe8B3QG1
+        A/8C9gL/ARkBZgGvARIHAAG1AxkE4gEZAbUFAAEHAQABBwEABQcCBAG8B/8CkQP/AZEB/wH4AQABBwHd
+        AbUC/wH0AfYB8wH/AfQB/wGGAWYBrgcAAbUBCQYZAQkBtQYAAQcBAAYHAgQBvAf/A5EE/wH4AQABtgHd
+        AbUF/wL0Af8BhgHPAa4HAAEJAbsC/wEZAdwCGQG1AQcHAAYHAQACBAG8CP8DkQP/AfgBAAK8AbUBBwHv
+        BPcCtQKvAY0IAAK1AQkCGQEJArUPAAIEAbwO/wH4GAABBwS1AQcTAA7xBwACbAGuFwAQ/xQAAWwBrgHx
+        AewCbAHsCQACcwFuAUoBFAEVASICEAEiARABABD/AgAB9wpmBQABbQHrAvMB6wLqAa4BZgFsCAAB7AGg
+        AXoCeQF0AlICSwFDAQAQ/wIAAfcB/wj3AWYDAAGRAa4B8wH0Ae8BkgG7AbUBbgHsAa4BbQFmAWwGAAHt
+        AcMBoAGaA3oBWQFTAVIBFQEAAv8BHARLBkoCRAH/AgAB9wP/AfQB8wEZAfABvAH3AWYDAAG1AfMBvAH3
+        AfABGQHzAUwBJQFvAe8BEgNsBQABHAHDAaACmgN6AVkBUgFEAQAC/wEcAcMCmgh6AUQB/wIAAfcE/wH0
+        AfMBGQHwAfcBZgMAAbwBtQHxAvQBGgFMAU0BRgElAZMBBwGuARIBbAEAAfcDZgGSAsMBoAKaA3oBUgFK
+        AQAC/wEcARoIoAF6AXkBSgH/AgAB9wX/AvMB8QH3AWYDAAHwAbUBvAH0Af8BRgFNAXUB4wFNAUYCvAHt
+        AewBAAH3AfQB8wEZARwDwwGgAZoDegFSAW4BAAL/ARwBeQGaAqADegKgAXoBUQFKAf8CAAG1Bf8B9AHz
+        ARkB9wFmAwABBwGRAbQBtQHwA5QB8wGUAkwB9wGRAe8BAAH3Af8C9AEcBMMCoAGaAnoBbgEAAv8BHAEa
+        AXkCegNSAnoBUgF5AUoB/wIAAbUG/wLzAfcBZgMAAZECtAFtAZEB7wEaAfQB/wHwARYBTAFLAgcBAAG1
+        Av8B9AocAfcBAAL/AZkBwwGgAXoBeQF6AaABmgFSAXkCegFKAf8CAAHvBv8B9AHzAfcBZgMAAa4BtAFt
+        AXEBdwGQAbQBuwEHAZEBcgFvAUYBbgEHAQABtQP/ARwBGgHDAZoBHAEHBgAC/wGZAcMBmgF5AZoEoAF0
+        AnoBSgH/AgABuwf/AfQB9wFmAwABkQHsAU8BdwGRA7QBcQFPAXEBrgF0AUYB7QEAAe8D/wHzAxwBbQMA
+        Ae8BFAH3AQAC/wGZAcMBeQGaBqABUgF5AUoB/wIAAbsH/wL3AWYDAAG1AZECVgFyA7QBkAFPAXEBrgEA
+        AZQBTAEAAQcE/wH0AfEBvAFmAwABiwJmAQAC/wGZAZoEwwSgAZoBUgFKAf8CAAEHBv8B9wNmBAABkQF4
+        A5gBtAHVAbQBcQGuAfcEAAEHBP8B9wNmAwABBwEUAgAC/wGZCsMBmgFtAf8CAAEHBv8BtQG8AWYBCQQA
+        AbUBkgEIAcIB4gHBAZEBswGRAa4FAAEJBP8BtQG8AWYBBwIAAQcB7AEUAgAC/weZBhwB/wIAAQkG/wG1
+        AWYBCQYAAbUBkgG7AZEBmAORBgABCQT/Ae8BZgG8AgADrgHvAgAQ/wIABQkCBwG7AQkJAAH3A5EIAAIJ
+        AwcBuwG8CQAQ/xAAEBMRAAH3DWYBAAj/AfEBkQEJAfQE/wH3Av8B8AL/AfAC/wHwAv8B8AL/ARMEAAHr
+        ARUBAAGuAYsHZgEAAfcB/wv3AWYBAAf/AQcBtQGuAe8B8wT/AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwQA
+        AZIB/wFSAQABGQHwBQkBZgEAAfcC/wH0AvMDGQHwAbwBCQH3AWYBAAT/AfQBBwG1Aa4BuwG0Aa4B7wH0
+        A/8B9w7wARMEAAGRARwBmgF6AQAC9AEZAt0BCQFmAQAB9wP/AbsBzwKGAa4BtQHwAbwB9wFmAQAD/wH0
+        AQcCkQG1AQkBtQGuAYsBkQHzAv8B9wL/AfAC/wHwAv8B8AL/AfAC/wETAXMB7AFtAeoBbQFLAcMBeQF6
+        AQAB9AIZAd0BCQFmAQAB9wL/AbUBrQG1AgkBtAGmAc8B8AH3AWYBAAP/AbwBtQG7BNwBuwG1AYsBrgH0
+        Af8B9wL/AfAC/wHwAv8B8AL/AfAC/wETAXMBmgF6AXkBUgF5AUsBwwF5AXoBAAH0AhkBCQFmAQAB9wH/
+        AQkBrQEJAf8BvAGGARkB3AGmAbUB9wFmAQAC/wG8AbUBuwEZAbUCiwG0AgkBtQGLAbUB/wH3CPAERQLw
+        ARMB7AEaAaABmgJ6AbwBcwHDAXkBegEAAvQBCQFmAQAB9wH/AbQB3AL/AfABtQH0ARkBtAGuAfcBZgEA
+        Av8BuwG8AuIBCQG0AYsBuwEZAd0B3AG1AYsB/wH3Av8B8AL/AfAC/wFFAv8BRQL/ARMB7QEaAqABmgF6
+        AQcB/wFzAcMBWQG0AT8B8QHwAWYBAAG1Af8B1AEJA/8BiwG0AfQBCQEEAfcBZgEAAf8B3QG7A+IBCQG0
+        AYsBuwEZAt0B3AGLAbwB9wL/AfAC/wHwAv8BRQL/AUUC/wETAe0CwwKgAZoBBwL/AXQBCQHjAXQBPwHw
+        AWYBAAG1Af8B1QEJAv8B8wHwAYsBtQEJAYYB9wFmAQAB/wK8A+IB8gG0AYsBuwPiAd0BrgG8AfcI8ARF
+        AvABEwHtAcMBGgOgAQcD/wFFAXUB4wFuAfEBZgEAAe8B/wHcAQkB/wG1AYsB8AGLArUBzwH3AWYBAAH/
+        Ad0B8AH/AeIB9AG1AosBuwTiAZEBvAH3Av8B8AL/AfAC/wHwAv8B8AL/ARMB7QPDAqABuwP/AfQCbgL/
+        AWYBAAG7Af8BGQHVAQkB8wG1AYsBtQEJAa0BCQH3AWYBAAL/AfAC/wH0AQkCtQHxAuIB/wHdAbUB/wH3
+        Av8B8AL/AfAC/wHwAv8B8AL/ARMBkgTDAaADuwIHAfACBwK1AQABuwL/AQkB1QEJAhkBCQG0AQkC9wFm
+        AQAC/wHwBP8CGQT/AfABvAH/AfcHhgf3ARMBHAbDA6ABmgN6AesCAAEHA/8BGQHcAtUB1gHdAfcDZgEA
+        A/8B3QL/AbwBrgGLAbsC/wEZAbwC/wH3B4YH9wETCBwG7QG8AgABBwn/AbUBvAFmAbwBAAb/AfMC9wHz
+        Af8C4gP/D/cBEwEcARoDwwGaARwBvAkAAQkJ/wG1AWYBvAIAEP8QAAHzBRwB8woABgkEBwG7AbwDABD/
+        bAAC6yMAAQcB7ArrAewDAAnqAesBkgFuAeoEAAHsC20B7BEAAfEMKgFtAewBAAIxAysEKgFLAe0CUgET
+        AwACUgFMCioBEwHsAwAB7An/AwACUgGgCXoBUgEqAesBAAErAVgBwwZ6AZIBUgFZASoBSgHrAQABUgF6
+        AVIBoAh6AVIBoAEqAW0DAAHsA/8BAAX/AwACUgF6AaAIegFYAUsBbQEHATEBUgHDAaABmQG8AgcB9wFS
+        AnoBKwEqAeoBAAFSAXoBUgGgCHoBUgGgASoBbQMAAewC/wEABv8DAAJSAVgIoAGaAVkBUgFtAewCUgF6
+        AbwB9AH/AuIBCQGZAeUBoAFSATEBEwEAAVIBegFSCaABWAGgASoBbQMAAewC/wIABf8DAAFSAVgBUgmg
+        AnkBKgHrAVIBWAFSAfAD/wHiARkBvAKgAXkBKgFKAesBUgF6AVIJoAF6AaABKgFtAwAB7AL/AwAB/wEA
+        Av8DAAFSAXoBUgmgAXoBoAFLAesBUgF6ATEBCQHiAf8B4gIZAfACoAF6AVgBKgETAVIBegFSCaABegGg
+        ASoBbQMAAewD/wQAAv8DAAFSAZoBUgF5Av8B9gX/AZoB/wFLAewBUgHlAVgBCQPiARkB4gHwAv8BoAF6
+        ASoB6gFSAXoBUgn/AZoB/wEqAewDAAHsBP8DAAL/AwABUgGgAXkMUgEHAVIBoAF6AewCGQHiAf8BGQFS
+        BDEBKgEAAVIBoAGaDFIEAAHsA/8EAAL/AwABUgagBf8BUgFLAQcBAAFSA6ABBwIJAbwB8gP/ASoB6wIA
+        AVIGoAX/ASoB7AUAAewJ/wMAAVIB/wSgAf8GUgHxAgABUgH/BKAB/wUxASsDAAFSAf8EoAH/BVIBTAYA
+        CuwEAAFSBP8BUgEHCQABUgT/AVIKAAFSBP8BUhsABFIB8QsABFIMAARSrQAB6j4AAa4BDgETBwABrgHs
+        EgABtAGuA4sBhgMAAbQCrgKLAWYJAAEJAbUIAAG1AQ8BEQGuBQAB7AEVAbUIAAESARQBEAcAAbUB/wG8
+        AbUBtAGGAwABtAHzAbwBtQHPAYYJAAEJAdUBzwG1BwABbQERARQEAAH3ARMB6wkAAm0BFAcAAbUB/wG8
+        AbUBtAGGAwABtALzAQkBtAGGCgABCQHVAc8IAAEUARAB6gIAAfcB6wEVAfcJAAHqAe0BbQERBgABtQH/
+        AbwBtQG0AYYDAAG0AvMBCQG0AYYLAAHPAdUBtQgAARMBEQFtAfcB6gFDAZEKAAHqAe8B7AEUBgABtQH/
+        AfMBvAG1AYYDAAG0AvMBCQG0AYYLAAG7Aa0B1QkAARMCQwEVARQKAAHwAeoBBwGSARQBBwUAAbUBtAGu
+        AYsChgGmAYYBtAGuAYsChgFlAYsDAAWtAYsDAAGtAdUBCQgAAZEBQwIUAZIJAAHwARIBkgHwAe8B6wEP
+        AQcEAAEJAbQB/wHwAbUBrgGmAbsBtAHxARkBtQHPAYYBtQMAAbQBrQLVAbQEAAGtAbQB3AcAAbsB6gMV
+        AeoB9wcAAfABbQEHAfIB8QEHAe0B6gEPAQcEAAG1AfQB/wEZAbQBhgGLAbQC/wHdAc8BhgQAAbQD1QHP
+        BAACrQHcBgAB9wIUAewBAAHsARQB7AH3BQAB8AHrAQcB8wH/AfMB8AEHAZIB6gEPAQcEAAG1AbQBrgOL
+        Ac8BtAGuAoYFAAG0A9UCrQMAAYsBrQHcBAABBwHrAhQB7AMAAesBFAHsAQcDAAHwAewB8AHzA/8B8gHw
+        AQcB7QESAQ8BBwMAAbUB/wEJAbQBhgEAAbUB/wEJAbUBhgUAAdYCCQHcAbQCrQHPAa0BiwHVBAAB9wHr
+        ARUBFAGSBQAB9wESAewDAAHsAbwB8wL/AfQB8wHyAbwBBwGSAW0BEgEPAwABuwG1Aa4CiwEAArUBrgGL
+        AYYFAAHWAgABCQHcAdUErQUAAfcBFAETAe8HAAL3AwAB7wEHAfABvAIHAe8C9wGSAewB6wFtARMEAAG0
+        Af8BhgMAAbQB/wGGCgABCQLcAtYGAAH3AesB9x8AAbUBtAGLAwABtQG0AYsMAAIJJgABQgFNAT4HAAE+
+        AwABKAMAAUADAAFgAwABAQEAAQEGAAEDFgAD/4EABv8BgAEBAYABAQGPAf8BAAEPAgABgAEBAYcB/wEA
+        AQ8CAAGAAQEBgwH/AQABDwIAAYABAQHBAf8BAAEPAgABgAEBAeAB/wEAAQ8CAAGAAQEB8AEDAQABDwIA
+        AYABAQH4AQEBAAEPAgABgAEBAfwCAAEOAgABgAEBAfwCAAEEAgABgAEBAfwFAAGAAQEB/AUAAYABAQH8
+        AQAB+AMAAYABAQH8AQAB/AMAAYABAQH+AQEB/gEEAgAD/wEDAv8BgAEBAfwBfwL/AgAC/wHwAR8B8AEB
+        AgABwAEHAcABDwHwAQECAAHAAQcBAAEDAfABAQIAAcABBwEAAQEB8AEBAgABwAEHAQABAQEAAQECAAHA
+        AQcBAAEBAQABAQIAAcABBwEAAQEBAAEBAgABwAEHAQABAQEAAQECAAHAAQcBAAEBAQABPwIAAcABBwEA
+        AQEBAAFxAgABwAEHAQABCQEAAXECAAHAAQcBgAEPAQABcwIAAcABBwGAAR8BAAFjAgABwAEPAcABPwEA
+        AcMCAAHAAR8B8AH/AQEB/wIAAv8CAAL/AYABAQQAAfABAAGAAQEEAAHwAQABgAEBBAAB8AEAAYABAQYA
+        AYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQUAAQEBgAEBBQABAQGA
+        AQEFAAH/AYABAwIAAv8BAQH/AYABBwIADf8B8wT/AYABAwGAAQMBwAEBAeABAwEAAQEBAAEDAYABAAHg
+        AQMBAAEBAQABAQIAAeABAwMAAQECAAHgAQMDAAEBAgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDAwABAQEA
+        AQEB4AEDAQABAQEAAQMBAAEDAeABAwEAAQMBAAEHAQABBwHgAQMBgAH/AYEB/wGBA/8BwQH/AcMB/wHD
+        Ff8B7wf/AccB8wL/AQMBgQH/AT8BwwHjAfwBPwEDAYEB/wEPAeMBxwH8AT8BAwGBAf8BjwHxAYcB/AE/
+        AQMBgQH/AccB+AEPAfwBPwEDAYEB/wHHAfwBHwH4AR8BAAEBAcAB4wH8AR8B8AEPAQABAQHBAeMB+AEP
+        AeABBwGAAQMBwQHjAfABhwHAAQMBwAEHAcAB4wHBAcMBgAEBAcEBBwHAAQcBgwHjAYABAQHBAQcB2AEP
+        AYcB8wGAAQEB4wGPAfwBHwGPA/8B4wGPAf8BPwT/FgAL
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="uiCommandBar3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 28</value>
+  </data>
+  <data name="tsDelete.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="tsDelete.ToolTipText" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="tsSave.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tsSave.ToolTipText" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="tsScreenTitle.Text" xml:space="preserve">
+    <value>Comptes</value>
+  </data>
+  <data name="tsEditmode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAAAAAAP///////wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAACACwAAAAAEAAQ
+        AAAIHQAFCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFgQEBADs=
+</value>
+  </data>
+  <data name="tsAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9gAA
+        CvYBwq9wAwAAAQJJREFUOE+lkTEKwkAQRfcIlrERBJsFT5HeA5jOeg+QXqwX67CVvSksvEDAI+gBBNs9
+        wjh/w5jEbKKi8NjMLP/NsCoi+otoU3DWkJCb7AXudqUjEA0ChPwt61JpuhQ6SIKgMuPhdKE64cdpRr7k
+        HpPZlLJS8yqHK70ojmHdEF4mjaQVvtiadD8PBIHnsaAXxslhSCToNhzmWudT0kXSCDphrnFiaqh5suL3
+        Fvin1IolQcBrywYSbteYitCx8qQmmrvNWyVrvmsLYmDd691HBWBQgJCAsDsPCWwtwCnfZut64K1GBWOT
+        5W/+agMEYxuYYkCAy0+TER4V4OJbeoL3xm+QegL3MsVzdOKZ3AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsAudit.ToolTipText" xml:space="preserve">
+    <value>Propriétés de la ligne de données</value>
+  </data>
+  <data name="cmdFile.Text" xml:space="preserve">
+    <value>&amp;Fichier</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>&amp;Édition</value>
+  </data>
+  <data name="cmdView.Text" xml:space="preserve">
+    <value>&amp;Affichage</value>
+  </data>
+  <data name="principalAmountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="principalAmountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 17</value>
+  </data>
+  <data name="principalAmountLabel.Text" xml:space="preserve">
+    <value>Montant en principal :</value>
+  </data>
+  <data name="interestRateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 67</value>
+  </data>
+  <data name="interestRateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
+  </data>
+  <data name="interestRateLabel.Text" xml:space="preserve">
+    <value>Taux d'intérêt :</value>
+  </data>
+  <data name="interestFromDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 17</value>
+  </data>
+  <data name="interestFromDateLabel.Text" xml:space="preserve">
+    <value>Intérêt à partir du :</value>
+  </data>
+  <data name="rateTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 41</value>
+  </data>
+  <data name="rateTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 17</value>
+  </data>
+  <data name="rateTypeLabel.Text" xml:space="preserve">
+    <value>Type de taux d'intérêt :</value>
+  </data>
+  <data name="interestAmountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 67</value>
+  </data>
+  <data name="interestAmountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 17</value>
+  </data>
+  <data name="interestAmountLabel.Text" xml:space="preserve">
+    <value>Montant d'intérêt :</value>
+  </data>
+  <data name="lPCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 13</value>
+  </data>
+  <data name="lPCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 17</value>
+  </data>
+  <data name="lPCodeLabel.Text" xml:space="preserve">
+    <value>Code de délai de prescription :</value>
+  </data>
+  <data name="lPDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 41</value>
+  </data>
+  <data name="lPDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 17</value>
+  </data>
+  <data name="lPDateLabel.Text" xml:space="preserve">
+    <value>Date de l'évènement :</value>
+  </data>
+  <data name="lPExpiresLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 41</value>
+  </data>
+  <data name="lPExpiresLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="lPExpiresLabel.Text" xml:space="preserve">
+    <value>Délai expire le:</value>
+  </data>
+  <data name="currentToLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="currentToLabel.Text" xml:space="preserve">
+    <value>En date du :</value>
+  </data>
+  <data name="receivedByJusticeDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="receivedByJusticeDateLabel.Text" xml:space="preserve">
+    <value>Reçu par Justice :</value>
+  </data>
+  <data name="closureDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 17</value>
+  </data>
+  <data name="closureDateLabel.Text" xml:space="preserve">
+    <value>Date de fermeture :</value>
+  </data>
+  <data name="closureCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 170</value>
+  </data>
+  <data name="closureCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 17</value>
+  </data>
+  <data name="closureCodeLabel.Text" xml:space="preserve">
+    <value>Code de fermeture :</value>
+  </data>
+  <data name="currentLiabilityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 94</value>
+  </data>
+  <data name="currentLiabilityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <data name="currentLiabilityLabel.Text" xml:space="preserve">
+    <value>Dette actuelle :</value>
+  </data>
+  <data name="accountTypeCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 14</value>
+  </data>
+  <data name="accountTypeCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 17</value>
+  </data>
+  <data name="accountTypeCodeLabel.Text" xml:space="preserve">
+    <value>Type de compte :</value>
+  </data>
+  <data name="sentToOfficeDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="sentToOfficeDateLabel.Text" xml:space="preserve">
+    <value>Envoyé au bureau :</value>
+  </data>
+  <data name="receivedByOfficeDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="receivedByOfficeDateLabel.Text" xml:space="preserve">
+    <value>Reçu par bureau :</value>
+  </data>
+  <data name="returnedByOfficeDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 17</value>
+  </data>
+  <data name="returnedByOfficeDateLabel.Text" xml:space="preserve">
+    <value>Retourné par bureau :</value>
+  </data>
+  <data name="receivedFromOfficeDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="receivedFromOfficeDateLabel.Text" xml:space="preserve">
+    <value>Reçu du bureau :</value>
+  </data>
+  <data name="returnCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 161</value>
+  </data>
+  <data name="returnCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="returnCodeLabel.Text" xml:space="preserve">
+    <value>Code de retour :</value>
+  </data>
+  <data name="officeCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 107</value>
+  </data>
+  <data name="officeCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="officeCodeLabel.Text" xml:space="preserve">
+    <value>Bureau :</value>
+  </data>
+  <data name="dARSOccurenceDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 121</value>
+  </data>
+  <data name="sequenceBalanceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 121</value>
+  </data>
+  <data name="invoiceNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 121</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 67</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>726, 66</value>
+  </data>
+  <data name="lblStatuteBarredMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 8</value>
+  </data>
+  <data name="lblStatuteBarredMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 147</value>
+  </data>
+  <data name="lblStatuteBarredMessage.Text" xml:space="preserve">
+    <value>Ce compte est prescrit en vertu de la loi</value>
+  </data>
+  <data name="debtGridEX_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Key&gt;Debt&lt;/Key&gt;&lt;Caption&gt;Debt&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ActiveWithJustice"&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;DataMember&gt;ActiveWithJustice&lt;/DataMember&gt;&lt;DefaultGroupPrefix /&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;GroupEmptyString /&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderToolTip&gt;Account is Active&lt;/HeaderToolTip&gt;&lt;Key&gt;ActiveWithJustice&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;21&lt;/Width&gt;&lt;DefaultValue&gt;False&lt;/DefaultValue&gt;&lt;DefaultValueType&gt;System.Boolean&lt;/DefaultValueType&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;ValueList Collection="true" ElementName="Item"&gt;&lt;Item0 ID="True"&gt;&lt;Text&gt;Active&lt;/Text&gt;&lt;ValueType&gt;System.Boolean&lt;/ValueType&gt;&lt;Value&gt;True&lt;/Value&gt;&lt;/Item0&gt;&lt;Item1 ID="False"&gt;&lt;Text&gt;Inactive&lt;/Text&gt;&lt;ValueType&gt;System.Boolean&lt;/ValueType&gt;&lt;Value&gt;False&lt;/Value&gt;&lt;/Item1&gt;&lt;/ValueList&gt;&lt;GroupRowStyle&gt;&lt;FontBold&gt;True&lt;/FontBold&gt;&lt;/GroupRowStyle&gt;&lt;/Column0&gt;&lt;Column1 ID="ReceivedByJusticeDate"&gt;&lt;Caption&gt;Reçu par Justice&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ReceivedByJusticeDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd&lt;/FormatString&gt;&lt;Key&gt;ReceivedByJusticeDate&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="AccountTypeCode"&gt;&lt;Caption&gt;Type de compte&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;AccountTypeCode&lt;/DataMember&gt;&lt;Key&gt;AccountTypeCode&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="InterestRate"&gt;&lt;Caption&gt;Interest&lt;/Caption&gt;&lt;DataTypeCode&gt;Decimal&lt;/DataTypeCode&gt;&lt;DataMember&gt;InterestRate&lt;/DataMember&gt;&lt;InputMask&gt;Percent3&lt;/InputMask&gt;&lt;Key&gt;InterestRate&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;FormatMode&gt;UseInputMask&lt;/FormatMode&gt;&lt;/Column3&gt;&lt;Column4 ID="StatusCode"&gt;&lt;Caption&gt;Status&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;StatusCode&lt;/DataMember&gt;&lt;Key&gt;StatusCode&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;70&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="OfficeCode"&gt;&lt;Caption&gt;Office&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;OfficeCode&lt;/DataMember&gt;&lt;Key&gt;OfficeCode&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;68&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="PrincipalAmount"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Principal&lt;/Caption&gt;&lt;DataTypeCode&gt;Decimal&lt;/DataTypeCode&gt;&lt;DataMember&gt;PrincipalAmount&lt;/DataMember&gt;&lt;FormatString&gt;c&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;PrincipalAmount&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;106&lt;/Width&gt;&lt;TotalFormatString&gt;c&lt;/TotalFormatString&gt;&lt;/Column6&gt;&lt;Column7 ID="CurrentLiability"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Dette actuelle&lt;/Caption&gt;&lt;DataTypeCode&gt;Decimal&lt;/DataTypeCode&gt;&lt;DataMember&gt;CurrentLiability&lt;/DataMember&gt;&lt;FormatString&gt;c&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;CurrentLiability&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;c&lt;/TotalFormatString&gt;&lt;/Column7&gt;&lt;Column8 ID="CurrentTo"&gt;&lt;Caption&gt;En date du&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;CurrentTo&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd&lt;/FormatString&gt;&lt;Key&gt;CurrentTo&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;105&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="ClosureDate"&gt;&lt;Caption&gt;Date de fermeture&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ClosureDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd&lt;/FormatString&gt;&lt;Key&gt;ClosureDate&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;121&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="ClosureCode"&gt;&lt;Caption&gt;Closure Code&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;ClosureCode&lt;/DataMember&gt;&lt;Key&gt;ClosureCode&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column10&gt;&lt;Column11 ID="DebtId"&gt;&lt;Caption&gt;Debt Id&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;DebtId&lt;/DataMember&gt;&lt;Key&gt;DebtId&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column11&gt;&lt;Column12 ID="InterestFromDate"&gt;&lt;Caption&gt;Interest From Date&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;InterestFromDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;InterestFromDate&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column12&gt;&lt;Column13 ID="RateType"&gt;&lt;Caption&gt;Rate Type&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;RateType&lt;/DataMember&gt;&lt;Key&gt;RateType&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column13&gt;&lt;Column14 ID="InterestAmount"&gt;&lt;Caption&gt;Interest Amount&lt;/Caption&gt;&lt;DataTypeCode&gt;Decimal&lt;/DataTypeCode&gt;&lt;DataMember&gt;InterestAmount&lt;/DataMember&gt;&lt;FormatString&gt;c&lt;/FormatString&gt;&lt;Key&gt;InterestAmount&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column14&gt;&lt;Column15 ID="LPCode"&gt;&lt;Caption&gt;LPCode&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LPCode&lt;/DataMember&gt;&lt;Key&gt;LPCode&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column15&gt;&lt;Column16 ID="LPDate"&gt;&lt;Caption&gt;LPDate&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;LPDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;LPDate&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column16&gt;&lt;Column17 ID="LPExpires"&gt;&lt;Caption&gt;LPExpires&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;LPExpires&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;LPExpires&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column17&gt;&lt;Column18 ID="DARSOccurenceDate"&gt;&lt;Caption&gt;DARSOccurence Date&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;DARSOccurenceDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;DARSOccurenceDate&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column18&gt;&lt;Column19 ID="MostRecentPCACode"&gt;&lt;Caption&gt;Most Recent PCACode&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;MostRecentPCACode&lt;/DataMember&gt;&lt;Key&gt;MostRecentPCACode&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column19&gt;&lt;Column20 ID="MSOAOverDARS"&gt;&lt;Caption&gt;MSOAOver DARS&lt;/Caption&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;MSOAOverDARS&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;MSOAOverDARS&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;DefaultValue&gt;False&lt;/DefaultValue&gt;&lt;DefaultValueType&gt;System.Boolean&lt;/DefaultValueType&gt;&lt;/Column20&gt;&lt;Column21 ID="FileAccountId"&gt;&lt;Caption&gt;File Account Id&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;FileAccountId&lt;/DataMember&gt;&lt;Key&gt;FileAccountId&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column21&gt;&lt;Column22 ID="FileId"&gt;&lt;Caption&gt;File Id&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;FileId&lt;/DataMember&gt;&lt;Key&gt;FileId&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column22&gt;&lt;Column23 ID="AccountTypeId"&gt;&lt;Caption&gt;Account Type Id&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;AccountTypeId&lt;/DataMember&gt;&lt;Key&gt;AccountTypeId&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column23&gt;&lt;Column24 ID="OfficeID"&gt;&lt;Caption&gt;Office ID&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;OfficeID&lt;/DataMember&gt;&lt;Key&gt;OfficeID&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column24&gt;&lt;Column25 ID="entryUser"&gt;&lt;Caption&gt;entry User&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;entryUser&lt;/DataMember&gt;&lt;Key&gt;entryUser&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column25&gt;&lt;Column26 ID="entryDate"&gt;&lt;Caption&gt;entry Date&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;entryDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;entryDate&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column26&gt;&lt;Column27 ID="updateUser"&gt;&lt;Caption&gt;update User&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;updateUser&lt;/DataMember&gt;&lt;Key&gt;updateUser&lt;/Key&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column27&gt;&lt;Column28 ID="updateDate"&gt;&lt;Caption&gt;update Date&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;updateDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;updateDate&lt;/Key&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column28&gt;&lt;Column29 ID="ts"&gt;&lt;Caption&gt;ts&lt;/Caption&gt;&lt;ColumnType&gt;BoundImage&lt;/ColumnType&gt;&lt;DataMember&gt;ts&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;ts&lt;/Key&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column29&gt;&lt;Column30 ID="StatementRequest"&gt;&lt;Caption&gt;Statement Request&lt;/Caption&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;StatementRequest&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;StatementRequest&lt;/Key&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column30&gt;&lt;Column31 ID="MSOARequest"&gt;&lt;Caption&gt;MSOARequest&lt;/Caption&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;MSOARequest&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;MSOARequest&lt;/Key&gt;&lt;Position&gt;31&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column31&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;1&lt;/ColIndex&gt;&lt;SortOrder&gt;Descending&lt;/SortOrder&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="FormatCondition1"&gt;&lt;ColIndex&gt;0&lt;/ColIndex&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;ControlDark&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Value1&gt;False&lt;/Value1&gt;&lt;Key&gt;FormatCondition1&lt;/Key&gt;&lt;/Condition0&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;Groups Collection="true" ElementName="Group"&gt;&lt;Group0 ID="Group0"&gt;&lt;ColIndex&gt;0&lt;/ColIndex&gt;&lt;SortOrder&gt;Descending&lt;/SortOrder&gt;&lt;GroupTotalVisibility&gt;Visible&lt;/GroupTotalVisibility&gt;&lt;/Group0&gt;&lt;/Groups&gt;&lt;TotalRow&gt;False&lt;/TotalRow&gt;&lt;GroupTotalRowFormatStyle&gt;&lt;FontBold&gt;True&lt;/FontBold&gt;&lt;/GroupTotalRowFormatStyle&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="interestFromDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 62</value>
+  </data>
+  <data name="lPDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 36</value>
+  </data>
+  <data name="lPExpiresCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 36</value>
+  </data>
+  <data name="currentToCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 35</value>
+  </data>
+  <data name="mSOAOverDARSUICheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 23</value>
+  </data>
+  <data name="mSOAOverDARSUICheckBox.Text" xml:space="preserve">
+    <value>SMCD (DARS) inexact :</value>
+  </data>
+  <data name="rateTypeucMultiDropDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>642, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rateTypeucMultiDropDown.Middle" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="rateTypeucMultiDropDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="interestAmountNumericEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 62</value>
+  </data>
+  <data name="currentLiabilityNumericEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 89</value>
+  </data>
+  <data name="invoiceNumberEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>642, 116</value>
+  </data>
+  <data name="invoiceNumberEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="sequenceBalanceEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 116</value>
+  </data>
+  <data name="sequenceBalanceEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="principalAmountNumericEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 35</value>
+  </data>
+  <data name="ucAccountTypeMcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 8</value>
+  </data>
+  <data name="ucAccountTypeMcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 24</value>
+  </data>
+  <data name="numericEditBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>642, 62</value>
+  </data>
+  <data name="numericEditBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 24</value>
+  </data>
+  <data name="dARSOccurenceDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 116</value>
+  </data>
+  <data name="ucLPCodeMcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 9</value>
+  </data>
+  <data name="ucLPCodeMcc.Middle" type="System.Int32, mscorlib">
+    <value>437</value>
+  </data>
+  <data name="ucLPCodeMcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 24</value>
+  </data>
+  <data name="ucReturnCodeMcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 157</value>
+  </data>
+  <data name="accountHistoryGridEX_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP//////AP8A//8AAAD//wD/AAAA/wAAAEA4QCkjLFdRWkI+SHFvel9hb36CkZGW
+        pjk6PEhJS7W/0b3J3Ku1xlpjcJGox6O73KG42IaZsrLJ6MHV72dxfkFESGp8kmd4ja/E33+PorjO6mRv
+        fUNKU8PX77PE2FRbZMTU5668zZCbqUlOVD5CR3Z9hlVhb6a70mx4hcTY76S1yMbZ777Q5Ky7zJuntXV+
+        iFRaYX+HkG1zehAYICAoMD9KVTA4QGxzend+hUJFSFpeYl9xgElbaJyrtZOhqTg6O3aDiDI8OUBAQDAw
+        MCAgIBAQEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABOACwAAAAAEAAQAAAIhgCdCBxIsKDAIgyKGFxYREkECgttGBloQ4cPJQ8K2lDQgmCNH0qUABkIQwmS
+        GgZVhMzhxIGSGzYWOpEhxAcECC5UyBQYYgmCIBl3OumxZImPBUJ78Ghg48SSEDJZMMEh0AaHIxMLVkjQ
+        gaCNFSMKZtjBw0PBHEkyEBzShMTCDywJEhFKd2FAADs=
+</value>
+  </data>
+  <data name="accountHistoryGridEX_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Key&gt;IBindingList&lt;/Key&gt;&lt;Caption&gt;IBindingList&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="SentToOfficeDate"&gt;&lt;Caption&gt;Envoyé au bureau&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;SentToOfficeDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd&lt;/FormatString&gt;&lt;Key&gt;SentToOfficeDate&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;115&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="OfficeCode"&gt;&lt;Caption&gt;Bureau&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;OfficeCode&lt;/DataMember&gt;&lt;Key&gt;OfficeCode&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;78&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="ReceivedByOfficeDate"&gt;&lt;Caption&gt;Reçu par bureau&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ReceivedByOfficeDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd&lt;/FormatString&gt;&lt;Key&gt;ReceivedByOfficeDate&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;119&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="ReturnedByOfficeDate"&gt;&lt;Caption&gt;Retourné par bureau&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ReturnedByOfficeDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd&lt;/FormatString&gt;&lt;Key&gt;ReturnedByOfficeDate&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;140&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="ReceivedFromOfficeDate"&gt;&lt;Caption&gt;Reçu du bureau&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ReceivedFromOfficeDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd&lt;/FormatString&gt;&lt;Key&gt;ReceivedFromOfficeDate&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;123&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="colDelete"&gt;&lt;ButtonDisplayMode&gt;Always&lt;/ButtonDisplayMode&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column5.ButtonImage" /&gt;&lt;ButtonText&gt;Delete&lt;/ButtonText&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Supprimer&lt;/CellToolTipText&gt;&lt;BoundMode&gt;Unbound&lt;/BoundMode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderToolTip&gt;Supprimer&lt;/HeaderToolTip&gt;&lt;Key&gt;colDelete&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;18&lt;/Width&gt;&lt;/Column5&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="accountHistoryGridEX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>621, 83</value>
+  </data>
+  <data name="activeWithJusticeCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 140</value>
+  </data>
+  <data name="activeWithJusticeCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 21</value>
+  </data>
+  <data name="activeWithJusticeCheckbox.Text" xml:space="preserve">
+    <value>Actif :</value>
+  </data>
+  <data name="uiTabPage5.Text" xml:space="preserve">
+    <value>Compte</value>
+  </data>
+  <data name="uiTabPage1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAAZiS0dEAP4A/gD+6xjUggAAAAl2cEFnAAAAEAAAABAAXMatwwAAACV0RVh0Y3Jl
+        YXRlLWRhdGUAMjAwOS0wOS0yM1QxMTozNjo1NyswMjowMPzGgyIAAAAldEVYdG1vZGlmeS1kYXRlADIw
+        MDktMDktMjNUMTE6MzY6NTcrMDI6MDCjd/UWAAADRUlEQVQ4T2VSS08bVxidbRB/gAXsoEsqEgF/ADaN
+        xEsKINVGBSQg3UARiQSOgq1WChjbFW3VmpdLUFNFhkZKSjFtSUhwjC0w4Bc2HttT3h7j8duAzTCnd4zV
+        55Hu4tO955zv++6h/guNRlMll8tnFAoFo1DI+UcyGd/X18d0d3dPtbe338k/+z/UanUhObMqlUp4MjKK
+        r7+bgHb6e3w7pYPqy6/Q2/8ZpFKpUFdXp6uuri7I025AXAuVSqVJo9ZgenYOzt09+PwMXG4P3B4vrDt2
+        rFmsUI1/g+bme6isrDQWFRX9LSI6qzUaLBp+Q4BhYDDZEOY4hEJhnLIhHB6fYtvmhMVqw4ulFdy9+xFK
+        S0unc+SxsbFqsW3d3A+g/QGchTm83XDARu8jGo2AIzXLhnEcDCGwf4z1DRuezb8UBYSSkpLblLiwUeUY
+        bC4vaF8A0UgMkUgEZocHqVQKyUQC0VgcIS6KE5bDxo4La1YX+gcGRJEJIjDMTOmeknn3EI5EESeEdDoN
+        t38fm+4AgsEgzjNZxNOX8B+c4IiNYdW8jVeG31FRUUFT5Luunz57DofLAy4aJ24xJJNJCMI1fn5jxidt
+        bZArPsfQo8f44okSp9FzrLzfhHHTjpqamgwlGxri554vwE0zYLk44skLZK94/LF/AMnHUqyaLBCRuQbi
+        GSCcvMKG048ttx9NTY0Zqre3l9FOz8JEFGPpDFKXPC6vBHhpP/QLP4GUSJ7ziKWyCCcyOEvxMG3vwebx
+        oaGh3kt1dXXNDDx4iB3vAXbJ5hMXfM5NSwJ0cYVcHSHkM0IOJbLYcgVgdjL4ZcmA1tZWLSWRSCqlEomg
+        +3EBDt8hIsTNsuXA4vIKYucCaZkQxUPIR9wl1u009g6CGBocvO7s7KzIZUGMZ8u9ZphtNOz0EUbU43/N
+        KxLZBA8rcV4n9/RJDHq9Hp/evz+ZI4uoqqoqIPk2EiEYVk2wMywsDh/WNp2w7jIwbnmwTtr2HrJY0M+j
+        o6Pj3fDw8K08/QZitkkwZj4oKxUGZTK8NprJvD64/EdweBks/7osti2QnU2S8P2b/E8UFxffKSsrm/yw
+        vNxXW1uTbWpszDTU19OtLS3anp6e2/lneVDUnyH0lqOrVaG2AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="uiTabPage1.Text" xml:space="preserve">
+    <value>Délai de prescription</value>
+  </data>
+  <data name="uiCheckBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 35</value>
+  </data>
+  <data name="uiCheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 23</value>
+  </data>
+  <data name="uiCheckBox1.Text" xml:space="preserve">
+    <value>Prescrit :</value>
+  </data>
+  <data name="LPCommentEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 63</value>
+  </data>
+  <data name="LPCommentEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 92</value>
+  </data>
+  <data name="uiTabPage2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABiElEQVQ4T5WRS0tCURSFHfkv
+        goIa1MSRIDiIIgmFKIiihwlZgQ2CjAhJM7OHmiGKFSZZmUhYEDQTJKm0zLLM3uYPcbjaJ7pXQ8rbYB3O
+        61tnn71EAP6lzq32mNLTIubWFReqieBiq11e4Nb8wXRKByZ9YgwT8WHookPQnvRBHelGb7AD9DIIhjY0
+        AHWgB1KDJFdhcPwRxtH7Pg5edxB69mP3cRP+rBcbGRfcNw44U8uwXS7AejGHLo8KjeMNad6AvRx520P4
+        ZRvBJx8CD+vw3bvhvXXClbbBcWXFUsIMy/ksTPEZqNYUqB+pS/IGf5VNf4bcIoXC3gxNsB9KZxuDs4zj
+        DYRIMtkko7KLBOe5vYpL1URwtFZTUxkjNVFMinFroeInBBeokcXyQyH6GgjOOe8ssKVNVRtJ+YN6Qdi3
+        AcHp1cy84PzNZwaWf8mAyk6uXBsF5284nWIRlgzYQGVnjXE9FunS6OHgr2WzlxlMKfw0YKI/5+nPRYJl
+        3J4Q8ROCxQRHyw+rC6JP8hyxgvHit/IAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="uiTabPage2.Text" xml:space="preserve">
+    <value>Cheminement de compte</value>
+  </data>
+  <data name="officeIducOfficeSelectBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 102</value>
+  </data>
+  <data name="uiTabPage3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuND6NzHYAAAIrSURBVDhPlZL7
+        T1JhHMb5D121Wm7VusxYVzYpLQE5cZHykgZyC1SEHAWIcpFrWRwpCYXZWoLETbPI2rBiEzLa0zkv1nK6
+        id/fztk+n+/zPu/LaWaGon2o1WvY+TzcDEbvwZDQQD5LofbrkJKBubvQLw7Dv+aBbkEFob8T1e1qc5J+
+        WrEDu2HLWuArTkP5qh981/WDJX10D3SLKgZy4cl7C8xpAzq9fHgLU2DFl2xt2Nre2l/SG5FBu6AkcC8t
+        hzxCwZTSYyylw8TKGNx5B+6ERThvObNXoHguhSb+gMC5ygrTfBXWpUeQvej+B1NhAU6Pt+6GN6ubkD2j
+        oH49RM7KbmZhLa1GoZyDgpbAlbdDHBLglOkkEdR/1xuS+Md5Emk4NkjgxxkzE1tMNrOwNEA14GAXWkdP
+        IFaKQhi4hYm4pSFgI6li90lB1sw4OevoshZSJrYiIsF0zg5R8Da4zgsEjq5HMFsM4tjDFlRqFXDcy1NM
+        fDGMSS08hUnc8PAw8k4DS3qEgW1kW0eonYHnMJNxoz10jSRxJOzIbGTAqfz8QYphHwlbIBvXnDI2YOZf
+        m+Ms3Gkn2OdMeUXQ01qUvn3aXaLzrR2mhBF8Nw/K+QFMZW0Q+Dpw3HAEAkZy2crFm/UlrJVX914dO18q
+        G5A87UY478dVBxddvps4qmtBT0CKyaR9f+j/Ya9E91KNi9Zz4DmvEDj3NYvP30sHw39ntVyEeEaI5IdE
+        8xCHw/kD+B7YXqmf8LAAAAAASUVORK5CYII=
+</value>
+  </data>
+</root>

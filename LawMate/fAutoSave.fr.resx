@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imageListfBase.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAC
+        GwAAAk1TRnQBSQFMAgEBEgEAARMBAAEUAQABEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAVADAAEBAQABCAYAARQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/0IAAQcCrgHqARMBbQIS
+        AeoBEgNmARICAAEHAewBtS0AAewCtQFmAUMBBwG2Ad0BtQGuBGYCAAEcAUwB7AG1LAAB7QHWAc8BtQGu
+        AWYBrgH0AfMBrgFmAoYBZgIAAZoBegFMAewBtSsAAa4B1gG1AdYBhgEKAWYB3QEZAc8DhgFmAwABmgF6
+        AUwB7AG1KgABrgPWAYwBrgFmAYsErgGGAWYEAAGaAXoBTAHsAbwpAAG1AQkC1gO1Aq4BzwKLAa4BZgUA
+        AZoBegF0Ae8BBwW1IwABtQHdAdYBzwGuAosEhgLPAYYGAAGaAbwCtQEJAhkCCQG1IgAB7QEJAc8B9AL/
+        AvQB3QIJAYYBzwGGBwABBwG1AhkB4gP/AQkBtSEAAfcB3QGuAv8B9AH/ARkB/wLdAoYBrgcAAbUBCQEZ
+        AuID/wEJAbUhAAHvAd0BzwX/AhkB3QGGAbUB6gcAAbUBGQEJARkB4gH0Af8B9AEZAbUhAAHvAd0BtQP/
+        AvYC/wEZAWYBrwESBwABtQMZBOIBGQG1IQABBwHdAbUC/wH0AfYB8wH/AfQB/wGGAWYBrgcAAbUBCQYZ
+        AQkBtSEAAbYB3QG1Bf8C9AH/AYYBzwGuBwABCQG7Av8BGQHcAhkBtQEHIQACvAG1AQcB7wT3ArUCrwGN
+        CAACtQEJAhkBCQK1OQABBwS1AQcoAAJsAa4XABD/FAABbAGuAfEB7AJsAewJAAJzAW4BSgEUARUBIgIQ
+        ASIBEAEAEP8CAAH3CmYFAAFtAesC8wHrAuoBrgFmAWwIAAHsAaABegJ5AXQCUgJLAUMBABD/AgAB9wH/
+        CPcBZgMAAZEBrgHzAfQB7wGSAbsBtQFuAewBrgFtAWYBbAYAAe0BwwGgAZoDegFZAVMBUgEVAQAC/wEc
+        BEsGSgJEAf8CAAH3A/8B9AHzARkB8AG8AfcBZgMAAbUB8wG8AfcB8AEZAfMBTAElAW8B7wESA2wFAAEc
+        AcMBoAKaA3oBWQFSAUQBAAL/ARwBwwKaCHoBRAH/AgAB9wT/AfQB8wEZAfAB9wFmAwABvAG1AfEC9AEa
+        AUwBTQFGASUBkwEHAa4BEgFsAQAB9wNmAZICwwGgApoDegFSAUoBAAL/ARwBGgigAXoBeQFKAf8CAAH3
+        Bf8C8wHxAfcBZgMAAfABtQG8AfQB/wFGAU0BdQHjAU0BRgK8Ae0B7AEAAfcB9AHzARkBHAPDAaABmgN6
+        AVIBbgEAAv8BHAF5AZoCoAN6AqABegFRAUoB/wIAAbUF/wH0AfMBGQH3AWYDAAEHAZEBtAG1AfADlAHz
+        AZQCTAH3AZEB7wEAAfcB/wL0ARwEwwKgAZoCegFuAQAC/wEcARoBeQJ6A1ICegFSAXkBSgH/AgABtQb/
+        AvMB9wFmAwABkQK0AW0BkQHvARoB9AH/AfABFgFMAUsCBwEAAbUC/wH0ChwB9wEAAv8BmQHDAaABegF5
+        AXoBoAGaAVIBeQJ6AUoB/wIAAe8G/wH0AfMB9wFmAwABrgG0AW0BcQF3AZABtAG7AQcBkQFyAW8BRgFu
+        AQcBAAG1A/8BHAEaAcMBmgEcAQcGAAL/AZkBwwGaAXkBmgSgAXQCegFKAf8CAAG7B/8B9AH3AWYDAAGR
+        AewBTwF3AZEDtAFxAU8BcQGuAXQBRgHtAQAB7wP/AfMDHAFtAwAB7wEUAfcBAAL/AZkBwwF5AZoGoAFS
+        AXkBSgH/AgABuwf/AvcBZgMAAbUBkQJWAXIDtAGQAU8BcQGuAQABlAFMAQABBwT/AfQB8QG8AWYDAAGL
+        AmYBAAL/AZkBmgTDBKABmgFSAUoB/wIAAQcG/wH3A2YEAAGRAXgDmAG0AdUBtAFxAa4B9wQAAQcE/wH3
+        A2YDAAEHARQCAAL/AZkKwwGaAW0B/wIAAQcG/wG1AbwBZgEJBAABtQGSAQgBwgHiAcEBkQGzAZEBrgUA
+        AQkE/wG1AbwBZgEHAgABBwHsARQCAAL/B5kGHAH/AgABCQb/AbUBZgEJBgABtQGSAbsBkQGYA5EGAAEJ
+        BP8B7wFmAbwCAAOuAe8CABD/AgAFCQIHAbsBCQkAAfcDkQgAAgkDBwG7AbwJABD/EAAQExEAAfcNZgEA
+        CP8B8QGRAQkB9AT/AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwQAAesBFQEAAa4BiwdmAQAB9wH/C/cBZgEA
+        B/8BBwG1Aa4B7wHzBP8B9wL/AfAC/wHwAv8B8AL/AfAC/wETBAABkgH/AVIBAAEZAfAFCQFmAQAB9wL/
+        AfQC8wMZAfABvAEJAfcBZgEABP8B9AEHAbUBrgG7AbQBrgHvAfQD/wH3DvABEwQAAZEBHAGaAXoBAAL0
+        ARkC3QEJAWYBAAH3A/8BuwHPAoYBrgG1AfABvAH3AWYBAAP/AfQBBwKRAbUBCQG1Aa4BiwGRAfMC/wH3
+        Av8B8AL/AfAC/wHwAv8B8AL/ARMBcwHsAW0B6gFtAUsBwwF5AXoBAAH0AhkB3QEJAWYBAAH3Av8BtQGt
+        AbUCCQG0AaYBzwHwAfcBZgEAA/8BvAG1AbsE3AG7AbUBiwGuAfQB/wH3Av8B8AL/AfAC/wHwAv8B8AL/
+        ARMBcwGaAXoBeQFSAXkBSwHDAXkBegEAAfQCGQEJAWYBAAH3Af8BCQGtAQkB/wG8AYYBGQHcAaYBtQH3
+        AWYBAAL/AbwBtQG7ARkBtQKLAbQCCQG1AYsBtQH/AfcI8ARFAvABEwHsARoBoAGaAnoBvAFzAcMBeQF6
+        AQAC9AEJAWYBAAH3Af8BtAHcAv8B8AG1AfQBGQG0Aa4B9wFmAQAC/wG7AbwC4gEJAbQBiwG7ARkB3QHc
+        AbUBiwH/AfcC/wHwAv8B8AL/AUUC/wFFAv8BEwHtARoCoAGaAXoBBwH/AXMBwwFZAbQBPwHxAfABZgEA
+        AbUB/wHUAQkD/wGLAbQB9AEJAQQB9wFmAQAB/wHdAbsD4gEJAbQBiwG7ARkC3QHcAYsBvAH3Av8B8AL/
+        AfAC/wFFAv8BRQL/ARMB7QLDAqABmgEHAv8BdAEJAeMBdAE/AfABZgEAAbUB/wHVAQkC/wHzAfABiwG1
+        AQkBhgH3AWYBAAH/ArwD4gHyAbQBiwG7A+IB3QGuAbwB9wjwBEUC8AETAe0BwwEaA6ABBwP/AUUBdQHj
+        AW4B8QFmAQAB7wH/AdwBCQH/AbUBiwHwAYsCtQHPAfcBZgEAAf8B3QHwAf8B4gH0AbUCiwG7BOIBkQG8
+        AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwHtA8MCoAG7A/8B9AJuAv8BZgEAAbsB/wEZAdUBCQHzAbUBiwG1
+        AQkBrQEJAfcBZgEAAv8B8AL/AfQBCQK1AfEC4gH/Ad0BtQH/AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwGS
+        BMMBoAO7AgcB8AIHArUBAAG7Av8BCQHVAQkCGQEJAbQBCQL3AWYBAAL/AfAE/wIZBP8B8AG8Af8B9weG
+        B/cBEwEcBsMDoAGaA3oB6wIAAQcD/wEZAdwC1QHWAd0B9wNmAQAD/wHdAv8BvAGuAYsBuwL/ARkBvAL/
+        AfcHhgf3ARMIHAbtAbwCAAEHCf8BtQG8AWYBvAEABv8B8wL3AfMB/wLiA/8P9wETARwBGgPDAZoBHAG8
+        CQABCQn/AbUBZgG8AgAQ/xAAAfMFHAHzCgAGCQQHAbsBvAMAEP9sAALrIwABBwHsCusB7AMACeoB6wGS
+        AW4B6gQAAewLbQHsEQAB8QwqAW0B7AEAAjEDKwQqAUsB7QJSARMDAAJSAUwKKgETAewDAAHsCf8DAAJS
+        AaAJegFSASoB6wEAASsBWAHDBnoBkgFSAVkBKgFKAesBAAFSAXoBUgGgCHoBUgGgASoBbQMAAewD/wEA
+        Bf8DAAJSAXoBoAh6AVgBSwFtAQcBMQFSAcMBoAGZAbwCBwH3AVICegErASoB6gEAAVIBegFSAaAIegFS
+        AaABKgFtAwAB7AL/AQAG/wMAAlIBWAigAZoBWQFSAW0B7AJSAXoBvAH0Af8C4gEJAZkB5QGgAVIBMQET
+        AQABUgF6AVIJoAFYAaABKgFtAwAB7AL/AgAF/wMAAVIBWAFSCaACeQEqAesBUgFYAVIB8AP/AeIBGQG8
+        AqABeQEqAUoB6wFSAXoBUgmgAXoBoAEqAW0DAAHsAv8DAAH/AQAC/wMAAVIBegFSCaABegGgAUsB6wFS
+        AXoBMQEJAeIB/wHiAhkB8AKgAXoBWAEqARMBUgF6AVIJoAF6AaABKgFtAwAB7AP/BAAC/wMAAVIBmgFS
+        AXkC/wH2Bf8BmgH/AUsB7AFSAeUBWAEJA+IBGQHiAfAC/wGgAXoBKgHqAVIBegFSCf8BmgH/ASoB7AMA
+        AewE/wMAAv8DAAFSAaABeQxSAQcBUgGgAXoB7AIZAeIB/wEZAVIEMQEqAQABUgGgAZoMUgQAAewD/wQA
+        Av8DAAFSBqAF/wFSAUsBBwEAAVIDoAEHAgkBvAHyA/8BKgHrAgABUgagBf8BKgHsBQAB7An/AwABUgH/
+        BKAB/wZSAfECAAFSAf8EoAH/BTEBKwMAAVIB/wSgAf8FUgFMBgAK7AQAAVIE/wFSAQcJAAFSBP8BUgoA
+        AVIE/wFSGwAEUgHxCwAEUgwABFKtAAHqPgABrgEOARMHAAGuAewSAAG0Aa4DiwGGAwABtAKuAosBZgkA
+        AQkBtQgAAbUBDwERAa4FAAHsARUBtQgAARIBFAEQBwABtQH/AbwBtQG0AYYDAAG0AfMBvAG1Ac8BhgkA
+        AQkB1QHPAbUHAAFtAREBFAQAAfcBEwHrCQACbQEUBwABtQH/AbwBtQG0AYYDAAG0AvMBCQG0AYYKAAEJ
+        AdUBzwgAARQBEAHqAgAB9wHrARUB9wkAAeoB7QFtAREGAAG1Af8BvAG1AbQBhgMAAbQC8wEJAbQBhgsA
+        Ac8B1QG1CAABEwERAW0B9wHqAUMBkQoAAeoB7wHsARQGAAG1Af8B8wG8AbUBhgMAAbQC8wEJAbQBhgsA
+        AbsBrQHVCQABEwJDARUBFAoAAfAB6gEHAZIBFAEHBQABtQG0Aa4BiwKGAaYBhgG0Aa4BiwKGAWUBiwMA
+        Ba0BiwMAAa0B1QEJCAABkQFDAhQBkgkAAfABEgGSAfAB7wHrAQ8BBwQAAQkBtAH/AfABtQGuAaYBuwG0
+        AfEBGQG1Ac8BhgG1AwABtAGtAtUBtAQAAa0BtAHcBwABuwHqAxUB6gH3BwAB8AFtAQcB8gHxAQcB7QHq
+        AQ8BBwQAAbUB9AH/ARkBtAGGAYsBtAL/Ad0BzwGGBAABtAPVAc8EAAKtAdwGAAH3AhQB7AEAAewBFAHs
+        AfcFAAHwAesBBwHzAf8B8wHwAQcBkgHqAQ8BBwQAAbUBtAGuA4sBzwG0Aa4ChgUAAbQD1QKtAwABiwGt
+        AdwEAAEHAesCFAHsAwAB6wEUAewBBwMAAfAB7AHwAfMD/wHyAfABBwHtARIBDwEHAwABtQH/AQkBtAGG
+        AQABtQH/AQkBtQGGBQAB1gIJAdwBtAKtAc8BrQGLAdUEAAH3AesBFQEUAZIFAAH3ARIB7AMAAewBvAHz
+        Av8B9AHzAfIBvAEHAZIBbQESAQ8DAAG7AbUBrgKLAQACtQGuAYsBhgUAAdYCAAEJAdwB1QStBQAB9wEU
+        ARMB7wcAAvcDAAHvAQcB8AG8AgcB7wL3AZIB7AHrAW0BEwQAAbQB/wGGAwABtAH/AYYKAAEJAtwC1gYA
+        AfcB6wH3HwABtQG0AYsDAAG1AbQBiwwAAgkmAAFCAU0BPgcAAT4DAAEoAwABQAMAAVADAAEBAQABAQUA
+        AYABAhYAA/8BAAT/BAABgAEBAY8B/wQAAYABAQGHAf8EAAGAAQEBgwH/BAABgAEBAcEB/wQAAYABAQHg
+        Af8EAAGAAQEB8AEDBAABgAEBAfgBAQQAAYABAQH8BQABgAEBAfwFAAGAAQEB/AUAAYABAQH8BQABgAEB
+        AfwFAAGAAQEB/AUAAYABAQH+AQEEAAP/AQMEAAH8AX8C/wIAAv8B8AEfAfABAQIAAcABBwHAAQ8B8AEB
+        AgABwAEHAQABAwHwAQECAAHAAQcBAAEBAfABAQIAAcABBwEAAQEBAAEBAgABwAEHAQABAQEAAQECAAHA
+        AQcBAAEBAQABAQIAAcABBwEAAQEBAAEBAgABwAEHAQABAQEAAT8CAAHAAQcBAAEBAQABcQIAAcABBwEA
+        AQkBAAFxAgABwAEHAYABDwEAAXMCAAHAAQcBgAEfAQABYwIAAcABDwHAAT8BAAHDAgABwAEfAfAB/wEB
+        Af8CAAL/AgAC/wGAAQEEAAHwAQABgAEBBAAB8AEAAYABAQQAAfABAAGAAQEGAAGAAQEGAAGAAQEGAAGA
+        AQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEFAAEBAYABAQUAAQEBgAEBBQAB/wGAAQMCAAL/
+        AQEB/wGAAQcCAA3/AfME/wGAAQMBgAEDAcABAQHgAQMBAAEBAQABAwGAAQAB4AEDAQABAQEAAQECAAHg
+        AQMDAAEBAgAB4AEDAwABAQIAAeABAwYAAeABAwYAAeABAwYAAeABAwMAAQEBAAEBAeABAwEAAQEBAAED
+        AQABAwHgAQMBAAEDAQABBwEAAQcB4AEDAYAB/wGBAf8BgQP/AcEB/wHDAf8BwxX/Ae8H/wHHAfMC/wED
+        AYEB/wE/AcMB4wH8AT8BAwGBAf8BDwHjAccB/AE/AQMBgQH/AY8B8QGHAfwBPwEDAYEB/wHHAfgBDwH8
+        AT8BAwGBAf8BxwH8AR8B+AEfAQABAQHAAeMB/AEfAfABDwEAAQEBwQHjAfgBDwHgAQcBgAEDAcEB4wHw
+        AYcBwAEDAcABBwHAAeMBwQHDAYABAQHBAQcBwAEHAYMB4wGAAQEBwQEHAdgBDwGHAfMBgAEBAeMBjwH8
+        AR8BjwP/AeMBjwH/AT8E/xYACw==
+</value>
+  </data>
+  <data name="pnlDoc.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlDoc.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlDoc.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlDoc.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlDoc.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlDoc.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucDocView1.Datasource" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFRsbURhdGFzZXRzLCBWZXJzaW9uPTEuMC40Nzk0LjI4MTU3LCBD
+        dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPThjYjNiMGRhN2U2YTJjNTUMAwAAAE5TeXN0ZW0u
+        RGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1
+        YzU2MTkzNGUwODkFAQAAABBsbURhdGFzZXRzLmRvY0RCBAAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lv
+        bh9TY2hlbWFTZXJpYWxpemF0aW9uTW9kZS5EYXRhU2V0CVhtbFNjaGVtYQtYbWxEaWZmR3JhbQMEAQEO
+        U3lzdGVtLlZlcnNpb24jU3lzdGVtLkRhdGEuU2NoZW1hU2VyaWFsaXphdGlvbk1vZGUDAAAAAgAAAAkE
+        AAAABfv///8jU3lzdGVtLkRhdGEuU2NoZW1hU2VyaWFsaXphdGlvbk1vZGUBAAAAB3ZhbHVlX18ACAMA
+        AAACAAAABgYAAADQBDw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi0xNiI/Pg0KPHhzOnNj
+        aGVtYSBpZD0iZG9jREIiIHRhcmdldE5hbWVzcGFjZT0iaHR0cDovL3RlbXB1cmkub3JnL2RvY0RCLnhz
+        ZCIgeG1sbnM6bXN0bnM9Imh0dHA6Ly90ZW1wdXJpLm9yZy9kb2NEQi54c2QiIHhtbG5zPSJodHRwOi8v
+        dGVtcHVyaS5vcmcvZG9jREIueHNkIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxT
+        Y2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIiBh
+        dHRyaWJ1dGVGb3JtRGVmYXVsdD0icXVhbGlmaWVkIiBlbGVtZW50Rm9ybURlZmF1bHQ9InF1YWxpZmll
+        ZCI+DQogIDx4czplbGVtZW50IG5hbWU9ImRvY0RCIiBtc2RhdGE6SXNEYXRhU2V0PSJ0cnVlIiBtc2Rh
+        dGE6TG9jYWxlPSJlbi1DQSIgbXNkYXRhOkVuZm9yY2VDb25zdHJhaW50cz0iRmFsc2UiPg0KICAgIDx4
+        czpjb21wbGV4VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVu
+        Ym91bmRlZCIgLz4NCiAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICA8L3hzOmVsZW1lbnQ+DQo8L3hzOnNj
+        aGVtYT4GBwAAAIABPGRpZmZncjpkaWZmZ3JhbSB4bWxuczptc2RhdGE9InVybjpzY2hlbWFzLW1pY3Jv
+        c29mdC1jb206eG1sLW1zZGF0YSIgeG1sbnM6ZGlmZmdyPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29t
+        OnhtbC1kaWZmZ3JhbS12MSIgLz4EBAAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZf
+        QnVpbGQJX1JldmlzaW9uAAAAAAgICAgCAAAAAAAAAP//////////Cw==
+</value>
+  </data>
+  <data name="ucDocView1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ucDocView1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucDocView1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ucDocView1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucDocView1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ucDocView1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucDocView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDocContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDocContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlDocContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlDocContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlDocContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlDocContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlDocContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDoc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlCannotResume.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlCannotResume.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlCannotResume.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlCannotResume.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlCannotResume.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlCannotResume.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pnlCannotResume.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="label4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label4.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label4.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label3.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Vous pouvez cliquer sur le texte "Note à propos de la prévisualisation de document" de la barre d'état pour afficher le document dans son application de format d'origine, ou copier le contenu à partir de la fenêtre de prévisualisation, ci-dessous.</value>
+  </data>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Le document qui a été dans le cadre de cette activité en suspension a été modifié - il n'est pas possible de reprendre cette activité, mais son contenu sera toujours mis à disposition afin que vous puissiez le récupérer, si elle est requise.</value>
+  </data>
+  <data name="pnlCannotResumeContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlCannotResumeContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlCannotResumeContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlCannotResumeContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlCannotResumeContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlCannotResumeContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlCannotResumeContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlCannotResume.Text" xml:space="preserve">
+    <value>Le document a été modifié</value>
+  </data>
+  <data name="pnlCannotResume.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAutoSave.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAutoSave.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAutoSave.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlAutoSave.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAutoSave.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlAutoSave.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlAutoSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAABpEkOHm9QBu26PF8BOm/5Kr2OPq9mqEvNXf8SOq/wgkZjRMesbW7qnL8ABx3Qyj
+        /6a0zyZNpTi1/5624o+eu+vy/gMnhkduvnSLwbLD4gB24q2+4AB65oeOmgCM9ABizhE5nByr/8LR6QCL
+        9gCQ+I6aw0S6/5Cp1wAabaG234WJmi6x/8/Z7rrM6gBm1gCd/wCV+Zuw2Zmw2ilVoIOHmgCW/wCE6zVJ
+        dACa/5qy2f///16Gz1KF1IyTpLS/3DOH3Ke63pqx3ASi/+nu+rG5vSdRqfH0/nKQxACV/QKf/7HV8YrH
+        +GK//8KnfgoxhYS98ACS+Iil2AAENpS85m6d3Imizbe4x6Oos7LB35afxSKE3MLe+Rs8gaeHWm91haTA
+        5qWvvTN90tvl9meHyd3m9i9Yroyo2jVasK/A4zp7zUdxw0p3yAF13Hmd19vm+QBm0qvE456v1vX+/0NP
+        bU1VcJqkxWiz7oGRx4On1NXb7gBj0S1YscrU75qgqQCe/6+/3wB64rLS8zReqLjR9r/a9prS+xsyXt3p
+        /UCr+rnJ5gAsnxR63NPg8ah6V0duriY5Y7HK8BlhxIOl2cbX9MHZ97OjnM/Z8JK96MnP1pi45ouUvvr+
+        //74+tbg76Cnv77G4qmstDRAaqK79a64wACT/I6t41l2v6aMaqGHeq/O76SXc7GJToWXuJGv4Rk2fhuA
+        3Hqt49bU3pGIg7HE4H+46LfG5Ap53Nnj8pOepLDI6t3j8tzm87S/4ipSq7nB0NHe+Qac/ABLvx1IqV7L
+        /x2S6z9PfJav3S9xydDBqACG9cm8sU1+y36ZyaC02aW33oOImlLB/22T04ifxi1PmT5dkKjD41RqjgCJ
+        8IWXw67Y+63e/5Sj0Uu8/1R1soWSnkmAyvf4/r7O7O/v+EyD3UJTa6q74L7D1ZqozG+y6+ry+zqO3F9v
+        gIOg1iuG3NDa7uTs+P///LbG4yqz/7mNXACC7QCG7o6t283X7pihpKW54Ke94UKS3qu934OXywOW/f8A
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAD/ACwAAAAAEAAQAAAI/wB5ffIRpwqGAwfubPvHsOG+YdxM
+        rGCirRAhJalywRlH7Z86aBISAFsCTxyCe+EyYOGx4N8PiSFgPOEUgI85K/w2LGupRR6BJCNgkcnUg8KJ
+        GM3U3Pj3KsSDF8mopBtgrECKHDEuLF1E4EUNRG50VBjU70gUSWdC/WPjpwYJYl8aXLI3oBoFTxDOXXHg
+        hxQJDQogVBCDgAWDFmjqdHCAxMM1B658GUGmrNIqMBNK0BBAop4NAWVEDFHV5ZQsZkFKPPsAxQYHF70S
+        GYBkplWpEwU00fgnyIWGDxH+3GIQTwY7U3uK9WE4Q48eEOUsjbkAwgIKBXQa/psRTJGwCNcfzQxZh0t7
+        ww74RplvGBAAOw==
+</value>
+  </data>
+  <data name="ucDoc1.Datasource" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFRsbURhdGFzZXRzLCBWZXJzaW9uPTEuMC40Nzk0LjI4MTU3LCBD
+        dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPThjYjNiMGRhN2U2YTJjNTUMAwAAAE5TeXN0ZW0u
+        RGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1
+        YzU2MTkzNGUwODkFAQAAABBsbURhdGFzZXRzLmRvY0RCBAAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lv
+        bh9TY2hlbWFTZXJpYWxpemF0aW9uTW9kZS5EYXRhU2V0CVhtbFNjaGVtYQtYbWxEaWZmR3JhbQMEAQEO
+        U3lzdGVtLlZlcnNpb24jU3lzdGVtLkRhdGEuU2NoZW1hU2VyaWFsaXphdGlvbk1vZGUDAAAAAgAAAAkE
+        AAAABfv///8jU3lzdGVtLkRhdGEuU2NoZW1hU2VyaWFsaXphdGlvbk1vZGUBAAAAB3ZhbHVlX18ACAMA
+        AAACAAAABgYAAADQBDw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi0xNiI/Pg0KPHhzOnNj
+        aGVtYSBpZD0iZG9jREIiIHRhcmdldE5hbWVzcGFjZT0iaHR0cDovL3RlbXB1cmkub3JnL2RvY0RCLnhz
+        ZCIgeG1sbnM6bXN0bnM9Imh0dHA6Ly90ZW1wdXJpLm9yZy9kb2NEQi54c2QiIHhtbG5zPSJodHRwOi8v
+        dGVtcHVyaS5vcmcvZG9jREIueHNkIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxT
+        Y2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIiBh
+        dHRyaWJ1dGVGb3JtRGVmYXVsdD0icXVhbGlmaWVkIiBlbGVtZW50Rm9ybURlZmF1bHQ9InF1YWxpZmll
+        ZCI+DQogIDx4czplbGVtZW50IG5hbWU9ImRvY0RCIiBtc2RhdGE6SXNEYXRhU2V0PSJ0cnVlIiBtc2Rh
+        dGE6TG9jYWxlPSJlbi1DQSIgbXNkYXRhOkVuZm9yY2VDb25zdHJhaW50cz0iRmFsc2UiPg0KICAgIDx4
+        czpjb21wbGV4VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVu
+        Ym91bmRlZCIgLz4NCiAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICA8L3hzOmVsZW1lbnQ+DQo8L3hzOnNj
+        aGVtYT4GBwAAAIABPGRpZmZncjpkaWZmZ3JhbSB4bWxuczptc2RhdGE9InVybjpzY2hlbWFzLW1pY3Jv
+        c29mdC1jb206eG1sLW1zZGF0YSIgeG1sbnM6ZGlmZmdyPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29t
+        OnhtbC1kaWZmZ3JhbS12MSIgLz4EBAAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZf
+        QnVpbGQJX1JldmlzaW9uAAAAAAgICAgCAAAAAAAAAP//////////Cw==
+</value>
+  </data>
+  <data name="ucDoc1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ucDoc1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucDoc1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ucDoc1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucDoc1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ucDoc1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucDoc1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="autoSaveGridEX_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP//////AP8A//8AAAD//wD/AAAA/wAAAEA4QCkjLFdRWkI+SHFvel9hb36CkZGW
+        pjk6PEhJS7W/0b3J3Ku1xlpjcJGox6O73KG42IaZsrLJ6MHV72dxfkFESGp8kmd4ja/E33+PorjO6mRv
+        fUNKU8PX77PE2FRbZMTU5668zZCbqUlOVD5CR3Z9hlVhb6a70mx4hcTY76S1yMbZ777Q5Ky7zJuntXV+
+        iFRaYX+HkG1zehAYICAoMD9KVTA4QGxzend+hUJFSFpeYl9xgElbaJyrtZOhqTg6O3aDiDI8OUBAQDAw
+        MCAgIBAQEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABOACwAAAAAEAAQAAAIhgCdCBxIsKDAIgyKGFxYREkECgttGBloQ4cPJQ8K2lDQgmCNH0qUABkIQwmS
+        GgZVhMzhxIGSGzYWOpEhxAcECC5UyBQYYgmCIBl3OumxZImPBUJ78Ghg48SSEDJZMMEh0AaHIxMLVkjQ
+        gaCNFSMKZtjBw0PBHEkyEBzShMTCDywJEhFKd2FAADs=
+</value>
+  </data>
+  <data name="autoSaveGridEX_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Key&gt;AutoSave&lt;/Key&gt;&lt;Caption&gt;AutoSave&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="SaveDate"&gt;&lt;Caption&gt;Date&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;SaveDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd hh:ss&lt;/FormatString&gt;&lt;Key&gt;SaveDate&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;125&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="StepCode"&gt;&lt;Caption&gt;Code d'étape&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;StepCode&lt;/DataMember&gt;&lt;Key&gt;StepCode&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;/Column1&gt;&lt;Column2 ID="ActivityNameEng"&gt;&lt;Caption&gt;Description&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;ActivityNameEng&lt;/DataMember&gt;&lt;Key&gt;ActivityNameEng&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;175&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="FileName"&gt;&lt;Caption&gt;Nom de dossier&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;FileName&lt;/DataMember&gt;&lt;Key&gt;FileName&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;220&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="FullFileNumber"&gt;&lt;Caption&gt;Numéro de dossier&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;FullFileNumber&lt;/DataMember&gt;&lt;Key&gt;FullFileNumber&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;180&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="ActivityId"&gt;&lt;Caption&gt;ID de l'activité&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;BoundMode&gt;Unbound&lt;/BoundMode&gt;&lt;Key&gt;ActivityId&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;/Column5&gt;&lt;Column6 ID="Delete"&gt;&lt;ButtonDisplayMode&gt;CurrentRow&lt;/ButtonDisplayMode&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;ButtonImage Reference="GridEXLayoutData.RootTable.Columns.Column6.ButtonImage" /&gt;&lt;ButtonStyle&gt;Image&lt;/ButtonStyle&gt;&lt;BoundMode&gt;Unbound&lt;/BoundMode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;HeaderToolTip&gt;Supprimer l'activité suspendue&lt;/HeaderToolTip&gt;&lt;Key&gt;Delete&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;ShowInFieldChooser&gt;False&lt;/ShowInFieldChooser&gt;&lt;Width&gt;22&lt;/Width&gt;&lt;/Column6&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;0&lt;/ColIndex&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;GroupCondition /&gt;&lt;RowHeaders&gt;True&lt;/RowHeaders&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="autoSaveGridEX.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="autoSaveGridEX.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="autoSaveGridEX.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="autoSaveGridEX.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="autoSaveGridEX.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="autoSaveGridEX.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="autoSaveGridEX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listBox1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="listBox1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="listBox1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="listBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="listBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="listBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAutoSaveContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAutoSaveContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAutoSaveContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlAutoSaveContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAutoSaveContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlAutoSaveContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlAutoSaveContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAutoSave.Text" xml:space="preserve">
+    <value>Sauvegarde automatique / activités suspendues</value>
+  </data>
+  <data name="pnlAutoSave.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BottomRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="BottomRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BottomRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BottomRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BottomRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiCommandBar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiCommandBar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdResume.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAAOzp2jVJYjVJZO3q24CeujRKYu/p2e7o2H6duX+duevp2n+cuuvo1+vn24uq6+vq
+        1v///XaHoYKdujdIYpmqvpOiuf/+/+7o2v7//2KP5Ozq1Z6uxe3n13+dt4ur6H6duqOyycG+r+3n2Zu9
+        /O7p1X6dvO3q2XOc9kB2436et+rp132dtjFJYTRIYUZ95MTDsThy3tnWxdnUwOvq1bOwoWqZ9YOduLiy
+        pI2p6oup6ZCeuLy9rdbVwX+euv3//sjHtYuq6kx95I2dtoSr+n+euzRIYzlx4IWm6dDPvZWmuoGRqzZI
+        YJShtDdIZnWc6ZK0/DhJY1eF5WqU5jBixTFkz+rp1TRJZDVKZb+5qc7IuFCA5sPAsbu4pzNJYH2o9+vo
+        2Ymr6n+fuFeI59TRvoGcuXeh9aPD/////+ro2c/MuZKjtZe4+3yd6jhJZZ/B/sfEs4KSrM3HuUF144yp
+        69XPvzdz5YKdu+nr1n6cuNjSwoqw+26X5+nq2H2i6KDD/Yal6Dpy4e7p1mSV8uvq2Ozp1uzp2P///wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAACGACwAAAAAEAAQAAAI/AANCRxIsKAhHB7mOHBwpI8TKRnE
+        aHGBApAhD2b8uBmx5omeIV7KnKghiIqhHA7AAPnDZk+GKEHkwKhjZIohEIQIXSh0p9CgQQoeFGowyIqh
+        DQAIGVBRKIGNDmTsrBggo4AhClV0KIkAgIAPCxAwSGDAI8BNE2gKEQKAR8KHEgQQaBjT4igAA4QaMHig
+        ocEMBoQGpGlzlcMgEQMKIVjQI8GHBQriCDCUZJAQOBEIEcAA9kyYQG9YGFITGOiXFB0SICCywMCWCYYq
+        XOBA4sGBQgcA4Fa7wyoTPjHy0EGS5ceLEFi43KBhtkKAAAUELLkSYIKAJl2gCChisDvBgAA7
+</value>
+  </data>
+  <data name="cmdResume.Text" xml:space="preserve">
+    <value>Reprendre l'activité suspendue</value>
+  </data>
+  <data name="cmdDeleteSuspendedAC.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP//////AP8A//8AAAD//wD/AAAA/wAAAEA4QCkjLFdRWkI+SHFvel9hb36CkZGW
+        pjk6PEhJS7W/0b3J3Ku1xlpjcJGox6O73KG42IaZsrLJ6MHV72dxfkFESGp8kmd4ja/E33+PorjO6mRv
+        fUNKU8PX77PE2FRbZMTU5668zZCbqUlOVD5CR3Z9hlVhb6a70mx4hcTY76S1yMbZ777Q5Ky7zJuntXV+
+        iFRaYX+HkG1zehAYICAoMD9KVTA4QGxzend+hUJFSFpeYl9xgElbaJyrtZOhqTg6O3aDiDI8OUBAQDAw
+        MCAgIBAQEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABOACwAAAAAEAAQAAAIhgCdCBxIsKDAIgyKGFxYREkECgttGBloQ4cPJQ8K2lDQgmCNH0qUABkIQwmS
+        GgZVhMzhxIGSGzYWOpEhxAcECC5UyBQYYgmCIBl3OumxZImPBUJ78Ghg48SSEDJZMMEh0AaHIxMLVkjQ
+        gaCNFSMKZtjBw0PBHEkyEBzShMTCDywJEhFKd2FAADs=
+</value>
+  </data>
+  <data name="cmdDeleteSuspendedAC.Text" xml:space="preserve">
+    <value>Supprimer l'activité suspendue</value>
+  </data>
+  <data name="cmdJumpToFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIrgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARI4gFlE8PBDCQ
+        YcGMBDesNkgpVKuBCQtUXEgQIYiJBgPKbkVb4EIODRuCSIBxwMWLAh5W0KhQIYGGEQ/02ihx4kOEDQ96
+        SJ7c46HlywIDAgA7
+</value>
+  </data>
+  <data name="cmdJumpToFile.Text" xml:space="preserve">
+    <value>Sauter au dossier</value>
+  </data>
+  <data name="cmdJumpToFile.ToolTipText" xml:space="preserve">
+    <value>Sauter au dossier</value>
+  </data>
+  <data name="cmdRefresh.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUAAP797/vwtPnolPnji/vpnvTmrvndevHag7eUJPHTc/vehfnTZvnNX72EFrB2Erh+
+        FLN6E7J4E7uBFbqBFbZ9FLd+FbuBFrqBFqluEKhuEKxxEaxzEaluEahuEbB1Eq91Eq1yEqxxEqxyEqxz
+        EqtxEq91E6ZrEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAAEAAQ
+        AAAIfQBPCBxIsKBBgg0aHDTYAIDChQMnAAAgQYIFiBUEBNgY4MCDhRAMEBg5MgGChR4YKHDwQWUJgQ8J
+        hmBA4oQGBiFgPkwoEEMHgR0ywHR4omHMgSdPSCxw4QIApgspDOC48QCFhRFEkjQQAeKIDSIULAABcSCG
+        BRzKDjRhAmJAADs=
+</value>
+  </data>
+  <data name="cmdRefresh.Text" xml:space="preserve">
+    <value>Rafraîchissement</value>
+  </data>
+  <data name="cmdRefresh.ToolTipText" xml:space="preserve">
+    <value>Rafraîchissement de donnée d'activité suspendue</value>
+  </data>
+  <data name="cmdLastLoad.Text" xml:space="preserve">
+    <value>Dernière récupération de données :</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.ImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.LargeImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="RightRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="RightRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RightRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TopRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="TopRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TopRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TopRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TopRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="LeftRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LeftRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LeftRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="$this.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Activités suspendues / sauvegarde automatique</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.AutoHideButtonVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.BorderCaption" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionHeight" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.AllowDrag" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.MaxTabSize" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.ShowCloseButton" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.TabCaptionTrimming" type="System.Drawing.StringTrimming, System.Drawing">
+    <value>Character</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.UseFormIcons" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>

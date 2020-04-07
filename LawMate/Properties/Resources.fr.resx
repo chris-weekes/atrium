@@ -1,0 +1,1654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BFList" xml:space="preserve">
+    <value>Liste de rappels</value>
+  </data>
+  <data name="CompleteBF" xml:space="preserve">
+    <value>Compléter le rappel</value>
+  </data>
+  <data name="CompleteBFsAllSelected" xml:space="preserve">
+    <value>Compléter tous les rappels selectionnés</value>
+  </data>
+  <data name="CompletedBFs" xml:space="preserve">
+    <value>Rappels complétés</value>
+  </data>
+  <data name="CompletedItemsBFPerson" xml:space="preserve">
+    <value>Rappels complétés ({0}, {1})</value>
+  </data>
+  <data name="FieldSelector" xml:space="preserve">
+    <value>Sélecteur de champs</value>
+  </data>
+  <data name="ItemsCompletedBetweenStartDateAndEndDate" xml:space="preserve">
+    <value>Rappels complétés entre {0} et {1}</value>
+  </data>
+  <data name="MoveActivitiesAllSelected" xml:space="preserve">
+    <value>Déplacer tous les rappels (activités) selectionnés</value>
+  </data>
+  <data name="QuickSearchFileName" xml:space="preserve">
+    <value>Nom de dossier</value>
+  </data>
+  <data name="QuickSearchFileNumber" xml:space="preserve">
+    <value>Numéro de dossier</value>
+  </data>
+  <data name="QuickSearchFullText" xml:space="preserve">
+    <value>Recherche en texte intégral</value>
+  </data>
+  <data name="QuickSearchLastName" xml:space="preserve">
+    <value>Nom de famille</value>
+  </data>
+  <data name="QuickSearchOfficeFileNumber" xml:space="preserve">
+    <value>Numéro de dossier (bureau)</value>
+  </data>
+  <data name="QuickSearchSIN" xml:space="preserve">
+    <value>Numéro d'assurance sociale</value>
+  </data>
+  <data name="QuickSearchSubject" xml:space="preserve">
+    <value>Sujet/description de document</value>
+  </data>
+  <data name="ReportConnectingToServer" xml:space="preserve">
+    <value>Connexion avec le serveur de rapport en cours, veuillez patienter.</value>
+  </data>
+  <data name="ReportRetrievingList" xml:space="preserve">
+    <value>Extraction de la liste des rapports en cours, veuillez patienter.</value>
+  </data>
+  <data name="SearchCriteriaCaption" xml:space="preserve">
+    <value>Annuler les critères</value>
+  </data>
+  <data name="SearchFriendlyTextADVCodes" xml:space="preserve">
+    <value>Codes de conseils</value>
+  </data>
+  <data name="SearchFriendlyTextCommType" xml:space="preserve">
+    <value>Type de communication</value>
+  </data>
+  <data name="SearchFriendlyTextDocDate" xml:space="preserve">
+    <value>Date du document</value>
+  </data>
+  <data name="SearchFriendlyTextElectronicDocument" xml:space="preserve">
+    <value>Document électronique</value>
+  </data>
+  <data name="SearchFriendlyTextFileClosed" xml:space="preserve">
+    <value>Dossier fermé</value>
+  </data>
+  <data name="SearchFriendlyTextFileExtension" xml:space="preserve">
+    <value>Extension du document</value>
+  </data>
+  <data name="SearchFriendlyTextFileLocation" xml:space="preserve">
+    <value>Emplacement de dossier</value>
+  </data>
+  <data name="SearchFriendlyTextFileName" xml:space="preserve">
+    <value>Nom de dossier</value>
+  </data>
+  <data name="SearchFriendlyTextFileNumber" xml:space="preserve">
+    <value>Numéro de dossier</value>
+  </data>
+  <data name="SearchFriendlyTextFileOpened" xml:space="preserve">
+    <value>Dossier ouvert</value>
+  </data>
+  <data name="SearchFriendlyTextFileStatus" xml:space="preserve">
+    <value>État de dossier</value>
+  </data>
+  <data name="SearchFriendlyTextFileType" xml:space="preserve">
+    <value>Type de dossier</value>
+  </data>
+  <data name="SearchFriendlyTextFrom" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="SearchFriendlyTextFullText" xml:space="preserve">
+    <value>Text intégral</value>
+  </data>
+  <data name="SearchFriendlyTextKeywords" xml:space="preserve">
+    <value>Mots clés</value>
+  </data>
+  <data name="SearchFriendlyTextLegalOpinion" xml:space="preserve">
+    <value>Opinion juridique</value>
+  </data>
+  <data name="SearchFriendlyTextLITCodes" xml:space="preserve">
+    <value>Codes de litiges</value>
+  </data>
+  <data name="SearchFriendlyTextPaperDocument" xml:space="preserve">
+    <value>Document papier</value>
+  </data>
+  <data name="SearchFriendlyTextPV" xml:space="preserve">
+    <value>Valeur jurisprudentiel</value>
+  </data>
+  <data name="SearchFriendlyTextSubject" xml:space="preserve">
+    <value>Sujet de document</value>
+  </data>
+  <data name="SearchFriendlyTextTo" xml:space="preserve">
+    <value>À</value>
+  </data>
+  <data name="SearchInsufficientCriteria" xml:space="preserve">
+    <value>Votre critère est insuffisant pour exécuter une recherche.</value>
+  </data>
+  <data name="SearchPromptForReset" xml:space="preserve">
+    <value>Êtes-vous certain de vouloir annuler vos critères et recommencer de nouveau?</value>
+  </data>
+  <data name="ThereIsNoDocument" xml:space="preserve">
+    <value>Il n'y a pas de document</value>
+  </data>
+  <data name="ThereWereNoCompletedBFsFoundForTheSpecifiedDateDateRange" xml:space="preserve">
+    <value>Aucun rappel complété a été retrouvé pour la période choisie</value>
+  </data>
+  <data name="UIAboutLawMate" xml:space="preserve">
+    <value>À propos de {0}</value>
+  </data>
+  <data name="UIBFListEditModePrompt" xml:space="preserve">
+    <value>La liste de rappel est en mode d'édition. Voulez-vous annuler vos modifications avant de procéder avec l'action demandée?</value>
+  </data>
+  <data name="UIBFListInEditMode" xml:space="preserve">
+    <value>Mode d'édition</value>
+  </data>
+  <data name="UICantAddBF" xml:space="preserve">
+    <value>L'ajout de rappels sur une activité qui appartient à un autre bureau n'est pas permis.</value>
+  </data>
+  <data name="UICantAddDisb" xml:space="preserve">
+    <value>L'ajout de débours sur une activité qui appartient à un autre bureau n'est pas permis.</value>
+  </data>
+  <data name="UICantAddTKEntry" xml:space="preserve">
+    <value>L'ajout d'entrée de facturation/comptabilisation du temps sur une activité qui appartient à un autre bureau n'est pas permis.</value>
+  </data>
+  <data name="UICantDeleteCurrentAddress" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer l'adresse actuelle.</value>
+  </data>
+  <data name="UIDeleteAccountHistoryBeforeAccount" xml:space="preserve">
+    <value>Vous devez suppimer les historiques de comptes avant de pouvoir supprimer le compte comme tel.</value>
+  </data>
+  <data name="UIDeleteWritHistoryBeforeWrit" xml:space="preserve">
+    <value>Vous devez suppimer les historiques de grèvements avant de pouvoir supprimer le grèvement comme tel.</value>
+  </data>
+  <data name="UIDocRecoverText" xml:space="preserve">
+    <value>Vous devez entrer votre code de nouveau pour faire la récupération de votre document dans l'assistant.</value>
+  </data>
+  <data name="UIFileEditModeConcat" xml:space="preserve">
+    <value> - (Mode d'édition)</value>
+  </data>
+  <data name="UIFileOnWhichIAmAContact" xml:space="preserve">
+    <value>Dossiers sur lequel je suis une personne contact</value>
+  </data>
+  <data name="UIFilesViewedLastWeek" xml:space="preserve">
+    <value>Dossiers visionnés la semaine dernière</value>
+  </data>
+  <data name="UIFilesViewedThisWeek" xml:space="preserve">
+    <value>Dossiers visionnés cette semaine</value>
+  </data>
+  <data name="UIFilesViewedToday" xml:space="preserve">
+    <value>Dossiers visionnés aujourd'hui</value>
+  </data>
+  <data name="UIFilesViewedYesterday" xml:space="preserve">
+    <value>Dossiers visionnés hier</value>
+  </data>
+  <data name="UIGenerateSRP" xml:space="preserve">
+    <value>Votre demande pour le recalcul de votre DPS a été reçue. Elle sera préparé sous peu. Visionner votre lot pour plus d'informations.</value>
+  </data>
+  <data name="UIGenerateSRPCaption" xml:space="preserve">
+    <value>Recalculer la DPS</value>
+  </data>
+  <data name="UIIdleTimeLimitExceeded" xml:space="preserve">
+    <value>Temps mort limite dépassé</value>
+  </data>
+  <data name="UIIdleTimePassed" xml:space="preserve">
+    <value>Ce dossier a dépassé la durée de temps mort limite (une heure sans activité) et devra se fermer pour libérer les ressources sur le serveur.</value>
+  </data>
+  <data name="UIIdleTimePassedEditMode" xml:space="preserve">
+    <value>Vous êtes en mode d'édition. Ce dossier a dépassé la durée de temps mort limite (une heure sans activité) et devra se fermer pour libérer les ressources sur le serveur.  Vu que {0} ne peut savoir si vous voulez sauvergarder les éditions, et à cause des implications qui pourrait venir de faire une telle action, {0} ne sauvegardera pas les éditions.</value>
+  </data>
+  <data name="UIInvalidInitialStep" xml:space="preserve">
+    <value>Étape initiale invalide</value>
+  </data>
+  <data name="UIIssueAlreadyPrimary" xml:space="preserve">
+    <value>La question en cause selectionné est déjà la cause primaire.</value>
+  </data>
+  <data name="UIIssueAlreadySecondary" xml:space="preserve">
+    <value>La question en cause selectionné est déjà une cause secondaire.</value>
+  </data>
+  <data name="UILawMateShortcutKeysURL" xml:space="preserve">
+    <value>francais/lsb_deskbooks/?pgid=57</value>
+  </data>
+  <data name="UILSBDeskbook" xml:space="preserve">
+    <value>Manuels {0}</value>
+  </data>
+  <data name="UILSBDeskbookURL" xml:space="preserve">
+    <value>francais/lsb_deskbooks/?pgid=57</value>
+  </data>
+  <data name="UIMailMarkAsRead" xml:space="preserve">
+    <value>Marquer lu</value>
+  </data>
+  <data name="UIMailMarkAsUnread" xml:space="preserve">
+    <value>Marquer non lu</value>
+  </data>
+  <data name="UIMandateClickPromptForContext" xml:space="preserve">
+    <value>We need do something about the null container id, like prompt for the file.</value>
+  </data>
+  <data name="UIMoreInfoNotSupported" xml:space="preserve">
+    <value>La fonction Plus d'info. n'est pas supporté sur cette activité.</value>
+  </data>
+  <data name="UIMyAssignedFiles" xml:space="preserve">
+    <value>Dossiers qui me sont assignés</value>
+  </data>
+  <data name="UIOpNotAllowed" xml:space="preserve">
+    <value>Action non permise</value>
+  </data>
+  <data name="UIPasswordNotChangedCaption" xml:space="preserve">
+    <value>Votre mot de passe n'a pas été changé.</value>
+  </data>
+  <data name="UIQuickSearchDescSubject" xml:space="preserve">
+    <value>Description/sujet</value>
+  </data>
+  <data name="UIQuickSearchMissingCriteria" xml:space="preserve">
+    <value>Veuillez vous assurer de fournir une valeur pour le critère, en plus d'une valeur pour le type de recherche.</value>
+  </data>
+  <data name="UIQuickSearchMissingCriteriaCaption" xml:space="preserve">
+    <value>Critère manquant</value>
+  </data>
+  <data name="UIRetrievingFile" xml:space="preserve">
+    <value>Extraction du dossier en cours, veuillez patienter.</value>
+  </data>
+  <data name="UIScreenNotComplete" xml:space="preserve">
+    <value>La controle de type '{0}' n'est pas valide. L'écran n'est pas complété.</value>
+  </data>
+  <data name="uiSearchLawMateTextBox" xml:space="preserve">
+    <value>Critère de recherche</value>
+  </data>
+  <data name="UISplitThread" xml:space="preserve">
+    <value>Voulez-vous séparer la suite thématique?</value>
+  </data>
+  <data name="UISplitThreadCaption" xml:space="preserve">
+    <value>Bouger l'activité</value>
+  </data>
+  <data name="UISRPIsCommitted" xml:space="preserve">
+    <value>La DPS n'est pas soumise. Aucune modifications ne peuvent être apportés à cette page, elle est pour lecture seule.</value>
+  </data>
+  <data name="UISRPNotCommittedCantModify" xml:space="preserve">
+    <value>La DPS n'est pas soumise pour cette période de facturation. Aucune modifications ne peuvent être apportés à cette page, elle est pour lecture seule.</value>
+  </data>
+  <data name="UIStepCodeOnFile" xml:space="preserve">
+    <value>{0} sur {1}</value>
+  </data>
+  <data name="UITaxationCompletedReadOnly" xml:space="preserve">
+    <value>La taxation est complétée pour cette DPS. Aucune modifications ne peuvent être apportés à cette page, elle est pour lecture seule.</value>
+  </data>
+  <data name="UITaxationMode" xml:space="preserve">
+    <value>Vous êtes en mode de taxation. Cette DPI n'est pas taxée. Les valeurs pour Date taxée, Officier de taxation, et les champs pour la zone Taxé ont été produite par défaut.</value>
+  </data>
+  <data name="UITimer" xml:space="preserve">
+    <value>Chronomètre : {0}</value>
+  </data>
+  <data name="UITransactionRolledBack" xml:space="preserve">
+    <value>Transaction annulée</value>
+  </data>
+  <data name="UIVersion" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="UncompleteBF" xml:space="preserve">
+    <value>Défaire l'achèvement du rappel</value>
+  </data>
+  <data name="YouCantViewThisDocumentBecauseOfSecurity" xml:space="preserve">
+    <value>La sécurité du document ne vous permet pas de visualiser ce document</value>
+  </data>
+  <data name="YouHaveNoBFsOrMailInYourBFList" xml:space="preserve">
+    <value>Vous avez aucun rappel, l'écran de rappel doit fermer (s'il était ouvert).</value>
+  </data>
+  <data name="DoYouWantToDeleteTheSaveFile" xml:space="preserve">
+    <value>Voulez-vous sauvegarder le fichier de sauvegarde automatique de cette activité?</value>
+  </data>
+  <data name="DeleteSaveFile" xml:space="preserve">
+    <value>Voulez-vous supprimer le fichier de sauvegarde automatique?</value>
+  </data>
+  <data name="KeepSaveFileOrDoYouWantToDeleteIt" xml:space="preserve">
+    <value>Un fichier de sauvegarde automatique a été créé avant d'avoir terminé l'assistant. Vous pouvez garder ce fichier et réessayer ultérieurement.  
+
+Voulez-vous quand même supprimer le fichier de sauvegarde automatique?</value>
+  </data>
+  <data name="RelFieldsNotesInstructions" xml:space="preserve">
+    <value>Notes/instructions :</value>
+  </data>
+  <data name="MultipleSelectEdit" xml:space="preserve">
+    <value>Sélection/édition multiple</value>
+  </data>
+  <data name="ThereIsAnErrorInAReadOnlyHiddenRelatedField" xml:space="preserve">
+    <value>Il y a une erreur sur un champ lié caché en lecture seule.  Vous ne pouvez plus continuer avec cette activité.</value>
+  </data>
+  <data name="ThisMessageIsTooLargeToSendByEmailI" xml:space="preserve">
+    <value>La taille de ce message est trop grande pour permettre l'envoi par courriel ({0} multiplets).  Aussi, au moins un des récipiendaires n’est pas un utilisateur de {1}. À cause de sa taille, Outlook pourrait bloquer l’envoi du message même si {1} va l’enregistrer comme étant envoyé.  Voulez-vous quand même tenter l’envoi du message?</value>
+  </data>
+  <data name="SizeWarning" xml:space="preserve">
+    <value>Avertissement de taille!</value>
+  </data>
+  <data name="AreYouSureYouWantToRemoveFromYourAddressBook" xml:space="preserve">
+    <value>Êtes-vous certain de vouloir supprimer {0} {1} de votre carnet d’adresse?</value>
+  </data>
+  <data name="RemoveContactFromAddressBook" xml:space="preserve">
+    <value>Supprimer du carnet d'adresse</value>
+  </data>
+  <data name="TheContactIsASharedContact" xml:space="preserve">
+    <value>Le contact : {0} {1} est un contact partagé sur {2} dossiers.
+
+</value>
+  </data>
+  <data name="AttemptedToUpdateContactInfoForDebtor" xml:space="preserve">
+    <value>Vous avez tenté de faire la mise à jour d'informations pour le contact suivant : {0} {1}. Ce contact est un opposant sur un dossier de {0}. La mise à jour peut seulement se faire sur le dossier sur lequel le contact est l'opposant.</value>
+  </data>
+  <data name="UpdateOfOpponentContact" xml:space="preserve">
+    <value>Mise à jour de contact qui est opposant</value>
+  </data>
+  <data name="ContactInfoUpdatedForEveryUserOrFileThatSharesContact" xml:space="preserve">
+    <value>L'information sera actualisé pour chaque utilisateur ou dossier qui partage ce(s) contact(s).</value>
+  </data>
+  <data name="UpdateOfSharedContacts" xml:space="preserve">
+    <value>Mise à jour de contacts partagés</value>
+  </data>
+  <data name="ValidatingSearchCriteria" xml:space="preserve">
+    <value>Validation des critères de recherche</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisSuspendedActivity" xml:space="preserve">
+    <value>Êtes-vous certain de vouloir supprimer cette activité suspendue?</value>
+  </data>
+  <data name="DeleteSuspendedActivity" xml:space="preserve">
+    <value>Supprimer activité suspendue</value>
+  </data>
+  <data name="YouCanTCloseTheFormWhileThereIsAWizardOpen" xml:space="preserve">
+    <value>Vous ne pouvez pas fermer une forme lorsqu'un assistant d'activité est ouvert.</value>
+  </data>
+  <data name="YouHaveMadeChangesToThisFileWhichHaveNotBeenSaved" xml:space="preserve">
+    <value>Vous avez amené des changements sur ce dossier qui n'ont pas été sauvegardés. Voulez-vous sauvegarder ces changements?</value>
+  </data>
+  <data name="LawMate" xml:space="preserve">
+    <value>LawMate</value>
+  </data>
+  <data name="QuickSearchFullFileName" xml:space="preserve">
+    <value>Nom de dossier (entier)</value>
+  </data>
+  <data name="QuickSearchFullFileNumber" xml:space="preserve">
+    <value>Numéro de dossier (entier)</value>
+  </data>
+  <data name="BooleanSearch" xml:space="preserve">
+    <value>Recherche booléenne</value>
+  </data>
+  <data name="HelpForStepCode" xml:space="preserve">
+    <value>Aide pour code d'étape </value>
+  </data>
+  <data name="ReloadConfigDataMessage" xml:space="preserve">
+    <value>S'il y a des assistants d'activités actifs, vous allez devoir les fermer avant de réinitialiser les données de configuration.  Continuer la réinitialisation de données de configuration sans fermer les assistants d'activités actifs pourrait causer les assistants à echouer.
+
+Cliquer OK pour réinitialiser les données de configuration, ou Annuler pour retourner à {0} sans réinitialiser.</value>
+  </data>
+  <data name="ReloadConfigurationDataCaption" xml:space="preserve">
+    <value>Réinitialisation de données de configuration</value>
+  </data>
+  <data name="TheConfigurationDataHasBeenReloaded" xml:space="preserve">
+    <value>La réinitialisation des données est terminée.</value>
+  </data>
+  <data name="ConfigurationData" xml:space="preserve">
+    <value>Données de configuration</value>
+  </data>
+  <data name="AreYouSureYouWantToCreateFileStructuresForAllFiles" xml:space="preserve">
+    <value>Cette opération peut prendre quelque minutes. Êtes-vous certain de vouloir créer les structures de dossier pour tous les dossiers dans l'application?</value>
+  </data>
+  <data name="CreateFileStructures" xml:space="preserve">
+    <value>Création de structures de dossier</value>
+  </data>
+  <data name="InitiatingWorkAsPleaseWait" xml:space="preserve">
+    <value>Changement de travailleur ... Veuillez patienter.</value>
+  </data>
+  <data name="YouAreNowWorkingAsYourself" xml:space="preserve">
+    <value>Vous travaillez maintenant comme vous-même</value>
+  </data>
+  <data name="YouAreNowWorkingAs" xml:space="preserve">
+    <value>Vous travaillez maintenant comme : </value>
+  </data>
+  <data name="WorkingAs" xml:space="preserve">
+    <value>Travailler comme</value>
+  </data>
+  <data name="CannotWorkAsWhileInEditOrReadOnlyMode" xml:space="preserve">
+    <value>Un dossier personnel est en mode lecture seule, ou une liste de rappel est en mode d'édition (ou les deux). Vous ne pouvez amener une changement de travailleur lorsqu'en mode lecture seule ou en mode d'édition.</value>
+  </data>
+  <data name="EditMode" xml:space="preserve">
+    <value>Mode d'édition</value>
+  </data>
+  <data name="YouAreAlreadyWorkingAsYourself" xml:space="preserve">
+    <value>Vous travaillez déjà comme vous-même</value>
+  </data>
+  <data name="YouAreAlreadyWorkingAs" xml:space="preserve">
+    <value>Vous travaillez déjà comme : </value>
+  </data>
+  <data name="RetrievingDocumentsSentToday" xml:space="preserve">
+    <value>Récupération de documents envoyés aujourd'hui</value>
+  </data>
+  <data name="RetrievingDocumentsSentYesterday" xml:space="preserve">
+    <value>Récupération de documents envoyés hier</value>
+  </data>
+  <data name="RetrievingDocumentsSentThisWeek" xml:space="preserve">
+    <value>Récupération de documents envoyés cette semaine</value>
+  </data>
+  <data name="RetrievingDocumentsSentLastWeek" xml:space="preserve">
+    <value>Récupération de documents envoyés la semaine dernière</value>
+  </data>
+  <data name="RetrievingDocumentsSentWithinSpecifiedRange" xml:space="preserve">
+    <value>Récupération de documents envoyés entre période spécifiée</value>
+  </data>
+  <data name="RetrievingDocumentsReceivedToday" xml:space="preserve">
+    <value>Récupération de documents reçus aujourd'hui</value>
+  </data>
+  <data name="RetrievingDocumentsReceivedYesterday" xml:space="preserve">
+    <value>Récupération de documents reçus hier</value>
+  </data>
+  <data name="RetrievingDocumentsReceivedThisWeek" xml:space="preserve">
+    <value>Récupération de documents reçus cette semaine</value>
+  </data>
+  <data name="RetrievingDocumentsReceivedLastWeek" xml:space="preserve">
+    <value>Récupération de documents reçus la semaine dernière</value>
+  </data>
+  <data name="RetrievingDocumentsReceivedWithinSpecifiedRange" xml:space="preserve">
+    <value>Récupération de documents reçus entre période spécifiée</value>
+  </data>
+  <data name="RetrievingCheckedOutDocuments" xml:space="preserve">
+    <value>Récupération de documents en retrait</value>
+  </data>
+  <data name="CheckedOutDocuments" xml:space="preserve">
+    <value>Documents en retrait </value>
+  </data>
+  <data name="RetrievingDraftDocuments" xml:space="preserve">
+    <value>Récupération d'ébauches de documents</value>
+  </data>
+  <data name="DraftDocuments" xml:space="preserve">
+    <value>Ébauches de documents </value>
+  </data>
+  <data name="RetrievingOfficeOpinionsWithinSpecifiedRange" xml:space="preserve">
+    <value>Récupération d'opinion de mon bureau datée entre période spécifiée</value>
+  </data>
+  <data name="MyOfficeSOpinions" xml:space="preserve">
+    <value>Opinions de mon bureau </value>
+  </data>
+  <data name="RetrievingListOfCompletedBFsWithinSpecifiedRange" xml:space="preserve">
+    <value>Récupération de la liste de rappels complétés entre période spécifiée</value>
+  </data>
+  <data name="RetrievingFilesViewedToday" xml:space="preserve">
+    <value>Récupération de dossiers visités aujourd'hui</value>
+  </data>
+  <data name="RetrievingFilesViewedYesterday" xml:space="preserve">
+    <value>Récupération de dossiers visités hier</value>
+  </data>
+  <data name="RetrievingFilesViewedLastWeek" xml:space="preserve">
+    <value>Récupération de dossiers visités la semaine dernière</value>
+  </data>
+  <data name="RetrievingFilesViewedThisWeek" xml:space="preserve">
+    <value>Récupération de dossiers visités cette semaine</value>
+  </data>
+  <data name="RetrievingFilesViewedWithinSpecifiedRange" xml:space="preserve">
+    <value>Récupération de dossiers visités entre période spécifiée</value>
+  </data>
+  <data name="RetrievingAssignedFiles" xml:space="preserve">
+    <value>Récupération de dossiers assignés</value>
+  </data>
+  <data name="RetrievingFilesOnWhichYouAreAContact" xml:space="preserve">
+    <value>Récupération de dossiers sur lequel vous êtes une personne contact</value>
+  </data>
+  <data name="ReceivedItems" xml:space="preserve">
+    <value>Items reçus </value>
+  </data>
+  <data name="Letterbook" xml:space="preserve">
+    <value>Items envoyés </value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value> éléments)</value>
+  </data>
+  <data name="OutlookFolderNameAndNumOfItems" xml:space="preserve">
+    <value>({0} éléments)</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value> à </value>
+  </data>
+  <data name="OneFileFoundOpeningFile" xml:space="preserve">
+    <value>Un dossier a été trouvé. Récupération de dossier en cours...</value>
+  </data>
+  <data name="RetrievingDataMessage" xml:space="preserve">
+    <value>Récupération de données en cours...</value>
+  </data>
+  <data name="TheAdvancedSearchScreenIsNoLongerAccessible" xml:space="preserve">
+    <value>L'écran de recherche avancée utilisé pour effectuer cette recherche n'est plus accessible.</value>
+  </data>
+  <data name="AdvancedSearchScreenNotAccessible" xml:space="preserve">
+    <value>Accessibilité de l'écran de recherche avancée</value>
+  </data>
+  <data name="EndOfTheDocumentJumpToTheTop" xml:space="preserve">
+    <value>Vous êtes à la fin du document. Voulez-vous sauter au sommet des résultats?</value>
+  </data>
+  <data name="FullTextHitNavigation" xml:space="preserve">
+    <value>Navigation des résultats de texte intégral</value>
+  </data>
+  <data name="BeginningOfTheDocumentJumpToTheBottom" xml:space="preserve">
+    <value>Vous êtes au début du document. Voulez-vous sauter à la fin des résultats?</value>
+  </data>
+  <data name="FirstDocumentJumpToTheBottom" xml:space="preserve">
+    <value>Vous êtes sur le premier document. Voulez-vous sauter à la fin des résultats?</value>
+  </data>
+  <data name="LastDocumentJumpToTheTop" xml:space="preserve">
+    <value>Vous êtes sur le dernier document. Voulez-vous sauter au sommet des résultats?</value>
+  </data>
+  <data name="BackTo" xml:space="preserve">
+    <value>Page précédente : </value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisRecord" xml:space="preserve">
+    <value>Êtes-vous certain de vouloir supprimer cet enregistrement?</value>
+  </data>
+  <data name="YouDoNotHaveSufficientAccessToDeleteThisRecord" xml:space="preserve">
+    <value>Vous n'avez pas de droit suffisant pour supprimer cet enregistrement</value>
+  </data>
+  <data name="DeletingBFs" xml:space="preserve">
+    <value>Supprimer (rappels)</value>
+  </data>
+  <data name="ThereAreNoDocumentsOnThisFile" xml:space="preserve">
+    <value>Il n'y pas de documents sur ce dossier</value>
+  </data>
+  <data name="TheDocumentIsCheckedOut" xml:space="preserve">
+    <value>Le document est en retrait</value>
+  </data>
+  <data name="FileName0FileNumber1" xml:space="preserve">
+    <value>Nom de dossier : 
+{0} 
+
+Numéro de dossier : 
+{1}</value>
+  </data>
+  <data name="QuickSearchFullTextOfOpinions" xml:space="preserve">
+    <value>Recherche en texte intégral d'opinion</value>
+  </data>
+  <data name="QuickSearchOpinionBooleanSearch" xml:space="preserve">
+    <value>Recherche booléenne d'opinion</value>
+  </data>
+  <data name="QuickSearchOpinionSubjectDescription" xml:space="preserve">
+    <value>Sujet/description d'opinion</value>
+  </data>
+  <data name="AdvSearchFileNameEnglish" xml:space="preserve">
+    <value>Nom de dossier (anglais)</value>
+  </data>
+  <data name="AdvSearchLastName" xml:space="preserve">
+    <value>Nom de famille</value>
+  </data>
+  <data name="AdvSearchFirstName" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="AdvSearchCountry" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="AdvSearchCity" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="AdvSearchPostalCode" xml:space="preserve">
+    <value>Code postal</value>
+  </data>
+  <data name="AdvSearchFileNameFrench" xml:space="preserve">
+    <value>Nom de dossier (français)</value>
+  </data>
+  <data name="lblParentFile" xml:space="preserve">
+    <value>Sauter au dossier parent : </value>
+  </data>
+  <data name="DisplayNameActivity" xml:space="preserve">
+    <value>Activité</value>
+  </data>
+  <data name="EFileProperty" xml:space="preserve">
+    <value>Propriété du dossier-électronique</value>
+  </data>
+  <data name="FileContact" xml:space="preserve">
+    <value>Contact(s) du dossier</value>
+  </data>
+  <data name="FileOffice" xml:space="preserve">
+    <value>Bureau(x) lié(s) au(x) dossier</value>
+  </data>
+  <data name="FileSecurity" xml:space="preserve">
+    <value>Sécurité de dossier</value>
+  </data>
+  <data name="LegalRiskManagement" xml:space="preserve">
+    <value>Gestion du risque juridique</value>
+  </data>
+  <data name="OfficeInformation" xml:space="preserve">
+    <value>Information sur le bureau</value>
+  </data>
+  <data name="OfficePersonnel" xml:space="preserve">
+    <value>Personnel de bureau</value>
+  </data>
+  <data name="DisplayNameLegalOpinion" xml:space="preserve">
+    <value>Opinion juridique</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="Reloading" xml:space="preserve">
+    <value>Rechargement de données ...</value>
+  </data>
+  <data name="ReloadingData" xml:space="preserve">
+    <value>Rechargement de données :</value>
+  </data>
+  <data name="ExecutingSearch" xml:space="preserve">
+    <value>Exécution de la recherche</value>
+  </data>
+  <data name="WizardYouHaveMadeChangesDoYouWantToSave" xml:space="preserve">
+    <value>L'Assistant d'activité contient des modifications qui n'ont pas été sauvegardés.  Voulez-vous les sauvergarder?</value>
+  </data>
+  <data name="CannotDeleteSystemGeneratedBFs" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer les rappels qui sont génénés par le système. Vous pouvez seulement supprimer les rappels que vous avez ajoutés manuellement.</value>
+  </data>
+  <data name="DeletingSystemGeneratedBFNotAllowed" xml:space="preserve">
+    <value>Non permis de supprimer un rappel</value>
+  </data>
+  <data name="PleaseProvideAShortcutName" xml:space="preserve">
+    <value>[veuillez fournir un nom pour le raccourci]</value>
+  </data>
+  <data name="YouMustProvideANameForYourShortcut" xml:space="preserve">
+    <value>Vous devez fournir un nom pour votre raccourci.
+
+Si votre intention n'était pas de créer un raccourci, veuillez enlever la coche de la case à cocher "Créer un raccourci à ce dossier".</value>
+  </data>
+  <data name="ShortcutName" xml:space="preserve">
+    <value>Nom de raccourci</value>
+  </data>
+  <data name="SelectedMessageSuccessfullyImported" xml:space="preserve">
+    <value>Le transfert du message selectionné a réussi. Il a été transféré au dossier suivant : </value>
+  </data>
+  <data name="SelectedMessagesSuccessfullyImported" xml:space="preserve">
+    <value>{0} sur {1} des messages selectionnés transférés avec succès. Ils ont été transférés au dossier suivant : </value>
+  </data>
+  <data name="ImportedToNameNumber" xml:space="preserve">
+    <value>
+      
+    Nom : {0}
+    Numéro : {1}</value>
+  </data>
+  <data name="TheSelectedMessageHasBeenMoved" xml:space="preserve">
+    <value>
+      
+À partir d'Outlook, le message a été déplacé  </value>
+  </data>
+  <data name="TheSelectedMessagesHaveBeenMoved" xml:space="preserve">
+    <value>
+      
+À partir d'Outlook, les messages ont été déplacés </value>
+  </data>
+  <data name="ToYourDeletedItemsFolderInOutlook" xml:space="preserve">
+    <value>à votre dossier Éléments supprimés.</value>
+  </data>
+  <data name="ToYourMovedToLawMateFolderInOutlook" xml:space="preserve">
+    <value>à votre dossier Moved To {0}.</value>
+  </data>
+  <data name="MessagesImportedToLawMate" xml:space="preserve">
+    <value>Message(s) transféré(s) à {0}</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Modification du mot de passe</value>
+  </data>
+  <data name="LogoutRequired" xml:space="preserve">
+    <value>Fermeture de session requise</value>
+  </data>
+  <data name="ThePasswordDoesNotMatchTheConfirmPassword" xml:space="preserve">
+    <value>Le nouveau mot de passe et sa confirmation ne correspondent pas</value>
+  </data>
+  <data name="YouMustEnterYourCurrentPassword" xml:space="preserve">
+    <value>Vous devez entrer votre mot de passe actuel</value>
+  </data>
+  <data name="YourPasswordHasBeenSuccessfullyChangedYouMustLogOutAndLogBackInImmediately" xml:space="preserve">
+    <value>Votre mot de passe a été modifié.  Vous devez fermer votre session {0} et réétablir une nouvelle connexion.</value>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>Réduire</value>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>Agrandir</value>
+  </data>
+  <data name="BFs30Days" xml:space="preserve">
+    <value>Rappels (30 jours) : </value>
+  </data>
+  <data name="BFsDisplayed" xml:space="preserve">
+    <value>Rappels (dans l'écarts) : </value>
+  </data>
+  <data name="PriorityHigh" xml:space="preserve">
+    <value>Prioritaire</value>
+  </data>
+  <data name="PriorityNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="PriorityUrgent" xml:space="preserve">
+    <value>Urgent</value>
+  </data>
+  <data name="MoreThanOneMonthTimekeepingPeriod" xml:space="preserve">
+    <value>Plus d'un mois s'est écoulé depuis votre dernière période de comptabilisation de temps. Veuillez sélectionner le mois le plus tôt où vous voulez recommencer à enregistrer des fiches de temps.</value>
+  </data>
+  <data name="MoreThanTwoYearsLastTimekeepingPeriod" xml:space="preserve">
+    <value>Plus de deux ans se sont écoulés depuis votre dernière période de comptabilisation de temps. Veuillez sélectionner le mois le plus tôt où vous voulez recommencer à enregistrer des fiches de temps.</value>
+  </data>
+  <data name="NoTimekeepingPeriodExists" xml:space="preserve">
+    <value>Aucune période de comptabilisation de temps existe. Veuillez sélectionner le mois le plus tôt où vous voulez commencer à enregistrer des fiches de temps.</value>
+  </data>
+  <data name="ThePersonalFileAssociatedTimekeepingNotFound" xml:space="preserve">
+    <value>{0} n'a pu trouver le dossier personnel associé avec les données de comptabilisation de temps de ce dossier. Les données de l'agent ne sont pas configurées conformément. Veuillez contacter un administrateur.</value>
+  </data>
+  <data name="PersonalFileNotFound" xml:space="preserve">
+    <value>Dossier personnel pas trouvé</value>
+  </data>
+  <data name="AreYouSureYouWantToCloseTimekeeping" xml:space="preserve">
+    <value>Êtes-vous certain de vouloir fermer la période?
+
+Les fiches de temps  ne peuvent plus être modifiées une fois que la période est fermée. Cette opération ne peut pas être annulé / renoncée.</value>
+  </data>
+  <data name="TimekeepingPeriodClosure" xml:space="preserve">
+    <value>Fermeture de période de comptabilisation</value>
+  </data>
+  <data name="NoPermissionToViewThisFile" xml:space="preserve">
+    <value>Vous n'avez pas de droit suffisant pour visionner ce dossier</value>
+  </data>
+  <data name="YouDoNotHavePermissionToOpenThisFile" xml:space="preserve">
+    <value>Vous n'avez pas de droit suffisant pour ouvrir ce dossier</value>
+  </data>
+  <data name="DeleteTimeslip" xml:space="preserve">
+    <value>Supprimer fiche de temps</value>
+  </data>
+  <data name="DeleteActivity" xml:space="preserve">
+    <value>Deleting an activity will delete any timekeeping and BF records associated with the activity and any documents that are associated only with this activity.
+
+Are you sure you want to continue?</value>
+  </data>
+  <data name="QuickSearchIcase" xml:space="preserve">
+    <value>Numéro de dossier iCase</value>
+  </data>
+  <data name="AllMail" xml:space="preserve">
+    <value>Courriels</value>
+  </data>
+  <data name="BFList1" xml:space="preserve">
+    <value>Rappels</value>
+  </data>
+  <data name="ReadMail" xml:space="preserve">
+    <value>Courriels lus</value>
+  </data>
+  <data name="UnreadMail" xml:space="preserve">
+    <value>Courriels non-lus</value>
+  </data>
+  <data name="YouAreInEditMode" xml:space="preserve">
+    <value>Vous êtes en mode d'édition, les données ont changées.</value>
+  </data>
+  <data name="AND" xml:space="preserve">
+    <value>ET</value>
+  </data>
+  <data name="OR" xml:space="preserve">
+    <value>OU</value>
+  </data>
+  <data name="CannotResumeThisActivity" xml:space="preserve">
+    <value>Vous ne pouvez reprendre cette activité.</value>
+  </data>
+  <data name="DELETEDFILE" xml:space="preserve">
+    <value>DOSSIER SUPPRIMÉ!</value>
+  </data>
+  <data name="INVALIDACTIVITY" xml:space="preserve">
+    <value>ACTIVITÉ NON VALIDE!</value>
+  </data>
+  <data name="OfficeExplorer" xml:space="preserve">
+    <value>Explorateur de bureau</value>
+  </data>
+  <data name="SelectFileForFiling" xml:space="preserve">
+    <value>Choisir le dossier sur lequel sera importé(s) le(s) courriel(s)</value>
+  </data>
+  <data name="DocumentPartOfSuspendedActivityHasBeenModified" xml:space="preserve">
+    <value>Le document créé dans le cadre de cette activité en suspension a été modifié - il n'est pas possible de reprendre cette activité, mais son contenu sera toujours mis à disposition afin que vous puissiez le récupérer, si elle est requise.</value>
+  </data>
+  <data name="DataRetrievalTime" xml:space="preserve">
+    <value>Dernière récupération de données : </value>
+  </data>
+  <data name="About0Hits" xml:space="preserve">
+    <value>Environ {0} résultats</value>
+  </data>
+  <data name="AboutX" xml:space="preserve">
+    <value>Environ {0}</value>
+  </data>
+  <data name="ActivityExpectsExternalDocumentToBeUploaded" xml:space="preserve">
+    <value>L'activité selectionnée s'attend à ce qu'un document externe soit téléchargé à {0}. Si vous ne désirez pas télécharger un document, vous devez annuler votre assistant d'activité.
+
+Voulez-vous sélectionner un document à télécharger?</value>
+  </data>
+  <data name="ActivitySavedButFailedToCreateAutomaticActivities" xml:space="preserve">
+    <value>L'activité a été sauvegardée, mais {1} n'a pas réussi à créer l'activité automatique associée avec votre activité : {0}</value>
+  </data>
+  <data name="ActivityWasSavedButFailedToCreateShortcuts" xml:space="preserve">
+    <value>L'activité a été sauvegardée, mais {0} n'a pas réussi à créer le(les) raccourci(s).</value>
+  </data>
+  <data name="ActivityWasSavedButFailedToUpdateToC" xml:space="preserve">
+    <value>L'activité a été sauvegardée, mais {0} n'a pas réussi à mettre à jour la table des matières du dossier.</value>
+  </data>
+  <data name="AdvancedSearchResults" xml:space="preserve">
+    <value>Résultats de recherche avancée</value>
+  </data>
+  <data name="AttemptedToStoreInformationIndicatingCommunicationFailedButHasFailedToDoSo" xml:space="preserve">
+    <value>{0} a tenté de stocker l'information indiquant que la communication n’a pas réussi à être envoyer mais sa tentative de stocker cette information a ratée.  Veuillez prendre les mesures appropriées pour éliminer l'activité, car {0} n'a pas réussi à l'envoyer, en plus de ne pas l'indiquer.</value>
+  </data>
+  <data name="CannotCreateDuplicateXrefShortcutOrChildFile" xml:space="preserve">
+    <value>Vous ne pouvez créer un duplicata de référence croisée, raccourci, ou dossier enfant</value>
+  </data>
+  <data name="CannotJumpToADifferentLocationInThisTree" xml:space="preserve">
+    <value>Vous devez choisir un dossier sous un certain endroit. Vous ne pouvez pas sauter à un autre emplacement du navigateur étant donné le contexte actuel.</value>
+  </data>
+  <data name="CantHaveMoreThanOneNAWOpenOnTheSameFile" xml:space="preserve">
+    <value>Vous pouvez avoir seulement un assistant d'activité d'actif par dossier</value>
+  </data>
+  <data name="ConfirmDeleteShortcutFile" xml:space="preserve">
+    <value>Lorsque vous supprimez ce dossier, tous les sous-dossiers, documents, raccourcis de documents/dossiers à ce dossier et sous-dossiers seront supprimés aussi.
+
+Êtes-vous certain de vouloir supprimer ce dossier et son contenu?</value>
+  </data>
+  <data name="ContainerCrossReferences" xml:space="preserve">
+    <value>Références croisées conteneur</value>
+  </data>
+  <data name="CreatePersonalFile" xml:space="preserve">
+    <value>Créer dossiers personnels</value>
+  </data>
+  <data name="DebtorAccounts" xml:space="preserve">
+    <value>Comptes</value>
+  </data>
+  <data name="DebtorInformation" xml:space="preserve">
+    <value>Information débiteur</value>
+  </data>
+  <data name="DeleteActivityXref" xml:space="preserve">
+    <value>Êtes-vous certain de vouloir supprimer cette activité croisée?</value>
+  </data>
+  <data name="DocumentShortcuts" xml:space="preserve">
+    <value>Raccourcis de documents</value>
+  </data>
+  <data name="FileHistory" xml:space="preserve">
+    <value>Historique du dossier</value>
+  </data>
+  <data name="FileIsAlreadyOpenAndInEditMode" xml:space="preserve">
+    <value>Le dossier est présentement ouvert (fenêtre ouverte), et il est en mode d'édition. L'écran de comptabilisation de temps ne peut être affiché.</value>
+  </data>
+  <data name="FileShortcuts" xml:space="preserve">
+    <value>Raccourcis de dossiers</value>
+  </data>
+  <data name="FileWasOpenInLawMateTryingToRefreshData" xml:space="preserve">
+    <value>Le dossier suivant :
+
+      {0}
+
+était ouvert pour le visionnement.  {1} tente un rafraîchissement de données vu qu'une période de comptabilisation de temps vient d'être fermée et les données sur le dossier on besoin d'une mise à jour, mais le dossier est en mode lecture seule.  C'est possible que vos mises à jours ne sauvegargent pas sur ce dossier étant donné ce mode lecture seule pendant la fermeture d'une période.</value>
+  </data>
+  <data name="IgnoreThread" xml:space="preserve">
+    <value>&lt;Ignorer le fil&gt;</value>
+  </data>
+  <data name="NewActivityWizardCancelled" xml:space="preserve">
+    <value>Votre assistant d'activité est annulé. Si vous désirez recommencer, vous devrez créer une nouvelle activité.</value>
+  </data>
+  <data name="p7mMessage" xml:space="preserve">
+    <value>{2} a analysé le contenu de ce message et il semble qu'une partie est encore sécurisée (chiffrée) :
+
+          Sujet : {0}
+          Date reçue: {1}
+
+Il est possible que ce message a été déchiffré, mais qu'Outlook n'a pas supprimé toutes les traces de son état chiffré.
+
+Vous pouvez choisir d'importer ce message si vous êtes sûr qu'il n'est plus chiffré - si vous pouvez lire le corps du message dans le Visualisateur Outlook, il est probablement acceptable d'importer ce message.
+
+Voulez-vous continuer à importer ce message à {2}?</value>
+  </data>
+  <data name="cmdAbout" xml:space="preserve">
+    <value>À propos de {0}</value>
+  </data>
+  <data name="cmdDeskbook" xml:space="preserve">
+    <value>Manuels {0}</value>
+  </data>
+  <data name="cmdExplorer" xml:space="preserve">
+    <value>Explorateur {0} </value>
+  </data>
+  <data name="AppMailName" xml:space="preserve">
+    <value>CourrielAtrium</value>
+  </data>
+  <data name="AppExpectsTheseRelatedFields" xml:space="preserve">
+    <value>Selon l’activité choisie, {0} s’attend à ce que les champs suivants soient remplis :</value>
+  </data>
+  <data name="ConfirmCloseApp" xml:space="preserve">
+    <value>Voulez-vous fermer {0}?</value>
+  </data>
+  <data name="ConfirmCloseTitle" xml:space="preserve">
+    <value>Fermeture de {0}</value>
+  </data>
+  <data name="AppExplorer" xml:space="preserve">
+    <value>Explorateur {0}</value>
+  </data>
+  <data name="cmdBrowseExplorer" xml:space="preserve">
+    <value>Explorateur {0} </value>
+  </data>
+  <data name="AppCommunications" xml:space="preserve">
+    <value>Communications {0}</value>
+  </data>
+  <data name="AppMailNotice" xml:space="preserve">
+    <value>Avis de message {0}</value>
+  </data>
+  <data name="AppMailReceived" xml:space="preserve">
+    <value>Lorsque je reçois un courriel {0}, envoyez-le moi aussi à travers Outlook.</value>
+  </data>
+  <data name="AppMailSettingReadOnly" xml:space="preserve">
+    <value>Cette valeur ne peut être modifiée. Si vous voulez qu'elle soit changée, veuillez envoyer une demande d'assistance {0}.</value>
+  </data>
+  <data name="SearchPrintGrid" xml:space="preserve">
+    <value>Résultats de recherche {0}</value>
+  </data>
+  <data name="LoginBlankPassword" xml:space="preserve">
+    <value>Vous devez fournir une valeur pour le mot de passe.</value>
+  </data>
+  <data name="LoginBlankUserName" xml:space="preserve">
+    <value>Vous devez fournir une valeur pour le nom d'utilisateur.</value>
+  </data>
+  <data name="LoginMaxAttempts" xml:space="preserve">
+    <value>Le montant de tentative de connexion a été depassé.</value>
+  </data>
+  <data name="UICantSaveWhileErrors" xml:space="preserve">
+    <value>Vous ne pouvez pas sauvegarder lorsqu'il y a des erreurs dans les données.</value>
+  </data>
+  <data name="UIColon" xml:space="preserve">
+    <value> :</value>
+  </data>
+  <data name="UIConfirmDelete" xml:space="preserve">
+    <value>Êtes-vous certain de vouloir supprimer votre sélection?</value>
+  </data>
+  <data name="UIConfirmDeleteCaption" xml:space="preserve">
+    <value>Supprimer une sélection</value>
+  </data>
+  <data name="UIMissingCriteria" xml:space="preserve">
+    <value>Vous ne pouvez effectuer une recherche sans fournir une valeur pour les critères.</value>
+  </data>
+  <data name="UIRemoveAttachment" xml:space="preserve">
+    <value>Enlever </value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="MyEMailsDocuments" xml:space="preserve">
+    <value>Mes courriels/documents</value>
+  </data>
+  <data name="DocBrowseSearchCaption" xml:space="preserve">
+    <value>Recherche</value>
+  </data>
+  <data name="RangeIsNotValid" xml:space="preserve">
+    <value>Période n'est pas valide</value>
+  </data>
+  <data name="ShortcutTo" xml:space="preserve">
+    <value>Raccourci à :</value>
+  </data>
+  <data name="CrossReferencedTo" xml:space="preserve">
+    <value>Référence croisée à :</value>
+  </data>
+  <data name="YouDoNotHaveAccessToThisFile" xml:space="preserve">
+    <value>Vous avez aucun droit d'accès sur ce dossier</value>
+  </data>
+  <data name="NoParentNodeOrEFileRowParentNode" xml:space="preserve">
+    <value>Aucun noeud parent a été trouvé</value>
+  </data>
+  <data name="CantLoadFileExplorer" xml:space="preserve">
+    <value>L'explorateur a raté de charger comme il se doit</value>
+  </data>
+  <data name="XrefShortcutToFileNameFileNumber" xml:space="preserve">
+    <value>{0} {1} ({2})</value>
+  </data>
+  <data name="DoYouWantToSplitTheThread" xml:space="preserve">
+    <value>Voulez-vous couper la liaison?</value>
+  </data>
+  <data name="MoveBF" xml:space="preserve">
+    <value>Déplacer le rappel</value>
+  </data>
+  <data name="NameCannotBeBlank" xml:space="preserve">
+    <value>Vous devez fournir une valeur pour le nom</value>
+  </data>
+  <data name="YouCantSaveAReadOnlyDocument" xml:space="preserve">
+    <value>Vous ne pouvez pas amener de changements à un document lecture seule.</value>
+  </data>
+  <data name="YouCannotPreviewThisTypeOfDocument" xml:space="preserve">
+    <value>La prévisualisation de ce type de document n'est pas permi.</value>
+  </data>
+  <data name="AllOffices" xml:space="preserve">
+    <value>Tous les bureaux</value>
+  </data>
+  <data name="ContactSelectSearch" xml:space="preserve">
+    <value>Recherche...</value>
+  </data>
+  <data name="CurrentFileContacts" xml:space="preserve">
+    <value>Contacts de dossier actuels</value>
+  </data>
+  <data name="DocCantBeDisplayedTryExternalApp" xml:space="preserve">
+    <value>Le document ne peut être visionné. Veuillez le visionner dans son application externe.
+
+{0}</value>
+  </data>
+  <data name="LawMateDistributionLists" xml:space="preserve">
+    <value>Listes de distributions {0}</value>
+  </data>
+  <data name="LeadOffice" xml:space="preserve">
+    <value>Bureau responsable</value>
+  </data>
+  <data name="MyAddressBook" xml:space="preserve">
+    <value>Mon carnet d'adresse</value>
+  </data>
+  <data name="MyOffice" xml:space="preserve">
+    <value>Mon bureau</value>
+  </data>
+  <data name="NoContactSelected" xml:space="preserve">
+    <value>Aucun contact a été selectionné</value>
+  </data>
+  <data name="NoEMailAddress" xml:space="preserve">
+    <value>Aucune adresse courriel</value>
+  </data>
+  <data name="NoteAboutDocumentPreview" xml:space="preserve">
+    <value>Note à propos de la prévisualisation</value>
+  </data>
+  <data name="NoValidEMailWasFoundForTheContactYouHaveSelectedThereforeAnEMailCannotBeSentToThatContact" xml:space="preserve">
+    <value>Aucune adresse courriel valide a été trouvée pour le contact selectionné. Par conséquent, un courriel ne peut être envoyé à ce contact.</value>
+  </data>
+  <data name="Outlook" xml:space="preserve">
+    <value>Outlook</value>
+  </data>
+  <data name="OwnerOffice" xml:space="preserve">
+    <value>Propriétaire</value>
+  </data>
+  <data name="PleaseSelectAContact" xml:space="preserve">
+    <value>Choisissez un contact</value>
+  </data>
+  <data name="ThereIsNoElectronicVersionOfTheDocument" xml:space="preserve">
+    <value>Il n'y a pas de version électronique pour ce document.</value>
+  </data>
+  <data name="TheSpreadsheetHasBeenClosedFromThisView" xml:space="preserve">
+    <value>La feuille de calcul n'est pas disponible à visionner à partir de cette vue. Vous devez la visionner à partir de son application externe : MS Excel</value>
+  </data>
+  <data name="ThisViewIsAPreviewOnly" xml:space="preserve">
+    <value>Cette vue de document est seulement une prévisualisation.  Elle ne démontre pas nécessairement le document comme il apparaîtrait dans son application externe d'origine.
+
+Pour visionner le document dans son application de format d'origine, cliquez la section "Note à propos de la prévisualisation de document" dans la barre d'état.</value>
+  </data>
+  <data name="WarningThisDocumentIsLarge" xml:space="preserve">
+    <value>Avertissement : Ce document est de grande taille ({0}). Voulez-vous toujours le visionner? Cette opération peut prendre un certain temps, en fonction de la taille du document.</value>
+  </data>
+  <data name="DraftDocument" xml:space="preserve">
+    <value>Ébauche de document</value>
+  </data>
+  <data name="AppDocViewer" xml:space="preserve">
+    <value>Visualisateur de document {0}</value>
+  </data>
+  <data name="AppDocViewerTooltip" xml:space="preserve">
+    <value>Afficher dans le visualisateur de document {0}</value>
+  </data>
+  <data name="cmdExplorerFindFile" xml:space="preserve">
+    <value>Explorer à l'aide de l'explorateur {0} (cible)</value>
+  </data>
+  <data name="JumpToAppRoot" xml:space="preserve">
+    <value>Sauter au dossier de base</value>
+  </data>
+  <data name="UseAppExplorerToNavigate" xml:space="preserve">
+    <value>Utiliser l'explorateur {0} à la droite pour naviguer la structure des dossiers</value>
+  </data>
+  <data name="otkAddressBook" xml:space="preserve">
+    <value>Carnet d'adresses</value>
+  </data>
+  <data name="otkAllBFs" xml:space="preserve">
+    <value>Tous les rappels</value>
+  </data>
+  <data name="otkAllMail" xml:space="preserve">
+    <value>Tous les courriels</value>
+  </data>
+  <data name="otkAssignedFiles" xml:space="preserve">
+    <value>Dossiers assignés</value>
+  </data>
+  <data name="otkBFList" xml:space="preserve">
+    <value>Liste de rappels</value>
+  </data>
+  <data name="otkCalendar" xml:space="preserve">
+    <value>Calendrier</value>
+  </data>
+  <data name="otkCheckedOutToMe" xml:space="preserve">
+    <value>En retrait</value>
+  </data>
+  <data name="otkCompletedItems" xml:space="preserve">
+    <value>Items complétés</value>
+  </data>
+  <data name="otkContactFiles" xml:space="preserve">
+    <value>Dossiers auxquels je suis personne contact</value>
+  </data>
+  <data name="otkCustom" xml:space="preserve">
+    <value>Personnalisée...</value>
+  </data>
+  <data name="otkDrafts" xml:space="preserve">
+    <value>Ébauches</value>
+  </data>
+  <data name="otkEmailsDocuments" xml:space="preserve">
+    <value>Courriels/documents</value>
+  </data>
+  <data name="otkFiles" xml:space="preserve">
+    <value>Dossiers</value>
+  </data>
+  <data name="otkLastWeek" xml:space="preserve">
+    <value>La semaine dernière</value>
+  </data>
+  <data name="otkMyOffice" xml:space="preserve">
+    <value>Mon bureau</value>
+  </data>
+  <data name="otkMyOfficesOpinions" xml:space="preserve">
+    <value>Opinions de mon bureau</value>
+  </data>
+  <data name="otkPersonalFile" xml:space="preserve">
+    <value>Dossier personnel</value>
+  </data>
+  <data name="otkReceivedItems" xml:space="preserve">
+    <value>Items reçus</value>
+  </data>
+  <data name="otkRecentlyViewed" xml:space="preserve">
+    <value>Consultés dernièrement</value>
+  </data>
+  <data name="otkSentItems" xml:space="preserve">
+    <value>Items envoyés</value>
+  </data>
+  <data name="otkShortcuts" xml:space="preserve">
+    <value>Raccourcis</value>
+  </data>
+  <data name="otkThisWeek" xml:space="preserve">
+    <value>Cette semaine</value>
+  </data>
+  <data name="otkToday" xml:space="preserve">
+    <value>Aujourd'hui</value>
+  </data>
+  <data name="otkUnreadMail" xml:space="preserve">
+    <value>Courriels non lus</value>
+  </data>
+  <data name="otkYesterday" xml:space="preserve">
+    <value>Hier</value>
+  </data>
+  <data name="AppExpectsAppointment" xml:space="preserve">
+    <value>{0} s'attend à ce qu'un rendez-vous soit inscrit au calendrier :</value>
+  </data>
+  <data name="apptAccepted" xml:space="preserve">
+    <value>Accepté</value>
+  </data>
+  <data name="apptDeclined" xml:space="preserve">
+    <value>Décliné</value>
+  </data>
+  <data name="apptTentative" xml:space="preserve">
+    <value>À confirmer</value>
+  </data>
+  <data name="CalendarDisplayName" xml:space="preserve">
+    <value>Calendrier</value>
+  </data>
+  <data name="DateRangeCustom" xml:space="preserve">
+    <value>Personnalisé ...</value>
+  </data>
+  <data name="DateRangeLastMonth" xml:space="preserve">
+    <value>Le mois dernier</value>
+  </data>
+  <data name="DateRangeLastWeek" xml:space="preserve">
+    <value>La semaine dernière</value>
+  </data>
+  <data name="DateRangeLastYear" xml:space="preserve">
+    <value>L'an passé</value>
+  </data>
+  <data name="DateRangeThisMonth" xml:space="preserve">
+    <value>Ce mois</value>
+  </data>
+  <data name="DateRangeThisWeek" xml:space="preserve">
+    <value>Cette semaine</value>
+  </data>
+  <data name="DateRangeThisYear" xml:space="preserve">
+    <value>Cette année</value>
+  </data>
+  <data name="DateRangeToday" xml:space="preserve">
+    <value>Aujourd'hui</value>
+  </data>
+  <data name="UIFilesViewedCustom" xml:space="preserve">
+    <value>Dossiers visionnés entre {0} et {1}</value>
+  </data>
+  <data name="mHelp" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="AdvSearchAllWords" xml:space="preserve">
+    <value>tous les mots</value>
+  </data>
+  <data name="AdvSearchAtLeastOne" xml:space="preserve">
+    <value>au moins un des mots</value>
+  </data>
+  <data name="AdvSearchBoolean" xml:space="preserve">
+    <value>recherche booléenne</value>
+  </data>
+  <data name="AdvSearchExactPhrase" xml:space="preserve">
+    <value>la phrase précise</value>
+  </data>
+  <data name="BFListFilteredCount" xml:space="preserve">
+    <value>Compte filtré :</value>
+  </data>
+  <data name="AdvSearchFileDescEnglish" xml:space="preserve">
+    <value>Description (anglaise) du dossier</value>
+  </data>
+  <data name="AdvSearchFileDescFrench" xml:space="preserve">
+    <value>Description (française) du dossier</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Atrium</value>
+  </data>
+  <data name="FileAccess" xml:space="preserve">
+    <value>Historique d’accès/visionnement de dossier</value>
+  </data>
+  <data name="LeafCrossReferencesInOtherContainers" xml:space="preserve">
+    <value>Référence-croisée de feuille dans autres conteneurs</value>
+  </data>
+  <data name="LeafCrossReferencesInSameContainer" xml:space="preserve">
+    <value>Référence-croisée de feuille dans le même conteneur</value>
+  </data>
+  <data name="MadeChangesWithoutSavingSaveYourChangesBeforeClosing" xml:space="preserve">
+    <value>Vous avez amené des modifications aux données sans avoir sauvegardé. Voulez-vous sauvegarder vos modifications avant de fermer?</value>
+  </data>
+  <data name="ModifiedByOtherUser" xml:space="preserve">
+    <value>Un autre utilisateur a amené des modifications à ce dossier pendant votre tentative d’exécuter votre activité.
+
+Malheureusement, {0} est incapable de sauvegarder vos modifications à ce moment. Lorsque vous cliquerez OK, l’assistant d’activité fermera et les données du dossier seront rafraichies.
+
+De plus, {0} créera une sauvegarde automatique pour votre activité aux fins de pouvoir recouvrir le contenu de votre document, au besoin.
+
+Vous ne serez pas en mesure de pouvoir reprendre cette activité.</value>
+  </data>
+  <data name="MsElapsed" xml:space="preserve">
+    <value>{0} ms écoulées</value>
+  </data>
+  <data name="NoDocument" xml:space="preserve">
+    <value>Aucun document</value>
+  </data>
+  <data name="NoDocumentSelected" xml:space="preserve">
+    <value>Aucun document de selectionné</value>
+  </data>
+  <data name="NoSelectedBF" xml:space="preserve">
+    <value>Aucun rappel de selectionné</value>
+  </data>
+  <data name="OfficerToolkit" xml:space="preserve">
+    <value>Trousse d'utilisateur</value>
+  </data>
+  <data name="PersonalFileAlreadyExists" xml:space="preserve">
+    <value>Le dossier personnel existe déjà. Voulez-vous en créer un nouveau?</value>
+  </data>
+  <data name="PersonalFileInEditMode" xml:space="preserve">
+    <value>Dossier personnel est en mode d’édition</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Sauvegarder modifications</value>
+  </data>
+  <data name="SaveOrCancelChangesBeforeAttemptingResend" xml:space="preserve">
+    <value>Vous êtes en mode d’édition. Veillez sauvegarder ou annuler vos modifications avant votre tentative de renvoi.</value>
+  </data>
+  <data name="SuspendActivity" xml:space="preserve">
+    <value>Suspendre activité</value>
+  </data>
+  <data name="TheActivityWasSavedButTheMessageFailedToSendViaEMail" xml:space="preserve">
+    <value>L’activité a été sauvegardée, mais le courriel n’a pu être envoyé.</value>
+  </data>
+  <data name="ThereAreNewMessagesInYourBFList" xml:space="preserve">
+    <value>Il y a des nouveaux messages dans votre liste de rappel</value>
+  </data>
+  <data name="ThisWillSuspendYourActivityAreYouSure" xml:space="preserve">
+    <value>Vous êtes en mesure de suspendre votre activité. Voulez-vous continuer?</value>
+  </data>
+  <data name="TimekeepingData" xml:space="preserve">
+    <value>Données de fiche de temps</value>
+  </data>
+  <data name="UICannotDeleteThisFile" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer ce dossier.</value>
+  </data>
+  <data name="UIPasswordNotChanged" xml:space="preserve">
+    <value>Votre mot de passe n’a pas été modifié.</value>
+  </data>
+  <data name="UnableToReloadData" xml:space="preserve">
+    <value>Incapable de rafraichir les données</value>
+  </data>
+  <data name="usesAppMail" xml:space="preserve">
+    <value>Utilise {0}</value>
+  </data>
+  <data name="YouHave0NewLawMailMessages" xml:space="preserve">
+    <value>Vous avez {0} nouveaux messages {1}</value>
+  </data>
+  <data name="YouHave1NewLawMailMessage" xml:space="preserve">
+    <value>Vous avez un nouveau message {0}</value>
+  </data>
+  <data name="DisplayNameSSTAppeal" xml:space="preserve">
+    <value>Appel au TSS</value>
+  </data>
+  <data name="EditParticipantCaption" xml:space="preserve">
+    <value>Modification d’information et/ou d’adresse d’un participant</value>
+  </data>
+  <data name="EditParticipantMessage" xml:space="preserve">
+    <value>C’est possible que ce participant soit un participant sur autres dossiers. En amenant des modifications aux informations appartenant à ce participant, Atrium effectuera la mise-à-jour de ces informations pour les autres dossiers où le participant est lié.
+
+Voulez-vous continuer?</value>
+  </data>
+  <data name="ParticipantSearch" xml:space="preserve">
+    <value>Recherche de participant</value>
+  </data>
+  <data name="WorkloadDistribution" xml:space="preserve">
+    <value>Charge de travail</value>
+  </data>
+  <data name="SelectAParticipant" xml:space="preserve">
+    <value>Veillez sélectionner un participant avant de choisir OK</value>
+  </data>
+  <data name="ProtectedB" xml:space="preserve">
+    <value>Protégé "B"</value>
+  </data>
+  <data name="UIConfirmUndoCheckout" xml:space="preserve">
+    <value>Cette action causera la perte des modifications apportées à votre document en retrait.
+
+Voulez-vous continuer avec l'annulation du retrait?</value>
+  </data>
+  <data name="UIConfirmUndoCheckoutCaption" xml:space="preserve">
+    <value>Annulation de retrait de document</value>
+  </data>
+  <data name="waitLoading" xml:space="preserve">
+    <value>Traitement de demande</value>
+  </data>
+  <data name="MustSelectDefaultText" xml:space="preserve">
+    <value>Vous devez régler le(les) problème(s) suivant(s) avant de cliquer Suivant :</value>
+  </data>
+  <data name="MustSelectPrimaryIssue" xml:space="preserve">
+    <value>Vous devez choisir un contenant</value>
+  </data>
+  <data name="MustSelectXRef" xml:space="preserve">
+    <value>Vous devez choisir au moins une référence croisée</value>
+  </data>
+  <data name="sstCaseAppealRecordId" xml:space="preserve">
+    <value>No. de l'appel :</value>
+  </data>
+  <data name="sstCasePreviousDecisionDate" xml:space="preserve">
+    <value>Décision précédente :</value>
+  </data>
+  <data name="AppealComplete" xml:space="preserve">
+    <value>Dossier est complet</value>
+  </data>
+  <data name="AppealIncomplete" xml:space="preserve">
+    <value>Dossier est incomplet</value>
+  </data>
+  <data name="AppealLate" xml:space="preserve">
+    <value>Appel est en retard</value>
+  </data>
+  <data name="AppealNotLate" xml:space="preserve">
+    <value>Appel n'est pas en retard</value>
+  </data>
+  <data name="UICannotDeleteLastIssue" xml:space="preserve">
+    <value>Vous devez avoir au moins un litige. Veuillez modifier le litige au lieu de le supprimer.</value>
+  </data>
+  <data name="UICannotDeleteLastIssueCaption" xml:space="preserve">
+    <value>Vous devez avoir au moins un litige</value>
+  </data>
+  <data name="UISuspendedFileSizeExceeded" xml:space="preserve">
+    <value>La taille totale de cette activité,  incluant les documents et pièces jointes, est {0}. Cette activité ne peut être suspendue. Si vous désirez suspendre cette activité, vous devez réduire sa taille à {1}, en réduisant la taille de pièces jointes, de courriels, etc. Vous pouvez enregistrer cette activité, mais ne pouvez la suspendre tant que sa taille dépasse la limite permise.</value>
+  </data>
+  <data name="UISuspendedFileSizeExceededCaption" xml:space="preserve">
+    <value>Taille d’activité a excédé  la limite</value>
+  </data>
+  <data name="UICannotEditAppointment" xml:space="preserve">
+    <value>Vous ne pouvez modifier une audience. Veuillez communiquer avec l’Agent administratif et chargé des demandes de renseignements assigné à ce dossier, afin de modifier l’heure ou la date de l’audience.</value>
+  </data>
+  <data name="UIConfirmDeleteIssue" xml:space="preserve">
+    <value>Êtes-vous certain de vouloir supprimer le litige?</value>
+  </data>
+  <data name="UIConfirmDeleteIssueCaption" xml:space="preserve">
+    <value>Supprimer un litige</value>
+  </data>
+  <data name="UINo" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="UIYes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="UINA" xml:space="preserve">
+    <value>S/O</value>
+  </data>
+  <data name="ConfirmCloseAppEdit" xml:space="preserve">
+    <value>There are unsaved changes.  Are you sure you want to exit {0}?</value>
+  </data>
+  <data name="UIDeleteVersion" xml:space="preserve">
+    <value>Êtes-vous certain de vouloir supprimer cette version du document?</value>
+  </data>
+  <data name="UIDeleteVersionCaption" xml:space="preserve">
+    <value>Supprimer la version</value>
+  </data>
+  <data name="UINoPreviousVersion" xml:space="preserve">
+    <value>Ce document n’a aucune version antérieure</value>
+  </data>
+  <data name="UINoPreviousVersionCaption" xml:space="preserve">
+    <value>Aucune version antérieure</value>
+  </data>
+  <data name="UINoAppealGroundSelected" xml:space="preserve">
+    <value>You must select at least one Appeal Ground from the list</value>
+  </data>
+  <data name="UINoAppealGroundSelectedCaption" xml:space="preserve">
+    <value>No Appeal Ground Selected</value>
+  </data>
+  <data name="UINotImplemented" xml:space="preserve">
+    <value>Cette fonctionalité n'a pas été encore mise en application, mais sera incluse dans une prochaine relâche</value>
+  </data>
+  <data name="AppointmentSoon" xml:space="preserve">
+    <value>Vous avez un rendez-vous</value>
+  </data>
+  <data name="ConfirmDeleteAppRecurrence" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir supprimer cette récurrence?</value>
+  </data>
+  <data name="RecurrenceEndByDay" xml:space="preserve">
+    <value>jour(s)</value>
+  </data>
+  <data name="RecurrenceEndByLabel" xml:space="preserve">
+    <value>Se produit tous/toutes les {0} {1} jusqu’au {2}</value>
+  </data>
+  <data name="RecurrenceEndByMonth" xml:space="preserve">
+    <value>mois</value>
+  </data>
+  <data name="RecurrenceEndByWeek" xml:space="preserve">
+    <value>semaine(s)</value>
+  </data>
+  <data name="UIDeleteAllRecurringAppointments" xml:space="preserve">
+    <value>This will delete all appointments in this recurrence.</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>Quoi de neuf</value>
+  </data>
+  <data name="ActivityBFTab" xml:space="preserve">
+    <value>&amp;Rappels ({0})</value>
+  </data>
+  <data name="ActivityTimeTab" xml:space="preserve">
+    <value>Fiche de te&amp;mps ({0})</value>
+  </data>
+  <data name="ActivityDisbTab" xml:space="preserve">
+    <value>Débour&amp;sements ({0})</value>
+  </data>
+  <data name="otkJustBFs" xml:space="preserve">
+    <value>Tous les rappels non-courriel</value>
+  </data>
+  <data name="AtriumNotInPROD" xml:space="preserve">
+    <value>Ce n'est pas l'environment PROD</value>
+  </data>
+  <data name="DeleteOverrideBillingMessage" xml:space="preserve">
+    <value>PERMISSION SUPPLÉMENTAIRE :  Voud devez faire preuve de diligence raisonable puisque vous avez des droits d'accès spéciales pour supprimer cet enregistrement! Vous ne pourrez pas annuler cette opération!
+
+Assurez-vous que la suppression de cet enregistrement est la seule façon de régler le problème. La suppression de l'enregistrement pourrait créer une divergence avec la facturation s'il est associé avec une période de facturation fermée.
+
+Voulez-vous supprimer cet enregistrement?</value>
+  </data>
+  <data name="NewBFDirect" xml:space="preserve">
+    <value>Direct</value>
+  </data>
+  <data name="NewBFFileBasedRole" xml:space="preserve">
+    <value>Rôle</value>
+  </data>
+  <data name="ActivityAlreadyDocAssociated" xml:space="preserve">
+    <value>Vous ne pouvez pas associer un document avec une activité qui est déjà associée avec un document.</value>
+  </data>
+  <data name="ActivityBFBFs" xml:space="preserve">
+    <value>Rappels</value>
+  </data>
+  <data name="ActivityBFMoreInfoNotFound" xml:space="preserve">
+    <value>Le rappel vous tentez de voir n'a pu être trouvé dans la liste de rappel.</value>
+  </data>
+  <data name="ActivityBFStepCode" xml:space="preserve">
+    <value>Code d'étape </value>
+  </data>
+  <data name="ActivityCannotResendWhileEditMode" xml:space="preserve">
+    <value>Vous êtes en mode d'édition.  Veuillez sauvergarder ou annuler vos modifications avant de tenter le renvoi.</value>
+  </data>
+  <data name="ActivityResendAttemptFailed" xml:space="preserve">
+    <value>Votre tentative de renvoi a échouée</value>
+  </data>
+  <data name="QuickACAlwaysAvail" xml:space="preserve">
+    <value>Toujours disponible</value>
+  </data>
+  <data name="QuickACEnabled" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="QuickACNextStep" xml:space="preserve">
+    <value>Prochaine étape</value>
+  </data>
+  <data name="QuickACNoNextSteps" xml:space="preserve">
+    <value>Atrium n'a pu calculer les prochaines étapes.</value>
+  </data>
+  <data name="QuickACSelectAValidCode" xml:space="preserve">
+    <value>Veuillez choisir un code d'étape valide</value>
+  </data>
+  <data name="TocCopy" xml:space="preserve">
+    <value>Valeur copiée</value>
+  </data>
+  <data name="TocOfficeTKFax" xml:space="preserve">
+    <value>Télécopieur : </value>
+  </data>
+  <data name="TocOfficeTKJudgLP" xml:space="preserve">
+    <value>Délai de prescription (jugement) : </value>
+  </data>
+  <data name="TocOfficeTKTelephone" xml:space="preserve">
+    <value>Téléphone : </value>
+  </data>
+  <data name="TocOfficeTKTollFree" xml:space="preserve">
+    <value>Sans frais : </value>
+  </data>
+  <data name="TocOfficeTKusesAtrium" xml:space="preserve">
+    <value> utilise Atrium</value>
+  </data>
+  <data name="TocOfficeTKWritLP" xml:space="preserve">
+    <value>Délai de prescription (grèvement) : </value>
+  </data>
+  <data name="TocOfficeTKyears" xml:space="preserve">
+    <value> ans</value>
+  </data>
+  <data name="CantDeleteWritCostBeforeJudgment" xml:space="preserve">
+    <value>Avant de supprimer un enregistrement de jugement, vous devez d'abord supprimer les enregistrements de grèvements et de coûts associés avec le jugement.</value>
+  </data>
+  <data name="DisplayNameInsolvency" xml:space="preserve">
+    <value>Insolvabilité</value>
+  </data>
+  <data name="lblTollFreeNumber" xml:space="preserve">
+    <value>Numéro sans frais :</value>
+  </data>
+</root>

@@ -1,0 +1,1314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imageListBase.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABq
+        HAAAAk1TRnQBSQFMAgEBFAEAARgBAAEgAQIBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAWADAAEBAQABCAYAARgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8AJgAO7RIA
+        AQcCrgHqARMBbQISAeoBEgNmARICAAEHAewBtQwAAbwO8QHsEQAB7AK1AWYBQwEHAbYB3QG1Aa4EZgIA
+        ARwBTAHsAbULAAG8AfEDkQrxAewBAAr/BgAB7QHWAc8BtQGuAWYBrgH0AfMBrgFmAoYBZgIAAZoBegFM
+        AewBtQoAAbwB8QGRAfECkQnxAewBAAH/AgAB/wUAAf8GAAGuAdYBtQHWAYYBCgFmAd0BGQHPA4YBZgMA
+        AZoBegFMAewBtQkAAbwB8gWRCPIB7AEACv8GAAGuA9YBjAGuAWYBiwSuAYYBZgQAAZoBegFMAewBvAgA
+        AbwC8wWRB/MB7AEAAf8CAAH/BQAB/wYAAbUBCQLWA7UCrgHPAosBrgFmBQABmgF6AXQB7wEHBbUCAAG8
+        A/MFkQbzAewBAAr/BgABtQHdAdYBzwGuAosEhgLPAYYGAAGaAbwCtQEJAhkCCQG1AQABvAT0BZEF9AHs
+        AQAH/wEAAv8GAAHtAQkBzwH0Av8C9AHdAgkBhgHPAYYHAAEHAbUCGQHiA/8BCQG1AbwF9AeRAvQB7AEA
+        Af8CAAP/AQABBwEAAf8EAAEEAQAB9wHdAa4C/wH0Af8BGQH/At0ChgGuBwABtQEJARkC4gP/AQkBtQG8
+        BvQHkQH0AewBAAH/AQABBwEAAf8BAAEHAQABBwQAAgQBAAHvAd0BzwX/AhkB3QGGAbUB6gcAAbUBGQEJ
+        ARkB4gH0Af8B9AEZAbUBvAf/ApEC/wKRAf8B7AEAAv8BAAEHAQABBwEAAQcBAAMHAQACBAEAAe8B3QG1
+        A/8C9gL/ARkBZgGvARIHAAG1AxkE4gEZAbUBvAf/ApED/wGRAf8B7AUAAQcBAAEHAQAFBwIEAQABBwHd
+        AbUC/wH0AfYB8wH/AfQB/wGGAWYBrgcAAbUBCQYZAQkBtQG8B/8DkQT/AewGAAEHAQAGBwIEAQABtgHd
+        AbUF/wL0Af8BhgHPAa4HAAEJAbsC/wEZAdwCGQG1AQcBvAj/A5ED/wHsBwAGBwEAAgQBAAK8AbUBBwHv
+        BPcCtQKvAY0IAAK1AQkCGQEJArUBAAG8Dv8B7A4AAgQYAAEHBLUBBwMADvEXAAJsAa4XABD/FAABbAGu
+        AfEB7AJsAewJAAJzAW4BSgEUARUBIgIQASIBEAEAEP8CAAH3CmYFAAFtAesC8wHrAuoBrgFmAWwIAAHs
+        AaABegJ5AXQCUgJLAUMBABD/AgAB9wH/CPcBZgMAAZEBrgHzAfQB7wGSAbsBtQFuAewBrgFtAWYBbAYA
+        Ae0BwwGgAZoDegFZAVMBUgEVAQAC/wEcBEsGSgJEAf8CAAH3A/8B9AHzARkB8AG8AfcBZgMAAbUB8wG8
+        AfcB8AEZAfMBTAElAW8B7wESA2wFAAEcAcMBoAKaA3oBWQFSAUQBAAL/ARwBwwKaCHoBRAH/AgAB9wT/
+        AfQB8wEZAfAB9wFmAwABvAG1AfEC9AEaAUwBTQFGASUBkwEHAa4BEgFsAQAB9wNmAZICwwGgApoDegFS
+        AUoBAAL/ARwBGgigAXoBeQFKAf8CAAH3Bf8C8wHxAfcBZgMAAfABtQG8AfQB/wFGAU0BdQHjAU0BRgK8
+        Ae0B7AEAAfcB9AHzARkBHAPDAaABmgN6AVIBbgEAAv8BHAF5AZoCoAN6AqABegFRAUoB/wIAAbUF/wH0
+        AfMBGQH3AWYDAAEHAZEBtAG1AfADlAHzAZQCTAH3AZEB7wEAAfcB/wL0ARwEwwKgAZoCegFuAQAC/wEc
+        ARoBeQJ6A1ICegFSAXkBSgH/AgABtQb/AvMB9wFmAwABkQK0AW0BkQHvARoB9AH/AfABFgFMAUsCBwEA
+        AbUC/wH0ChwB9wEAAv8BmQHDAaABegF5AXoBoAGaAVIBeQJ6AUoB/wIAAe8G/wH0AfMB9wFmAwABrgG0
+        AW0BcQF3AZABtAG7AQcBkQFyAW8BRgFuAQcBAAG1A/8BHAEaAcMBmgEcAQcGAAL/AZkBwwGaAXkBmgSg
+        AXQCegFKAf8CAAG7B/8B9AH3AWYDAAGRAewBTwF3AZEDtAFxAU8BcQGuAXQBRgHtAQAB7wP/AfMDHAFt
+        AwAB7wEUAfcBAAL/AZkBwwF5AZoGoAFSAXkBSgH/AgABuwf/AvcBZgMAAbUBkQJWAXIDtAGQAU8BcQGu
+        AQABlAFMAQABBwT/AfQB8QG8AWYDAAGLAmYBAAL/AZkBmgTDBKABmgFSAUoB/wIAAQcG/wH3A2YEAAGR
+        AXgDmAG0AdUBtAFxAa4B9wQAAQcE/wH3A2YDAAEHARQCAAL/AZkKwwGaAW0B/wIAAQcG/wG1AbwBZgEJ
+        BAABtQGSAQgBwgHiAcEBkQGzAZEBrgUAAQkE/wG1AbwBZgEHAgABBwHsARQCAAL/B5kGHAH/AgABCQb/
+        AbUBZgEJBgABtQGSAbsBkQGYA5EGAAEJBP8B7wFmAbwCAAOuAe8CABD/AgAFCQIHAbsBCQkAAfcDkQgA
+        AgkDBwG7AbwJABD/EAAQExEAAfcNZgEACP8B8QGRAQkB9AT/AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwQA
+        AesBFQEAAa4BiwdmAQAB9wH/C/cBZgEAB/8BBwG1Aa4B7wHzBP8B9wL/AfAC/wHwAv8B8AL/AfAC/wET
+        BAABkgH/AVIBAAEZAfAFCQFmAQAB9wL/AfQC8wMZAfABvAEJAfcBZgEABP8B9AEHAbUBrgG7AbQBrgHv
+        AfQD/wH3DvABEwQAAZEBHAGaAXoBAAL0ARkC3QEJAWYBAAH3A/8BuwHPAoYBrgG1AfABvAH3AWYBAAP/
+        AfQBBwKRAbUBCQG1Aa4BiwGRAfMC/wH3Av8B8AL/AfAC/wHwAv8B8AL/ARMBcwHsAW0B6gFtAUsBwwF5
+        AXoBAAH0AhkB3QEJAWYBAAH3Av8BtQGtAbUCCQG0AaYBzwHwAfcBZgEAA/8BvAG1AbsE3AG7AbUBiwGu
+        AfQB/wH3Av8B8AL/AfAC/wHwAv8B8AL/ARMBcwGaAXoBeQFSAXkBSwHDAXkBegEAAfQCGQEJAWYBAAH3
+        Af8BCQGtAQkB/wG8AYYBGQHcAaYBtQH3AWYBAAL/AbwBtQG7ARkBtQKLAbQCCQG1AYsBtQH/AfcI8ARF
+        AvABEwHsARoBoAGaAnoBvAFzAcMBeQF6AQAC9AEJAWYBAAH3Af8BtAHcAv8B8AG1AfQBGQG0Aa4B9wFm
+        AQAC/wG7AbwC4gEJAbQBiwG7ARkB3QHcAbUBiwH/AfcC/wHwAv8B8AL/AUUC/wFFAv8BEwHtARoCoAGa
+        AXoBBwH/AXMBwwFZAbQBPwHxAfABZgEAAbUB/wHUAQkD/wGLAbQB9AEJAQQB9wFmAQAB/wHdAbsD4gEJ
+        AbQBiwG7ARkC3QHcAYsBvAH3Av8B8AL/AfAC/wFFAv8BRQL/ARMB7QLDAqABmgEHAv8BdAEJAeMBdAE/
+        AfABZgEAAbUB/wHVAQkC/wHzAfABiwG1AQkBhgH3AWYBAAH/ArwD4gHyAbQBiwG7A+IB3QGuAbwB9wjw
+        BEUC8AETAe0BwwEaA6ABBwP/AUUBdQHjAW4B8QFmAQAB7wH/AdwBCQH/AbUBiwHwAYsCtQHPAfcBZgEA
+        Af8B3QHwAf8B4gH0AbUCiwG7BOIBkQG8AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwHtA8MCoAG7A/8B9AJu
+        Av8BZgEAAbsB/wEZAdUBCQHzAbUBiwG1AQkBrQEJAfcBZgEAAv8B8AL/AfQBCQK1AfEC4gH/Ad0BtQH/
+        AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwGSBMMBoAO7AgcB8AIHArUBAAG7Av8BCQHVAQkCGQEJAbQBCQL3
+        AWYBAAL/AfAE/wIZBP8B8AG8Af8B9weGB/cBEwEcBsMDoAGaA3oB6wIAAQcD/wEZAdwC1QHWAd0B9wNm
+        AQAD/wHdAv8BvAGuAYsBuwL/ARkBvAL/AfcHhgf3ARMIHAbtAbwCAAEHCf8BtQG8AWYBvAEABv8B8wL3
+        AfMB/wLiA/8P9wETARwBGgPDAZoBHAG8CQABCQn/AbUBZgG8AgAQ/xAAAfMFHAHzCgAGCQQHAbsBvAMA
+        EP9sAALrIwABBwHsCusB7AMACeoB6wGSAW4B6gQAAewLbQHsEQAB8QwqAW0B7AEAAjEDKwQqAUsB7QJS
+        ARMDAAJSAUwKKgETAewDAAHsCf8DAAJSAaAJegFSASoB6wEAASsBWAHDBnoBkgFSAVkBKgFKAesBAAFS
+        AXoBUgGgCHoBUgGgASoBbQMAAewD/wEABf8DAAJSAXoBoAh6AVgBSwFtAQcBMQFSAcMBoAGZAbwCBwH3
+        AVICegErASoB6gEAAVIBegFSAaAIegFSAaABKgFtAwAB7AL/AQAG/wMAAlIBWAigAZoBWQFSAW0B7AJS
+        AXoBvAH0Af8C4gEJAZkB5QGgAVIBMQETAQABUgF6AVIJoAFYAaABKgFtAwAB7AL/AgAF/wMAAVIBWAFS
+        CaACeQEqAesBUgFYAVIB8AP/AeIBGQG8AqABeQEqAUoB6wFSAXoBUgmgAXoBoAEqAW0DAAHsAv8DAAH/
+        AQAC/wMAAVIBegFSCaABegGgAUsB6wFSAXoBMQEJAeIB/wHiAhkB8AKgAXoBWAEqARMBUgF6AVIJoAF6
+        AaABKgFtAwAB7AP/BAAC/wMAAVIBmgFSAXkC/wH2Bf8BmgH/AUsB7AFSAeUBWAEJA+IBGQHiAfAC/wGg
+        AXoBKgHqAVIBegFSCf8BmgH/ASoB7AMAAewE/wMAAv8DAAFSAaABeQxSAQcBUgGgAXoB7AIZAeIB/wEZ
+        AVIEMQEqAQABUgGgAZoMUgQAAewD/wQAAv8DAAFSBqAF/wFSAUsBBwEAAVIDoAEHAgkBvAHyA/8BKgHr
+        AgABUgagBf8BKgHsBQAB7An/AwABUgH/BKAB/wZSAfECAAFSAf8EoAH/BTEBKwMAAVIB/wSgAf8FUgFM
+        BgAK7AQAAVIE/wFSAQcJAAFSBP8BUgoAAVIE/wFSGwAEUgHxCwAEUgwABFKtAAHqPgABrgEOARMHAAGu
+        AewSAAG0Aa4DiwGGAwABtAKuAosBZgkAAQkBtQgAAbUBDwERAa4FAAHsARUBtQgAARIBFAEQBwABtQH/
+        AbwBtQG0AYYDAAG0AfMBvAG1Ac8BhgkAAQkB1QHPAbUHAAFtAREBFAQAAfcBEwHrCQACbQEUBwABtQH/
+        AbwBtQG0AYYDAAG0AvMBCQG0AYYKAAEJAdUBzwgAARQBEAHqAgAB9wHrARUB9wkAAeoB7QFtAREGAAG1
+        Af8BvAG1AbQBhgMAAbQC8wEJAbQBhgsAAc8B1QG1CAABEwERAW0B9wHqAUMBkQoAAeoB7wHsARQGAAG1
+        Af8B8wG8AbUBhgMAAbQC8wEJAbQBhgsAAbsBrQHVCQABEwJDARUBFAoAAfAB6gEHAZIBFAEHBQABtQG0
+        Aa4BiwKGAaYBhgG0Aa4BiwKGAWUBiwMABa0BiwMAAa0B1QEJCAABkQFDAhQBkgkAAfABEgGSAfAB7wHr
+        AQ8BBwQAAQkBtAH/AfABtQGuAaYBuwG0AfEBGQG1Ac8BhgG1AwABtAGtAtUBtAQAAa0BtAHcBwABuwHq
+        AxUB6gH3BwAB8AFtAQcB8gHxAQcB7QHqAQ8BBwQAAbUB9AH/ARkBtAGGAYsBtAL/Ad0BzwGGBAABtAPV
+        Ac8EAAKtAdwGAAH3AhQB7AEAAewBFAHsAfcFAAHwAesBBwHzAf8B8wHwAQcBkgHqAQ8BBwQAAbUBtAGu
+        A4sBzwG0Aa4ChgUAAbQD1QKtAwABiwGtAdwEAAEHAesCFAHsAwAB6wEUAewBBwMAAfAB7AHwAfMD/wHy
+        AfABBwHtARIBDwEHAwABtQH/AQkBtAGGAQABtQH/AQkBtQGGBQAB1gIJAdwBtAKtAc8BrQGLAdUEAAH3
+        AesBFQEUAZIFAAH3ARIB7AMAAewBvAHzAv8B9AHzAfIBvAEHAZIBbQESAQ8DAAG7AbUBrgKLAQACtQGu
+        AYsBhgUAAdYCAAEJAdwB1QStBQAB9wEUARMB7wcAAvcDAAHvAQcB8AG8AgcB7wL3AZIB7AHrAW0BEwQA
+        AbQB/wGGAwABtAH/AYYKAAEJAtwC1gYAAfcB6wH3HwABtQG0AYsDAAG1AbQBiwwAAgkmAAFCAU0BPgcA
+        AT4DAAEoAwABQAMAAWADAAEBAQABAQYAAQMWAAP/gQAE/wGAAQEC/wGAAQEBjwH/AwABDwGAAQEBhwH/
+        AwABDwGAAQEBgwH/AwABDwGAAQEBwQH/AwABDwGAAQEB4AH/AwABDwGAAQEB8AEDAwABDwGAAQEB+AEB
+        AwABDwGAAQEB/AQAAQ4BgAEBAfwEAAEEAYABAQH8BQABgAEBAfwFAAGAAQEB/AMAAfgBAAGAAQEB/AMA
+        AfwBAAGAAQEB/gEBAgAB/gEEA/8BAwGAAQEC/wH8AX8C/wIAAv8B8AEfAfABAQIAAcABBwHAAQ8B8AEB
+        AgABwAEHAQABAwHwAQECAAHAAQcBAAEBAfABAQIAAcABBwEAAQEBAAEBAgABwAEHAQABAQEAAQECAAHA
+        AQcBAAEBAQABAQIAAcABBwEAAQEBAAEBAgABwAEHAQABAQEAAT8CAAHAAQcBAAEBAQABcQIAAcABBwEA
+        AQkBAAFxAgABwAEHAYABDwEAAXMCAAHAAQcBgAEfAQABYwIAAcABDwHAAT8BAAHDAgABwAEfAfAB/wEB
+        Af8CAAL/AgAC/wGAAQEEAAHwAQABgAEBBAAB8AEAAYABAQQAAfABAAGAAQEGAAGAAQEGAAGAAQEGAAGA
+        AQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEFAAEBAYABAQUAAQEBgAEBBQAB/wGAAQMCAAL/
+        AQEB/wGAAQcCAA3/AfME/wGAAQMBgAEDAcABAQHgAQMBAAEBAQABAwGAAQAB4AEDAQABAQEAAQECAAHg
+        AQMDAAEBAgAB4AEDAwABAQIAAeABAwYAAeABAwYAAeABAwYAAeABAwMAAQEBAAEBAeABAwEAAQEBAAED
+        AQABAwHgAQMBAAEDAQABBwEAAQcB4AEDAYAB/wGBAf8BgQP/AcEB/wHDAf8BwxX/Ae8H/wHHAfMC/wED
+        AYEB/wE/AcMB4wH8AT8BAwGBAf8BDwHjAccB/AE/AQMBgQH/AY8B8QGHAfwBPwEDAYEB/wHHAfgBDwH8
+        AT8BAwGBAf8BxwH8AR8B+AEfAQABAQHAAeMB/AEfAfABDwEAAQEBwQHjAfgBDwHgAQcBgAEDAcEB4wHw
+        AYcBwAEDAcABBwHAAeMBwQHDAYABAQHBAQcBwAEHAYMB4wGAAQEBwQEHAdgBDwGHAfMBgAEBAeMBjwH8
+        AR8BjwP/AeMBjwH/AT8E/xYACw==
+</value>
+  </data>
+  <data name="priorityLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="priorityLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="priorityLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="priorityLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="priorityLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="priorityLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="priorityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 67</value>
+  </data>
+  <data name="priorityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="priorityLabel.Text" xml:space="preserve">
+    <value>Priorité :</value>
+  </data>
+  <data name="priorityLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label3.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 121</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Complété par :</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label4.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label4.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 94</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Complété le :</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label6.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label6.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 41</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Responsable :</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bFDateLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bFDateLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bFDateLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="bFDateLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bFDateLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="bFDateLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bFDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="bFDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="bFDateLabel.Text" xml:space="preserve">
+    <value>Date du rappel :</value>
+  </data>
+  <data name="bFDateLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label5.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label5.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 10</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bFCommentLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bFCommentLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bFCommentLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="bFCommentLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bFCommentLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="bFCommentLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bFCommentLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 66</value>
+  </data>
+  <data name="bFCommentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="bFCommentLabel.Text" xml:space="preserve">
+    <value>Commentaire :</value>
+  </data>
+  <data name="bFCommentLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAll.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAll.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAll.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlAll.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAll.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlAll.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiTab1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTab1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTab1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiTab1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTab1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiTab1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="editBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="editBox1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="editBox1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="editBox1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="editBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="editBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="editBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 8</value>
+  </data>
+  <data name="editBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 48</value>
+  </data>
+  <data name="editBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="priorityJComboBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="priorityJComboBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="priorityJComboBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="priorityJComboBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="priorityJComboBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="priorityJComboBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="priorityJComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 62</value>
+  </data>
+  <data name="priorityJComboBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bfCommentEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bfCommentEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bfCommentEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="bfCommentEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bfCommentEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="bfCommentEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bfCommentEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 62</value>
+  </data>
+  <data name="bfCommentEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 76</value>
+  </data>
+  <data name="bfCommentEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ucContactSelectBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ucContactSelectBox1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucContactSelectBox1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ucContactSelectBox1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucContactSelectBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ucContactSelectBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucContactSelectBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 116</value>
+  </data>
+  <data name="ucContactSelectBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <assembly alias="Janus.Windows.CalendarCombo.v4" name="Janus.Windows.CalendarCombo.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" />
+  <data name="calendarCombo1.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="calendarCombo1.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="calendarCombo1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calendarCombo1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="calendarCombo1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="calendarCombo1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="calendarCombo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 89</value>
+  </data>
+  <data name="calendarCombo1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bFDateCalendarCombo.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="bFDateCalendarCombo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bFDateCalendarCombo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bFDateCalendarCombo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="bFDateCalendarCombo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bFDateCalendarCombo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="bFDateCalendarCombo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bFDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 8</value>
+  </data>
+  <data name="bFDateCalendarCombo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ebBFPerson.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ebBFPerson.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ebBFPerson.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ebBFPerson.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ebBFPerson.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ebBFPerson.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ebBFPerson.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 35</value>
+  </data>
+  <data name="ebBFPerson.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ucBFOfficerId.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ucBFOfficerId.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucBFOfficerId.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ucBFOfficerId.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ucBFOfficerId.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ucBFOfficerId.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucBFOfficerId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 35</value>
+  </data>
+  <data name="ucBFOfficerId.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTabPage1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTabPage1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTabPage1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiTabPage1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiTabPage1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiTabPage1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiTabPage1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAALrSURBVDhPrZNdSFNhGMdf6C66K9NECLyIohAqkm6CPgiSWtAHRrmsoC6jQkwhLKLFVsbMNaeZ
+        EZUXzqXT0j62kZLNTd2Wczantc/TsZrV3HnntjOn/97W6K6b6A/PeX783+c97/M+h0P+i7YqHdVV5lmh
+        6Mpbddb6q4pkVnnVwA9arLBVZy1Cttfab8lcIgouGD1Z669aXWkakbkS2HbDfitjlNx2qKTNTk6i47FP
+        aUvefOHvqtH7ei93e3svd/l6a7q8f+LG84BeorLP/aqVauzcr71E9noaZSorll13oUQxBAOfht6bROdH
+        EZ0+EXpfCnrGHR9TMLE1Se0wlrLasjoLZK8/g5ztCglHGmwgxWocqLWiZULEbbsAzWgMdTYBdQ4B6lGK
+        ensU96ZE7L9pAdmixjG1A+e7gwKRtoxTXwJ4N51E81gcg3wSA8EEGtgG2ycRRm8cypEoHGzd5I/joTuO
+        qXAKTgE42DROyam7YxRZqYYiWQIeOaOZnEgt4LFjNsNpxvezzM7ELqWDkj3sYf8yjyE/RbVxBhavgKfj
+        UZx6Ng2jO4onYxGc7uHh5GJoHY3gWl8Y7k9z6AuI2KO0U3JIOUKT7G1hIYX9bSGEY2l4vos4pAuBJhdg
+        5uYgYb7AeCQYx+mnPBYXFzEpLGKnfJiSrTVvKKtH6FsCOx748JWmWIg42h5Eej4NSyiO0jY/kqx9K+vy
+        sDYAUZxH/+cUCir6KFl13kSv9s9A9pLHOpUHCgOPyu4Q1tR7IGd86QWHtapJNL6Zxll9EJsbp6Bhn77C
+        8BWrzpko2XTRwOb5WxtV7iwBex96MzkYTWF302SGf7BrSh789l1sxktO9Aik8Nwr9HxIoNsZQb7iPXrY
+        APWuWWxg3Zi9FBpLGIW1blgDMTQMhLH+zgQG2aDl1lksPdMLklfaas472cHnHtdyOeU6bqVUm4kcqY7L
+        ZTmvXMstZ5zPcg6LFeXtXG4Z80928vmlj82Z/+HfRchPCThyHvFo21wAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="uiTabPage1.Text" xml:space="preserve">
+    <value>Rappel</value>
+  </data>
+  <data name="uiTabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiTab1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BottomRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="BottomRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BottomRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BottomRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BottomRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiCommandBar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiCommandBar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdHideCompletedBFs1.ToolTipText" xml:space="preserve">
+    <value>Cachez les rappels complétés</value>
+  </data>
+  <data name="uiCommandBar2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiCommandBar2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiCommandBar2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tsScreenTitle.Text" xml:space="preserve">
+    <value>Rappels</value>
+  </data>
+  <data name="tsAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK8gAA
+        CvIBPVL3EQAAAQJJREFUOE+lkTEKwkAQRfcIlrERBJsFT5HeA5jOeg+QXqwX67CVvSksvEDAI+gBBNs9
+        wjh/w5jEbKKi8NjMLP/NsCoi+otoU3DWkJCb7AXudqUjEA0ChPwt61JpuhQ6SIKgMuPhdKE64cdpRr7k
+        HpPZlLJS8yqHK70ojmHdEF4mjaQVvtiadD8PBIHnsaAXxslhSCToNhzmWudT0kXSCDphrnFiaqh5suL3
+        Fvin1IolQcBrywYSbteYitCx8qQmmrvNWyVrvmsLYmDd691HBWBQgJCAsDsPCWwtwCnfZut64K1GBWOT
+        5W/+agMEYxuYYkCAy0+TER4V4OJbeoL3xm+QegL3MsVzdOKZ3AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsAudit.ToolTipText" xml:space="preserve">
+    <value>Propriétés de la ligne de données</value>
+  </data>
+  <data name="tsEditmode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAAAAAAP///////wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAACACwAAAAAEAAQ
+        AAAIHQAFCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFgQEBADs=
+</value>
+  </data>
+  <data name="cmdFile.Text" xml:space="preserve">
+    <value>&amp;Fichier</value>
+  </data>
+  <data name="cmdView.Text" xml:space="preserve">
+    <value>&amp;Affichage</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>&amp;Édition</value>
+  </data>
+  <data name="cmdSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFGSURBVDhPpZKxSkNBEEXfh/gBfoBWRoJVIBaKlZJe
+        xS5WURC0iVUiBMuAdhFEEGNhExs7sbKxEBQLLYIEQQmCxfjOxFl2XzYWOnAfD3bv2bmzm4jIv6Sf9tm7
+        +Dpq9VSHByJ79Q/VbvVVdrZfZHPjUdbLd6oAcNkZbP6t+p9fsrR46pRWCOCUUYW52+tLfuFCclOVEEC7
+        AGgxVmZ+eH5TADHm59J8BiArABay5Ztv77syXjjR/AGA7AB+BuMqa+5cP8nYTEtWlm/iABasYmYDkL9Y
+        3GfbAMDwADBMIDZl8iLaxmjmIQDDszdgd5+9dx9M+wGATf7DmS2Vh1Ra2wrMXKUDcIJ/MoYkXZrIFTQ/
+        Wq3UNA7myelmHGBtA8CMCTOD5B+jKQCQj9MxMzDMx+dXKps+0JGARqPthkRGE+1a3pgc4O+S5BvyPu9G
+        fQFSVQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="cmdSave.ToolTipText" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="cmdHideCompletedBFs.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABMUlEQVQ4T6WPu2qEQBRA5xO2
+        1kIQPyFdKjs7P2CL7VwSErIrBGRhdSv/wypdLAUrC79hK2uxkIDgAxS88Q6M7Doj5FEcHO51znAIAPwL
+        4fA3zAfP88j5fJ5xXfdhmlkicCcUII7jMPZN05TjOMItOMOdUHC5XOjrh8MBeRqGAfq+vwNnuFsVIKfT
+        iViW9dx1HdR1fQfOcMcJls3H4/EjTVNIkgSu1yuUZUmpqgq22+0LJ1hrbtsW4jiGPM8pKDFN85UTiJrD
+        MKTNURRBURSULMu+dF1/4wSsOQgC2opf3/dps2EYn5IkvTMURXnkBNiFfbZtz9w2q6pKNpsNZZLM9+YD
+        duEF7NztdlzzBJleXhdgF/ax1mXzBP5DZFkWC7CLNS7BnaZphDHNeMFfEQ5/DpBvbR2hrW5eRu8AAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdHideCompletedBFs.Text" xml:space="preserve">
+    <value>Cachez les rappels complétés</value>
+  </data>
+  <data name="cmdHideCompletedBFs.ToolTipText" xml:space="preserve">
+    <value>Cachez les rappels complétés</value>
+  </data>
+  <data name="cmdToggleTooltip.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAA9ElEQVQ4T2P4//8/RRirICkY
+        qyApGKsgKRirICmY4fQmxkYgXkMmbmQ4vp5x3f8va/7/+7iAJAzSA9LLcGgV48bfb6f8//G8niQM0gPS
+        y7BnCePWr89a/3+4X0oSBukB6WXYOpdx55cn1f8/PiglCYP0gPQyrJjIMGlpH8NhZPztae1/dDFsGKSX
+        AchgmNfOwODvAsFT6xnOgHBBAkMaTAwXDnZnYAAboKEEZDAwsAGxGkhzUghDPZCtB8RaQKwKxHJALAHE
+        QkDMA8QgtUxAjAKYgVgYiKWAWBKIxYFYFCrGD8QgjZxADNIMUssIxAOelP8zAADsUnM59bvRnwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdToggleTooltip.Text" xml:space="preserve">
+    <value>Cachez l'infobulle de la colonne Code d'étape de la grille</value>
+  </data>
+  <data name="cmdToggleTooltip.ToolTipText" xml:space="preserve">
+    <value>Cachez l'infobulle de la colonne Code d'étape de la grille</value>
+  </data>
+  <data name="cmdCompleteBF.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIfXAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBm
+        mQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD/
+        /zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZ
+        MzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYA
+        mWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ
+        /2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkz
+        M5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnM
+        mZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz
+        /8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/
+        M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9m
+        mf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP//
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBCgD/ACwAAAAAEAAQAAAIVAD/CRxIsKDBgwgTFmzFsKFDg62u
+        SZwosZWghRQpWsSYEcC1jQQjUgTgEeTAiB6vkax4MaRKkik/tjwpceVEkwJFZpS50KHPmQMFCR1KVKHR
+        owIDAgA7
+</value>
+  </data>
+  <data name="cmdCompleteBF.Text" xml:space="preserve">
+    <value>Compléter le rappel</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.ImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.LargeImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="LeftRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LeftRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LeftRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="RightRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="RightRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RightRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TopRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="TopRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TopRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TopRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TopRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="activityBFGridEX.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="activityBFGridEX.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="activityBFGridEX.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="activityBFGridEX.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="activityBFGridEX.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="activityBFGridEX.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="imgListBFType.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACQ
+        GQAAAk1TRnQBSQFMAgEBEgIAAQMBAAEDARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        AUADAAFQAwABAQEAAQgGAAEUGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEA
+        AfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEA
+        AYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFm
+        AwABmQMAAcwCAAEzAwACMwIAATMBZgIAATMBmQIAATMBzAIAATMB/wIAAWYDAAFmATMCAAJmAgABZgGZ
+        AgABZgHMAgABZgH/AgABmQMAAZkBMwIAAZkBZgIAApkCAAGZAcwCAAGZAf8CAAHMAwABzAEzAgABzAFm
+        AgABzAGZAgACzAIAAcwB/wIAAf8BZgIAAf8BmQIAAf8BzAEAATMB/wIAAf8BAAEzAQABMwEAAWYBAAEz
+        AQABmQEAATMBAAHMAQABMwEAAf8BAAH/ATMCAAMzAQACMwFmAQACMwGZAQACMwHMAQACMwH/AQABMwFm
+        AgABMwFmATMBAAEzAmYBAAEzAWYBmQEAATMBZgHMAQABMwFmAf8BAAEzAZkCAAEzAZkBMwEAATMBmQFm
+        AQABMwKZAQABMwGZAcwBAAEzAZkB/wEAATMBzAIAATMBzAEzAQABMwHMAWYBAAEzAcwBmQEAATMCzAEA
+        ATMBzAH/AQABMwH/ATMBAAEzAf8BZgEAATMB/wGZAQABMwH/AcwBAAEzAv8BAAFmAwABZgEAATMBAAFm
+        AQABZgEAAWYBAAGZAQABZgEAAcwBAAFmAQAB/wEAAWYBMwIAAWYCMwEAAWYBMwFmAQABZgEzAZkBAAFm
+        ATMBzAEAAWYBMwH/AQACZgIAAmYBMwEAA2YBAAJmAZkBAAJmAcwBAAFmAZkCAAFmAZkBMwEAAWYBmQFm
+        AQABZgKZAQABZgGZAcwBAAFmAZkB/wEAAWYBzAIAAWYBzAEzAQABZgHMAZkBAAFmAswBAAFmAcwB/wEA
+        AWYB/wIAAWYB/wEzAQABZgH/AZkBAAFmAf8BzAEAAcwBAAH/AQAB/wEAAcwBAAKZAgABmQEzAZkBAAGZ
+        AQABmQEAAZkBAAHMAQABmQMAAZkCMwEAAZkBAAFmAQABmQEzAcwBAAGZAQAB/wEAAZkBZgIAAZkBZgEz
+        AQABmQEzAWYBAAGZAWYBmQEAAZkBZgHMAQABmQEzAf8BAAKZATMBAAKZAWYBAAOZAQACmQHMAQACmQH/
+        AQABmQHMAgABmQHMATMBAAFmAcwBZgEAAZkBzAGZAQABmQLMAQABmQHMAf8BAAGZAf8CAAGZAf8BMwEA
+        AZkBzAFmAQABmQH/AZkBAAGZAf8BzAEAAZkC/wEAAcwDAAGZAQABMwEAAcwBAAFmAQABzAEAAZkBAAHM
+        AQABzAEAAZkBMwIAAcwCMwEAAcwBMwFmAQABzAEzAZkBAAHMATMBzAEAAcwBMwH/AQABzAFmAgABzAFm
+        ATMBAAGZAmYBAAHMAWYBmQEAAcwBZgHMAQABmQFmAf8BAAHMAZkCAAHMAZkBMwEAAcwBmQFmAQABzAKZ
+        AQABzAGZAcwBAAHMAZkB/wEAAswCAALMATMBAALMAWYBAALMAZkBAAPMAQACzAH/AQABzAH/AgABzAH/
+        ATMBAAGZAf8BZgEAAcwB/wGZAQABzAH/AcwBAAHMAv8BAAHMAQABMwEAAf8BAAFmAQAB/wEAAZkBAAHM
+        ATMCAAH/AjMBAAH/ATMBZgEAAf8BMwGZAQAB/wEzAcwBAAH/ATMB/wEAAf8BZgIAAf8BZgEzAQABzAJm
+        AQAB/wFmAZkBAAH/AWYBzAEAAcwBZgH/AQAB/wGZAgAB/wGZATMBAAH/AZkBZgEAAf8CmQEAAf8BmQHM
+        AQAB/wGZAf8BAAH/AcwCAAH/AcwBMwEAAf8BzAFmAQAB/wHMAZkBAAH/AswBAAH/AcwB/wEAAv8BMwEA
+        AcwB/wFmAQAC/wGZAQAC/wHMAQACZgH/AQABZgH/AWYBAAFmAv8BAAH/AmYBAAH/AWYB/wEAAv8BZgEA
+        ASEBAAGlAQADXwEAA3cBAAOGAQADlgEAA8sBAAOyAQAD1wEAA90BAAPjAQAD6gEAA/EBAAP4AQAB8AH7
+        Af8BAAGkAqABAAOAAwAB/wIAAf8DAAL/AQAB/wMAAf8BAAH/AQAC/wIAA/8BAAX/AbwK/wIAAbMDiwUA
+        Ak8jAAT/AvcBkQGuAe0BcwG1Bf8BAAGLAdsD3AGtAYsBAAFPAnICmAFPIQAD/wHtAfMBtQHtAu8BvALv
+        Ae0BcwL/AYsE3AIJAfEBkQFJAU8BAAFyAQABkSEAAv8BtQHxAbsB7wGmAawBtQGsAbwBtQEIAe8C/wGL
+        A9wCCQEZAQACTwIAAnIBmAFPIAAC/wG8ArMB7wKmAZEBrAGZAaYBtAG1Av8BiwPcAQkBGQIAAUkBAAJP
+        AQABcgFPAUkgAAL/AbUBrQHxAbwC7wK1Ae8BhgGRAe8C/wEAAYsB3AIJARkBvAHwBE8CAAFJAU8gAAL/
+        AQkB8wEJAbUBrAHHAe0BigHvA7UC/wIAAYsB3AEJAZICSwGRAXIBmAJPAQABciEAAv8B8wG0ArUCpgHt
+        AawB7wGGAYsB7wL/AwABiwHsAUsCSgEcAU8BmAGdAnIBTyEAAv8BtQGLAQkC7wLtAYsB7wGGAa0B9wL/
+        BQABSgNLAgACTwGYIgAC/wG0AvMB7wHtBu8B9wL/BQABSwFuAnMBHCYAAv8B8wG0AbsBvAKmAe0BrAHv
+        AawBkAHvAv8EAAHrAW4DdAGTJgAC/wG7AZEBtQHvAaYBrAGRAaYB7wGmAa0B9wL/BAABFQFuAXQBkwKZ
+        JgAC/wG0AbwB8wG8Ae0B7wL3Au8B9wHtAv8EAAFDARMCmgIaJgAC/wLzAvEBmQW8Au8C/wQAAhMBcwEc
+        AXMBByYAAv8C7wTxAvMBvAH3BP8EAAGSAm0B6wHtJwAE/wHxAbwBtQHvAfcB7wb/BQAB7AHrAfcpAAHX
+        DNYB1wIADpoBAAH2A/8B9gb/AfQCGgEbAfYF/wHxAe8B9wHvAbwB8gX/AQkC/AihBPwB1wGaAjIIMQQy
+        AZoB9AEZAdwBCQHcAQkB9AL/Ab0BBwGOA28BjgP/AW4BJQJMAyUBHwFuAewB8wL/AdYC/AjdAacD/AHW
+        AZoCMggaBDIBmgG7AbMBrQLUAbQCuwEHAZQBmgGUARYB4wFHAUYC/wIlBEwCJQEfASQBHwHvAv8B1gH8
+        AaEI/wHIA/wB1gGaATIBMQj/AVkDMgGaAbUC1ALVAdYBCQG0AY0BFgHzAZoBlAEWAeMBbwL/B0wDJQEk
+        AfAC/wHWAfwBoQj/AeYBpwL8AdYBmgEyATEI/wF6AzIBmgG7AbQB1AHVAdsB8AHyAdUBtAGTAZkBmgGU
+        ARYBbwEbAv8BmgJTAU0DTAMlAR8D/wHWAfwBoQH/AbUFzwG1AdYB5gH8AT0B1gGaATIBMQH/AXoEWQFT
+        AZoCegIyAZoBGQHcAdQB1QHcAfIB8QHVAbUBmgFuAUsBdAGUAb0B9gP/A1MDTAFGAiUB9wP/AdYB/AGh
+        CP8C1gL8AdYBmgEyATEI/wKaAjIBmgH/Ad0BtAG1AfcBbgHtAQkBvAFuAUsBSgFLAZMC9gP/AlMBTAHv
+        AfcCRgElAUUE/wHdAuYB/wHXBdYB3QHWAfQC5gHdARoCegH/BpoBGgGaAfYCegHDAv8BGQG1AeoBSwHq
+        AfIB9AFuAXQBcwFKAXMB9gX/ARoBTAJTAXQBJQG8Bf8B3QHQAeYI/wEJAf8B5gHQAd0BwwJ6CP8BmgH2
+        AnoBwwH2A/8BbgJLAXMB9gKZAXQBSwHrAfYF/wHzA3oBdQF0AfQF/wEZAtYB/wbdARkB3QH/AtYBGQHD
+        AZoBegH/AcMEGgHDARsBGgH/AXoBmgHDAv8B9gHzAW4BcwF0ARwBGwEaAZoBdAFzARwB9gX/AVMEegF1
+        Ae8F/wEZAtYI/wHdAf8C1gEZAcMCmgj/ARoB/wKaAcMD/wHrAW4BdAKZARoBdAEcAnQBGgH2Bf8GegFt
+        AfME/wHzAQkB1gH/AfQF8wH0Ad0B/wHXAQkB8wHDApoB/wf2AcMB/wKaAcMD/wHqAUoBmgEaAfEBGgFz
+        AewBeQGZAcMB9gX/A5oDegExAe8E/wHzAd0BCQj/Ad0B/wLdAfMB9gEaAZoI/wHDAf8BwwEaAfYD/wHs
+        ARMBkgH3Ae8B/wL2Cf8EmgF6AjEB9wT/AfQE3QEZAvQC/wP0At0B9AH2BMMBGwf2AsMB9gP/AQcCbQHs
+        Ae8M/wEqA5oBUgIxAfAF/wQZAfQB/wL0AfMBGQPdARkB/wH2BMMB9gH/A/YBGwTDAfYE/wHxAfAB8wP/
+        AfYJ/wMqASsDMQX/AQAO/wIADvYBABX/ASoCKwIxBv8RAAHwDLwB8AIADtgCAAG9DLcBvREAAfAC7Aht
+        BOwB8AHYAn8IpQR/AdgBvQFGAUcIQARGAb0QAAG8AewB6wjxBOwBvAHYAn8I3gR/AdgBtwFGAUABGga9
+        ARoDRgFHAbcHAAFvAUYHAAG8AewB6wj/Ae0D7AG8AdgBfwGlCP8BqwN/AdgBtwFGAUAI/wFqAkYBRwG3
+        BwABdQFGARoGAAG8AewB6wj/Ae8D7AG8AdgBfwGlCP8B5wN/AdgBtwFGAUAI/wEWAkYBRwG3BwABGgGZ
+        BwABvAHsAesB/wHvBO0B7AIHAfcC7AG8AdgBfwGlAf8B0gWrAtgB0gJ/AdgBtwFGAUAB/wGTBW8BBwGU
+        AW8BRwFGAbcHAAGaAZMHAAG8AewBbQj/AgcC7AG8AdgBfwGlCP8C2AJ/AdgBtwFGAUAI/wKUAUcBQAG9
+        BwACTAEbBgAB8QLvAf8FvAEHAfEBvAH0Au8B8gHeAucB/wbYAd4B2AH0AucB3gG9ARYB4wH/Ab0FlAK9
+        AfQCFgG9BgABmQFNASYBmQYAAfMBBwHvCP8B8AH/Ae8BBwHyAd4B0gHnCP8B2AH/AucB3gG9AhYI/wG9
+        Af8CFgG9BgABdAFNASYBTAYAAfMBvAEHAf8B8wTyAfEB8wHwAf8BBwG8AfMB3gHYAecB/wjeAf8B5wHY
+        Ad4BvQKUAf8GvQHzAb0B/wKUAb0GAAFvAXUBTQElBgAB8wK8CP8B8QH/AQcBvAHzAd4C2Aj/Ad4B/wLY
+        Ad4BvQKUCP8BvQH/ApQBvQYAAXQBlAF1AUwGAAH0AfABvAH/B/QB8gH/AbwB8AL0AtgC/wX0Af8B3gH/
+        AtgC9AG9AbcB/wb0AfYBGgH/Ar0B9AYAARoBFgFvARsGAAH0AfEB8Aj/AfMB/wHxAfAC9AHeAdgI/wHe
+        Af8C3gL0Ar0I/wG9Af8CvQH0EAAB9ATyAfMD9AH/A/QB8wHyAfQB/wXeB/8C3gH/AfQEvQHzAfQB9gL/
+        AfYC9AK9AfQQAAH/BPMB9AH/A/QF8wH0Af8E3gT/AfQF3gL/Ab0B8wK9AfQB/wH2AfQC8wS9Af8RAA7/
+        AgAO/wIADv8BACDqIAAB9wLwAQcC8AEHAvABBwLwAQcC8AHqAfcC8AEHAvABBwLwAQcC8AEHAvAB6iAA
+        AbUC8wEHAe8BEQEHAvMBBwLzAQcC8wHqAbUB8wEHARUBEQHrAQcC8wEHAvMBBwLzAeogAAG1AbwB7AES
+        ARQBAAHrArwBBwK8AQcCvAHqAbUBvAFtARUB7AERAe0CvAEHArwBBwK8AeoWAAO0AdUGAAG1AfEB6gFD
+        AW0BAAHsAvEBBwLxAQcC8QHqAbUB8QHvAewB8AEQAW0C8QEHAvEBBwLxAeoWAAGLAdwBCQHWBgABtQHz
+        Ae8BDwHsAQABBwLzAQcC8wEHAvMB6gG1AfMB7wEUAesBDwHtAvMBBwLzAQcC8wHqFgABiwHVAdwBtAYA
+        AbUCvAETARQBAAEHArwEtQK8AeoBtQG8AZIBAAJtAQcCvAS1ArwB6hYAAYsB1QHcAbQGAAG1AvAB9wEQ
+        AQABBwLwAa4CtQGuAvAB6gG1AfABBwEAAeoB6wHvAvABrgK1Aa4C8AHqFgABiwHVAdwBtAYAAbUC8wEH
+        AesBQwEHAvMBrgLzAa4C8wHqAbUC8wEVARMBEgH3AvMBrgLzAa4C8wHqFgABrQHVAdYBtAYAAbUC8AEH
+        AbwB7QEHAvABrgIHAa4C8AHqAbUC8AGSAu0B7wLwAa4CBwGuAvAB6hQAAosBrQHVAdYBtAG1AQkEAAG1
+        ArwBBwK8AQcCvAHtArUB7QK8AeoBtQK8AQcCvAEHArwB7QK1Ae0CvAHqFAAB/wKtAbQC1QGtAf8EAAG1
+        AvMBBwLzAQcC8wEHAvMBBwLzAeoBtQLzAQcC8wEHAvMBBwLzAQcC8wHqFQAB8wGLAc8BtAGtAf8FAAG1
+        ArwBBwK8AQcBvAHwAQcC8AEHAvAB6gG1ArwBBwK8AQcBvAHwAQcC8AEHAvAB6hYAAfMCiwH/BgABtQeu
+        B7UB6gG1B64HtQHqIAABtQeuB7UB6gG1B64HtQHqIAAPtQHqD7UB6jAAMOoQAAH3AvABBwLwAQcC8AEH
+        AvABBwLwAeoB9wLwAQcC8AEHAvABBwLwAQcC8AHqAfcC8AEHAvABBwLwAQcC8AEHAvAB6gEABbUFzwOu
+        AgABtQLzAQcB7AERAQcC8wEHAvMBBwLzAeoBtQHzAesBEAIRAesC8wEHAvMBBwLzAeoBtQHzAQcBFQER
+        AeoBBwLzAQcC8wEHAvMB6gEAAbUBGQHiAhkE3AHVArQBrgIAAbUCvAEHAeoBAAEHArwBBwK8AQcCvAHq
+        AbUBvAHtAQABEgHrAZICvAEHArwBBwK8AeoBtQG8AW0BFQHsARAB7AK8AQcCvAEHArwB6gEAArUB9AH/
+        AfQB4gIZA9wBzwGuAgABtQLxAQcBbQEAAQcC8QEHAvEBBwLxAeoBtQHxAbwBEgERAfcBBwLxAQcC8QEH
+        AvEB6gG1AfEB7wGSAfABDwHrAvEBBwLxAQcC8QHqAQABtQEZAbUB9AH/AvQCGQEJAbQB3AGuAgABtQLz
+        AQcBbQEAAQcC8wEHAvMBBwLzAeoBtQLzAfcB6gEVAe8C8wEHAvMBBwLzAeoBtQLzAQcBEgFDAfcC8wEH
+        AvMBBwLzAeoBAAG1AfQBCQG1A/QBGQEJAc8CCQGuAgABtQG8Ae8B6wETAQABBwK8BLUCvAHqAbUBvAHv
+        AZIB7wEPAewCvAS1ArwB6gG1ArwB7wFtAQ8B7wK8BLUCvAHqAQABtQEZAbUBoAS1AfcBegH3AQkBtQIA
+        AbUB8AHvARMBDwEAAQcC8AGuArUBrgLwAeoBtQHwAfcBFAH3AQ8B6wLwAa4CtQGuAvAB6gG1AfAB7wES
+        Ae0BAAH3AvABrgK1Aa4C8AHqAQABtQG7BMMCoAGaAnoBtQGuAgABtQLzAe0BQwEAAQcC8wGuAvMBrgLz
+        AeoBtQHzAbwBFAHrARIB9wLzAa4C8wGuAvMB6gG1AfMBvAEUAW0B6gEHAvMBrgLzAa4C8wHqAQABtQSg
+        A5oEegGvAgABtQLwAQcB7QETAQcC8AGuAgcBrgLwAeoBtQLwAfcB7QHvAQcC8AGuAgcBrgLwAeoBtQLw
+        AfcB7QIHAvABrgIHAa4C8AHqAgABtQX2AcMCoAGaAbUDAAG1ArwBBwK8AQcCvAHtArUB7QK8AeoBtQK8
+        AQcCvAEHArwB7QK1Ae0CvAHqAbUCvAEHArwBBwK8Ae0CtQHtArwB6gMAAbUC9gH/AfYCwwGgAa8EAAG1
+        AvMBBwLzAQcC8wEHAvMBBwLzAeoBtQLzAQcC8wEHAvMBBwLzAQcC8wHqAbUC8wEHAvMBBwLzAQcC8wEH
+        AvMB6gQAAbUE9gHDAa8FAAG1ArwBBwK8AQcBvAHwAQcC8AEHAvAB6gG1ArwBBwK8AQcBvAHwAQcC8AEH
+        AvAB6gG1ArwBBwK8AQcBvAHwAQcC8AEHAvAB6gUABbUGAAG1B64HtQHqAbUHrge1AeoBtQeuB7UB6hAA
+        AbUHrge1AeoBtQeuB7UB6gG1B64HtQHqEAAPtQHqD7UB6g+1AeoBQgFNAT4HAAE+AwABKAMAAUADAAFQ
+        AwABAQEAAQEFAAGAAQIWAAP/AwABwwHnBgABgAGBBwABFQYAAQEBMAYAAQMBSAYAAYABDAYAAcABBQYA
+        AeABAQYAAfgBYwYAAfgBPwYAAfABPwYAAfABPwYAAfABPwYAAfABPwYAAfABfwYAAfgB/wQAAYABAQGA
+        AQF0AAGAAQEBgAEBBAAC/wGAAQEBgAEBAYABAQL/BgAC/wYAAf4BfwYAAf4BPwYAAf4BfwYAAf4BfwYA
+        Af4BPwYAAfwBPwYAAfwBPwYAAfwBPwYAAfwBPwYAAfwBPwYAAv8GAAL/BgAC/wGAAQEBgAEBAYABAQQA
+        BP8EAAT/BAAE/wQAAv8B/AE/BAAC/wH8AT8EAAL/AfwBPwQAAv8B/AE/BAAC/wH8AT8EAAL/AfwBPwQA
+        Av8B8AEPBAAC/wHwAQ8EAAL/AfgBHwQAAv8B/AE/BAAE/wQABP8EAAb/BgAC/wYAAYABAwYAAYABAwYA
+        AYABAwYAAYABAwYAAYABAwYAAYABAwYAAYABAwYAAYABAwYAAcABBwYAAeABDwYAAfABHwYAAfgBPwYA
+        Av8GAAL/BgAL
+</value>
+  </data>
+  <data name="activityBFGridEX_Layout_0_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAG1SURBVDhPY6AtyHsWz5D1IA/KIxHkfvDwnP7yl/+c138Y
+        ct6GQkWJBJkfjDUa7n069uT//znn//9Xrbn5nSHtlR1UlgCI+6AsXHj5xf6H///X7vr6v2jzl/+V27/+
+        F807/44h5o4OVBUOkPhMlD3j/K1tt/7+rwNqzl73/n/qyrf/k1a++Z+48v1/7sRjjxhSbslAVaMB1+fc
+        bKlnT2y59e//lOM//qetfv8/cfnr/1GLXv4Pmff8f+Dcp/8DF775zxZ5+BKD/3kBqC4osN/PwpBwaItM
+        wdn/ysXn/tt33f6fu+Hd/9D5L/77z3n233Pag/9KSav/C0Zv/c8fu+c/g/+OAwy5t9ihujGBZumZ//0H
+        P/93n/bkv8vUJ/8dJz74LxK15j9UmjBQLz79v3HXh//W/Q//W/be/2/adee/QPha4g1Qyjvxv3jTm/8G
+        HXf/67Xd/a/ZfPM/X8hK4g2QzTj6P33li/9qjTf/K9fd/C9fc/U/h98y4g2QTj/033vei//yjXf+S9be
+        /i9ccfU/q89y4g1gdFrxkdVr3RcW5+VfGR3nf2a0m/+RwXLBe6j0oAIMDAAYUd2z7PZb0gAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="activityBFGridEX_Layout_0_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAALASURBVDhPrZFdSFNxGMZPBV0kXhV0MbrR2z682JWxi+k+
+        sNnMzTnXPM7NTSd+TFmJqGdOt8gZihpiEqFmDgUlzQos6yLopkKQIpAhWGsuddrmjts06Omc45lD6LIH
+        npvzf3/v877vIf67/rjqMg/cVmq/s9IXc5qjNGWKRlvLfeEWAxW+VZbJl/1bCbdVvd9hXd9x1YP2DiDx
+        fJRz1NuPDcqKLXvJ+kZjsZovPy4Wjjsr6ciQG7/fTCEx3o2Yp4Zz4rEHB4uTCA20w19TSPutBcebxNur
+        M2IOSyA85OLgvc4KzklFHUZE28qxv+DFZk8rVs15gRWjIoPHCYKmKhyhjtoU3GEC7TTxOBBpMSDcbMCv
+        JhKJFxNYbSDxlcxx8DhBMAU+ds/EWBcHJhOTYsEdeylCDXpE7nci9MCD5RKRj8cJYrtJH0u8HAPtruLA
+        ZGJSLLhVfxObtTps2AyITD7Ekio7xuMEsdGgjcXnR7HrtByNyiYerHzmGrDgz+oSBKu0CNaSiEwM44NS
+        mGoQqCv0hUd6QQ+7j0ZlEyOP+hB96uXAdUsxAiYNtjwUgv138P5aVmqFtSqlY81ejvj8k6NR2cSkWNBv
+        LMJ3gxq7UyNYNt7AO9nF1BG9HrPuo6kA613N2JsdP0rcHvAw/76LA7+RKg5epWyYlwnh0st1PE6cYHxy
+        rImc+6TLhd99G/T0GEL32vGjqhT+Sj0271LM4Ri4zYYFySV0F0vnDtFDnWZ8hnH6kLXo9Vu1GF/MKgT7
+        mHuMDmJ7ZBCBXheWyHzM5mbBXSR5pdFoTnEkr/S0tLTzCoXCrtVqnS2W4plB8vrOM8VVLMqz8Ep6GdNS
+        IXpUuTuNpQUzbI1SqWzNz88/x/PEWcYXBALBFaFQmCcSifRisbgsJyfHLJfLbYzrJRKJhfmmk0qlGplM
+        ls28CRiGWZ0g/gI3HvJxFn2tUAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="activityBFGridEX_Layout_0.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Key&gt;ActivityBF&lt;/Key&gt;&lt;Caption&gt;ActivityBF&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="isMail"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;DataMember&gt;isMail&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;FilterEditType&gt;DropDownList&lt;/FilterEditType&gt;&lt;HeaderImageKey&gt;MarkasRead.gif&lt;/HeaderImageKey&gt;&lt;HeaderToolTip&gt;Mail Flag&lt;/HeaderToolTip&gt;&lt;Key&gt;isMail&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;25&lt;/Width&gt;&lt;FilterRowButtonStyle&gt;None&lt;/FilterRowButtonStyle&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;ValueList Collection="true" ElementName="Item"&gt;&lt;Item0 ID="True"&gt;&lt;ImageIndex&gt;0&lt;/ImageIndex&gt;&lt;Text&gt;Mail&lt;/Text&gt;&lt;ValueType&gt;System.Boolean&lt;/ValueType&gt;&lt;Value&gt;True&lt;/Value&gt;&lt;/Item0&gt;&lt;Item1 ID="False"&gt;&lt;Text&gt;Non-Mail&lt;/Text&gt;&lt;ValueType&gt;System.Boolean&lt;/ValueType&gt;&lt;Value&gt;False&lt;/Value&gt;&lt;/Item1&gt;&lt;/ValueList&gt;&lt;/Column0&gt;&lt;Column1 ID="BFType"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;DataMember&gt;BFType&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;DropDownList&lt;/FilterEditType&gt;&lt;HeaderToolTip&gt;BF Type&lt;/HeaderToolTip&gt;&lt;Key&gt;BFType&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;23&lt;/Width&gt;&lt;FilterRowButtonStyle&gt;None&lt;/FilterRowButtonStyle&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;ValueList Collection="true" ElementName="Item"&gt;&lt;Item0 ID="1"&gt;&lt;ImageIndex&gt;16&lt;/ImageIndex&gt;&lt;Text&gt;Office&lt;/Text&gt;&lt;ValueType&gt;System.Int32&lt;/ValueType&gt;&lt;Value&gt;1&lt;/Value&gt;&lt;/Item0&gt;&lt;Item1 ID="2"&gt;&lt;ImageIndex&gt;15&lt;/ImageIndex&gt;&lt;Text&gt;Direct&lt;/Text&gt;&lt;ValueType&gt;System.Int32&lt;/ValueType&gt;&lt;Value&gt;2&lt;/Value&gt;&lt;/Item1&gt;&lt;Item2 ID="7"&gt;&lt;ImageIndex&gt;14&lt;/ImageIndex&gt;&lt;Text&gt;Role&lt;/Text&gt;&lt;ValueType&gt;System.Int32&lt;/ValueType&gt;&lt;Value&gt;7&lt;/Value&gt;&lt;/Item2&gt;&lt;Item3 ID="8"&gt;&lt;ImageIndex&gt;17&lt;/ImageIndex&gt;&lt;Text&gt;Recipient&lt;/Text&gt;&lt;ValueType&gt;System.Int32&lt;/ValueType&gt;&lt;Value&gt;8&lt;/Value&gt;&lt;/Item3&gt;&lt;/ValueList&gt;&lt;/Column1&gt;&lt;Column2 ID="Priority"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;DataTypeCode&gt;Int16&lt;/DataTypeCode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;DataMember&gt;Priority&lt;/DataMember&gt;&lt;FilterEditType&gt;DropDownList&lt;/FilterEditType&gt;&lt;HeaderImageKey&gt;priorityUrgent.gif&lt;/HeaderImageKey&gt;&lt;HeaderToolTip&gt;Priority&lt;/HeaderToolTip&gt;&lt;Key&gt;Priority&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;21&lt;/Width&gt;&lt;FilterRowButtonStyle&gt;None&lt;/FilterRowButtonStyle&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;ValueList Collection="true" ElementName="Item"&gt;&lt;Item0 ID="0"&gt;&lt;ImageIndex&gt;6&lt;/ImageIndex&gt;&lt;Text&gt;Normal&lt;/Text&gt;&lt;ValueType&gt;System.Int16&lt;/ValueType&gt;&lt;Value&gt;0&lt;/Value&gt;&lt;/Item0&gt;&lt;Item1 ID="1"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column2.ValueList.Item1.Image" /&gt;&lt;Text&gt;High&lt;/Text&gt;&lt;ValueType&gt;System.Int16&lt;/ValueType&gt;&lt;Value&gt;1&lt;/Value&gt;&lt;/Item1&gt;&lt;Item2 ID="2"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column2.ValueList.Item2.Image" /&gt;&lt;Text&gt;Urgent&lt;/Text&gt;&lt;ValueType&gt;System.Int16&lt;/ValueType&gt;&lt;Value&gt;2&lt;/Value&gt;&lt;/Item2&gt;&lt;/ValueList&gt;&lt;/Column2&gt;&lt;Column3 ID="DateTime"&gt;&lt;Caption&gt;Date de rappel&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;DataMember&gt;DateTime&lt;/DataMember&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd h:mm tt&lt;/FormatString&gt;&lt;Key&gt;DateTime&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;/Column3&gt;&lt;Column4 ID="ACBFId"&gt;&lt;CompareTarget&gt;Text&lt;/CompareTarget&gt;&lt;Caption&gt;Description de rappel&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;ACBFId&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Text&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;MultiColumnCombo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;ACBFId&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;252&lt;/Width&gt;&lt;DropDownIndex&gt;2&lt;/DropDownIndex&gt;&lt;/Column4&gt;&lt;Column5 ID="BFDate"&gt;&lt;Caption&gt;Date de rappel&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;BFDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;yyyy'/'MM'/'dd&lt;/FormatString&gt;&lt;Key&gt;BFDate&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;ShowInFieldChooser&gt;False&lt;/ShowInFieldChooser&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;CellStyle&gt;&lt;FontBold&gt;True&lt;/FontBold&gt;&lt;/CellStyle&gt;&lt;/Column5&gt;&lt;Column6 ID="entryDate"&gt;&lt;Caption&gt;Time&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;entryDate&lt;/DataMember&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;h:mm tt&lt;/FormatString&gt;&lt;Key&gt;entryDate&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="To"&gt;&lt;Caption&gt;Responsable du rappel&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;Key&gt;To&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;186&lt;/Width&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;/Column7&gt;&lt;Column8 ID="StepCode"&gt;&lt;Caption&gt;Code d'étape&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;Link&lt;/ColumnType&gt;&lt;DataMember&gt;StepCode&lt;/DataMember&gt;&lt;Key&gt;StepCode&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;75&lt;/Width&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;/Column8&gt;&lt;Column9 ID="ACSeriesId"&gt;&lt;CompareTarget&gt;Text&lt;/CompareTarget&gt;&lt;Caption&gt;Code d'étape&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;ColumnType&gt;Link&lt;/ColumnType&gt;&lt;DataMember&gt;ACSeriesId&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Text&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;MultiColumnCombo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;ACSeriesId&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;87&lt;/Width&gt;&lt;DropDownIndex&gt;0&lt;/DropDownIndex&gt;&lt;/Column9&gt;&lt;Column10 ID="BFOfficerID"&gt;&lt;CompareTarget&gt;Text&lt;/CompareTarget&gt;&lt;Caption&gt;Responsable du rappel&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;BFOfficerID&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Text&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;MultiColumnCombo&lt;/EditType&gt;&lt;Key&gt;BFOfficerID&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;DropDownIndex&gt;1&lt;/DropDownIndex&gt;&lt;/Column10&gt;&lt;Column11 ID="RoleCode"&gt;&lt;CompareTarget&gt;Text&lt;/CompareTarget&gt;&lt;Caption&gt;Rôle&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;RoleCode&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Text&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;MultiColumnDropDown&lt;/EditType&gt;&lt;Key&gt;RoleCode&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;175&lt;/Width&gt;&lt;DropDownIndex&gt;3&lt;/DropDownIndex&gt;&lt;/Column11&gt;&lt;Column12 ID="isRead"&gt;&lt;Caption&gt;Est lu&lt;/Caption&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;isRead&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;isRead&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column12&gt;&lt;Column13 ID="Completed"&gt;&lt;Caption&gt;Completé&lt;/Caption&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;Completed&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;Completed&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;SelectableCells&gt;NewRowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column13&gt;&lt;Column14 ID="ActivityBFId"&gt;&lt;Caption&gt;Rappel ID&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;ActivityBFId&lt;/DataMember&gt;&lt;Key&gt;ActivityBFId&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column14&gt;&lt;Column15 ID="BFOfficerCode"&gt;&lt;Caption&gt;Responsable du rappel&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;BFOfficerCode&lt;/DataMember&gt;&lt;Key&gt;BFOfficerCode&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column15&gt;&lt;Column16 ID="ActivityDate"&gt;&lt;Caption&gt;Date de l'activité&lt;/Caption&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;Key&gt;ActivityDate&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column16&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;3&lt;/ColIndex&gt;&lt;SortOrder&gt;Descending&lt;/SortOrder&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="FormatCondition2"&gt;&lt;ColIndex&gt;13&lt;/ColIndex&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Gray&lt;/ForeColor&gt;&lt;FontStrikeout&gt;True&lt;/FontStrikeout&gt;&lt;/FormatStyle&gt;&lt;Value1&gt;True&lt;/Value1&gt;&lt;Key&gt;FormatCondition2&lt;/Key&gt;&lt;/Condition0&gt;&lt;Condition1 ID="FormatCondition1"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Black&lt;/ForeColor&gt;&lt;FontBold&gt;True&lt;/FontBold&gt;&lt;/FormatStyle&gt;&lt;Value1 /&gt;&lt;Key&gt;FormatCondition1&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;12&lt;/ColumnIndex&gt;&lt;TypeNameValue1&gt;System.Boolean&lt;/TypeNameValue1&gt;&lt;Value1&gt;False&lt;/Value1&gt;&lt;Conditions Collection="true" ElementName="FilterCondition"&gt;&lt;FilterCondition0&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;LogicalOperator&gt;And&lt;/LogicalOperator&gt;&lt;TypeNameValue1&gt;System.Boolean&lt;/TypeNameValue1&gt;&lt;Value1&gt;True&lt;/Value1&gt;&lt;Conditions Collection="true" ElementName="FilterCondition"&gt;&lt;FilterCondition0&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;TypeNameValue1&gt;System.Int32&lt;/TypeNameValue1&gt;&lt;Value1&gt;2&lt;/Value1&gt;&lt;/FilterCondition0&gt;&lt;FilterCondition1&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;TypeNameValue1&gt;System.Int32&lt;/TypeNameValue1&gt;&lt;Value1&gt;8&lt;/Value1&gt;&lt;/FilterCondition1&gt;&lt;FilterCondition2&gt;&lt;ColumnIndex&gt;11&lt;/ColumnIndex&gt;&lt;ConditionOperator&gt;BeginsWith&lt;/ConditionOperator&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;F&lt;/Value1&gt;&lt;Conditions Collection="true" ElementName="FilterCondition"&gt;&lt;FilterCondition0&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;LogicalOperator&gt;And&lt;/LogicalOperator&gt;&lt;TypeNameValue1&gt;System.Int32&lt;/TypeNameValue1&gt;&lt;Value1&gt;7&lt;/Value1&gt;&lt;/FilterCondition0&gt;&lt;/Conditions&gt;&lt;/FilterCondition2&gt;&lt;/Conditions&gt;&lt;/FilterCondition0&gt;&lt;/Conditions&gt;&lt;/FilterCondition&gt;&lt;/Condition1&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;PreviewRow&gt;True&lt;/PreviewRow&gt;&lt;PreviewRowLeftMargin&gt;6&lt;/PreviewRowLeftMargin&gt;&lt;PreviewRowLines&gt;1&lt;/PreviewRowLines&gt;&lt;PreviewRowMember&gt;BFComment&lt;/PreviewRowMember&gt;&lt;PreviewRowFormatStyle&gt;&lt;ForeColor&gt;DimGray&lt;/ForeColor&gt;&lt;Font&gt;Calibri, 8.25pt, style=Bold&lt;/Font&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;/PreviewRowFormatStyle&gt;&lt;/RootTable&gt;&lt;DropDowns Collection="true" ElementName="DropDown"&gt;&lt;DropDown0 ID="ddAcSeries"&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="StepCode"&gt;&lt;Caption&gt;StepCode&lt;/Caption&gt;&lt;DataMember&gt;StepCode&lt;/DataMember&gt;&lt;Key&gt;StepCode&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;Font&gt;Tahoma, 8.25pt&lt;/Font&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;Key&gt;ddAcSeries&lt;/Key&gt;&lt;DisplayMember&gt;StepCode&lt;/DisplayMember&gt;&lt;ValueMember&gt;ACSeriesId&lt;/ValueMember&gt;&lt;/DropDown0&gt;&lt;DropDown1 ID="ddOfficer"&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="officercode"&gt;&lt;Caption&gt;officercode&lt;/Caption&gt;&lt;DataMember&gt;officercode&lt;/DataMember&gt;&lt;Key&gt;officercode&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;Column1 ID="fullname"&gt;&lt;Caption&gt;fullname&lt;/Caption&gt;&lt;DataMember&gt;fullname&lt;/DataMember&gt;&lt;Key&gt;fullname&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;Font&gt;Tahoma, 8.25pt&lt;/Font&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;Key&gt;ddOfficer&lt;/Key&gt;&lt;DisplayMember&gt;fullname&lt;/DisplayMember&gt;&lt;ValueMember&gt;OfficerId&lt;/ValueMember&gt;&lt;/DropDown1&gt;&lt;DropDown2 ID="ddACBFId"&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="bfdescriptioneng"&gt;&lt;Caption&gt;bfdescriptioneng&lt;/Caption&gt;&lt;DataMember&gt;bfdescriptioneng&lt;/DataMember&gt;&lt;Key&gt;bfdescriptioneng&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;Font&gt;Tahoma, 8.25pt&lt;/Font&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;Key&gt;ddACBFId&lt;/Key&gt;&lt;DisplayMember&gt;BFDescriptionEng&lt;/DisplayMember&gt;&lt;ValueMember&gt;ACBFId&lt;/ValueMember&gt;&lt;/DropDown2&gt;&lt;DropDown3 ID="ddRoleCode"&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="rolecode"&gt;&lt;Caption&gt;rolecode&lt;/Caption&gt;&lt;DataMember&gt;rolecode&lt;/DataMember&gt;&lt;Key&gt;rolecode&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;Column1 ID="roleeng"&gt;&lt;Caption&gt;roleeng&lt;/Caption&gt;&lt;DataMember&gt;roleeng&lt;/DataMember&gt;&lt;Key&gt;roleeng&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;Font&gt;Tahoma, 8.25pt&lt;/Font&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;Key&gt;ddRoleCode&lt;/Key&gt;&lt;DisplayMember&gt;RoleEng&lt;/DisplayMember&gt;&lt;ValueMember&gt;RoleCode&lt;/ValueMember&gt;&lt;/DropDown3&gt;&lt;/DropDowns&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;AlternatingRowFormatStyle&gt;&lt;BackColor /&gt;&lt;PredefinedStyle&gt;AlternatingRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/AlternatingRowFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;GridLineColor&gt;Window&lt;/GridLineColor&gt;&lt;GridLineStyle&gt;Solid&lt;/GridLineStyle&gt;&lt;BorderStyle&gt;Flat&lt;/BorderStyle&gt;&lt;Font&gt;Tahoma, 8.25pt&lt;/Font&gt;&lt;VisualStyle&gt;Office2010&lt;/VisualStyle&gt;&lt;VisualStyleAreas&gt;&lt;ScrollBarsStyle&gt;Office2007&lt;/ScrollBarsStyle&gt;&lt;/VisualStyleAreas&gt;&lt;AllowRemoveColumns&gt;True&lt;/AllowRemoveColumns&gt;&lt;ColumnSetHeaders&gt;False&lt;/ColumnSetHeaders&gt;&lt;FocusStyle&gt;Solid&lt;/FocusStyle&gt;&lt;GridLines&gt;None&lt;/GridLines&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;RowHeaders&gt;True&lt;/RowHeaders&gt;&lt;SelectionMode&gt;MultipleSelection&lt;/SelectionMode&gt;&lt;FilterRowButtonStyle&gt;ConditionOperatorDropDown&lt;/FilterRowButtonStyle&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="activityBFGridEX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAllContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAllContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAllContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlAllContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlAllContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlAllContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlAllContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAll.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="$this.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.AutoHideButtonVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionHeight" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.AllowDrag" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.MaxTabSize" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.ShowCloseButton" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.TabCaptionTrimming" type="System.Drawing.StringTrimming, System.Drawing">
+    <value>Character</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.UseFormIcons" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>

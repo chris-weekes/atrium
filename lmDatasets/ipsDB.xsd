@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ipsDB" targetNamespace="http://tempuri.org/ipsDB.xsd" xmlns:mstns="http://tempuri.org/ipsDB.xsd" xmlns="http://tempuri.org/ipsDB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ipsDB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ipsDB" msprop:Generator_DataSetName="ipsDB">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="HearingSet" msprop:Generator_UserTableName="HearingSet" msprop:Generator_RowDeletedName="HearingSetRowDeleted" msprop:Generator_TableClassName="HearingSetDataTable" msprop:Generator_RowChangedName="HearingSetRowChanged" msprop:Generator_RowClassName="HearingSetRow" msprop:Generator_RowChangingName="HearingSetRowChanging" msprop:Generator_RowEvArgName="HearingSetRowChangeEvent" msprop:Generator_RowEvHandlerName="HearingSetRowChangeEventHandler" msprop:Generator_TablePropName="HearingSet" msprop:Generator_TableVarName="tableHearingSet" msprop:Generator_RowDeletingName="HearingSetRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HearingSetID" msprop:Generator_UserColumnName="HearingSetID" msprop:Generator_ColumnPropNameInRow="HearingSetID" msprop:Generator_ColumnVarNameInTable="columnHearingSetID" msprop:Generator_ColumnPropNameInTable="HearingSetIDColumn" type="xs:int" />
+              <xs:element name="FileId" msprop:Generator_UserColumnName="FileId" msprop:Generator_ColumnPropNameInRow="FileId" msprop:Generator_ColumnVarNameInTable="columnFileId" msprop:Generator_ColumnPropNameInTable="FileIdColumn" type="xs:int" />
+              <xs:element name="CourtID" msprop:Generator_UserColumnName="CourtID" msprop:Generator_ColumnPropNameInRow="CourtID" msprop:Generator_ColumnVarNameInTable="columnCourtID" msprop:Generator_ColumnPropNameInTable="CourtIDColumn" type="xs:int" />
+              <xs:element name="StartOfWeekDate" msprop:Generator_UserColumnName="StartOfWeekDate" msprop:Generator_ColumnPropNameInRow="StartOfWeekDate" msprop:Generator_ColumnVarNameInTable="columnStartOfWeekDate" msprop:Generator_ColumnPropNameInTable="StartOfWeekDateColumn" type="xs:dateTime" />
+              <xs:element name="CityID" msprop:Generator_UserColumnName="CityID" msprop:Generator_ColumnPropNameInRow="CityID" msprop:Generator_ColumnVarNameInTable="columnCityID" msprop:Generator_ColumnPropNameInTable="CityIDColumn" type="xs:int" />
+              <xs:element name="NumberOfPanels" msprop:Generator_UserColumnName="NumberOfPanels" msprop:Generator_ColumnPropNameInRow="NumberOfPanels" msprop:Generator_ColumnVarNameInTable="columnNumberOfPanels" msprop:Generator_ColumnPropNameInTable="NumberOfPanelsColumn" type="xs:unsignedByte" />
+              <xs:element name="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInTable="NotesColumn" type="xs:string" />
+              <xs:element name="entryUser" msprop:Generator_UserColumnName="entryUser" msprop:Generator_ColumnPropNameInRow="entryUser" msprop:Generator_ColumnVarNameInTable="columnentryUser" msprop:Generator_ColumnPropNameInTable="entryUserColumn" type="xs:string" />
+              <xs:element name="entryDate" msprop:Generator_UserColumnName="entryDate" msprop:Generator_ColumnPropNameInRow="entryDate" msprop:Generator_ColumnVarNameInTable="columnentryDate" msprop:Generator_ColumnPropNameInTable="entryDateColumn" type="xs:dateTime" />
+              <xs:element name="updateUser" msprop:Generator_UserColumnName="updateUser" msprop:Generator_ColumnPropNameInRow="updateUser" msprop:Generator_ColumnVarNameInTable="columnupdateUser" msprop:Generator_ColumnPropNameInTable="updateUserColumn" type="xs:string" />
+              <xs:element name="updateDate" msprop:Generator_UserColumnName="updateDate" msprop:Generator_ColumnPropNameInRow="updateDate" msprop:Generator_ColumnVarNameInTable="columnupdateDate" msprop:Generator_ColumnPropNameInTable="updateDateColumn" type="xs:dateTime" />
+              <xs:element name="ts" msprop:Generator_UserColumnName="ts" msprop:Generator_ColumnPropNameInRow="ts" msprop:Generator_ColumnVarNameInTable="columnts" msprop:Generator_ColumnPropNameInTable="tsColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ContactTypeCode" msprop:Generator_UserColumnName="ContactTypeCode" msprop:Generator_ColumnPropNameInRow="ContactTypeCode" msprop:Generator_ColumnVarNameInTable="columnContactTypeCode" msprop:Generator_ColumnPropNameInTable="ContactTypeCodeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hearing" msprop:Generator_UserTableName="Hearing" msprop:Generator_RowDeletedName="HearingRowDeleted" msprop:Generator_TableClassName="HearingDataTable" msprop:Generator_RowChangedName="HearingRowChanged" msprop:Generator_RowClassName="HearingRow" msprop:Generator_RowChangingName="HearingRowChanging" msprop:Generator_RowEvArgName="HearingRowChangeEvent" msprop:Generator_RowEvHandlerName="HearingRowChangeEventHandler" msprop:Generator_TablePropName="Hearing" msprop:Generator_TableVarName="tableHearing" msprop:Generator_RowDeletingName="HearingRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HearingID" msprop:Generator_UserColumnName="HearingID" msprop:Generator_ColumnPropNameInRow="HearingID" msprop:Generator_ColumnVarNameInTable="columnHearingID" msprop:Generator_ColumnPropNameInTable="HearingIDColumn" type="xs:int" />
+              <xs:element name="PanelID" msprop:Generator_UserColumnName="PanelID" msprop:Generator_ColumnPropNameInRow="PanelID" msprop:Generator_ColumnVarNameInTable="columnPanelID" msprop:Generator_ColumnPropNameInTable="PanelIDColumn" type="xs:int" />
+              <xs:element name="FileID" msprop:Generator_UserColumnName="FileID" msprop:Generator_ColumnPropNameInRow="FileID" msprop:Generator_ColumnVarNameInTable="columnFileID" msprop:Generator_ColumnPropNameInTable="FileIDColumn" type="xs:int" />
+              <xs:element name="LanguageCode" msprop:Generator_UserColumnName="LanguageCode" msprop:Generator_ColumnPropNameInRow="LanguageCode" msprop:Generator_ColumnVarNameInTable="columnLanguageCode" msprop:Generator_ColumnPropNameInTable="LanguageCodeColumn" type="xs:string" />
+              <xs:element name="HearingDate" msprop:Generator_UserColumnName="HearingDate" msprop:Generator_ColumnPropNameInRow="HearingDate" msprop:Generator_ColumnVarNameInTable="columnHearingDate" msprop:Generator_ColumnPropNameInTable="HearingDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LeadLawyerID" msprop:Generator_UserColumnName="LeadLawyerID" msprop:Generator_ColumnPropNameInRow="LeadLawyerID" msprop:Generator_ColumnVarNameInTable="columnLeadLawyerID" msprop:Generator_ColumnPropNameInTable="LeadLawyerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInTable="NotesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="entryUser" msprop:Generator_UserColumnName="entryUser" msprop:Generator_ColumnPropNameInRow="entryUser" msprop:Generator_ColumnVarNameInTable="columnentryUser" msprop:Generator_ColumnPropNameInTable="entryUserColumn" type="xs:string" />
+              <xs:element name="entryDate" msprop:Generator_UserColumnName="entryDate" msprop:Generator_ColumnPropNameInRow="entryDate" msprop:Generator_ColumnVarNameInTable="columnentryDate" msprop:Generator_ColumnPropNameInTable="entryDateColumn" type="xs:dateTime" />
+              <xs:element name="updateUser" msprop:Generator_UserColumnName="updateUser" msprop:Generator_ColumnPropNameInRow="updateUser" msprop:Generator_ColumnVarNameInTable="columnupdateUser" msprop:Generator_ColumnPropNameInTable="updateUserColumn" type="xs:string" />
+              <xs:element name="updateDate" msprop:Generator_UserColumnName="updateDate" msprop:Generator_ColumnPropNameInRow="updateDate" msprop:Generator_ColumnVarNameInTable="columnupdateDate" msprop:Generator_ColumnPropNameInTable="updateDateColumn" type="xs:dateTime" />
+              <xs:element name="ts" msprop:Generator_UserColumnName="ts" msprop:Generator_ColumnPropNameInRow="ts" msprop:Generator_ColumnVarNameInTable="columnts" msprop:Generator_ColumnPropNameInTable="tsColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="FileNumber" msprop:Generator_UserColumnName="FileNumber" msprop:Generator_ColumnPropNameInRow="FileNumber" msprop:Generator_ColumnVarNameInTable="columnFileNumber" msprop:Generator_ColumnPropNameInTable="FileNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SortExist" msprop:Generator_UserColumnName="SortExist" msprop:Generator_ColumnPropNameInRow="SortExist" msprop:Generator_ColumnVarNameInTable="columnSortExist" msprop:Generator_ColumnPropNameInTable="SortExistColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Panel" msprop:Generator_UserTableName="Panel" msprop:Generator_RowDeletedName="PanelRowDeleted" msprop:Generator_TableClassName="PanelDataTable" msprop:Generator_RowChangedName="PanelRowChanged" msprop:Generator_RowClassName="PanelRow" msprop:Generator_RowChangingName="PanelRowChanging" msprop:Generator_RowEvArgName="PanelRowChangeEvent" msprop:Generator_RowEvHandlerName="PanelRowChangeEventHandler" msprop:Generator_TablePropName="Panel" msprop:Generator_TableVarName="tablePanel" msprop:Generator_RowDeletingName="PanelRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PanelID" msprop:Generator_UserColumnName="PanelID" msprop:Generator_ColumnPropNameInRow="PanelID" msprop:Generator_ColumnVarNameInTable="columnPanelID" msprop:Generator_ColumnPropNameInTable="PanelIDColumn" type="xs:int" />
+              <xs:element name="HearingSetID" msprop:Generator_UserColumnName="HearingSetID" msprop:Generator_ColumnPropNameInRow="HearingSetID" msprop:Generator_ColumnVarNameInTable="columnHearingSetID" msprop:Generator_ColumnPropNameInTable="HearingSetIDColumn" type="xs:int" />
+              <xs:element name="ParentPanelID" msprop:Generator_UserColumnName="ParentPanelID" msprop:Generator_ColumnPropNameInRow="ParentPanelID" msprop:Generator_ColumnVarNameInTable="columnParentPanelID" msprop:Generator_ColumnPropNameInTable="ParentPanelIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PanelNumber" msprop:Generator_UserColumnName="PanelNumber" msprop:Generator_ColumnPropNameInRow="PanelNumber" msprop:Generator_ColumnVarNameInTable="columnPanelNumber" msprop:Generator_ColumnPropNameInTable="PanelNumberColumn" type="xs:unsignedByte" />
+              <xs:element name="DaysOfWeek" msprop:Generator_UserColumnName="DaysOfWeek" msprop:Generator_ColumnPropNameInRow="DaysOfWeek" msprop:Generator_ColumnVarNameInTable="columnDaysOfWeek" msprop:Generator_ColumnPropNameInTable="DaysOfWeekColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OfficeID" msprop:Generator_UserColumnName="OfficeID" msprop:Generator_ColumnPropNameInRow="OfficeID" msprop:Generator_ColumnVarNameInTable="columnOfficeID" msprop:Generator_ColumnPropNameInTable="OfficeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RoomDesc" msprop:Generator_UserColumnName="RoomDesc" msprop:Generator_ColumnPropNameInRow="RoomDesc" msprop:Generator_ColumnVarNameInTable="columnRoomDesc" msprop:Generator_ColumnPropNameInTable="RoomDescColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HearingsPerDay" msprop:Generator_UserColumnName="HearingsPerDay" msprop:Generator_ColumnPropNameInRow="HearingsPerDay" msprop:Generator_ColumnVarNameInTable="columnHearingsPerDay" msprop:Generator_ColumnPropNameInTable="HearingsPerDayColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="LanguageCode" msprop:Generator_UserColumnName="LanguageCode" msprop:Generator_ColumnPropNameInRow="LanguageCode" msprop:Generator_ColumnVarNameInTable="columnLanguageCode" msprop:Generator_ColumnPropNameInTable="LanguageCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LeadLawyerID" msprop:Generator_UserColumnName="LeadLawyerID" msprop:Generator_ColumnPropNameInRow="LeadLawyerID" msprop:Generator_ColumnVarNameInTable="columnLeadLawyerID" msprop:Generator_ColumnPropNameInTable="LeadLawyerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PrepRoomRequired" msprop:Generator_UserColumnName="PrepRoomRequired" msprop:Generator_ColumnPropNameInRow="PrepRoomRequired" msprop:Generator_ColumnVarNameInTable="columnPrepRoomRequired" msprop:Generator_ColumnPropNameInTable="PrepRoomRequiredColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInTable="NotesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="entryUser" msprop:Generator_UserColumnName="entryUser" msprop:Generator_ColumnPropNameInRow="entryUser" msprop:Generator_ColumnVarNameInTable="columnentryUser" msprop:Generator_ColumnPropNameInTable="entryUserColumn" type="xs:string" />
+              <xs:element name="entryDate" msprop:Generator_UserColumnName="entryDate" msprop:Generator_ColumnPropNameInRow="entryDate" msprop:Generator_ColumnVarNameInTable="columnentryDate" msprop:Generator_ColumnPropNameInTable="entryDateColumn" type="xs:dateTime" />
+              <xs:element name="updateUser" msprop:Generator_UserColumnName="updateUser" msprop:Generator_ColumnPropNameInRow="updateUser" msprop:Generator_ColumnVarNameInTable="columnupdateUser" msprop:Generator_ColumnPropNameInTable="updateUserColumn" type="xs:string" />
+              <xs:element name="updateDate" msprop:Generator_UserColumnName="updateDate" msprop:Generator_ColumnPropNameInRow="updateDate" msprop:Generator_ColumnVarNameInTable="columnupdateDate" msprop:Generator_ColumnPropNameInTable="updateDateColumn" type="xs:dateTime" />
+              <xs:element name="ts" msprop:Generator_UserColumnName="ts" msprop:Generator_ColumnPropNameInRow="ts" msprop:Generator_ColumnVarNameInTable="columnts" msprop:Generator_ColumnPropNameInTable="tsColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Preference" msprop:Generator_UserColumnName="Preference" msprop:Generator_ColumnPropNameInRow="Preference" msprop:Generator_ColumnVarNameInTable="columnPreference" msprop:Generator_ColumnPropNameInTable="PreferenceColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PanelContactNotes" msprop:Generator_UserColumnName="PanelContactNotes" msprop:Generator_ColumnPropNameInRow="PanelContactNotes" msprop:Generator_ColumnVarNameInTable="columnPanelContactNotes" msprop:Generator_ColumnPropNameInTable="PanelContactNotesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParentHearingsPerDay" msprop:Generator_UserColumnName="ParentHearingsPerDay" msprop:Generator_ColumnPropNameInRow="ParentHearingsPerDay" msprop:Generator_ColumnVarNameInTable="columnParentHearingsPerDay" msprop:Generator_ColumnPropNameInTable="ParentHearingsPerDayColumn" type="xs:unsignedByte" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PanelContact" msprop:Generator_UserTableName="PanelContact" msprop:Generator_RowDeletedName="PanelContactRowDeleted" msprop:Generator_TableClassName="PanelContactDataTable" msprop:Generator_RowChangedName="PanelContactRowChanged" msprop:Generator_RowClassName="PanelContactRow" msprop:Generator_RowChangingName="PanelContactRowChanging" msprop:Generator_RowEvArgName="PanelContactRowChangeEvent" msprop:Generator_RowEvHandlerName="PanelContactRowChangeEventHandler" msprop:Generator_TablePropName="PanelContact" msprop:Generator_TableVarName="tablePanelContact" msprop:Generator_RowDeletingName="PanelContactRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PanelContactID" msprop:Generator_UserColumnName="PanelContactID" msprop:Generator_ColumnPropNameInRow="PanelContactID" msprop:Generator_ColumnVarNameInTable="columnPanelContactID" msprop:Generator_ColumnPropNameInTable="PanelContactIDColumn" type="xs:int" />
+              <xs:element name="PanelID" msprop:Generator_UserColumnName="PanelID" msprop:Generator_ColumnPropNameInRow="PanelID" msprop:Generator_ColumnVarNameInTable="columnPanelID" msprop:Generator_ColumnPropNameInTable="PanelIDColumn" type="xs:int" />
+              <xs:element name="ContactID" msprop:Generator_UserColumnName="ContactID" msprop:Generator_ColumnPropNameInRow="ContactID" msprop:Generator_ColumnVarNameInTable="columnContactID" msprop:Generator_ColumnPropNameInTable="ContactIDColumn" type="xs:int" />
+              <xs:element name="ContactTypeCode" msprop:Generator_UserColumnName="ContactTypeCode" msprop:Generator_ColumnPropNameInRow="ContactTypeCode" msprop:Generator_ColumnVarNameInTable="columnContactTypeCode" msprop:Generator_ColumnPropNameInTable="ContactTypeCodeColumn" type="xs:string" />
+              <xs:element name="StartDate" msprop:Generator_UserColumnName="StartDate" msprop:Generator_ColumnPropNameInRow="StartDate" msprop:Generator_ColumnVarNameInTable="columnStartDate" msprop:Generator_ColumnPropNameInTable="StartDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EndDate" msprop:Generator_UserColumnName="EndDate" msprop:Generator_ColumnPropNameInRow="EndDate" msprop:Generator_ColumnVarNameInTable="columnEndDate" msprop:Generator_ColumnPropNameInTable="EndDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Active" msprop:Generator_UserColumnName="Active" msprop:Generator_ColumnPropNameInRow="Active" msprop:Generator_ColumnVarNameInTable="columnActive" msprop:Generator_ColumnPropNameInTable="ActiveColumn" type="xs:boolean" />
+              <xs:element name="NoReassign" msprop:Generator_UserColumnName="NoReassign" msprop:Generator_ColumnPropNameInRow="NoReassign" msprop:Generator_ColumnVarNameInTable="columnNoReassign" msprop:Generator_ColumnPropNameInTable="NoReassignColumn" type="xs:boolean" />
+              <xs:element name="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInTable="NotesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="entryUser" msprop:Generator_UserColumnName="entryUser" msprop:Generator_ColumnPropNameInRow="entryUser" msprop:Generator_ColumnVarNameInTable="columnentryUser" msprop:Generator_ColumnPropNameInTable="entryUserColumn" type="xs:string" />
+              <xs:element name="entryDate" msprop:Generator_UserColumnName="entryDate" msprop:Generator_ColumnPropNameInRow="entryDate" msprop:Generator_ColumnVarNameInTable="columnentryDate" msprop:Generator_ColumnPropNameInTable="entryDateColumn" type="xs:dateTime" />
+              <xs:element name="updateUser" msprop:Generator_UserColumnName="updateUser" msprop:Generator_ColumnPropNameInRow="updateUser" msprop:Generator_ColumnVarNameInTable="columnupdateUser" msprop:Generator_ColumnPropNameInTable="updateUserColumn" type="xs:string" />
+              <xs:element name="updateDate" msprop:Generator_UserColumnName="updateDate" msprop:Generator_ColumnPropNameInRow="updateDate" msprop:Generator_ColumnVarNameInTable="columnupdateDate" msprop:Generator_ColumnPropNameInTable="updateDateColumn" type="xs:dateTime" />
+              <xs:element name="ts" msprop:Generator_UserColumnName="ts" msprop:Generator_ColumnPropNameInRow="ts" msprop:Generator_ColumnVarNameInTable="columnts" msprop:Generator_ColumnPropNameInTable="tsColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="OfficerCode" msprop:Generator_UserColumnName="OfficerCode" msprop:Generator_ColumnPropNameInRow="OfficerCode" msprop:Generator_ColumnVarNameInTable="columnOfficerCode" msprop:Generator_ColumnPropNameInTable="OfficerCodeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PK_HearingSet" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:HearingSet" />
+      <xs:field xpath="mstns:HearingSetID" />
+    </xs:unique>
+    <xs:unique name="PK_Hearing" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Hearing" />
+      <xs:field xpath="mstns:HearingID" />
+    </xs:unique>
+    <xs:unique name="PK_Panel" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Panel" />
+      <xs:field xpath="mstns:PanelID" />
+    </xs:unique>
+    <xs:unique name="PK_PanelContact" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PanelContact" />
+      <xs:field xpath="mstns:PanelContactID" />
+    </xs:unique>
+    <xs:keyref name="FK_ParentPanel_Panel" refer="PK_Panel" msprop:rel_Generator_UserRelationName="FK_ParentPanel_Panel" msprop:rel_Generator_RelationVarName="relationFK_ParentPanel_Panel" msprop:rel_Generator_UserChildTable="Panel" msprop:rel_Generator_UserParentTable="Panel" msprop:rel_Generator_ParentPropName="PanelRowParent" msprop:rel_Generator_ChildPropName="GetPanelRows">
+      <xs:selector xpath=".//mstns:Panel" />
+      <xs:field xpath="mstns:ParentPanelID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

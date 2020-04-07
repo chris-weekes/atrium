@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C4FA2F9-056B-4D21-85D5-41938478EDC4}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>atriumDAL</AssemblyName>
+    <AssemblyOriginatorKeyFile>asptek.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>atriumDAL</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\solutions\dlls\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Remote|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug Remote\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACBF_DAL.cs" />
+    <Compile Include="AccessType_DAL.cs" />
+    <Compile Include="ACControlType_DAL.cs" />
+    <Compile Include="ACConvert_DAL.cs" />
+    <Compile Include="AccountHistory_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AccountType_DAL.cs" />
+    <Compile Include="ACDependencyType_DAL.cs" />
+    <Compile Include="ACDependency_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACDisb_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACDocumentation_DAL.cs" />
+    <Compile Include="ACFileType_DAL.cs" />
+    <Compile Include="ACMajor_DAL.cs" />
+    <Compile Include="ACMenu_DAL.cs" />
+    <Compile Include="ACSeriesType_DAL.cs" />
+    <Compile Include="ACSeries_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ACTaskType_DAL.cs" />
+    <Compile Include="ActivityAttribution_DAL.cs" />
+    <Compile Include="ActivityBF_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ActivityBF_UDAL.cs" />
+    <Compile Include="ActivityCode_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ActivityCode_UDAL.cs" />
+    <Compile Include="ActivityField_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ActivityTime_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ActivityTime_UDAL.cs" />
+    <Compile Include="ActivityXRef_DAL.cs" />
+    <Compile Include="Activity_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Activity_UDAL.cs" />
+    <Compile Include="AddressSource_DAL.cs" />
+    <Compile Include="AddressType_DAL.cs" />
+    <Compile Include="Address_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Address_UDAL.cs" />
+    <Compile Include="AdjournmentReason_DAL.cs" />
+    <Compile Include="ADMSEAppeal_DAL.cs" />
+    <Compile Include="ADMSEDecision_DAL.cs" />
+    <Compile Include="ADMSEIssues_DAL.cs" />
+    <Compile Include="ADMSEParticipant_DAL.cs" />
+    <Compile Include="ADMSPAppeal_DAL.cs" />
+    <Compile Include="ADMSPDecision_DAL.cs" />
+    <Compile Include="ADMSPIssues_DAL.cs" />
+    <Compile Include="ADMSPParticipant_DAL.cs" />
+    <Compile Include="AKA_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AKA_UDAL.cs" />
+    <Compile Include="AppealGround_DAL.cs" />
+    <Compile Include="AppealLevel_DAL.cs" />
+    <Compile Include="AppealType_DAL.cs" />
+    <Compile Include="AppelantSource_DAL.cs" />
+    <Compile Include="AppointmentNotification_DAL.cs" />
+    <Compile Include="AppointmentType_DAL.cs" />
+    <Compile Include="Appointment_DAL.cs" />
+    <Compile Include="Appointment_UDAL.cs" />
+    <Compile Include="AppSetting_DAL.cs" />
+    <Compile Include="ApptRecurrenceType_DAL.cs" />
+    <Compile Include="ApptRecurrence_DAL.cs" />
+    <Compile Include="ArchiveBatch_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Attachment_DAL.cs" />
+    <Compile Include="Attendee_DAL.cs" />
+    <Compile Include="BankruptcyAccount_DAL.cs" />
+    <Compile Include="BankruptcyOrderType_DAL.cs" />
+    <Compile Include="Bankruptcy_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Batch_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Batch_UDAL.cs" />
+    <Compile Include="BFType_DAL.cs" />
+    <Compile Include="BillingCode_DAL.cs" />
+    <Compile Include="CaseMajorStatus_DAL.cs" />
+    <Compile Include="CaseStatus_DAL.cs" />
+    <Compile Include="CashBlotter_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CashBlotter_UDAL.cs" />
+    <Compile Include="CBDetail_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CBInstrumentType_DAL.cs" />
+    <Compile Include="CBNatureOfPayment_DAL.cs" />
+    <Compile Include="CBPaymentSource_DAL.cs" />
+    <Compile Include="CBStatus_DAL.cs" />
+    <Compile Include="City_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommMode_DAL.cs" />
+    <Compile Include="CommType_DAL.cs" />
+    <Compile Include="CompOfferDetail_DAL.cs" />
+    <Compile Include="CompOffer_DAL.cs" />
+    <Compile Include="ContactEmail_DAL.cs" />
+    <Compile Include="ContactEmail_UDAL.cs" />
+    <Compile Include="ContactTypePositionCode_DAL.cs" />
+    <Compile Include="ContactType_DAL.cs" />
+    <Compile Include="Contact_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Contact_UDAL.cs" />
+    <Compile Include="ConversationWithCode_DAL.cs" />
+    <Compile Include="CrisisType_DAL.cs" />
+    <Compile Include="ddEntity_DAL.cs" />
+    <Compile Include="ddGeneric_DAL.cs" />
+    <Compile Include="ddLookup_DAL.cs" />
+    <Compile Include="ddRule_DAL.cs" />
+    <Compile Include="DecisionType_DAL.cs" />
+    <Compile Include="DocContent_UDAL.cs" />
+    <Compile Include="DocDumpType_DAL.cs" />
+    <Compile Include="DocTypeUse_DAL.cs" />
+    <Compile Include="FileAccess_DAL.cs" />
+    <Compile Include="Department_DAL.cs" />
+    <Compile Include="DirectHelper.cs" />
+    <Compile Include="DocContent_DAL.cs" />
+    <Compile Include="EventLog_DAL.cs" />
+    <Compile Include="FileAKA_DAL.cs" />
+    <Compile Include="FileFlag_DAL.cs" />
+    <Compile Include="FileFlag_UDAL.cs" />
+    <Compile Include="FileParty_DAL.cs" />
+    <Compile Include="FilePeriod_DAL.cs" />
+    <Compile Include="FileTypeChildren_DAL.cs" />
+    <Compile Include="FlagCode_DAL.cs" />
+    <Compile Include="FormHearing_DAL.cs" />
+    <Compile Include="Hardship_DAL.cs" />
+    <Compile Include="HearingMethod_DAL.cs" />
+    <Compile Include="HearingStatus_DAL.cs" />
+    <Compile Include="Hearing_DAL.cs" />
+    <Compile Include="hlpImage_DAL.cs" />
+    <Compile Include="hlpPage_DAL.cs" />
+    <Compile Include="hlpXml_DAL.cs" />
+    <Compile Include="InsolvencyAccount_DAL.cs" />
+    <Compile Include="InsolvencyPeriod_DAL.cs" />
+    <Compile Include="JudgmentAccount_UDAL.cs" />
+    <Compile Include="LateIgnoreReason_DAL.cs" />
+    <Compile Include="LeaveToAppealType_DAL.cs" />
+    <Compile Include="Legislation_DAL.cs" />
+    <Compile Include="ListMember_DAL.cs" />
+    <Compile Include="List_DAL.cs" />
+    <Compile Include="Location_DAL.cs" />
+    <Compile Include="Map_DAL.cs" />
+    <Compile Include="MemberProfile_DAL.cs" />
+    <Compile Include="MemberProfile_UDAL.cs" />
+    <Compile Include="Menu_DAL.cs" />
+    <Compile Include="MetaTypeChildren_DAL.cs" />
+    <Compile Include="SearchTerm_DAL.cs" />
+    <Compile Include="Search_DAL.cs" />
+    <Compile Include="Msg_DAL.cs" />
+    <Compile Include="NativeLanguage_DAL.cs" />
+    <Compile Include="OfficeMandate_DAL.cs" />
+    <Compile Include="OfficerPrefs_DAL.cs" />
+    <Compile Include="Outcome_DAL.cs" />
+    <Compile Include="OutlookCalAppMsg_DAL.cs" />
+    <Compile Include="PostalCodeLocation_DAL.cs" />
+    <Compile Include="ProcessContext_DAL.cs" />
+    <Compile Include="ProgramIssue_DAL.cs" />
+    <Compile Include="ProgramPartyType_DAL.cs" />
+    <Compile Include="Program_DAL.cs" />
+    <Compile Include="Provision_DAL.cs" />
+    <Compile Include="ReqType_DAL.cs" />
+    <Compile Include="secFeatureType_DAL.cs" />
+    <Compile Include="secFeature_DAL.cs" />
+    <Compile Include="secFileRule_DAL.cs" />
+    <Compile Include="secGroup_DAL.cs" />
+    <Compile Include="secMembership_DAL.cs" />
+    <Compile Include="secPermission_DAL.cs" />
+    <Compile Include="secPermLevel_DAL.cs" />
+    <Compile Include="secRule_DAL.cs" />
+    <Compile Include="SecurityLevel_DAL.cs" />
+    <Compile Include="secUser_DAL.cs" />
+    <Compile Include="SeriesPackage_DAL.cs" />
+    <Compile Include="SeriesStatus_DAL.cs" />
+    <Compile Include="SeriesType_DAL.cs" />
+    <Compile Include="Cost_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Country_DAL.cs" />
+    <Compile Include="CurrencyCode_DAL.cs" />
+    <Compile Include="DALManager.cs">
+    </Compile>
+    <Compile Include="ddField_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ddField_UDAL.cs" />
+    <Compile Include="ddTable_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Debtor_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Debtor_UDAL.cs" />
+    <Compile Include="Debt_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Debt_UDAL.cs" />
+    <Compile Include="DisbursementType_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Disbursement_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DispositionAuthority_DAL.cs" />
+    <Compile Include="DocTypeMajor_DAL.cs" />
+    <Compile Include="DocType_DAL.cs" />
+    <Compile Include="Document_DAL.cs" />
+    <Compile Include="Document_UDAL.cs" />
+    <Compile Include="DocXRef_DAL.cs" />
+    <Compile Include="EFile_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EFile_UDAL.cs" />
+    <Compile Include="FileAccount_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileContact_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileFormat_DAL.cs" />
+    <Compile Include="FileHistory_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileMetaType_DAL.cs" />
+    <Compile Include="FileOffice_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileType_DAL.cs" />
+    <Compile Include="FileXRef_DAL.cs" />
+    <Compile Include="HistoryType_DAL.cs" />
+    <Compile Include="InsolvencyType_DAL.cs" />
+    <Compile Include="Insolvency_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InterestRateType_DAL.cs" />
+    <Compile Include="IRP_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Issue_DAL.cs" />
+    <Compile Include="JudgmentAccount_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JudgmentCourtLevel_DAL.cs" />
+    <Compile Include="JudgmentType_DAL.cs" />
+    <Compile Include="Judgment_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Judgment_UDAL.cs" />
+    <Compile Include="LanguageCode_DAL.cs" />
+    <Compile Include="LegalProcess_DAL.cs" />
+    <Compile Include="LP_DAL.cs" />
+    <Compile Include="MilestoneCode_DAL.cs" />
+    <Compile Include="NatureofProperty_DAL.cs" />
+    <Compile Include="Office2JD_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OfficeAccountType_DAL.cs" />
+    <Compile Include="OfficeAccount_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OfficeAccount_UDAL.cs" />
+    <Compile Include="OfficerDelegate_DAL.cs" />
+    <Compile Include="OfficerRole_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Officer_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Officer_UDAL.cs" />
+    <Compile Include="OfficeType_DAL.cs" />
+    <Compile Include="Office_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Office_UDAL.cs" />
+    <Compile Include="Opinion_DAL.cs" />
+    <Compile Include="PLOffice_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PLOffice_UDAL.cs" />
+    <Compile Include="PositionCode_DAL.cs" />
+    <Compile Include="PostJudgmentActivity_DAL.cs" />
+    <Compile Include="ProcessType_DAL.cs" />
+    <Compile Include="Process_DAL.cs" />
+    <Compile Include="Property_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Province_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RAClientImpactType_DAL.cs" />
+    <Compile Include="RAClientImpact_DAL.cs" />
+    <Compile Include="RAClientImpact_UDAL.cs" />
+    <Compile Include="RAComplexity_DAL.cs" />
+    <Compile Include="RAImpact_DAL.cs" />
+    <Compile Include="RALikelihood_DAL.cs" />
+    <Compile Include="RARiskLevel_DAL.cs" />
+    <Compile Include="RASettlementPossibility_DAL.cs" />
+    <Compile Include="RAStatus_DAL.cs" />
+    <Compile Include="ReasonCode_DAL.cs" />
+    <Compile Include="Recipient_DAL.cs" />
+    <Compile Include="Recipient_UDAL.cs" />
+    <Compile Include="ReturnCode_DAL.cs" />
+    <Compile Include="RiskAssessment_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RiskAssessment_UDAL.cs" />
+    <Compile Include="RoleCode_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Series_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ServiceCentre_DAL.cs" />
+    <Compile Include="Sex_DAL.cs" />
+    <Compile Include="SRP_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SRP_UDAL.cs" />
+    <Compile Include="SSTAppealGround_DAL.cs" />
+    <Compile Include="SSTAppealGround_UDAL.cs" />
+    <Compile Include="SSTCaseMatter_DAL.cs" />
+    <Compile Include="SSTCaseMatter_UDAL.cs" />
+    <Compile Include="SSTCase_DAL.cs" />
+    <Compile Include="SSTCase_UDAL.cs" />
+    <Compile Include="SSTDecision_DAL.cs" />
+    <Compile Include="SSTGroup_DAL.cs" />
+    <Compile Include="SSTReqRecipient_DAL.cs" />
+    <Compile Include="SSTRequest_DAL.cs" />
+    <Compile Include="Status_DAL.cs" />
+    <Compile Include="Taxing_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Taxing_UDAL.cs" />
+    <Compile Include="TaxRate_DAL.cs" />
+    <Compile Include="Template_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TribunalMemberAssignment_DAL.cs" />
+    <Compile Include="TypeofWrit_DAL.cs" />
+    <Compile Include="WritHistory_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Writ_DAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="DALManager.resx">
+      <DependentUpon>DALManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="asptek.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\atLayers\atDAL.csproj">
+      <Project>{4eab95b9-ef29-4b01-80f6-1911ad5ac313}</Project>
+      <Name>atDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lmDatasets\lmDatasets.csproj">
+      <Project>{9f21694a-11ad-43db-8db8-62f4e52684ab}</Project>
+      <Name>lmDatasets</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

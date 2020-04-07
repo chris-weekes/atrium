@@ -1,0 +1,2829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="officeBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>743, 17</value>
+  </metadata>
+  <metadata name="officeDB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>646, 17</value>
+  </metadata>
+  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>147, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>274, 17</value>
+  </metadata>
+  <metadata name="imageListBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>371, 17</value>
+  </metadata>
+  <data name="imageListBase.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB4
+        HAAAAk1TRnQBSQFMAgEBFAEAARgBAAE8AQEBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAWADAAEBAQABCAYAARgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8ANgAO7QIA
+        AQcCrgHqARMBbQISAeoBEgNmARICAAEHAewBtRwAAbwO8QH4AQAB7AK1AWYBQwEHAbYB3QG1Aa4EZgIA
+        ARwBTAHsAbUMAAr/BQABvAHxA5EK8QH4AQAB7QHWAc8BtQGuAWYBrgH0AfMBrgFmAoYBZgIAAZoBegFM
+        AewBtQsAAf8CAAH/BQAB/wUAAbwB8QGRAfECkQnxAfgBAAGuAdYBtQHWAYYBCgFmAd0BGQHPA4YBZgMA
+        AZoBegFMAewBtQoACv8FAAG8AfIFkQjyAfgBAAGuA9YBjAGuAWYBiwSuAYYBZgQAAZoBegFMAewBvAkA
+        Af8CAAH/BQAB/wUAAbwC8wWRB/MB+AEAAbUBCQLWA7UCrgHPAosBrgFmBQABmgF6AXQB7wEHBbUDAAr/
+        BQABvAPzBZEG8wH4AQABtQHdAdYBzwGuAosEhgLPAYYGAAGaAbwCtQEJAhkCCQG1AgAH/wEAAv8FAAG8
+        BPQFkQX0AfgBAAHtAQkBzwH0Av8C9AHdAgkBhgHPAYYHAAEHAbUCGQHiA/8BCQG1AQAB/wIAA/8BAAEH
+        AQAB/wQAAQQBvAX0B5EC9AH4AQAB9wHdAa4C/wH0Af8BGQH/At0ChgGuBwABtQEJARkC4gP/AQkBtQEA
+        Af8BAAEHAQAB/wEAAQcBAAEHBAACBAG8BvQHkQH0AfgBAAHvAd0BzwX/AhkB3QGGAbUB6gcAAbUBGQEJ
+        ARkB4gH0Af8B9AEZAbUBAAL/AQABBwEAAQcBAAEHAQADBwEAAgQBvAf1ApEC9QKRAfUB+AEAAe8B3QG1
+        A/8C9gL/ARkBZgGvARIHAAG1AxkE4gEZAbUFAAEHAQABBwEABQcCBAG8B/8CkQP/AZEB/wH4AQABBwHd
+        AbUC/wH0AfYB8wH/AfQB/wGGAWYBrgcAAbUBCQYZAQkBtQYAAQcBAAYHAgQBvAf/A5EE/wH4AQABtgHd
+        AbUF/wL0Af8BhgHPAa4HAAEJAbsC/wEZAdwCGQG1AQcHAAYHAQACBAG8CP8DkQP/AfgBAAK8AbUBBwHv
+        BPcCtQKvAY0IAAK1AQkCGQEJArUPAAIEAbwO/wH4GAABBwS1AQcTAA7xBwACbAGuFwAQ/xQAAWwBrgHx
+        AewCbAHsCQACcwFuAUoBFAEVASICEAEiARABABD/AgAB9wpmBQABbQHrAvMB6wLqAa4BZgFsCAAB7AGg
+        AXoCeQF0AlICSwFDAQAQ/wIAAfcB/wj3AWYDAAGRAa4B8wH0Ae8BkgG7AbUBbgHsAa4BbQFmAWwGAAHt
+        AcMBoAGaA3oBWQFTAVIBFQEAAv8BHARLBkoCRAH/AgAB9wP/AfQB8wEZAfABvAH3AWYDAAG1AfMBvAH3
+        AfABGQHzAUwBJQFvAe8BEgNsBQABHAHDAaACmgN6AVkBUgFEAQAC/wEcAcMCmgh6AUQB/wIAAfcE/wH0
+        AfMBGQHwAfcBZgMAAbwBtQHxAvQBGgFMAU0BRgElAZMBBwGuARIBbAEAAfcDZgGSAsMBoAKaA3oBUgFK
+        AQAC/wEcARoIoAF6AXkBSgH/AgAB9wX/AvMB8QH3AWYDAAHwAbUBvAH0Af8BRgFNAXUB4wFNAUYCvAHt
+        AewBAAH3AfQB8wEZARwDwwGgAZoDegFSAW4BAAL/ARwBeQGaAqADegKgAXoBUQFKAf8CAAG1Bf8B9AHz
+        ARkB9wFmAwABBwGRAbQBtQHwA5QB8wGUAkwB9wGRAe8BAAH3Af8C9AEcBMMCoAGaAnoBbgEAAv8BHAEa
+        AXkCegNSAnoBUgF5AUoB/wIAAbUG/wLzAfcBZgMAAZECtAFtAZEB7wEaAfQB/wHwARYBTAFLAgcBAAG1
+        Av8B9AocAfcBAAL/AZkBwwGgAXoBeQF6AaABmgFSAXkCegFKAf8CAAHvBv8B9AHzAfcBZgMAAa4BtAFt
+        AXEBdwGQAbQBuwEHAZEBcgFvAUYBbgEHAQABtQP/ARwBGgHDAZoBHAEHBgAC/wGZAcMBmgF5AZoEoAF0
+        AnoBSgH/AgABuwf/AfQB9wFmAwABkQHsAU8BdwGRA7QBcQFPAXEBrgF0AUYB7QEAAe8D/wHzAxwBbQMA
+        Ae8BFAH3AQAC/wGZAcMBeQGaBqABUgF5AUoB/wIAAbsH/wL3AWYDAAG1AZECVgFyA7QBkAFPAXEBrgEA
+        AZQBTAEAAQcE/wH0AfEBvAFmAwABiwJmAQAC/wGZAZoEwwSgAZoBUgFKAf8CAAEHBv8B9wNmBAABkQF4
+        A5gBtAHVAbQBcQGuAfcEAAEHBP8B9wNmAwABBwEUAgAC/wGZCsMBmgFtAf8CAAEHBv8BtQG8AWYBCQQA
+        AbUBkgEIAcIB4gHBAZEBswGRAa4FAAEJBP8BtQG8AWYBBwIAAQcB7AEUAgAC/weZBhwB/wIAAQkG/wG1
+        AWYBCQYAAbUBkgG7AZEBmAORBgABCQT/Ae8BZgG8AgADrgHvAgAQ/wIABQkCBwG7AQkJAAH3A5EIAAIJ
+        AwcBuwG8CQAQ/xAAEBMRAAH3DWYBAAj/AfEBkQEJAfQE/wH3Av8B8AL/AfAC/wHwAv8B8AL/ARMEAAHr
+        ARUBAAGuAYsHZgEAAfcB/wv3AWYBAAf/AQcBtQGuAe8B8wT/AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwQA
+        AZIB/wFSAQABGQHwBQkBZgEAAfcC/wH0AvMDGQHwAbwBCQH3AWYBAAT/AfQBBwG1Aa4BuwG0Aa4B7wH0
+        A/8B9w7wARMEAAGRARwBmgF6AQAC9AEZAt0BCQFmAQAB9wP/AbsBzwKGAa4BtQHwAbwB9wFmAQAD/wH0
+        AQcCkQG1AQkBtQGuAYsBkQHzAv8B9wL/AfAC/wHwAv8B8AL/AfAC/wETAXMB7AFtAeoBbQFLAcMBeQF6
+        AQAB9AIZAd0BCQFmAQAB9wL/AbUBrQG1AgkBtAGmAc8B8AH3AWYBAAP/AbwBtQG7BNwBuwG1AYsBrgH0
+        Af8B9wL/AfAC/wHwAv8B8AL/AfAC/wETAXMBmgF6AXkBUgF5AUsBwwF5AXoBAAH0AhkBCQFmAQAB9wH/
+        AQkBrQEJAf8BvAGGARkB3AGmAbUB9wFmAQAC/wG8AbUBuwEZAbUCiwG0AgkBtQGLAbUB/wH3CPAERQLw
+        ARMB7AEaAaABmgJ6AbwBcwHDAXkBegEAAvQBCQFmAQAB9wH/AbQB3AL/AfABtQH0ARkBtAGuAfcBZgEA
+        Av8BuwG8AuIBCQG0AYsBuwEZAd0B3AG1AYsB/wH3Av8B8AL/AfAC/wFFAv8BRQL/ARMB7QEaAqABmgF6
+        AQcB/wFzAcMBWQG0AT8B8QHwAWYBAAG1Af8B1AEJA/8BiwG0AfQBCQEEAfcBZgEAAf8B3QG7A+IBCQG0
+        AYsBuwEZAt0B3AGLAbwB9wL/AfAC/wHwAv8BRQL/AUUC/wETAe0CwwKgAZoBBwL/AXQBCQHjAXQBPwHw
+        AWYBAAG1Af8B1QEJAv8B8wHwAYsBtQEJAYYB9wFmAQAB/wK8A+IB8gG0AYsBuwPiAd0BrgG8AfcI8ARF
+        AvABEwHtAcMBGgOgAQcD/wFFAXUB4wFuAfEBZgEAAe8B/wHcAQkB/wG1AYsB8AGLArUBzwH3AWYBAAH/
+        Ad0B8AH/AeIB9AG1AosBuwTiAZEBvAH3Av8B8AL/AfAC/wHwAv8B8AL/ARMB7QPDAqABuwP/AfQCbgL/
+        AWYBAAG7Af8BGQHVAQkB8wG1AYsBtQEJAa0BCQH3AWYBAAL/AfAC/wH0AQkCtQHxAuIB/wHdAbUB/wH3
+        Av8B8AL/AfAC/wHwAv8B8AL/ARMBkgTDAaADuwIHAfACBwK1AQABuwL/AQkB1QEJAhkBCQG0AQkC9wFm
+        AQAC/wHwBP8CGQT/AfABvAH/AfcHhgf3ARMBHAbDA6ABmgN6AesCAAEHA/8BGQHcAtUB1gHdAfcDZgEA
+        A/8B3QL/AbwBrgGLAbsC/wEZAbwC/wH3B4YH9wETCBwG7QG8AgABBwn/AbUBvAFmAbwBAAb/AfMC9wHz
+        Af8C4gP/D/cBEwEcARoDwwGaARwBvAkAAQkJ/wG1AWYBvAIAEP8QAAHzBRwB8woABgkEBwG7AbwDABD/
+        bAAC6yMAAQcB7ArrAewDAAnqAesBkgFuAeoEAAHsC20B7BEAAfEMKgFtAewBAAIxAysEKgFLAe0CUgET
+        AwACUgFMCioBEwHsAwAB7An/AwACUgGgCXoBUgEqAesBAAErAVgBwwZ6AZIBUgFZASoBSgHrAQABUgF6
+        AVIBoAh6AVIBoAEqAW0DAAHsA/8BAAX/AwACUgF6AaAIegFYAUsBbQEHATEBUgHDAaABmQG8AgcB9wFS
+        AnoBKwEqAeoBAAFSAXoBUgGgCHoBUgGgASoBbQMAAewC/wEABv8DAAJSAVgIoAGaAVkBUgFtAewCUgF6
+        AbwB9AH/AuIBCQGZAeUBoAFSATEBEwEAAVIBegFSCaABWAGgASoBbQMAAewC/wIABf8DAAFSAVgBUgmg
+        AnkBKgHrAVIBWAFSAfAD/wHiARkBvAKgAXkBKgFKAesBUgF6AVIJoAF6AaABKgFtAwAB7AL/AwAB/wEA
+        Av8DAAFSAXoBUgmgAXoBoAFLAesBUgF6ATEBCQHiAf8B4gIZAfACoAF6AVgBKgETAVIBegFSCaABegGg
+        ASoBbQMAAewD/wQAAv8DAAFSAZoBUgF5Av8B9gX/AZoB/wFLAewBUgHlAVgBCQPiARkB4gHwAv8BoAF6
+        ASoB6gFSAXoBUgn/AZoB/wEqAewDAAHsBP8DAAL/AwABUgGgAXkMUgEHAVIBoAF6AewCGQHiAf8BGQFS
+        BDEBKgEAAVIBoAGaDFIEAAHsA/8EAAL/AwABUgagBf8BUgFLAQcBAAFSA6ABBwIJAbwB8gP/ASoB6wIA
+        AVIGoAX/ASoB7AUAAewJ/wMAAVIB/wSgAf8GUgHxAgABUgH/BKAB/wUxASsDAAFSAf8EoAH/BVIBTAYA
+        CuwEAAFSBP8BUgEHCQABUgT/AVIKAAFSBP8BUhsABFIB8QsABFIMAARSrQAB6j4AAa4BDgETBwABrgHs
+        EgABtAGuA4sBhgMAAbQCrgKLAWYJAAEJAbUIAAG1AQ8BEQGuBQAB7AEVAbUIAAESARQBEAcAAbUB/wG8
+        AbUBtAGGAwABtAHzAbwBtQHPAYYJAAEJAdUBzwG1BwABbQERARQEAAH3ARMB6wkAAm0BFAcAAbUB/wG8
+        AbUBtAGGAwABtALzAQkBtAGGCgABCQHVAc8IAAEUARAB6gIAAfcB6wEVAfcJAAHqAe0BbQERBgABtQH/
+        AbwBtQG0AYYDAAG0AvMBCQG0AYYLAAHPAdUBtQgAARMBEQFtAfcB6gFDAZEKAAHqAe8B7AEUBgABtQH/
+        AfMBvAG1AYYDAAG0AvMBCQG0AYYLAAG7Aa0B1QkAARMCQwEVARQKAAHwAeoBBwGSARQBBwUAAbUBtAGu
+        AYsChgGmAYYBtAGuAYsChgFlAYsDAAWtAYsDAAGtAdUBCQgAAZEBQwIUAZIJAAHwARIBkgHwAe8B6wEP
+        AQcEAAEJAbQB/wHwAbUBrgGmAbsBtAHxARkBtQHPAYYBtQMAAbQBrQLVAbQEAAGtAbQB3AcAAbsB6gMV
+        AeoB9wcAAfABbQEHAfIB8QEHAe0B6gEPAQcEAAG1AfQB/wEZAbQBhgGLAbQC/wHdAc8BhgQAAbQD1QHP
+        BAACrQHcBgAB9wIUAewBAAHsARQB7AH3BQAB8AHrAQcB8wH/AfMB8AEHAZIB6gEPAQcEAAG1AbQBrgOL
+        Ac8BtAGuAoYFAAG0A9UCrQMAAYsBrQHcBAABBwHrAhQB7AMAAesBFAHsAQcDAAHwAewB8AHzA/8B8gHw
+        AQcB7QESAQ8BBwMAAbUB/wEJAbQBhgEAAbUB/wEJAbUBhgUAAdYCCQHcAbQCrQHPAa0BiwHVBAAB9wHr
+        ARUBFAGSBQAB9wESAewDAAHsAbwB8wL/AfQB8wHyAbwBBwGSAW0BEgEPAwABuwG1Aa4CiwEAArUBrgGL
+        AYYFAAHWAgABCQHcAdUErQUAAfcBFAETAe8HAAL3AwAB7wEHAfABvAIHAe8C9wGSAewB6wFtARMEAAG0
+        Af8BhgMAAbQB/wGGCgABCQLcAtYGAAH3AesB9x8AAbUBtAGLAwABtQG0AYsMAAIJJgABQgFNAT4HAAE+
+        AwABKAMAAUADAAFgAwABAQEAAQEGAAEDFgAD/4EABv8BgAEBAYABAQGPAf8BAAEPAgABgAEBAYcB/wEA
+        AQ8CAAGAAQEBgwH/AQABDwIAAYABAQHBAf8BAAEPAgABgAEBAeAB/wEAAQ8CAAGAAQEB8AEDAQABDwIA
+        AYABAQH4AQEBAAEPAgABgAEBAfwCAAEOAgABgAEBAfwCAAEEAgABgAEBAfwFAAGAAQEB/AUAAYABAQH8
+        AQAB+AMAAYABAQH8AQAB/AMAAYABAQH+AQEB/gEEAgAD/wEDAv8BgAEBAfwBfwL/AgAC/wHwAR8B8AEB
+        AgABwAEHAcABDwHwAQECAAHAAQcBAAEDAfABAQIAAcABBwEAAQEB8AEBAgABwAEHAQABAQEAAQECAAHA
+        AQcBAAEBAQABAQIAAcABBwEAAQEBAAEBAgABwAEHAQABAQEAAQECAAHAAQcBAAEBAQABPwIAAcABBwEA
+        AQEBAAFxAgABwAEHAQABCQEAAXECAAHAAQcBgAEPAQABcwIAAcABBwGAAR8BAAFjAgABwAEPAcABPwEA
+        AcMCAAHAAR8B8AH/AQEB/wIAAv8CAAL/AYABAQQAAfABAAGAAQEEAAHwAQABgAEBBAAB8AEAAYABAQYA
+        AYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQUAAQEBgAEBBQABAQGA
+        AQEFAAH/AYABAwIAAv8BAQH/AYABBwIADf8B8wT/AYABAwGAAQMBwAEBAeABAwEAAQEBAAEDAYABAAHg
+        AQMBAAEBAQABAQIAAeABAwMAAQECAAHgAQMDAAEBAgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDAwABAQEA
+        AQEB4AEDAQABAQEAAQMBAAEDAeABAwEAAQMBAAEHAQABBwHgAQMBgAH/AYEB/wGBA/8BwQH/AcMB/wHD
+        Ff8B7wf/AccB8wL/AQMBgQH/AT8BwwHjAfwBPwEDAYEB/wEPAeMBxwH8AT8BAwGBAf8BjwHxAYcB/AE/
+        AQMBgQH/AccB+AEPAfwBPwEDAYEB/wHHAfwBHwH4AR8BAAEBAcAB4wH8AR8B8AEPAQABAQHBAeMB+AEP
+        AeABBwGAAQMBwQHjAfABhwHAAQMBwAEHAcAB4wHBAcMBgAEBAcEBBwHAAQcBgwHjAYABAQHBAQcB2AEP
+        AYcB8wGAAQEB4wGPAfwBHwGPA/8B4wGPAf8BPwT/FgAL
+</value>
+  </data>
+  <metadata name="officeCodeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="officeCodeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="officeCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 156</value>
+  </data>
+  <data name="officeCodeLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="officeCodeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="officeCodeLabel.Text" xml:space="preserve">
+    <value>Office Code:</value>
+  </data>
+  <data name="&gt;&gt;officeCodeLabel.Name" xml:space="preserve">
+    <value>officeCodeLabel</value>
+  </data>
+  <data name="&gt;&gt;officeCodeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;officeCodeLabel.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;officeCodeLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="dARSOfficeCodeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="dARSOfficeCodeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dARSOfficeCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 156</value>
+  </data>
+  <data name="dARSOfficeCodeLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dARSOfficeCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="dARSOfficeCodeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="dARSOfficeCodeLabel.Text" xml:space="preserve">
+    <value>DARS Office Code:</value>
+  </data>
+  <data name="&gt;&gt;dARSOfficeCodeLabel.Name" xml:space="preserve">
+    <value>dARSOfficeCodeLabel</value>
+  </data>
+  <data name="&gt;&gt;dARSOfficeCodeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dARSOfficeCodeLabel.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;dARSOfficeCodeLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="officeNameLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="officeNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 21</value>
+  </data>
+  <data name="officeNameLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="officeNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="officeNameLabel.Text" xml:space="preserve">
+    <value>Office Name (Eng):</value>
+  </data>
+  <data name="&gt;&gt;officeNameLabel.Name" xml:space="preserve">
+    <value>officeNameLabel</value>
+  </data>
+  <data name="&gt;&gt;officeNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;officeNameLabel.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;officeNameLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="officeNameFreLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="officeNameFreLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeNameFreLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 75</value>
+  </data>
+  <data name="officeNameFreLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeNameFreLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="officeNameFreLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="officeNameFreLabel.Text" xml:space="preserve">
+    <value>Office Name (Fre):</value>
+  </data>
+  <data name="&gt;&gt;officeNameFreLabel.Name" xml:space="preserve">
+    <value>officeNameFreLabel</value>
+  </data>
+  <data name="&gt;&gt;officeNameFreLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;officeNameFreLabel.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;officeNameFreLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="letterSignatoryLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="letterSignatoryLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="letterSignatoryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 129</value>
+  </data>
+  <data name="letterSignatoryLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="letterSignatoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="letterSignatoryLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="letterSignatoryLabel.Text" xml:space="preserve">
+    <value>Signatory (Appointment):</value>
+  </data>
+  <data name="letterSignatoryLabel.ToolTip" xml:space="preserve">
+    <value>Letter of Appointment Signatory</value>
+  </data>
+  <data name="&gt;&gt;letterSignatoryLabel.Name" xml:space="preserve">
+    <value>letterSignatoryLabel</value>
+  </data>
+  <data name="&gt;&gt;letterSignatoryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;letterSignatoryLabel.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;letterSignatoryLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="attentionAdministratorLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="attentionAdministratorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="attentionAdministratorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 111</value>
+  </data>
+  <data name="attentionAdministratorLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="attentionAdministratorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 13</value>
+  </data>
+  <data name="attentionAdministratorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="attentionAdministratorLabel.Text" xml:space="preserve">
+    <value>Attention Administrator:</value>
+  </data>
+  <data name="&gt;&gt;attentionAdministratorLabel.Name" xml:space="preserve">
+    <value>attentionAdministratorLabel</value>
+  </data>
+  <data name="&gt;&gt;attentionAdministratorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;attentionAdministratorLabel.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;attentionAdministratorLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="attentionBillingLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="attentionBillingLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="attentionBillingLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 138</value>
+  </data>
+  <data name="attentionBillingLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="attentionBillingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="attentionBillingLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="attentionBillingLabel.Text" xml:space="preserve">
+    <value>Attention Billing:</value>
+  </data>
+  <data name="&gt;&gt;attentionBillingLabel.Name" xml:space="preserve">
+    <value>attentionBillingLabel</value>
+  </data>
+  <data name="&gt;&gt;attentionBillingLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;attentionBillingLabel.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;attentionBillingLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <metadata name="officeTypeCodeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="officeTypeCodeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeTypeCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 27</value>
+  </data>
+  <data name="officeTypeCodeLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeTypeCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="officeTypeCodeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="officeTypeCodeLabel.Text" xml:space="preserve">
+    <value>Office Type:</value>
+  </data>
+  <data name="&gt;&gt;officeTypeCodeLabel.Name" xml:space="preserve">
+    <value>officeTypeCodeLabel</value>
+  </data>
+  <data name="&gt;&gt;officeTypeCodeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;officeTypeCodeLabel.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;officeTypeCodeLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="reappointedDateLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="reappointedDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="reappointedDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 83</value>
+  </data>
+  <data name="reappointedDateLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="reappointedDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="reappointedDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="reappointedDateLabel.Text" xml:space="preserve">
+    <value>Reappointed Date:</value>
+  </data>
+  <data name="&gt;&gt;reappointedDateLabel.Name" xml:space="preserve">
+    <value>reappointedDateLabel</value>
+  </data>
+  <data name="&gt;&gt;reappointedDateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reappointedDateLabel.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;reappointedDateLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <metadata name="appointmentTypeCodeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="appointmentTypeCodeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="appointmentTypeCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 54</value>
+  </data>
+  <data name="appointmentTypeCodeLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="appointmentTypeCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="appointmentTypeCodeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="appointmentTypeCodeLabel.Text" xml:space="preserve">
+    <value>Appointment Type:</value>
+  </data>
+  <data name="&gt;&gt;appointmentTypeCodeLabel.Name" xml:space="preserve">
+    <value>appointmentTypeCodeLabel</value>
+  </data>
+  <data name="&gt;&gt;appointmentTypeCodeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;appointmentTypeCodeLabel.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;appointmentTypeCodeLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <metadata name="hourlyRateLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="hourlyRateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hourlyRateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 81</value>
+  </data>
+  <data name="hourlyRateLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hourlyRateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="hourlyRateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="hourlyRateLabel.Text" xml:space="preserve">
+    <value>Hourly Rate:</value>
+  </data>
+  <data name="&gt;&gt;hourlyRateLabel.Name" xml:space="preserve">
+    <value>hourlyRateLabel</value>
+  </data>
+  <data name="&gt;&gt;hourlyRateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hourlyRateLabel.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;hourlyRateLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="currencyCodeLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="currencyCodeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="currencyCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 54</value>
+  </data>
+  <data name="currencyCodeLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="currencyCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="currencyCodeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="currencyCodeLabel.Text" xml:space="preserve">
+    <value>Currency:</value>
+  </data>
+  <data name="&gt;&gt;currencyCodeLabel.Name" xml:space="preserve">
+    <value>currencyCodeLabel</value>
+  </data>
+  <data name="&gt;&gt;currencyCodeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;currencyCodeLabel.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;currencyCodeLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="gSTNumberLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="gSTNumberLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gSTNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 27</value>
+  </data>
+  <data name="gSTNumberLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gSTNumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="gSTNumberLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gSTNumberLabel.Text" xml:space="preserve">
+    <value>GST Number:</value>
+  </data>
+  <data name="&gt;&gt;gSTNumberLabel.Name" xml:space="preserve">
+    <value>gSTNumberLabel</value>
+  </data>
+  <data name="&gt;&gt;gSTNumberLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gSTNumberLabel.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;gSTNumberLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="emailAddressLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="emailAddressLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="emailAddressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 188</value>
+  </data>
+  <data name="emailAddressLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="emailAddressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="emailAddressLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="emailAddressLabel.Text" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="&gt;&gt;emailAddressLabel.Name" xml:space="preserve">
+    <value>emailAddressLabel</value>
+  </data>
+  <data name="&gt;&gt;emailAddressLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;emailAddressLabel.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;emailAddressLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="homePhoneLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="homePhoneLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="homePhoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 161</value>
+  </data>
+  <data name="homePhoneLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="homePhoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="homePhoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="homePhoneLabel.Text" xml:space="preserve">
+    <value>Toll Free Number:</value>
+  </data>
+  <data name="&gt;&gt;homePhoneLabel.Name" xml:space="preserve">
+    <value>homePhoneLabel</value>
+  </data>
+  <data name="&gt;&gt;homePhoneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;homePhoneLabel.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;homePhoneLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="workPhoneLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="workPhoneLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="workPhoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 134</value>
+  </data>
+  <data name="workPhoneLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="workPhoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="workPhoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="workPhoneLabel.Text" xml:space="preserve">
+    <value>Telephone Number:</value>
+  </data>
+  <data name="&gt;&gt;workPhoneLabel.Name" xml:space="preserve">
+    <value>workPhoneLabel</value>
+  </data>
+  <data name="&gt;&gt;workPhoneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;workPhoneLabel.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;workPhoneLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="faxNumberLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="faxNumberLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="faxNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 188</value>
+  </data>
+  <data name="faxNumberLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="faxNumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="faxNumberLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="faxNumberLabel.Text" xml:space="preserve">
+    <value>Facsimile:</value>
+  </data>
+  <data name="&gt;&gt;faxNumberLabel.Name" xml:space="preserve">
+    <value>faxNumberLabel</value>
+  </data>
+  <data name="&gt;&gt;faxNumberLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;faxNumberLabel.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;faxNumberLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="label1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 49</value>
+  </data>
+  <data name="label1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Parent Office:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="officeFriendlyNameEngLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="officeFriendlyNameEngLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeFriendlyNameEngLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 48</value>
+  </data>
+  <data name="officeFriendlyNameEngLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeFriendlyNameEngLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 13</value>
+  </data>
+  <data name="officeFriendlyNameEngLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="officeFriendlyNameEngLabel.Text" xml:space="preserve">
+    <value>Short Name/Acronym (Eng):</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameEngLabel.Name" xml:space="preserve">
+    <value>officeFriendlyNameEngLabel</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameEngLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameEngLabel.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameEngLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="officeFriendlyNameFreLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="officeFriendlyNameFreLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeFriendlyNameFreLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 102</value>
+  </data>
+  <data name="officeFriendlyNameFreLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeFriendlyNameFreLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="officeFriendlyNameFreLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="officeFriendlyNameFreLabel.Text" xml:space="preserve">
+    <value>Short Name/Acronym (Fre):</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameFreLabel.Name" xml:space="preserve">
+    <value>officeFriendlyNameFreLabel</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameFreLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameFreLabel.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameFreLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="branchIDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="branchIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="branchIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 102</value>
+  </data>
+  <data name="branchIDLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="branchIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="branchIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="branchIDLabel.Text" xml:space="preserve">
+    <value>Branch ID:</value>
+  </data>
+  <data name="&gt;&gt;branchIDLabel.Name" xml:space="preserve">
+    <value>branchIDLabel</value>
+  </data>
+  <data name="&gt;&gt;branchIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;branchIDLabel.Parent" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;branchIDLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="departmentIDLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="departmentIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="departmentIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 23</value>
+  </data>
+  <data name="departmentIDLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="departmentIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="departmentIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="departmentIDLabel.Text" xml:space="preserve">
+    <value>Department:</value>
+  </data>
+  <data name="&gt;&gt;departmentIDLabel.Name" xml:space="preserve">
+    <value>departmentIDLabel</value>
+  </data>
+  <data name="&gt;&gt;departmentIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;departmentIDLabel.Parent" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;departmentIDLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="label2.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 82</value>
+  </data>
+  <data name="label2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="label3.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 28</value>
+  </data>
+  <data name="label3.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>French Address:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="label4.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 55</value>
+  </data>
+  <data name="label4.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="label5.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 138</value>
+  </data>
+  <data name="label5.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Tax Rate:</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <metadata name="uiPanelManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>499, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="pnlAllContainer.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlAllContainer.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
+    <value>0, 10</value>
+  </data>
+  <data name="isClientOfficeUICheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 127</value>
+  </data>
+  <data name="isClientOfficeUICheckBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isClientOfficeUICheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 17</value>
+  </data>
+  <data name="isClientOfficeUICheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="isClientOfficeUICheckBox.Text" xml:space="preserve">
+    <value>Include in Client Office List:</value>
+  </data>
+  <data name="&gt;&gt;isClientOfficeUICheckBox.Name" xml:space="preserve">
+    <value>isClientOfficeUICheckBox</value>
+  </data>
+  <data name="&gt;&gt;isClientOfficeUICheckBox.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;isClientOfficeUICheckBox.Parent" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;isClientOfficeUICheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="isBranchUICheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 74</value>
+  </data>
+  <data name="isBranchUICheckBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isBranchUICheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 17</value>
+  </data>
+  <data name="isBranchUICheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="isBranchUICheckBox.Text" xml:space="preserve">
+    <value>Is a Branch:</value>
+  </data>
+  <data name="&gt;&gt;isBranchUICheckBox.Name" xml:space="preserve">
+    <value>isBranchUICheckBox</value>
+  </data>
+  <data name="&gt;&gt;isBranchUICheckBox.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;isBranchUICheckBox.Parent" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;isBranchUICheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mccBranch.Column2" xml:space="preserve">
+    <value>OfficeName</value>
+  </data>
+  <data name="mccBranch.DisplayMember" xml:space="preserve">
+    <value>OfficeCode</value>
+  </data>
+  <data name="mccBranch.DisplayNameColumn1" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="mccBranch.DisplayNameColumn2" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="mccBranch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="mccBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 98</value>
+  </data>
+  <data name="mccBranch.Middle" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="mccBranch.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mccBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>557, 24</value>
+  </data>
+  <data name="mccBranch.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;mccBranch.Name" xml:space="preserve">
+    <value>mccBranch</value>
+  </data>
+  <data name="&gt;&gt;mccBranch.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucMultiDropDown, AtriumCRA, Version=4.1.6484.22866, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;mccBranch.Parent" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;mccBranch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mccDepartment.Column2" xml:space="preserve">
+    <value>DepartmentNameEng</value>
+  </data>
+  <data name="mccDepartment.DisplayMember" xml:space="preserve">
+    <value>DepartmentCode</value>
+  </data>
+  <data name="mccDepartment.DisplayNameColumn1" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="mccDepartment.DisplayNameColumn2" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="mccDepartment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="mccDepartment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 18</value>
+  </data>
+  <data name="mccDepartment.Middle" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="mccDepartment.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mccDepartment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>557, 24</value>
+  </data>
+  <data name="mccDepartment.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mccDepartment.Name" xml:space="preserve">
+    <value>mccDepartment</value>
+  </data>
+  <data name="&gt;&gt;mccDepartment.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucMultiDropDown, AtriumCRA, Version=4.1.6484.22866, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;mccDepartment.Parent" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;mccDepartment.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ucMultiDropDown1.Column2" xml:space="preserve">
+    <value>OfficeName</value>
+  </data>
+  <data name="ucMultiDropDown1.DisplayMember" xml:space="preserve">
+    <value>OfficeCode</value>
+  </data>
+  <data name="ucMultiDropDown1.DisplayNameColumn1" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="ucMultiDropDown1.DisplayNameColumn2" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="ucMultiDropDown1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ucMultiDropDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 46</value>
+  </data>
+  <data name="ucMultiDropDown1.Middle" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="ucMultiDropDown1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ucMultiDropDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>557, 24</value>
+  </data>
+  <data name="ucMultiDropDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown1.Name" xml:space="preserve">
+    <value>ucMultiDropDown1</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown1.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucMultiDropDown, AtriumCRA, Version=4.1.6484.22866, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown1.Parent" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="uiGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="uiGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 586</value>
+  </data>
+  <data name="uiGroupBox1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 153</value>
+  </data>
+  <data name="uiGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="uiGroupBox1.Text" xml:space="preserve">
+    <value>Office Configuration</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.Name" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.Parent" xml:space="preserve">
+    <value>pnlAllContainer</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uploadsDisbUICheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 135</value>
+  </data>
+  <data name="uploadsDisbUICheckBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uploadsDisbUICheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 17</value>
+  </data>
+  <data name="uploadsDisbUICheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="uploadsDisbUICheckBox.Text" xml:space="preserve">
+    <value>Uploads Disbursements:</value>
+  </data>
+  <data name="&gt;&gt;uploadsDisbUICheckBox.Name" xml:space="preserve">
+    <value>uploadsDisbUICheckBox</value>
+  </data>
+  <data name="&gt;&gt;uploadsDisbUICheckBox.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uploadsDisbUICheckBox.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;uploadsDisbUICheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="usesBillingUICheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 108</value>
+  </data>
+  <data name="usesBillingUICheckBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="usesBillingUICheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 18</value>
+  </data>
+  <data name="usesBillingUICheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="usesBillingUICheckBox.Text" xml:space="preserve">
+    <value>Uses Billing:</value>
+  </data>
+  <data name="&gt;&gt;usesBillingUICheckBox.Name" xml:space="preserve">
+    <value>usesBillingUICheckBox</value>
+  </data>
+  <data name="&gt;&gt;usesBillingUICheckBox.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;usesBillingUICheckBox.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;usesBillingUICheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="retainerUICheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 81</value>
+  </data>
+  <data name="retainerUICheckBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="retainerUICheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="retainerUICheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="retainerUICheckBox.Text" xml:space="preserve">
+    <value>Retainer:</value>
+  </data>
+  <data name="&gt;&gt;retainerUICheckBox.Name" xml:space="preserve">
+    <value>retainerUICheckBox</value>
+  </data>
+  <data name="&gt;&gt;retainerUICheckBox.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;retainerUICheckBox.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;retainerUICheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="isOnLineUICheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 108</value>
+  </data>
+  <data name="isOnLineUICheckBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isOnLineUICheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 17</value>
+  </data>
+  <data name="isOnLineUICheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="isOnLineUICheckBox.Text" xml:space="preserve">
+    <value>Online Office:</value>
+  </data>
+  <data name="&gt;&gt;isOnLineUICheckBox.Name" xml:space="preserve">
+    <value>isOnLineUICheckBox</value>
+  </data>
+  <data name="&gt;&gt;isOnLineUICheckBox.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;isOnLineUICheckBox.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;isOnLineUICheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="hourlyRateNumericEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 79</value>
+  </data>
+  <data name="hourlyRateNumericEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hourlyRateNumericEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 21</value>
+  </data>
+  <data name="hourlyRateNumericEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="hourlyRateNumericEditBox.Text" xml:space="preserve">
+    <value>$0.00</value>
+  </data>
+  <data name="&gt;&gt;hourlyRateNumericEditBox.Name" xml:space="preserve">
+    <value>hourlyRateNumericEditBox</value>
+  </data>
+  <data name="&gt;&gt;hourlyRateNumericEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;hourlyRateNumericEditBox.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;hourlyRateNumericEditBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gSTNumberEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 25</value>
+  </data>
+  <data name="gSTNumberEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gSTNumberEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 21</value>
+  </data>
+  <data name="gSTNumberEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gSTNumberEditBox.Name" xml:space="preserve">
+    <value>gSTNumberEditBox</value>
+  </data>
+  <data name="&gt;&gt;gSTNumberEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;gSTNumberEditBox.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;gSTNumberEditBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="attentionBillingEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 133</value>
+  </data>
+  <data name="attentionBillingEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="attentionBillingEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 21</value>
+  </data>
+  <data name="attentionBillingEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;attentionBillingEditBox.Name" xml:space="preserve">
+    <value>attentionBillingEditBox</value>
+  </data>
+  <data name="&gt;&gt;attentionBillingEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;attentionBillingEditBox.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;attentionBillingEditBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="attentionAdministratorEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 106</value>
+  </data>
+  <data name="attentionAdministratorEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="attentionAdministratorEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 21</value>
+  </data>
+  <data name="attentionAdministratorEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;attentionAdministratorEditBox.Name" xml:space="preserve">
+    <value>attentionAdministratorEditBox</value>
+  </data>
+  <data name="&gt;&gt;attentionAdministratorEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;attentionAdministratorEditBox.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;attentionAdministratorEditBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ucMultiDropDown4.Column2" xml:space="preserve">
+    <value>CurrencyDescEng</value>
+  </data>
+  <data name="ucMultiDropDown4.DisplayMember" xml:space="preserve">
+    <value>CurrencyDescEng</value>
+  </data>
+  <data name="ucMultiDropDown4.DisplayNameColumn1" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="ucMultiDropDown4.DisplayNameColumn2" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ucMultiDropDown4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ucMultiDropDown4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 52</value>
+  </data>
+  <data name="ucMultiDropDown4.Middle" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="ucMultiDropDown4.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ucMultiDropDown4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 24</value>
+  </data>
+  <data name="ucMultiDropDown4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown4.Name" xml:space="preserve">
+    <value>ucMultiDropDown4</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown4.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucMultiDropDown, AtriumCRA, Version=4.1.6484.22866, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown4.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ucMultiDropDown3.Column2" xml:space="preserve">
+    <value>AppointmentTypeDescEng</value>
+  </data>
+  <data name="ucMultiDropDown3.DisplayMember" xml:space="preserve">
+    <value>AppointmentTypeDescEng</value>
+  </data>
+  <data name="ucMultiDropDown3.DisplayNameColumn1" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="ucMultiDropDown3.DisplayNameColumn2" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ucMultiDropDown3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ucMultiDropDown3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 52</value>
+  </data>
+  <data name="ucMultiDropDown3.Middle" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="ucMultiDropDown3.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ucMultiDropDown3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="ucMultiDropDown3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown3.Name" xml:space="preserve">
+    <value>ucMultiDropDown3</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown3.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucMultiDropDown, AtriumCRA, Version=4.1.6484.22866, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown3.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ucMultiDropDown2.Column2" xml:space="preserve">
+    <value>OfficeTypeDescEng</value>
+  </data>
+  <data name="ucMultiDropDown2.DisplayMember" xml:space="preserve">
+    <value>OfficeTypeDescEng</value>
+  </data>
+  <data name="ucMultiDropDown2.DisplayNameColumn1" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="ucMultiDropDown2.DisplayNameColumn2" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ucMultiDropDown2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ucMultiDropDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 25</value>
+  </data>
+  <data name="ucMultiDropDown2.Middle" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="ucMultiDropDown2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ucMultiDropDown2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="ucMultiDropDown2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown2.Name" xml:space="preserve">
+    <value>ucMultiDropDown2</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown2.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucMultiDropDown, AtriumCRA, Version=4.1.6484.22866, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown2.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;ucMultiDropDown2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="reappointedDateCalendarCombo.CustomFormat" xml:space="preserve">
+    <value>yyyy'/'MM'/'dd</value>
+  </data>
+  <assembly alias="Janus.Windows.CalendarCombo.v4" name="Janus.Windows.CalendarCombo.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" />
+  <data name="reappointedDateCalendarCombo.DateFormat" type="Janus.Windows.CalendarCombo.DateFormat, Janus.Windows.CalendarCombo.v4">
+    <value>Custom</value>
+  </data>
+  <data name="reappointedDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 79</value>
+  </data>
+  <data name="reappointedDateCalendarCombo.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="reappointedDateCalendarCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 21</value>
+  </data>
+  <data name="reappointedDateCalendarCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;reappointedDateCalendarCombo.Name" xml:space="preserve">
+    <value>reappointedDateCalendarCombo</value>
+  </data>
+  <data name="&gt;&gt;reappointedDateCalendarCombo.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;reappointedDateCalendarCombo.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;reappointedDateCalendarCombo.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="mccDefaultTaxRate.Column2" xml:space="preserve">
+    <value>TaxRateDescEng</value>
+  </data>
+  <data name="mccDefaultTaxRate.DisplayMember" xml:space="preserve">
+    <value>TaxRateDescEng</value>
+  </data>
+  <data name="mccDefaultTaxRate.DisplayNameColumn1" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="mccDefaultTaxRate.DisplayNameColumn2" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="mccDefaultTaxRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="mccDefaultTaxRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>593, 134</value>
+  </data>
+  <data name="mccDefaultTaxRate.Middle" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="mccDefaultTaxRate.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mccDefaultTaxRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 24</value>
+  </data>
+  <data name="mccDefaultTaxRate.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;mccDefaultTaxRate.Name" xml:space="preserve">
+    <value>mccDefaultTaxRate</value>
+  </data>
+  <data name="&gt;&gt;mccDefaultTaxRate.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucMultiDropDown, AtriumCRA, Version=4.1.6484.22866, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;mccDefaultTaxRate.Parent" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;mccDefaultTaxRate.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="gbAppointmentInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="gbAppointmentInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 417</value>
+  </data>
+  <data name="gbAppointmentInfo.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbAppointmentInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 163</value>
+  </data>
+  <data name="gbAppointmentInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gbAppointmentInfo.Text" xml:space="preserve">
+    <value>Appointment/Administrative Information</value>
+  </data>
+  <data name="&gt;&gt;gbAppointmentInfo.Name" xml:space="preserve">
+    <value>gbAppointmentInfo</value>
+  </data>
+  <data name="&gt;&gt;gbAppointmentInfo.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;gbAppointmentInfo.Parent" xml:space="preserve">
+    <value>pnlAllContainer</value>
+  </data>
+  <data name="&gt;&gt;gbAppointmentInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="addressBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1007, 17</value>
+  </metadata>
+  <metadata name="atriumDB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>904, 17</value>
+  </metadata>
+  <data name="editBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 50</value>
+  </data>
+  <data name="editBox3.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="editBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 21</value>
+  </data>
+  <data name="editBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;editBox3.Name" xml:space="preserve">
+    <value>editBox3</value>
+  </data>
+  <data name="&gt;&gt;editBox3.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;editBox3.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;editBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="emailAddressEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 185</value>
+  </data>
+  <data name="emailAddressEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="emailAddressEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 21</value>
+  </data>
+  <data name="emailAddressEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;emailAddressEditBox.Name" xml:space="preserve">
+    <value>emailAddressEditBox</value>
+  </data>
+  <data name="&gt;&gt;emailAddressEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;emailAddressEditBox.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;emailAddressEditBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="workExtensionEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 132</value>
+  </data>
+  <data name="workExtensionEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="workExtensionEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 21</value>
+  </data>
+  <data name="workExtensionEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;workExtensionEditBox.Name" xml:space="preserve">
+    <value>workExtensionEditBox</value>
+  </data>
+  <data name="&gt;&gt;workExtensionEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;workExtensionEditBox.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;workExtensionEditBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="editBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 23</value>
+  </data>
+  <data name="editBox2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="editBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 21</value>
+  </data>
+  <data name="editBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;editBox2.Name" xml:space="preserve">
+    <value>editBox2</value>
+  </data>
+  <data name="&gt;&gt;editBox2.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;editBox2.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;editBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="maskedEditBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 185</value>
+  </data>
+  <data name="maskedEditBox3.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="maskedEditBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 21</value>
+  </data>
+  <data name="maskedEditBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox3.Name" xml:space="preserve">
+    <value>maskedEditBox3</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox3.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox3.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="editBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 77</value>
+  </data>
+  <data name="editBox1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="editBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 21</value>
+  </data>
+  <data name="editBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;editBox1.Name" xml:space="preserve">
+    <value>editBox1</value>
+  </data>
+  <data name="&gt;&gt;editBox1.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;editBox1.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;editBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="maskedEditBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 159</value>
+  </data>
+  <data name="maskedEditBox2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="maskedEditBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 21</value>
+  </data>
+  <data name="maskedEditBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox2.Name" xml:space="preserve">
+    <value>maskedEditBox2</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox2.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox2.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="maskedEditBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 132</value>
+  </data>
+  <data name="maskedEditBox1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="maskedEditBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 21</value>
+  </data>
+  <data name="maskedEditBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox1.Name" xml:space="preserve">
+    <value>maskedEditBox1</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox1.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox1.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;maskedEditBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ucAddress1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ucAddress1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="ucAddress1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ucAddress1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 140</value>
+  </data>
+  <data name="ucAddress1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucAddress1.Name" xml:space="preserve">
+    <value>ucAddress1</value>
+  </data>
+  <data name="&gt;&gt;ucAddress1.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucAddress, AtriumCRA, Version=4.1.6484.22866, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;ucAddress1.Parent" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;ucAddress1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="gbAddress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="gbAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 197</value>
+  </data>
+  <data name="gbAddress.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 214</value>
+  </data>
+  <data name="gbAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbAddress.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="&gt;&gt;gbAddress.Name" xml:space="preserve">
+    <value>gbAddress</value>
+  </data>
+  <data name="&gt;&gt;gbAddress.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;gbAddress.Parent" xml:space="preserve">
+    <value>pnlAllContainer</value>
+  </data>
+  <data name="&gt;&gt;gbAddress.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="activeUICheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 126</value>
+  </data>
+  <data name="activeUICheckBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="activeUICheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="activeUICheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="activeUICheckBox.Text" xml:space="preserve">
+    <value>Active:</value>
+  </data>
+  <data name="&gt;&gt;activeUICheckBox.Name" xml:space="preserve">
+    <value>activeUICheckBox</value>
+  </data>
+  <data name="&gt;&gt;activeUICheckBox.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;activeUICheckBox.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;activeUICheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dARSOfficeCodeEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 153</value>
+  </data>
+  <data name="dARSOfficeCodeEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dARSOfficeCodeEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="dARSOfficeCodeEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;dARSOfficeCodeEditBox.Name" xml:space="preserve">
+    <value>dARSOfficeCodeEditBox</value>
+  </data>
+  <data name="&gt;&gt;dARSOfficeCodeEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;dARSOfficeCodeEditBox.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;dARSOfficeCodeEditBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="officeCodeEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 153</value>
+  </data>
+  <data name="officeCodeEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeCodeEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="officeCodeEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;officeCodeEditBox.Name" xml:space="preserve">
+    <value>officeCodeEditBox</value>
+  </data>
+  <data name="&gt;&gt;officeCodeEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;officeCodeEditBox.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;officeCodeEditBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="officeFriendlyNameFreEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 99</value>
+  </data>
+  <data name="officeFriendlyNameFreEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeFriendlyNameFreEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="officeFriendlyNameFreEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameFreEditBox.Name" xml:space="preserve">
+    <value>officeFriendlyNameFreEditBox</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameFreEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameFreEditBox.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameFreEditBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="officeFriendlyNameEngEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 45</value>
+  </data>
+  <data name="officeFriendlyNameEngEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeFriendlyNameEngEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="officeFriendlyNameEngEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameEngEditBox.Name" xml:space="preserve">
+    <value>officeFriendlyNameEngEditBox</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameEngEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameEngEditBox.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;officeFriendlyNameEngEditBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="letterSignatoryEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 126</value>
+  </data>
+  <data name="letterSignatoryEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="letterSignatoryEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 21</value>
+  </data>
+  <data name="letterSignatoryEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;letterSignatoryEditBox.Name" xml:space="preserve">
+    <value>letterSignatoryEditBox</value>
+  </data>
+  <data name="&gt;&gt;letterSignatoryEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;letterSignatoryEditBox.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;letterSignatoryEditBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="officeNameFreEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 72</value>
+  </data>
+  <data name="officeNameFreEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeNameFreEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>491, 21</value>
+  </data>
+  <data name="officeNameFreEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;officeNameFreEditBox.Name" xml:space="preserve">
+    <value>officeNameFreEditBox</value>
+  </data>
+  <data name="&gt;&gt;officeNameFreEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;officeNameFreEditBox.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;officeNameFreEditBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="officeNameEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 18</value>
+  </data>
+  <data name="officeNameEditBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="officeNameEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>491, 21</value>
+  </data>
+  <data name="officeNameEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;officeNameEditBox.Name" xml:space="preserve">
+    <value>officeNameEditBox</value>
+  </data>
+  <data name="&gt;&gt;officeNameEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;officeNameEditBox.Parent" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;officeNameEditBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gbOffice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="gbOffice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 8</value>
+  </data>
+  <data name="gbOffice.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbOffice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 183</value>
+  </data>
+  <data name="gbOffice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbOffice.Text" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="&gt;&gt;gbOffice.Name" xml:space="preserve">
+    <value>gbOffice</value>
+  </data>
+  <data name="&gt;&gt;gbOffice.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;gbOffice.Parent" xml:space="preserve">
+    <value>pnlAllContainer</value>
+  </data>
+  <data name="&gt;&gt;gbOffice.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlAllContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlAllContainer.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlAllContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 750</value>
+  </data>
+  <data name="pnlAllContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlAllContainer.Name" xml:space="preserve">
+    <value>pnlAllContainer</value>
+  </data>
+  <data name="&gt;&gt;pnlAllContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlAllContainer.Parent" xml:space="preserve">
+    <value>pnlAll</value>
+  </data>
+  <data name="&gt;&gt;pnlAllContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="pnlAll.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 750</value>
+  </data>
+  <data name="pnlAll.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pnlAll.Text" xml:space="preserve">
+    <value>Office Information</value>
+  </data>
+  <data name="&gt;&gt;pnlAll.Name" xml:space="preserve">
+    <value>pnlAll</value>
+  </data>
+  <data name="&gt;&gt;pnlAll.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlAll.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="uiCommandManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1179, 17</value>
+  </metadata>
+  <data name="uiCommandManager1.AlwaysShowFullMenus" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BottomRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="BottomRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="BottomRebar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BottomRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Name" xml:space="preserve">
+    <value>BottomRebar1</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="cmdFile1.Key" xml:space="preserve">
+    <value>cmdFile</value>
+  </data>
+  <data name="cmdEdit1.Key" xml:space="preserve">
+    <value>cmdEdit</value>
+  </data>
+  <data name="uiCommandBar2.Key" xml:space="preserve">
+    <value>cbMergeMenu</value>
+  </data>
+  <data name="uiCommandBar2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uiCommandBar2.RowIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiCommandBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 22</value>
+  </data>
+  <data name="uiCommandBar2.Text" xml:space="preserve">
+    <value>CommandBar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar2.Name" xml:space="preserve">
+    <value>uiCommandBar2</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandBar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar2.Parent" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tsDelete.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tsDelete.Key" xml:space="preserve">
+    <value>tsDelete</value>
+  </data>
+  <data name="tsDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="tsDelete.ToolTipText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="tsSave.ImageIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tsSave.Key" xml:space="preserve">
+    <value>tsSave</value>
+  </data>
+  <data name="tsSave.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlS</value>
+  </data>
+  <data name="tsSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="tsSave.ToolTipText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="tsScreenTitle.Key" xml:space="preserve">
+    <value>tsScreenTitle</value>
+  </data>
+  <data name="tsScreenTitle.Text" xml:space="preserve">
+    <value>Office Information</value>
+  </data>
+  <data name="tsAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAryAAAK8gE9UvcRAAABAklE
+        QVQ4T6WRMQrCQBBF9wiWsREEmwVPkd4DmM56D5BerBfrsJW9KSy8QMAj6AEE2z3COH/DmMRsoqLw2Mws
+        /82wKiL6i2hTcNaQkJvsBe52pSMQDQKE/C3rUmm6FDpIgqAy4+F0oTrhx2lGvuQek9mUslLzKocrvSiO
+        Yd0QXiaNpBW+2Jp0Pw8EgeexoBfGyWFIJOg2HOZa51PSRdIIOmGucWJqqHmy4vcW+KfUiiVBwGvLBhJu
+        15iK0LHypCaau81bJWu+awtiYN3r3UcFYFCAkICwOw8JbC3AKd9m63rgrUYFY5Plb/5qAwRjG5hiQIDL
+        T5MRHhXg4lt6gvfGb5B6AvcyxXN04pncAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsAudit.Key" xml:space="preserve">
+    <value>tsAudit</value>
+  </data>
+  <data name="tsAudit.ToolTipText" xml:space="preserve">
+    <value>Data Row LawMate.Properties</value>
+  </data>
+  <data name="tsEditmode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAAAAAAP///////wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAACACwAAAAAEAAQ
+        AAAIHQAFCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFgQEBADs=
+</value>
+  </data>
+  <data name="tsEditmode.Key" xml:space="preserve">
+    <value>tsEditmode</value>
+  </data>
+  <data name="tsSave2.Key" xml:space="preserve">
+    <value>tsSave</value>
+  </data>
+  <data name="cmdFile.Key" xml:space="preserve">
+    <value>cmdFile</value>
+  </data>
+  <data name="cmdFile.MergeOrder" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdFile.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="tsDelete2.Key" xml:space="preserve">
+    <value>tsDelete</value>
+  </data>
+  <data name="cmdEdit.Key" xml:space="preserve">
+    <value>cmdEdit</value>
+  </data>
+  <data name="cmdEdit.MergeOrder" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.Key" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LeftRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LeftRebar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LeftRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Name" xml:space="preserve">
+    <value>LeftRebar1</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="uiCommandManager1.LockCommandBars" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RightRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="RightRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RightRebar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RightRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Name" xml:space="preserve">
+    <value>RightRebar1</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="tsEditmode1.Key" xml:space="preserve">
+    <value>tsEditmode</value>
+  </data>
+  <data name="tsScreenTitle1.Key" xml:space="preserve">
+    <value>tsScreenTitle</value>
+  </data>
+  <data name="tsScreenTitle1.MergeOrder" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Separator1.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="Separator1.MergeOrder" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tsSave1.Key" xml:space="preserve">
+    <value>tsSave</value>
+  </data>
+  <data name="tsSave1.MergeOrder" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="tsSave1.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlS</value>
+  </data>
+  <data name="tsDelete1.Key" xml:space="preserve">
+    <value>tsDelete</value>
+  </data>
+  <data name="tsDelete1.MergeOrder" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Separator3.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="Separator3.MergeOrder" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="tsAudit1.Key" xml:space="preserve">
+    <value>tsAudit</value>
+  </data>
+  <data name="tsAudit1.MergeOrder" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="uiCommandBar1.FloatingSize" type="System.Drawing.Size, System.Drawing">
+    <value>63, 22</value>
+  </data>
+  <data name="uiCommandBar1.Key" xml:space="preserve">
+    <value>cbMergeToolbar</value>
+  </data>
+  <data name="uiCommandBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="uiCommandBar1.RowIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="uiCommandBar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiCommandBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 28</value>
+  </data>
+  <data name="uiCommandBar1.Text" xml:space="preserve">
+    <value>CommandBar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Name" xml:space="preserve">
+    <value>uiCommandBar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandBar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Parent" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TopRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TopRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TopRebar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TopRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 50</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Name" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 800</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Name" xml:space="preserve">
+    <value>errorProvider1</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpProvider1.Name" xml:space="preserve">
+    <value>helpProvider1</value>
+  </data>
+  <data name="&gt;&gt;helpProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageListBase.Name" xml:space="preserve">
+    <value>imageListBase</value>
+  </data>
+  <data name="&gt;&gt;imageListBase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uiPanelManager1.Name" xml:space="preserve">
+    <value>uiPanelManager1</value>
+  </data>
+  <data name="&gt;&gt;uiPanelManager1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelManager, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;officeBindingSource.Name" xml:space="preserve">
+    <value>officeBindingSource</value>
+  </data>
+  <data name="&gt;&gt;officeBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;officeDB.Name" xml:space="preserve">
+    <value>officeDB</value>
+  </data>
+  <data name="&gt;&gt;officeDB.Type" xml:space="preserve">
+    <value>lmDatasets.officeDB, lmDatasets, Version=4.1.6479.18004, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;addressBindingSource.Name" xml:space="preserve">
+    <value>addressBindingSource</value>
+  </data>
+  <data name="&gt;&gt;addressBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;atriumDB.Name" xml:space="preserve">
+    <value>atriumDB</value>
+  </data>
+  <data name="&gt;&gt;atriumDB.Type" xml:space="preserve">
+    <value>lmDatasets.atriumDB, lmDatasets, Version=4.1.6479.18004, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Name" xml:space="preserve">
+    <value>uiCommandManager1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandManager, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFile1.Name" xml:space="preserve">
+    <value>cmdFile1</value>
+  </data>
+  <data name="&gt;&gt;cmdFile1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdEdit1.Name" xml:space="preserve">
+    <value>cmdEdit1</value>
+  </data>
+  <data name="&gt;&gt;cmdEdit1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsEditmode1.Name" xml:space="preserve">
+    <value>tsEditmode1</value>
+  </data>
+  <data name="&gt;&gt;tsEditmode1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsScreenTitle1.Name" xml:space="preserve">
+    <value>tsScreenTitle1</value>
+  </data>
+  <data name="&gt;&gt;tsScreenTitle1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
+    <value>Separator1</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsSave1.Name" xml:space="preserve">
+    <value>tsSave1</value>
+  </data>
+  <data name="&gt;&gt;tsSave1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsDelete1.Name" xml:space="preserve">
+    <value>tsDelete1</value>
+  </data>
+  <data name="&gt;&gt;tsDelete1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Name" xml:space="preserve">
+    <value>Separator3</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsAudit1.Name" xml:space="preserve">
+    <value>tsAudit1</value>
+  </data>
+  <data name="&gt;&gt;tsAudit1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsDelete.Name" xml:space="preserve">
+    <value>tsDelete</value>
+  </data>
+  <data name="&gt;&gt;tsDelete.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsSave.Name" xml:space="preserve">
+    <value>tsSave</value>
+  </data>
+  <data name="&gt;&gt;tsSave.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsScreenTitle.Name" xml:space="preserve">
+    <value>tsScreenTitle</value>
+  </data>
+  <data name="&gt;&gt;tsScreenTitle.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsAudit.Name" xml:space="preserve">
+    <value>tsAudit</value>
+  </data>
+  <data name="&gt;&gt;tsAudit.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsEditmode.Name" xml:space="preserve">
+    <value>tsEditmode</value>
+  </data>
+  <data name="&gt;&gt;tsEditmode.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFile.Name" xml:space="preserve">
+    <value>cmdFile</value>
+  </data>
+  <data name="&gt;&gt;cmdFile.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsSave2.Name" xml:space="preserve">
+    <value>tsSave2</value>
+  </data>
+  <data name="&gt;&gt;tsSave2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdEdit.Name" xml:space="preserve">
+    <value>cmdEdit</value>
+  </data>
+  <data name="&gt;&gt;cmdEdit.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsDelete2.Name" xml:space="preserve">
+    <value>tsDelete2</value>
+  </data>
+  <data name="&gt;&gt;tsDelete2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;errorProvider2.Name" xml:space="preserve">
+    <value>errorProvider2</value>
+  </data>
+  <data name="&gt;&gt;errorProvider2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucOfficeInfo</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>LawMate.ucBase, AtriumCRA, Version=4.1.6484.22866, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.BorderCaption" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionVisible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CloseButtonVisible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Bottom" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Left" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Right" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Top" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="errorProvider2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+</root>

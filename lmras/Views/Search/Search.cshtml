@@ -1,0 +1,59 @@
+﻿@model PagedList.IPagedList<lmDatasets.appDB.EFileSearchRow>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Search Results";
+    atriumBE.atriumManager Atmng=ViewBag.Atmng;
+    atriumBE.FileManager fm=Atmng.GetFile();
+}
+<div class="container">
+<h3 class="marBottom">@Html.TranlateLabel(Atmng, "Search Results", "Résultats de recherche") <small class="badgeLbl"><span class="label label-info">@Model.TotalItemCount @Html.TranlateLabel(Atmng, "Files", "dossiers")</span></small></h3>
+
+<table class="table table-condensed table-hover atTbl">
+    <thead>
+        <tr>
+            <!--<th></th>-->
+            <th>@Html.TranlateLabel(Atmng, "File Name", "Nom de dossier")</th>
+            <th>@Html.TranlateLabel(Atmng, "File Number", "Numéro de dossier")</th>
+            <th>@Html.TranlateLabel(Atmng, "SIN", "NAS")</th>
+            <th>@Html.TranlateLabel(Atmng, "Status", "État")</th>
+            <th>@Html.TranlateLabel(Atmng, "Opened", "Ouvert")</th>
+            <th>@Html.TranlateLabel(Atmng, "Lead Office", "Bureau responsable")</th>
+            <th>@Html.TranlateLabel(Atmng, "Lead Paralegal", "Parajuriste principal")</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (lmDatasets.appDB.EFileSearchRow item in Model)
+        {
+            <tr>
+                <!--<td> @Html.ActionLink("View", "Activity", "File", new { fileid = item.FileId }, null)</td>-->
+                <td>
+                    <a href="@Url.Action("Activity", "File", new { fileid = item.FileId }, null)"><img src="@Url.Content("~/content/images/folder16x16.png")" alt=""/> @item.Name</a>
+                    
+                    
+                
+                
+                
+                
+                </td>
+                <td> @item.FullFileNumber</td>
+                <td> </td>
+                <td>@Html.LabelForStatusCode(item.StatusCode, fm)</td>
+                <td> @item.OpenedDate.ToString("yyyy/MM/dd")</td>
+                <td> @Html.ResolveLookup(item.LeadOfficeId, "OfficeList", fm, "OfficeCode")</td>
+                <td> @if (!item.IsLeadParalegalIDNull())
+                { @Atmng.OfficeMng.GetOfficer().FindLoad(item.LeadParalegalID).DisplayName}</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+    <small>
+        
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) @Html.TranlateLabel(Atmng, " of ", " de ") @Model.PageCount
+
+        @Html.PagedListPager(Model, page => Url.Action(ViewBag.Action,
+    new { page, term = ViewBag.term, method = ViewBag.method }))
+    </small>
+</div>

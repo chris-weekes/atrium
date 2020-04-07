@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllFlows" xml:space="preserve">
+    <value>Liste de processus</value>
+  </data>
+  <data name="AtWFDocCentre" xml:space="preserve">
+    <value>Centre de documentation de processus Atrium</value>
+  </data>
+  <data name="backToTop" xml:space="preserve">
+    <value>Haut de la page</value>
+  </data>
+  <data name="Collapse" xml:space="preserve">
+    <value>Réduire</value>
+  </data>
+  <data name="Expand" xml:space="preserve">
+    <value>Agrandir</value>
+  </data>
+  <data name="inEditMode" xml:space="preserve">
+    <value>Mode: &lt;strong&gt;Édition&lt;/strong&gt;</value>
+  </data>
+  <data name="inViewMode" xml:space="preserve">
+    <value>Mode: &lt;strong&gt;Lecture&lt;/strong&gt;</value>
+  </data>
+  <data name="switchToEditMode" xml:space="preserve">
+    <value>Mode d'édition</value>
+  </data>
+  <data name="switchToViewMode" xml:space="preserve">
+    <value>Mode lecture</value>
+  </data>
+  <data name="WFAlwaysAvail" xml:space="preserve">
+    <value>Toujours disponible</value>
+  </data>
+  <data name="WFCode" xml:space="preserve">
+    <value>Code de processus</value>
+  </data>
+  <data name="WFCreatesFile" xml:space="preserve">
+    <value>Crée dossier</value>
+  </data>
+  <data name="WFDesc" xml:space="preserve">
+    <value>Description de processus</value>
+  </data>
+  <data name="WFEnglishDesc" xml:space="preserve">
+    <value>Description anglaise</value>
+  </data>
+  <data name="WFFrenchDesc" xml:space="preserve">
+    <value>Description française</value>
+  </data>
+  <data name="WFStatus" xml:space="preserve">
+    <value>État</value>
+  </data>
+  <data name="acdocAdd" xml:space="preserve">
+    <value>AJOUTER</value>
+  </data>
+  <data name="acdocDelete" xml:space="preserve">
+    <value>SUPPRIMER</value>
+  </data>
+  <data name="acdocEdit" xml:space="preserve">
+    <value>RÉVISER</value>
+  </data>
+  <data name="acdocWFObjective" xml:space="preserve">
+    <value>Objectif du processus</value>
+  </data>
+  <data name="lblAllowOnce" xml:space="preserve">
+    <value>ne peut être entreprit qu’une seule fois sur un dossier.</value>
+  </data>
+  <data name="lblAlwaysAvailable" xml:space="preserve">
+    <value>Ce processus est disponible en tout temps (c.-à-d. qu’il apparait dans l’onglet « Processus disponibles en tout temps » de l’assistant d’activité)</value>
+  </data>
+  <data name="lblCanBeMoved" xml:space="preserve">
+    <value>Ce processus peut être déplacé d’un dossier à l’autre</value>
+  </data>
+  <data name="lblContainer" xml:space="preserve">
+    <value>Lorsque ce processus est entreprit, un dossier sera créé dans le dossier</value>
+  </data>
+  <data name="lblContainerNotDefined" xml:space="preserve">
+    <value>Le processus ne tient pas compte du dossier dans lequel le nouveau dossier sera créé.  Sa création sera basée sur le contexte dans lequel il sera créé, c’est-à-dire que le dossier parent sera sélectionné au moment où le nouveau dossier sera créé.</value>
+  </data>
+  <data name="lblContents" xml:space="preserve">
+    <value>Contenus (Liste d'étapes enregistrées)</value>
+  </data>
+  <data name="lblCreatesFile" xml:space="preserve">
+    <value>crée un dossier.</value>
+  </data>
+  <data name="lblIncObsolete" xml:space="preserve">
+    <value>Inclure voies obsolètes</value>
+  </data>
+  <data name="lblRecordedSteps" xml:space="preserve">
+    <value>Étapes enregistrées pour processus</value>
+  </data>
+  <data name="lblReloading" xml:space="preserve">
+    <value>Rechargement ... Veuillez patienter</value>
+  </data>
+  <data name="lblRestrictions" xml:space="preserve">
+    <value>Restrictions sur le déplacement de processus</value>
+  </data>
+  <data name="lblSee" xml:space="preserve">
+    <value>voir</value>
+  </data>
+  <data name="switchLang" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="WFHelpTextEng" xml:space="preserve">
+    <value>Texte d'aide anglais</value>
+  </data>
+  <data name="WFHelpTextFre" xml:space="preserve">
+    <value>Texte d'aire français</value>
+  </data>
+  <data name="WFProps" xml:space="preserve">
+    <value>Propriétés de processus</value>
+  </data>
+  <data name="lblAboveU" xml:space="preserve">
+    <value>ci-dessus</value>
+  </data>
+  <data name="lblActionsMnu" xml:space="preserve">
+    <value>Le menu déroulant Fichier - Actions</value>
+  </data>
+  <data name="lblActionsTK" xml:space="preserve">
+    <value>Le menu déroulant Fichier - Actions - Fiche de temps</value>
+  </data>
+  <data name="lblAlwAvailTab" xml:space="preserve">
+    <value>L’onglet « Processus disponibles en tout temps » de l’assistant d’activité</value>
+  </data>
+  <data name="lblAtExp" xml:space="preserve">
+    <value>Le menu contextuel de l'explorateur Atrium (nouveau dossier)</value>
+  </data>
+  <data name="lblComingOut" xml:space="preserve">
+    <value>En terminant le sous-processus</value>
+  </data>
+  <data name="lblDDCntxtMenu" xml:space="preserve">
+    <value>Les menus déroulants ou contextuels suivants :</value>
+  </data>
+  <data name="lblEnabledBy" xml:space="preserve">
+    <value>Activé par</value>
+  </data>
+  <data name="lblFinish" xml:space="preserve">
+    <value> est un &lt;strong&gt;point de fin&lt;/strong&gt; de processus</value>
+  </data>
+  <data name="lblHowAccessed" xml:space="preserve">
+    <value>Accessibilité au processus :</value>
+  </data>
+  <data name="lblInvalidMenu" xml:space="preserve">
+    <value>Type de menu non reconnu</value>
+  </data>
+  <data name="lblInWFPage" xml:space="preserve">
+    <value>dans la page de définition de processus</value>
+  </data>
+  <data name="lblMandatesBtn" xml:space="preserve">
+    <value>Le bouton « Mandats » à partir de l'écran principal d'Atrium, pour le(s) bureau(x) suivant(s) :</value>
+  </data>
+  <data name="lblProcess" xml:space="preserve">
+    <value>processus</value>
+  </data>
+  <data name="lblRestrictionsU" xml:space="preserve">
+    <value>restrictions</value>
+  </data>
+  <data name="lblSeeU" xml:space="preserve">
+    <value>Voir</value>
+  </data>
+  <data name="lblStart" xml:space="preserve">
+    <value> est un &lt;strong&gt;point de départ&lt;/strong&gt; de processus</value>
+  </data>
+  <data name="lblStartFinish" xml:space="preserve">
+    <value> est un &lt;strong&gt;processus à une étape&lt;/strong&gt; (il débute et se conclut avec une étape)</value>
+  </data>
+  <data name="lblSubp" xml:space="preserve">
+    <value>pour retourner au processus</value>
+  </data>
+  <data name="lblCouldNotDetermine" xml:space="preserve">
+    <value>Atrium n'a pu calculer de quelle façon ce processus est entreprit.</value>
+  </data>
+  <data name="lblCreateFile" xml:space="preserve">
+    <value>Crée un dossier :</value>
+  </data>
+  <data name="lblCreatesNewFile" xml:space="preserve">
+    <value>crée un nouveau dossier</value>
+  </data>
+  <data name="lblInFile" xml:space="preserve">
+    <value>dans le dossier suivant :</value>
+  </data>
+  <data name="lblInThe" xml:space="preserve">
+    <value>dans le</value>
+  </data>
+  <data name="lblmustBePerformed" xml:space="preserve">
+    <value>doit être effectué par le rôle suivant</value>
+  </data>
+  <data name="lblNextSteps" xml:space="preserve">
+    <value>Prochaines étapes attendues :</value>
+  </data>
+  <data name="lblNoRole" xml:space="preserve">
+    <value>Il n'existe aucune restriction sur le rôle pour effectuer cette étape</value>
+  </data>
+  <data name="lblOutputPaths" xml:space="preserve">
+    <value>Prochaines étapes possible (trajectoire de sortie) :</value>
+  </data>
+  <data name="lblProcessesDisabledByStep" xml:space="preserve">
+    <value>Processus désactivés en exécutant cette étape :</value>
+  </data>
+  <data name="lblProcessesEnabledByStep" xml:space="preserve">
+    <value>Processus activés en exécutant cette étape :</value>
+  </data>
+  <data name="lblRole" xml:space="preserve">
+    <value>Rôle :</value>
+  </data>
+  <data name="lblStepsEnableProcess" xml:space="preserve">
+    <value>Les étapes suivantes activent ce processus :</value>
+  </data>
+  <data name="lblStepsLeadToProcess" xml:space="preserve">
+    <value>Les étapes suivantes mènent à ce processus :</value>
+  </data>
+  <data name="lblStepsThatLeadTo" xml:space="preserve">
+    <value>Étapes qui mènent à</value>
+  </data>
+  <data name="lblsubprocess" xml:space="preserve">
+    <value>sous-processus</value>
+  </data>
+  <data name="lblTransferEnabledBy" xml:space="preserve">
+    <value>Transfert - Activé par</value>
+  </data>
+  <data name="acdocBlock1Proc" xml:space="preserve">
+    <value>Traitement - Bloc 1</value>
+  </data>
+  <data name="acdocBlock1Pur" xml:space="preserve">
+    <value>But - Bloc 1</value>
+  </data>
+  <data name="acdocBlock2Proc" xml:space="preserve">
+    <value>Traitement - Bloc 2</value>
+  </data>
+  <data name="acdocBlock2Pur" xml:space="preserve">
+    <value>But - Bloc 2</value>
+  </data>
+  <data name="acdocBlock3Proc" xml:space="preserve">
+    <value>Traitement - Bloc 3</value>
+  </data>
+  <data name="acdocBlock3Pur" xml:space="preserve">
+    <value>But - Bloc 3</value>
+  </data>
+  <data name="acdocBlock4Proc" xml:space="preserve">
+    <value>Traitement - Bloc 4</value>
+  </data>
+  <data name="acdocBlock4Pur" xml:space="preserve">
+    <value>But - Bloc 4</value>
+  </data>
+  <data name="acdocBlock5Proc" xml:space="preserve">
+    <value>Traitement - Bloc 5</value>
+  </data>
+  <data name="acdocBlock5Pur" xml:space="preserve">
+    <value>But - Bloc 5</value>
+  </data>
+  <data name="acdocDocBlockProc" xml:space="preserve">
+    <value>Traitement - Bloc de document</value>
+  </data>
+  <data name="acdocDocBlockPur" xml:space="preserve">
+    <value>But - Bloc de document</value>
+  </data>
+  <data name="acdocFinishNote" xml:space="preserve">
+    <value>Note - Activité terminée</value>
+  </data>
+  <data name="acdocIssuePur" xml:space="preserve">
+    <value>But - Bloc de litiges</value>
+  </data>
+  <data name="acdocRelFldObj" xml:space="preserve">
+    <value>Objectif - Bloc de champs liés</value>
+  </data>
+  <data name="acdocScheduleProc" xml:space="preserve">
+    <value>Traitement - Bloc de calendrier</value>
+  </data>
+  <data name="acdocStepObjective" xml:space="preserve">
+    <value>Objectif d'étape</value>
+  </data>
+  <data name="ctlAddress" xml:space="preserve">
+    <value>Contrôle d'adresse</value>
+  </data>
+  <data name="ctlCal" xml:space="preserve">
+    <value>Champ de date</value>
+  </data>
+  <data name="ctlchkbx" xml:space="preserve">
+    <value>Case à cocher</value>
+  </data>
+  <data name="ctlCurrencyFld" xml:space="preserve">
+    <value>Champ de monnaie (masque de saisie $)</value>
+  </data>
+  <data name="ctlDD" xml:space="preserve">
+    <value>Menu déroulant</value>
+  </data>
+  <data name="ctlGrd" xml:space="preserve">
+    <value>Grille de données (rangées multiples)</value>
+  </data>
+  <data name="ctlMulticolumnDD" xml:space="preserve">
+    <value>Menu déroulant à plusieurs colonnes</value>
+  </data>
+  <data name="ctlMultilineText" xml:space="preserve">
+    <value>Champ de texte à lignes multiples</value>
+  </data>
+  <data name="ctlpercent" xml:space="preserve">
+    <value>Champ de pourcentage (masque de saisie %)</value>
+  </data>
+  <data name="ctlSelectContact" xml:space="preserve">
+    <value>Sélection de contact</value>
+  </data>
+  <data name="ctlSelectDoc" xml:space="preserve">
+    <value>Sélection de document</value>
+  </data>
+  <data name="ctlSelectFile" xml:space="preserve">
+    <value>Sélection de dossier</value>
+  </data>
+  <data name="ctlSelectIssue" xml:space="preserve">
+    <value>Sélection de litiges</value>
+  </data>
+  <data name="ctlSelectOffice" xml:space="preserve">
+    <value>Sélection de bureau</value>
+  </data>
+  <data name="ctlSelectParty" xml:space="preserve">
+    <value>Sélection d'une partie</value>
+  </data>
+  <data name="ctlTxtFld" xml:space="preserve">
+    <value>Champ de texte</value>
+  </data>
+  <data name="ctlUploadDoc" xml:space="preserve">
+    <value>Téléchargement de document</value>
+  </data>
+  <data name="lblGoTo" xml:space="preserve">
+    <value>Allez à</value>
+  </data>
+  <data name="lblAtriumExpects" xml:space="preserve">
+    <value>Selon l’activité choisie, Atrium s’attend à ce que les champs suivants soient remplis :</value>
+  </data>
+  <data name="lblAutoStep" xml:space="preserve">
+    <value>Auto étape</value>
+  </data>
+  <data name="lblDirectBF" xml:space="preserve">
+    <value>Rappel directe</value>
+  </data>
+  <data name="lblInvalidStepToEnable" xml:space="preserve">
+    <value>Type d'étape non valide tente d'activer un sous-processus</value>
+  </data>
+  <data name="lblInvalidStepToTransfer" xml:space="preserve">
+    <value>Type d'étape non valide tente d'activer la possibilité de transfert à un sous-processus</value>
+  </data>
+  <data name="lblRelatedFields" xml:space="preserve">
+    <value>Champs Liés</value>
+  </data>
+  <data name="lblRoleBF" xml:space="preserve">
+    <value>Rappel basé sur un rôle</value>
+  </data>
+  <data name="lblStepCodeNotFound" xml:space="preserve">
+    <value>On n'a pu trouver le code d'étape</value>
+  </data>
+  <data name="lblTTGet" xml:space="preserve">
+    <value>Accède/utilise un enregistrement</value>
+  </data>
+  <data name="lblTTInc" xml:space="preserve">
+    <value>Rends disponible (inclut) tous les &lt;em&gt;données reliées&lt;em&gt; de l'étape spécifiée</value>
+  </data>
+  <data name="lblTTIssue" xml:space="preserve">
+    <value>Prédétermine la location (si Primary), ou référence-croisée (si Secondary)</value>
+  </data>
+  <data name="lblTTLoad" xml:space="preserve">
+    <value>Chargement de données hors de la portée du dossier</value>
+  </data>
+  <data name="lblTTNewRec" xml:space="preserve">
+    <value>Crée un nouvel enregristrement</value>
+  </data>
+  <data name="lblTTQuery" xml:space="preserve">
+    <value>Requête d'un enregistrement (selon les critères spécifiés)</value>
+  </data>
+  <data name="lblTTSelect" xml:space="preserve">
+    <value>Sélection de tous enregistrements (selon les critères spécifiés)</value>
+  </data>
+  <data name="lblTTSpecial" xml:space="preserve">
+    <value>Accède/utilise un object spécial prédéfini</value>
+  </data>
+  <data name="lblViewSourceTemplate" xml:space="preserve">
+    <value>Cliquer pour afficher le modèle de document</value>
+  </data>
+  <data name="WFDecision" xml:space="preserve">
+    <value>Décision</value>
+  </data>
+  <data name="WFNonRecordedAct" xml:space="preserve">
+    <value>Activité non-enregistrée</value>
+  </data>
+  <data name="WFRecordedAct" xml:space="preserve">
+    <value>Activité enregistrée</value>
+  </data>
+  <data name="WFSubprocess" xml:space="preserve">
+    <value>Sous-processus</value>
+  </data>
+  <data name="lblADMSDataRetrieval" xml:space="preserve">
+    <value>&lt;strong&gt;Récupération de données SGPA&lt;/strong&gt; : Cette étape effectue un &lt;strong&gt;contact avec le SGPA&lt;/strong&gt; pour récupérer des données</value>
+  </data>
+  <data name="lblADMSDataXchange" xml:space="preserve">
+    <value>&lt;strong&gt;Envoie de données au SGPA&lt;/strong&gt; : Cette étape &lt;strong&gt;envoie des données à propos de l'appel&lt;strong&gt; au SGPA</value>
+  </data>
+  <data name="lblADMSDecision" xml:space="preserve">
+    <value>&lt;strong&gt;Envoie de données au SGPA&lt;/strong&gt; : Cette étape &lt;strong&gt;envoie le document de la décision&lt;strong&gt; au SGPA</value>
+  </data>
+  <data name="lblADMSIssue" xml:space="preserve">
+    <value>&lt;strong&gt;Envoie de données au SGPA&lt;/strong&gt; : Cette étape &lt;strong&gt;envoie les données de litiges&lt;strong&gt; au SGPA</value>
+  </data>
+  <data name="lblADMSParticipantDump" xml:space="preserve">
+    <value>&lt;strong&gt;Envoie de données au SGPA&lt;/strong&gt; : Cette étape &lt;strong&gt;envoie les données concernant les parties de l'appel&lt;strong&gt; au SGPA</value>
+  </data>
+  <data name="lblBlock1" xml:space="preserve">
+    <value>Bloc 1 de champs liés</value>
+  </data>
+  <data name="lblBlock2" xml:space="preserve">
+    <value>Bloc 2 de champs liés</value>
+  </data>
+  <data name="lblBlock3" xml:space="preserve">
+    <value>Bloc 3 de champs liés</value>
+  </data>
+  <data name="lblBlock4" xml:space="preserve">
+    <value>Bloc 4 de champs liés</value>
+  </data>
+  <data name="lblBlock5" xml:space="preserve">
+    <value>Bloc 5 de champs liés</value>
+  </data>
+  <data name="lblDocBlock" xml:space="preserve">
+    <value>Bloc de document</value>
+  </data>
+  <data name="lblDocDump" xml:space="preserve">
+    <value>&lt;strong&gt;Envoie de documents&lt;/strong&gt; : Cette étape demande à l'utilisateur de &lt;strong&gt;choisir les documents qui seront envoyés&lt;strong&gt; à la Commision (AE) ou aux RHDCC (SR)</value>
+  </data>
+  <data name="lblInit" xml:space="preserve">
+    <value>Bloc de déclenchement</value>
+  </data>
+  <data name="lblNAWContents" xml:space="preserve">
+    <value>Contenus de l'assistant d'activité</value>
+  </data>
+  <data name="lblOnFinish" xml:space="preserve">
+    <value>Terminer l'activité</value>
+  </data>
+  <data name="lblPastE" xml:space="preserve">
+    <value>Passé (anglais) :</value>
+  </data>
+  <data name="lblPastF" xml:space="preserve">
+    <value>Passé (français) :</value>
+  </data>
+  <data name="lblPresentE" xml:space="preserve">
+    <value>Présent (anglais) :</value>
+  </data>
+  <data name="lblPresentF" xml:space="preserve">
+    <value>Présent (français) :</value>
+  </data>
+  <data name="lblSchedBlock" xml:space="preserve">
+    <value>Bloc de calendrier</value>
+  </data>
+  <data name="lblSelectIssue" xml:space="preserve">
+    <value>Bloc de choix des questions</value>
+  </data>
+  <data name="lblStepCode" xml:space="preserve">
+    <value>Code d'étape :</value>
+  </data>
+  <data name="lblStepCodeProperties" xml:space="preserve">
+    <value>Propriétés de code d'étape</value>
+  </data>
+  <data name="lblInitPar" xml:space="preserve">
+    <value>En cliquant Suivant lorsqu'un utilisateur choisi d'exécuter une activité dans l'assistant d'activité, le traitement des enregistrements suivants a lieu &lt;strong&gt;avant de présenter&lt;/strong&gt; le bloc approprié à l'utilisateur :</value>
+  </data>
+  <data name="lblDefaultValue" xml:space="preserve">
+    <value>Valeur par défaut</value>
+  </data>
+  <data name="lblField" xml:space="preserve">
+    <value>Champs</value>
+  </data>
+  <data name="lblFileName" xml:space="preserve">
+    <value>Nom de dossier :</value>
+  </data>
+  <data name="lblFileNum" xml:space="preserve">
+    <value>No. de dossier :</value>
+  </data>
+  <data name="lblIssueName" xml:space="preserve">
+    <value>Nom de la question :</value>
+  </data>
+  <data name="lblLayout" xml:space="preserve">
+    <value>Mise en page :</value>
+  </data>
+  <data name="lblObjectAlias" xml:space="preserve">
+    <value>Alias de l'objet</value>
+  </data>
+  <data name="lblParentRow" xml:space="preserve">
+    <value>Rangée parentale</value>
+  </data>
+  <data name="lblPrimaryIsSet" xml:space="preserve">
+    <value>Dans le bloc &lt;strong&gt;Choisir les questions&lt;/strong&gt;, la question principale est configurée par défaut :</value>
+  </data>
+  <data name="lblProcessing" xml:space="preserve">
+    <value>Traitement :</value>
+  </data>
+  <data name="lblPurpose" xml:space="preserve">
+    <value>But :</value>
+  </data>
+  <data name="lblTable" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="lblTask" xml:space="preserve">
+    <value>Tâche</value>
+  </data>
+  <data name="lblParameter" xml:space="preserve">
+    <value>Paramètre</value>
+  </data>
+  <data name="lblControlType" xml:space="preserve">
+    <value>Type de contrôle</value>
+  </data>
+  <data name="lblDisplayedFields" xml:space="preserve">
+    <value>Les champs suivants sont &lt;strong&gt;présentés à l'utilisateur&lt;/strong&gt; (pour l'affichage ou saisie de données) :</value>
+  </data>
+  <data name="lblFoundInWF" xml:space="preserve">
+    <value>Se trouve dans le processus :</value>
+  </data>
+  <data name="lblHelp" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="lblLabel" xml:space="preserve">
+    <value>Étiquette</value>
+  </data>
+  <data name="lblLookupTable" xml:space="preserve">
+    <value>Table de recherche</value>
+  </data>
+  <data name="lblNotVisible" xml:space="preserve">
+    <value>Les champs suivants &lt;strong&gt;ne sont pas visibles à l'utilisateur&lt;/strong&gt; et seront appliqués les valeurs suivantes :</value>
+  </data>
+  <data name="lblObject" xml:space="preserve">
+    <value>Objet</value>
+  </data>
+  <data name="lblReadOnly" xml:space="preserve">
+    <value>Lecture seule</value>
+  </data>
+  <data name="lblRequired" xml:space="preserve">
+    <value>Obligatoire</value>
+  </data>
+  <data name="lblUsedRecordInit" xml:space="preserve">
+    <value>Le traitement des enregistrements suivants prend place &lt;strong&gt;avant de présenter le bloc&lt;/strong&gt; à l'utilisateur :</value>
+  </data>
+  <data name="lblAttachedDocs" xml:space="preserve">
+    <value>Les pièces suivantes &lt;strong&gt;seront jointes&lt;/strong&gt; au document de base :</value>
+  </data>
+  <data name="lblAttachmentVals" xml:space="preserve">
+    <value>Les pièces jointes seront appliquées les valeurs suivantes :</value>
+  </data>
+  <data name="lblAttendeeDefaults" xml:space="preserve">
+    <value>Les valeurs suivantes seront appliquées au &lt;strong&gt;Participant(s)&lt;/strong&gt; :</value>
+  </data>
+  <data name="lblAutoReply" xml:space="preserve">
+    <value>Réponse automatique à l'étape</value>
+  </data>
+  <data name="lblAutoReplyAll" xml:space="preserve">
+    <value>Réponse à tous automatique à l'étape</value>
+  </data>
+  <data name="lblBaseDocPar" xml:space="preserve">
+    <value>Les valeurs suivantes seront appliquées au document de base (c.-à-d. &lt;strong&gt;Document0&lt;/strong&gt;) avant d'être produit et affiché à l'utilisateur :</value>
+  </data>
+  <data name="lblBFDate" xml:space="preserve">
+    <value>Calcul de date de rappel</value>
+  </data>
+  <data name="lblBFDesc" xml:space="preserve">
+    <value>Description du rappel</value>
+  </data>
+  <data name="lblBFOnlyBF" xml:space="preserve">
+    <value>Rappel seulement</value>
+  </data>
+  <data name="lblBFsCreated" xml:space="preserve">
+    <value>Rappels Créés :</value>
+  </data>
+  <data name="lblBFType" xml:space="preserve">
+    <value>Type de rappel</value>
+  </data>
+  <data name="lblCompletedBy" xml:space="preserve">
+    <value>Complété par</value>
+  </data>
+  <data name="lblConnector" xml:space="preserve">
+    <value>Connecteur</value>
+  </data>
+  <data name="lblDocDisp" xml:space="preserve">
+    <value>Bloc d'affichage de document</value>
+  </data>
+  <data name="lblFwd" xml:space="preserve">
+    <value>Retransmission de l'étape</value>
+  </data>
+  <data name="lblHasMailConnector" xml:space="preserve">
+    <value>&lt;p&gt;Cette étape a un &lt;strong&gt;Connecteur de courriel&lt;strong&gt; entrant. L'action suivante sera effectuée lorsque le modèle de document sera produit :&lt;/p&gt;</value>
+  </data>
+  <data name="lblNextStepBF" xml:space="preserve">
+    <value>Prochaine étape</value>
+  </data>
+  <data name="lblNote" xml:space="preserve">
+    <value>Note :</value>
+  </data>
+  <data name="lblRecipientVals" xml:space="preserve">
+    <value>Les valeurs suivantes seront appliquées au &lt;strong&gt;Destinataire(s)&lt;/strong&gt; :</value>
+  </data>
+  <data name="lblRoleType" xml:space="preserve">
+    <value>Type de rôle</value>
+  </data>
+  <data name="lblSchedDefaults" xml:space="preserve">
+    <value>Les valeurs suivantes seront appliquées au rendez-vous avant qu'il soit présenté à l'utilisateur :</value>
+  </data>
+  <data name="lblViewDoc" xml:space="preserve">
+    <value>Afficher le modèle de document :</value>
+  </data>
+  <data name="lblBFRole" xml:space="preserve">
+    <value>Rôle</value>
+  </data>
+  <data name="lblAllowedOn" xml:space="preserve">
+    <value>Autorisé pour :</value>
+  </data>
+  <data name="lblAvailRestrictions" xml:space="preserve">
+    <value>Restrictions de disponibilité :</value>
+  </data>
+  <data name="lblDeniedOn" xml:space="preserve">
+    <value>Interdit pour :</value>
+  </data>
+  <data name="lblFileType" xml:space="preserve">
+    <value>Type de dossier</value>
+  </data>
+  <data name="lblMetaFileType" xml:space="preserve">
+    <value>Type meta de dossier</value>
+  </data>
+  <data name="lblRestrictionFileNum" xml:space="preserve">
+    <value>No. de dossier entier</value>
+  </data>
+  <data name="lblRestrictionType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lblIssueContext" xml:space="preserve">
+    <value>où sa location est prédéterminée par les données de Question Primaire enregistrées avec cette étape&lt;/p&gt;</value>
+  </data>
+  <data name="lblTreeContext" xml:space="preserve">
+    <value>où sa location sera determinée par la location de sélection du menu contextuel.&lt;/p&gt;</value>
+  </data>
+  <data name="lblInWF" xml:space="preserve">
+    <value>dans le processus</value>
+  </data>
+  <data name="lblAutoCreate" xml:space="preserve">
+    <value>Les étapes suivantes sont &lt;strong&gt;enregistrées automatiquement&lt;/strong&gt; dans le cadre d'effectuer l'étape</value>
+  </data>
+  <data name="lblAutomaticStep" xml:space="preserve">
+    <value>Étape automatique :</value>
+  </data>
+  <data name="lblAutoNextSteps" xml:space="preserve">
+    <value>Prochaines étapes automatique :</value>
+  </data>
+  <data name="lblCreatedAutomatically" xml:space="preserve">
+    <value>Cette étape est &lt;strong&gt;automatiquement enregistrée&lt;/strong&gt; dans le cadre d'effectuer l'étape</value>
+  </data>
+  <data name="CALFileNumber" xml:space="preserve">
+    <value>Numéro de dossier : </value>
+  </data>
+  <data name="CALFileType" xml:space="preserve">
+    <value>Type de dossier : </value>
+  </data>
+  <data name="CALHearingMethod" xml:space="preserve">
+    <value>Type d’audience : </value>
+  </data>
+  <data name="CALHearingStatus" xml:space="preserve">
+    <value>État de l’audience : </value>
+  </data>
+  <data name="AtriumCal" xml:space="preserve">
+    <value>Calendrier Atrium</value>
+  </data>
+  <data name="AtriumCalFor" xml:space="preserve">
+    <value>Calendrier Atrium pour</value>
+  </data>
+  <data name="MyCal" xml:space="preserve">
+    <value>Mon calendrier</value>
+  </data>
+  <data name="SelectCal" xml:space="preserve">
+    <value>Veuillez sélectionner le calendrier à afficher</value>
+  </data>
+  <data name="CALGeneralAppointmentMessage" xml:space="preserve">
+    <value>Ceci est un rendez-vous d’ordre général qui n’est pas associé à une audience dans Atrium. Il peut avoir été créé à l’intérieur d’un dossier personnel, d’un dossier d’appel ou d’un dossier administratif. Le sujet, la date et l’heure associés au rendez-vous dans Atrium a été utilisé pour la création de ce rendez-vous dans Outlook.</value>
+  </data>
+  <data name="CALNoteAppointment" xml:space="preserve">
+    <value>Note: \n\n•	Le créneau horaire associé à ce rendez-vous ne sera pas inscrit comme étant ‘’occupé’’ dans votre calendrier Outlook. \n\n•	Il n’y a pas de rappel d’associé à ce rendez-vous dans Outlook. \n\n•	C’est au membre de gérer ses audiences et rendez-vous dans Atrium. \n\n•	Ce rendez-vous est en lecture seule et ne peut donc pas être modifié à l’intérieur d’Outlook. \n\n•	Ce rendez-vous peut être modifié dans Atrium et les changements apparaîtront dans Outlook par la suite.</value>
+  </data>
+  <data name="CALNoteHearing" xml:space="preserve">
+    <value>Note: \n\n•	Le créneau horaire associé à ce rendez-vous ne sera pas inscrit comme étant ‘’occupé’’ dans votre calendrier Outlook. \n\n•	Il n’y a pas de rappel d’associé à ce rendez-vous dans Outlook. \n\n•	C’est au membre de gérer ses audiences et rendez-vous dans Atrium. \n\n•	Ce rendez-vous est en lecture seule et ne peut donc pas être modifié à l’intérieur d’Outlook. \n\n•	Ce rendez-vous peut être modifié dans Atrium et les changements apparaîtront dans Outlook par la suite.\n\n•	S’il semble y avoir un problème avec le rendez-vous d’audience, veuillez communiquer avec l’agent de gestion de cas au dossier via Atrium. L’agent pourra modifier les détails du rendez-vous d’audience. Le rendez-vous sera ainsi mis-à-jour dans Outlook lorsque l’agent aura fait les modifications dans Atrium.</value>
+  </data>
+  <data name="CALAppellantName" xml:space="preserve">
+    <value>Nom du l’appelant(e) : </value>
+  </data>
+  <data name="CALCMO" xml:space="preserve">
+    <value>Agent de gestion de cas (AGC) : </value>
+  </data>
+  <data name="CALFileName" xml:space="preserve">
+    <value>Nom de dossier : </value>
+  </data>
+  <data name="CALGeneralAppointment" xml:space="preserve">
+    <value>Rendez-vous général</value>
+  </data>
+  <data name="CALHearingAppointment" xml:space="preserve">
+    <value>Rendez-vous  d’audience</value>
+  </data>
+  <data name="CALHearingDateTime" xml:space="preserve">
+    <value>Date et heure de l’audience : </value>
+  </data>
+  <data name="CALLevel" xml:space="preserve">
+    <value>Niveau : </value>
+  </data>
+  <data name="CALProgram" xml:space="preserve">
+    <value>Programme : </value>
+  </data>
+  <data name="CALRepName" xml:space="preserve">
+    <value>Nom du représentant : </value>
+  </data>
+  <data name="CALTribunalMember" xml:space="preserve">
+    <value>Membre du tribunal : </value>
+  </data>
+  <data name="AtriumVideos" xml:space="preserve">
+    <value>Videos Atrium</value>
+  </data>
+</root>

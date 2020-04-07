@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HelpDB" targetNamespace="http://tempuri.org/HelpDB.xsd" xmlns:mstns="http://tempuri.org/HelpDB.xsd" xmlns="http://tempuri.org/HelpDB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="ExcludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="LawmateSSTConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="LawmateSSTConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.lmDatasets.Properties.Settings.GlobalReference.Default.LawmateSSTConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HelpDB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="HelpDB" msprop:Generator_UserDSName="HelpDB">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="hlpImage" msprop:Generator_TableClassName="hlpImageDataTable" msprop:Generator_TableVarName="tablehlpImage" msprop:Generator_TablePropName="hlpImage" msprop:Generator_RowDeletingName="hlpImageRowDeleting" msprop:Generator_UserTableName="hlpImage" msprop:Generator_RowChangingName="hlpImageRowChanging" msprop:Generator_RowEvHandlerName="hlpImageRowChangeEventHandler" msprop:Generator_RowDeletedName="hlpImageRowDeleted" msprop:Generator_RowEvArgName="hlpImageRowChangeEvent" msprop:Generator_RowChangedName="hlpImageRowChanged" msprop:Generator_RowClassName="hlpImageRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" msprop:Generator_UserColumnName="FileName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Contents" msprop:Generator_ColumnVarNameInTable="columnContents" msprop:Generator_ColumnPropNameInRow="Contents" msprop:Generator_ColumnPropNameInTable="ContentsColumn" msprop:Generator_UserColumnName="Contents" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ContentType" msprop:Generator_ColumnVarNameInTable="columnContentType" msprop:Generator_ColumnPropNameInRow="ContentType" msprop:Generator_ColumnPropNameInTable="ContentTypeColumn" msprop:Generator_UserColumnName="ContentType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Publish" msprop:Generator_ColumnVarNameInTable="columnPublish" msprop:Generator_ColumnPropNameInRow="Publish" msprop:Generator_ColumnPropNameInTable="PublishColumn" msprop:Generator_UserColumnName="Publish" type="xs:boolean" />
+              <xs:element name="entryUser" msprop:Generator_ColumnVarNameInTable="columnentryUser" msprop:Generator_ColumnPropNameInRow="entryUser" msprop:Generator_ColumnPropNameInTable="entryUserColumn" msprop:Generator_UserColumnName="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" msprop:Generator_ColumnVarNameInTable="columnentryDate" msprop:Generator_ColumnPropNameInRow="entryDate" msprop:Generator_ColumnPropNameInTable="entryDateColumn" msprop:Generator_UserColumnName="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser" msprop:Generator_ColumnVarNameInTable="columnupdateUser" msprop:Generator_ColumnPropNameInRow="updateUser" msprop:Generator_ColumnPropNameInTable="updateUserColumn" msprop:Generator_UserColumnName="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" msprop:Generator_ColumnVarNameInTable="columnupdateDate" msprop:Generator_ColumnPropNameInRow="updateDate" msprop:Generator_ColumnPropNameInTable="updateDateColumn" msprop:Generator_UserColumnName="updateDate" type="xs:dateTime" />
+              <xs:element name="ts" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnts" msprop:Generator_ColumnPropNameInRow="ts" msprop:Generator_ColumnPropNameInTable="tsColumn" msprop:Generator_UserColumnName="ts" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="hlpPage" msprop:Generator_TableClassName="hlpPageDataTable" msprop:Generator_TableVarName="tablehlpPage" msprop:Generator_TablePropName="hlpPage" msprop:Generator_RowDeletingName="hlpPageRowDeleting" msprop:Generator_UserTableName="hlpPage" msprop:Generator_RowChangingName="hlpPageRowChanging" msprop:Generator_RowEvHandlerName="hlpPageRowChangeEventHandler" msprop:Generator_RowDeletedName="hlpPageRowDeleted" msprop:Generator_RowEvArgName="hlpPageRowChangeEvent" msprop:Generator_RowChangedName="hlpPageRowChanged" msprop:Generator_RowClassName="hlpPageRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" msprop:Generator_UserColumnName="FileName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Lang" msprop:Generator_ColumnVarNameInTable="columnLang" msprop:Generator_ColumnPropNameInRow="Lang" msprop:Generator_ColumnPropNameInTable="LangColumn" msprop:Generator_UserColumnName="Lang">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Contents" msprop:Generator_ColumnVarNameInTable="columnContents" msprop:Generator_ColumnPropNameInRow="Contents" msprop:Generator_ColumnPropNameInTable="ContentsColumn" msprop:Generator_UserColumnName="Contents" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Publish" msprop:Generator_ColumnVarNameInTable="columnPublish" msprop:Generator_ColumnPropNameInRow="Publish" msprop:Generator_ColumnPropNameInTable="PublishColumn" msprop:Generator_UserColumnName="Publish" type="xs:boolean" />
+              <xs:element name="entryUser" msprop:Generator_ColumnVarNameInTable="columnentryUser" msprop:Generator_ColumnPropNameInRow="entryUser" msprop:Generator_ColumnPropNameInTable="entryUserColumn" msprop:Generator_UserColumnName="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" msprop:Generator_ColumnVarNameInTable="columnentryDate" msprop:Generator_ColumnPropNameInRow="entryDate" msprop:Generator_ColumnPropNameInTable="entryDateColumn" msprop:Generator_UserColumnName="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser" msprop:Generator_ColumnVarNameInTable="columnupdateUser" msprop:Generator_ColumnPropNameInRow="updateUser" msprop:Generator_ColumnPropNameInTable="updateUserColumn" msprop:Generator_UserColumnName="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" msprop:Generator_ColumnVarNameInTable="columnupdateDate" msprop:Generator_ColumnPropNameInRow="updateDate" msprop:Generator_ColumnPropNameInTable="updateDateColumn" msprop:Generator_UserColumnName="updateDate" type="xs:dateTime" />
+              <xs:element name="ts" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnts" msprop:Generator_ColumnPropNameInRow="ts" msprop:Generator_ColumnPropNameInTable="tsColumn" msprop:Generator_UserColumnName="ts" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="hlpXml" msprop:Generator_TableClassName="hlpXmlDataTable" msprop:Generator_TableVarName="tablehlpXml" msprop:Generator_TablePropName="hlpXml" msprop:Generator_RowDeletingName="hlpXmlRowDeleting" msprop:Generator_UserTableName="hlpXml" msprop:Generator_RowChangingName="hlpXmlRowChanging" msprop:Generator_RowEvHandlerName="hlpXmlRowChangeEventHandler" msprop:Generator_RowDeletedName="hlpXmlRowDeleted" msprop:Generator_RowEvArgName="hlpXmlRowChangeEvent" msprop:Generator_RowChangedName="hlpXmlRowChanged" msprop:Generator_RowClassName="hlpXmlRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" msprop:Generator_UserColumnName="FileName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Contents" msprop:Generator_ColumnVarNameInTable="columnContents" msprop:Generator_ColumnPropNameInRow="Contents" msprop:Generator_ColumnPropNameInTable="ContentsColumn" msprop:Generator_UserColumnName="Contents" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Publish" msprop:Generator_ColumnVarNameInTable="columnPublish" msprop:Generator_ColumnPropNameInRow="Publish" msprop:Generator_ColumnPropNameInTable="PublishColumn" msprop:Generator_UserColumnName="Publish" type="xs:boolean" />
+              <xs:element name="entryUser" msprop:Generator_ColumnVarNameInTable="columnentryUser" msprop:Generator_ColumnPropNameInRow="entryUser" msprop:Generator_ColumnPropNameInTable="entryUserColumn" msprop:Generator_UserColumnName="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" msprop:Generator_ColumnVarNameInTable="columnentryDate" msprop:Generator_ColumnPropNameInRow="entryDate" msprop:Generator_ColumnPropNameInTable="entryDateColumn" msprop:Generator_UserColumnName="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser" msprop:Generator_ColumnVarNameInTable="columnupdateUser" msprop:Generator_ColumnPropNameInRow="updateUser" msprop:Generator_ColumnPropNameInTable="updateUserColumn" msprop:Generator_UserColumnName="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" msprop:Generator_ColumnVarNameInTable="columnupdateDate" msprop:Generator_ColumnPropNameInRow="updateDate" msprop:Generator_ColumnPropNameInTable="updateDateColumn" msprop:Generator_UserColumnName="updateDate" type="xs:dateTime" />
+              <xs:element name="ts" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnts" msprop:Generator_ColumnPropNameInRow="ts" msprop:Generator_ColumnPropNameInTable="tsColumn" msprop:Generator_UserColumnName="ts" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ContentsAsText" msprop:Generator_ColumnVarNameInTable="columnContentsAsText" msprop:Generator_ColumnPropNameInRow="ContentsAsText" msprop:Generator_ColumnPropNameInTable="ContentsAsTextColumn" msprop:Generator_UserColumnName="ContentsAsText" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:hlpImage" />
+      <xs:field xpath="mstns:FileName" />
+    </xs:unique>
+    <xs:unique name="hlpPage_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:hlpPage" />
+      <xs:field xpath="mstns:FileName" />
+      <xs:field xpath="mstns:Lang" />
+    </xs:unique>
+    <xs:unique name="hlpXml_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:hlpXml" />
+      <xs:field xpath="mstns:FileName" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

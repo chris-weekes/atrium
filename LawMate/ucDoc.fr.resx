@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pnlDocContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 473</value>
+  </data>
+  <data name="pnlDocContainer.Text" xml:space="preserve">
+    <value>Prévisualisation</value>
+  </data>
+  <data name="pnlControlContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 493</value>
+  </data>
+  <data name="cmdInsertExternalFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIQAAAAAAP///0BIYFBYcHB4kEBQcFBggGBwkHCAoDBIYEBYcFBogGB4kEBQYHCIoFBg
+        cGBwgHCAkP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBF
+        Mi4wAwEBAAAh+QQBAAASACwAAAAAEAAQAAAIXQAlCBxIsKBBgQ4cRDhY0MHAhQwFQpQAISICCQQkHJCw
+        IOJCBhwlGIgIsuJIBRErdhwgASVDky0lFIjY8YFMCQ0inryZICLKmQIk9GToMqfQiDcFzkQqNIFRpkgD
+        AgA7
+</value>
+  </data>
+  <data name="cmdInsertExternalFile.Text" xml:space="preserve">
+    <value>Document externe ...</value>
+  </data>
+  <data name="cmdInsertInternalFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIQAAOfr9/fz9/f7/+fj96Wy1qWqxrXD1pSqxtbb97W61vfz/6W61qWyxsbL1sbL58bT
+        59bb59bT59bj97XH55SitTFJY/9UhP////9ThAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBF
+        Mi4wAwEBAAAh+QQBAAAWACwAAAAAEAAQAAAIcwAtCBxIsODACQgRGkhAYIJBCxMuSJxYoILDggYmTjzQ
+        wGLBBBolUqhAsuCCkCJHFiSAUkAAlQQZoAwAAObAAiEFABhgU+ABjS4BIOhpgYJGBTshEDUq0eUABA+W
+        TqQpIYIDqRSyas1aoeBIkmDDPhxLMCAAOw==
+</value>
+  </data>
+  <data name="cmdInsertInternalFile.Text" xml:space="preserve">
+    <value>Copie d'une ébauche de document...</value>
+  </data>
+  <data name="cmdSignatureNewMessage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUAAP+jPqtFCP+ZNP+xTP7SbbGxsf/CXP/40v7he87Ozufn5//HYv7poNd5J/+7Y/eR
+        MNNxIdZwH/70vcrKysJcFLZQDuOXT6dSH+B6JPOqStSNTOqEKeyiRv/3zeudQdt/K//Sh/+8V7Kysr5Y
+        E/7wof7nleOONuukWOSIMLe3t+yVOM57Mv/Zmf+qVuSVPduDNsxmGe+JLP7qov///wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAzACwAAAAAEAAQ
+        AAAIqwBnCBxIsKDBgwVbCFjIsKGAFgMfkJDQ4YBFix0kkHgwMEYGBAhKMJDBoATIDDEGbuDggYDLlwQ8
+        cNgwEAMBFyYM6NRpwgUBDAMjLFjQ4MOAox8aDI0wEEYIFSc0QAAAQcMJFSFgDKSAwgILECsCrADBwgIK
+        CgIVjHjh4Kjbow5ejFAwI0EFAHjz6gVQIUHdCwECCx4c4IJfBRNSiCjAuHEBESkm0EVIuXLBgAA7
+</value>
+  </data>
+  <data name="cmdSignatureNewMessage.Text" xml:space="preserve">
+    <value>Nouveau message</value>
+  </data>
+  <data name="cmdSignatureReplyForward.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAALC40P/4sKCo0P//4PDQgJCY0JBAoJCYwLB4wICQwODo8P/gkPD4/7BYwP//wLDg
+        /5CQwNCg0KOkw6BQsLBosGAgcMCA0P/osODw8KBIsMDA0IR+tJCg0ICIwKCw0OD//+Do///woLBwwLDo
+        /8Dg//DQkLDY8Jao2/DwoJONtKCg0MDA4KBosKBQoKBYsODw///okP//0Jufy8DY8NCo0JBAkMbY87Bg
+        sLBQsKCowKCYwMna85ihx5yfy/Dw/8vb9IA4gP/ogJus3oCQ0ICIsMbX8dDw/8CAwP/4wP/ggNCY0MPT
+        7cna9MTV7ZBIoJehx//wsJ6n1+DQwPDYgMfZ84BIkP///8Do8PD//8Do/5OUw8CI0MBowHAocP/ooOD4
+        ////8GAgYAjwKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABiACwAAAAAEAAQAAAIyQDFCBxIsCDBHzwkSDhwYIlBgUx6gJk4IMCGIgapyJhoBUyMADA2NCFo48mA
+        ARSRhAiSJMWOgQK8yPSyYMEUAjhLaIHpwYGDAAGgXJB5QUMOmFcKoOAgwAMAAFI0UAAwkMMHEyowfGHg
+        Q8EKEQaoCiwwogAGLF/SgkAQwQmFGy4yHBjygkHaLwoQ0FCyxcIRBF0gzDCS5cEDEiwiWODSAMcEAxUS
+        SO7QgQgEHVVaNJiQoQaQMA/FRKlgIIxp06HFCEGdmuAJ0AMDAgA7
+</value>
+  </data>
+  <data name="cmdSignatureReplyForward.Text" xml:space="preserve">
+    <value>Réponse/retransmission</value>
+  </data>
+  <data name="cmdInsert.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIQAAAAAAP///0BIYFBYcHB4kEBQcFBggGBwkHCAoDBIYEBYcFBogGB4kEBQYHCIoFBg
+        cGBwgHCAkP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBF
+        Mi4wAwEBAAAh+QQBAAASACwAAAAAEAAQAAAIXQAlCBxIsKBBgQ4cRDhY0MHAhQwFQpQAISICCQQkHJCw
+        IOJCBhwlGIgIsuJIBRErdhwgASVDky0lFIjY8YFMCQ0inryZICLKmQIk9GToMqfQiDcFzkQqNIFRpkgD
+        AgA7
+</value>
+  </data>
+  <data name="cmdInsert.Text" xml:space="preserve">
+    <value>Insérer fichier/item ...</value>
+  </data>
+  <data name="cmdWord.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAAAAAAP////f3+PDy+q+839zi9ICe5neR1XyX2Iml6YOc2pOr5qq+8bfI9AgvizJb
+        tig+bVJ3ylV7zlh+0WCBzWeK1V99w1VtpF11q2d+s4uk3dbc6vT3/kJuxEl0zEBmtERquTpamE1qp/L2
+        /iFMmjhhrnyk6drm+8nS4uHq++Xt/Obu/Onw/ejv/O/0/fP3/glLsjppuHij63ul6ICn54Gn55Wz4sfa
+        +Mnb+crb+Ki2zczd+M7e+c7e+K260NDg+dPi+9Lh+tPi+tbk+9fl+9bk+tnm+9jl+tzo++Ls/OHr++Tt
+        /Ojw/efv/Onw/AEyeAZCmwU2ggg8iCpit4Sr5oWs5oit5Yqu5Iyv5I+x45Gx4pW04pm24J6436S73Zmo
+        vqu60aW0yqq5z9Li+tfl+trn+93p+9/q++Hs/OLs++nx/TZKZDdLZZCu1p243qG63aW83Jamu5Oit5Wk
+        uZyrwKa2y7LC2LHB17DA1q6+1K290rrF1O/1/e30/fP4/vT4/XeKnPf39////wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAACCACwAAAAAEAAQAAAI8gADCbRzB08ePWDE6KgTRoDABQsS
+        GEBQYUKEDlNe9KHD5mGAjyA/wuDgYs6ejgkYKKCwgUKBCxpg/OEjh41NAwUUWCgAooAIQDDatFEDxwub
+        AwEOgCBAQkMIFFD8tHGC5s2aCgEygMAQ5QGEAFBGtFlxxs0aCQEuhGgQJYqPAFJctFlihssaDwEclBgQ
+        5cPHKEJTnLCxJkbIkE9aJEFSJMuaKTAiQ5ksJcoToUSCXFkjMNAXJiyYNFGhBAkZITyqcBYYJ00SobDb
+        9MhRY3WgOSfKGDkyBMiPHThumLAtZ0wXLlu0YLFChcYMGbbXSJ9OfXpAADs=
+</value>
+  </data>
+  <data name="cmdCopyAttachment.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAADI0lEQVQ4T33T20+SYRwH8PeP6Kqti1qz
+        THNddFEXtbLZ1nEd3FpHyzylmVLZyZUpHnJ2UdBp2VLTJblm2pE0qEWSKEPEQR6AXoEA5wslT/hCL/Dt
+        AYPqoi6+e69+n+f3+z3vwwCIpW/AxBlHbWTk02Qiw6ZJotGNkw/9RtL1Uu1/3P3B0dQmT30ge8O0dSiZ
+        iurbTALQ6s18JBLBnwmHw/DzAnxEwJDBigmLC3KFbvpe66t1rXGAyecZJmua6VSaA2nFZqTkjEA/QRII
+        HxRA/EEMG1mQWQGBgABVvyko63yfeVH8G1i5IO9z5FzLFC4127F030e813EIUyBAgaAQRtcLFXqVGvRp
+        hvFWpcPdpqcor7wpigIbmSyPKVfKCtETGzqcWFesw9LdSnQp7LQ4BCEUpoVGvHjdj87ud2hsformdjlK
+        ymro6QUBjjn8tTG+gxvdbiTv12DX6QEs2fwM9x+Pgad7ILMhcF4e4xY31IOjGNRbUVhyMQZk0w50lW2f
+        f8TnvtPlwLLMtzhwVo3kjA7U3xqA3enFp3En9CMstHoL3YkNxScvUyCfT2cOe24vLGQjkmeexPJkrymy
+        7Tm2HpVj8er7EJ2Xw8JOY9TshGncgQnrFE6cmgNyKGDce5UVUoosdIlfYkB09s5eFknpj7Dl4BMsSpMg
+        O68D1kmOFrvB2r0UqIwB9BY82QuL2Ehpoxsr8kdw/NoYPDM8Znw8FGoHVm1pR+mFHiSlNsDm8MYQu8uH
+        ktNVcYBjrrRbfiQfM+OYxIpVeYPYW66Fc/o7vBTKFclx5rIS23e10EIvWBsHpzsKJDrgGO2wme8ZIlie
+        a8AhsREZhWpsONKLioY+rN8hw4Xqd9i6sxkO1zdM2j1wTZG/O4gC0dlVhq9Iy9Jgz3ktSsUfcUTUg+Jy
+        JVpkBqxJv/NvQPcL8JEgDBMzWJujQkZ2L/adeIM9Bc+xKfMh5s2vnANsnt8j/O8xhWiCoeiNROijCsPn
+        D8HrC4LzzOKbL4TSMtpBHFDQn7+67jqprb8ZS029dO57RUqq66REXCehkZKqWgmpqrlOxLVSkpNfxv0E
+        bIz0E5Nc5UgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdCopyAttachment.Text" xml:space="preserve">
+    <value>Créer une copie</value>
+  </data>
+  <data name="cmdCopyAttachment.ToolTipText" xml:space="preserve">
+    <value>Créer une copie</value>
+  </data>
+  <data name="cmdViewNative.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAABF6uBd8uEeLREaLRk6SQ1+cRWWcXmyiS26jUXKmQxSAvSiHvxWJxBiLxReSyxmV
+        zCGb0Caf0j2fzjWl1VmgyFKw22So0Was0mC13mK333K11cQ/McZCKctNKcxQKc5ULc9YMtVjKtpyKtt2
+        K9x5K9l6P8xbRoCuRIOvSYOtWomzR5C4SZG4SouzYZu9dZzAV6LBY6PEYKXFY6/Cf7LNc7PNdrjRe9+I
+        KuSZKeWfKu2fKeahKeuuNuqzKuuyLO6yNvKpI/OrI/WyJPW3KPe5J/C4L9yBWNyAXd6OXtuGedayd+ev
+        TOeoXey3Q+KjZ+a/e/nAKvnBK/vKNPvNO/vQPvvPQPrVV+zEYPjUYfjXbPfZfIyJipGviJC0g56stIO0
+        0Yq61qnEjKLAnbjOhb7Ug73Tlr/OuZ3J34fF5Y/G5Z/O6anN1KHN5ajO5KjS6rnc8Lzd8N2yh+inkeey
+        qei1qsfaj9DNnsHPq8/CocnVqOXPn+rRl+7Wk/fdkfbelOzBt+zcpO7evfHeqfXYqfrdp/jcqPLXsvXT
+        vfjmrvLisMvWxs/ezMve6tfhx97oztvp8enfyeDd3vHPxPLQxuHq2uTk5Ofn5+Lq4urp5evs6+nu6O/0
+        9vLs4vns6PPx6PX19fT2+PT4+vz38/329Pv7+Pn6+fv7+/v8/fz8/P7+/f7+/v///wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQAAAAAACwAAAAAEAAQAAAI5gBXCRxIsCDBUZPozPkjyiDBJBs4
+        dPhwxFMqh51MeAgxggSSGWUcUVokppFASSBE3MCRIw4MFigQCBigSKCcEDd29PCBp0aMFQkIGMi0CpWR
+        Ek6Y8GiShwyNFycKcCm1apMXDWjeRDo0po4NGSoOmBHIpkGEDGrgXLoTxkWLFF00CbTAAEKFNG4AIUok
+        iM+VJ6hWhVqgwMEEDGf6+NGCZcoQPapWMQoAgMGDCWuwZLFCJcoPSALbUPgC5oIEO1WqSIESZAmmyKA+
+        BT71aE8RIkKA6FCyxZJDUoEKERpkiFMlUw6TCwwIADs=
+</value>
+  </data>
+  <data name="cmdViewNative.Text" xml:space="preserve">
+    <value>Visualiser dans l'application externe</value>
+  </data>
+  <data name="cmdViewNative.ToolTipText" xml:space="preserve">
+    <value>Visualiser dans l'application externe</value>
+  </data>
+  <data name="cmdViewDDoc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABu0lEQVQ4T5WS2UsCURTGJaKHoMeeeusx
+        CPoTS8v2gqByyS1yTEdTK62wUskkemohk3ZccFJzHHMZdep0xw7ZYOvv5TL3fN+53zmM7CtGdNa2qWVH
+        aMJk98s1VA9e/w/jxi5T5qvg2DvkVXaviTQawNLvDKrMHdRW4AmQuiAAtRUURvU2P0p+RqG19K4Hj+ro
+        b8DXBQidXMKkyRFE2feMG2lHqcKj9Z3nMg+R+wTcJRggSbQo/Zp56+Yl+j4QGxxfXEPiMSumOEFpK0qd
+        bc61H5bEF6lU6/DAZOH8Lg6zZheH8lYMbp/p5eUVbU0Ecic2iadzMGG0R1AuhRQ8GZZDixTRzBYrcHAa
+        BaXO6kJLk3EDHXrM5VEupcTXIJHJQ4Yrgda5A0Nqqg9tTcYMtDd8Fk2Jr3yeoFytQYEsMPXEAZMrwJxl
+        PabQWNrRJkWpt03PrDijx5Eb4Ep8I7a4ffa5DAxbgKs4A+QhN8q/h8zoWaA91RhZWDpfJPHZxql3+1gS
+        vwtlPzOoNg9o1ravbpNpSGZZuE9lxe1vYPlvyNVUN5k5fX4bg0Xay8g1lk4s/Q/y6waGl1b78fMTMtkb
+        be6s070kK2YAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdViewDDoc.Text" xml:space="preserve">
+    <value>Visualisateur Atrium</value>
+  </data>
+  <data name="cmdViewDDoc.ToolTipText" xml:space="preserve">
+    <value>Visualisateur Atrium</value>
+  </data>
+  <data name="cmdDisplayName.Text" xml:space="preserve">
+    <value>[Nom d'affichage du document]</value>
+  </data>
+  <data name="cmdCopyToOriginalFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIrgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARI4gFlE8PBDCQ
+        YcGMBDesNkgpVKuBCQtUXEgQIYiJBgPKbkVb4EIODRuCSIBxwMWLAh5W0KhQIYGGEQ/02ihx4kOEDQ96
+        SJ7c46HlywIDAgA7
+</value>
+  </data>
+  <data name="cmdCopyToOriginalFile.Text" xml:space="preserve">
+    <value>Créer une copie sur le dossier auquel se retrouve ce document</value>
+  </data>
+  <data name="cmdBrowseToFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIrgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARI4gFlE8PBDCQ
+        YcGMBDesNkgpVKuBCQtUXEgQIYiJBgPKbkVb4EIODRuCSIBxwMWLAh5W0KhQIYGGEQ/02ihx4kOEDQ96
+        SJ7c46HlywIDAgA7
+</value>
+  </data>
+  <data name="cmdBrowseToFile.Text" xml:space="preserve">
+    <value>Créer une copie (explorer) ...</value>
+  </data>
+  <data name="cmdCopyToPersonalFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP/YcPDIYP/ooP/okP/gkOCoMPDAUPDQcPC4ULCAEPDQYPCoMPDwsPDosKCgkCAg
+        EP/woEA4MJCIcPC4QP/QcLCAIKCQgOCYIIBwYPCwQKB4IDAoIP/YgPDgkNCgIFBQQPDAYNCYIOvp45Bw
+        IPDIcHBwYJCIgGBgUKCYkHBgUOCgMMCYINXSyfbx5OC4UOCwMPDgoGBQUNfTv+CgIMCQIMCQEIB4cFBA
+        QMCIENCQEP/ggLCokP/wwCAQEKCYgLCgkP/wsP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABBACwAAAAAEAAQAAAIrgCDCBxIsKDBgwVb7Fi4UATCIDsaAAHCoMMPGQh/aNzoAIWPjyBZBPnBoySP
+        iQIGEOBAgQQIDEEcnKQIQaUOCgoMIAgB08fMlAR0AFAQAEGBGimC+GQAQUDQoUUzFMARI4gFlE8PBDCQ
+        YcGMBDesNkgpVKuBCQtUXEgQIYiJBgPKbkVb4EIODRuCSIBxwMWLAh5W0KhQIYGGEQ/02ihx4kOEDQ96
+        SJ7c46HlywIDAgA7
+</value>
+  </data>
+  <data name="cmdCopyToPersonalFile.Text" xml:space="preserve">
+    <value>Créer une copie à mon dossier personnel</value>
+  </data>
+  <data name="cmdOpenWizard.Text" xml:space="preserve">
+    <value>et l'ouvrir à fin d'éditer le document</value>
+  </data>
+  <data name="cmdAutoACNoWizard.Text" xml:space="preserve">
+    <value>sans l'ouvrir pour l'éditer</value>
+  </data>
+  <data name="cmdReviseDocument.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACWElEQVQ4T5WTX2hSURzHby2T5QbWECFk
+        9iLDHoKgh3qLFUQh0kNivixibBi97KGHPRSIdqPAoIekBwerHOqcRhMmPRQEEaTUw2qm5L/8h6IXzab4
+        31/nd7wO1krqCwfuPef7+Z7f+d1zmWEaI9JqtVe9Xu/Lubn5m/z0cBFmVKPRXHG73WvVarUGRL1eD4rF
+        YkUikRylpoPMgdEzIxfo80AqlerS6qrLvk2E0EAId7td6HQ6YLVa7ei9/mDWfvbJqQgFBzKbzc94ZkcI
+        DwLa7TbU6/Xe7H3dkunNbe7I1MRJHmUYsVh82GAwPG82mzy6F261WhDmNsEUvgHjp0XneZRhTKa7bKFQ
+        +EnOC+l0eg+MpSOcKifgUewWOL7ZQK/XL/I4w/h8vk+4Mw4MQPPvMLddhKffWXj4hYVKpQKJRKIqlUon
+        aYDVuvSKdJiWiSGZTGYXXKvXYC35GO5sLkD5RxlKpRKQisFisbygAQKBYNxmW/lAGkTBXC4HjUZjJ3Aj
+        tQKLn+chy2UpjJuhJ5VK9XQ63UUaIhKJJOvr3q9YOu6cTmcoHM6+B9e7yxDMBaFcLlM4n89DJBIBo9G4
+        pVQqj9MAFPkS8kAgkMQmogmvw8aWCzLFJIU5joNYLAahUAhcLldCoVDsvkgoufzYCWKuYRXJZJKGIByP
+        xyEajYLf7y+p1WoTsU70iT9oZubaAh4Fz4kg6TgtnWXvvRUKhVO8baj2ezye11gF3o1gMNiYnj7HkvlD
+        /eV/EPlpJh0Ox0en0xmTyWTY6X39lf/Q8vLyCBlj/OtfxDC/AB2XB8mhNNi8AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdReviseDocument.Text" xml:space="preserve">
+    <value>Réviser le document</value>
+  </data>
+  <data name="cmdReviseDocument.ToolTipText" xml:space="preserve">
+    <value>Réviser le document</value>
+  </data>
+  <data name="cmdOpenWizardPersonalFile.Text" xml:space="preserve">
+    <value>et l'ouvrir à fin d'éditer le document</value>
+  </data>
+  <data name="cmdOpenWizardOriginalFile.Text" xml:space="preserve">
+    <value>et l'ouvrir à fin d'éditer le document</value>
+  </data>
+  <data name="cmdAutoAcNoWizardPersonalFile.Text" xml:space="preserve">
+    <value>sans l'ouvrir pour l'éditer</value>
+  </data>
+  <data name="cmdAutoAcNoWizardOriginalFile.Text" xml:space="preserve">
+    <value>sans l'ouvrir pour l'éditer</value>
+  </data>
+  <data name="cmdPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAAP///zI9SACX/3yHkyUtOKPp/0NOWQAok7vEygB533uFkWp0ffv4+P3+/pSfq/r7
+        /IKPnPb4+vL1+bS9xQB43i2h9evy+F5mbwAjkHF7hm53gvDv8ABx23iDj1JRVaq1wMPN1bG8yNze4/n3
+        9wCT/y45RLrDyT1IU3Ws40pTXajr/wCU/3WBiwCb/3R3fJqdowCZ/1hgadTd5n2IlIiUof7//+ru8vP2
+        +YOQnHuHkvL2+VZeZ4eSnoeTnnV5fvH1+HeCjsnP1VFaYnV5f4+PyICMmPf5+pKRy/z9/oOQnZ2evnN+
+        iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAABMACwAAAAAEAAQAAAIvQCZCKSRBIJBHD0cCFy4sAiAhw+P
+        AFDIUGAOiA0AEHlIkSEQjDWUCNkxoyKTJQAiqDSCxEYQHiaHpJRAU8cNAD4YvmjhAiREFy1eMFHAAIYH
+        AkiTIvUAg4ECoiRUFJhKlSoJpyw2rBDAtavXFRtYZBBRgQOFBGjTUuBQQUQGDSBGoMBwoK5dDChGgNCw
+        IMSHCSYQCB5sYsLfBQtiWDhhoLFjxxZiLGByQUaHAZgzZ5ZxQWCKEgFCix5dIgWTgAA7
+</value>
+  </data>
+  <data name="cmdPrint.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="cmdPrint.ToolTipText" xml:space="preserve">
+    <value>Imprimer le document</value>
+  </data>
+  <data name="cmdInsertLink.Text" xml:space="preserve">
+    <value>Lien à une ébauche de document...</value>
+  </data>
+  <data name="cmdInsertRecord.Text" xml:space="preserve">
+    <value>Lien à un enregistrement</value>
+  </data>
+  <data name="cmdAddDocXref.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAHl5ebq6uvz7+/z8+7i4uJOTlPv7+r29vfr5+fr6+fPz9uDh44eLjvz8/IyMjZOS
+        k9jY2vr5+OXl6Pj39/38/Ojo6Pv6+oaGhunp6f79/YKCg/n498XFxby8vOvr6y9cnHmUvYCCheDf33V1
+        eLOzs5OTk+bl5bGxsaysrPb29tzc3L+/v/f19QE5h7W1tfn5+Y2ixZCQkP39/e7y9crKyn1/fru7u5Gl
+        x/f29o2MjXN1dp2vzbG/18zS3J2dnfv6+bXC2f38+8rQ2Yuhw/z7+pSWmPn4+Iadwq2trfr6+n5+f/7+
+        /f7+/v39/MDAwPD09wA3hXR0dcjW4K3eNgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABTACwAAAAAEAAQAAAIzgCnCHTiRAFBgwWdCFw4xYmAAxCaQBxwgEYAhlNWGFggoQnHJQs4pLDB8EAC
+        AwIGNGmyZEkAAgQuCuwQIYEFIipZLjEhQuaUAFKCCh0qhcAUHRqU5HhQooDTIhR0Go3CxMOTq1gZDHUx
+        hWoFEFDCQslQwMCAIE1IdGVS4QkMsU+0Cj2xFsMNsVBkPEDwAyWStT2gfBgyA0rcoSjW7mgBxEISARQc
+        TDBS08daIUeg8MAaYmiMtSpeIBjdoIEDFjgmbLgwZUSU17Bf1wBAm3ZAADs=
+</value>
+  </data>
+  <data name="cmdAddDocXref.Text" xml:space="preserve">
+    <value>Créer un raccourci à ce document</value>
+  </data>
+  <data name="cmdAddDocXref.ToolTipText" xml:space="preserve">
+    <value>Créer un raccourci à ce document</value>
+  </data>
+  <data name="cmdDocCheckOutCheckIn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAGoAAABqAHeQdJFAAAB90lE
+        QVQ4T42Tv48SQRTH19hZ2WhnLEyM0daEiuT+hussbLHwSCAWNoSEIISABT9CCGYlNKyCHj9WCBAqqChJ
+        rrh4XAEXbuHg7gLLYYBk/fpmInuA62nxyb6Z977fmdl5IwD4LywWy/O9PWvlncdz7PP5Xq3m/yg0gsS7
+        4XD4Z0r6DL/f/2E9t1FoBIlvORyOUbPZRDAYPFjPuVyu10KtVtsh2gSMyOfzKBaLUBQFqVRKn49GoxOP
+        16swg/bh4XecnY04vV5/g5OTHiRJ4gaDwQDJZBKJRAKZr1m43e4ZM6DEEKqqol6vUzzaQJI+oVQqodVq
+        0XiA4XDIY1EUkU6nwQ3Ozy8xHqs4Ojrm8YpM5gsqlQq63S6q1So/AvsGAgFarMGPwg3G4wmm0ykajQY3
+        YuzvZ7m40+lAlmUSvcfFxSWNu7x+MlGvDa6uZpjNfuD0VOGxLH/bEIdCIZ7fRjeYzxf6Dsrlsi4uFAqI
+        xWJYLBZbLDkrg3a/38dyuUQ2e71tJhbFj9A0zRD2Q5mWGfA+iMfjupjdvdPp5CvcAOudHd5RdrvdSmLt
+        t1gzm81v1zvuJgSbzfaC7jlP4nkul2PiN0aFf0OIRCJeFlBT5Ehs3S74FwK9rjC1pMdkMr0UBOEe8ZB4
+        TDwlnhFPiEfEA+I+cZe4Q9wGIPwC1EL8Od1r6UgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdDocCheckOutCheckIn.Text" xml:space="preserve">
+    <value>Retrait/replacement de document</value>
+  </data>
+  <data name="cmdDocCheckOutCheckIn.ToolTipText" xml:space="preserve">
+    <value>Retrait/replacement de document</value>
+  </data>
+  <data name="cmdDocCheckOut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAGoAAABqAHeQdJFAAABnUlE
+        QVQ4T9WRPUgCYRjHn5No0dpq6WPQkj4oImhucDRaE6Sag6ZanSpHMbtKBEkOgkAtk3CK6hI8EgJRywYP
+        w8WI6HOoJv89NwRe9kFtvfDj7vnf7/3fHS8BqINXs91unwkGg3FJkhI2m21Wyz516wKitng8nimXy1BV
+        FcViEZVKBbIsq/ysvc7XDUQGv9+/WyqVwG+/cjqd8w6HY87j8VzmcjnEYrF9zdHt0Q1EHdls9klRlKrJ
+        ZBp4z41Go9Xr9b4UCoVnzdHt0Q1Ew/zZ1VAodMX3Qk0uuFyudCaTqWqObo9uIBrR/tvn86m1uYbb7ZZT
+        qZQmjdTmOum9IBAIFGtzDVEU5WQy+X1BQpzCtTKKs/AQDlf7EFmwILpgxv5yL3KRQdycT2NnZZzVLwr2
+        Vibxem7F3YEBeUlAel1AfkOAukW4PTagej+BqG+M1R8LCIVNAxSRi7jgMkx4TLHy8KsCwskacQH9veA0
+        wFfpXxV8PMbtRQtiS2YciT3IRwdxe/HNMfJqZJqZVqaT6Wb6mH6ml+liOpgWpolpAEBvaZeEYLGMj2cA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdDocCheckOut.Text" xml:space="preserve">
+    <value>Retrait de document</value>
+  </data>
+  <data name="cmdDocCheckOut.ToolTipText" xml:space="preserve">
+    <value>Retrait de document</value>
+  </data>
+  <data name="cmdDocCheckIn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAGoAAABqAHeQdJFAAABk0lE
+        QVQ4T9WTv0tCURzFr6JttRWUWKAWaSFBtOjQP1DR1lTt/gG6W4PQkk8LcgiEJDCrIZzSzCEteIj11Iae
+        ZNESZT9EoiVP3wcGXiujtr7w4b1z7rmHC/c9BuATNN1Op3MpHo+fJpPJnMvl8pLX82W22dDpdJZEInFd
+        KpWQzWZrhUIBlUoFoije09pwc54XjGlCodBhsViE3+/P2+32aZvNNunxeDLpdBqxWExUMtweTjDWJ0lS
+        lY79ptVqTR8+veuppJrJZF6UDLeHE4yNyrJcCwQCN42+gsPhCEWj0Ssl0+hzIZoxKoAgCHKjX1/TEB2E
+        lvM5US+gE1w0+q3gRNQ3h9vUOHLhERz4LdhyGxFxG7C/bMbZlhV3+XnsCFMU/aZgT5jFa34AD3E1pKAK
+        J6sqSOsqyJsM5aQatccZRLwTFP2xgKGwoUbKR0VUcBlmeD6iyNOvChiOVxgVsL8XiGv0DP6rguZr3F4w
+        YnfRgIRvEFLEivJ5i2ukaSOUL62L6CX6CQsxRJgJE6EnOol2gn4qsHfZnYkHnMxvNgAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="cmdDocCheckIn.Text" xml:space="preserve">
+    <value>Replacement de document</value>
+  </data>
+  <data name="cmdDocCheckIn.ToolTipText" xml:space="preserve">
+    <value>Replacement de document</value>
+  </data>
+  <data name="cmdUndoDocCheckOut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAGoAAABqAHeQdJFAAABoklE
+        QVQ4T42Ty2rCQBSGZ2G7S3cttGCrYBe13ZUu9Q0KfQ73+greVkHxioJgRVFQxJ2IBS+ohEAlwUUC0tJl
+        dCHSXT09E1QyVm0GPsj585+fk5kJAYA/4Lr0er3hZrP53m63JZ/Px6N2tde7K9jtdmer1fqcTqcgiuJK
+        lmVYLBYwGo00m832sOtnC0Is+Xz+TVVViEQistvtfnG5XM9+v1/s9XqAEwnUw/QwBSE34/F4iWP/cBzn
+        2Oj4bMWQpSAI39TD9DAFIY+KoqwSicSXUad4PJ7XRqPxQT1GnTHhesIA4HleNerrdxbkDDlhdKZYB+AE
+        ilE/BlNgIwwGA6hWq5BMJiEQCOjEYjFdkyQJotEoWg8EUONkMoFOpwPFYhGy2SwUCgW9ud/vg6Zp9HTQ
+        aiKgXC5DOp3WA+r1OgyHQ5jNZuYDKpUKZDKZbQBeJJjP5+Y+odvt6gG5XA5KpdI24N8J4vE4M8G+ANOb
+        SPfAGLDZg6MBxmNMpVIQDAYhFArpR1qr1fTwgwG4ThF60y6Qa+QWcSL3yB3iQKzIOcIh+FMB+QU1Lat3
+        rJmm/AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdUndoDocCheckOut.Text" xml:space="preserve">
+    <value>Annulation de retrait de document</value>
+  </data>
+  <data name="cmdUndoDocCheckOut.ToolTipText" xml:space="preserve">
+    <value>Annulation de retrait de document</value>
+  </data>
+  <data name="cmdCopyToClipboard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC9klEQVQ4T5WRe0jTURiGf4UUUZpipeZ0
+        mRlRUZGCWaGJYqLZlEQsVNTNysrhdGkKE1NLHHlPm1qJlVmKJGKLpD9S6aIkotLm3BUnbks3t5Qp8/K2
+        zR9IIUIPvPAdeJ/vHDjERtSnHvdi+RJ7KgOIXZaz4/no6INhsWzPENpWa2EzUv22nBpsS8O7xlIUpgTq
+        OWmRE/Xv+ChsbJMwYs69uudNOJPVjalJdiuYU3xF+/Bv3C7lobK9C8UNz1HQ1IobnFy0llwHvzge1Yxj
+        dXlXKH6ktg6/KEitnZnG4jIgm5Cjp38AzfwPyKvl4VpRFeKrWjAHoCzFW5gRZp9IamvcDd4RNNKWC/2C
+        ufEvqyswzRmgVGkwLpEiP4bakxa8O4RU13iSTHkhGejEirk/P2+AwWCAXq+HTqfDjFYLtVoNk2kFo8Pf
+        kRPh2EE/Z+tDqgRxJ9B+d2eB/y/5pMosL1jLKpUKk5OTUCqV1sjlMuiNy/jS/RbZYXZP6f4Oh0idIPJp
+        DpF9z5iY0C5BIZWay3JrFArF+iyXQruwCv5LLrIu7iy5GezkQuoEUZdE6ejvboZGvwiZTGqODFLzIkss
+        syWWBRr9Ml5XMJEVYsfODNtvb5UzQx3sWu56Y+SnEMqJKYyNjUEsEkEsFv8VmUwChcaIBk4UcsLtkzjR
+        1B3WBZxwW9Z7HgvqJcBgXMK0dhbKqSmIJWKMiwQQCQQQCoWQml8hkGpQlXoW7FDHCDaNakMwQ5xs3uT4
+        Cj8+voqKvGQ0VD5Ee2sr+r4NYlSshnx6HhqdEb9mDNDOGjEkkKE4wRPscOcz1tvvx3jsK085+anm1glT
+        DcMdT5JdUZXogrIkKkoYp8FlXkb1g3Q0PavF594f6OruBTfeHRmXKOs/YCHW13Ffeqi7z51QalwmzfPR
+        /djD78vpR8ZrGAdQS3dFedxecGP3g8f0xdtcP9AvODuR6ubQL7i4JQZSAjJoHsy8aI+n3ASv0ZKko0PZ
+        UW7byMr/wwp32742EcQf19bubHopBwIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdCopyToClipboard.Text" xml:space="preserve">
+    <value>Copier au presse-papiers</value>
+  </data>
+  <data name="cmdCopyAsLink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIQAAAAAAP///0BIYFBYcHB4kEBQcFBggGBwkHCAoDBIYEBYcFBogGB4kEBQYHCIoFBg
+        cGBwgHCAkP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBF
+        Mi4wAwEBAAAh+QQBAAASACwAAAAAEAAQAAAIXQAlCBxIsKBBgQ4cRDhY0MHAhQwFQpQAISICCQQkHJCw
+        IOJCBhwlGIgIsuJIBRErdhwgASVDky0lFIjY8YFMCQ0inryZICLKmQIk9GToMqfQiDcFzkQqNIFRpkgD
+        AgA7
+</value>
+  </data>
+  <data name="cmdCopyAsLink.Text" xml:space="preserve">
+    <value>Insérer comme lien dans un nouveau courriel</value>
+  </data>
+  <data name="cmdCopyAsLink.ToolTipText" xml:space="preserve">
+    <value>Insérer comme lien dans un nouveau courriel</value>
+  </data>
+  <data name="cmdCopyText.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUAADBIYDBYsCBIkNDg8JCgsPD4/6CwwCBQoKCowODo8LDA4LDI8LDA0JCowPDw/2CQ
+        4LDA8HCg4JCw/7C40JCw8ICo8MDQ8ICw4CBAkCBAgDBowCBIoEBwwICg4GBwkP8B2HCQ0LDQ/3CY8PDw
+        8HCY4P/4/2CI0NDY4MDI0MDI4KC44KC48HCY0KDI/5C48JCo4MDQ4GCAoMDY/1B4wKDA8NDY8KCw0FCA
+        0P////8A2AAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAfACwAAAAAEAAQ
+        AAAIqQA/CBxIsOAHBQoYMJhgwyBBBTgi4jAQw6FABhJxNEDhweIEHDJCDCCwAAKEFRQoEDQQsYSDBAsy
+        VtAwEAGOFi4uRKCRUcSCAAIb4CgwIsEAFTgkSKjxIECAAx8IFNAZgcULiQUSWLABlYCDASdgpOiAowKJ
+        Bzdu2NgQFYBbtyAifrUAwYAAhyZwoE17A8FdgzMK2BhsAEEDDA45OD1wQIAADBksSp5sMCAAOw==
+</value>
+  </data>
+  <data name="cmdCopyText.Text" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="cmdSelectAllText.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAAJkAAMDAwAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAABACwAAAAAEAAQ
+        AAAISgADCBxIsKBAAAACIESocGFDhQYjJoxIEWLFgQknXoSokaCAghkjCviIseJIkiUNniSZsSXDlQIY
+        Ujy5UeDHkTUH4swZACXPAAEBADs=
+</value>
+  </data>
+  <data name="cmdSelectAllText.Text" xml:space="preserve">
+    <value>Selectionner tout</value>
+  </data>
+  <data name="cmdSelectAllText.ToolTipText" xml:space="preserve">
+    <value>Selectionner tout</value>
+  </data>
+  <data name="cmdSendAsAttachment.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAr2AAAK9gHCr3ADAAABX0lE
+        QVQ4T6WPS0tCQRiG509ViiEVRRctu1iGhZKpdfKSmmUkXSTLIGgRURT1F9pEqyhaJNHlgEVS6sIWbSLo
+        L7zN+U4SzrgQWjw853vOzJk5DMC/qBk17nMFLGROEEsfIby2j8fnIs/yOilUmN88xl3ujT+CPTwVEFje
+        o2cRKVSYTR1w/c3j4Y2quYIUYuuHXGBKcpfsjm6R7f5VsogUgr9X9cS3yY6ZFNnqXiSLSMGX2OECc4bS
+        ZJsnSe4YjZJFpOCKZLjAhnwr5K6xOLltOEwWkYIzWH1yq13faB4MkEWkMKLo/2xxJcjmAX2jsXeKLCKF
+        voklLrB2R4Rssk2TG7onySJS6HTOceknn55fw2Dx0Vz3B1rsIZTKH7i8UWG0+vFaeke+WEZjj5e/rl6r
+        IYWrrIrmfgW5fImPYJ9f3zDZFNyqLzSLSEFD29xk8UK7toHf4uwiy7O8TqNmrB+wH6J43U+fYjTRAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdSendAsAttachment.Text" xml:space="preserve">
+    <value>Envoyer à un destinataire sous forme d'attachement</value>
+  </data>
+  <data name="cmdMakeFinal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAADK0lEQVQ4T62P7U9TZxiHT9KyGOM+wBKC
+        m/tQ2m5Q3hQpCBSUmKFVKkUcIFMQKLh2qUoYM1niZiIZYeleyhLsJDXCsjGCA1S2UVisWLS2VYyZAafb
+        lGDtcHOQLX6Z02vnHJuxP2BPcuV5cvL7Xfe5hf/tNNQ3PLTUNzB+7iJzkd+5+8sC4fkF7t1fJPzjLD90
+        u4ncnuPXB4uc8/mxWW007z/wMFoXhJrdNdSKTF66wtz9P/5l9l6Eu2c2EchbQ0Cfzez1W1wKTSENe71p
+        L9G6INTV7kHCH5zi78dPZB49+ouFUBUft6pQx8byZbyCGWenOOSynG1ssCwJdr+2C4nz/hCz84syc4Fm
+        Tn6YysqVCVhKFEwPFPD9jTt4JwNyVpJE64JQXbUTifEJP5EHfzI/4+JiXzFajQpTfgw3BpMIXgnwU/g3
+        Rr0X5KwkidYFoWLHq0h8/Z2P6WuD3DxrISszDcPq5VzvS2DodB9nQzMEZsKc8kzI2erKqiVBedl2JL7q
+        /4TI1Xco3pjPmuRYLrtX4Ops5dhnAwyOTjDwjRfn0eNyVpJE64JgNm1j7x4z4asdVFcY0WkTmOxahn2X
+        jg2F69m2tQQp81/KzWVLgp3lRn4OOthnrRD3fpFvP1jOkTc0GPLyKS0xsUOcuL3ULBdNosy0Zav8XS6/
+        27Rq2ZTnLY68XYtareLzw88yesxAW1sbw8PDBINBQqEQfr+fvJx15Oj1bH6lmC2bNj8VTHus7x99zyyW
+        1XzUHMuFEyloxXdKsg6fzyfj9XoZGxtjvaGA/Nw8isS1Nm4oeiq45u284zhUwqFGce9P42iy1KJRJZKq
+        S8Hj8TAyMsLQ0BD9/f3kZueQk6XHIEkKChH21xv15082Mn7CiOtwLrlrX8LlcqFNVJOoUsml3t5e3G43
+        XV1dZKSmkZGSSnbmWtaJIiE7a3VbcWHSF+lJq9rTknWPM9Mz6O7upqenR76dTicOh4OOjg7a29t5Wa0h
+        SaMlXfw7UfREeCZG+by4xQsi6QqFoua5uDiL0Wg8UFlZ2VpXV3fQarUetNvtb7a0tNhtNlt9fHx8WYxS
+        WSqhVCqL/gFEO/rejiqFkgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdMakeFinal.Text" xml:space="preserve">
+    <value>Finaliser document</value>
+  </data>
+  <data name="cmdMakeFinal.ToolTipText" xml:space="preserve">
+    <value>Finaliser document/Inscrire pour lecture seulement</value>
+  </data>
+  <data name="cmdInsertExternalFileAsDraft.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsAAAALAAHkN62/AAABX0lE
+        QVQ4T6WPS0tCQRiG509ViiEVRRctu1iGhZKpdfKSmmUkXSTLIGgRURT1F9pEqyhaJNHlgEVS6sIWbSLo
+        L7zN+U4SzrgQWjw853vOzJk5DMC/qBk17nMFLGROEEsfIby2j8fnIs/yOilUmN88xl3ujT+CPTwVEFje
+        o2cRKVSYTR1w/c3j4Y2quYIUYuuHXGBKcpfsjm6R7f5VsogUgr9X9cS3yY6ZFNnqXiSLSMGX2OECc4bS
+        ZJsnSe4YjZJFpOCKZLjAhnwr5K6xOLltOEwWkYIzWH1yq13faB4MkEWkMKLo/2xxJcjmAX2jsXeKLCKF
+        voklLrB2R4Rssk2TG7onySJS6HTOceknn55fw2Dx0Vz3B1rsIZTKH7i8UWG0+vFaeke+WEZjj5e/rl6r
+        IYWrrIrmfgW5fImPYJ9f3zDZFNyqLzSLSEFD29xk8UK7toHf4uwiy7O8TqNmrB+wH6J43U+fYjTRAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdInsertExternalFileAsDraft.Text" xml:space="preserve">
+    <value>Document externe (comme ébauche) ...</value>
+  </data>
+  <data name="cmdViewVersionHistory.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAIAAADgN5EjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAsdJREFUOE+tlF1IFEEcwP/40GsUpBB2Kp0ifhA9qNAHimhRihQRURaVlVBR6UPm
+        qecHEZYUEfWgL1ZUkEZQb/nUQ4lEECkRFoL34efd7bmzuzOzn7f9d73sOoJ6aPjtMLv7/+3Mzsx/wF4r
+        CSymats6jduBKSs8nST4lSzOMRLTbBtJJKPtpGm4T/CFMDY0nwXLdRCphcgeh2g18MOgT7wUG4GLC5YT
+        ruMFdsJpW4Yh6IzGwtbkK7UZWM821l3M/EXMX8za88SBHXo0Ip3fjB8y5r5IJnZhQ8IyDexNp+Q0iE3A
+        lmdII1DfVurLob5c6vPIbdnC5U1KfDY2eEU/V7h0BEynWxtQIx9fExJX+7azx400+Fk+DrTD62p5si9H
+        6vBqZyF+vcIUZzE4wXVRo45pmaaQDeLiNz5QqQzuZ6Gp3808pc0j+UtoE4j7QEByQQp9ck1FkatBovO8
+        fxcdqk8zEQXrax7aVUD9hay3VDwKifi8Y5qaRWqAkhC/ufuPZpJ255/xuYjzLAQdU9d0qQa4FP6L6ZBD
+        O/PRNISQO0Oa8V/Mun8z3dGmmO4MBackNH+tZwrtHtrpXTmE5myauZMONsjhSXoSaHcR7SxIp8tL/aXS
+        MdCjcykmcc3hA9L0O1IB8ikgJ9LBsShnMuLloC2mmIwE2K0q5U4Vxy014ufPL9HRFjbSilC35qMt2our
+        8t29kf56Q8UoXBVVJ9VgJDhtzsCtu3L/oPrhqTY+zMcfsvePEKcx8USdeCa/uUeXvitc0TG10LRNW66F
+        WHSGLQfkC+tZq0ftK2O95ay3jCM9ZexGJe/Kjzavi4zdVtz8tCwnvUAV40YDLFzcSGIBHATuZfknGOfe
+        Wkzjps6wI0Pn6K1mN2CSBovALAFlC8iZDkpWEjkLhEwQNgB5+2A1s1ILJpuT4Mw9EFLBY2UtGgdnWmvH
+        iFts+wdbxiK2Y7imRgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdViewVersionHistory.Text" xml:space="preserve">
+    <value>Historique des versions</value>
+  </data>
+  <data name="cmdInsertInternalFile1.Text" xml:space="preserve">
+    <value>Copie d’un document ...</value>
+  </data>
+  <data name="cmdInsertLink2.Text" xml:space="preserve">
+    <value>Lien vers un document...</value>
+  </data>
+  <data name="cmdViewVersionHistory1.ToolTipText" xml:space="preserve">
+    <value>Historique des versions</value>
+  </data>
+  <data name="uiCommandBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 28</value>
+  </data>
+  <data name="TopRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 28</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 521</value>
+  </data>
+  <data name="efTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 14</value>
+  </data>
+  <data name="efTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="efTypeLabel.Text" xml:space="preserve">
+    <value>Type :</value>
+  </data>
+  <data name="efCodesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 67</value>
+  </data>
+  <data name="efCodesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="efCodesLabel.Text" xml:space="preserve">
+    <value>Codes :</value>
+  </data>
+  <data name="sourceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="sourceLabel.Text" xml:space="preserve">
+    <value>Source :</value>
+  </data>
+  <data name="filedByLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="filedByLabel.Text" xml:space="preserve">
+    <value>Déposé par :</value>
+  </data>
+  <data name="authorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="authorLabel.Text" xml:space="preserve">
+    <value>Auteur :</value>
+  </data>
+  <data name="checkedOutDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="checkedOutDateLabel.Text" xml:space="preserve">
+    <value>Date du retrait :</value>
+  </data>
+  <data name="checkedOutByLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="checkedOutByLabel.Text" xml:space="preserve">
+    <value>Retrait par :</value>
+  </data>
+  <data name="checkedOutPathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="checkedOutPathLabel.Text" xml:space="preserve">
+    <value>Chemin du retrait :</value>
+  </data>
+  <data name="extLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 195</value>
+  </data>
+  <data name="extLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="extLabel.Text" xml:space="preserve">
+    <value>Extension :</value>
+  </data>
+  <data name="modDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 138</value>
+  </data>
+  <data name="modDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="modDateLabel.Text" xml:space="preserve">
+    <value>Modifié le :</value>
+  </data>
+  <data name="createDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 168</value>
+  </data>
+  <data name="createDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="createDateLabel.Text" xml:space="preserve">
+    <value>Créé le:</value>
+  </data>
+  <data name="sizeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 224</value>
+  </data>
+  <data name="sizeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="sizeLabel.Text" xml:space="preserve">
+    <value>Taille :</value>
+  </data>
+  <data name="versionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 253</value>
+  </data>
+  <data name="versionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="versionLabel.Text" xml:space="preserve">
+    <value>Version :</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Nombre de pages:</value>
+  </data>
+  <data name="pnlDocCheckInCheckOut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEYAAABkCAYAAAA7Ska5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAANZ0lEQVR4Xu1deVBV1x3WSeu0aTJtEuxi
+        J+0knU77R9vpNG2aJmlrWlNbNdZ9X+qCGeMKqMU1oOKSgLiiIooREEXABVEUl4eKoBBFQUQeKAqyyPaA
+        t7/77q+/7+Re+qJcY/SBxtxv5pvHe++ec8/5zvdbLjJJp8eF/fv3P3/ixInXsrOzB3766ae+Fy9enHnp
+        0qWZly9f9s3Pzx9w9erV165cufKccvnTi4SEhOeSk5OHHTlyJDIzM7M4NzeX8vLyiEWgwsJCKioqouLi
+        YiopKaHS0lK6fv063bhxAyxmbub3Q54qoaKiol5PTEyMPnz4cMuZM2eI3UHsDOJNCjEgBAS4efMmlZeX
+        0+3bt6mqqoqqq6s/R3xWWVnZwt9H37p16w/K9F89REREvBETE3OUQ4ZOnjxJqkMgyLVr14QrIAaEwMbv
+        3LlD9fX11NjYSCaTiZqamqi5uVkQP4P4vKGhgerq6nB9Go97Q7ndk4/Q0FCfDRs2bN25c6ecmppKcMmF
+        CxdEyMAhEIRPHKcvxMBGsemWlhayWq1kt9vJ4XCQ0+kkl8vVSrzH5zabjSwWi7iehXKzmJEVFRUvKbd/
+        MhESEvLOxo0bq+Lj4yktLY2ysrKES5BDjEYjlZWVCYdAEDhDFQObdrvdJMsySZLUKgJ4t1C4DsB1+Bzj
+        2VW3eb53lGU8WVi6dGkgh4+kinLu3DmRS7i6CJcgfyBk4BCEB04eG4UYeIUAqhPUsIF4KtXw8nSWOh6i
+        8WcSzztHWc4Tgc7BwcFr161bRxw+xEm2VRSEDqoLW124BJvD5tUN4cTxHkJh80ruEAIi1DypJmR8j+tw
+        vafj1PnMZnM4G6qzsrbHhs4LFiyICA8Ppx07dhByCsJHFQXVBqGDjWDzOGWEAoTBhuAAJNyamhqxebgK
+        4QYx4TJULJV471m9cL2ao1QHIrxA/jlCWd/jwezZs5evXLmStm7dSvv27aPTp08TN2oifLA5VRScLE4T
+        pwpx8B4bgiBwE8TAxtHHYCwqV0FBgUjYKvFeLfG4DterVU3NWeyWVvewOMHKMjsWU6dOHbp48WLivELc
+        vBF3saL6YPFYNDZcW1vbKgqcglOFS/A5ThyCwA3YLDYOp2EOlHaEI9x39uxZ8Xr+/HnxOb737INwL1Q5
+        hJqnM5XQGqgst2MwadKkn82dO7cpLCxMhBDySk5OjjhZVB9YHaeIRaqiIHSQY+ASfM+OknljuSzIOt7s
+        NN74OHbcuPT09GkHDx5cd+DAgdy9e/cSd8uEV34v7nP8+HHRAnj2RXCQGrYQHeIr4pj4MF5Rlt3u6Dx9
+        +nTDkiVLaPPmzWLhp06dEovECcIFSJIQAQ5RbN0qCp+ukV0ylUV8WZlPEzz/T7j8T+VX45YtW2j79u0i
+        weOeqHy4LwTi56vW8FWdCnGU8D2hTNe+GDdu3KjAwEBatWoVcWdL/OwjFqeGEE4NCRXVBk7ByWGR7KBa
+        FmUKX9dFmeqBERQU1IXbgemcz2pXr15NmzZtEk6FQOwwEXZqv3R3GCPncEIerkzVPhg8eHCXKVOmVHB5
+        Jj5JSkpKEgkXi0Kbj2SohpDakGFxvMhsdtKPlGkeGnPmzOnGIXwebkUYR0ZGEvqmQ4cOiVyEdXgmfo8D
+        KuMS/qUP5IExevRo34CAAProo4+ErbEguAWJEyeFhIpqo4YQ8gq/j+f4/5YyxSODD+fb06ZN28UC0bJl
+        y4gfPyg2Nla0ChBHbRU8QxquZdeMV6bwOjpPnDjx2vz582nNmjW0a9cuUYlQnrEQT7fAKXAMh1A6n9Qz
+        ynivoXv37t/w9fU9jkOCe9BcxsXFieSM6oWcg4SMJK+GFK+pSBnuXQwaNOhNDiNCiUaMo1LghLAIVCLE
+        NawLlyhuMXJv8T1luNfRv3//lzjfGf39/YU4aBt2794tqhZ+tYF8g5CCi9HjwDUM7z+NjxgxYqOfnx+t
+        WLGCoqOjW8MISRcLQB8B26ISwDHsnLeVoe2Gfv36dR8/fjxxoynWFRUVJRrNzMxMEVKerkHzx7lmrTLU
+        exgzZkwZJz+R9BDTqAZotpDs1DCCZdGS8+nsV4a1O9jJB99//31CiKNiIaSwNtU16G+Qa1AZObxLlWHe
+        Qe/evV+dMGECzZs3T+QXWNZgMLRWI5wKuk5UAIbMAv1KGdru6NWr169HjhxJM2fOFMkYrkEzmJ2dLRpO
+        dNaoUCgKSjj9VBn66Ojbt+8o7nZp0aJFogqgTKP7VPOLemNUI3ZMpjKswzBgwIBsuGbhwoW0fv168YiS
+        kZEhDk4NJ4+D815Pw4lu6eTJk4kbLZF4Ecd4flFPRE1wSn7p8N+J9OnTZ+7YsWPJM9SPHTsmQt2zYip5
+        xnsPlwMHDtytViQ0VbAquk21f1ETr9LUvakM6zC89957b3NxIBQHPO2jx8Ijg5pn0NPgcUTJgbuUYY8O
+        TnAGfpoWZRHPLCkpKeKhEcKoFUlJbrBqu5VoLfTs2fPFoUOHEj/DiTyzbds20fCpVVNNwEqP5b1nJxYm
+        F8Lw84pIbqowaqlWsz7f1KYM6XAMGTLEzh0xhYSEiN8P3UeYHGXIo4NPIx5P1HxTAzvGwDc1sDAGvqmB
+        hTGwYwycYwycY9KUIR0OXmMaVybD8uXLDewYA/dZYo0cSmKNLIyBhTGwq+OVIY+OUaNGXUb7rcbvfZo7
+        kzKkwzFs2DATSrbagOLxoK0cw8n3sjLk0aELowFdGA3owmhAF0YDujAa0IXRgC6MBnRhNKALowFdGA3o
+        wmhAF0YDujAa0IXRgC6MBnRhNKALowFdGA3owmhAF0YDujAa8LYwlDvpm81Xp7xkL/Z71Xx91m+sxbP+
+        aC7262Et8evPryMsJQGTzCX+s+oLZobFrR94IuzD3vmhi3pdWxLYszwksOedoFnvNs6b0cMcOPVvtpmT
+        /uqcNuEv7uHDh4p/2P8iYSRHbVOLcVpXZSmPhgcWxm6xWY3+KyzGgA38GmMx+u/j1xP8msssYdYwbUx6
+        GB5PGEMTRrxFY4f+6R4OHzbkgYRx2SrIUuJfaS4OeFfZ3v2xM7SbT0RIr70h8/5ZFjzrHzUL/HqY5kx9
+        x4oTGTN6KD2IMHZbU5sb8jqL/ak2bzptWNb3SwtTVnJenUe2Fvt/TFeC7v9HiwmhXd+OX9ntwkK/vzd6
+        ngQ4euSQJ0uYzzFACBUytw8NHtSXFi8O1hSmxFhI2UeD7p4jt7loxi8UGe4FhElc5UOJa75/PT7i32UP
+        I0yTqebum3YozSzQqb3/oT1bfWn3Nn9K+GQ+pe5ZTmlJSyg9aQ5dzfigzXFMs8XoN0GR4vNoFYaZFO7T
+        cDNzWIqlOIDS40dR73/9mT74YPIXCpORHtfWTZ8EupgVlpLZWbay4EP2irUJjsrtsVJdcoxkOhovNWUc
+        kJszT5M587eKHP+HpzAKHVm7X9/IE9oxeUbyWFq1dBSFBM+gTRHh4k9Z8QeAsOvx9AN0MnUN3cqZ0dai
+        2pP1nNyvWkrmZNpuLDlsr1iT6KjevlOq27fD3ZgRK7Xk7JHMeUdly5Vc2ZJfJVsuybI5j2TzBZJbcpk5
+        zHMkN2czzxI1n7n3DyrbEAaUj0b9PJoXUOu5oPqC6ZR31JdtO45fJ4r3nt8/BFtQKawlAUX8c47txsKT
+        tlvLD9nL1yU5q+PjpIa0HVJTVoxkLoiT7KXJsqP8iOy8nSU7bhv552bZfpNkexnzOsm2UqaRZOs1ZhGz
+        kGRLATOfeYlF8Y4wgvvX/TiFY/Cw1TjbYCmdm2K5MT8VtJZ9mGQvWyxovbl0l+1WKDOMuSreVhER46iM
+        jHVURsU4a+NjnHV7Y3iDcZIpY7fUci5ZMl9KlaxXDZKtNJs3Vig7KsplZ1WT7Kol2dVAstSk0PTZe1c9
+        k79z1jCrmZXEwjDLWZDHJAxYV7hwn7NyIzmrIslZvZWcNZ+Q804suWp3MfeQqy6ZXPUHyNWQykwjqTGd
+        JNNJkppOkcQ3ZTHIzYtx88LcvEg3L9htK2byRrAxRwVvtuqzzevC6MLowujC6MJ8Rl0YDerCaFAXRoO6
+        MBrUhdGgLowGdWE0qAujQV0YDerCaFAXRoO6MBrUhdGgLowGdWE0qAujQV0YDerCaFAXRoO6MBrUhdGg
+        LowGdWE0qAujQV0YDerCaPBrK0xSuM/v2hJE5ddWGGBPeNdlbYkCPqXCuFmYAndzdjS1ZE0m0+kXFCnu
+        RWK4T8RTLEyZbLm4h8wXZ1NLTneqPfO8su0vRkJCp2eSwnxinwJh6mRb0SG3pXAxWfL7kDn/B8oWHx4J
+        QZ267Fnlc/ArIoybxxtZmESeK4is1weRvfhVZSveR8rmbs+yIKeeIGFc/F2x7LiT4nZUfUzO2xPIWfl7
+        ospnlSV3HBJWvPBdFiWvA4Wx8+avya7Go27JtIXcpv/yRP3IUfdLas//gvPDIGHtD7uyMEYvCNPCwhRJ
+        5rxTbnN+PAuz2m0zBkq20pFkvfkWWW51480/9v8DxZfCvrAXX240LgllYc47KyPTWZh0V80nCa47sQlS
+        bXykVJsY4apLWuZqSJntrD/kK9UfGeQyHevhNJ14jUwZr1D1pe8oU+n4aqNTp/8BWOORK6YHgUcAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="lnkEditCheckedOutDocument.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 17</value>
+  </data>
+  <data name="lnkEditCheckedOutDocument.Text" xml:space="preserve">
+    <value>Éditer document en retrait</value>
+  </data>
+  <data name="pnlDocCheckInCheckOut.Text" xml:space="preserve">
+    <value>Le document est en retrait</value>
+  </data>
+  <data name="btnFrom.Text" xml:space="preserve">
+    <value>De...</value>
+  </data>
+  <data name="lblDateReadValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 8</value>
+  </data>
+  <data name="ucRecipientTextBoxFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 26</value>
+  </data>
+  <data name="lblFromCompose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lblFromCompose.Text" xml:space="preserve">
+    <value>De :</value>
+  </data>
+  <data name="lblDateRead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 8</value>
+  </data>
+  <data name="lblDateRead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lblDateRead.Text" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="uiPanel7Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 30</value>
+  </data>
+  <data name="pnlFromDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 30</value>
+  </data>
+  <data name="btnTo.Text" xml:space="preserve">
+    <value>À...</value>
+  </data>
+  <data name="ucRecipientTextBoxTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>859, 26</value>
+  </data>
+  <data name="uiPanel0Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 30</value>
+  </data>
+  <data name="pnlTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 30</value>
+  </data>
+  <data name="ucRecipientTextBoxCc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>859, 26</value>
+  </data>
+  <data name="pnlCCContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 30</value>
+  </data>
+  <data name="pnlCC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 30</value>
+  </data>
+  <data name="chkEncrypt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>821, 0</value>
+  </data>
+  <data name="chkEncrypt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 26</value>
+  </data>
+  <data name="chkEncrypt.Text" xml:space="preserve">
+    <value>Chiffrer</value>
+  </data>
+  <data name="tbEfSubject.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAAAAAP///4d+saShwKWkwGBgoHBwsICAwHBwoICAsJCQwJCQsKCgwHB4wGBooHB4
+        sICIwJCY0J2iwGBwwHB4oJCYwIeOsaCo0ICQ0GBwoICQwJCg0JCYsGCAwICQsJCgwKCw0GCQ4ICw8JDA
+        /5C48HCo8KDQ/7DQ8MDY8ODw//D4/5DQ/6DY/6DQ8LDY8NDw/7Do/8Dw/9Do8OD4/8Do8ND4/+D//+Dw
+        8PD/////wP//0P//4P//8P/4oP/4sP/4wP/woP/ogPDYgP/okP/ggP/ooP/YcPDQcPDIYP/gkPDIcP/Y
+        gP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABMACwAAAAAEAAQAAAIrwCZCBxIsKDBgwiZSCBAoEKFhEwG8Ji4w4cAhBJ5BOChw8eQiwUl7NhB8QeQ
+        IEQsELxQpGWRJEuEHFGCBAlIJhdA5MjhwweQIUSMGPFAYeAFGhF6fKgAAcICIxxOJBi4wYYLBjdSpJBx
+        osGJFkUFRoCB4QaOGTNewGjRgQSCgRUwpFAxo0YMGCxWiJjgYKACFHbxmhghokSIDn0FalCg4UCCB5AN
+        GMjgoADEy5iZBAQAOw==
+</value>
+  </data>
+  <data name="tbEfSubject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 22</value>
+  </data>
+  <data name="efSubjectCounter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 1</value>
+  </data>
+  <data name="efSubjectCounter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 21</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Sujet :</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAD4
+        CwAAAk1TRnQBSQFMAgEBBQEAAVwBAAFcAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8AFQAKKwYq
+        EAAB/wL0AfIC8QTwAfEB8gHzAv8RAAErDnoBKhAAAv8B8AG8Ae8BbgNGAUUBbgHvArwB/wIABbUFzwOu
+        AgABKwF6AfYLwwF6ASoFAAKtAooBiwGGBQAD/wGTAUwBbwGTApQBFgFMAUYBHAH/AwABtQEZAeICGQTc
+        AdUCtAGuAgABKwF6AvYBwwF5AVICSwFMAXQDwwF6ASoFAAGtAdQBswGtAawBpgUAAv8BBwFMARYBlAEW
+        Am8BFgGUAW8BRgGTAwACtQH0Af8B9AHiAhkD3AHPAa4CAAExAXoC9gF0AUwBeQJ6AXQBTAFSAsMBegEq
+        BQABrQHVAbMCrQGmBgAB8wFMARYBmgJvApQCFwGUAW8BRgHyAgABtQEZAbUB9AH/AvQCGQEJAbQB3AGu
+        AgABMQGaAfYBeQFSAZoDoAGaAXoBTAF0AcMBegEqBQABrQHbA7MBigYAARoBbwGaA+MC/wJvARcBlAFv
+        ARoCAAG1AfQBCQG1A/QBGQEJAc8CCQGuAgABMQGaAfYBUgGZAsMDoAGaAXkBTAHDAXoBKwUAAa0B3AOz
+        AYoGAAEWApQD4wKUA28BFgGTAW8CAAG1ARkBtQGgBLUB9wF6AfcBCQG1AgABUgGaAfYBUgEbAfYBwwNS
+        AZoBegEqAcMBegErBQABrQHcA7MBigYAAeMBmgF1A+MBvQH/AuMCbwGUAUwCAAG1AbsEwwKgAZoCegG1
+        Aa4CAAFSAZoB9gFSARsC9gFSApoBwwF6ASoBwwF6ASsBAAH/AbQCrQGzAdsB1QKzAYsCrAG0Af8CAAHj
+        AZoBdQPjAv8E4wGUAUwCAAG1BKADmgR6Aa8CAAFSAZoB9gF5ARoC9gF0A8MBeQFMAcMBegErAgAB/wG0
+        AQkB3APVArQB1QG0Af8DAAOUAXUC4wL/A+MClAFvAwABtQX2AcMCoAGaAbUDAAFSAZoB/wEaAXQBwwH2
+        AXQCwwGaAVIBdAHDAXoBKwMAAf8BswEJAdsE1QGtAf8EAAEaARYBmgN1Av8D4wGaAW8BGgQAAbUC9gH/
+        AfYCwwGgAa8EAAFSAZoC/wGaAXQBGgGaAcMBmQFSAXQCwwF6ASsEAAH/AbMBGQPbAa0B/wUAAfYBdQGU
+        AZoCdQL/AuMBmgEWAW8B/wUAAbUE9gHDAa8FAAFTAZoD/wEaAXkDUgGZAvYBwwF6ASsFAAH0AbMBGQHc
+        AbMB9AcAAfMBdQGUAZoBlAJ1AZQBmgF1AW8B8wcABbUGAAFTARoE/wj2AXoBKwYAAfMC1QHzCQAB8wGU
+        ARYBlAKaAZQBFgF1AfMTAAFTAhoImgR6ASsHAAIZCwAB/wEaAZQCdQGUARoB/xQABFMGUgIxBCsgAAFC
+        AU0BPgcAAT4DAAEoAwABQAMAASADAAEBAQABAQYAAQEWAAP/AQAC/wYAAv8GAAL/BgAC/wYAAv8GAAL/
+        BgAC/wYAAv8GAAL/BgAC/wYAAv8GAAL/BgAC/wYAAv8GAAL/BgAC/wYAAv8CAAL/AQABAQL/AgAC/wEA
+        AQEBgAEDAgAB+AEfAQABAwGAAQMCAAH4AR8BAAEDAYABAwIAAfgBHwGAAQEBgAEDAgAB+AEfAYABAQGA
+        AQMCAAH4AR8BgAEBAYABAwIAAfgBHwGAAQEBgAEDAgABgAEBAYABAQGAAQMCAAHAAQMBgAEBAcABBwIA
+        AeABBwGAAQEB4AEPAgAB8AEPAYABAQHwAR8CAAH4AR8BwAEDAfgBPwIAAfwBPwHgAQcC/wIAAf4BfwHw
+        AQ8C/wIABP8L
+</value>
+  </data>
+  <data name="priorityJComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 0</value>
+  </data>
+  <data name="uiPanel8Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 26</value>
+  </data>
+  <data name="pnlSubject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 26</value>
+  </data>
+  <data name="btnInsert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>805, 5</value>
+  </data>
+  <data name="btnInsert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="btnInsert.Text" xml:space="preserve">
+    <value>Insérer</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>798, 49</value>
+  </data>
+  <data name="uiPanel1Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 50</value>
+  </data>
+  <data name="pnlAttachment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 50</value>
+  </data>
+  <data name="buttonBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 28</value>
+  </data>
+  <data name="textControlCompose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 268</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uiStatusBarPanel3.Width" type="System.Int32, mscorlib">
+    <value>882</value>
+  </data>
+  <data name="uiStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 23</value>
+  </data>
+  <data name="btnDraftWatermark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>891, 58</value>
+  </data>
+  <data name="axEDOffice1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAcgAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAF0AAAAAAAgAQl4AALMbAAAAAAAAAf/+/wtDAGgAcgBpAHMAVwBlAGUAawBl
+        AHMA//7/E0UARABPADgALQA1ADUAMQBBAC0AMQAyADUARAAtAEEAQgBFAEIAoMHuAAAAAAAL
+</value>
+  </data>
+  <data name="axEDOffice1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 268</value>
+  </data>
+  <data name="ucWB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 268</value>
+  </data>
+  <data name="uiPanel2Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 305</value>
+  </data>
+  <data name="pnlDocDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 307</value>
+  </data>
+  <data name="sourceDivisionDataLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 311</value>
+  </data>
+  <data name="sourceDivisionDataLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 21</value>
+  </data>
+  <data name="dtmefDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 335</value>
+  </data>
+  <data name="ucMultiDropDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 39</value>
+  </data>
+  <data name="mccCommType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 11</value>
+  </data>
+  <data name="readOnlyCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 308</value>
+  </data>
+  <data name="readOnlyCheckBox.Text" xml:space="preserve">
+    <value>Lecture seule :</value>
+  </data>
+  <data name="versionLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 250</value>
+  </data>
+  <data name="sizeLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 222</value>
+  </data>
+  <data name="createDateDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 164</value>
+  </data>
+  <data name="modDateDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 136</value>
+  </data>
+  <data name="extLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 194</value>
+  </data>
+  <data name="lblCommModeCompose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 40</value>
+  </data>
+  <data name="lblCommModeCompose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="lblCommModeCompose.Text" xml:space="preserve">
+    <value>Mode de communication :</value>
+  </data>
+  <data name="opinionCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 395</value>
+  </data>
+  <data name="opinionCheckBox.Text" xml:space="preserve">
+    <value>Opinion juridique :</value>
+  </data>
+  <data name="efCodesTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 66</value>
+  </data>
+  <data name="filedByLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 250</value>
+  </data>
+  <data name="filedByLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 21</value>
+  </data>
+  <data name="authorLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 282</value>
+  </data>
+  <data name="authorLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 21</value>
+  </data>
+  <data name="pVCheckBox.Text" xml:space="preserve">
+    <value>Valeur jurisprudentielle :</value>
+  </data>
+  <data name="isDraftCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 365</value>
+  </data>
+  <data name="isDraftCheckBox.Text" xml:space="preserve">
+    <value>Ébauche :</value>
+  </data>
+  <data name="isElectronicCheckBox.Text" xml:space="preserve">
+    <value>Copie électronique existe :</value>
+  </data>
+  <data name="isPaperCheckBox.Text" xml:space="preserve">
+    <value>Copie papier existe :</value>
+  </data>
+  <data name="sourceLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 221</value>
+  </data>
+  <data name="sourceLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 21</value>
+  </data>
+  <data name="uiPanel5Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 473</value>
+  </data>
+  <data name="pnlMetaData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 473</value>
+  </data>
+  <data name="pnlMetaData.Text" xml:space="preserve">
+    <value>Metadonnées</value>
+  </data>
+</root>

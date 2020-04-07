@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F21694A-11AD-43DB-8DB8-62F4E52684AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>lmDatasets</RootNamespace>
+    <AssemblyName>lmDatasets</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>asptek.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Remote|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug Remote\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityConfig.cs">
+      <DependentUpon>ActivityConfig.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityConfig.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActivityConfig.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Advisory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Advisory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="appDB.cs">
+      <DependentUpon>appDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="appDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>appDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="atriumDB.cs">
+      <DependentUpon>atriumDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="atriumDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>atriumDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CodesDB.cs">
+      <DependentUpon>CodesDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CodesDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CodesDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CLAS.cs">
+      <DependentUpon>CLAS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CLAS.Designer.cs">
+      <DependentUpon>CLAS.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="docDB.cs">
+      <DependentUpon>docDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="docDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>docDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HelpDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HelpDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MemberManagement.cs">
+      <DependentUpon>MemberManagement.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MemberManagement.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MemberManagement.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="officeDB.cs">
+      <DependentUpon>officeDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="officeDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>officeDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RiskManagement.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RiskManagement.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityDB.cs">
+      <DependentUpon>SecurityDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SecurityDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SST.cs">
+      <DependentUpon>SST.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SST.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SST.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Advisory.xsc">
+      <DependentUpon>Advisory.xsd</DependentUpon>
+    </None>
+    <None Include="Advisory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Advisory.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Advisory.xss">
+      <DependentUpon>Advisory.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <None Include="ActivityConfig.xsc">
+      <DependentUpon>ActivityConfig.xsd</DependentUpon>
+    </None>
+    <None Include="ActivityConfig.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ActivityConfig.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ActivityConfig.xss">
+      <DependentUpon>ActivityConfig.xsd</DependentUpon>
+    </None>
+    <None Include="appDB.xsc">
+      <DependentUpon>appDB.xsd</DependentUpon>
+    </None>
+    <None Include="appDB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>appDB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="appDB.xss">
+      <DependentUpon>appDB.xsd</DependentUpon>
+    </None>
+    <None Include="asptek.snk" />
+    <None Include="atriumDB.xsc">
+      <DependentUpon>atriumDB.xsd</DependentUpon>
+    </None>
+    <None Include="atriumDB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>atriumDB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="atriumDB.xss">
+      <DependentUpon>atriumDB.xsd</DependentUpon>
+    </None>
+    <None Include="atriumDB.xsx">
+      <DependentUpon>atriumDB.xsd</DependentUpon>
+    </None>
+    <None Include="CodesDB.xsc">
+      <DependentUpon>CodesDB.xsd</DependentUpon>
+    </None>
+    <None Include="CodesDB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CodesDB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="CodesDB.xss">
+      <DependentUpon>CodesDB.xsd</DependentUpon>
+    </None>
+    <None Include="CLAS.xsc">
+      <DependentUpon>CLAS.xsd</DependentUpon>
+    </None>
+    <None Include="CLAS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CLAS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CLAS.xss">
+      <DependentUpon>CLAS.xsd</DependentUpon>
+    </None>
+    <None Include="CLAS.xsx">
+      <DependentUpon>CLAS.xsd</DependentUpon>
+    </None>
+    <None Include="docDB.xsc">
+      <DependentUpon>docDB.xsd</DependentUpon>
+    </None>
+    <None Include="docDB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>docDB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="docDB.xss">
+      <DependentUpon>docDB.xsd</DependentUpon>
+    </None>
+    <None Include="HelpDB.xsc">
+      <DependentUpon>HelpDB.xsd</DependentUpon>
+    </None>
+    <None Include="HelpDB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HelpDB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="HelpDB.xss">
+      <DependentUpon>HelpDB.xsd</DependentUpon>
+    </None>
+    <None Include="MemberManagement.xsc">
+      <DependentUpon>MemberManagement.xsd</DependentUpon>
+    </None>
+    <None Include="MemberManagement.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MemberManagement.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MemberManagement.xss">
+      <DependentUpon>MemberManagement.xsd</DependentUpon>
+    </None>
+    <None Include="officeDB.xsc">
+      <DependentUpon>officeDB.xsd</DependentUpon>
+    </None>
+    <None Include="officeDB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>officeDB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="officeDB.xss">
+      <DependentUpon>officeDB.xsd</DependentUpon>
+    </None>
+    <None Include="RiskManagement.xsc">
+      <DependentUpon>RiskManagement.xsd</DependentUpon>
+    </None>
+    <None Include="RiskManagement.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RiskManagement.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RiskManagement.xss">
+      <DependentUpon>RiskManagement.xsd</DependentUpon>
+    </None>
+    <None Include="SecurityDB.xsc">
+      <DependentUpon>SecurityDB.xsd</DependentUpon>
+    </None>
+    <None Include="SecurityDB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SecurityDB.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SecurityDB.xss">
+      <DependentUpon>SecurityDB.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SST.xsc">
+      <DependentUpon>SST.xsd</DependentUpon>
+    </None>
+    <None Include="SST.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SST.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SST.xss">
+      <DependentUpon>SST.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

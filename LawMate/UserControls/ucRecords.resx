@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="documentBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>690, 17</value>
+  </metadata>
+  <metadata name="docDB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>589, 17</value>
+  </metadata>
+  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>172, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>323, 17</value>
+  </metadata>
+  <metadata name="imageListBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>436, 17</value>
+  </metadata>
+  <data name="imageListBase.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB2
+        HAAAAk1TRnQBSQFMAgEBFAEAARgCAAEBARABAAEQAQAE/wEJARAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        AUADAAFgAwABAQEAAQgGAAEYGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEA
+        AfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEA
+        AYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFm
+        AwABmQMAAcwCAAEzAwACMwIAATMBZgIAATMBmQIAATMBzAIAATMB/wIAAWYDAAFmATMCAAJmAgABZgGZ
+        AgABZgHMAgABZgH/AgABmQMAAZkBMwIAAZkBZgIAApkCAAGZAcwCAAGZAf8CAAHMAwABzAEzAgABzAFm
+        AgABzAGZAgACzAIAAcwB/wIAAf8BZgIAAf8BmQIAAf8BzAEAATMB/wIAAf8BAAEzAQABMwEAAWYBAAEz
+        AQABmQEAATMBAAHMAQABMwEAAf8BAAH/ATMCAAMzAQACMwFmAQACMwGZAQACMwHMAQACMwH/AQABMwFm
+        AgABMwFmATMBAAEzAmYBAAEzAWYBmQEAATMBZgHMAQABMwFmAf8BAAEzAZkCAAEzAZkBMwEAATMBmQFm
+        AQABMwKZAQABMwGZAcwBAAEzAZkB/wEAATMBzAIAATMBzAEzAQABMwHMAWYBAAEzAcwBmQEAATMCzAEA
+        ATMBzAH/AQABMwH/ATMBAAEzAf8BZgEAATMB/wGZAQABMwH/AcwBAAEzAv8BAAFmAwABZgEAATMBAAFm
+        AQABZgEAAWYBAAGZAQABZgEAAcwBAAFmAQAB/wEAAWYBMwIAAWYCMwEAAWYBMwFmAQABZgEzAZkBAAFm
+        ATMBzAEAAWYBMwH/AQACZgIAAmYBMwEAA2YBAAJmAZkBAAJmAcwBAAFmAZkCAAFmAZkBMwEAAWYBmQFm
+        AQABZgKZAQABZgGZAcwBAAFmAZkB/wEAAWYBzAIAAWYBzAEzAQABZgHMAZkBAAFmAswBAAFmAcwB/wEA
+        AWYB/wIAAWYB/wEzAQABZgH/AZkBAAFmAf8BzAEAAcwBAAH/AQAB/wEAAcwBAAKZAgABmQEzAZkBAAGZ
+        AQABmQEAAZkBAAHMAQABmQMAAZkCMwEAAZkBAAFmAQABmQEzAcwBAAGZAQAB/wEAAZkBZgIAAZkBZgEz
+        AQABmQEzAWYBAAGZAWYBmQEAAZkBZgHMAQABmQEzAf8BAAKZATMBAAKZAWYBAAOZAQACmQHMAQACmQH/
+        AQABmQHMAgABmQHMATMBAAFmAcwBZgEAAZkBzAGZAQABmQLMAQABmQHMAf8BAAGZAf8CAAGZAf8BMwEA
+        AZkBzAFmAQABmQH/AZkBAAGZAf8BzAEAAZkC/wEAAcwDAAGZAQABMwEAAcwBAAFmAQABzAEAAZkBAAHM
+        AQABzAEAAZkBMwIAAcwCMwEAAcwBMwFmAQABzAEzAZkBAAHMATMBzAEAAcwBMwH/AQABzAFmAgABzAFm
+        ATMBAAGZAmYBAAHMAWYBmQEAAcwBZgHMAQABmQFmAf8BAAHMAZkCAAHMAZkBMwEAAcwBmQFmAQABzAKZ
+        AQABzAGZAcwBAAHMAZkB/wEAAswCAALMATMBAALMAWYBAALMAZkBAAPMAQACzAH/AQABzAH/AgABzAH/
+        ATMBAAGZAf8BZgEAAcwB/wGZAQABzAH/AcwBAAHMAv8BAAHMAQABMwEAAf8BAAFmAQAB/wEAAZkBAAHM
+        ATMCAAH/AjMBAAH/ATMBZgEAAf8BMwGZAQAB/wEzAcwBAAH/ATMB/wEAAf8BZgIAAf8BZgEzAQABzAJm
+        AQAB/wFmAZkBAAH/AWYBzAEAAcwBZgH/AQAB/wGZAgAB/wGZATMBAAH/AZkBZgEAAf8CmQEAAf8BmQHM
+        AQAB/wGZAf8BAAH/AcwCAAH/AcwBMwEAAf8BzAFmAQAB/wHMAZkBAAH/AswBAAH/AcwB/wEAAv8BMwEA
+        AcwB/wFmAQAC/wGZAQAC/wHMAQACZgH/AQABZgH/AWYBAAFmAv8BAAH/AmYBAAH/AWYB/wEAAv8BZgEA
+        ASEBAAGlAQADXwEAA3cBAAOGAQADlgEAA8sBAAOyAQAD1wEAA90BAAPjAQAD6gEAA/EBAAP4AQAB8AH7
+        Af8BAAGkAqABAAOAAwAB/wIAAf8DAAL/AQAB/wMAAf8BAAH/AQAC/wIAA///AP8A/wD/ADYADu0CAAEH
+        Aq4B6gETAW0CEgHqARIDZgESAgABBwHsAbUcAAG8DvEB+AEAAewCtQFmAUMBBwG2Ad0BtQGuBGYCAAEc
+        AUwB7AG1DAAK/wUAAbwB8QORCvEB+AEAAe0B1gHPAbUBrgFmAa4B9AHzAa4BZgKGAWYCAAGaAXoBTAHs
+        AbULAAH/AgAB/wUAAf8FAAG8AfEBkQHxApEJ8QH4AQABrgHWAbUB1gGGAQoBZgHdARkBzwOGAWYDAAGa
+        AXoBTAHsAbUKAAr/BQABvAHyBZEI8gH4AQABrgPWAYwBrgFmAYsErgGGAWYEAAGaAXoBTAHsAbwJAAH/
+        AgAB/wUAAf8FAAG8AvMFkQfzAfgBAAG1AQkC1gO1Aq4BzwKLAa4BZgUAAZoBegF0Ae8BBwW1AwAK/wUA
+        AbwD8wWRBvMB+AEAAbUB3QHWAc8BrgKLBIYCzwGGBgABmgG8ArUBCQIZAgkBtQIAB/8BAAL/BQABvAT0
+        BZEF9AH4AQAB7QEJAc8B9AL/AvQB3QIJAYYBzwGGBwABBwG1AhkB4gP/AQkBtQEAAf8CAAP/AQABBwEA
+        Af8EAAEEAbwF9AeRAvQB+AEAAfcB3QGuAv8B9AH/ARkB/wLdAoYBrgcAAbUBCQEZAuID/wEJAbUBAAH/
+        AQABBwEAAf8BAAEHAQABBwQAAgQBvAb0B5EB9AH4AQAB7wHdAc8F/wIZAd0BhgG1AeoHAAG1ARkBCQEZ
+        AeIB9AH/AfQBGQG1AQAC/wEAAQcBAAEHAQABBwEAAwcBAAIEAbwH9QKRAvUCkQH1AfgBAAHvAd0BtQP/
+        AvYC/wEZAWYBrwESBwABtQMZBOIBGQG1BQABBwEAAQcBAAUHAgQBvAf/ApED/wGRAf8B+AEAAQcB3QG1
+        Av8B9AH2AfMB/wH0Af8BhgFmAa4HAAG1AQkGGQEJAbUGAAEHAQAGBwIEAbwH/wORBP8B+AEAAbYB3QG1
+        Bf8C9AH/AYYBzwGuBwABCQG7Av8BGQHcAhkBtQEHBwAGBwEAAgQBvAj/A5ED/wH4AQACvAG1AQcB7wT3
+        ArUCrwGNCAACtQEJAhkBCQK1DwACBAG8Dv8B+BgAAQcEtQEHEwAO8QcAAmwBrhcAEP8UAAFsAa4B8QHs
+        AmwB7AkAAnMBbgFKARQBFQEiAhABIgEQAQAQ/wIAAfcKZgUAAW0B6wLzAesC6gGuAWYBbAgAAewBoAF6
+        AnkBdAJSAksBQwEAEP8CAAH3Af8I9wFmAwABkQGuAfMB9AHvAZIBuwG1AW4B7AGuAW0BZgFsBgAB7QHD
+        AaABmgN6AVkBUwFSARUBAAL/ARwESwZKAkQB/wIAAfcD/wH0AfMBGQHwAbwB9wFmAwABtQHzAbwB9wHw
+        ARkB8wFMASUBbwHvARIDbAUAARwBwwGgApoDegFZAVIBRAEAAv8BHAHDApoIegFEAf8CAAH3BP8B9AHz
+        ARkB8AH3AWYDAAG8AbUB8QL0ARoBTAFNAUYBJQGTAQcBrgESAWwBAAH3A2YBkgLDAaACmgN6AVIBSgEA
+        Av8BHAEaCKABegF5AUoB/wIAAfcF/wLzAfEB9wFmAwAB8AG1AbwB9AH/AUYBTQF1AeMBTQFGArwB7QHs
+        AQAB9wH0AfMBGQEcA8MBoAGaA3oBUgFuAQAC/wEcAXkBmgKgA3oCoAF6AVEBSgH/AgABtQX/AfQB8wEZ
+        AfcBZgMAAQcBkQG0AbUB8AOUAfMBlAJMAfcBkQHvAQAB9wH/AvQBHATDAqABmgJ6AW4BAAL/ARwBGgF5
+        AnoDUgJ6AVIBeQFKAf8CAAG1Bv8C8wH3AWYDAAGRArQBbQGRAe8BGgH0Af8B8AEWAUwBSwIHAQABtQL/
+        AfQKHAH3AQAC/wGZAcMBoAF6AXkBegGgAZoBUgF5AnoBSgH/AgAB7wb/AfQB8wH3AWYDAAGuAbQBbQFx
+        AXcBkAG0AbsBBwGRAXIBbwFGAW4BBwEAAbUD/wEcARoBwwGaARwBBwYAAv8BmQHDAZoBeQGaBKABdAJ6
+        AUoB/wIAAbsH/wH0AfcBZgMAAZEB7AFPAXcBkQO0AXEBTwFxAa4BdAFGAe0BAAHvA/8B8wMcAW0DAAHv
+        ARQB9wEAAv8BmQHDAXkBmgagAVIBeQFKAf8CAAG7B/8C9wFmAwABtQGRAlYBcgO0AZABTwFxAa4BAAGU
+        AUwBAAEHBP8B9AHxAbwBZgMAAYsCZgEAAv8BmQGaBMMEoAGaAVIBSgH/AgABBwb/AfcDZgQAAZEBeAOY
+        AbQB1QG0AXEBrgH3BAABBwT/AfcDZgMAAQcBFAIAAv8BmQrDAZoBbQH/AgABBwb/AbUBvAFmAQkEAAG1
+        AZIBCAHCAeIBwQGRAbMBkQGuBQABCQT/AbUBvAFmAQcCAAEHAewBFAIAAv8HmQYcAf8CAAEJBv8BtQFm
+        AQkGAAG1AZIBuwGRAZgDkQYAAQkE/wHvAWYBvAIAA64B7wIAEP8CAAUJAgcBuwEJCQAB9wORCAACCQMH
+        AbsBvAkAEP8QABATEQAB9w1mAQAI/wHxAZEBCQH0BP8B9wL/AfAC/wHwAv8B8AL/AfAC/wETBAAB6wEV
+        AQABrgGLB2YBAAH3Af8L9wFmAQAH/wEHAbUBrgHvAfME/wH3Av8B8AL/AfAC/wHwAv8B8AL/ARMEAAGS
+        Af8BUgEAARkB8AUJAWYBAAH3Av8B9ALzAxkB8AG8AQkB9wFmAQAE/wH0AQcBtQGuAbsBtAGuAe8B9AP/
+        AfcO8AETBAABkQEcAZoBegEAAvQBGQLdAQkBZgEAAfcD/wG7Ac8ChgGuAbUB8AG8AfcBZgEAA/8B9AEH
+        ApEBtQEJAbUBrgGLAZEB8wL/AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwFzAewBbQHqAW0BSwHDAXkBegEA
+        AfQCGQHdAQkBZgEAAfcC/wG1Aa0BtQIJAbQBpgHPAfAB9wFmAQAD/wG8AbUBuwTcAbsBtQGLAa4B9AH/
+        AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwFzAZoBegF5AVIBeQFLAcMBeQF6AQAB9AIZAQkBZgEAAfcB/wEJ
+        Aa0BCQH/AbwBhgEZAdwBpgG1AfcBZgEAAv8BvAG1AbsBGQG1AosBtAIJAbUBiwG1Af8B9wjwBEUC8AET
+        AewBGgGgAZoCegG8AXMBwwF5AXoBAAL0AQkBZgEAAfcB/wG0AdwC/wHwAbUB9AEZAbQBrgH3AWYBAAL/
+        AbsBvALiAQkBtAGLAbsBGQHdAdwBtQGLAf8B9wL/AfAC/wHwAv8BRQL/AUUC/wETAe0BGgKgAZoBegEH
+        Af8BcwHDAVkBtAE/AfEB8AFmAQABtQH/AdQBCQP/AYsBtAH0AQkBBAH3AWYBAAH/Ad0BuwPiAQkBtAGL
+        AbsBGQLdAdwBiwG8AfcC/wHwAv8B8AL/AUUC/wFFAv8BEwHtAsMCoAGaAQcC/wF0AQkB4wF0AT8B8AFm
+        AQABtQH/AdUBCQL/AfMB8AGLAbUBCQGGAfcBZgEAAf8CvAPiAfIBtAGLAbsD4gHdAa4BvAH3CPAERQLw
+        ARMB7QHDARoDoAEHA/8BRQF1AeMBbgHxAWYBAAHvAf8B3AEJAf8BtQGLAfABiwK1Ac8B9wFmAQAB/wHd
+        AfAB/wHiAfQBtQKLAbsE4gGRAbwB9wL/AfAC/wHwAv8B8AL/AfAC/wETAe0DwwKgAbsD/wH0Am4C/wFm
+        AQABuwH/ARkB1QEJAfMBtQGLAbUBCQGtAQkB9wFmAQAC/wHwAv8B9AEJArUB8QLiAf8B3QG1Af8B9wL/
+        AfAC/wHwAv8B8AL/AfAC/wETAZIEwwGgA7sCBwHwAgcCtQEAAbsC/wEJAdUBCQIZAQkBtAEJAvcBZgEA
+        Av8B8AT/AhkE/wHwAbwB/wH3B4YH9wETARwGwwOgAZoDegHrAgABBwP/ARkB3ALVAdYB3QH3A2YBAAP/
+        Ad0C/wG8Aa4BiwG7Av8BGQG8Av8B9weGB/cBEwgcBu0BvAIAAQcJ/wG1AbwBZgG8AQAG/wHzAvcB8wH/
+        AuID/w/3ARMBHAEaA8MBmgEcAbwJAAEJCf8BtQFmAbwCABD/EAAB8wUcAfMKAAYJBAcBuwG8AwAQ/2wA
+        AusjAAEHAewK6wHsAwAJ6gHrAZIBbgHqBAAB7AttAewRAAHxDCoBbQHsAQACMQMrBCoBSwHtAlIBEwMA
+        AlIBTAoqARMB7AMAAewJ/wMAAlIBoAl6AVIBKgHrAQABKwFYAcMGegGSAVIBWQEqAUoB6wEAAVIBegFS
+        AaAIegFSAaABKgFtAwAB7AP/AQAF/wMAAlIBegGgCHoBWAFLAW0BBwExAVIBwwGgAZkBvAIHAfcBUgJ6
+        ASsBKgHqAQABUgF6AVIBoAh6AVIBoAEqAW0DAAHsAv8BAAb/AwACUgFYCKABmgFZAVIBbQHsAlIBegG8
+        AfQB/wLiAQkBmQHlAaABUgExARMBAAFSAXoBUgmgAVgBoAEqAW0DAAHsAv8CAAX/AwABUgFYAVIJoAJ5
+        ASoB6wFSAVgBUgHwA/8B4gEZAbwCoAF5ASoBSgHrAVIBegFSCaABegGgASoBbQMAAewC/wMAAf8BAAL/
+        AwABUgF6AVIJoAF6AaABSwHrAVIBegExAQkB4gH/AeICGQHwAqABegFYASoBEwFSAXoBUgmgAXoBoAEq
+        AW0DAAHsA/8EAAL/AwABUgGaAVIBeQL/AfYF/wGaAf8BSwHsAVIB5QFYAQkD4gEZAeIB8AL/AaABegEq
+        AeoBUgF6AVIJ/wGaAf8BKgHsAwAB7AT/AwAC/wMAAVIBoAF5DFIBBwFSAaABegHsAhkB4gH/ARkBUgQx
+        ASoBAAFSAaABmgxSBAAB7AP/BAAC/wMAAVIGoAX/AVIBSwEHAQABUgOgAQcCCQG8AfID/wEqAesCAAFS
+        BqAF/wEqAewFAAHsCf8DAAFSAf8EoAH/BlIB8QIAAVIB/wSgAf8FMQErAwABUgH/BKAB/wVSAUwGAArs
+        BAABUgT/AVIBBwkAAVIE/wFSCgABUgT/AVIbAARSAfELAARSDAAEUq0AAeo+AAGuAQ4BEwcAAa4B7BIA
+        AbQBrgOLAYYDAAG0Aq4CiwFmCQABCQG1CAABtQEPAREBrgUAAewBFQG1CAABEgEUARAHAAG1Af8BvAG1
+        AbQBhgMAAbQB8wG8AbUBzwGGCQABCQHVAc8BtQcAAW0BEQEUBAAB9wETAesJAAJtARQHAAG1Af8BvAG1
+        AbQBhgMAAbQC8wEJAbQBhgoAAQkB1QHPCAABFAEQAeoCAAH3AesBFQH3CQAB6gHtAW0BEQYAAbUB/wG8
+        AbUBtAGGAwABtALzAQkBtAGGCwABzwHVAbUIAAETAREBbQH3AeoBQwGRCgAB6gHvAewBFAYAAbUB/wHz
+        AbwBtQGGAwABtALzAQkBtAGGCwABuwGtAdUJAAETAkMBFQEUCgAB8AHqAQcBkgEUAQcFAAG1AbQBrgGL
+        AoYBpgGGAbQBrgGLAoYBZQGLAwAFrQGLAwABrQHVAQkIAAGRAUMCFAGSCQAB8AESAZIB8AHvAesBDwEH
+        BAABCQG0Af8B8AG1Aa4BpgG7AbQB8QEZAbUBzwGGAbUDAAG0Aa0C1QG0BAABrQG0AdwHAAG7AeoDFQHq
+        AfcHAAHwAW0BBwHyAfEBBwHtAeoBDwEHBAABtQH0Af8BGQG0AYYBiwG0Av8B3QHPAYYEAAG0A9UBzwQA
+        Aq0B3AYAAfcCFAHsAQAB7AEUAewB9wUAAfAB6wEHAfMB/wHzAfABBwGSAeoBDwEHBAABtQG0Aa4DiwHP
+        AbQBrgKGBQABtAPVAq0DAAGLAa0B3AQAAQcB6wIUAewDAAHrARQB7AEHAwAB8AHsAfAB8wP/AfIB8AEH
+        Ae0BEgEPAQcDAAG1Af8BCQG0AYYBAAG1Af8BCQG1AYYFAAHWAgkB3AG0Aq0BzwGtAYsB1QQAAfcB6wEV
+        ARQBkgUAAfcBEgHsAwAB7AG8AfMC/wH0AfMB8gG8AQcBkgFtARIBDwMAAbsBtQGuAosBAAK1Aa4BiwGG
+        BQAB1gIAAQkB3AHVBK0FAAH3ARQBEwHvBwAC9wMAAe8BBwHwAbwCBwHvAvcBkgHsAesBbQETBAABtAH/
+        AYYDAAG0Af8BhgoAAQkC3ALWBgAB9wHrAfcfAAG1AbQBiwMAAbUBtAGLDAACCSYAAUIBTQE+BwABPgMA
+        ASgDAAFAAwABYAMAAQEBAAEBBgABAxYAA/+BAAb/AYABAQGAAQEBjwH/AQABDwIAAYABAQGHAf8BAAEP
+        AgABgAEBAYMB/wEAAQ8CAAGAAQEBwQH/AQABDwIAAYABAQHgAf8BAAEPAgABgAEBAfABAwEAAQ8CAAGA
+        AQEB+AEBAQABDwIAAYABAQH8AgABDgIAAYABAQH8AgABBAIAAYABAQH8BQABgAEBAfwFAAGAAQEB/AEA
+        AfgDAAGAAQEB/AEAAfwDAAGAAQEB/gEBAf4BBAIAA/8BAwL/AYABAQH8AX8C/wIAAv8B8AEfAfABAQIA
+        AcABBwHAAQ8B8AEBAgABwAEHAQABAwHwAQECAAHAAQcBAAEBAfABAQIAAcABBwEAAQEBAAEBAgABwAEH
+        AQABAQEAAQECAAHAAQcBAAEBAQABAQIAAcABBwEAAQEBAAEBAgABwAEHAQABAQEAAT8CAAHAAQcBAAEB
+        AQABcQIAAcABBwEAAQkBAAFxAgABwAEHAYABDwEAAXMCAAHAAQcBgAEfAQABYwIAAcABDwHAAT8BAAHD
+        AgABwAEfAfAB/wEBAf8CAAL/AgAC/wGAAQEEAAHwAQABgAEBBAAB8AEAAYABAQQAAfABAAGAAQEGAAGA
+        AQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEFAAEBAYABAQUAAQEBgAEB
+        BQAB/wGAAQMCAAL/AQEB/wGAAQcCAA3/AfME/wGAAQMBgAEDAcABAQHgAQMBAAEBAQABAwGAAQAB4AED
+        AQABAQEAAQECAAHgAQMDAAEBAgAB4AEDAwABAQIAAeABAwYAAeABAwYAAeABAwYAAeABAwMAAQEBAAEB
+        AeABAwEAAQEBAAEDAQABAwHgAQMBAAEDAQABBwEAAQcB4AEDAYAB/wGBAf8BgQP/AcEB/wHDAf8BwxX/
+        Ae8H/wHHAfMC/wEDAYEB/wE/AcMB4wH8AT8BAwGBAf8BDwHjAccB/AE/AQMBgQH/AY8B8QGHAfwBPwED
+        AYEB/wHHAfgBDwH8AT8BAwGBAf8BxwH8AR8B+AEfAQABAQHAAeMB/AEfAfABDwEAAQEBwQHjAfgBDwHg
+        AQcBgAEDAcEB4wHwAYcBwAEDAcABBwHAAeMBwQHDAYABAQHBAQcBwAEHAYMB4wGAAQEBwQEHAdgBDwGH
+        AfMBgAEBAeMBjwH8AR8BjwP/AeMBjwH/AT8E/xYACw==
+</value>
+  </data>
+  <metadata name="uiPanelManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>915, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>109</value>
+  </metadata>
+  <data name="ucDocView1.Datasource" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFRsbURhdGFzZXRzLCBWZXJzaW9uPTQuMS42NDMyLjEzNTY2LCBD
+        dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPThjYjNiMGRhN2U2YTJjNTUMAwAAAE5TeXN0ZW0u
+        RGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1
+        YzU2MTkzNGUwODkFAQAAABBsbURhdGFzZXRzLmRvY0RCBAAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lv
+        bh9TY2hlbWFTZXJpYWxpemF0aW9uTW9kZS5EYXRhU2V0CVhtbFNjaGVtYQtYbWxEaWZmR3JhbQMEAQEO
+        U3lzdGVtLlZlcnNpb24jU3lzdGVtLkRhdGEuU2NoZW1hU2VyaWFsaXphdGlvbk1vZGUDAAAAAgAAAAkE
+        AAAABfv///8jU3lzdGVtLkRhdGEuU2NoZW1hU2VyaWFsaXphdGlvbk1vZGUBAAAAB3ZhbHVlX18ACAMA
+        AAACAAAABgYAAADQBDw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi0xNiI/Pg0KPHhzOnNj
+        aGVtYSBpZD0iZG9jREIiIHRhcmdldE5hbWVzcGFjZT0iaHR0cDovL3RlbXB1cmkub3JnL2RvY0RCLnhz
+        ZCIgeG1sbnM6bXN0bnM9Imh0dHA6Ly90ZW1wdXJpLm9yZy9kb2NEQi54c2QiIHhtbG5zPSJodHRwOi8v
+        dGVtcHVyaS5vcmcvZG9jREIueHNkIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxT
+        Y2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIiBh
+        dHRyaWJ1dGVGb3JtRGVmYXVsdD0icXVhbGlmaWVkIiBlbGVtZW50Rm9ybURlZmF1bHQ9InF1YWxpZmll
+        ZCI+DQogIDx4czplbGVtZW50IG5hbWU9ImRvY0RCIiBtc2RhdGE6SXNEYXRhU2V0PSJ0cnVlIiBtc2Rh
+        dGE6TG9jYWxlPSJlbi1DQSIgbXNkYXRhOkVuZm9yY2VDb25zdHJhaW50cz0iRmFsc2UiPg0KICAgIDx4
+        czpjb21wbGV4VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVu
+        Ym91bmRlZCIgLz4NCiAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICA8L3hzOmVsZW1lbnQ+DQo8L3hzOnNj
+        aGVtYT4GBwAAAIABPGRpZmZncjpkaWZmZ3JhbSB4bWxuczptc2RhdGE9InVybjpzY2hlbWFzLW1pY3Jv
+        c29mdC1jb206eG1sLW1zZGF0YSIgeG1sbnM6ZGlmZmdyPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29t
+        OnhtbC1kaWZmZ3JhbS12MSIgLz4EBAAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZf
+        QnVpbGQJX1JldmlzaW9uAAAAAAgICAgCAAAAAAAAAP//////////Cw==
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ucDocView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ucDocView1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ucDocView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucDocView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ucDocView1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ucDocView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 375</value>
+  </data>
+  <data name="ucDocView1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ucDocView1.Name" xml:space="preserve">
+    <value>ucDocView1</value>
+  </data>
+  <data name="&gt;&gt;ucDocView1.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucDocView, AtriumCRA, Version=4.1.6446.13304, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;ucDocView1.Parent" xml:space="preserve">
+    <value>uiPanel1Container</value>
+  </data>
+  <data name="&gt;&gt;ucDocView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uiPanel1Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uiPanel1Container.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanel1Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 375</value>
+  </data>
+  <data name="uiPanel1Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uiPanel1Container.Name" xml:space="preserve">
+    <value>uiPanel1Container</value>
+  </data>
+  <data name="&gt;&gt;uiPanel1Container.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiPanel1Container.Parent" xml:space="preserve">
+    <value>uiPanel1</value>
+  </data>
+  <data name="&gt;&gt;uiPanel1Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uiPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 254</value>
+  </data>
+  <data name="uiPanel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 375</value>
+  </data>
+  <data name="uiPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="uiPanel1.Text" xml:space="preserve">
+    <value>Doc</value>
+  </data>
+  <data name="&gt;&gt;uiPanel1.Name" xml:space="preserve">
+    <value>uiPanel1</value>
+  </data>
+  <data name="&gt;&gt;uiPanel1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;uiPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ucRecordList1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucRecordList1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ucRecordList1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucRecordList1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ucRecordList1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ucRecordList1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 199</value>
+  </data>
+  <data name="ucRecordList1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucRecordList1.Name" xml:space="preserve">
+    <value>ucRecordList1</value>
+  </data>
+  <data name="&gt;&gt;ucRecordList1.Type" xml:space="preserve">
+    <value>LawMate.ucRecordList, AtriumCRA, Version=4.1.6446.13304, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;ucRecordList1.Parent" xml:space="preserve">
+    <value>pnlGridContainer</value>
+  </data>
+  <data name="&gt;&gt;ucRecordList1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlGridContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlGridContainer.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlGridContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 199</value>
+  </data>
+  <data name="pnlGridContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlGridContainer.Name" xml:space="preserve">
+    <value>pnlGridContainer</value>
+  </data>
+  <data name="&gt;&gt;pnlGridContainer.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelInnerContainer, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlGridContainer.Parent" xml:space="preserve">
+    <value>pnlGrid</value>
+  </data>
+  <data name="&gt;&gt;pnlGridContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 51</value>
+  </data>
+  <data name="pnlGrid.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 203</value>
+  </data>
+  <data name="pnlGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="pnlGrid.Text" xml:space="preserve">
+    <value>Records/Documents</value>
+  </data>
+  <data name="&gt;&gt;pnlGrid.Name" xml:space="preserve">
+    <value>pnlGrid</value>
+  </data>
+  <data name="&gt;&gt;pnlGrid.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanel, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;pnlGrid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlGrid.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="uiCommandManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 60</value>
+  </metadata>
+  <data name="uiCommandManager1.AlwaysShowFullMenus" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BottomRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="BottomRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="BottomRebar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BottomRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Name" xml:space="preserve">
+    <value>BottomRebar1</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="cmdFile1.Key" xml:space="preserve">
+    <value>cmdFile</value>
+  </data>
+  <data name="cmdEdit1.Key" xml:space="preserve">
+    <value>cmdEdit</value>
+  </data>
+  <data name="cmdView1.Key" xml:space="preserve">
+    <value>cmdView</value>
+  </data>
+  <data name="uiCommandBar2.Key" xml:space="preserve">
+    <value>cbMergeMenu</value>
+  </data>
+  <data name="uiCommandBar2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uiCommandBar2.RowIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiCommandBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 23</value>
+  </data>
+  <data name="uiCommandBar2.Text" xml:space="preserve">
+    <value>CommandBar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar2.Name" xml:space="preserve">
+    <value>uiCommandBar2</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandBar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar2.Parent" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tsDelete2.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tsDelete2.Key" xml:space="preserve">
+    <value>tsDelete</value>
+  </data>
+  <data name="tsDelete2.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="tsDelete2.ToolTipText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="tsSave2.ImageIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tsSave2.Key" xml:space="preserve">
+    <value>tsSave</value>
+  </data>
+  <data name="tsSave2.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlS</value>
+  </data>
+  <data name="tsSave2.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="tsSave2.ToolTipText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="tsScreenTitle.Key" xml:space="preserve">
+    <value>tsScreenTitle</value>
+  </data>
+  <data name="tsScreenTitle.Text" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="tsPreviewPane.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIQAAKCgpNfX15mZzN3d3bKysuPj46bK8Mzs//Hx8ZnMzJnM/2aZ/2aZzDNmzJmZ/zMz
+        Zv///37rEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBF
+        Mi4wAwEBAAAh+QQBAAARACwAAAAAEAAQAAAIfAAjCBxIsKBABwgRLmDAkEGDhw0OGjCgoKLCBRgXRIyQ
+        0EFDhxAfCkwAoaRJCAhSHjjwYORJkykRrGwZgeTLmCtZCiRwE+cBAzQFnIwpcyVQgUJLEj2g8mgEAEqJ
+        4nQKFWVKq01pQi0wYECArxPDan1AtqzZsgbTql07MCAAOw==
+</value>
+  </data>
+  <data name="tsPreviewPane.Key" xml:space="preserve">
+    <value>tsPreviewPane</value>
+  </data>
+  <data name="tsPreviewPane.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlShiftP</value>
+  </data>
+  <data name="tsPreviewPane.Text" xml:space="preserve">
+    <value>Document Preview</value>
+  </data>
+  <data name="tsPreviewPane.ToolTipText" xml:space="preserve">
+    <value>Document Preview</value>
+  </data>
+  <data name="tsAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAryAAAK8gE9UvcRAAABAklE
+        QVQ4T6WRMQrCQBBF9wiWsREEmwVPkd4DmM56D5BerBfrsJW9KSy8QMAj6AEE2z3COH/DmMRsoqLw2Mws
+        /82wKiL6i2hTcNaQkJvsBe52pSMQDQKE/C3rUmm6FDpIgqAy4+F0oTrhx2lGvuQek9mUslLzKocrvSiO
+        Yd0QXiaNpBW+2Jp0Pw8EgeexoBfGyWFIJOg2HOZa51PSRdIIOmGucWJqqHmy4vcW+KfUiiVBwGvLBhJu
+        15iK0LHypCaau81bJWu+awtiYN3r3UcFYFCAkICwOw8JbC3AKd9m63rgrUYFY5Plb/5qAwRjG5hiQIDL
+        T5MRHhXg4lt6gvfGb5B6AvcyxXN04pncAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsAudit.Key" xml:space="preserve">
+    <value>tsAudit</value>
+  </data>
+  <data name="tsAudit.ToolTipText" xml:space="preserve">
+    <value>Data Row LawMate.Properties</value>
+  </data>
+  <data name="tsEditmode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAAAAAAP///////wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAACACwAAAAAEAAQ
+        AAAIHQAFCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFgQEBADs=
+</value>
+  </data>
+  <data name="tsEditmode.Key" xml:space="preserve">
+    <value>tsEditmode</value>
+  </data>
+  <data name="tsAdd.Key" xml:space="preserve">
+    <value>tsAdd</value>
+  </data>
+  <data name="tsAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="tsCopy.Key" xml:space="preserve">
+    <value>tsCopy</value>
+  </data>
+  <data name="tsCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="tsCheckout.Key" xml:space="preserve">
+    <value>tsCheckout</value>
+  </data>
+  <data name="tsCheckout.Text" xml:space="preserve">
+    <value>Check Out</value>
+  </data>
+  <data name="tsCheckin.Key" xml:space="preserve">
+    <value>tsCheckin</value>
+  </data>
+  <data name="tsCheckin.Text" xml:space="preserve">
+    <value>Check In</value>
+  </data>
+  <data name="tsUndoCheckout.Key" xml:space="preserve">
+    <value>tsUndoCheckout</value>
+  </data>
+  <data name="tsUndoCheckout.Text" xml:space="preserve">
+    <value>Undo Check Out</value>
+  </data>
+  <data name="tsPrintPreview2.Key" xml:space="preserve">
+    <value>tsPrintPreview</value>
+  </data>
+  <data name="tsPrint.Key" xml:space="preserve">
+    <value>tsPrint</value>
+  </data>
+  <data name="tsPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="tsPrintPreview.Key" xml:space="preserve">
+    <value>tsPrintPreview</value>
+  </data>
+  <data name="tsPrintPreview.Text" xml:space="preserve">
+    <value>Print Preview</value>
+  </data>
+  <data name="cmdRevise.Key" xml:space="preserve">
+    <value>cmdRevise</value>
+  </data>
+  <data name="cmdRevise.Text" xml:space="preserve">
+    <value>Revise</value>
+  </data>
+  <data name="tsTemplate.Key" xml:space="preserve">
+    <value>tsTemplate</value>
+  </data>
+  <data name="tsTemplate.Text" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="tsAddRec.Key" xml:space="preserve">
+    <value>tsAddRec</value>
+  </data>
+  <data name="tsAddRec.Text" xml:space="preserve">
+    <value>Add Record</value>
+  </data>
+  <data name="tsActions.Key" xml:space="preserve">
+    <value>tsActions</value>
+  </data>
+  <data name="tsActions.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="cmdClone.Key" xml:space="preserve">
+    <value>cmdClone</value>
+  </data>
+  <data name="cmdClone.Text" xml:space="preserve">
+    <value>Clone</value>
+  </data>
+  <data name="tsSave3.Key" xml:space="preserve">
+    <value>tsSave</value>
+  </data>
+  <data name="tsExport1.Key" xml:space="preserve">
+    <value>tsExport</value>
+  </data>
+  <data name="cmdFile.Key" xml:space="preserve">
+    <value>cmdFile</value>
+  </data>
+  <data name="cmdFile.MergeOrder" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdFile.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="cmdEdit.Key" xml:space="preserve">
+    <value>cmdEdit</value>
+  </data>
+  <data name="cmdEdit.MergeOrder" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="cmdJumpToActivity2.Key" xml:space="preserve">
+    <value>cmdJumpToActivity</value>
+  </data>
+  <data name="Separator4.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="tsPreviewPane2.Key" xml:space="preserve">
+    <value>tsPreviewPane</value>
+  </data>
+  <data name="cmdView.Key" xml:space="preserve">
+    <value>cmdView</value>
+  </data>
+  <data name="cmdView.MergeOrder" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdView.Text" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="cmdJumpToActivity.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACMUlEQVQ4T6WS+09SYRzGz5/UWs51WWu2
+        ZZdVqDiNWbTZZquVq5ktLIbG0ByrVq1CkkLS1BERjdU0IcRQQ0kjtZtdsAscQi4RlK3z9L4vgxD4pfXd
+        PjvvOd/nefbs3eEA/Bec2vIRbXd8UBrfQ9E3j1PdbyAzvHpSSGwYDsu7HOGF649C6LQF0fEwCC6e/IVc
+        Gm7MCYUC9I7F77la7oyrBUqnHAqHDCdtjexjvfY50ecH6Oxf2b575hr03qvonLrEFsuGCg5cmabHvADt
+        UJDts4frcQaQDRXsu+hhuzQ1veXiSv127NSUorqjbJmeM476qTgzwWgS0nNuemRmSY9IXKHbJjQPNaF1
+        uBmi81uZkU7fiD8VYB4PwDzmh3XCj7dfYtjVPkb3XJVhh7hMu0WQPWhAlVaE9aeLUaraiH5XAEbKKJ/f
+        4PWnKCpVLpDKElJZaLTWo6RtrbBOUbRZfXcB0cQSTOM805rJkwWwFqSBiVBn3AtSGbW3anDEchAbVKuF
+        NfJVm4ieazV9QCS+BIubx72JFNzAUx6xxN+blXZJoLDLcMhcRysLxU0rmZnS0v8O4W8/cd+TajA4RX4k
+        6ySPbKo1FbQySGUUnViRMVPkvfMsYIAYqZkF3CYXkT0vfBFI1S56zBjTyG6+xCIJsD0LklfA7iUB1JDL
+        7vbHv9OmbI7p5xCK/QAfSeJzKAEfHwdXrnQil5Ljg+ZCAUd1syOHNd74/svTqL3gwZ6z7nzRvwHuD+cf
+        GcymV74LAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdJumpToActivity.Key" xml:space="preserve">
+    <value>cmdJumpToActivity</value>
+  </data>
+  <data name="cmdJumpToActivity.Text" xml:space="preserve">
+    <value>Related Activity</value>
+  </data>
+  <data name="cmdJumpToActivity.ToolTipText" xml:space="preserve">
+    <value>Related Activity</value>
+  </data>
+  <data name="tsFilter.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAC4iAAAuIgGq4t2SAAABZUlE
+        QVQ4T+2Rv8sBcRzHb/EPGMmRK92hKIVBXcdgoK7IYKTbRFlc6SYGg+SyUP4CgyITgy4ZDExKSbfdfrMM
+        78fzfb719NTTk8H4vKZPfd/v9/fzg3kLsVgMjUYDs9kMlmXhfr/Dtm1SX69XnE4nLJdL6LpOdPl8HsFg
+        ENT+hoBoNDopFArodrvYbDYwTROHwwHz+Ryj0QjtdhuKokCWZaRSKYRCIXi93gm1M0wgEHDE4/FtpVLB
+        dDrF5XLB8XgkAYPBAM1mE+VyGZlMBpFIBD6fb+tyuRzU/oUgCE5RFG+qqsIwDJzPZywWC/T7fdRqNfJ7
+        IpEAx3E3t9vtpLafhMNhPpfL2ePxmHSxWq3Q6/VQrVaRTqfB87zt8Xh4Kv+dZ4vZ5yiP/X6P9XqNTqeD
+        UqmE554eLMtmqexvkslkfTgc4jNE0zRIkgS/31+nz6/RarXIKXe7HYrF4vfJXuU/4A0Br8EwH7rgGnuo
+        BYi2AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsFilter.Key" xml:space="preserve">
+    <value>tsFilter</value>
+  </data>
+  <data name="tsFilter.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="tsFilter.ToolTipText" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="tsGroupBy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAALKysoaGhufn1v///yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAADACwAAAAAEAAQ
+        AAAIQwAHCBxIsKDBgwgTDgTAsKFDAAEIAhBAsaLFiAstahSAUWCAjyBDflTokWTBjgcfqkQ5cWNFli5f
+        EhRJE6XJmzgLBgQAOw==
+</value>
+  </data>
+  <data name="tsGroupBy.Key" xml:space="preserve">
+    <value>tsGroupBy</value>
+  </data>
+  <data name="tsGroupBy.Text" xml:space="preserve">
+    <value>Group By</value>
+  </data>
+  <data name="tsGroupBy.ToolTipText" xml:space="preserve">
+    <value>Group By</value>
+  </data>
+  <data name="cmdFieldSelector.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIIAAOfn1q2pkIaGhv///5nMZgAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAAEACwAAAAAEAAQAAAITgAJCBxIsKDBgwYDKFzIUCFBhgAiAmD4sKFFggIGaNzIUQDGjQJCZtToceBI
+        jh0/khQJUiXKliZBsiTp8uWAkgJP2sRJQKTPnwiDCj0YEAA7
+</value>
+  </data>
+  <data name="cmdFieldSelector.Key" xml:space="preserve">
+    <value>cmdFieldSelector</value>
+  </data>
+  <data name="cmdFieldSelector.Text" xml:space="preserve">
+    <value>Field Selector</value>
+  </data>
+  <data name="cmdFieldSelector.ToolTipText" xml:space="preserve">
+    <value>Field Selector</value>
+  </data>
+  <data name="tsExport.Key" xml:space="preserve">
+    <value>tsExport</value>
+  </data>
+  <data name="tsExport.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.Key" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LeftRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LeftRebar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LeftRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Name" xml:space="preserve">
+    <value>LeftRebar1</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="uiCommandManager1.LockCommandBars" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RightRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="RightRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RightRebar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RightRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Name" xml:space="preserve">
+    <value>RightRebar1</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="tsEditmode1.Key" xml:space="preserve">
+    <value>tsEditmode</value>
+  </data>
+  <data name="tsScreenTitle1.Key" xml:space="preserve">
+    <value>tsScreenTitle</value>
+  </data>
+  <data name="tsScreenTitle1.MergeOrder" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Separator1.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="Separator1.MergeOrder" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tsSave1.Key" xml:space="preserve">
+    <value>tsSave</value>
+  </data>
+  <data name="tsSave1.MergeOrder" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="tsSave1.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlS</value>
+  </data>
+  <data name="Separator6.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="Separator6.MergeOrder" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="cmdJumpToActivity1.Key" xml:space="preserve">
+    <value>cmdJumpToActivity</value>
+  </data>
+  <data name="cmdJumpToActivity1.MergeOrder" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="Separator2.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="Separator2.MergeOrder" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="tsPreviewPane1.Key" xml:space="preserve">
+    <value>tsPreviewPane</value>
+  </data>
+  <data name="tsPreviewPane1.MergeOrder" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tsFilter1.Key" xml:space="preserve">
+    <value>tsFilter</value>
+  </data>
+  <data name="tsFilter1.MergeOrder" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="tsGroupBy1.Key" xml:space="preserve">
+    <value>tsGroupBy</value>
+  </data>
+  <data name="tsGroupBy1.MergeOrder" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="Separator5.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="Separator5.MergeOrder" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="cmdFieldSelector1.Key" xml:space="preserve">
+    <value>cmdFieldSelector</value>
+  </data>
+  <data name="cmdFieldSelector1.MergeOrder" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Separator3.Key" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="Separator3.MergeOrder" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="tsAudit1.Key" xml:space="preserve">
+    <value>tsAudit</value>
+  </data>
+  <data name="tsAudit1.MergeOrder" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="uiCommandBar1.FloatingSize" type="System.Drawing.Size, System.Drawing">
+    <value>63, 22</value>
+  </data>
+  <data name="uiCommandBar1.Key" xml:space="preserve">
+    <value>cbMergeToolbar</value>
+  </data>
+  <data name="uiCommandBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="uiCommandBar1.RowIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="uiCommandBar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiCommandBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 28</value>
+  </data>
+  <data name="uiCommandBar1.Text" xml:space="preserve">
+    <value>CommandBar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Name" xml:space="preserve">
+    <value>uiCommandBar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandBar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.Parent" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TopRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TopRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TopRebar1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TopRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 51</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Name" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 629</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Name" xml:space="preserve">
+    <value>errorProvider1</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpProvider1.Name" xml:space="preserve">
+    <value>helpProvider1</value>
+  </data>
+  <data name="&gt;&gt;helpProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageListBase.Name" xml:space="preserve">
+    <value>imageListBase</value>
+  </data>
+  <data name="&gt;&gt;imageListBase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;docDB.Name" xml:space="preserve">
+    <value>docDB</value>
+  </data>
+  <data name="&gt;&gt;docDB.Type" xml:space="preserve">
+    <value>lmDatasets.docDB, lmDatasets, Version=4.1.6432.13566, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;documentBindingSource.Name" xml:space="preserve">
+    <value>documentBindingSource</value>
+  </data>
+  <data name="&gt;&gt;documentBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uiPanelManager1.Name" xml:space="preserve">
+    <value>uiPanelManager1</value>
+  </data>
+  <data name="&gt;&gt;uiPanelManager1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Dock.UIPanelManager, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Name" xml:space="preserve">
+    <value>uiCommandManager1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandManager, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFile1.Name" xml:space="preserve">
+    <value>cmdFile1</value>
+  </data>
+  <data name="&gt;&gt;cmdFile1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdEdit1.Name" xml:space="preserve">
+    <value>cmdEdit1</value>
+  </data>
+  <data name="&gt;&gt;cmdEdit1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdView1.Name" xml:space="preserve">
+    <value>cmdView1</value>
+  </data>
+  <data name="&gt;&gt;cmdView1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsEditmode1.Name" xml:space="preserve">
+    <value>tsEditmode1</value>
+  </data>
+  <data name="&gt;&gt;tsEditmode1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsScreenTitle1.Name" xml:space="preserve">
+    <value>tsScreenTitle1</value>
+  </data>
+  <data name="&gt;&gt;tsScreenTitle1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
+    <value>Separator1</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsSave1.Name" xml:space="preserve">
+    <value>tsSave1</value>
+  </data>
+  <data name="&gt;&gt;tsSave1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator6.Name" xml:space="preserve">
+    <value>Separator6</value>
+  </data>
+  <data name="&gt;&gt;Separator6.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToActivity1.Name" xml:space="preserve">
+    <value>cmdJumpToActivity1</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToActivity1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator2.Name" xml:space="preserve">
+    <value>Separator2</value>
+  </data>
+  <data name="&gt;&gt;Separator2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsPreviewPane1.Name" xml:space="preserve">
+    <value>tsPreviewPane1</value>
+  </data>
+  <data name="&gt;&gt;tsPreviewPane1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsFilter1.Name" xml:space="preserve">
+    <value>tsFilter1</value>
+  </data>
+  <data name="&gt;&gt;tsFilter1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsGroupBy1.Name" xml:space="preserve">
+    <value>tsGroupBy1</value>
+  </data>
+  <data name="&gt;&gt;tsGroupBy1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator5.Name" xml:space="preserve">
+    <value>Separator5</value>
+  </data>
+  <data name="&gt;&gt;Separator5.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFieldSelector1.Name" xml:space="preserve">
+    <value>cmdFieldSelector1</value>
+  </data>
+  <data name="&gt;&gt;cmdFieldSelector1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Name" xml:space="preserve">
+    <value>Separator3</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsAudit1.Name" xml:space="preserve">
+    <value>tsAudit1</value>
+  </data>
+  <data name="&gt;&gt;tsAudit1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsDelete2.Name" xml:space="preserve">
+    <value>tsDelete2</value>
+  </data>
+  <data name="&gt;&gt;tsDelete2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsSave2.Name" xml:space="preserve">
+    <value>tsSave2</value>
+  </data>
+  <data name="&gt;&gt;tsSave2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsScreenTitle.Name" xml:space="preserve">
+    <value>tsScreenTitle</value>
+  </data>
+  <data name="&gt;&gt;tsScreenTitle.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsPreviewPane.Name" xml:space="preserve">
+    <value>tsPreviewPane</value>
+  </data>
+  <data name="&gt;&gt;tsPreviewPane.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsAudit.Name" xml:space="preserve">
+    <value>tsAudit</value>
+  </data>
+  <data name="&gt;&gt;tsAudit.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsEditmode.Name" xml:space="preserve">
+    <value>tsEditmode</value>
+  </data>
+  <data name="&gt;&gt;tsEditmode.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsAdd.Name" xml:space="preserve">
+    <value>tsAdd</value>
+  </data>
+  <data name="&gt;&gt;tsAdd.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsCopy.Name" xml:space="preserve">
+    <value>tsCopy</value>
+  </data>
+  <data name="&gt;&gt;tsCopy.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsCheckout.Name" xml:space="preserve">
+    <value>tsCheckout</value>
+  </data>
+  <data name="&gt;&gt;tsCheckout.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsCheckin.Name" xml:space="preserve">
+    <value>tsCheckin</value>
+  </data>
+  <data name="&gt;&gt;tsCheckin.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsUndoCheckout.Name" xml:space="preserve">
+    <value>tsUndoCheckout</value>
+  </data>
+  <data name="&gt;&gt;tsUndoCheckout.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsPrint.Name" xml:space="preserve">
+    <value>tsPrint</value>
+  </data>
+  <data name="&gt;&gt;tsPrint.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsPrintPreview2.Name" xml:space="preserve">
+    <value>tsPrintPreview2</value>
+  </data>
+  <data name="&gt;&gt;tsPrintPreview2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsPrintPreview.Name" xml:space="preserve">
+    <value>tsPrintPreview</value>
+  </data>
+  <data name="&gt;&gt;tsPrintPreview.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRevise.Name" xml:space="preserve">
+    <value>cmdRevise</value>
+  </data>
+  <data name="&gt;&gt;cmdRevise.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsTemplate.Name" xml:space="preserve">
+    <value>tsTemplate</value>
+  </data>
+  <data name="&gt;&gt;tsTemplate.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsAddRec.Name" xml:space="preserve">
+    <value>tsAddRec</value>
+  </data>
+  <data name="&gt;&gt;tsAddRec.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsActions.Name" xml:space="preserve">
+    <value>tsActions</value>
+  </data>
+  <data name="&gt;&gt;tsActions.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdClone.Name" xml:space="preserve">
+    <value>cmdClone</value>
+  </data>
+  <data name="&gt;&gt;cmdClone.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFile.Name" xml:space="preserve">
+    <value>cmdFile</value>
+  </data>
+  <data name="&gt;&gt;cmdFile.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsSave3.Name" xml:space="preserve">
+    <value>tsSave3</value>
+  </data>
+  <data name="&gt;&gt;tsSave3.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsExport1.Name" xml:space="preserve">
+    <value>tsExport1</value>
+  </data>
+  <data name="&gt;&gt;tsExport1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdEdit.Name" xml:space="preserve">
+    <value>cmdEdit</value>
+  </data>
+  <data name="&gt;&gt;cmdEdit.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdView.Name" xml:space="preserve">
+    <value>cmdView</value>
+  </data>
+  <data name="&gt;&gt;cmdView.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToActivity2.Name" xml:space="preserve">
+    <value>cmdJumpToActivity2</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToActivity2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;Separator4.Name" xml:space="preserve">
+    <value>Separator4</value>
+  </data>
+  <data name="&gt;&gt;Separator4.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsPreviewPane2.Name" xml:space="preserve">
+    <value>tsPreviewPane2</value>
+  </data>
+  <data name="&gt;&gt;tsPreviewPane2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToActivity.Name" xml:space="preserve">
+    <value>cmdJumpToActivity</value>
+  </data>
+  <data name="&gt;&gt;cmdJumpToActivity.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsFilter.Name" xml:space="preserve">
+    <value>tsFilter</value>
+  </data>
+  <data name="&gt;&gt;tsFilter.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsGroupBy.Name" xml:space="preserve">
+    <value>tsGroupBy</value>
+  </data>
+  <data name="&gt;&gt;tsGroupBy.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdFieldSelector.Name" xml:space="preserve">
+    <value>cmdFieldSelector</value>
+  </data>
+  <data name="&gt;&gt;cmdFieldSelector.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;tsExport.Name" xml:space="preserve">
+    <value>tsExport</value>
+  </data>
+  <data name="&gt;&gt;tsExport.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucRecords</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>LawMate.ucBase, AtriumCRA, Version=4.1.6446.13304, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.AutoHideButtonVisible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.BorderCaption" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CloseButtonVisible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Bottom" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Left" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Right" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.PanelPadding.Top" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1090, 17</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>226, 60</value>
+  </metadata>
+</root>

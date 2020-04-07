@@ -1,0 +1,1524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCA63C17-7B9A-4AE4-84BF-7DC9D4BB9210}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>lmras</RootNamespace>
+    <AssemblyName>lmras</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <UseIISExpress>true</UseIISExpress>
+    <TargetFrameworkProfile />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>true</IISExpressUseClassicPipelineMode>
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PackageAsSingleFile>false</PackageAsSingleFile>
+    <DeployIisAppPath>Default Web Site/lmras</DeployIisAppPath>
+    <PublishDatabases>false</PublishDatabases>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>asptek.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\lmClient\lmClient\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\lmClient\lmClient\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\lmClient\lmClient\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lmClient\lmClient\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lmClient\lmClient\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Services" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lmClient\lmClient\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lmClient\lmClient\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\lmClient\lmClient\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lmClient\lmClient\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lmClient\lmClient\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lmClient\lmClient\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lmClient\lmClient\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease">
+      <HintPath>..\lmClient\lmClient\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADMS_LookupWS.svc" />
+    <Content Include="Atrium.svc" />
+    <Content Include="Calendar\AtriumCalendar.aspx" />
+    <Content Include="Calendar\Default.aspx" />
+    <Content Include="Calendar\UserCalendar.aspx" />
+    <Content Include="Content\atrium.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\AtriumCRA-ARC.png" />
+    <Content Include="Content\images\atriumlogo.png" />
+    <Content Include="Content\images\atriumtrans16.png" />
+    <Content Include="Content\images\folder16x16.png" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMS_LookupWS.svc.cs">
+      <DependentUpon>ADMS_LookupWS.svc</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LocalizedText.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocalizedText.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LocalizedText.fr.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocalizedText.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Atrium.svc.cs">
+      <DependentUpon>Atrium.svc</DependentUpon>
+    </Compile>
+    <Compile Include="AtriumX1.cs" />
+    <Compile Include="Base\MasterPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\WebPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendar\AtriumCalendar.aspx.cs">
+      <DependentUpon>AtriumCalendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendar\AtriumCalendar.aspx.designer.cs">
+      <DependentUpon>AtriumCalendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\Calendar.cs" />
+    <Compile Include="Calendar\CalMaster.Master.cs">
+      <DependentUpon>CalMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendar\CalMaster.Master.designer.cs">
+      <DependentUpon>CalMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendar\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\UserCalendar.aspx.cs">
+      <DependentUpon>UserCalendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendar\UserCalendar.aspx.designer.cs">
+      <DependentUpon>UserCalendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\FileController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\Editor.aspx.cs">
+      <DependentUpon>Editor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\Editor.aspx.designer.cs">
+      <DependentUpon>Editor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAM.Master.cs">
+      <DependentUpon>SAM.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAM.Master.designer.cs">
+      <DependentUpon>SAM.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMAcronyms.aspx.cs">
+      <DependentUpon>SAMAcronyms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMAcronyms.aspx.designer.cs">
+      <DependentUpon>SAMAcronyms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMDirectory.aspx.cs">
+      <DependentUpon>SAMDirectory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMDirectory.aspx.designer.cs">
+      <DependentUpon>SAMDirectory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMEditorSelector.aspx.cs">
+      <DependentUpon>SAMEditorSelector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMEditorSelector.aspx.designer.cs">
+      <DependentUpon>SAMEditorSelector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMFileUpload.aspx.cs">
+      <DependentUpon>SAMFileUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMFileUpload.aspx.designer.cs">
+      <DependentUpon>SAMFileUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMHelp.aspx.cs">
+      <DependentUpon>SAMHelp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMHelp.aspx.designer.cs">
+      <DependentUpon>SAMHelp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMImages.aspx.cs">
+      <DependentUpon>SAMImages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMImages.aspx.designer.cs">
+      <DependentUpon>SAMImages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMImageSelector.aspx.cs">
+      <DependentUpon>SAMImageSelector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMImageSelector.aspx.designer.cs">
+      <DependentUpon>SAMImageSelector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMPageSelector.aspx.cs">
+      <DependentUpon>SAMPageSelector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMPageSelector.aspx.designer.cs">
+      <DependentUpon>SAMPageSelector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMStructure.aspx.cs">
+      <DependentUpon>SAMStructure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMStructure.aspx.designer.cs">
+      <DependentUpon>SAMStructure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMStylesheet.aspx.cs">
+      <DependentUpon>SAMStylesheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\content_manager\SAMStylesheet.aspx.designer.cs">
+      <DependentUpon>SAMStylesheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\HelpHelper.cs" />
+    <Compile Include="DeskbookSAM\francais\atrium\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\res.aspx.cs">
+      <DependentUpon>res.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\english\atrium\res.aspx.designer.cs">
+      <DependentUpon>res.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeskbookSAM\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeskbookSAM\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Deskbook\English\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deskbook\English\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deskbook\English\SiteMap.aspx.cs">
+      <DependentUpon>SiteMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deskbook\English\SiteMap.aspx.designer.cs">
+      <DependentUpon>SiteMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deskbook\English\video.aspx.cs">
+      <DependentUpon>video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deskbook\English\video.aspx.designer.cs">
+      <DependentUpon>video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deskbook\Francais\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deskbook\Francais\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deskbook\Francais\SiteMap.aspx.cs">
+      <DependentUpon>SiteMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deskbook\Francais\SiteMap.aspx.designer.cs">
+      <DependentUpon>SiteMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deskbook\res.aspx.cs">
+      <DependentUpon>res.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deskbook\res.aspx.designer.cs">
+      <DependentUpon>res.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doc.aspx.cs">
+      <DependentUpon>doc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doc.aspx.designer.cs">
+      <DependentUpon>doc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="IAtriumX.cs" />
+    <Compile Include="AtriumX.svc.cs">
+      <DependentUpon>AtriumX.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workflow\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\docdisplay.aspx.cs">
+      <DependentUpon>docdisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workflow\docdisplay.aspx.designer.cs">
+      <DependentUpon>docdisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\Note.aspx.cs">
+      <DependentUpon>Note.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workflow\Note.aspx.designer.cs">
+      <DependentUpon>Note.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\OfficerRole.aspx.cs">
+      <DependentUpon>OfficerRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workflow\OfficerRole.aspx.designer.cs">
+      <DependentUpon>OfficerRole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\RFInclude.aspx.cs">
+      <DependentUpon>RFInclude.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workflow\RFInclude.aspx.designer.cs">
+      <DependentUpon>RFInclude.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\Step.aspx.cs">
+      <DependentUpon>Step.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workflow\Step.aspx.designer.cs">
+      <DependentUpon>Step.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\WFHelp.cs" />
+    <Compile Include="Workflow\workflow.aspx.cs">
+      <DependentUpon>workflow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workflow\workflow.aspx.designer.cs">
+      <DependentUpon>workflow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workflow\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\wf.Master.cs">
+      <DependentUpon>wf.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workflow\wf.Master.designer.cs">
+      <DependentUpon>wf.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\workflowold.aspx.cs">
+      <DependentUpon>workflowold.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workflow\workflowold.aspx.designer.cs">
+      <DependentUpon>workflowold.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fulltext\test2.aspx.cs">
+      <DependentUpon>test2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fulltext\test2.aspx.designer.cs">
+      <DependentUpon>test2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Deskbook\HelpHelper.cs" />
+    <Compile Include="IADMS_LookupWS.cs" />
+    <Compile Include="Deskbook\imgTest.aspx.cs">
+      <DependentUpon>imgTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deskbook\imgTest.aspx.designer.cs">
+      <DependentUpon>imgTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tracking.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DeskbookSAM\404.aspx" />
+    <Content Include="DeskbookSAM\About.aspx" />
+    <Content Include="DeskbookSAM\Default.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\common\css\adminstyles.css" />
+    <Content Include="DeskbookSAM\english\atrium\common\css\adminstyles2.css" />
+    <Content Include="DeskbookSAM\english\atrium\common\css\jquery-linedtextarea.css" />
+    <Content Include="DeskbookSAM\english\atrium\common\css\lsu_styles.css" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\1X1.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\access.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\accessDenied.png" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\act.png" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Actions Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Activities Circles and Arrows.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\activity.png" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ActivityListViewButton-ListWithBFsOption.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ActivityListViewButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\AddNewBFButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\addnewgreen.png" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Adjust Column Cursor 2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Adjust Column Cursor.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Admin Menu Bar.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\adminHeaderGradientBack.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\adminHeaderGradientBack1.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\adminHeaderScale.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\adminScale.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\adminTableHeaderGradient.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Advanced Search Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\AdvancedSearchContacts.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\AdvancedSearchDoc1.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\AdvancedSearchDoc2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\AdvancedSearchFile.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\AdvancedSearchOffices.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\anchor.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\appPowerPoint.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\apps.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\appWord.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\arrDown.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\arrow-left.png" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\arrow-right.png" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\arrUp.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ASFldTitle.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Atrium Explorer Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\AtriumExplorerFilePaneTreeSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\AttachmentViewButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\autoSave.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\BackButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\BF Context Menu - Next Steps.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\BF Templates Screen.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\BFListRangeButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\BFListSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\bold.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Briefcase.png" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\bs.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\bullet.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Cancel Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\cancel1.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\CancelChangesButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Change psassword screen.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Check In-Out Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Check-in of Document Preference.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\CheckAllCrossReferencesShortcutsButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\CheckOut-InButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\CloseButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\CollapseAllButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\CommunicationViewButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\CompleteBFMenuOption.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Connectors Tab.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Contacts Screen.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\contextMenuBack.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Convert-Revert Tab.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Copy-InsertAsButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Create a copy to originating document.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\CreateACross-ReferenceToThisFileButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\CreateAShortcutToThisFileButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DataRowPropertiesButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Date Filter Options.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Date Filter Options2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DB Business Line Menu Sample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DB Menu Sample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DB-BusinessLineMenuSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\delete.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\devLogo.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\devLogoF.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DisplayEditableFieldsButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\document screen.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Document Templates Screen.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Document-MessagePreviewButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DocumentPreviewPaneSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DocumentViewButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\doj_scale.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\doj_scale_lsu.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DoubleArrowCursor-Left-Right.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DoubleArrowCursor-Up-Down.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DraftDocumentBanner.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DraftDocumentButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\drafts.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\draftWM.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Drawing Surface Tab.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\DuplicateWarningIcon.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\editorToolbar.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\envelope.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\eraser.png" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Establish BF Only Connection Context Menu.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\excel.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Expand Grid Button 2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Expand Grid Button.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ExpandAllButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ExpandGridButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\field selector button2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Field Selector Window.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\File base screen sample2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\File Description Search EN.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\File Description Search FR.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\file property screen.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\file.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\filter button2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\FilterButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Finish Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Finish.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\foldedCorner.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\form_bg.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\globe.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\gradientBack.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Grid Sample.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\grid sample2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Group By Banner.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\group by banner2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Group By Button.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\group by button2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\h1.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\h2.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\h3.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\hand_cursor.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\headTitle.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\help.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\HelpTriangle.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\HorizontalThumbtackButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\htmlContent.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\htmS.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Import and Convert Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Import for Action Options EN.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Import for Action Options FR.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ImportantFileMessageButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ImportantFileMessagePaneSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ImportantFileMessageThumbnail.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ImportForActionButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ImportForFilingButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Insert - Copy of a Draft Document.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Insert External Document Options EN.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Insert External Document Options FR.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Insert-ExternalDocumentOption.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\italic.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Jump to file when finished button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\JumpToFileButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\LawMate Explorer Buttons EN.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\LawMate Explorer Buttons FR.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\leaf.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Legal Risk Management Screen.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\li.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\linebreak.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\linedPaper.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\addRelAll.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\goToSubp.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\NewWFStep.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\NewWorkflow.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\NewWorkflowStep.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\pickFromExisting.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\pnlAutoHide.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\presets.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\relAllscreen.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\relBillingScreen.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\relDocumentScreen.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\relFieldScreen.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\relNewScreen.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\reloadLists.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\selectedStep.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\singleAll.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\singleBilling.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\singleDoc.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\singleFields.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\unselectedStep.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfActivity.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfBranch.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfConvert1.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfDecision.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfMove1.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfNoActivity.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfProps.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfRelInfo.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfStepList.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfStepProps.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfSubProcess.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lmAdmin\wfWait.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\LoadCrossReferencedDataButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lsb-graphic.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\lsuHelpDesk.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\mail.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Main Screen Sample2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Main Screen.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\main.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\MainFileScreenSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\MainScreenTabsSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\MandatesButtonNew.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\man_db_icon.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\MarkAsFinal-ReadOnlyButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\menu_scale.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\menu_scale_dlsu.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\menu_scale_sam.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\MetadataViewButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\MoveFiles1.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\MoveFiles2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\MoveSelectedMessageButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\MSI Tabs Row.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\navTDGradient.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\NextButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\notAuth.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\NoteAboutDocumentPreviewButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Office Explorer Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Office Mandate Screen.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Officer Toolkit.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\OfficerToolkitSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\OfficerToolkitThumbnail.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\OK Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\OKButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ol.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\opinions.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\outlookBrowser.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\OutlookBrowserButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\OutlookBrowserDuplicate-ThreadSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\OutlookBrowserMultipleFileSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\OutlookBrowserSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\pagingBackground.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Panes-Sample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\paragraph.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Parent Workflows Tab.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Personnel Screen.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Pick From Existing Steps Context Menu.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Preferences - Officer Toolkit Fieldset.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\preferences screen.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Preferences-Startup Fieldset.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\PrintDocumentButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\profileLnkBg.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\profileLnkBgOver.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\profilScale.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\profilTopBg.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\profilTopBgRight.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\prof_tbl_bg.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\prof_top_scl.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\prof_top_scl2.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\prof_top_scl_col.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Quicksearch Fields.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\QuicksearchFields-Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\RefreshFileDataButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Related %28New%29 Records Sub-tab.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Related Billing-Timekeeping Sub-tab.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Related Documents Sub-tab.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Related Fields Sub-tab.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\RelatedDocument-RelatedActivityButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\reload.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\RemoveDeleteSuspendedActivityButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\report screen.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Reset Grid Layout Button.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\reset grid layout button2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ResumeSuspendedActivityButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ReviseDocumentButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\RowBackground.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\sam.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\save1.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\SaveChangesButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\search.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\SearchResultsDocs.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\SearchResultsFiles.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Security Screen.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\shortcut.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ShortcutsCrossReferencesTab.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ShortcutToDocumentButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ShowActivityCommentFieldButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ShowFileInformationPaneButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\side_menu_bg.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\side_menu_bg_dlsu.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\side_menu_bg_sam.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\siteexplorer.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Sort - Down Arrow.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Sort - Down Arrow2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Sort - Up Arrow.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Sort - Up Arrow2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\space.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\StatuteNAorOther.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Step Template Screen.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Subprocess Context Menu.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\SuspendButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Suspended Activities Button.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\SuspendedActivitiesRecoveredItemsButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\SuspendedActivitiesScreenSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Table of Contents.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\table.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\teamexplorer.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Text Filter Option2.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Text Filter Options.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ThreadfinderCheckmarkIcon.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Thumbtack Icon-Pin.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Thumbtack Icon-Unpin.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Timekeeping Block.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\timekeeping.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\TimekeepingScreenTreeSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\tlkt.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\TOC.png" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\triangle.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\tripup.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ul.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\UncheckAllCrossReferencesShortcutsButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\VerticalThumbtackButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\View-AdvancedSearchOptions.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\View-Officer Toolkit.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ViewInAtriumDocumentViewerButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\ViewInExternalApplicationButton.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\vsbpgExample.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\vsbpgExamplemenu.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\windowsauth.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\WizardSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\word.gif" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Workflow Designer - Main.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Workflow Designer Tabs.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Workflow Properties Panel.JPG" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Workflow Step Context Menu.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\WorkflowSample.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\images\Working As Field.jpg" />
+    <Content Include="DeskbookSAM\english\atrium\common\js\jquery-linedtextarea.js" />
+    <Content Include="DeskbookSAM\english\atrium\common\js\script.js" />
+    <Content Include="DeskbookSAM\english\atrium\common\js\script2.js" />
+    <Content Include="DeskbookSAM\english\atrium\common\xml\acronyms.xml" />
+    <Content Include="DeskbookSAM\english\atrium\common\xml\directory.xml" />
+    <Content Include="DeskbookSAM\english\atrium\common\xml\pages.xml" />
+    <Content Include="DeskbookSAM\english\atrium\common\xsl\breadcrumb.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\common\xsl\displayFirstChild.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\common\xsl\sitemap.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\Default.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\Editor.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\1X1.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\address-book.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\allmail.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\anchor.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\arrdown.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\arrup.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\bo.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\bold.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\bold.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\bs.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\bullet.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\Calendar.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\calendar_icon.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\cancel.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\Checkmark.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\clock16.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\collapse.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\collapse.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\collapseall.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\contextMenuBack.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\copy.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\cut.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\cut.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\dc.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\delete.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\disk.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\document.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\edit.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\error.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\error2.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\expand.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\expand.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\ExpandAll.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\extend.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\folder.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\fontSize.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\group.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\h1.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\h2.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\h2.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\h3.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\h3.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\hand_cursor.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\help.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\htmS.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\hyperlink.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\ie.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\image.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\imageAdmin.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\info.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\italic.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\italic.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\justice-balance-icon.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\leaf.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\leafSection.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\li.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\li.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\linebreak.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\linebreak.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\mail.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\member.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\minus.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\ol.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\ol.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\orphanpage.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\paragraph.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\paragraph.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\paste.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\paste.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\picture.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\plus.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\preview.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\properties.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\publish.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\refresh.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\reload.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\samEditor.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\samEditor.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\section.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\space.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\special_character.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\table.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\Table.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\table2.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\treeview.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\tripup.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\ul.gif" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\ul.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\unapprove.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\underline.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\unreadmail.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\Upload.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\user.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\warning.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\images\WordWrap.png" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\acronyms_edit.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\acronyms_select.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\deskbook_manual_select.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\deskbook_manual_selectf.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\directoryedit.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\directoryeditselect.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\directory_assistantselect.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\directory_groupselector.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\groupMembersEdit.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\groupMembersEditSelect.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\groupsEdit.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\groupsEditSelect.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\images_edit.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\images_edit_folder.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\images_select.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\images_selector.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\images_selectTree.xsl">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\image_selector.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\image_selector_list.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\manual_edit.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\manual_new.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\manual_select.xsl">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\manual_selectMod.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\memberSelector.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\page_selector.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\sidemenu.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\structure_excelexport.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DeskbookSAM\english\atrium\content_manager\include\xsl\structure_list.xsl" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\Login.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAMAcronyms.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAMDirectory.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAMEditorSelector.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAMFileUpload.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAMHelp.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAMImages.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAMImageSelector.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAMPageSelector.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAMStructure.aspx" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAMStylesheet.aspx" />
+    <Content Include="DeskbookSAM\francais\atrium\Default.aspx" />
+    <Content Include="DeskbookSAM\Global.asax" />
+    <Content Include="DeskbookSAM\english\atrium\res.aspx" />
+    <Content Include="DeskbookSAM\Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="DeskbookSAM\Scripts\jquery-1.4.1.js" />
+    <Content Include="DeskbookSAM\Scripts\jquery-1.4.1.min.js" />
+    <Content Include="DeskbookSAM\Scripts\jquery.cookie.js" />
+    <Content Include="DeskbookSAM\Styles\Site.css" />
+    <Content Include="DeskbookSAM\wet20\css\base-ie6.css" />
+    <Content Include="DeskbookSAM\wet20\css\base-ie7.css" />
+    <Content Include="DeskbookSAM\wet20\css\base-ie8.css" />
+    <Content Include="DeskbookSAM\wet20\css\base.css" />
+    <Content Include="DeskbookSAM\wet20\css\pf-if.css" />
+    <Content Include="DeskbookSAM\wet20\favicon.ico" />
+    <Content Include="DeskbookSAM\wet20\grids\css\grid-medium.css" />
+    <Content Include="DeskbookSAM\wet20\grids\css\grid-module.css" />
+    <Content Include="DeskbookSAM\wet20\grids\css\grid-small.css" />
+    <Content Include="DeskbookSAM\wet20\grids\css\grid.css" />
+    <Content Include="DeskbookSAM\wet20\grids\images\banner-medium.jpg" />
+    <Content Include="DeskbookSAM\wet20\grids\images\banner-small.jpg" />
+    <Content Include="DeskbookSAM\wet20\grids\images\blockquote.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\form-legend.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\icon-download.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\icon-email.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\icon-external.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-alert.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-answer.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-attention.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-info.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-inprogress.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-menu-section.png" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-note.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-question.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-refer.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-summary.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\module-tool.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\span-footer.gif" />
+    <Content Include="DeskbookSAM\wet20\grids\images\sprite-corner.gif" />
+    <Content Include="DeskbookSAM\wet20\intranet\css\default.css" />
+    <Content Include="DeskbookSAM\wet20\intranet\css\pf-if.css" />
+    <Content Include="DeskbookSAM\wet20\intranet\images\bg.gif" />
+    <Content Include="DeskbookSAM\wet20\intranet\images\search-button.gif" />
+    <Content Include="DeskbookSAM\wet20\intranet\images\sprite-theme-bg.gif" />
+    <Content Include="DeskbookSAM\wet20\js\lib\jquery.cookie.js" />
+    <Content Include="DeskbookSAM\wet20\js\lib\jquery.hotkeys.js" />
+    <Content Include="DeskbookSAM\wet20\js\lib\jquery.min.js" />
+    <Content Include="DeskbookSAM\wet20\js\lib\wet-boew.equalheight.js" />
+    <Content Include="DeskbookSAM\wet20\js\lib\wet-boew.pngfix.js" />
+    <Content Include="DeskbookSAM\wet20\js\lib\wet-boew.skipnav.js" />
+    <Content Include="DeskbookSAM\wet20\js\lib\wet-boew.storage.js" />
+    <Content Include="DeskbookSAM\wet20\js\lib\wet-boew.tooltips.js" />
+    <Content Include="DeskbookSAM\wet20\js\lib\wet-boew.utils.js" />
+    <Content Include="DeskbookSAM\wet20\js\pe-ap.js" />
+    <Content Include="DeskbookSAM\wet20\js\plugins\font-replacement.js" />
+    <Content Include="DeskbookSAM\wet20\js\plugins\wet-boew.expandhide.js" />
+    <Content Include="DeskbookSAM\wet20\js\plugins\wet-boew.navcurrent.js" />
+    <Content Include="DeskbookSAM\wet20\js\plugins\wet-boew.resolution.js" />
+    <Content Include="DeskbookSAM\wet20\js\plugins\wet-boew.styleswitcher.js" />
+    <Content Include="DeskbookSAM\wet20\js\plugins\wet-boew.toolbar.js" />
+    <Content Include="DeskbookSAM\wet20\js\plugins\wet-boew.zebra.js" />
+    <Content Include="DeskbookSAM\wet20\js\support\expandhide\bg-cn-centre-col-gap.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\expandhide\sprite-expandhide-menu.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\expandhide\style.css" />
+    <Content Include="DeskbookSAM\wet20\js\support\font-replacement\billboard-18.jpg" />
+    <Content Include="DeskbookSAM\wet20\js\support\font-replacement\billboard-62.jpg" />
+    <Content Include="DeskbookSAM\wet20\js\support\font-replacement\style.css" />
+    <Content Include="DeskbookSAM\wet20\js\support\navCurrent\style.css" />
+    <Content Include="DeskbookSAM\wet20\js\support\pngfix\inv.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\styleswitcher\icon-contrast-install.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\styleswitcher\icon-contrast.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\styleswitcher\icon-toggle.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\styleswitcher\sprite-expand-hide.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\styleswitcher\sprite-icon.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\styleswitcher\sprite-theme.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\styleswitcher\style.css" />
+    <Content Include="DeskbookSAM\wet20\js\support\toolbar\gradient.png" />
+    <Content Include="DeskbookSAM\wet20\js\support\toolbar\icon-home.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\toolbar\icon-top-page.gif" />
+    <Content Include="DeskbookSAM\wet20\js\support\toolbar\style.css" />
+    <Content Include="DeskbookSAM\wet20\js\support\tooltip\style.css" />
+    <Content Include="DeskbookSAM\wet20\js\support\zebra\style.css" />
+    <Content Include="DeskbookSAM\wet20\theme-clf2-nsi2\css\pf-if-theme-clf2-nsi2.css" />
+    <Content Include="DeskbookSAM\wet20\theme-clf2-nsi2\css\servpage-theme-clf2-nsi2-ie6.css" />
+    <Content Include="DeskbookSAM\wet20\theme-clf2-nsi2\css\servpage-theme-clf2-nsi2.css" />
+    <Content Include="DeskbookSAM\wet20\theme-clf2-nsi2\css\theme-clf2-nsi2-ie6.css" />
+    <Content Include="DeskbookSAM\wet20\theme-clf2-nsi2\css\theme-clf2-nsi2-ie7.css" />
+    <Content Include="DeskbookSAM\wet20\theme-clf2-nsi2\css\theme-clf2-nsi2.css" />
+    <Content Include="DeskbookSAM\wet20\theme-clf2-nsi2\images\lffl.png" />
+    <Content Include="DeskbookSAM\wet20\theme-clf2-nsi2\images\sig-eng.gif" />
+    <Content Include="DeskbookSAM\wet20\theme-clf2-nsi2\images\sig-fra.gif" />
+    <Content Include="DeskbookSAM\wet20\theme-clf2-nsi2\images\wmms.gif" />
+    <Content Include="Deskbook\common\css\adminstyles.css" />
+    <Content Include="Deskbook\common\css\adminstyles2.css" />
+    <Content Include="Deskbook\common\css\jquery-linedtextarea.css" />
+    <Content Include="Deskbook\common\css\lsu_styles.css" />
+    <Content Include="Deskbook\common\js\jquery-linedtextarea.js" />
+    <Content Include="Deskbook\common\js\script.js" />
+    <Content Include="Deskbook\English\default.aspx" />
+    <Content Include="Deskbook\English\SiteMap.aspx" />
+    <Content Include="Deskbook\English\video.aspx" />
+    <Content Include="Deskbook\Francais\default.aspx" />
+    <Content Include="Deskbook\Francais\SiteMap.aspx" />
+    <Content Include="Deskbook\res.aspx" />
+    <Content Include="Deskbook\Wet20\css\base-ie6.css" />
+    <Content Include="Deskbook\Wet20\css\base-ie7.css" />
+    <Content Include="Deskbook\Wet20\css\base-ie8.css" />
+    <Content Include="Deskbook\Wet20\css\base.css" />
+    <Content Include="Deskbook\Wet20\css\pf-if.css" />
+    <Content Include="Deskbook\Wet20\favicon.ico" />
+    <Content Include="Deskbook\Wet20\grids\css\grid-medium.css" />
+    <Content Include="Deskbook\Wet20\grids\css\grid-module.css" />
+    <Content Include="Deskbook\Wet20\grids\css\grid-small.css" />
+    <Content Include="Deskbook\Wet20\grids\css\grid.css" />
+    <Content Include="Deskbook\Wet20\grids\images\banner-medium.jpg" />
+    <Content Include="Deskbook\Wet20\grids\images\banner-small.jpg" />
+    <Content Include="Deskbook\Wet20\grids\images\blockquote.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\form-legend.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\icon-download.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\icon-email.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\icon-external.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\module-alert.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\module-answer.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\module-attention.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\module-info.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\module-inprogress.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\module-menu-section.png" />
+    <Content Include="Deskbook\Wet20\grids\images\module-note.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\module-question.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\module-refer.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\module-summary.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\module-tool.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\span-footer.gif" />
+    <Content Include="Deskbook\Wet20\grids\images\sprite-corner.gif" />
+    <Content Include="Deskbook\Wet20\intranet\css\default.css" />
+    <Content Include="Deskbook\Wet20\intranet\css\pf-if.css" />
+    <Content Include="Deskbook\Wet20\intranet\images\bg.gif" />
+    <Content Include="Deskbook\Wet20\intranet\images\search-button.gif" />
+    <Content Include="Deskbook\Wet20\intranet\images\sprite-theme-bg.gif" />
+    <Content Include="Deskbook\Wet20\js\lib\jquery.cookie.js" />
+    <Content Include="Deskbook\Wet20\js\lib\jquery.hotkeys.js" />
+    <Content Include="Deskbook\Wet20\js\lib\jquery.min.js" />
+    <Content Include="Deskbook\Wet20\js\lib\wet-boew.equalheight.js" />
+    <Content Include="Deskbook\Wet20\js\lib\wet-boew.pngfix.js" />
+    <Content Include="Deskbook\Wet20\js\lib\wet-boew.skipnav.js" />
+    <Content Include="Deskbook\Wet20\js\lib\wet-boew.storage.js" />
+    <Content Include="Deskbook\Wet20\js\lib\wet-boew.tooltips.js" />
+    <Content Include="Deskbook\Wet20\js\lib\wet-boew.utils.js" />
+    <Content Include="Deskbook\Wet20\js\pe-ap.js" />
+    <Content Include="Deskbook\Wet20\js\plugins\font-replacement.js" />
+    <Content Include="Deskbook\Wet20\js\plugins\wet-boew.expandhide.js" />
+    <Content Include="Deskbook\Wet20\js\plugins\wet-boew.navcurrent.js" />
+    <Content Include="Deskbook\Wet20\js\plugins\wet-boew.resolution.js" />
+    <Content Include="Deskbook\Wet20\js\plugins\wet-boew.styleswitcher.js" />
+    <Content Include="Deskbook\Wet20\js\plugins\wet-boew.toolbar.js" />
+    <Content Include="Deskbook\Wet20\js\plugins\wet-boew.zebra.js" />
+    <Content Include="Deskbook\Wet20\js\support\expandhide\bg-cn-centre-col-gap.gif" />
+    <Content Include="Deskbook\Wet20\js\support\expandhide\sprite-expandhide-menu.gif" />
+    <Content Include="Deskbook\Wet20\js\support\expandhide\style.css" />
+    <Content Include="Deskbook\Wet20\js\support\font-replacement\billboard-18.jpg" />
+    <Content Include="Deskbook\Wet20\js\support\font-replacement\billboard-62.jpg" />
+    <Content Include="Deskbook\Wet20\js\support\font-replacement\style.css" />
+    <Content Include="Deskbook\Wet20\js\support\navCurrent\style.css" />
+    <Content Include="Deskbook\Wet20\js\support\pngfix\inv.gif" />
+    <Content Include="Deskbook\Wet20\js\support\styleswitcher\icon-contrast-install.gif" />
+    <Content Include="Deskbook\Wet20\js\support\styleswitcher\icon-contrast.gif" />
+    <Content Include="Deskbook\Wet20\js\support\styleswitcher\icon-toggle.gif" />
+    <Content Include="Deskbook\Wet20\js\support\styleswitcher\sprite-expand-hide.gif" />
+    <Content Include="Deskbook\Wet20\js\support\styleswitcher\sprite-icon.gif" />
+    <Content Include="Deskbook\Wet20\js\support\styleswitcher\sprite-theme.gif" />
+    <Content Include="Deskbook\Wet20\js\support\styleswitcher\style.css" />
+    <Content Include="Deskbook\Wet20\js\support\toolbar\gradient.png" />
+    <Content Include="Deskbook\Wet20\js\support\toolbar\icon-home.gif" />
+    <Content Include="Deskbook\Wet20\js\support\toolbar\icon-top-page.gif" />
+    <Content Include="Deskbook\Wet20\js\support\toolbar\style.css" />
+    <Content Include="Deskbook\Wet20\js\support\tooltip\style.css" />
+    <Content Include="Deskbook\Wet20\js\support\zebra\style.css" />
+    <Content Include="Deskbook\Wet20\theme-clf2-nsi2\css\pf-if-theme-clf2-nsi2.css" />
+    <Content Include="Deskbook\Wet20\theme-clf2-nsi2\css\servpage-theme-clf2-nsi2-ie6.css" />
+    <Content Include="Deskbook\Wet20\theme-clf2-nsi2\css\servpage-theme-clf2-nsi2.css" />
+    <Content Include="Deskbook\Wet20\theme-clf2-nsi2\css\theme-clf2-nsi2-ie6.css" />
+    <Content Include="Deskbook\Wet20\theme-clf2-nsi2\css\theme-clf2-nsi2-ie7.css" />
+    <Content Include="Deskbook\Wet20\theme-clf2-nsi2\css\theme-clf2-nsi2.css" />
+    <Content Include="Deskbook\Wet20\theme-clf2-nsi2\images\lffl.png" />
+    <Content Include="Deskbook\Wet20\theme-clf2-nsi2\images\sig-eng.gif" />
+    <Content Include="Deskbook\Wet20\theme-clf2-nsi2\images\sig-fra.gif" />
+    <Content Include="Deskbook\Wet20\theme-clf2-nsi2\images\wmms.gif" />
+    <Content Include="Deskbook\imgTest.aspx" />
+    <Content Include="doc.aspx" />
+    <Content Include="AtriumX.svc" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Properties\PublishProfiles\JLLS1 - Web Deploy.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Workflow\css\wfstyles.css" />
+    <Content Include="Workflow\default.aspx" />
+    <Content Include="Workflow\docdisplay.aspx" />
+    <Content Include="Workflow\images\a.png" />
+    <Content Include="Workflow\images\act.png" />
+    <Content Include="Workflow\images\ad.PNG" />
+    <Content Include="Workflow\images\address.png" />
+    <Content Include="Workflow\images\adLabels.PNG" />
+    <Content Include="Workflow\images\allow.png" />
+    <Content Include="Workflow\images\alwaysAvailable.png" />
+    <Content Include="Workflow\images\appTreeExplorer.png" />
+    <Content Include="Workflow\images\aReq.PNG" />
+    <Content Include="Workflow\images\arrow-up.PNG" />
+    <Content Include="Workflow\images\atrium16x16.png" />
+    <Content Include="Workflow\images\atrium48x48.png" />
+    <Content Include="Workflow\images\AtriumCRA-ARC.png" />
+    <Content Include="Workflow\images\atriumlogo.png" />
+    <Content Include="Workflow\images\AtriumSplashEngFre.png" />
+    <Content Include="Workflow\images\AtriumTrans48x48.ico" />
+    <Content Include="Workflow\images\auto.png" />
+    <Content Include="Workflow\images\auto2.png" />
+    <Content Include="Workflow\images\automaticstep.png" />
+    <Content Include="Workflow\images\automaticstep2.png" />
+    <Content Include="Workflow\images\BFListCalendar.png" />
+    <Content Include="Workflow\images\btnBackOn.PNG" />
+    <Content Include="Workflow\images\btnCancelOn.PNG" />
+    <Content Include="Workflow\images\btnFinishOn.PNG" />
+    <Content Include="Workflow\images\btnLastOn.PNG" />
+    <Content Include="Workflow\images\btnNextOn.PNG" />
+    <Content Include="Workflow\images\btnSuspendOn.PNG" />
+    <Content Include="Workflow\images\c.png" />
+    <Content Include="Workflow\images\checkbox.gif" />
+    <Content Include="Workflow\images\CheckBox.png" />
+    <Content Include="Workflow\images\clock.png" />
+    <Content Include="Workflow\images\cReq.PNG" />
+    <Content Include="Workflow\images\cRo.png" />
+    <Content Include="Workflow\images\dataexchange.png" />
+    <Content Include="Workflow\images\dd.png" />
+    <Content Include="Workflow\images\decision.png" />
+    <Content Include="Workflow\images\decisionsent.png" />
+    <Content Include="Workflow\images\Delete.png" />
+    <Content Include="Workflow\images\deny.png" />
+    <Content Include="Workflow\images\doc2.png" />
+    <Content Include="Workflow\images\docAttachment.PNG" />
+    <Content Include="Workflow\images\docContent.PNG" />
+    <Content Include="Workflow\images\docHeader.PNG" />
+    <Content Include="Workflow\images\document2.gif" />
+    <Content Include="Workflow\images\documentation.jpg" />
+    <Content Include="Workflow\images\docUpl.PNG" />
+    <Content Include="Workflow\images\dump2.png" />
+    <Content Include="Workflow\images\edit.png" />
+    <Content Include="Workflow\images\embed.png" />
+    <Content Include="Workflow\images\enabledprocess.png" />
+    <Content Include="Workflow\images\folder16.png" />
+    <Content Include="Workflow\images\Get.png" />
+    <Content Include="Workflow\images\greenLight.gif" />
+    <Content Include="Workflow\images\grid.gif" />
+    <Content Include="Workflow\images\gridHdrBg.PNG" />
+    <Content Include="Workflow\images\gridMcReq.PNG" />
+    <Content Include="Workflow\images\help.gif" />
+    <Content Include="Workflow\images\help.png" />
+    <Content Include="Workflow\images\issue.png" />
+    <Content Include="Workflow\images\issueControl1.PNG" />
+    <Content Include="Workflow\images\issueControl2.PNG" />
+    <Content Include="Workflow\images\issueControl3.PNG" />
+    <Content Include="Workflow\images\linkConnector.png" />
+    <Content Include="Workflow\images\Load.png" />
+    <Content Include="Workflow\images\mail.png" />
+    <Content Include="Workflow\images\mailConnectors.png" />
+    <Content Include="Workflow\images\mandates.gif" />
+    <Content Include="Workflow\images\mc.png" />
+    <Content Include="Workflow\images\mcReq.PNG" />
+    <Content Include="Workflow\images\metadata.png" />
+    <Content Include="Workflow\images\minus.gif" />
+    <Content Include="Workflow\images\moveFolder.gif" />
+    <Content Include="Workflow\images\naw.ico" />
+    <Content Include="Workflow\images\nawBottom.PNG" />
+    <Content Include="Workflow\images\nawicon.PNG" />
+    <Content Include="Workflow\images\nawL.PNG" />
+    <Content Include="Workflow\images\nawLB.PNG" />
+    <Content Include="Workflow\images\nawLT.PNG" />
+    <Content Include="Workflow\images\nawR.PNG" />
+    <Content Include="Workflow\images\nawRB.PNG" />
+    <Content Include="Workflow\images\nawRT.PNG" />
+    <Content Include="Workflow\images\nawTB.PNG" />
+    <Content Include="Workflow\images\NewFile.png" />
+    <Content Include="Workflow\images\newrecord.gif" />
+    <Content Include="Workflow\images\NewRecordRelFlds.gif" />
+    <Content Include="Workflow\images\nonrecorded.png" />
+    <Content Include="Workflow\images\noresurface.png" />
+    <Content Include="Workflow\images\noResurface1.png" />
+    <Content Include="Workflow\images\noresurface2.png" />
+    <Content Include="Workflow\images\notOnceOnly.png" />
+    <Content Include="Workflow\images\obsolete.png" />
+    <Content Include="Workflow\images\officebuilding.png" />
+    <Content Include="Workflow\images\officer.gif" />
+    <Content Include="Workflow\images\onceperfile.png" />
+    <Content Include="Workflow\images\outlook2010.png" />
+    <Content Include="Workflow\images\plus.gif" />
+    <Content Include="Workflow\images\power_off.png" />
+    <Content Include="Workflow\images\power_on.png" />
+    <Content Include="Workflow\images\processCB.png" />
+    <Content Include="Workflow\images\query.gif" />
+    <Content Include="Workflow\images\redLight.gif" />
+    <Content Include="Workflow\images\refresh.png" />
+    <Content Include="Workflow\images\relFields.png" />
+    <Content Include="Workflow\images\RolesBF.gif" />
+    <Content Include="Workflow\images\save.png" />
+    <Content Include="Workflow\images\schedulingHeader.PNG" />
+    <Content Include="Workflow\images\schedulingTimeline.PNG" />
+    <Content Include="Workflow\images\screen.gif" />
+    <Content Include="Workflow\images\selContact.PNG" />
+    <Content Include="Workflow\images\SelectAll.png" />
+    <Content Include="Workflow\images\selectIssue.PNG" />
+    <Content Include="Workflow\images\SelectRecords.png" />
+    <Content Include="Workflow\images\selFile.PNG" />
+    <Content Include="Workflow\images\selFileReq.PNG" />
+    <Content Include="Workflow\images\selIssueReq.PNG" />
+    <Content Include="Workflow\images\selOffice.PNG" />
+    <Content Include="Workflow\images\selOfficeReq.PNG" />
+    <Content Include="Workflow\images\selParty.PNG" />
+    <Content Include="Workflow\images\selPartyReq.PNG" />
+    <Content Include="Workflow\images\sillyquestion.png" />
+    <Content Include="Workflow\images\specialobject.png" />
+    <Content Include="Workflow\images\subprocess.png" />
+    <Content Include="Workflow\images\t.png" />
+    <Content Include="Workflow\images\tb.PNG" />
+    <Content Include="Workflow\images\tBarGradient.PNG" />
+    <Content Include="Workflow\images\tbReq.bmp" />
+    <Content Include="Workflow\images\tbReq.PNG" />
+    <Content Include="Workflow\images\tbRO.PNG" />
+    <Content Include="Workflow\images\titlebarBG.PNG" />
+    <Content Include="Workflow\images\toolbox.PNG" />
+    <Content Include="Workflow\images\transfer_document.png" />
+    <Content Include="Workflow\images\tReq.PNG" />
+    <Content Include="Workflow\images\tRO.PNG" />
+    <Content Include="Workflow\images\txtfld.gif" />
+    <Content Include="Workflow\images\uploadDoc.png" />
+    <Content Include="Workflow\images\video.png" />
+    <Content Include="Workflow\images\warning_16x16.png" />
+    <Content Include="Workflow\images\wfLang.png" />
+    <Content Include="Workflow\images\word.png" />
+    <Content Include="Workflow\images\workflow.gif" />
+    <Content Include="Workflow\images\workflow.png" />
+    <Content Include="Workflow\images\workflowStart.png" />
+    <Content Include="Workflow\images\worklfowEnd.png" />
+    <Content Include="Workflow\images\x.png" />
+    <Content Include="Workflow\images\xRO.PNG" />
+    <Content Include="Workflow\images\yellowLight.gif" />
+    <Content Include="Workflow\Note.aspx" />
+    <Content Include="Workflow\OfficerRole.aspx" />
+    <Content Include="Workflow\RFInclude.aspx" />
+    <Content Include="Workflow\script\wfscript.js" />
+    <Content Include="Workflow\Step.aspx" />
+    <Content Include="Workflow\workflow.aspx" />
+    <Content Include="Workflow\List.aspx" />
+    <Content Include="Workflow\workflowold.aspx" />
+    <Content Include="fulltext\test2.aspx" />
+    <Content Include="fulltext\test.htm" />
+    <Content Include="Redemption.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Redemption64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="serverList.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="test.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\File\A5.cshtml" />
+    <Content Include="Views\File\Activity.cshtml" />
+    <Content Include="Views\File\Index.cshtml" />
+    <Content Include="Views\File\TOC.cshtml" />
+    <Content Include="Views\Search\Index.cshtml" />
+    <Content Include="Views\Search\Search.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\ChangePassword.cshtml" />
+    <Content Include="Views\File\P5.cshtml" />
+    <Content Include="Views\File\A5X.cshtml" />
+    <Content Include="Views\File\A5Test.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fulltext\qfullhit.htw">
+    </Content>
+    <Content Include="Global.asax" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="asptek.snk" />
+    <Content Include="Calendar\CalMaster.Master" />
+    <None Include="DeskbookSAM\english\atrium\common\images\OPD_Review_Checklist.rtf" />
+    <None Include="DeskbookSAM\english\atrium\content_manager\images\SAMCE.psd" />
+    <Content Include="DeskbookSAM\english\atrium\content_manager\SAM.Master" />
+    <Content Include="DeskbookSAM\Site.Master" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Workflow\wf.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="bin\" />
+    <Folder Include="Calendar\images\" />
+    <Folder Include="Deploy\" />
+    <Folder Include="DeskbookSAM\App_Data\" />
+    <Folder Include="DeskbookSAM\english\atrium\content\" />
+    <Folder Include="DeskbookSAM\english\atrium\content_manager\content_manager_pages\" />
+    <Folder Include="DeskbookSAM\francais\atrium\content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\atDates\atDates.csproj">
+      <Project>{B9C1627D-F333-484E-8B2E-54DDF3EDE336}</Project>
+      <Name>atDates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atLayers\atDAL.csproj">
+      <Project>{4eab95b9-ef29-4b01-80f6-1911ad5ac313}</Project>
+      <Name>atDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atLogic\atLogic.csproj">
+      <Project>{2C02D0C1-3DA4-448C-AF1E-39ABC558B0D7}</Project>
+      <Name>atLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atriumBE\atriumBE.csproj">
+      <Project>{1CAFC739-5ADC-4205-A2C9-A4157126071D}</Project>
+      <Name>atriumBE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atriumDAL\atriumDAL.csproj">
+      <Project>{1c4fa2f9-056b-4d21-85d5-41938478edc4}</Project>
+      <Name>atriumDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lmDatasets\lmDatasets.csproj">
+      <Project>{9f21694a-11ad-43db-8db8-62f4e52684ab}</Project>
+      <Name>lmDatasets</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Redemption">
+      <Guid>{2D5E2D34-BED5-4B9F-9793-A31E26E6806E}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\LocalizedText.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LocalizedText.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\LocalizedText.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LocalizedText.fr.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54039</DevelopmentServerPort>
+          <DevelopmentServerVPath>/lmras</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54039/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

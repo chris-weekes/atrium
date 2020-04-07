@@ -1,0 +1,3574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imageListBase.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACy
+        GwAAAk1TRnQBSQFMAgEBEwEAARgBAAFUAQUBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAVADAAEBAQABCAYAARQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/yIADu0SAAEHAq4B6gET
+        AW0CEgHqARIDZgESAgABBwHsAbUMAAG8DvEB+BEAAewCtQFmAUMBBwG2Ad0BtQGuBGYCAAEcAUwB7AG1
+        CwABvAHxA5EK8QH4EQAB7QHWAc8BtQGuAWYBrgH0AfMBrgFmAoYBZgIAAZoBegFMAewBtQoAAbwB8QGR
+        AfECkQnxAfgRAAGuAdYBtQHWAYYBCgFmAd0BGQHPA4YBZgMAAZoBegFMAewBtQkAAbwB8gWRCPIB+BEA
+        Aa4D1gGMAa4BZgGLBK4BhgFmBAABmgF6AUwB7AG8CAABvALzBZEH8wH4EQABtQEJAtYDtQKuAc8CiwGu
+        AWYFAAGaAXoBdAHvAQcFtQIAAbwD8wWRBvMB+BEAAbUB3QHWAc8BrgKLBIYCzwGGBgABmgG8ArUBCQIZ
+        AgkBtQEAAbwE9AWRBfQB+BEAAe0BCQHPAfQC/wL0Ad0CCQGGAc8BhgcAAQcBtQIZAeID/wEJAbUBvAX0
+        B5EC9AH4EQAB9wHdAa4C/wH0Af8BGQH/At0ChgGuBwABtQEJARkC4gP/AQkBtQG8BvQHkQH0AfgRAAHv
+        Ad0BzwX/AhkB3QGGAbUB6gcAAbUBGQEJARkB4gH0Af8B9AEZAbUBvAf1ApEC9QKRAfUB+BEAAe8B3QG1
+        A/8C9gL/ARkBZgGvARIHAAG1AxkE4gEZAbUBvAf/ApED/wGRAf8B+BEAAQcB3QG1Av8B9AH2AfMB/wH0
+        Af8BhgFmAa4HAAG1AQkGGQEJAbUBvAf/A5EE/wH4EQABtgHdAbUF/wL0Af8BhgHPAa4HAAEJAbsC/wEZ
+        AdwCGQG1AQcBvAj/A5ED/wH4EQACvAG1AQcB7wT3ArUCrwGNCAACtQEJAhkBCQK1AQABvA7/AfgoAAEH
+        BLUBBwMADvEXAAJsAa4XABD/FAABbAGuAfEB7AJsAewJAAJzAW4BSgEUARUBIgIQASIBEAEAEP8CAAH3
+        CmYFAAFtAesC8wHrAuoBrgFmAWwIAAHsAaABegJ5AXQCUgJLAUMBABD/AgAB9wH/CPcBZgMAAZEBrgHz
+        AfQB7wGSAbsBtQFuAewBrgFtAWYBbAYAAe0BwwGgAZoDegFZAVMBUgEVAQAC/wEcBEsGSgJEAf8CAAH3
+        A/8B9AHzARkB8AG8AfcBZgMAAbUB8wG8AfcB8AEZAfMBTAElAW8B7wESA2wFAAEcAcMBoAKaA3oBWQFS
+        AUQBAAL/ARwBwwKaCHoBRAH/AgAB9wT/AfQB8wEZAfAB9wFmAwABvAG1AfEC9AEaAUwBTQFGASUBkwEH
+        Aa4BEgFsAQAB9wNmAZICwwGgApoDegFSAUoBAAL/ARwBGgigAXoBeQFKAf8CAAH3Bf8C8wHxAfcBZgMA
+        AfABtQG8AfQB/wFGAU0BdQHjAU0BRgK8Ae0B7AEAAfcB9AHzARkBHAPDAaABmgN6AVIBbgEAAv8BHAF5
+        AZoCoAN6AqABegFRAUoB/wIAAbUF/wH0AfMBGQH3AWYDAAEHAZEBtAG1AfADlAHzAZQCTAH3AZEB7wEA
+        AfcB/wL0ARwEwwKgAZoCegFuAQAC/wEcARoBeQJ6A1ICegFSAXkBSgH/AgABtQb/AvMB9wFmAwABkQK0
+        AW0BkQHvARoB9AH/AfABFgFMAUsCBwEAAbUC/wH0ChwB9wEAAv8BmQHDAaABegF5AXoBoAGaAVIBeQJ6
+        AUoB/wIAAe8G/wH0AfMB9wFmAwABrgG0AW0BcQF3AZABtAG7AQcBkQFyAW8BRgFuAQcBAAG1A/8BHAEa
+        AcMBmgEcAQcGAAL/AZkBwwGaAXkBmgSgAXQCegFKAf8CAAG7B/8B9AH3AWYDAAGRAewBTwF3AZEDtAFx
+        AU8BcQGuAXQBRgHtAQAB7wP/AfMDHAFtAwAB7wEUAfcBAAL/AZkBwwF5AZoGoAFSAXkBSgH/AgABuwf/
+        AvcBZgMAAbUBkQJWAXIDtAGQAU8BcQGuAQABlAFMAQABBwT/AfQB8QG8AWYDAAGLAmYBAAL/AZkBmgTD
+        BKABmgFSAUoB/wIAAQcG/wH3A2YEAAGRAXgDmAG0AdUBtAFxAa4B9wQAAQcE/wH3A2YDAAEHARQCAAL/
+        AZkKwwGaAW0B/wIAAQcG/wG1AbwBZgEJBAABtQGSAQgBwgHiAcEBkQGzAZEBrgUAAQkE/wG1AbwBZgEH
+        AgABBwHsARQCAAL/B5kGHAH/AgABCQb/AbUBZgEJBgABtQGSAbsBkQGYA5EGAAEJBP8B7wFmAbwCAAOu
+        Ae8CABD/AgAFCQIHAbsBCQkAAfcDkQgAAgkDBwG7AbwJABD/EAAQExEAAfcNZgEACP8B8QGRAQkB9AT/
+        AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwQAAesBFQEAAa4BiwdmAQAB9wH/C/cBZgEAB/8BBwG1Aa4B7wHz
+        BP8B9wL/AfAC/wHwAv8B8AL/AfAC/wETBAABkgH/AVIBAAEZAfAFCQFmAQAB9wL/AfQC8wMZAfABvAEJ
+        AfcBZgEABP8B9AEHAbUBrgG7AbQBrgHvAfQD/wH3DvABEwQAAZEBHAGaAXoBAAL0ARkC3QEJAWYBAAH3
+        A/8BuwHPAoYBrgG1AfABvAH3AWYBAAP/AfQBBwKRAbUBCQG1Aa4BiwGRAfMC/wH3Av8B8AL/AfAC/wHw
+        Av8B8AL/ARMBcwHsAW0B6gFtAUsBwwF5AXoBAAH0AhkB3QEJAWYBAAH3Av8BtQGtAbUCCQG0AaYBzwHw
+        AfcBZgEAA/8BvAG1AbsE3AG7AbUBiwGuAfQB/wH3Av8B8AL/AfAC/wHwAv8B8AL/ARMBcwGaAXoBeQFS
+        AXkBSwHDAXkBegEAAfQCGQEJAWYBAAH3Af8BCQGtAQkB/wG8AYYBGQHcAaYBtQH3AWYBAAL/AbwBtQG7
+        ARkBtQKLAbQCCQG1AYsBtQH/AfcI8ARFAvABEwHsARoBoAGaAnoBvAFzAcMBeQF6AQAC9AEJAWYBAAH3
+        Af8BtAHcAv8B8AG1AfQBGQG0Aa4B9wFmAQAC/wG7AbwC4gEJAbQBiwG7ARkB3QHcAbUBiwH/AfcC/wHw
+        Av8B8AL/AUUC/wFFAv8BEwHtARoCoAGaAXoBBwH/AXMBwwFZAbQBPwHxAfABZgEAAbUB/wHUAQkD/wGL
+        AbQB9AEJAQQB9wFmAQAB/wHdAbsD4gEJAbQBiwG7ARkC3QHcAYsBvAH3Av8B8AL/AfAC/wFFAv8BRQL/
+        ARMB7QLDAqABmgEHAv8BdAEJAeMBdAE/AfABZgEAAbUB/wHVAQkC/wHzAfABiwG1AQkBhgH3AWYBAAH/
+        ArwD4gHyAbQBiwG7A+IB3QGuAbwB9wjwBEUC8AETAe0BwwEaA6ABBwP/AUUBdQHjAW4B8QFmAQAB7wH/
+        AdwBCQH/AbUBiwHwAYsCtQHPAfcBZgEAAf8B3QHwAf8B4gH0AbUCiwG7BOIBkQG8AfcC/wHwAv8B8AL/
+        AfAC/wHwAv8BEwHtA8MCoAG7A/8B9AJuAv8BZgEAAbsB/wEZAdUBCQHzAbUBiwG1AQkBrQEJAfcBZgEA
+        Av8B8AL/AfQBCQK1AfEC4gH/Ad0BtQH/AfcC/wHwAv8B8AL/AfAC/wHwAv8BEwGSBMMBoAO7AgcB8AIH
+        ArUBAAG7Av8BCQHVAQkCGQEJAbQBCQL3AWYBAAL/AfAE/wIZBP8B8AG8Af8B9weGB/cBEwEcBsMDoAGa
+        A3oB6wIAAQcD/wEZAdwC1QHWAd0B9wNmAQAD/wHdAv8BvAGuAYsBuwL/ARkBvAL/AfcHhgf3ARMIHAbt
+        AbwCAAEHCf8BtQG8AWYBvAEABv8B8wL3AfMB/wLiA/8P9wETARwBGgPDAZoBHAG8CQABCQn/AbUBZgG8
+        AgAQ/xAAAfMFHAHzCgAGCQQHAbsBvAMAEP9sAALrIwABBwHsCusB7AMACeoB6wGSAW4B6gQAAewLbQHs
+        EQAB8QwqAW0B7AEAAjEDKwQqAUsB7QJSARMDAAJSAUwKKgETAewDAAHsCf8DAAJSAaAJegFSASoB6wEA
+        ASsBWAHDBnoBkgFSAVkBKgFKAesBAAFSAXoBUgGgCHoBUgGgASoBbQMAAewD/wEABf8DAAJSAXoBoAh6
+        AVgBSwFtAQcBMQFSAcMBoAGZAbwCBwH3AVICegErASoB6gEAAVIBegFSAaAIegFSAaABKgFtAwAB7AL/
+        AQAG/wMAAlIBWAigAZoBWQFSAW0B7AJSAXoBvAH0Af8C4gEJAZkB5QGgAVIBMQETAQABUgF6AVIJoAFY
+        AaABKgFtAwAB7AL/AgAF/wMAAVIBWAFSCaACeQEqAesBUgFYAVIB8AP/AeIBGQG8AqABeQEqAUoB6wFS
+        AXoBUgmgAXoBoAEqAW0DAAHsAv8DAAH/AQAC/wMAAVIBegFSCaABegGgAUsB6wFSAXoBMQEJAeIB/wHi
+        AhkB8AKgAXoBWAEqARMBUgF6AVIJoAF6AaABKgFtAwAB7AP/BAAC/wMAAVIBmgFSAXkC/wH2Bf8BmgH/
+        AUsB7AFSAeUBWAEJA+IBGQHiAfAC/wGgAXoBKgHqAVIBegFSCf8BmgH/ASoB7AMAAewE/wMAAv8DAAFS
+        AaABeQxSAQcBUgGgAXoB7AIZAeIB/wEZAVIEMQEqAQABUgGgAZoMUgQAAewD/wQAAv8DAAFSBqAF/wFS
+        AUsBBwEAAVIDoAEHAgkBvAHyA/8BKgHrAgABUgagBf8BKgHsBQAB7An/AwABUgH/BKAB/wZSAfECAAFS
+        Af8EoAH/BTEBKwMAAVIB/wSgAf8FUgFMBgAK7AQAAVIE/wFSAQcJAAFSBP8BUgoAAVIE/wFSGwAEUgHx
+        CwAEUgwABFKtAAHqPgABrgEOARMHAAGuAewSAAG0Aa4DiwGGAwABtAKuAosBZgkAAQkBtQgAAbUBDwER
+        Aa4FAAHsARUBtQgAARIBFAEQBwABtQH/AbwBtQG0AYYDAAG0AfMBvAG1Ac8BhgkAAQkB1QHPAbUHAAFt
+        AREBFAQAAfcBEwHrCQACbQEUBwABtQH/AbwBtQG0AYYDAAG0AvMBCQG0AYYKAAEJAdUBzwgAARQBEAHq
+        AgAB9wHrARUB9wkAAeoB7QFtAREGAAG1Af8BvAG1AbQBhgMAAbQC8wEJAbQBhgsAAc8B1QG1CAABEwER
+        AW0B9wHqAUMBkQoAAeoB7wHsARQGAAG1Af8B8wG8AbUBhgMAAbQC8wEJAbQBhgsAAbsBrQHVCQABEwJD
+        ARUBFAoAAfAB6gEHAZIBFAEHBQABtQG0Aa4BiwKGAaYBhgG0Aa4BiwKGAWUBiwMABa0BiwMAAa0B1QEJ
+        CAABkQFDAhQBkgkAAfABEgGSAfAB7wHrAQ8BBwQAAQkBtAH/AfABtQGuAaYBuwG0AfEBGQG1Ac8BhgG1
+        AwABtAGtAtUBtAQAAa0BtAHcBwABuwHqAxUB6gH3BwAB8AFtAQcB8gHxAQcB7QHqAQ8BBwQAAbUB9AH/
+        ARkBtAGGAYsBtAL/Ad0BzwGGBAABtAPVAc8EAAKtAdwGAAH3AhQB7AEAAewBFAHsAfcFAAHwAesBBwHz
+        Af8B8wHwAQcBkgHqAQ8BBwQAAbUBtAGuA4sBzwG0Aa4ChgUAAbQD1QKtAwABiwGtAdwEAAEHAesCFAHs
+        AwAB6wEUAewBBwMAAfAB7AHwAfMD/wHyAfABBwHtARIBDwEHAwABtQH/AQkBtAGGAQABtQH/AQkBtQGG
+        BQAB1gIJAdwBtAKtAc8BrQGLAdUEAAH3AesBFQEUAZIFAAH3ARIB7AMAAewBvAHzAv8B9AHzAfIBvAEH
+        AZIBbQESAQ8DAAG7AbUBrgKLAQACtQGuAYsBhgUAAdYCAAEJAdwB1QStBQAB9wEUARMB7wcAAvcDAAHv
+        AQcB8AG8AgcB7wL3AZIB7AHrAW0BEwQAAbQB/wGGAwABtAH/AYYKAAEJAtwC1gYAAfcB6wH3HwABtQG0
+        AYsDAAG1AbQBiwwAAgkmAAFCAU0BPgcAAT4DAAEoAwABQAMAAVADAAEBAQABAQUAAYABAhYAA/8BAAT/
+        AYABAQIAAYABAQGPAf8EAAGAAQEBhwH/BAABgAEBAYMB/wQAAYABAQHBAf8EAAGAAQEB4AH/BAABgAEB
+        AfABAwQAAYABAQH4AQEEAAGAAQEB/AUAAYABAQH8BQABgAEBAfwFAAGAAQEB/AUAAYABAQH8BQABgAEB
+        AfwFAAGAAQEB/gEBBAAD/wEDAYABAQIAAfwBfwL/AgAC/wHwAR8B8AEBAgABwAEHAcABDwHwAQECAAHA
+        AQcBAAEDAfABAQIAAcABBwEAAQEB8AEBAgABwAEHAQABAQEAAQECAAHAAQcBAAEBAQABAQIAAcABBwEA
+        AQEBAAEBAgABwAEHAQABAQEAAQECAAHAAQcBAAEBAQABPwIAAcABBwEAAQEBAAFxAgABwAEHAQABCQEA
+        AXECAAHAAQcBgAEPAQABcwIAAcABBwGAAR8BAAFjAgABwAEPAcABPwEAAcMCAAHAAR8B8AH/AQEB/wIA
+        Av8CAAL/AYABAQQAAfABAAGAAQEEAAHwAQABgAEBBAAB8AEAAYABAQYAAYABAQYAAYABAQYAAYABAQYA
+        AYABAQYAAYABAQYAAYABAQYAAYABAQYAAYABAQUAAQEBgAEBBQABAQGAAQEFAAH/AYABAwIAAv8BAQH/
+        AYABBwIADf8B8wT/AYABAwGAAQMBwAEBAeABAwEAAQEBAAEDAYABAAHgAQMBAAEBAQABAQIAAeABAwMA
+        AQECAAHgAQMDAAEBAgAB4AEDBgAB4AEDBgAB4AEDBgAB4AEDAwABAQEAAQEB4AEDAQABAQEAAQMBAAED
+        AeABAwEAAQMBAAEHAQABBwHgAQMBgAH/AYEB/wGBA/8BwQH/AcMB/wHDFf8B7wf/AccB8wL/AQMBgQH/
+        AT8BwwHjAfwBPwEDAYEB/wEPAeMBxwH8AT8BAwGBAf8BjwHxAYcB/AE/AQMBgQH/AccB+AEPAfwBPwED
+        AYEB/wHHAfwBHwH4AR8BAAEBAcAB4wH8AR8B8AEPAQABAQHBAeMB+AEPAeABBwGAAQMBwQHjAfABhwHA
+        AQMBwAEHAcAB4wHBAcMBgAEBAcEBBwHAAQcBgwHjAYABAQHBAQcB2AEPAYcB8wGAAQEB4wGPAfwBHwGP
+        A/8B4wGPAf8BPwT/FgAL
+</value>
+  </data>
+  <data name="pnlActivityDisb.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlActivityDisb.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlActivityDisb.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlActivityDisb.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlActivityDisb.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlActivityDisb.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlActivityDisb.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlActivityDisb.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlActivityDisb.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlActivityDisb.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlActivityDisb.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlActivityDisb.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label5.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label5.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label7.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label7.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label4.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label4.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementGridEX.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementGridEX.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementGridEX.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementGridEX.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementGridEX.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="disbursementGridEX.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementGridEX.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementGridEX.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementGridEX.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementGridEX.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementGridEX.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementGridEX.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="disbursementGridEX_Layout_0_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIfXAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBm
+        mQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD/
+        /zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZ
+        MzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYA
+        mWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ
+        /2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkz
+        M5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnM
+        mZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz
+        /8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/
+        M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9m
+        mf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP//
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBCgD/ACwAAAAAEAAQAAAIVAD/CRxIsKDBgwgTFmzFsKFDg62u
+        SZwosZWghRQpWsSYEcC1jQQjUgTgEeTAiB6vkax4MaRKkik/tjwpceVEkwJFZpS50KHPmQMFCR1KVKHR
+        owIDAgA7
+</value>
+  </data>
+  <data name="disbursementGridEX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="activityTimeGridEX.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="activityTimeGridEX.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="activityTimeGridEX.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="activityTimeGridEX.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="activityTimeGridEX.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="activityTimeGridEX.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="activityTimeGridEX.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="activityTimeGridEX.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="activityTimeGridEX.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="activityTimeGridEX.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="activityTimeGridEX.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="activityTimeGridEX.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="activityTimeGridEX_Layout_0_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAA3
+        WgAAN1oBS8TgIgAAA7NJREFUOE8dU19MW3UUPh2KxqTpOoMPcw+aGF+cCQ9DMDhiML65zEVGChsjIXby
+        J5EFNvBBoq0CWQeruAxLlGalRgfigK7/aOtaSmkzGKx/KKVABtIWStcWWigY7b3Hc/tLfrnn3nznO985
+        57tgt9vB4XCAUqnkra2u8RARqqpEUFR0Jr+6uop/8vWTeaUflMLo6ChveHgE9Dr9xzqdrm58fPwLi9ny
+        GgwMDIBUKuUBHeEJYb7FYqn2L/of+ny+FY/HEw4EAv5gMKjWarUfceRGo/Evk9F45Xrr9VeJ9Ar09fXx
+        5HI5tLe3vz3/ZP6Jc8aJqnsq9ofbcrwlk6Hs5k0cUg3h04Wn+OiR9Y8pq/WZZ2EBlYPKb3t7e8+DWCyG
+        mprLb7lcrohBb8Df1ENZi17HOO121js/z+omJtifFYrsdxIJY7PaUDOhyfbIem51dXaJWm+0vgScLOrH
+        pH2oRQL/F97YwKjfj/GtLUzs7GAyFsOdSAStZjN+L5X+O+OYwZHhkW/CoTAsB5bzQCKRnH/w5wM0G43s
+        fjKJ/sVFDHm9uO504nNKTsXjGPD5cNpmw5WlJWrvHrrd7vRVsfgNjUYDoFAohqhn9Hu9TJwqbq+v4040
+        ioHRUcykUriyvJxL5NTs7+6iQafNupwuJNU1jmkHwJ0f7ywMqVQYjUTY2PY2bhJ4N53GoMGAv9TVoWtu
+        Dg8ocS+RwBQpDC4tMRzB/d/vawUCwdfQ3d29qBwcxEw6ze4RIEmS/zk6Qs3wMH516hSG19Ywc3CQIyAM
+        boVC7OzjWaTtzdHmf4W2tnZ9b08PPltdZVNU6ZDAaXqGaIgRjwcTHMHhIWb293GfWvK63dkp2xTKb8uv
+        0TABKisrr5EHcG72MYMsizvUBgc+IqJE7DkmqfIBVY7RDJBhCDfL0iqx4rOK9y5VX+L8BwXiz8UbMjLN
+        diTC/E1D5FRwsmObmznph5kMRol4JRjMmk1mvHu338Stny4Pzn1yDsrOnhU1NTXhT/39TCIeZ5hsNkfC
+        VTwgNdx7OBzKTk5OotFg3BOJRO/W1tZCS0sLDxoaGo51dHRAeXl5U2NjI0O2RguZhvzARqNR1k+mmrbb
+        cWxsDNVqdby+vv5DGjx0dnYeo38o1wKUlJTkXfj0Apx+5/T7Fysumpqbm48IgOT13O3q6tpru9GmItyb
+        ZWVlUFxc/AKXV1BQAMCjQ3E+n88X0H2ZYv5xwfHSwsLCOgJ/WXSm6DLtu5C+vyIUCikUnOBiSnsRAHj/
+        AxRWmhbyZio3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="activityTimeGridEX_Layout_0_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIfXAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBm
+        mQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD/
+        /zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZ
+        MzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYA
+        mWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ
+        /2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkz
+        M5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnM
+        mZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz
+        /8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/
+        M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9m
+        mf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP//
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBCgD/ACwAAAAAEAAQAAAIVAD/CRxIsKDBgwgTFmzFsKFDg62u
+        SZwosZWghRQpWsSYEcC1jQQjUgTgEeTAiB6vkax4MaRKkik/tjwpceVEkwJFZpS50KHPmQMFCR1KVKHR
+        owIDAgA7
+</value>
+  </data>
+  <data name="activityTimeGridEX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="activityGridEX.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="activityGridEX.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="activityGridEX.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="activityGridEX.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="activityGridEX.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="activityGridEX.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="activityGridEX.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="activityGridEX.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="activityGridEX.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="activityGridEX.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="activityGridEX.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="activityGridEX.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="activityGridEX_Layout_0_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJISURBVDhPpZBPSNNhGMffBcGEnTp02E3xJIPcQQwP
+        IkJLlsLIeairEBVGRUT8TttFjFhdJPBibSBGEYgLWbYhLFMYU1HHmNOECW4iwv7/0W3u2/t9AxHsIPTC
+        h9+P9/l+nvd5XwHgvxB2u10MDQ21SO5JHlwSZlvoisHBQXJ/bW0tsr+/j8vALB26wmazkUerq6tIpVKX
+        glk6dMXAwAB5vLKygoWFBRSLRZycnKBer8sr/l2np6dqjzVmmKVDV1itVjIix0IwGES5XFah8fFxhMNh
+        NBoNJefzeVQqFZVhlg5dYbFYyJP19XUsLS2hVCphdHRUhdmEpx8fHyObzarmzDBL53VrqxC9vb3kaSQS
+        QSgUUmM6HA54PB64XC7UajUlptNpVWNmc2oKvwyGzWWdrkd0d3eT59FoVD0OR9U0TX05SbVaVeLR0REK
+        hQICgQC+yH04nZjV6YKiq6uLvNja2sLGxgZyuRwODg7Ul6MTNjs8PMTezhwmJibU9fqam4Mf5QuIjo4O
+        8nJ7exucgndNJpPIZDIqSLj3OzqDn7O3UUlp8nAnTCbTu4dGoxBms5m82t3dRTweRywWU6fz3hyfpBI/
+        sOjtU/L0+5tYDk6DDl3R1tZGtEQiAZ/Pd4HvXhe8nk4lT7ra8XV6DMzSoSv0er0wGo3P3G73jt/vx/z8
+        /BlzM5Nn8oe37Zj5/AbMMEuHLtc1+XPLYDBokrHzDPdfXUQxDufIlb3OG/pP52oaHbps0CS5LpEvcgEM
+        39F9u9uj6/9HTTqi6Q/7M3gsOZ+AewAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="activityGridEX_Layout_0_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAm9JREFUOE+N
+        k19IU2EYhwdBF91U15GX5V1DmOgId4QRmxkso2JH9we2IWSzrNmERts0t8iJUm5ttrHlRhluHBEVTWkT
+        J9ugsDC6qIstspFEeWPE2OrXOV+emrYLH3hvznl/z/t+H+cIAJDieagXUvPWpuBCb3M8dPlk3Hamytav
+        qDq0/fp/ygVPzTLbeiKI/LNhJAdp3KVPYLrvIqLmU3HSUIlywbjlHNbGTXjpbcWLoWbE+09jrv88XAbJ
+        vxV3Uy54fEOK0qcllLJTKL4ewjrTjiG6Gnd01N4EH+Zub/7a+oifGxkU347ix4oZ91qPoU8t3psgH2uP
+        l/LLKOWm2Q2G8X3pGlacDbilFK2ShkqUC7L+JltxzY3iq0EUUjfxdUqHqLEazrNHFaShEuWC9/cbhN+m
+        ddh63okvk1rkJ69j/tIR2C8c35vA4XAIRx2d2Y2FXjZ8BSvWGoSuStDY2Ija2lobadoNL/D5fJTH4wHD
+        MHjy6AGK78ZR+PwG0WgU3d3daGtrg1QqXRWLxTs/Kl4wNja2mkgkkMlkEAqF2EdALpcDK4bT6YTJZIJG
+        o0F9ff3OTXhBMBhEOp1GKpVCLBZDoVBAJBKB1+slgq6uLnR0dICiqBwbO8DWfrb2/RVwk2ZmZjAxMYHF
+        xUUkk0n4/X643W7Y7XYYjUbo9XruGNyFHSZhDl7ATtkMh8Pg7mF2dhaBQIBMHxgYQE9PDwmr1WrIZDJO
+        UEPCHLyAbRKylbVarRgZGSEil8sFi8VCVlcqlWhpaYFEQv6Lg3/SLLyAx2AwKFQqFaPVarM0TZOQXC7n
+        zp6tq6tjRCIRtd3KIhD8Bmoovdlh5XRLAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="activityGridEX_Layout_1_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAKZcMmJUSqCAWs2MUZCHf9XOxse5tbSCWNeGMX1CHsO0oPTYteGziNnAqJKMi4hL
+        G3EvEsC1n/ffwvWxcvmnXeOgY1pPRlEsGcS5mvrgufO1ePuoWfaWO+l5HV1BLcezlfnjxPS2d/6lSu+c
+        R959I8xnE8e2lPveuPWyc/epYPGeReh5EsBpGbqFb/XNsPK3e/ulWveYROh5GL5oF9uwm//p1/jIl/Kd
+        UeV3HcZmFb6JdfHZv/7k0/W7oNSISbloIqOBbfbewfC/ptSKdZBZNTs0L4llWKR0WYFQMzYyMP//////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////yH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAB/ACwAAAAAEAAQAAAIdwD/CBxIsKDBgwAOGgwgYEBChQIJFDBwAEECiAoWMGjg4AEEhREkTKBQwcIF
+        hRgyaNjAoYMHhR9AhBAxgkQJhSZOoEihYgULhS1cvIARQ8YMiDRq2LiBIwdEHTt49PDxA+IfIEGEDCFi
+        9U8RI0eQdP2TZKxZggEBADs=
+</value>
+  </data>
+  <data name="activityGridEX_Layout_2_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAKZcMmJUSqCAWs2MUZCHf9XOxse5tbSCWNeGMX1CHsO0oPTYteGziNnAqJKMi4hL
+        G3EvEsC1n/ffwvWxcvmnXeOgY1pPRlEsGcS5mvrgufO1ePuoWfaWO+l5HV1BLcezlfnjxPS2d/6lSu+c
+        R959I8xnE8e2lPveuPWyc/epYPGeReh5EsBpGbqFb/XNsPK3e/ulWveYROh5GL5oF9uwm//p1/jIl/Kd
+        UeV3HcZmFb6JdfHZv/7k0/W7oNSISbloIqOBbfbewfC/ptSKdZBZNTs0L4llWKR0WYFQMzYyMP//////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////yH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AAB/ACwAAAAAEAAQAAAIdwD/CBxIsKDBgwAOGgwgYEBChQIJFDBwAEECiAoWMGjg4AEEhREkTKBQwcIF
+        hRgyaNjAoYMHhR9AhBAxgkQJhSZOoEihYgULhS1cvIARQ8YMiDRq2LiBIwdEHTt49PDxA+IfIEGEDCFi
+        9U8RI0eQdP2TZKxZggEBADs=
+</value>
+  </data>
+  <data name="activityGridEX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label6.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label6.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlActivityDisbContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlActivityDisbContainer.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlActivityDisbContainer.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlActivityDisbContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlActivityDisbContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlActivityDisbContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlActivityDisbContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlActivityDisbContainer.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlActivityDisbContainer.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlActivityDisbContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlActivityDisbContainer.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlActivityDisbContainer.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlActivityDisbContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlActivityDisb.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIRP.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIRP.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIRP.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIRP.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlIRP.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlIRP.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlIRP.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlIRP.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlIRP.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlIRP.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlIRP.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlIRP.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlIRP.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNtCDrVoAAAJFSURBVDhPxZL7
+        S1NxGIf9AySCsJKy1oUCS7CwgqRAg2BYUVQUpBFIYjeyiwliKTpvs1xJLm+1qbM8LsTM7GYWdBEiNQyz
+        yBpe0mlTVw43zxk8nZ0jRoH96gc+v73P8/J9+frNftoexIfetRj4t41Czvapkf/HN+zor8cz2qh0wiEw
+        3lNATfkV6iy6tKmxmWOtyGe6MiSYL1NtyuPOTT23S3OxlGRTWZxF+Y1MzEYd5sIMpQZdYrQiqDbnMels
+        /queXw1II1akITPe74V4bXqkT6l4Os7jehvPzxcxJCfEogiqynJUaOoJbqcV0VGBNHAdb08O3u4UxA+n
+        cb+LZfzlfsYea2kvDvwjqCzJmhaIo3WIPyxIg0a8vbkyfInJzgTcrUcZf3WQsSdaBoUNtBj8ORF7QBWY
+        5Pf4BL7NkqNKhotkOA/paypi5xkZjlNg59MoHPe20GdZy3O9P9F7taqg7FoanpGHMiwg2Uvx9hlkOE2G
+        z+Fui8f1+hDOpp2M3N+KXVhP762VNKTPJWpbuCooyr/IxHCdfDAT3v4CpG/piB8Tcbcfw/UmBuezXTga
+        IrDXhDFQGUy3MQghJYDwsBBVUKhPZsJeo1xbsukQuy7gfn8cV8thnM27ZTiSIetGBixrsJVo6Lo6H1PS
+        IkJWa1RBQXYSTlsFw60J9D7S8qV2E5+FEDrKV9FStIymfA21GUuwpgYqm32w8exSNIsDVIH8IchMPknS
+        qSPExexh345IIjavIzR4BcuDFrBw3pwZqwhmOX5+vwEXUtUEfC17dwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnRollbackTaxation.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRollbackTaxation.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRollbackTaxation.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRollbackTaxation.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnRollbackTaxation.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="btnRollbackTaxation.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnRollbackTaxation.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnRollbackTaxation.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnRollbackTaxation.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnRollbackTaxation.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRollbackTaxation.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRollbackTaxation.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRollbackTaxation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearOfficer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearOfficer.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearOfficer.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearOfficer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnClearOfficer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="btnClearOfficer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnClearOfficer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnClearOfficer.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnClearOfficer.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnClearOfficer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnClearOfficer.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnClearOfficer.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnClearOfficer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnApplyTaxRecs.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnApplyTaxRecs.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnApplyTaxRecs.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnApplyTaxRecs.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnApplyTaxRecs.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="btnApplyTaxRecs.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnApplyTaxRecs.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnApplyTaxRecs.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnApplyTaxRecs.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnApplyTaxRecs.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnApplyTaxRecs.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnApplyTaxRecs.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnApplyTaxRecs.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingGridEX_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="taxingGridEX_DesignTimeLayout_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="taxingGridEX_DesignTimeLayout_Reference_2.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEpSURBVDhPpZExS8NQFIUfJHMI+QF2L0IGcckWIVsy
+        JXsnyebQJUOxBlyCi5sQKN3EvYO4WmpIR0mtEA0GsiV/wKHl+o5ThWfx4fANOed84cJjRPQvhKEMwlAG
+        YSgD8zyP+b5/FATBgBPuMEC+r4PLXNc9DsPwPMuyt6qqtk3TUF3X2zzPK9u2R0DUwYHLHMc5nc8f3+P4
+        4skwjGtVVa+SJKE0TX+ADB022MKByyzLGhZF8dnrHcSKojCMeEnr9Qu1bUtd11FZlsSv+P4BNtjCgctM
+        0zybzR4+xuPLe13Xh3wwiqKIRKDDBls4cBk/6aTfP7yZTG6bxeJ5s1o1tFy+bqbTuwb5vg4u0zQNZzuc
+        GCfugG/kv3ZwhW8rgzCUQRjKIAxlEIZ/h9gXskN3ypaHAQkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="taxingGridEX_DesignTimeLayout_Reference_3.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAARBJREFUOE9jGAUQEBoaahwcHBwfEhKSDsMgPkgcnxxYs4+Pj2lqamrt0aNHb9+5
+        c+fv48eP/9+/f//v8ePH7zo4OFSDMDY5kB6QXgYXF5fUgwcP3mloqDsqKCjYz8zM3NXR0fF/5syZKBgk
+        BpIDqQGpBekB6WWwsrIqunTp0g95edkGkItAig4dOvj/2rWr/1+9evX/9evX/2/duvX/2LFjYANAakBq
+        QXpAehn09PTyNm3acb+urmkbPz9/ERMTU3V5efl/bBgkB1IDUgvSA9LLICws7KSlpTNtzpylj48cufjn
+        ypXH/0+evPZn3rzlj0Hi+ORAekEuAjnbFYgbQE5EwiA+SBynHFjzKKAUMDAAADMqxqprscb2AAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="taxingGridEX.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingGridEX.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingGridEX.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingGridEX.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="taxingGridEX.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="taxingGridEX.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="taxingGridEX.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="taxingGridEX.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="taxingGridEX.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="taxingGridEX.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="taxingGridEX.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="taxingGridEX.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="taxingGridEX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label3.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gbMessage.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gbMessage.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gbMessage.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gbMessage.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gbMessage.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="gbMessage.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gbMessage.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="gbMessage.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="gbMessage.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="gbMessage.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbMessage.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbMessage.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbMessage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BottomRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BottomRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="BottomRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BottomRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BottomRebar1.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BottomRebar1.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BottomRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BottomRebar1.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BottomRebar1.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BottomRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar3.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar3.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiCommandBar3.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar3.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiCommandBar3.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandBar3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiCommandBar3.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiCommandBar3.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiCommandBar3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar3.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar3.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiCommandBar3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tsGoToSRP.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ8SURBVDhPpZP/S1NhGMXvvHMz6J8IM0KkoiiEohDp
+        K31RrKmZGZlW/0cQpvhtpBWFSFIUBiaUoIkKYVRSCcq9iYupuOHGdMwXlSnP6bx3LYv6IWhwGNzL55zn
+        Oe97DQD/JWPLzRFoZV0fQlbNELzVb+Ct6oe3sg+e8tfw+HrhKelBZlE3Mk8/h/vEU7iPdsEs6IR5uAOO
+        gfSfhPQWQrryIf48SH0ONgCV3IBaXYdSSaiKVisZW4EKL4uajUMFlwDz4EMYWTeGIX3HIT0FkM4DkNZc
+        SF02CIMwXQSJVaDSb2NhGZhLADOEpxYFZv59GtQO4do9+zdVt9u40pZS1V3bgS9RF1ttlLVYKGu24Wu2
+        kLG/nQY1g+wi9dsQYJ3Ja04ynOQlKqKEsOUkBxaBr1FgIgJk7GuD4b064MBbi/uxTgP9/6s0HOLY5UwP
+        cOz08y9hgWuPnwZsnJyTnmTyCpVYEyYLogqEBXNx4ei2kzwZEYyHgbF5wLWrhQY8Lg1r11WOnU6IrgBh
+        XVocCDK5lDtbhNPvP8xxgrxGGlT0bTa+BsR1sgML5gnrvadjggs0GOfYn0IgDIzO0iC3AYan7NXPxi//
+        0biNUrbuY+vnmyyUNFoopooaLJytt+DaeYcGvpdOcoLiRcGCs3cqORAD7KhgYgGEbXzk3u9mgbdBwfA3
+        gbGjjga8phpedI5rE07vqvWZpenk99w7/WwwQIPtt2FkFr/AEpMJq9CPa8qzVlMxUZMRKO6txuZFnau3
+        kqMzokaCogirgWkaZGuDM91wn3oG97EnMAsfwzzSAfPQI17TB85Ny9jrh2t3CxtvSpWm987h6Breduvv
+        n+i/C8Z3w9P9HY1vQDIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tsGoToSRPDetail.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAFzSURBVDhP
+        jZJPSwJBGMb9QBFEl6AOEXSIDh36BkJLXYIuUZCXqEN0rUP0DTpFWB42kULpD9UpLBIzhQxCBtFyTdee
+        5hkanV03c+G3swszv3nedyYEIDSxmrBmti9sifgFfqa3Ujejy8k9zjdRr6nNpF2qOKL8UYccA3koVhA5
+        KmBuJyO6BNIuqo6Ly5cmrvMNBb9TuS/En2qw05+oN4HoYw2Rw7xH0hZw97uC28aUUOA0Wrgturh6bWDj
+        pABZ9oEpgF+gJTrF83tNlcKkxbKDyfWUXOoTpN++22iJmeL4vqrg3H8FmqB+BAoYL0igS9ES0iWQx/in
+        gPjL4VyPgD/9CJiEsJHja0mvgJ3ttVgnIDzSsZWzjoA2Cmaj9b6gYGQp0RHQlis5WDxvYT8ND7s+wnFX
+        lTBk2R2BtAlelPlES8FJvWCCwXBMXWclGF44zcomCqagyITN1XBnIh8xEI5lTYElI9kSwWh+5G4mXGzL
+        0QIQ+gGuaUNh9D2/oQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsNext2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHgSURBVDhPY/j//z9FGEzotV9i0O+4DMf2c1/AscO8
+        lzOBOMZm1lMGi6kPGIz7boLVa9Sfwm2Ace8NBpAGKD4DxTFEGwDCRj3XwTYC8ZkZT/7/B9EWU+7HEG0A
+        CBt2XQXZeKbz6p//Ux78+w9iA10Xg2GAbtvFmUDBM7hw49kf/4v2ffnfe/PPfxAfqD4GxQAgB2jLr/+1
+        J7/9rznx7X/18a9gXHXs6//Ko1//F+z59D9jy3swbj7/4z9IvXrdyRi4AUrlh86ANKRtegfHCete/Q9e
+        8vC/5+wb/12mXf7vOPkCGIPYGTte/AfpgRsgk7cT6Mzv/8sOfflfeODz/+gd7/57bnjx33Xd8//Oa5/9
+        N136+L/mvIdg7Lv19X+Qetn8XQgXiKdvmimWtvEMLqy69ft/vtVf/xvt+v4fxAeqjwEagggDoCCDSMp6
+        DCycvI5BIH7VGaGd///L7fn/H8QWTFgdA1KPYgC3cSQDl1EEBuaOWAzCZyR2/f8Ponkil8TwuNczsErq
+        MIAA3ABcgElUg4EtaO4ZEGa1K4thFtOEykAAsgFMQMwHxDJArAXExjDMZFW8jMkouQTK1wZiWSDmB2Jm
+        ZAMYgZgdiEGGiAKxFA4sBsQgzRxAzAQ3gHz8nwEAOsn6aeWjjbgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tsPrevious2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHoSURBVDhPpdBdSJNRHMfx4yNaqMyitkr0Ji+07IU2
+        iDDNhkV0ayATDiQY2lXRC75CQhcpogWW0Qq9aVg6XCVdpJEXlolxiMxeJoI68HEmmCAbkai//v+lT5O1
+        iDrw2XPO8/zP92ICwH8J/WTWvhH76t4L2/VRcahlUuTc1cXRti+SOPNaZ8Sa/fUjBp7/U0AStSoUtDV5
+        /zJwa0JSRDl1gJ8ctDZ+Xnc5eqDJKymi7kwBDZ+WwPsDDR8jLv82sPfasKSXqsW3got9AVx9+x18jobm
+        nUYg48qQpIhqHl/G2afzIRdeLKD6dRBVA0FUvgqg4uVP5f0B1AwGwfNGYGdFv7oxtoTS7q+GYs8sTrl8
+        OHnPi2O3R2C/+S6E946OCfAdI5B2vlemnutR9R8WIR/PIafdj+wHUzju8SO/axp29zTyOnXkdug4/FCH
+        vcsPnjcCdBDbyrqlpfSJKhxahMkdRNazb+BzNDT/6z/gAL0Um4vdctPpTnVwANj+HOD9lhKP2HrmUQSe
+        NwK84nbsEUknakVSkUsmOu6r9D6An0QkWB0REm1F6wNrK9ayS8QdKZfxBa2KaebM1S+RKzygERNJJbuJ
+        TbOWXNayL7XzPkwWSSPJJDY8EEM2EI6YSUoUFsKXNxLNCPw7iB/+CvpVpZ+XAwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsEditmode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIEAAAAAAP///////wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAACACwAAAAAEAAQ
+        AAAIHQAFCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFgQEBADs=
+</value>
+  </data>
+  <data name="tsMessage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG9SURBVDhPpU/NLgNhFG0isWoiqSpSIRXqXwQb8btp
+        FAlhyQuwtPMGNl7AGyhiLxZ+StFqBEGqEaIl1N9MZ6alXRzf/Wa+IYIIJzmZL/eec+4Zy3cIztnbGO8N
+        thnj34OZIsfLLpwH6kFvY/w7MIOXEfK1B9rDAEK+AgrxGuufwYQ5dPFkpQJZbYRTtKCdIfseTDQa9Nmh
+        3HrNgNSj2WLUkH0NJsilS5FVN7KpMbARp96iQbTI5eKvwJYTdElN9CGrDpsBmeQQUgmvaDHBxZ/BFla6
+        EN2oQVYZQkYefA947ue8CNSJFlZu+gg2nArNO9ilXmSkAbw+9ZkBrwkPp3bdA9KQlpsE2MBGyXTh5aYb
+        6XgX0rFOTI6XcKav2nXGOnC5XSta2Aw7D5gOLxZCjbZCizRBO22AelLPqZ026jNitBnKWYtoMS3MTkqM
+        B9xQDtxIhl1IhsqQDJaav6CEy/lOPayCelSN2FalaOGkgNn9pSJmLIe844S8VQR50wHJ7zAD5EAx31Eo
+        Ud5zIbzAW8xSQORut5KLpI0CSOv5kNZs+tekXd/5iQ52oBBxv4u3oIBt30we/kLyWgD8g7C8AetqzAK8
+        MhQyAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdSaveAndNext.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAARlJREFUOE+d
+        kzFLw1AUhYOzkz9CERzc/Qf+FYk4OggidO7goLuLOGSw0C6xtFmDFYmbEjoEXYpKyPIiKa+c4019z9RH
+        64WPvHdzztcu8TC7B2caBEHgBBkWzMHyNNP6sjvUZVlahGFI6jsyDQkX/S++SNPUwvd9Ut/5Y+OpLeHl
+        tlhaUGelLoKrCZdJkjgxs1IXwXlGcHZh5qQugtbzSjQFx08EZxdmTuoiOHrgMs9zJ8j47a2mYO3wnsui
+        KHQURQvBO5Q/9YBPqX8LNk4eKVBKNUDYZKT29aTq/UhQ3Lx4oaCqKh3H8RyEXtWNxd37NsGZEhT3Om8U
+        /B4Egmz9T6x/ARZ9QAiZXI89Mi+vMij1P3b+V67HLnveDGLjK6hNDeclAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdSaveAndPrevious.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAARpJREFUOE+V
+        k7FKxEAQhoO1lQ+hCBb2voGvIhFLiwM5sLaw0N5GLFIoaJM7NG1Qkdgp4YqgzaES0mwksvL/mb1szN1i
+        Bj6YnZnvD1ecZ9fmzlCDIAic4EaUpjA8yLQ+vb7TZVm2CMOQmDduOiEcjL+5SNO0he/7xLz5sclPO4SP
+        y+LfAeZWdAk4m3KYJIkT+1Z0CTjOCHoX9p3oEnD40otuwP4zQe/CvhO9DvCP1jjM89wJxb3HdgDkL33L
+        kKIodBRFc8EO4tLufRMAaVrd6Ae1zQAbpVQHiCuDpzoAR2/qQo8+1gl6G+zjOJ5RVRXF1ZPXJiDIlheC
+        /d+CuHX1XgeYn3A+8Qh6m0V/pplsCsfjzw1KMupf/WXP+wXqxyuoYAvYZAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdAddTaxRec.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIGNIUk0AAIcKAACMCgAA/uoAAH8HAACB
+        AgAA6qwAADnhAAAeKy+dH4IAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAJ6SURBVDhPhZJdSFNhHMbPua28
+        2U0geBG0oLHVhUhaYBlmrlYUKXhhF14skxplSENLlG6im7oICqHyZnXTh0i1PlawuS+no9Ys3XRama6g
+        j32dfTh1T//3HduRGfTCwzm85/k/7+885wgAuJr7+o6QTv1HW0/09grHe3qEY93dXMUAetC+lMshtbyM
+        qNWK6NIS/mQy+J1Ocw2PjIB5SMp/BtDm6czKCiQaitls+CVJ+BGPIxyNYjESwX2zmWwA85GU6wKOGo0d
+        n2bj+BiKI0an+adj+BCMwheI4v1UBDdNpqKUWu1lksBUDNB1dZ3Jrq4ilc0ibrfnSQi9lIS9DvOS2Iwc
+        0NjZeXbqcwKTcwnEHQ5OMjETW0fybjIC5iUJ12pq5IADBoNhmQgyVGLC6eQkSSqylIQVy7yvKyoEjyjK
+        Afs7Os4Fv0oIfJGQcLk4SaGTUpLzOt2NOVEcconivmJArV7fuUqfkVFIbjcnSRNFKcnM/Dz09fVm9Pdj
+        WBRtxYDdbW0XZr4lMT2fhDQ6ykkKnRRIvN4XGLj3EGkKaigvvz4oCA3FgF2trV05umEUSY+Hk2TpvyiQ
+        fF94C8ezQ0iHu7G9quqlQqHYcUegVQiobGm5GFpIIbSQRHJsjJMUOvH5XsHyqJEPm27V4vDJPQNbKiuF
+        drVaDtjZ1GSkK3KMYHyckzCKn2ErnM/zJz+5W4dQ0ALmJbEZOWCbVntpdjEFphQFMBL/hB9vHudPfnB7
+        L+z2p7wT5iWxGTlgc3X1FbrylfJ6wfpwm/sBKYihwTrMTVs40QqRMS+JzcgBm9Rq/UaV6upasYqaD24I
+        qKorTGv3mbdMoxHKNBrhL6P+vFD96kbdAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.ImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.LargeImageList" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="LeftRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LeftRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LeftRebar1.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LeftRebar1.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="LeftRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LeftRebar1.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LeftRebar1.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LeftRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="RightRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RightRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="RightRebar1.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="RightRebar1.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="RightRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RightRebar1.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RightRebar1.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RightRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TopRebar1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TopRebar1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="TopRebar1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TopRebar1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TopRebar1.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TopRebar1.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TopRebar1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TopRebar1.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TopRebar1.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TopRebar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiButton1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiButton1.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiButton1.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiButton1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiButton1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="uiButton1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="uiButton1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiButton1.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiButton1.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="uiButton1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiButton1.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiButton1.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiButton1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileIDLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileIDLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileIDLabel.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileIDLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="fileIDLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="fileIDLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="fileIDLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="fileIDLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="fileIDLabel.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="fileIDLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fileIDLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fileIDLabel.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fileIDLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileIDucFileSelectBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileIDucFileSelectBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileIDucFileSelectBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileIDucFileSelectBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="fileIDucFileSelectBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="fileIDucFileSelectBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="fileIDucFileSelectBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="fileIDucFileSelectBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="fileIDucFileSelectBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="fileIDucFileSelectBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fileIDucFileSelectBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fileIDucFileSelectBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fileIDucFileSelectBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingDifferenceNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingDifferenceNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingDifferenceNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingDifferenceNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="taxingDifferenceNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="taxingDifferenceNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="taxingDifferenceNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="taxingDifferenceNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="taxingDifferenceNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="taxingDifferenceNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="taxingDifferenceNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="taxingDifferenceNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="taxingDifferenceNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingDifferenceLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingDifferenceLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingDifferenceLabel.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="taxingDifferenceLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="taxingDifferenceLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="taxingDifferenceLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="taxingDifferenceLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="taxingDifferenceLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="taxingDifferenceLabel.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="taxingDifferenceLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="taxingDifferenceLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="taxingDifferenceLabel.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="taxingDifferenceLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label30.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label30.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label30.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label30.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label30.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label30.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label30.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label30.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label30.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label30.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label30.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label30.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <assembly alias="Janus.Windows.CalendarCombo.v4" name="Janus.Windows.CalendarCombo.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" />
+  <data name="dateTaxedBillingReview.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dateTaxedBillingReview.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="dateTaxedBillingReview.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateTaxedBillingReview.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateTaxedBillingReview.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateTaxedBillingReview.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateTaxedBillingReview.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="dateTaxedBillingReview.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dateTaxedBillingReview.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dateTaxedBillingReview.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dateTaxedBillingReview.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dateTaxedBillingReview.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dateTaxedBillingReview.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dateTaxedBillingReview.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dateTaxedBillingReview.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalTaxedNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalTaxedNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalTaxedNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalTaxedNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="netTotalTaxedNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="netTotalTaxedNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="netTotalTaxedNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalTaxedNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalTaxedNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalTaxedNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalTaxedNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalTaxedNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalTaxedNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label38.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label38.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label38.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label38.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label38.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label38.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label38.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label38.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label38.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label38.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label38.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label38.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label38.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalClaimedNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalClaimedNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalClaimedNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalClaimedNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="netTotalClaimedNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="netTotalClaimedNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="netTotalClaimedNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalClaimedNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalClaimedNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalClaimedNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalClaimedNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalClaimedNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalClaimedNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalClaimedLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalClaimedLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalClaimedLabel.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalClaimedLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="netTotalClaimedLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="netTotalClaimedLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="netTotalClaimedLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalClaimedLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalClaimedLabel.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalClaimedLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalClaimedLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalClaimedLabel.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalClaimedLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalTaxedLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalTaxedLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalTaxedLabel.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="netTotalTaxedLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="netTotalTaxedLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="netTotalTaxedLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="netTotalTaxedLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalTaxedLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalTaxedLabel.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="netTotalTaxedLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalTaxedLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalTaxedLabel.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="netTotalTaxedLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxExemptTaxedNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG9SURBVDhPpU/NLgNhFG0isWoiqSpSIRXqXwQb8btp
+        FAlhyQuwtPMGNl7AGyhiLxZ+StFqBEGqEaIl1N9MZ6alXRzf/Wa+IYIIJzmZL/eec+4Zy3cIztnbGO8N
+        thnj34OZIsfLLpwH6kFvY/w7MIOXEfK1B9rDAEK+AgrxGuufwYQ5dPFkpQJZbYRTtKCdIfseTDQa9Nmh
+        3HrNgNSj2WLUkH0NJsilS5FVN7KpMbARp96iQbTI5eKvwJYTdElN9CGrDpsBmeQQUgmvaDHBxZ/BFla6
+        EN2oQVYZQkYefA947ue8CNSJFlZu+gg2nArNO9ilXmSkAbw+9ZkBrwkPp3bdA9KQlpsE2MBGyXTh5aYb
+        6XgX0rFOTI6XcKav2nXGOnC5XSta2Aw7D5gOLxZCjbZCizRBO22AelLPqZ026jNitBnKWYtoMS3MTkqM
+        B9xQDtxIhl1IhsqQDJaav6CEy/lOPayCelSN2FalaOGkgNn9pSJmLIe844S8VQR50wHJ7zAD5EAx31Eo
+        Ud5zIbzAW8xSQORut5KLpI0CSOv5kNZs+tekXd/5iQ52oBBxv4u3oIBt30we/kLyWgD8g7C8AetqzAK8
+        MhQyAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="disbursementTaxedTaxNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxExemptClaimedNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="officeIDucOfficeSelectBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="officeIDucOfficeSelectBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="officeIDucOfficeSelectBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="officeIDucOfficeSelectBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="officeIDucOfficeSelectBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="officeIDucOfficeSelectBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="officeIDucOfficeSelectBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="officeIDucOfficeSelectBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="officeIDucOfficeSelectBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="officeIDucOfficeSelectBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="officeIDucOfficeSelectBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="officeIDucOfficeSelectBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="officeIDucOfficeSelectBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fileTotalTaxedNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxedNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxedNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxedNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementTaxedNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementTaxedNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="disbursementTaxedNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementTaxedNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxedNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxedNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementTaxedNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxedNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxedNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementTaxedNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sINMaskedEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sINMaskedEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sINMaskedEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sINMaskedEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="sINMaskedEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="sINMaskedEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="sINMaskedEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="sINMaskedEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="sINMaskedEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="sINMaskedEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="sINMaskedEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="sINMaskedEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="sINMaskedEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="officerIDucContactSelectBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="officerIDucContactSelectBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="officerIDucContactSelectBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="officerIDucContactSelectBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="officerIDucContactSelectBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="officerIDucContactSelectBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="officerIDucContactSelectBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="officerIDucContactSelectBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="officerIDucContactSelectBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="officerIDucContactSelectBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="officerIDucContactSelectBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="officerIDucContactSelectBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="officerIDucContactSelectBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedTaxNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedTaxNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementClaimedNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="disbursementClaimedNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementClaimedNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.DayOfWeekAbbreviation" type="Janus.Windows.CalendarCombo.DayOfWeekAbbreviation, Janus.Windows.CalendarCombo.v4">
+    <value>UseFirstLetter</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.FirstDayOfWeek" type="Janus.Windows.CalendarCombo.CalendarDayOfWeek, Janus.Windows.CalendarCombo.v4">
+    <value>Default</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.HeaderFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.WeekNumbers" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="calendarCombo2.DropDownCalendar.WeekRule" type="System.Globalization.CalendarWeekRule, mscorlib">
+    <value>FirstDay</value>
+  </data>
+  <data name="calendarCombo2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calendarCombo2.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calendarCombo2.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calendarCombo2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="calendarCombo2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="calendarCombo2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="calendarCombo2.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="calendarCombo2.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="calendarCombo2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="calendarCombo2.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="calendarCombo2.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="calendarCombo2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label33.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label33.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label33.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label33.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label33.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label33.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label33.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label33.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label33.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label33.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label33.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label33.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesTaxedNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="feesTaxedNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesTaxedNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericEditBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericEditBox1.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericEditBox1.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericEditBox1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="numericEditBox1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="numericEditBox1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="numericEditBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="numericEditBox1.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="numericEditBox1.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="numericEditBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numericEditBox1.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numericEditBox1.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numericEditBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedTaxLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedTaxLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedTaxLabel.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedTaxLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesTaxedTaxLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="feesTaxedTaxLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesTaxedTaxLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedTaxLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedTaxLabel.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedTaxLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedTaxLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedTaxLabel.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedTaxLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label32.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label32.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label32.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label32.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label32.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label32.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label32.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label32.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label32.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label32.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label32.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label32.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label31.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label31.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label31.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label31.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label31.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label31.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label31.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label31.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label31.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label31.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label31.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label31.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedTaxNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedNumericEditBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedNumericEditBox.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedNumericEditBox.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedNumericEditBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesClaimedNumericEditBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="feesClaimedNumericEditBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesClaimedNumericEditBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedNumericEditBox.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedNumericEditBox.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedNumericEditBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedNumericEditBox.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedNumericEditBox.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedNumericEditBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label27.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label27.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label27.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label27.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label27.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label27.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label27.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label27.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label27.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label27.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label27.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label27.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedLabel.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesClaimedLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="feesClaimedLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesClaimedLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedLabel.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedLabel.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label29.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label29.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label29.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label29.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label29.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label29.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label29.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label29.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label29.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label29.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label29.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label29.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedTaxLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedTaxLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedTaxLabel.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesClaimedTaxLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesClaimedTaxLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="feesClaimedTaxLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesClaimedTaxLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedTaxLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedTaxLabel.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesClaimedTaxLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedTaxLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesClaimedTaxLabel.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedLabel.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementClaimedLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="disbursementClaimedLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementClaimedLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedLabel.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedLabel.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxLabel.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="disbursementClaimedTaxLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="disbursementClaimedTaxLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedTaxLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedTaxLabel.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="disbursementClaimedTaxLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedTaxLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="disbursementClaimedTaxLabel.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedLabel.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedLabel.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="feesTaxedLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesTaxedLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="feesTaxedLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="feesTaxedLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedLabel.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedLabel.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="feesTaxedLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedLabel.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedLabel.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="feesTaxedLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBeginTaxation.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBeginTaxation.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBeginTaxation.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBeginTaxation.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnBeginTaxation.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="btnBeginTaxation.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnBeginTaxation.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnBeginTaxation.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnBeginTaxation.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnBeginTaxation.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnBeginTaxation.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnBeginTaxation.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnBeginTaxation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIRPContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIRPContainer.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIRPContainer.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIRPContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlIRPContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlIRPContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlIRPContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlIRPContainer.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlIRPContainer.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlIRPContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlIRPContainer.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlIRPContainer.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlIRPContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIRP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="$this.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label28.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label28.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label28.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label28.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label28.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label28.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label28.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label28.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label28.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label28.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label28.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label28.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.AutoHideButtonVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.BorderCaption" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.DefaultPanelSettings.CaptionVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.AllowDrag" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.MaxTabSize" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.ShowCloseButton" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.TabCaptionTrimming" type="System.Drawing.StringTrimming, System.Drawing">
+    <value>Character</value>
+  </data>
+  <data name="uiPanelManager1.TabbedMdiSettings.UseFormIcons" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pnlBillingReview.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlBillingReview.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlBillingReview.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlBillingReview.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlBillingReview.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlBillingReview.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlBillingReview.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlBillingReview.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlBillingReview.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlBillingReview.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlBillingReview.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlBillingReview.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlBillingReviewContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlBillingReviewContainer.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlBillingReviewContainer.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlBillingReviewContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlBillingReviewContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlBillingReviewContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlBillingReviewContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlBillingReviewContainer.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlBillingReviewContainer.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlBillingReviewContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlBillingReviewContainer.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlBillingReviewContainer.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlBillingReviewContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlBillingReview.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGrid.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGrid.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGrid.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGrid.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlGrid.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlGrid.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlGrid.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlGrid.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlGrid.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlGrid.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlGrid.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlGrid.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlGridContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGridContainer.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGridContainer.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGridContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlGridContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlGridContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlGridContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlGridContainer.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlGridContainer.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlGridContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlGridContainer.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlGridContainer.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlGridContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGrid.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSRP.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSRP.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSRP.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSRP.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlSRP.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlSRP.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlSRP.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlSRP.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlSRP.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlSRP.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlSRP.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlSRP.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlSRPContainer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSRPContainer.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSRPContainer.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSRPContainer.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlSRPContainer.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pnlSRPContainer.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pnlSRPContainer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlSRPContainer.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlSRPContainer.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnlSRPContainer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlSRPContainer.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlSRPContainer.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pnlSRPContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSRP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

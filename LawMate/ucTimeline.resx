@@ -1,0 +1,1097 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="startDateLabel.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="startDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="startDateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="startDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 68</value>
+  </data>
+  <data name="startDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="startDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="startDateLabel.Text" xml:space="preserve">
+    <value>Start Time:</value>
+  </data>
+  <data name="&gt;&gt;startDateLabel.Name" xml:space="preserve">
+    <value>startDateLabel</value>
+  </data>
+  <data name="&gt;&gt;startDateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;startDateLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;startDateLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="endDateLabel.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="endDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="endDateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="endDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 95</value>
+  </data>
+  <data name="endDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="endDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="endDateLabel.Text" xml:space="preserve">
+    <value>End Time:</value>
+  </data>
+  <data name="&gt;&gt;endDateLabel.Name" xml:space="preserve">
+    <value>endDateLabel</value>
+  </data>
+  <data name="&gt;&gt;endDateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;endDateLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;endDateLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="subjectLabel.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="subjectLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="subjectLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="subjectLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 68</value>
+  </data>
+  <data name="subjectLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="subjectLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="subjectLabel.Text" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="&gt;&gt;subjectLabel.Name" xml:space="preserve">
+    <value>subjectLabel</value>
+  </data>
+  <data name="&gt;&gt;subjectLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subjectLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;subjectLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label1.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 18</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>666, 33</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>You must enter the time based on your time zone, but adjusted for the member's time zone (e.g enter 1:00 pm EST if you want the hearing to display to the member as 10:00 am PST)</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 94</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Time Zone:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblReminder.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblReminder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReminder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblReminder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblReminder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 121</value>
+  </data>
+  <data name="lblReminder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="lblReminder.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblReminder.Text" xml:space="preserve">
+    <value>Reminder:</value>
+  </data>
+  <data name="&gt;&gt;lblReminder.Name" xml:space="preserve">
+    <value>lblReminder</value>
+  </data>
+  <data name="&gt;&gt;lblReminder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReminder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblReminder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="timelineBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>308, 17</value>
+  </data>
+  <data name="timeLine1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="Janus.Windows.TimeLine.v4" name="Janus.Windows.TimeLine.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" />
+  <data name="timeLine1.BottomTier.Interval" type="Janus.Windows.TimeLine.TimeLineInterval, Janus.Windows.TimeLine.v4">
+    <value>Minute</value>
+  </data>
+  <data name="timeLine1_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;TimeLineLayoutData&gt;&lt;Fields Collection="true" ElementName="Field"&gt;&lt;Field0 ID="StartDateLocal"&gt;&lt;DataMember&gt;StartDateLocal&lt;/DataMember&gt;&lt;Key&gt;StartDateLocal&lt;/Key&gt;&lt;TypeCode&gt;DateTime&lt;/TypeCode&gt;&lt;DefaultGroupFormatMode&gt;UseIFormattable&lt;/DefaultGroupFormatMode&gt;&lt;DefaultGroupFormatString&gt;yyyy'/'MM'/'dd hh:mmtt&lt;/DefaultGroupFormatString&gt;&lt;/Field0&gt;&lt;Field1 ID="EndDateLocal"&gt;&lt;DataMember&gt;EndDateLocal&lt;/DataMember&gt;&lt;Key&gt;EndDateLocal&lt;/Key&gt;&lt;TypeCode&gt;DateTime&lt;/TypeCode&gt;&lt;DefaultGroupFormatMode&gt;UseIFormattable&lt;/DefaultGroupFormatMode&gt;&lt;DefaultGroupFormatString&gt;yyyy'/'MM'/'dd hh:mmtt&lt;/DefaultGroupFormatString&gt;&lt;/Field1&gt;&lt;Field2 ID="Subject"&gt;&lt;DataMember&gt;Subject&lt;/DataMember&gt;&lt;Key&gt;Subject&lt;/Key&gt;&lt;DefaultGroupFormatMode&gt;UseIFormattable&lt;/DefaultGroupFormatMode&gt;&lt;/Field2&gt;&lt;Field3 ID="ContactId"&gt;&lt;DataMember&gt;ContactId&lt;/DataMember&gt;&lt;Key&gt;ContactId&lt;/Key&gt;&lt;DefaultGroupFormatMode&gt;UseIFormattable&lt;/DefaultGroupFormatMode&gt;&lt;/Field3&gt;&lt;Field4 ID="Tentative"&gt;&lt;DataMember&gt;Tentative&lt;/DataMember&gt;&lt;Key&gt;Tentative&lt;/Key&gt;&lt;DefaultGroupFormatMode&gt;UseIFormattable&lt;/DefaultGroupFormatMode&gt;&lt;/Field4&gt;&lt;Field5 ID="Vacation"&gt;&lt;DataMember&gt;Vacation&lt;/DataMember&gt;&lt;Key&gt;Vacation&lt;/Key&gt;&lt;DefaultGroupFormatMode&gt;UseIFormattable&lt;/DefaultGroupFormatMode&gt;&lt;/Field5&gt;&lt;/Fields&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="FormatConditionTentative"&gt;&lt;FieldIndex&gt;4&lt;/FieldIndex&gt;&lt;ItemsBarFormatStyle&gt;&lt;BackColor&gt;255, 128, 0&lt;/BackColor&gt;&lt;/ItemsBarFormatStyle&gt;&lt;Key&gt;FormatConditionTentative&lt;/Key&gt;&lt;Value1&gt;True&lt;/Value1&gt;&lt;/Condition0&gt;&lt;Condition1 ID="FormatConditionVacation"&gt;&lt;FieldIndex&gt;5&lt;/FieldIndex&gt;&lt;ItemsBarFormatStyle&gt;&lt;BackColor&gt;Red&lt;/BackColor&gt;&lt;/ItemsBarFormatStyle&gt;&lt;Key&gt;FormatConditionVacation&lt;/Key&gt;&lt;Value1&gt;True&lt;/Value1&gt;&lt;/Condition1&gt;&lt;/FormatConditions&gt;&lt;/TimeLineLayoutData&gt;</value>
+  </data>
+  <data name="timeLine1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 8.25pt</value>
+  </data>
+  <data name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>183, 69</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACM
+        DAAAAk1TRnQBSQFMAgEBBQEAAbwBAQHAAQEBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wEAAfYB9AL2ARoFegGa
+        ARsB9gMbMAAC9gH0AZoBUwZZAXoBGgH0AfYB9DAAAfYB/wGaAVMBWQZ6AVkBUwEaAvYwAAH2AZoBUwFZ
+        AXoGWQF6AVkBUwEbAfQwAAH0AlMKWQFTAXoB9jAAAZoCUwpZAlMBwzAAAXoOUwGaMAABdQJTAlkKUwF6
+        MAABdQFTB1kGUwF6MAABegFTDFkBUwGaMAABmgFTDFkBUwEaMAABGwF6ATgKWQE4AXoB/zAAARsBGgJZ
+        CHoCWQHDAfYwAALDAZoBWQF6BpoBegFZARoB/wH2MAADwwEaAXoCmgMaAZoBegEbAfQB9gH0MAACGgLD
+        ARsFmgEaAcMCGwHDAfQ0AAEJAbMC1AG0ARkGAAEaAZkLUgEaAgAFmgF5BHgBeQWaBBoCwwSaARoEwwEb
+        AgAB9AHUAdUB2wPcAdsB1AHzBAABdAEbARoEmgV6AcMBUgIAApoBGgGaAVEBTwROAXABcgF5A5oDGgHD
+        AZoBdAFMA00BdAGaARsDwwIAAdQC2wLcAgkBGQEJAdQB8AMAAVIB9gGgApoDegRZAcMBUgIAAhoBmQFP
+        CE4BcQF5A5oBGgHDAXQBRgZNAUwBFgEaAsMCAAHVA9wCCQEZAfMBvAHcAdQB/wIAAVIB9gHDAaADmgR6
+        AVkB9gFSAgABGgGaAU8KTgFxAZkCmgGgAZQBRgFMB00BRgF0AsMCAAEZAdUC3AEJAhkB/wG8AQkB1AH/
+        AgABUgH2AsMCmgKZAZoDegH2AVICAAHDAZcMTgFyA5oCRghNAUwBRgGZAcMCAAH/AdQC3AEJARkB8AEa
+        AbwB3AHVAwABUgL/AfYB9AH2ARoBBwGZA3oB9gFSAgABGg5OAZkBmgF0AUUBRgFNB0wBTQFGAW8BwwMA
+        AfQB1AHbAQkB9wJLAbsB1AH/AwABUgH2AXoBUgF0AVIC9AHyAfMC9gH/AVICAAGYAkgLTgFIAXMBmgFv
+        AUQJRgFHAUYBRQEaBAAB/wEJAdQBSwJKAZIFAAFYAfYCmgHvAbUBdAdSAgAB7QFIDE4BSAFyAZoBTAFF
+        BE0HRgFEAZoGAAH/BEsBvAQAAVgB9gOaAQcBtQMJAbQB9gH/AXkCAAGYAUgCTgFwAk4BcAZOAUgBcgGa
+        AUwBRgZNAUcERgFFAZoGAAH/Am4CcwF0Af8DAAFYBf8B8AG1AQkBtAG1AhwBGgH/AQABmA5OAXgBmgFv
+        AUYKTQJGAZoGAAH3AW4EdAH0AwAHeQHxArUB8AEHAvcBkgHyARoCTglUAVUCTgGZAZoBdAFGAUwJTQFG
+        AW8BmgUAAf8BFAFKAXQBmQGaAZkB9AsAAf8B7wG8AfABvAHwAQcB7QH2AZEBTgpWAU4BdwEaApoCTAjj
+        AU0BRgKaBQAB9AEUARUBmQGaAhoB/wwAAfMB7wHwAe8B7QEHAewB9gEbAXEBTwhXAVYBTgGZAcMCmgF5
+        AUwB4wGUBHUCFgFMAXUCmgUAAf8BbQEUAewBHAHtARwB/wwAAfMB7wHyAZICBwHwAvYB8AFxAVYCeQJY
+        AnkBVwFPAZkCwwOaAXkBTAEWBZQB4wF0A5oGAAG8AW0B6gHrAe0BvAH/DAAB/wHvAfIB8AEHAgAC9AH2
+        ARsBcgF4AZkBCAEbAQgBmAGXAQgDwwSaAXoCdAKTAXQBdQF6BJoHAAEHAesB9wHzDwAB8gHvAZIB8AIA
+        BfYBCAHvA5gBCAEbAfYDwweaAnoHmgFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEBAQABAQYAAQEWAAP/
+        gQAB8AE/AQABAwQAAcABDwEAAQMEAAHAAQcBAAEDBAABwAEDAQABAwQAAcABAwEAAQMEAAHAAQcBAAED
+        BAAB4AEHAQABAwQAAfABHwEAAQMEAAH8AQ8BAAEDBAAB/AEHAQABAQQAAfwBBwYAAfgBBwH/BQAB+AEH
+        Af8BgAQAAfgBBwH/AYAEAAH8AQcB/wGDBAAB/gEfAf8BwxoACw==
+</value>
+  </data>
+  <data name="timeLine1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 142</value>
+  </data>
+  <data name="timeLine1.MiddleTier.Interval" type="Janus.Windows.TimeLine.TimeLineInterval, Janus.Windows.TimeLine.v4">
+    <value>Day</value>
+  </data>
+  <data name="timeLine1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 230</value>
+  </data>
+  <data name="timeLine1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="timeLine1.Text" xml:space="preserve">
+    <value>timeLine1</value>
+  </data>
+  <data name="&gt;&gt;timeLine1.Name" xml:space="preserve">
+    <value>timeLine1</value>
+  </data>
+  <data name="&gt;&gt;timeLine1.Type" xml:space="preserve">
+    <value>Janus.Windows.TimeLine.TimeLine, Janus.Windows.TimeLine.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;timeLine1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;timeLine1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="startDateCalendarCombo.CustomFormat" xml:space="preserve">
+    <value>ddd yyyy'/'MM'/'dd</value>
+  </data>
+  <data name="appointmentBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="atriumDB.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <assembly alias="Janus.Windows.CalendarCombo.v4" name="Janus.Windows.CalendarCombo.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" />
+  <data name="startDateCalendarCombo.DateFormat" type="Janus.Windows.CalendarCombo.DateFormat, Janus.Windows.CalendarCombo.v4">
+    <value>Custom</value>
+  </data>
+  <data name="startDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 63</value>
+  </data>
+  <data name="startDateCalendarCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 21</value>
+  </data>
+  <data name="startDateCalendarCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;startDateCalendarCombo.Name" xml:space="preserve">
+    <value>startDateCalendarCombo</value>
+  </data>
+  <data name="&gt;&gt;startDateCalendarCombo.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;startDateCalendarCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;startDateCalendarCombo.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="endDateCalendarCombo.CustomFormat" xml:space="preserve">
+    <value>ddd yyyy'/'MM'/'dd</value>
+  </data>
+  <data name="endDateCalendarCombo.DateFormat" type="Janus.Windows.CalendarCombo.DateFormat, Janus.Windows.CalendarCombo.v4">
+    <value>Custom</value>
+  </data>
+  <data name="endDateCalendarCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 90</value>
+  </data>
+  <data name="endDateCalendarCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 21</value>
+  </data>
+  <data name="endDateCalendarCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;endDateCalendarCombo.Name" xml:space="preserve">
+    <value>endDateCalendarCombo</value>
+  </data>
+  <data name="&gt;&gt;endDateCalendarCombo.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;endDateCalendarCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;endDateCalendarCombo.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="subjectEditBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="subjectEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 63</value>
+  </data>
+  <data name="subjectEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 21</value>
+  </data>
+  <data name="subjectEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;subjectEditBox.Name" xml:space="preserve">
+    <value>subjectEditBox</value>
+  </data>
+  <data name="&gt;&gt;subjectEditBox.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;subjectEditBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;subjectEditBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnAddAttendee.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnAddAttendee.AssociatedUICommand" xml:space="preserve">
+    <value>cmdAddResource</value>
+  </data>
+  <data name="uiContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>479, 14</value>
+  </data>
+  <data name="uiCommandManager1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>18, 71</value>
+  </data>
+  <data name="BottomRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="BottomRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 375</value>
+  </data>
+  <data name="BottomRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>713, 0</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Name" xml:space="preserve">
+    <value>BottomRebar1</value>
+  </data>
+  <data name="&gt;&gt;BottomRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="cmdAddAttendee.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdAddAttendee.Key" xml:space="preserve">
+    <value>cmdAddAttendee</value>
+  </data>
+  <data name="cmdAddAttendee.Text" xml:space="preserve">
+    <value>Participant...</value>
+  </data>
+  <data name="cmdAddResource.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdAddResource.Key" xml:space="preserve">
+    <value>cmdAddResource</value>
+  </data>
+  <data name="cmdAddResource.Text" xml:space="preserve">
+    <value>Resource...</value>
+  </data>
+  <data name="cmdRemoveAttendee.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAP//////AP8A//8AAAD//wD/AAAA/wAAAEA4QCkjLFdRWkI+SHFvel9hb36CkZGW
+        pjk6PEhJS7W/0b3J3Ku1xlpjcJGox6O73KG42IaZsrLJ6MHV72dxfkFESGp8kmd4ja/E33+PorjO6mRv
+        fUNKU8PX77PE2FRbZMTU5668zZCbqUlOVD5CR3Z9hlVhb6a70mx4hcTY76S1yMbZ777Q5Ky7zJuntXV+
+        iFRaYX+HkG1zehAYICAoMD9KVTA4QGxzend+hUJFSFpeYl9xgElbaJyrtZOhqTg6O3aDiDI8OUBAQDAw
+        MCAgIBAQEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABOACwAAAAAEAAQAAAIhgCdCBxIsKDAIgyKGFxYREkECgttGBloQ4cPJQ8K2lDQgmCNH0qUABkIQwmS
+        GgZVhMzhxIGSGzYWOpEhxAcECC5UyBQYYgmCIBl3OumxZImPBUJ78Ghg48SSEDJZMMEh0AaHIxMLVkjQ
+        gaCNFSMKZtjBw0PBHEkyEBzShMTCDywJEhFKd2FAADs=
+</value>
+  </data>
+  <data name="cmdRemoveAttendee.Key" xml:space="preserve">
+    <value>cmdRemoveAttendee</value>
+  </data>
+  <data name="cmdRemoveAttendee.Text" xml:space="preserve">
+    <value>Remove Participant</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="ReminderDropDown.Column2" xml:space="preserve">
+    <value>ReminderEng</value>
+  </data>
+  <data name="ReminderDropDown.DisplayMember" xml:space="preserve">
+    <value>ReminderEng</value>
+  </data>
+  <data name="ReminderDropDown.DisplayNameColumn1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReminderDropDown.DisplayNameColumn2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReminderDropDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ReminderDropDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 117</value>
+  </data>
+  <data name="ReminderDropDown.Middle" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="ReminderDropDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 21</value>
+  </data>
+  <data name="ReminderDropDown.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;ReminderDropDown.Name" xml:space="preserve">
+    <value>ReminderDropDown</value>
+  </data>
+  <data name="&gt;&gt;ReminderDropDown.Type" xml:space="preserve">
+    <value>LawMate.UserControls.ucMultiDropDown, AtriumSADE, Version=4.1.5645.16742, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;ReminderDropDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReminderDropDown.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RecurrenceUIButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="RecurrenceUIButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 90</value>
+  </data>
+  <data name="RecurrenceUIButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 23</value>
+  </data>
+  <data name="RecurrenceUIButton.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="RecurrenceUIButton.Text" xml:space="preserve">
+    <value>Recurrence</value>
+  </data>
+  <data name="RecurrenceUIButton.ToolTipText" xml:space="preserve">
+    <value>Enable or Modify recurrence of this appointment</value>
+  </data>
+  <data name="&gt;&gt;RecurrenceUIButton.Name" xml:space="preserve">
+    <value>RecurrenceUIButton</value>
+  </data>
+  <data name="&gt;&gt;RecurrenceUIButton.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;RecurrenceUIButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RecurrenceUIButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnAddAttendees.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnAddAttendees.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 90</value>
+  </data>
+  <data name="btnAddAttendees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 23</value>
+  </data>
+  <data name="btnAddAttendees.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnAddAttendees.Text" xml:space="preserve">
+    <value>Add Others</value>
+  </data>
+  <data name="&gt;&gt;btnAddAttendees.Name" xml:space="preserve">
+    <value>btnAddAttendees</value>
+  </data>
+  <data name="&gt;&gt;btnAddAttendees.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;btnAddAttendees.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAddAttendees.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkVacation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 117</value>
+  </data>
+  <data name="chkVacation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 19</value>
+  </data>
+  <data name="chkVacation.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="chkVacation.Text" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="&gt;&gt;chkVacation.Name" xml:space="preserve">
+    <value>chkVacation</value>
+  </data>
+  <data name="&gt;&gt;chkVacation.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;chkVacation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkVacation.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkShowAsBusy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 117</value>
+  </data>
+  <data name="chkShowAsBusy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 19</value>
+  </data>
+  <data name="chkShowAsBusy.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="chkShowAsBusy.Text" xml:space="preserve">
+    <value>Show As Busy</value>
+  </data>
+  <data name="&gt;&gt;chkShowAsBusy.Name" xml:space="preserve">
+    <value>chkShowAsBusy</value>
+  </data>
+  <data name="&gt;&gt;chkShowAsBusy.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;chkShowAsBusy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkShowAsBusy.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkTentative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 117</value>
+  </data>
+  <data name="chkTentative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 19</value>
+  </data>
+  <data name="chkTentative.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="chkTentative.Text" xml:space="preserve">
+    <value>Tentative</value>
+  </data>
+  <data name="&gt;&gt;chkTentative.Name" xml:space="preserve">
+    <value>chkTentative</value>
+  </data>
+  <data name="&gt;&gt;chkTentative.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;chkTentative.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkTentative.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="uiGroupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="uiGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="uiGroupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="uiGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>707, 54</value>
+  </data>
+  <data name="uiGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="uiGroupBox1.Text" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.Name" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblTZ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblTZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 94</value>
+  </data>
+  <data name="lblTZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="lblTZ.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblTZ.Text" xml:space="preserve">
+    <value>TimeZone</value>
+  </data>
+  <data name="&gt;&gt;lblTZ.Name" xml:space="preserve">
+    <value>lblTZ</value>
+  </data>
+  <data name="&gt;&gt;lblTZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTZ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTZ.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblConflict.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblConflict.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 63</value>
+  </data>
+  <data name="lblConflict.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 48</value>
+  </data>
+  <data name="lblConflict.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblConflict.Name" xml:space="preserve">
+    <value>lblConflict</value>
+  </data>
+  <data name="&gt;&gt;lblConflict.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblConflict.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblConflict.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="calendarCombo2.CustomFormat" xml:space="preserve">
+    <value>hh:mm tt</value>
+  </data>
+  <data name="calendarCombo2.DateFormat" type="Janus.Windows.CalendarCombo.DateFormat, Janus.Windows.CalendarCombo.v4">
+    <value>Custom</value>
+  </data>
+  <data name="calendarCombo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 90</value>
+  </data>
+  <data name="calendarCombo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 21</value>
+  </data>
+  <data name="calendarCombo2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;calendarCombo2.Name" xml:space="preserve">
+    <value>calendarCombo2</value>
+  </data>
+  <data name="&gt;&gt;calendarCombo2.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;calendarCombo2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;calendarCombo2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="calendarCombo1.CustomFormat" xml:space="preserve">
+    <value>hh:mm tt</value>
+  </data>
+  <data name="calendarCombo1.DateFormat" type="Janus.Windows.CalendarCombo.DateFormat, Janus.Windows.CalendarCombo.v4">
+    <value>Custom</value>
+  </data>
+  <data name="calendarCombo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 63</value>
+  </data>
+  <data name="calendarCombo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 21</value>
+  </data>
+  <data name="calendarCombo1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;calendarCombo1.Name" xml:space="preserve">
+    <value>calendarCombo1</value>
+  </data>
+  <data name="&gt;&gt;calendarCombo1.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;calendarCombo1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;calendarCombo1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="TopRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TopRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TopRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>713, 0</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Name" xml:space="preserve">
+    <value>TopRebar1</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopRebar1.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>713, 375</value>
+  </data>
+  <data name="&gt;&gt;timelineBindingSource.Name" xml:space="preserve">
+    <value>timelineBindingSource</value>
+  </data>
+  <data name="&gt;&gt;timelineBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;appointmentBindingSource.Name" xml:space="preserve">
+    <value>appointmentBindingSource</value>
+  </data>
+  <data name="&gt;&gt;appointmentBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;atriumDB.Name" xml:space="preserve">
+    <value>atriumDB</value>
+  </data>
+  <data name="&gt;&gt;atriumDB.Type" xml:space="preserve">
+    <value>lmDatasets.atriumDB, lmDatasets, Version=4.1.5645.16429, Culture=neutral, PublicKeyToken=8cb3b0da7e6a2c55</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu1.Name" xml:space="preserve">
+    <value>uiContextMenu1</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIContextMenu, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Name" xml:space="preserve">
+    <value>uiCommandManager1</value>
+  </data>
+  <data name="&gt;&gt;uiCommandManager1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommandManager, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdAddAttendee.Name" xml:space="preserve">
+    <value>cmdAddAttendee</value>
+  </data>
+  <data name="&gt;&gt;cmdAddAttendee.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdAddResource.Name" xml:space="preserve">
+    <value>cmdAddResource</value>
+  </data>
+  <data name="&gt;&gt;cmdAddResource.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRemoveAttendee.Name" xml:space="preserve">
+    <value>cmdRemoveAttendee</value>
+  </data>
+  <data name="&gt;&gt;cmdRemoveAttendee.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu2.Name" xml:space="preserve">
+    <value>uiContextMenu2</value>
+  </data>
+  <data name="&gt;&gt;uiContextMenu2.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIContextMenu, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdRemoveAttendee1.Name" xml:space="preserve">
+    <value>cmdRemoveAttendee1</value>
+  </data>
+  <data name="&gt;&gt;cmdRemoveAttendee1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdAddAttendee1.Name" xml:space="preserve">
+    <value>cmdAddAttendee1</value>
+  </data>
+  <data name="&gt;&gt;cmdAddAttendee1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;cmdAddResource1.Name" xml:space="preserve">
+    <value>cmdAddResource1</value>
+  </data>
+  <data name="&gt;&gt;cmdAddResource1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UICommand, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Name" xml:space="preserve">
+    <value>errorProvider1</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucTimeline</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="uiContextMenu2.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>482, 69</value>
+  </data>
+  <data name="cmdRemoveAttendee1.Key" xml:space="preserve">
+    <value>cmdRemoveAttendee</value>
+  </data>
+  <data name="uiContextMenu2.Key" xml:space="preserve">
+    <value>ContextMenu2</value>
+  </data>
+  <data name="uiCommandManager1.EditContextMenu.Key" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LeftRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LeftRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 375</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Name" xml:space="preserve">
+    <value>LeftRebar1</value>
+  </data>
+  <data name="&gt;&gt;LeftRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="RightRebar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="RightRebar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>713, 0</value>
+  </data>
+  <data name="RightRebar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 375</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Name" xml:space="preserve">
+    <value>RightRebar1</value>
+  </data>
+  <data name="&gt;&gt;RightRebar1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.CommandBars.UIRebar, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="cmdAddAttendee1.Key" xml:space="preserve">
+    <value>cmdAddAttendee</value>
+  </data>
+  <data name="cmdAddResource1.Key" xml:space="preserve">
+    <value>cmdAddResource</value>
+  </data>
+  <data name="uiContextMenu1.Key" xml:space="preserve">
+    <value>ContextMenu1</value>
+  </data>
+  <data name="btnAddAttendee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1000, 87</value>
+  </data>
+  <data name="btnAddAttendee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 21</value>
+  </data>
+  <data name="btnAddAttendee.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnAddAttendee.Text" xml:space="preserve">
+    <value>Add Others</value>
+  </data>
+  <data name="btnAddAttendee.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnAddAttendee.Name" xml:space="preserve">
+    <value>btnAddAttendee</value>
+  </data>
+  <data name="&gt;&gt;btnAddAttendee.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v4, Version=4.0.50.0, Culture=neutral, PublicKeyToken=21d5517571b185bf</value>
+  </data>
+  <data name="&gt;&gt;btnAddAttendee.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAddAttendee.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>316, 67</value>
+  </data>
+</root>

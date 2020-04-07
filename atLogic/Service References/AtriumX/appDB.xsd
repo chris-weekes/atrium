@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/appDB.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/appDB.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/appDB.xsd" id="appDB" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False" name="appDB">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Batch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BatchID" type="xs:int" />
+              <xs:element name="OfficerID" type="xs:int" />
+              <xs:element name="OfficeCode" type="xs:string" />
+              <xs:element name="UserName" type="xs:string" />
+              <xs:element minOccurs="0" name="Password" type="xs:string" />
+              <xs:element name="BatchDate" type="xs:dateTime" />
+              <xs:element name="Priority" type="xs:unsignedByte" />
+              <xs:element name="RunAfterDate" type="xs:dateTime" />
+              <xs:element name="JobName" type="xs:string" />
+              <xs:element minOccurs="0" name="Parameters" type="xs:string" />
+              <xs:element minOccurs="0" name="StartRunDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="EndRunDate" type="xs:dateTime" />
+              <xs:element name="Completed" type="xs:boolean" />
+              <xs:element name="Status" type="xs:string" />
+              <xs:element minOccurs="0" name="Message" type="xs:string" />
+              <xs:element minOccurs="0" name="OutputFile" type="xs:string" />
+              <xs:element name="entryUser" type="xs:string" />
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser" type="xs:string" />
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="City">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CityID" type="xs:int" />
+              <xs:element name="ProvinceCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JDCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReadOnly" type="xs:boolean" />
+              <xs:element name="Obsolete" type="xs:boolean" />
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Province">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProvinceCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ProvinceDescriptionEng" type="xs:string" />
+              <xs:element minOccurs="0" name="ProvinceDescriptionFre" type="xs:string" />
+              <xs:element minOccurs="0" name="CountryCode" type="xs:string" />
+              <xs:element minOccurs="0" name="TaxName" type="xs:string" />
+              <xs:element minOccurs="0" name="TaxRate" type="xs:decimal" />
+              <xs:element minOccurs="0" name="TypeOfWritCode" type="xs:string" />
+              <xs:element minOccurs="0" name="NameofSmallClaimsCourt" type="xs:string" />
+              <xs:element minOccurs="0" name="NameofSuperiorCourt" type="xs:string" />
+              <xs:element minOccurs="0" name="CosttoIssueSofC" type="xs:decimal" />
+              <xs:element minOccurs="0" name="SimpleContractDebtLP" type="xs:int" />
+              <xs:element minOccurs="0" name="JudgmentLP" type="xs:int" />
+              <xs:element minOccurs="0" name="WritofExecutionLP" type="xs:int" />
+              <xs:element minOccurs="0" name="PostJdgmntInterestRateType" type="xs:string" />
+              <xs:element default="false" name="RateonCostsDiffers" type="xs:boolean" />
+              <xs:element minOccurs="0" name="InterestRateonCost" type="xs:decimal" />
+              <xs:element minOccurs="0" name="PostJdgmntInterestRate" type="xs:decimal" />
+              <xs:element default="false" name="ReadOnly" type="xs:boolean" />
+              <xs:element default="false" name="Obsolete" type="xs:boolean" />
+              <xs:element name="entryUser" type="xs:string" />
+              <xs:element minOccurs="0" name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser" type="xs:string" />
+              <xs:element minOccurs="0" name="updateDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Template">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TemplateId" type="xs:int" />
+              <xs:element name="LetterName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LetterDescEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LetterDescFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DocID" type="xs:int" />
+              <xs:element minOccurs="0" name="Filename">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReadOnly" type="xs:boolean" />
+              <xs:element name="Obsolete" type="xs:boolean" />
+              <xs:element name="HQ" type="xs:boolean" />
+              <xs:element name="Agent" type="xs:boolean" />
+              <xs:element name="AboutDebtor" type="xs:boolean" />
+              <xs:element name="AboutAgent" type="xs:boolean" />
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+              <xs:element minOccurs="0" default="false" name="Export" type="xs:boolean" />
+              <xs:element name="FlagForExport" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ExportedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ImportedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Tag" type="xs:string" />
+              <xs:element minOccurs="0" name="DocType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LetterHeadName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EFileSearch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FileId" type="xs:int" />
+              <xs:element name="StatusCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OwnerOfficeId" type="xs:int" />
+              <xs:element minOccurs="0" name="LeadOfficeId" type="xs:int" />
+              <xs:element name="FileType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameF">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LeadLawyerID" type="xs:int" />
+              <xs:element minOccurs="0" name="OpponentID" type="xs:int" />
+              <xs:element minOccurs="0" name="FullFileNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LeadParalegalID" type="xs:int" />
+              <xs:element minOccurs="0" name="OfficerId" type="xs:int" />
+              <xs:element minOccurs="0" name="FullPath">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1024" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="SortKey">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OpenedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ClosedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CloseCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LinkType" type="xs:int" />
+              <xs:element minOccurs="0" name="xrefId" type="xs:int" />
+              <xs:element minOccurs="0" name="XRefName" type="xs:string" />
+              <xs:element minOccurs="0" name="ffnAKA" type="xs:string" />
+              <xs:element minOccurs="0" name="MetaType" type="xs:string" />
+              <xs:element minOccurs="0" name="Dim1Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Dim2Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Result" type="xs:string" />
+              <xs:element minOccurs="0" name="Message" type="xs:string" />
+              <xs:element minOccurs="0" name="Misc1Date" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Misc2Date" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="SIN" type="xs:string" />
+              <xs:element minOccurs="0" name="OfficeFileNum" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="List">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ListId" type="xs:int" />
+              <xs:element minOccurs="0" name="FileID" type="xs:int" />
+              <xs:element name="ListNameEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ListNameFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SyncExchange" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ExchangeName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Type" type="xs:int" />
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListMember">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" type="xs:int" />
+              <xs:element name="ListId" type="xs:int" />
+              <xs:element minOccurs="0" name="MemberListId" type="xs:int" />
+              <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TimeSlip">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ActivityTimeId" type="xs:int" />
+              <xs:element name="ActivityId" type="xs:int" />
+              <xs:element name="FileId" type="xs:int" />
+              <xs:element minOccurs="0" name="IRPId" type="xs:int" />
+              <xs:element minOccurs="0" name="OfficerId" type="xs:int" />
+              <xs:element minOccurs="0" name="OfficeId" type="xs:int" />
+              <xs:element name="Taxed" type="xs:boolean" />
+              <xs:element name="Final" type="xs:boolean" />
+              <xs:element name="Posted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Hours" type="xs:decimal" />
+              <xs:element minOccurs="0" name="FeesClaimed" type="xs:decimal" />
+              <xs:element minOccurs="0" name="FeesClaimedTax" type="xs:decimal" />
+              <xs:element minOccurs="0" name="SRPDate" type="xs:dateTime" />
+              <xs:element name="entryUser" type="xs:string" />
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser" type="xs:string" />
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+              <xs:element minOccurs="0" name="IncludeOnSRP" type="xs:boolean" />
+              <xs:element minOccurs="0" name="StartTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Filename" type="xs:string" />
+              <xs:element minOccurs="0" name="Filenumber" type="xs:string" />
+              <xs:element minOccurs="0" name="ActivityNameEng" type="xs:string" />
+              <xs:element minOccurs="0" name="StepCode" type="xs:string" />
+              <xs:element minOccurs="0" name="SRPID" type="xs:int" />
+              <xs:element minOccurs="0" name="ActivityNameFre" type="xs:string" />
+              <xs:element minOccurs="0" name="Comment" type="xs:string" />
+              <xs:element minOccurs="0" name="FullPath" type="xs:string" />
+              <xs:element minOccurs="0" name="ShortcutName" type="xs:string" />
+              <xs:element minOccurs="0" name="Minutes" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SRPClient">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SRPId" type="xs:int" />
+              <xs:element minOccurs="0" name="Minutes" type="xs:decimal" />
+              <xs:element minOccurs="0" name="PercentAlloc" type="xs:decimal" />
+              <xs:element minOccurs="0" name="OfficeCode" type="xs:string" />
+              <xs:element minOccurs="0" name="OfficeName" type="xs:string" />
+              <xs:element minOccurs="0" name="OfficeNameFre" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Outlook">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="From" type="xs:string" />
+              <xs:element minOccurs="0" name="To" type="xs:string" />
+              <xs:element minOccurs="0" name="Subject" type="xs:string" />
+              <xs:element minOccurs="0" name="ReceivedTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Size" type="xs:int" />
+              <xs:element minOccurs="0" name="isRead" type="xs:boolean" />
+              <xs:element minOccurs="0" name="hasAttach" type="xs:boolean" />
+              <xs:element minOccurs="0" name="FullFileNumber" type="xs:string" />
+              <xs:element minOccurs="0" name="ImportedBy" type="xs:string" />
+              <xs:element minOccurs="0" name="ImportedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="icon" type="xs:base64Binary" />
+              <xs:element name="id" type="xs:string" />
+              <xs:element minOccurs="0" default="0" name="ProcessState" type="xs:int" />
+              <xs:element minOccurs="0" name="ConversationIndex" type="xs:string" />
+              <xs:element minOccurs="0" name="MailItemType" type="xs:int" />
+              <xs:element minOccurs="0" name="DuplicateThreadMatch" type="xs:int" />
+              <xs:element minOccurs="0" name="FileId" type="xs:int" />
+              <xs:element minOccurs="0" name="FileName" type="xs:string" />
+              <xs:element minOccurs="0" name="OfficeFileNum" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AutoSave">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="StepCode" type="xs:string" />
+              <xs:element minOccurs="0" name="ActivityNameEng" type="xs:string" />
+              <xs:element minOccurs="0" name="SaveDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="FullFileNumber" type="xs:string" />
+              <xs:element minOccurs="0" name="FileName" type="xs:string" />
+              <xs:element name="ActivityId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EFileSearchThread">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FileId" type="xs:int" />
+              <xs:element name="StatusCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OwnerOfficeId" type="xs:int" />
+              <xs:element minOccurs="0" name="LeadOfficeId" type="xs:int" />
+              <xs:element name="FileType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameF">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LeadLawyerID" type="xs:int" />
+              <xs:element minOccurs="0" name="OpponentID" type="xs:int" />
+              <xs:element minOccurs="0" name="FullFileNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LeadParalegalID" type="xs:int" />
+              <xs:element minOccurs="0" name="OfficerId" type="xs:int" />
+              <xs:element minOccurs="0" name="FullPath">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1024" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="SortKey">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OpenedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ClosedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="CloseCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LinkType" type="xs:int" />
+              <xs:element minOccurs="0" name="xrefId" type="xs:int" />
+              <xs:element minOccurs="0" name="XRefName" type="xs:string" />
+              <xs:element minOccurs="0" name="ffnAKA" type="xs:string" />
+              <xs:element minOccurs="0" name="MetaType" type="xs:string" />
+              <xs:element name="Thread" type="xs:string" />
+              <xs:element minOccurs="0" name="ActivityId" type="xs:int" />
+              <xs:element minOccurs="0" name="DocId" type="xs:int" />
+              <xs:element minOccurs="0" name="OfficeFileNum" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TimeSlipBranch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FileId" type="xs:int" />
+              <xs:element name="IsPrimary" type="xs:boolean" />
+              <xs:element name="PercentAlloc" type="xs:decimal" />
+              <xs:element name="OfficeCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="OfficeName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="BranchCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="BranchName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Display" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EventLog">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" msdata:AutoIncrement="true" name="EventId" type="xs:int" />
+              <xs:element name="EventTime" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="EventType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="WindowsUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LMUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="WorkAs">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ExType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ExSource">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ExMessage">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="512" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ExStack">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PLOffice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PLOfficeID" type="xs:int" />
+              <xs:element minOccurs="0" name="OfficerID" type="xs:int" />
+              <xs:element minOccurs="0" name="ContactType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="OfficeID" type="xs:int" />
+              <xs:element minOccurs="0" name="OwnerOfficeID" type="xs:int" />
+              <xs:element minOccurs="0" name="FileTypeCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="OfficeTypeCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FileStatus">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="StartLetter">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="EndLetter">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="entryDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+              <xs:element name="Mod" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="ModResult" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="Language" type="xs:string" />
+              <xs:element minOccurs="0" name="DistributionParameter" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AppSetting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SettingId" type="xs:int" />
+              <xs:element name="SettingName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SettingValue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Map">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" type="xs:int" />
+              <xs:element name="AtriumTable">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AtriumField">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="AtriumId" type="xs:int" />
+              <xs:element minOccurs="0" name="AtriumCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OtherTable">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OtherField">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="OtherId" type="xs:int" />
+              <xs:element minOccurs="0" name="OtherCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Issue">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IssueId" type="xs:int" />
+              <xs:element minOccurs="0" name="ParentIssueId" type="xs:int" />
+              <xs:element minOccurs="0" name="FileId" type="xs:int" />
+              <xs:element name="IssueNameEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IssueNameFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="IssueDescEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="IssueDescFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+              <xs:element minOccurs="0" name="ClientOfficeId" type="xs:int" />
+              <xs:element minOccurs="0" name="SortByFileNumber" type="xs:boolean" />
+              <xs:element minOccurs="0" name="LegProvisionId" type="xs:int" />
+              <xs:element minOccurs="0" name="RegProvisionId" type="xs:int" />
+              <xs:element minOccurs="0" name="AnalysisTextEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="AnalysisTextFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Provision">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProvisionId" type="xs:int" />
+              <xs:element name="LegislationId" type="xs:int" />
+              <xs:element name="ProvisionNameEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProvisionNameFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ProvisionTextEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ProvisionTextFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="AnalysisTextEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="AnalysisTextFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="URLEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="URLFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Seq" type="xs:int" />
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+              <xs:element minOccurs="0" name="ProvisionNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Legislation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LegislationId" type="xs:int" />
+              <xs:element name="LegislationNameEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LegislationNameFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LegislationDescEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LegislationDescFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="URLEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="URLFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+              <xs:element name="IsRegulation" type="xs:boolean" />
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ddLookup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LookupId" type="xs:int" />
+              <xs:element name="LookupName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+              <xs:element minOccurs="0" name="DescriptionEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DescriptionFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LookupType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Source">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="WhereClause">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="512" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IncludeObsolete" type="xs:boolean" />
+              <xs:element name="Cache" type="xs:boolean" />
+              <xs:element name="UseFileContext" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ParentId" type="xs:int" />
+              <xs:element minOccurs="0" name="PKName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FKName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="TableId" type="xs:int" />
+              <xs:element minOccurs="0" name="Sortcolumns" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ddGeneric">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GenericId" type="xs:int" />
+              <xs:element name="LookupId" type="xs:int" />
+              <xs:element minOccurs="0" name="ParentId" type="xs:int" />
+              <xs:element name="DescriptionEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="512" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriptionFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="512" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReadOnly" type="xs:boolean" />
+              <xs:element name="Obsolete" type="xs:boolean" />
+              <xs:element minOccurs="0" name="SortKey" type="xs:int" />
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PostalCodeLocation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostalCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Latitude" type="xs:decimal" />
+              <xs:element minOccurs="0" name="Longitude" type="xs:decimal" />
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OutlookCalAppMsg">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="FileId" type="xs:int" />
+              <xs:element minOccurs="0" name="NameE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="NameF">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FullFileNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="HearingStatusEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="HearingStatusFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="HearingMethodEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="HearingMethodFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:DataType="System.DateTimeOffset" minOccurs="0" name="StartDate" type="xs:anyType" />
+              <xs:element minOccurs="0" name="FirstName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LastName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ContactTypeCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ContactTypeDescEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ContactTypeDescFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="AppealLevelId" type="xs:int" />
+              <xs:element minOccurs="0" name="AppealLevelEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="AppealLevelFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ProgramId" type="xs:int" />
+              <xs:element minOccurs="0" name="ProgramDescriptionEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ProgramDescriptionFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="IsAppellant" type="xs:boolean" />
+              <xs:element minOccurs="0" name="DelegateFor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LanguageCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ddField">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FieldId" type="xs:int" />
+              <xs:element name="TableId" type="xs:int" />
+              <xs:element minOccurs="0" name="TableName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FieldName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LeftEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="512" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="LeftFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="512" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DataType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FieldType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Lookup">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="TopEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="TopFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DescEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DescFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ToolEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ToolFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="HelpEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="HelpFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+              <xs:element name="AllowInRelatedFields" type="xs:boolean" />
+              <xs:element minOccurs="0" name="DefaultSystemValue">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="InputMask">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="isFromView" type="xs:boolean" />
+              <xs:element name="isVirtualColumn" type="xs:boolean" />
+              <xs:element name="isMissing" type="xs:boolean" />
+              <xs:element minOccurs="0" name="DBFieldName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Relation">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Cardinality">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FeatureId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ddTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TableId" type="xs:int" />
+              <xs:element name="TableName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+              <xs:element minOccurs="0" name="DescriptionEng">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="DescriptionFre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="isDBTable" type="xs:boolean" />
+              <xs:element minOccurs="0" name="tblGroup">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="tblType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="isLookup" type="xs:boolean" />
+              <xs:element minOccurs="0" name="LookupName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AllowInRelatedFields" type="xs:boolean" />
+              <xs:element minOccurs="0" name="DBTableName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ShowInTOC" type="xs:boolean" />
+              <xs:element minOccurs="0" name="DefaultFormID" type="xs:int" />
+              <xs:element name="isDynamic" type="xs:boolean" />
+              <xs:element minOccurs="0" name="FeatureId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ContactSearch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ContactId" type="xs:int" />
+              <xs:element minOccurs="0" name="LastName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FirstName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="TelephoneNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="TelephoneExtension">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="CellPhone">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="EmailAddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="OfficeCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="OfficeName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="OfficerCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="OfficeId" type="xs:int" />
+              <xs:element minOccurs="0" name="FaxNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="CurrentEmployee" type="xs:boolean" />
+              <xs:element minOccurs="0" name="LegalName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="OperatingAs">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContactClass">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DisplayName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Address1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Address2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="city">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="ProvinceCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="CountryCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="PostalCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="NumFiles" type="xs:int" />
+              <xs:element minOccurs="0" name="Address3" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Msg">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MsgCode" type="xs:string" />
+              <xs:element minOccurs="0" name="MsgEng" type="xs:string" />
+              <xs:element minOccurs="0" name="MsgFre" type="xs:string" />
+              <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ddRule">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RuleId" type="xs:int" />
+              <xs:element name="TableId" type="xs:int" />
+              <xs:element minOccurs="0" name="FieldId" type="xs:int" />
+              <xs:element name="RuleTypeId" type="xs:int" />
+              <xs:element name="Enabled" type="xs:boolean" />
+              <xs:element name="RuleName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Operator1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Val1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Val2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Operator2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="MsgId" type="xs:int" />
+              <xs:element name="entryUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="entryDate" type="xs:dateTime" />
+              <xs:element name="updateUser">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="updateDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ts" type="xs:base64Binary" />
+              <xs:element minOccurs="0" name="EventId" type="xs:int" />
+              <xs:element minOccurs="0" name="ACSeriesId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="atriumDBKey9">
+      <xs:selector xpath=".//mstns:Batch" />
+      <xs:field xpath="mstns:BatchID" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:City" />
+      <xs:field xpath="mstns:CityID" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="atriumDBKey3">
+      <xs:selector xpath=".//mstns:Province" />
+      <xs:field xpath="mstns:ProvinceCode" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Template_Constraint1">
+      <xs:selector xpath=".//mstns:Template" />
+      <xs:field xpath="mstns:TemplateId" />
+    </xs:unique>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//mstns:Template" />
+      <xs:field xpath="mstns:LetterName" />
+    </xs:unique>
+    <xs:unique name="Constraint3">
+      <xs:selector xpath=".//mstns:Template" />
+      <xs:field xpath="mstns:DocID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="EFileSearch_Constraint1">
+      <xs:selector xpath=".//mstns:EFileSearch" />
+      <xs:field xpath="mstns:FileId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="List_Constraint1">
+      <xs:selector xpath=".//mstns:List" />
+      <xs:field xpath="mstns:ListId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="ListMember_Constraint1">
+      <xs:selector xpath=".//mstns:ListMember" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique msdata:PrimaryKey="true" name="atriumDBKey14">
+      <xs:selector xpath=".//mstns:TimeSlip" />
+      <xs:field xpath="mstns:ActivityTimeId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Outlook_Constraint1">
+      <xs:selector xpath=".//mstns:Outlook" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="EFileSearchThread_Constraint1">
+      <xs:selector xpath=".//mstns:EFileSearchThread" />
+      <xs:field xpath="mstns:FileId" />
+      <xs:field xpath="mstns:Thread" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="TimeSlipBranch_Constraint1">
+      <xs:selector xpath=".//mstns:TimeSlipBranch" />
+      <xs:field xpath="mstns:FileId" />
+      <xs:field xpath="mstns:OfficeCode" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="EventLog_Constraint1">
+      <xs:selector xpath=".//mstns:EventLog" />
+      <xs:field xpath="mstns:EventId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="PLOffice_Constraint1">
+      <xs:selector xpath=".//mstns:PLOffice" />
+      <xs:field xpath="mstns:PLOfficeID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="AppSetting_Constraint1">
+      <xs:selector xpath=".//mstns:AppSetting" />
+      <xs:field xpath="mstns:SettingId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Map_Constraint1">
+      <xs:selector xpath=".//mstns:Map" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Issue_Constraint1">
+      <xs:selector xpath=".//mstns:Issue" />
+      <xs:field xpath="mstns:IssueId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Provision_Constraint1">
+      <xs:selector xpath=".//mstns:Provision" />
+      <xs:field xpath="mstns:ProvisionId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Legislation_Constraint1">
+      <xs:selector xpath=".//mstns:Legislation" />
+      <xs:field xpath="mstns:LegislationId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="ddLookup_Constraint1">
+      <xs:selector xpath=".//mstns:ddLookup" />
+      <xs:field xpath="mstns:LookupId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="ddGeneric_Constraint1">
+      <xs:selector xpath=".//mstns:ddGeneric" />
+      <xs:field xpath="mstns:GenericId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="PostalCodeLocation_Constraint1">
+      <xs:selector xpath=".//mstns:PostalCodeLocation" />
+      <xs:field xpath="mstns:PostalCode" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="ddField_Constraint1">
+      <xs:selector xpath=".//mstns:ddField" />
+      <xs:field xpath="mstns:FieldId" />
+    </xs:unique>
+    <xs:unique name="ddFieldKey1">
+      <xs:selector xpath=".//mstns:ddField" />
+      <xs:field xpath="mstns:TableId" />
+      <xs:field xpath="mstns:FieldName" />
+    </xs:unique>
+    <xs:unique name="ddFieldKey2">
+      <xs:selector xpath=".//mstns:ddField" />
+      <xs:field xpath="mstns:TableId" />
+      <xs:field xpath="mstns:DBFieldName" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="ddTable_Constraint1">
+      <xs:selector xpath=".//mstns:ddTable" />
+      <xs:field xpath="mstns:TableId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="ContactSearch_Constraint1">
+      <xs:selector xpath=".//mstns:ContactSearch" />
+      <xs:field xpath="mstns:ContactId" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Msg_Constraint1">
+      <xs:selector xpath=".//mstns:Msg" />
+      <xs:field xpath="mstns:MsgCode" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="ddRule_Constraint1">
+      <xs:selector xpath=".//mstns:ddRule" />
+      <xs:field xpath="mstns:RuleId" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Province_City" msdata:parent="Province" msdata:child="City" msdata:parentkey="ProvinceCode" msdata:childkey="ProvinceCode" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" />
+      <msdata:Relationship name="List_ListMember" msdata:parent="List" msdata:child="ListMember" msdata:parentkey="ListId" msdata:childkey="ListId" />
+      <msdata:Relationship name="TimeSlipAllocation" msdata:parent="TimeSlip" msdata:child="TimeSlipBranch" msdata:parentkey="FileId" msdata:childkey="FileId" />
+      <msdata:Relationship name="FK_Issue_Issue" msdata:parent="Issue" msdata:child="Issue" msdata:parentkey="IssueId" msdata:childkey="ParentIssueId" />
+      <msdata:Relationship name="Legislation_Provision" msdata:parent="Legislation" msdata:child="Provision" msdata:parentkey="LegislationId" msdata:childkey="LegislationId" />
+      <msdata:Relationship name="LegProvision_Issue" msdata:parent="Provision" msdata:child="Issue" msdata:parentkey="ProvisionId" msdata:childkey="LegProvisionId" />
+      <msdata:Relationship name="RegProvision_Issue" msdata:parent="Provision" msdata:child="Issue" msdata:parentkey="ProvisionId" msdata:childkey="RegProvisionId" />
+      <msdata:Relationship name="ddLookup_ddGeneric" msdata:parent="ddLookup" msdata:child="ddGeneric" msdata:parentkey="LookupId" msdata:childkey="LookupId" />
+      <msdata:Relationship name="ddTable_ddField" msdata:parent="ddTable" msdata:child="ddField" msdata:parentkey="TableId" msdata:childkey="TableId" />
+      <msdata:Relationship name="ddTable_ddLookup" msdata:parent="ddTable" msdata:child="ddLookup" msdata:parentkey="TableId" msdata:childkey="TableId" />
+      <msdata:Relationship name="ddField_ddRule" msdata:parent="ddField" msdata:child="ddRule" msdata:parentkey="FieldId" msdata:childkey="FieldId" />
+      <msdata:Relationship name="ddTable_ddRule" msdata:parent="ddTable" msdata:child="ddRule" msdata:parentkey="TableId" msdata:childkey="TableId" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

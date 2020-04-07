@@ -1,0 +1,2904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF5B82D3-10B0-4443-8AF9-305F4D9AA54F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LawMate</RootNamespace>
+    <AssemblyName>Atrium</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>CACE970F66EE366E433FB9B5AC4B6B50E465D9D9</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\project\atrium\lmras\Deploy\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://intradev-i.sade-edap.prv/as-sa/sst-tss/deploy/</InstallUrl>
+    <ProductName>Atrium</ProductName>
+    <PublisherName>Atrium</PublisherName>
+    <MinimumRequiredVersion>4.1.0.402</MinimumRequiredVersion>
+    <ApplicationRevision>403</ApplicationRevision>
+    <ApplicationVersion>4.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release 32|AnyCPU'">
+    <OutputPath>bin\Release 32\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release 32|x86'">
+    <OutputPath>bin\x86\Release 32\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>asptek.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\AtriumTrans48x48.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Janus.Data.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.FilterEditor.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.Ribbon.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.Schedule.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.TimeLine.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TXTextControl, Version=21.0.1400.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 21.0.NET for Windows Forms\Assembly\TXTextControl.dll</HintPath>
+    </Reference>
+    <Reference Include="TXTextControl.Windows.Forms, Version=21.0.600.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 21.0.NET for Windows Forms\Assembly\TXTextControl.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fConfigCompare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fConfigCompare.Designer.cs">
+      <DependentUpon>fConfigCompare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fDataDictionnary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fDataDictionnary.Designer.cs">
+      <DependentUpon>fDataDictionnary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fDDLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fDDLookup.Designer.cs">
+      <DependentUpon>fDDLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fArchive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fArchive.Designer.cs">
+      <DependentUpon>fArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fSelectFeatures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fSelectFeatures.Designer.cs">
+      <DependentUpon>fSelectFeatures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fExportDocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fExportDocs.Designer.cs">
+      <DependentUpon>fExportDocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fACMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fACMenu.Designer.cs">
+      <DependentUpon>fACMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fACTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fACTemplate.Designer.cs">
+      <DependentUpon>fACTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fAppSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fAppSetting.Designer.cs">
+      <DependentUpon>fAppSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fBase.Designer.cs">
+      <DependentUpon>fBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fBatch.Designer.cs">
+      <DependentUpon>fBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fBFCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fBFCode.Designer.cs">
+      <DependentUpon>fBFCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fCity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fCity.Designer.cs">
+      <DependentUpon>fCity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fClose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fClose.Designer.cs">
+      <DependentUpon>fClose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fConfigSync.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fConfigSync.Designer.cs">
+      <DependentUpon>fConfigSync.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fDistributionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fDistributionList.Designer.cs">
+      <DependentUpon>fDistributionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fFileMetaChildren.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fFileMetaChildren.Designer.cs">
+      <DependentUpon>fFileMetaChildren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fGroups.Designer.cs">
+      <DependentUpon>fGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fHelp.Designer.cs">
+      <DependentUpon>fHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fIssues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fIssues.Designer.cs">
+      <DependentUpon>fIssues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fLegislation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fLegislation.Designer.cs">
+      <DependentUpon>fLegislation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fLoad.Designer.cs">
+      <DependentUpon>fLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fLogEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fLogEvent.Designer.cs">
+      <DependentUpon>fLogEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fLookup.Designer.cs">
+      <DependentUpon>fLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fNewAC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fNewAC.Designer.cs">
+      <DependentUpon>fNewAC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fOfficeMandate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fOfficeMandate.Designer.cs">
+      <DependentUpon>fOfficeMandate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fOfficerPreferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fOfficerPreferences.Designer.cs">
+      <DependentUpon>fOfficerPreferences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fOfficeToJudicialDistrict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fOfficeToJudicialDistrict.Designer.cs">
+      <DependentUpon>fOfficeToJudicialDistrict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fPLOffice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fPLOffice.Designer.cs">
+      <DependentUpon>fPLOffice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fProvinces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fProvinces.Designer.cs">
+      <DependentUpon>fProvinces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fReportAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fReportAdmin.Designer.cs">
+      <DependentUpon>fReportAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fRules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fRules.Designer.cs">
+      <DependentUpon>fRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fSelectRelatedFields.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fSelectRelatedFields.Designer.cs">
+      <DependentUpon>fSelectRelatedFields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fSeries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fSeries.Designer.cs">
+      <DependentUpon>fSeries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fSQL.Designer.cs">
+      <DependentUpon>fSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fSystemMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fSystemMessage.Designer.cs">
+      <DependentUpon>fSystemMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fTagPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fTagPicker.Designer.cs">
+      <DependentUpon>fTagPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fTemplates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fTemplates.Designer.cs">
+      <DependentUpon>fTemplates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\fTemplateVersionTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\fTemplateVersionTag.Designer.cs">
+      <DependentUpon>fTemplateVersionTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ucActivityCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\ucActivityCode.Designer.cs">
+      <DependentUpon>ucActivityCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ucBFCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\ucBFCode.Designer.cs">
+      <DependentUpon>ucBFCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ucWorkflowHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\ucWorkflowHeader.Designer.cs">
+      <DependentUpon>ucWorkflowHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ucWorkflowLegend.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\ucWorkflowLegend.Designer.cs">
+      <DependentUpon>ucWorkflowLegend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fApptNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fApptNotification.Designer.cs">
+      <DependentUpon>fApptNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fApptRecurrence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fApptRecurrence.Designer.cs">
+      <DependentUpon>fApptRecurrence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBrowseTemplates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBrowseTemplates.Designer.cs">
+      <DependentUpon>fBrowseTemplates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMassActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMassActivity.Designer.cs">
+      <DependentUpon>fMassActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMemberManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMemberManagement.Designer.cs">
+      <DependentUpon>fMemberManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fVersionHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fVersionHistory.Designer.cs">
+      <DependentUpon>fVersionHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelatedFields.cs" />
+    <Compile Include="ucApptRecurrence.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucApptRecurrence.Designer.cs">
+      <DependentUpon>ucApptRecurrence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucIssueSelectBoxRF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucIssueSelectBoxRF.Designer.cs">
+      <DependentUpon>ucIssueSelectBoxRF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCalendar.Designer.cs">
+      <DependentUpon>fCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fACWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fACWizard.Designer.cs">
+      <DependentUpon>fACWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAddressBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAddressBook.Designer.cs">
+      <DependentUpon>fAddressBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAdvancedSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAdvancedSearch.Designer.cs">
+      <DependentUpon>fAdvancedSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAutoSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAutoSave.Designer.cs">
+      <DependentUpon>fAutoSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBase.Designer.cs">
+      <DependentUpon>fBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBatchReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBatchReview.Designer.cs">
+      <DependentUpon>fBatchReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBFList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBFList.Designer.cs">
+      <DependentUpon>fBFList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBrowse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBrowse.Designer.cs">
+      <DependentUpon>fBrowse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBrowseDocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBrowseDocs.Designer.cs">
+      <DependentUpon>fBrowseDocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBrowseIssues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBrowseIssues.Designer.cs">
+      <DependentUpon>fBrowseIssues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBrowseOffices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBrowseOffices.Designer.cs">
+      <DependentUpon>fBrowseOffices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChangePassword.Designer.cs">
+      <DependentUpon>fChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fConfirmCloseApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fConfirmCloseApp.Designer.cs">
+      <DependentUpon>fConfirmCloseApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fContactSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fContactSelect.Designer.cs">
+      <DependentUpon>fContactSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCustomDateRange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCustomDateRange.Designer.cs">
+      <DependentUpon>fCustomDateRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fData.Designer.cs">
+      <DependentUpon>fData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDoc.Designer.cs">
+      <DependentUpon>fDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDocView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDocView.Designer.cs">
+      <DependentUpon>fDocView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDocXRef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDocXRef.Designer.cs">
+      <DependentUpon>fDocXRef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fExplorer.Designer.cs">
+      <DependentUpon>fExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fFile.Designer.cs">
+      <DependentUpon>fFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileTreeView.cs" />
+    <Compile Include="fLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMandateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMandateList.Designer.cs">
+      <DependentUpon>fMandateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMove.Designer.cs">
+      <DependentUpon>fMove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fNewFileNum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNewFileNum.Designer.cs">
+      <DependentUpon>fNewFileNum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fNotify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNotify.Designer.cs">
+      <DependentUpon>fNotify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOutlook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOutlook.Designer.cs">
+      <DependentUpon>fOutlook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOutlookFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOutlookFolder.Designer.cs">
+      <DependentUpon>fOutlookFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPreferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPreferences.Designer.cs">
+      <DependentUpon>fPreferences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fReportList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fReportList.Designer.cs">
+      <DependentUpon>fReportList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSearchResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSearchResults.Designer.cs">
+      <DependentUpon>fSearchResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSearchResultsDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSearchResultsDoc.Designer.cs">
+      <DependentUpon>fSearchResultsDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSecurity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSecurity.Designer.cs">
+      <DependentUpon>fSecurity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTimeConvertor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTimeConvertor.Designer.cs">
+      <DependentUpon>fTimeConvertor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTimeslipStartDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTimeslipStartDate.Designer.cs">
+      <DependentUpon>fTimeslipStartDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTriangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTriangle.Designer.cs">
+      <DependentUpon>fTriangle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fWait.Designer.cs">
+      <DependentUpon>fWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fWebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fWebBrowser.Designer.cs">
+      <DependentUpon>fWebBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fWorkloadView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fWorkloadView.Designer.cs">
+      <DependentUpon>fWorkloadView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lmWinHelper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="ucBrowse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBrowse.Designer.cs">
+      <DependentUpon>ucBrowse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucBrowseIssues.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBrowseIssues.Designer.cs">
+      <DependentUpon>ucBrowseIssues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucContactSelectBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucContactSelectBox.Designer.cs">
+      <DependentUpon>ucContactSelectBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucDateRange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDateRange.Designer.cs">
+      <DependentUpon>ucDateRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucDoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDoc.Designer.cs">
+      <DependentUpon>ucDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucDocUpload.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDocUpload.Designer.cs">
+      <DependentUpon>ucDocUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucDocView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDocView.Designer.cs">
+      <DependentUpon>ucDocView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucFileContextMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucFileContextMenu.Designer.cs">
+      <DependentUpon>ucFileContextMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucFileSelectBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucFileSelectBox.Designer.cs">
+      <DependentUpon>ucFileSelectBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucIssueSelectBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucIssueSelectBox.Designer.cs">
+      <DependentUpon>ucIssueSelectBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucMultiDropDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMultiDropDown.Designer.cs">
+      <DependentUpon>ucMultiDropDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucOfficeSelectBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucOfficeSelectBox.Designer.cs">
+      <DependentUpon>ucOfficeSelectBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipientTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipientTextBox.Designer.cs">
+      <DependentUpon>ucRecipientTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecordList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecordList.Designer.cs">
+      <DependentUpon>ucRecordList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSSTAppealGround.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSSTAppealGround.Designer.cs">
+      <DependentUpon>ucSSTAppealGround.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSSTCaseMatter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSSTCaseMatter.Designer.cs">
+      <DependentUpon>ucSSTCaseMatter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSubFileList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSubFileList.Designer.cs">
+      <DependentUpon>ucSubFileList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucTemplateSelectBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTemplateSelectBox.Designer.cs">
+      <DependentUpon>ucTemplateSelectBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucTimeline.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTimeline.Designer.cs">
+      <DependentUpon>ucTimeline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucWB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucWB.Designer.cs">
+      <DependentUpon>ucWB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIHelper.cs" />
+    <Compile Include="UserControls\ucA5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucA5.Designer.cs">
+      <DependentUpon>ucA5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucActivityBF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucActivityBF.Designer.cs">
+      <DependentUpon>ucActivityBF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucActivityNew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucActivityNew.Designer.cs">
+      <DependentUpon>ucActivityNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSSTDecision.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSSTDecision.Designer.cs">
+      <DependentUpon>ucSSTDecision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSSTDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSSTDetail.Designer.cs">
+      <DependentUpon>ucSSTDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucCalendar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucCalendar.Designer.cs">
+      <DependentUpon>ucCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucActivity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucActivity.Designer.cs">
+      <DependentUpon>ucActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucAddress.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucAddress.Designer.cs">
+      <DependentUpon>ucAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucBankruptcy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucBankruptcy.Designer.cs">
+      <DependentUpon>ucBankruptcy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucBase.Designer.cs">
+      <DependentUpon>ucBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucCashBlotter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucCashBlotter.Designer.cs">
+      <DependentUpon>ucCashBlotter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucCashBlotterOffice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucCashBlotterOffice.Designer.cs">
+      <DependentUpon>ucCashBlotterOffice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucCompOffer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucCompOffer.Designer.cs">
+      <DependentUpon>ucCompOffer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucEFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucEFile.Designer.cs">
+      <DependentUpon>ucEFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucFileAccess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucFileAccess.Designer.cs">
+      <DependentUpon>ucFileAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucFileAccount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucFileAccount.Designer.cs">
+      <DependentUpon>ucFileAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucFileContact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucFileContact.Designer.cs">
+      <DependentUpon>ucFileContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucFileHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucFileHistory.Designer.cs">
+      <DependentUpon>ucFileHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucFileOffice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucFileOffice.Designer.cs">
+      <DependentUpon>ucFileOffice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucFileParty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucFileParty.Designer.cs">
+      <DependentUpon>ucFileParty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucFileRule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucFileRule.Designer.cs">
+      <DependentUpon>ucFileRule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucHardship.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucHardship.Designer.cs">
+      <DependentUpon>ucHardship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucInsolvency.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucInsolvency.Designer.cs">
+      <DependentUpon>ucInsolvency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucJudgment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucJudgment.Designer.cs">
+      <DependentUpon>ucJudgment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucLRM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucLRM.Designer.cs">
+      <DependentUpon>ucLRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucOfficeInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucOfficeInfo.Designer.cs">
+      <DependentUpon>ucOfficeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucOfficePersonnel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucOfficePersonnel.Designer.cs">
+      <DependentUpon>ucOfficePersonnel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucOfficeQR.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucOfficeQR.Designer.cs">
+      <DependentUpon>ucOfficeQR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucOfficerToolkit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucOfficerToolkit.Designer.cs">
+      <DependentUpon>ucOfficerToolkit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucOpinion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucOpinion.Designer.cs">
+      <DependentUpon>ucOpinion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucOpponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucOpponent.Designer.cs">
+      <DependentUpon>ucOpponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucRecords.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucRecords.Designer.cs">
+      <DependentUpon>ucRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucScript.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucScript.Designer.cs">
+      <DependentUpon>ucScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSRP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSRP.Designer.cs">
+      <DependentUpon>ucSRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSRPBillingReview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSRPBillingReview.Designer.cs">
+      <DependentUpon>ucSRPBillingReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSRPDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSRPDetail.Designer.cs">
+      <DependentUpon>ucSRPDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSSTCase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSSTCase.Designer.cs">
+      <DependentUpon>ucSSTCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSSTGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSSTGroup.Designer.cs">
+      <DependentUpon>ucSSTGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSSTRequest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSSTRequest.Designer.cs">
+      <DependentUpon>ucSSTRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucTaxation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucTaxation.Designer.cs">
+      <DependentUpon>ucTaxation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucTaxingRecommendation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucTaxingRecommendation.Designer.cs">
+      <DependentUpon>ucTaxingRecommendation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucTemplate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucTemplate.Designer.cs">
+      <DependentUpon>ucTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucTimeslip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucTimeslip.Designer.cs">
+      <DependentUpon>ucTimeslip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucToC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucToC.Designer.cs">
+      <DependentUpon>ucToC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ReportingService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\Activity.cs" />
+    <Compile Include="Workflow\Branch.cs" />
+    <Compile Include="Workflow\Connector.cs" />
+    <Compile Include="Workflow\Decision.cs" />
+    <Compile Include="Workflow\Diagram.cs" />
+    <Compile Include="Workflow\Move.cs" />
+    <Compile Include="Workflow\NonRecorded.cs" />
+    <Compile Include="Workflow\StartFinish.cs" />
+    <Compile Include="Workflow\Step.cs" />
+    <Compile Include="Workflow\SubProcess.cs" />
+    <Content Include="Lawmate.cmd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\ContainerCube.png" />
+    <None Include="Resources\fsA.gif" />
+    <None Include="Resources\fsC.gif" />
+    <None Include="Resources\fsM.gif" />
+    <None Include="Resources\fsO.gif" />
+    <None Include="Resources\fsP.gif" />
+    <None Include="Resources\filenodepng.png" />
+    <None Include="Resources\whitefolder.png" />
+    <None Include="Resources\whitefolder2.png" />
+    <None Include="Resources\allemail.png" />
+    <None Include="Resources\clock3.png" />
+    <None Include="Resources\shortcut2.png" />
+    <None Include="Resources\filedot.png" />
+    <None Include="Resources\personalfile2.png" />
+    <None Include="Resources\office.png" />
+    <None Include="Resources\cube2.png" />
+    <None Include="Resources\email2.png" />
+    <None Include="Resources\FileStack.png" />
+    <None Include="Resources\nodeauto.png" />
+    <None Include="Resources\nodenotauto.png" />
+    <None Include="Resources\cmdBarGradient1.png" />
+    <None Include="Resources\priorityHigh.png" />
+    <None Include="Resources\priorityUrgent.png" />
+    <None Include="Resources\skipdocument.png" />
+    <None Include="Resources\atriumtrans16.png" />
+    <None Include="Resources\taxRecClosed.png" />
+    <None Include="Resources\ImportMail16.png" />
+    <None Include="Resources\ImportMail48.png" />
+    <None Include="Resources\ImportMailICO.ico" />
+    <None Include="Resources\mailimporter.png" />
+    <None Include="Resources\mailimporter1.png" />
+    <None Include="Resources\mailimporter2.png" />
+    <None Include="Resources\atriumlogo.png" />
+    <None Include="Resources\outlook2016.png" />
+    <Content Include="tx18_css.dll" />
+    <Content Include="tx18_doc.dll" />
+    <Content Include="tx18_dox.dll" />
+    <Content Include="tx18_htm.dll" />
+    <Content Include="tx18_pdf.dll" />
+    <Content Include="tx18_rtf.dll" />
+    <Content Include="tx18_xml.dll" />
+    <Content Include="txic.dll" />
+    <Content Include="txkernel.dll" />
+    <Content Include="txpdf.dll" />
+    <Content Include="txtools.dll" />
+    <EmbeddedResource Include="AboutBox1.fr.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fConfigCompare.resx">
+      <DependentUpon>fConfigCompare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fDataDictionnary.resx">
+      <DependentUpon>fDataDictionnary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fDDLookup.resx">
+      <DependentUpon>fDDLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fArchive.resx">
+      <DependentUpon>fArchive.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fSelectFeatures.resx">
+      <DependentUpon>fSelectFeatures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fExportDocs.resx">
+      <DependentUpon>fExportDocs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fACMenu.resx">
+      <DependentUpon>fACMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fACTemplate.resx">
+      <DependentUpon>fACTemplate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fAppSetting.resx">
+      <DependentUpon>fAppSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fBase.resx">
+      <DependentUpon>fBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fBatch.resx">
+      <DependentUpon>fBatch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fBFCode.resx">
+      <DependentUpon>fBFCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fCity.resx">
+      <DependentUpon>fCity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fClose.resx">
+      <DependentUpon>fClose.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fConfigSync.resx">
+      <DependentUpon>fConfigSync.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fDistributionList.resx">
+      <DependentUpon>fDistributionList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fFileMetaChildren.resx">
+      <DependentUpon>fFileMetaChildren.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fGroups.resx">
+      <DependentUpon>fGroups.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fHelp.resx">
+      <DependentUpon>fHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fIssues.resx">
+      <DependentUpon>fIssues.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fLegislation.resx">
+      <DependentUpon>fLegislation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fLoad.resx">
+      <DependentUpon>fLoad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fLogEvent.resx">
+      <DependentUpon>fLogEvent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fLookup.resx">
+      <DependentUpon>fLookup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fNewAC.resx">
+      <DependentUpon>fNewAC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fOfficeMandate.resx">
+      <DependentUpon>fOfficeMandate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fOfficerPreferences.resx">
+      <DependentUpon>fOfficerPreferences.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fOfficeToJudicialDistrict.resx">
+      <DependentUpon>fOfficeToJudicialDistrict.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fPLOffice.resx">
+      <DependentUpon>fPLOffice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fProvinces.resx">
+      <DependentUpon>fProvinces.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fReportAdmin.resx">
+      <DependentUpon>fReportAdmin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fRules.resx">
+      <DependentUpon>fRules.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fSelectRelatedFields.resx">
+      <DependentUpon>fSelectRelatedFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fSeries.resx">
+      <DependentUpon>fSeries.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fSQL.resx">
+      <DependentUpon>fSQL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fSystemMessage.resx">
+      <DependentUpon>fSystemMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fTagPicker.resx">
+      <DependentUpon>fTagPicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fTemplates.resx">
+      <DependentUpon>fTemplates.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\fTemplateVersionTag.resx">
+      <DependentUpon>fTemplateVersionTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ucActivityCode.resx">
+      <DependentUpon>ucActivityCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ucBFCode.resx">
+      <DependentUpon>ucBFCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ucWorkflowHeader.fr.resx">
+      <DependentUpon>ucWorkflowHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ucWorkflowHeader.resx">
+      <DependentUpon>ucWorkflowHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ucWorkflowLegend.fr.resx">
+      <DependentUpon>ucWorkflowLegend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ucWorkflowLegend.resx">
+      <DependentUpon>ucWorkflowLegend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fApptNotification.fr.resx">
+      <DependentUpon>fApptNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fApptNotification.resx">
+      <DependentUpon>fApptNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fApptRecurrence.fr.resx">
+      <DependentUpon>fApptRecurrence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fApptRecurrence.resx">
+      <DependentUpon>fApptRecurrence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBrowseIssues.fr.resx">
+      <DependentUpon>fBrowseIssues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBrowseOffices.fr.resx">
+      <DependentUpon>fBrowseOffices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBrowseTemplates.fr.resx">
+      <DependentUpon>fBrowseTemplates.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBrowseTemplates.resx">
+      <DependentUpon>fBrowseTemplates.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMandateList.fr.resx">
+      <DependentUpon>fMandateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMassActivity.fr.resx">
+      <DependentUpon>fMassActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMassActivity.resx">
+      <DependentUpon>fMassActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMemberManagement.fr.resx">
+      <DependentUpon>fMemberManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMemberManagement.resx">
+      <DependentUpon>fMemberManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVersionHistory.fr.resx">
+      <DependentUpon>fVersionHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVersionHistory.resx">
+      <DependentUpon>fVersionHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fWorkloadView.fr.resx">
+      <DependentUpon>fWorkloadView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucApptRecurrence.resx">
+      <DependentUpon>ucApptRecurrence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucIssueSelectBox.fr.resx">
+      <DependentUpon>ucIssueSelectBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucIssueSelectBoxRF.resx">
+      <DependentUpon>ucIssueSelectBoxRF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCalendar.fr.resx">
+      <DependentUpon>fCalendar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCalendar.resx">
+      <DependentUpon>fCalendar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fACWizard.fr.resx">
+      <DependentUpon>fACWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fACWizard.resx">
+      <DependentUpon>fACWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAddressBook.fr.resx">
+      <DependentUpon>fAddressBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAddressBook.resx">
+      <DependentUpon>fAddressBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAdvancedSearch.fr.resx">
+      <DependentUpon>fAdvancedSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAdvancedSearch.resx">
+      <DependentUpon>fAdvancedSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAutoSave.fr.resx">
+      <DependentUpon>fAutoSave.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAutoSave.resx">
+      <DependentUpon>fAutoSave.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBase.fr.resx">
+      <DependentUpon>fBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBase.resx">
+      <DependentUpon>fBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBatchReview.resx">
+      <DependentUpon>fBatchReview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBFList.fr.resx">
+      <DependentUpon>fBFList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBFList.resx">
+      <DependentUpon>fBFList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBrowse.fr.resx">
+      <DependentUpon>fBrowse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBrowse.resx">
+      <DependentUpon>fBrowse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBrowseDocs.fr.resx">
+      <DependentUpon>fBrowseDocs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBrowseDocs.resx">
+      <DependentUpon>fBrowseDocs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBrowseIssues.resx">
+      <DependentUpon>fBrowseIssues.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBrowseOffices.resx">
+      <DependentUpon>fBrowseOffices.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fChangePassword.fr.resx">
+      <DependentUpon>fChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fChangePassword.resx">
+      <DependentUpon>fChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fConfirmCloseApp.fr.resx">
+      <DependentUpon>fConfirmCloseApp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fConfirmCloseApp.resx">
+      <DependentUpon>fConfirmCloseApp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fContactSelect.fr.resx">
+      <DependentUpon>fContactSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fContactSelect.resx">
+      <DependentUpon>fContactSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCustomDateRange.fr.resx">
+      <DependentUpon>fCustomDateRange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCustomDateRange.resx">
+      <DependentUpon>fCustomDateRange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fData.resx">
+      <DependentUpon>fData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDoc.fr.resx">
+      <DependentUpon>fDoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDoc.resx">
+      <DependentUpon>fDoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDocView.resx">
+      <DependentUpon>fDocView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDocXRef.fr.resx">
+      <DependentUpon>fDocXRef.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDocXRef.resx">
+      <DependentUpon>fDocXRef.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fExplorer.fr.resx">
+      <DependentUpon>fExplorer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fExplorer.resx">
+      <DependentUpon>fExplorer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fFile.fr.resx">
+      <DependentUpon>fFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fFile.resx">
+      <DependentUpon>fFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMain.fr.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMandateList.resx">
+      <DependentUpon>fMandateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMove.fr.resx">
+      <DependentUpon>fMove.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMove.resx">
+      <DependentUpon>fMove.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNewFileNum.fr.resx">
+      <DependentUpon>fNewFileNum.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNewFileNum.resx">
+      <DependentUpon>fNewFileNum.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNotify.fr.resx">
+      <DependentUpon>fNotify.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNotify.resx">
+      <DependentUpon>fNotify.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOutlook.fr.resx">
+      <DependentUpon>fOutlook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOutlook.resx">
+      <DependentUpon>fOutlook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOutlookFolder.fr.resx">
+      <DependentUpon>fOutlookFolder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOutlookFolder.resx">
+      <DependentUpon>fOutlookFolder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPreferences.fr.resx">
+      <DependentUpon>fPreferences.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPreferences.resx">
+      <DependentUpon>fPreferences.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fReportList.fr.resx">
+      <DependentUpon>fReportList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fReportList.resx">
+      <DependentUpon>fReportList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSearchResults.fr.resx">
+      <DependentUpon>fSearchResults.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSearchResults.resx">
+      <DependentUpon>fSearchResults.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSearchResultsDoc.fr.resx">
+      <DependentUpon>fSearchResultsDoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSearchResultsDoc.resx">
+      <DependentUpon>fSearchResultsDoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSecurity.fr.resx">
+      <DependentUpon>fSecurity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSecurity.resx">
+      <DependentUpon>fSecurity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSplash.resx">
+      <DependentUpon>fSplash.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTimeConvertor.fr.resx">
+      <DependentUpon>fTimeConvertor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTimeConvertor.resx">
+      <DependentUpon>fTimeConvertor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTimeslipStartDate.resx">
+      <DependentUpon>fTimeslipStartDate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTriangle.fr.resx">
+      <DependentUpon>fTriangle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTriangle.resx">
+      <DependentUpon>fTriangle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fWait.fr.resx">
+      <DependentUpon>fWait.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fWait.resx">
+      <DependentUpon>fWait.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fWebBrowser.fr.resx">
+      <DependentUpon>fWebBrowser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fWebBrowser.resx">
+      <DependentUpon>fWebBrowser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fWorkloadView.resx">
+      <DependentUpon>fWorkloadView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBrowse.fr.resx">
+      <DependentUpon>ucBrowse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBrowse.resx">
+      <DependentUpon>ucBrowse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBrowseIssues.fr.resx">
+      <DependentUpon>ucBrowseIssues.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBrowseIssues.resx">
+      <DependentUpon>ucBrowseIssues.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucContactSelectBox.resx">
+      <DependentUpon>ucContactSelectBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDateRange.fr.resx">
+      <DependentUpon>ucDateRange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDateRange.resx">
+      <DependentUpon>ucDateRange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDoc.fr.resx">
+      <DependentUpon>ucDoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDoc.resx">
+      <DependentUpon>ucDoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDocUpload.resx">
+      <DependentUpon>ucDocUpload.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDocView.fr.resx">
+      <DependentUpon>ucDocView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDocView.resx">
+      <DependentUpon>ucDocView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucFileContextMenu.fr.resx">
+      <DependentUpon>ucFileContextMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucFileContextMenu.resx">
+      <DependentUpon>ucFileContextMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucFileSelectBox.resx">
+      <DependentUpon>ucFileSelectBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucIssueSelectBox.resx">
+      <DependentUpon>ucIssueSelectBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMultiDropDown.resx">
+      <DependentUpon>ucMultiDropDown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucOfficeSelectBox.resx">
+      <DependentUpon>ucOfficeSelectBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipientTextBox.fr.resx">
+      <DependentUpon>ucRecipientTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipientTextBox.resx">
+      <DependentUpon>ucRecipientTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecordList.fr.resx">
+      <DependentUpon>ucRecordList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecordList.resx">
+      <DependentUpon>ucRecordList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSSTAppealGround.fr.resx">
+      <DependentUpon>ucSSTAppealGround.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSSTAppealGround.resx">
+      <DependentUpon>ucSSTAppealGround.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSSTCaseMatter.fr.resx">
+      <DependentUpon>ucSSTCaseMatter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSSTCaseMatter.resx">
+      <DependentUpon>ucSSTCaseMatter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSubFileList.resx">
+      <DependentUpon>ucSubFileList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTemplateSelectBox.resx">
+      <DependentUpon>ucTemplateSelectBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTimeline.fr.resx">
+      <DependentUpon>ucTimeline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTimeline.resx">
+      <DependentUpon>ucTimeline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucWB.resx">
+      <DependentUpon>ucWB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucA5.resx">
+      <DependentUpon>ucA5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucActivityBF.fr.resx">
+      <DependentUpon>ucActivityBF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucActivityBF.resx">
+      <DependentUpon>ucActivityBF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucActivityNew.fr.resx">
+      <DependentUpon>ucActivityNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucActivityNew.resx">
+      <DependentUpon>ucActivityNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucBankruptcy.fr.resx">
+      <DependentUpon>ucBankruptcy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucCashBlotter.fr.resx">
+      <DependentUpon>ucCashBlotter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucCashBlotterOffice.fr.resx">
+      <DependentUpon>ucCashBlotterOffice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucCompOffer.fr.resx">
+      <DependentUpon>ucCompOffer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileAccount.fr.resx">
+      <DependentUpon>ucFileAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileHistory.fr.resx">
+      <DependentUpon>ucFileHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucInsolvency.fr.resx">
+      <DependentUpon>ucInsolvency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucJudgment.fr.resx">
+      <DependentUpon>ucJudgment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOfficeQR.fr.resx">
+      <DependentUpon>ucOfficeQR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOpponent.fr.resx">
+      <DependentUpon>ucOpponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSRP.fr.resx">
+      <DependentUpon>ucSRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSRPBillingReview.fr.resx">
+      <DependentUpon>ucSRPBillingReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSRPDetail.fr.resx">
+      <DependentUpon>ucSRPDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSSTDecision.fr.resx">
+      <DependentUpon>ucSSTDecision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSSTDecision.resx">
+      <DependentUpon>ucSSTDecision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSSTDetail.fr.resx">
+      <DependentUpon>ucSSTDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSSTDetail.resx">
+      <DependentUpon>ucSSTDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucCalendar.fr.resx">
+      <DependentUpon>ucCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucCalendar.resx">
+      <DependentUpon>ucCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucActivity.fr.resx">
+      <DependentUpon>ucActivity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucActivity.resx">
+      <DependentUpon>ucActivity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucAddress.fr.resx">
+      <DependentUpon>ucAddress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucAddress.resx">
+      <DependentUpon>ucAddress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucBankruptcy.resx">
+      <DependentUpon>ucBankruptcy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucBase.fr.resx">
+      <DependentUpon>ucBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucBase.resx">
+      <DependentUpon>ucBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucCashBlotter.resx">
+      <DependentUpon>ucCashBlotter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucCashBlotterOffice.resx">
+      <DependentUpon>ucCashBlotterOffice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucCompOffer.resx">
+      <DependentUpon>ucCompOffer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucEFile.fr.resx">
+      <DependentUpon>ucEFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucEFile.resx">
+      <DependentUpon>ucEFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileAccess.fr.resx">
+      <DependentUpon>ucFileAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileAccess.resx">
+      <DependentUpon>ucFileAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileAccount.resx">
+      <DependentUpon>ucFileAccount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileContact.fr.resx">
+      <DependentUpon>ucFileContact.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileContact.resx">
+      <DependentUpon>ucFileContact.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileHistory.resx">
+      <DependentUpon>ucFileHistory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileOffice.fr.resx">
+      <DependentUpon>ucFileOffice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileOffice.resx">
+      <DependentUpon>ucFileOffice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileParty.resx">
+      <DependentUpon>ucFileParty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileRule.fr.resx">
+      <DependentUpon>ucFileRule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucFileRule.resx">
+      <DependentUpon>ucFileRule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucHardship.resx">
+      <DependentUpon>ucHardship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucInsolvency.resx">
+      <DependentUpon>ucInsolvency.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucJudgment.resx">
+      <DependentUpon>ucJudgment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucLRM.fr.resx">
+      <DependentUpon>ucLRM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucLRM.resx">
+      <DependentUpon>ucLRM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOfficeInfo.fr.resx">
+      <DependentUpon>ucOfficeInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOfficeInfo.resx">
+      <DependentUpon>ucOfficeInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOfficePersonnel.fr.resx">
+      <DependentUpon>ucOfficePersonnel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOfficePersonnel.resx">
+      <DependentUpon>ucOfficePersonnel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOfficeQR.resx">
+      <DependentUpon>ucOfficeQR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOfficerToolkit.fr.resx">
+      <DependentUpon>ucOfficerToolkit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOfficerToolkit.resx">
+      <DependentUpon>ucOfficerToolkit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOpinion.fr.resx">
+      <DependentUpon>ucOpinion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOpinion.resx">
+      <DependentUpon>ucOpinion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucOpponent.resx">
+      <DependentUpon>ucOpponent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucRecords.fr.resx">
+      <DependentUpon>ucRecords.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucRecords.resx">
+      <DependentUpon>ucRecords.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucScript.resx">
+      <DependentUpon>ucScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSRP.resx">
+      <DependentUpon>ucSRP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSRPBillingReview.resx">
+      <DependentUpon>ucSRPBillingReview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSRPDetail.resx">
+      <DependentUpon>ucSRPDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSSTCase.fr.resx">
+      <DependentUpon>ucSSTCase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSSTCase.resx">
+      <DependentUpon>ucSSTCase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSSTGroup.resx">
+      <DependentUpon>ucSSTGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSSTRequest.fr.resx">
+      <DependentUpon>ucSSTRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucSSTRequest.resx">
+      <DependentUpon>ucSSTRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucTaxation.fr.resx">
+      <DependentUpon>ucTaxation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucTaxation.resx">
+      <DependentUpon>ucTaxation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucTaxingRecommendation.fr.resx">
+      <DependentUpon>ucTaxingRecommendation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucTaxingRecommendation.resx">
+      <DependentUpon>ucTaxingRecommendation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucTemplate.resx">
+      <DependentUpon>ucTemplate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucTimeslip.fr.resx">
+      <DependentUpon>ucTimeslip.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucTimeslip.resx">
+      <DependentUpon>ucTimeslip.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucToC.fr.resx">
+      <DependentUpon>ucToC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucToC.resx">
+      <DependentUpon>ucToC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="asptek.snk" />
+    <None Include="LawMate_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\lmDatasets.ActivityConfig.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.Advisory.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.appDB.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.atriumDB.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.CLAS.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.CodesDB.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.docDB.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.HelpDB.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.MemberManagement.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.officeDB.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.RiskManagement.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.SecurityDB.datasource" />
+    <None Include="Properties\DataSources\lmDatasets.SST.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SingleInstanceApplication.cs" />
+    <Content Include="Redemption.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Redemption64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\activity.gif" />
+    <None Include="Resources\AddEmail.png" />
+    <None Include="Resources\AddXref.gif" />
+    <None Include="Resources\arrow-down-bottom.png" />
+    <None Include="Resources\arrow-left.png" />
+    <None Include="Resources\arrow-right.png" />
+    <None Include="Resources\arrow-up-top.png" />
+    <None Include="Resources\arrow_left_green.png" />
+    <None Include="Resources\arrow_right_green.png" />
+    <None Include="Resources\AtriumSplash.png" />
+    <Content Include="Resources\advancedsearchicon.png" />
+    <Content Include="Resources\appTreeExplorer.png" />
+    <Content Include="Resources\AtriumTrans48x48.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\batch.gif" />
+    <None Include="Resources\blank.gif" />
+    <None Include="Resources\bs.gif" />
+    <None Include="Resources\calendar-icon.gif" />
+    <None Include="Resources\cancel.gif" />
+    <None Include="Resources\cancel1.gif" />
+    <None Include="Resources\checkbox.gif" />
+    <None Include="Resources\checkboxFalse.gif" />
+    <None Include="Resources\checkin.png" />
+    <None Include="Resources\clffip-e.gif" />
+    <None Include="Resources\clock.png" />
+    <None Include="Resources\clock1.png" />
+    <None Include="Resources\CollapseAllSteps.png" />
+    <None Include="Resources\CollapseAllSteps2.png" />
+    <None Include="Resources\Delegate.png" />
+    <None Include="Resources\delete.gif" />
+    <None Include="Resources\delete1.gif" />
+    <None Include="Resources\deskbook.png" />
+    <None Include="Resources\disbursements.png" />
+    <None Include="Resources\disconnect.png" />
+    <None Include="Resources\docShortcut.gif" />
+    <None Include="Resources\doj.gif" />
+    <None Include="Resources\DraftDocumentPNG.png" />
+    <None Include="Resources\DRedit.gif" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\endsession.png" />
+    <None Include="Resources\ExpandAllSteps.png" />
+    <None Include="Resources\ExpandAllSteps2.png" />
+    <None Include="Resources\FileImportantMessage.gif" />
+    <None Include="Resources\fileShortcut.png" />
+    <None Include="Resources\filter.gif" />
+    <None Include="Resources\folder.gif" />
+    <None Include="Resources\form.gif" />
+    <None Include="Resources\FSArchived.ico" />
+    <None Include="Resources\FSClosed.ico" />
+    <None Include="Resources\FSMonitored.ico" />
+    <None Include="Resources\FSOpen.ico" />
+    <None Include="Resources\FSPending.ico" />
+    <None Include="Resources\gavel2.png" />
+    <None Include="Resources\go.gif" />
+    <None Include="Resources\grid.gif" />
+    <None Include="Resources\help.gif" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\highlight.gif" />
+    <None Include="Resources\highlight1.gif" />
+    <None Include="Resources\htmS.gif" />
+    <None Include="Resources\information.gif" />
+    <None Include="Resources\InvalidEntry.png" />
+    <None Include="Resources\issue.png" />
+    <None Include="Resources\key.gif" />
+    <None Include="Resources\lang.gif" />
+    <None Include="Resources\lawmateSplash.png" />
+    <None Include="Resources\lightbulb.png" />
+    <None Include="Resources\loading.gif" />
+    <None Include="Resources\mail.gif" />
+    <None Include="Resources\minus.gif" />
+    <None Include="Resources\modified.gif" />
+    <None Include="Resources\moveFolder.gif" />
+    <None Include="Resources\msgS.gif" />
+    <None Include="Resources\myoffice.gif" />
+    <None Include="Resources\newLawMail.png" />
+    <None Include="Resources\Next.png" />
+    <None Include="Resources\note-icon.png" />
+    <None Include="Resources\opinion.png" />
+    <None Include="Resources\outlook16x16.png" />
+    <None Include="Resources\outlook32x32.png" />
+    <None Include="Resources\paper.gif" />
+    <None Include="Resources\passwordchange.png" />
+    <None Include="Resources\pause.gif" />
+    <None Include="Resources\pause.png" />
+    <None Include="Resources\pencil.gif" />
+    <None Include="Resources\play-next.png" />
+    <None Include="Resources\play-previous.png" />
+    <None Include="Resources\play.gif" />
+    <None Include="Resources\plus.gif" />
+    <None Include="Resources\Previous.png" />
+    <None Include="Resources\recentlyViewedFiles3.gif" />
+    <None Include="Resources\RecipientUnknown.png" />
+    <None Include="Resources\relInfoNewRecord.gif" />
+    <None Include="Resources\reload.gif" />
+    <None Include="Resources\reports.gif" />
+    <None Include="Resources\retrievingData.gif" />
+    <None Include="Resources\RiskLevel0.png" />
+    <None Include="Resources\RiskLevel1.png" />
+    <None Include="Resources\RiskLevel2.png" />
+    <None Include="Resources\RiskLevel3.png" />
+    <None Include="Resources\RiskLevel4.png" />
+    <None Include="Resources\RiskLevel5.png" />
+    <None Include="Resources\RiskLevel6.png" />
+    <None Include="Resources\RiskLevel7.png" />
+    <None Include="Resources\RiskLevel8.png" />
+    <None Include="Resources\RiskLevel9.png" />
+    <None Include="Resources\roles.png" />
+    <None Include="Resources\save.GIF" />
+    <None Include="Resources\save_error.png" />
+    <None Include="Resources\save1.gif" />
+    <None Include="Resources\scale-icon.ico" />
+    <None Include="Resources\accessDenied.png" />
+    <None Include="Resources\AtriumSplashEngFre.png" />
+    <None Include="Resources\audit.gif" />
+    <None Include="Resources\autochain.png" />
+    <None Include="Resources\autochainlink.png" />
+    <None Include="Resources\bwfBranch.gif" />
+    <None Include="Resources\bwfEnd.gif" />
+    <None Include="Resources\bwfNonActivityBG.gif" />
+    <None Include="Resources\bwfNonActivityBGSelected.gif" />
+    <None Include="Resources\bwfStart.gif" />
+    <None Include="Resources\bwfWait.gif" />
+    <None Include="Resources\chainicon.png" />
+    <None Include="Resources\CheckedOutDoc.png" />
+    <None Include="Resources\contactcard.gif" />
+    <None Include="Resources\custom-document.png" />
+    <None Include="Resources\database32x32.png" />
+    <None Include="Resources\db32x32.png" />
+    <None Include="Resources\DistList.gif" />
+    <None Include="Resources\docCheckOut.png" />
+    <None Include="Resources\docTemplate.png" />
+    <None Include="Resources\document_pencil_24.png" />
+    <None Include="Resources\DocumentCheckOut.png" />
+    <None Include="Resources\documentscreen.gif" />
+    <None Include="Resources\documentTemplate.png" />
+    <None Include="Resources\draftdoc.png" />
+    <None Include="Resources\draftdocFre.png" />
+    <None Include="Resources\DraftDocWatermark.gif" />
+    <None Include="Resources\draftwarning.png" />
+    <None Include="Resources\DraftWaterMark.gif" />
+    <None Include="Resources\draftWaterMark.png" />
+    <None Include="Resources\drawingEdit.gif" />
+    <None Include="Resources\encrypt.png" />
+    <None Include="Resources\FaxMachine.png" />
+    <None Include="Resources\fc.gif" />
+    <None Include="Resources\FileContainer.png" />
+    <None Include="Resources\Helpbook.png" />
+    <None Include="Resources\helpIcon.gif" />
+    <None Include="Resources\html.ico" />
+    <None Include="Resources\incoming.gif" />
+    <None Include="Resources\IsReadOnly.png" />
+    <None Include="Resources\keyboard.gif" />
+    <None Include="Resources\language32x32%282%29.png" />
+    <None Include="Resources\language32x32.png" />
+    <None Include="Resources\largefile.png" />
+    <None Include="Resources\lawmateExplorer.gif" />
+    <None Include="Resources\loadingbar.gif" />
+    <None Include="Resources\lock.png" />
+    <None Include="Resources\login32x32.png" />
+    <None Include="Resources\mail2.gif" />
+    <None Include="Resources\MailComposeNew.png" />
+    <None Include="Resources\MarkasRead.gif" />
+    <None Include="Resources\Memo-icon.png" />
+    <None Include="Resources\new.gif" />
+    <None Include="Resources\newrecord.gif" />
+    <None Include="Resources\noaccess.png" />
+    <None Include="Resources\noDoc.gif" />
+    <None Include="Resources\noDoc.png" />
+    <None Include="Resources\office-building.png" />
+    <None Include="Resources\office16x16.gif" />
+    <None Include="Resources\officer.gif" />
+    <None Include="Resources\outgoing.gif" />
+    <None Include="Resources\paperclip.gif" />
+    <None Include="Resources\paperDoc.jpg" />
+    <None Include="Resources\PC32x32.png" />
+    <None Include="Resources\PreivewMode.gif" />
+    <None Include="Resources\propertygrid.png" />
+    <None Include="Resources\rc_html.ico" />
+    <None Include="Resources\readonly.png" />
+    <None Include="Resources\recipientDistList.png" />
+    <None Include="Resources\RecipientOfficer2.png" />
+    <None Include="Resources\relatedFields.gif" />
+    <None Include="Resources\relInfoAll.gif" />
+    <None Include="Resources\ReviseDocument.png" />
+    <None Include="Resources\activity2.gif" />
+    <None Include="Resources\cbProcess.gif" />
+    <None Include="Resources\doc.gif" />
+    <None Include="Resources\Excel-icon.png" />
+    <None Include="Resources\excel.gif" />
+    <None Include="Resources\hitcount.png" />
+    <None Include="Resources\message-read.png" />
+    <None Include="Resources\relInfoFields.gif" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\cube.png" />
+    <None Include="Resources\mail.png" />
+    <None Include="Resources\mail4.png" />
+    <None Include="Resources\mail5.png" />
+    <None Include="Resources\Information.png" />
+    <None Include="Resources\Information2.png" />
+    <None Include="Resources\dump2.png" />
+    <None Include="Resources\edit1.png" />
+    <None Include="Resources\docMoreInfo.png" />
+    <None Include="Resources\bold.png" />
+    <None Include="Resources\italic.png" />
+    <None Include="Resources\Calendar.png" />
+    <None Include="Resources\appellant.png" />
+    <None Include="Resources\hourglassPending.png" />
+    <None Include="Resources\address-book.png" />
+    <None Include="Resources\BFListCalendar.png" />
+    <None Include="Resources\doc2.png" />
+    <None Include="Resources\folder16.png" />
+    <None Include="Resources\otkCalendar.png" />
+    <None Include="Resources\outlook2010.png" />
+    <None Include="Resources\AtriumTrans48x48.png" />
+    <None Include="Resources\atrium16x16.png" />
+    <None Include="Resources\outlook2010_48x48.png" />
+    <None Include="Resources\dataexchange.png" />
+    <None Include="Resources\notOnceOnly.png" />
+    <None Include="Resources\busy_icon_sm.gif" />
+    <None Include="Resources\hourglass.png" />
+    <None Include="Resources\exe.png" />
+    <None Include="Resources\respondent.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\metadata.png" />
+    <None Include="Resources\act.png" />
+    <None Include="Resources\filter.png" />
+    <None Include="Resources\arrow-refresh.png" />
+    <None Include="Resources\isparty.png" />
+    <None Include="Resources\RelFieldsClipboard.png" />
+    <None Include="Resources\paste.gif" />
+    <None Include="Resources\lock-icon.png" />
+    <None Include="Resources\mailconnector.PNG" />
+    <None Include="Resources\nonrec.PNG" />
+    <None Include="Resources\obsolete.PNG" />
+    <None Include="Resources\decision.png" />
+    <None Include="Resources\mailConnectors.png" />
+    <None Include="Resources\nonrecorded.png" />
+    <None Include="Resources\noresurface2.png" />
+    <None Include="Resources\pauseProcess.png" />
+    <None Include="Resources\PlayProcess.png" />
+    <None Include="Resources\Legend.png" />
+    <None Include="Resources\dd.png" />
+    <None Include="Resources\decisionsent.png" />
+    <None Include="Resources\Get.png" />
+    <None Include="Resources\Load.png" />
+    <None Include="Resources\NewRecordRelFlds.gif" />
+    <None Include="Resources\query.gif" />
+    <None Include="Resources\dataexchange1.png" />
+    <None Include="Resources\automaticstep.png" />
+    <None Include="Resources\automaticstep2.png" />
+    <None Include="Resources\linkConnector.png" />
+    <None Include="Resources\AtriumCRA-ARC.png" />
+    <Content Include="Resources\autosave.png" />
+    <Content Include="Resources\blue-info2.gif.png" />
+    <Content Include="Resources\clock2.png" />
+    <Content Include="Resources\disb.png" />
+    <None Include="Resources\eraser.png" />
+    <None Include="Resources\fees.png" />
+    <None Include="Resources\mandates.gif" />
+    <Content Include="Resources\mass.png" />
+    <Content Include="Resources\OutOfOffice.png" />
+    <Content Include="Resources\pdf-icon.png" />
+    <Content Include="Resources\recurrence.png" />
+    <Content Include="Resources\red-flag - Banner.png" />
+    <Content Include="Resources\red-flag-small - Banner.png" />
+    <Content Include="Resources\scale.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\search.gif" />
+    <None Include="Resources\section.png" />
+    <None Include="Resources\sentItems.gif" />
+    <None Include="Resources\shortcut.gif" />
+    <None Include="Resources\SoC.png" />
+    <None Include="Resources\srvCdns.gif" />
+    <None Include="Resources\srvCdnsF.gif" />
+    <None Include="Resources\status_anim.gif" />
+    <None Include="Resources\stop.gif" />
+    <None Include="Resources\StopCancel.png" />
+    <None Include="Resources\toolkit2.gif" />
+    <None Include="Resources\tripup.gif" />
+    <None Include="Resources\tripup1.gif" />
+    <None Include="Resources\user.gif" />
+    <None Include="Resources\view.GIF" />
+    <None Include="Resources\warning_16x16.png" />
+    <None Include="Resources\workflow.gif" />
+    <None Include="Resources\scaleBig.gif" />
+    <None Include="Resources\screen.gif" />
+    <None Include="Resources\ShortcutFile.gif" />
+    <None Include="Resources\ShortcutFile1.gif" />
+    <None Include="Resources\ShowNumber.png" />
+    <None Include="Resources\StructContainer.png" />
+    <None Include="Resources\StructuralContainer.png" />
+    <None Include="Resources\tocOpenSM.gif" />
+    <None Include="Resources\transback.gif" />
+    <None Include="Resources\Web_HTML.ico" />
+    <None Include="Resources\wfDoc.gif" />
+    <None Include="Resources\wfEnd.png" />
+    <None Include="Resources\wfStart.png" />
+    <None Include="Resources\workflowStart.png" />
+    <None Include="Resources\worklfowEnd.png" />
+    <None Include="Resources\XRefFile.gif" />
+    <None Include="Resources\SystemDefaults.gif" />
+    <None Include="Resources\toolbox_icon.png" />
+    <None Include="Resources\underline.png" />
+    <None Include="Resources\underline2.png" />
+    <None Include="Resources\sillyquestion.png" />
+    <None Include="Resources\timezone.png" />
+    <None Include="Resources\Upload-16x16.png" />
+    <None Include="Resources\subprocess.png" />
+    <None Include="Resources\SelectAll.png" />
+    <None Include="Resources\StopProcess.png" />
+    <None Include="Resources\txtfld.gif" />
+    <None Include="Resources\uploadDoc.png" />
+    <None Include="Resources\SelectRecords.png" />
+    <None Include="Resources\specialobject.png" />
+    <Content Include="Resources\SentToShareFail.png" />
+    <Content Include="Resources\SentToShareSuccess.png" />
+    <None Include="Resources\separator.png" />
+    <Content Include="Resources\VersionHistory.ico" />
+    <Content Include="Resources\VersionHistory.png" />
+    <None Include="Resources\workas4.png" />
+    <Content Include="serverList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="tx18_bmp.flt" />
+    <Content Include="tx18_gif.flt" />
+    <Content Include="tx18_ic.ini" />
+    <Content Include="tx18_jpg.flt" />
+    <Content Include="tx18_png.flt" />
+    <Content Include="tx18_tif.flt" />
+    <None Include="Web References\ReportingService\ActiveState.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\CatalogItem.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\DataRetrievalPlan.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\DataSetDefinition.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\DataSource.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\DataSourceDefinition.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\DataSourcePrompt.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\Event.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ExecutionSettingEnum.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ExpirationDefinition.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\Extension.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ExtensionParameter.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ExtensionSettings.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ItemTypeEnum.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\Job.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ModelCatalogItem.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ModelDrillthroughReport.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ModelItem.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ParameterValue.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ParameterValueOrFieldReference.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\Policy.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\Property.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ReportingService\ReportHistorySnapshot.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ReportParameter.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\reportservice2005.wsdl" />
+    <None Include="Web References\ReportingService\Role.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\Schedule.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\ScheduleDefinitionOrReference.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\Subscription.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\Task.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ReportingService\Warning.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\atDates\atDates.csproj">
+      <Project>{B9C1627D-F333-484E-8B2E-54DDF3EDE336}</Project>
+      <Name>atDates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atLayers\atDAL.csproj">
+      <Project>{4eab95b9-ef29-4b01-80f6-1911ad5ac313}</Project>
+      <Name>atDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atLogic\atLogic.csproj">
+      <Project>{2C02D0C1-3DA4-448C-AF1E-39ABC558B0D7}</Project>
+      <Name>atLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atriumBE\atriumBE.csproj">
+      <Project>{1CAFC739-5ADC-4205-A2C9-A4157126071D}</Project>
+      <Name>atriumBE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atriumDAL\atriumDAL.csproj">
+      <Project>{1c4fa2f9-056b-4d21-85d5-41938478edc4}</Project>
+      <Name>atriumDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lmDatasets\lmDatasets.csproj">
+      <Project>{9f21694a-11ad-43db-8db8-62f4e52684ab}</Project>
+      <Name>lmDatasets</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxEDOfficeLib">
+      <Guid>{9EF5199D-83D8-43DE-98A9-DA5BC5F17836}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>True</Isolated>
+    </COMReference>
+    <COMReference Include="EDOfficeLib">
+      <Guid>{9EF5199D-83D8-43DE-98A9-DA5BC5F17836}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>True</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Redemption">
+      <Guid>{2D5E2D34-BED5-4B9F-9793-A31E26E6806E}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://aspteks3/reportserver/reportservice2005.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ReportingService\</RelPath>
+      <UpdateFromURL>http://aspteks3/reportserver/reportservice2005.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>LawMate_ReportingService_ReportingService2005</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="AxInterop.EDOfficeLib">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Interop.EDOfficeLib">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Data.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.ButtonBar.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.CalendarCombo.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.Common.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.ExplorerBar.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.FilterEditor.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.GridEX.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.Ribbon.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.Schedule.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.TimeLine.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Janus.Windows.UI.v4">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="serverList.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="TXTextControl">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="TXTextControl.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

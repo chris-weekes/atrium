@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>229, 17</value>
+  </metadata>
+  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>109, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="uiPanelManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>352, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pnlRelFldSelector.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOlJREFUOE+tkz8K
+        gzAYxdNr1TvoHeoF6iROjkI7uGXK4tajpGtd26mLkzgIDgpfvxewDcVEqBV+vPx57xEk2RGR2PShwEea
+        pgS01kaB7feGbeN3cN7bXlBVlWRoDZxgwSOFUoqmaaJxHL2gwPYgg6yQUtIwDHS8PJ20bWt+HnQGGWRF
+        WZbU9z0d1IO5U8waG72/15qmMQXQGWSQFUVRmILoXFN0urGCmkIeh1CeuwqQFXmem4J9pinIrqwfMA94
+        3VWArMDRUNB1nRf4bA8yWBNJkkiG1oB5wSO3X6S1tzDv/3yV//aYXCd9AZbu1ozPxllPAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <metadata name="ddFieldBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>573, 17</value>
+  </metadata>
+  <metadata name="appDB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>489, 17</value>
+  </metadata>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHpJREFUOE9jYBhw
+        0LJ07/+WOUC89BgQg2ji+WDHgzSTA6qB+iAGAG0mB4BcCjYAZBIuAJTGkIKJgVwOdQGZBgBdjhEGINOR
+        bYXx0cVAzsIIA2yK8IlhDQN0G/EagB4GpLsATxjADCMpDEhNC0SlA3yGoqQDivICpbkZADWYbVWNc7rG
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAcVJREFUOE+tk9sr
+        g3EYx/03LtwqF5Sa44VDiiLlRk3JoeSCG1cuJA25kHMks5NzGDPvO6fRZk5jZJhtIdZmuZBmX55HUz/i
+        am89N2/v5/P8ft/neRMS4vHMWVygmpXPML3uhGHtGLrVQ2iM+1Av2jC+sIux2R2MTG9iSG/BgHYdQl+C
+        yxs6UVbfgZKaNhRVtSK/sgW5Fc3IKG1EenEdUgurkZKnREuXGpL9ShTMSKcMR6KRf+v1LQLtygEsjmtR
+        MGU+4c7/CW5ufQi/fAm2Dj2iQG864mP/JVg2riCnoAztqh7OxXriFQUao4PvTIJQOCSIJHkDyckpDPv8
+        71Av2WA784sCSpoCI7hSWcsfB5+D0OkMSE1L/4bd7ujnRPZwcHEnCsbndzltOgHBmYosqFRdUCiyBdjp
+        jPI4nVcPomB0ZptHFcuAJImJSb9guz3Ku3DueRQFw4YNnjMJaFSUduzOdGzqTPDONjCol+H2BUTBoE7i
+        JYnBT4F3DuwnLEtAv8aMm7ugKOibNEPZ1M0zpuIV/kybAoutMHUmuHfCBO/Dsyigl8tbLpisF5DtbliP
+        PHC4/BzWpTcAz30I/sewUPH4B+Pj+ADGHSTbfhWXUQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_2.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAATxJREFUOE+d00tL
+        AmEUxvGTCze6Dmrl95jtQEQjZCDMdGEiEgW7DQYhsyjXLQoiUighCMKQLoN+jogIIggaIibHGUEGd+rT
+        nD6B7xz4L97F73A271SlUkmPx+MZijCxWMwh0zTziDhsqVwu58MLUK1WMRqNJo4NWyqVSgWGw+FQKDZs
+        qXj60Mo9+dh89LBx72K9+Yu1xg9Wbr+h3nwhe/2JpfoHFi/fka69YeHiFfPnL5g7e8byUb1FhZPm/wIe
+        0QXa4VWLcsd37agXZM1am3RdLw4GAwRBIBQbtqRp2la/34dhGPA8b+LYsKVMJrPNj16vJxQbtqQoyo5l
+        WYgSW5Jledf3fbiuKxQbtiRJ0l6n04GqqrBte+LYsKVUKrXf7XbhOI5QbNhSIpFYTSaTB1Fiy584HjYd
+        NisYm/gfk2K7nYJXX04AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_3.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAZ1JREFUOE+Fk61z
+        hDAQxe/+lMqTJ68SWUndWSR1kVgkMjI2EhkZG4mMxCKpo+71bYBjuGPazLzZfLAvv2TD2bqI065974c/
+        ++G4DL8+38+pKwYxRoSOCiHJifymECLnZlkXkN3VtqlMSFJRaajaotYuSduQPnaeiSlSjNo4ZPmBQc2F
+        GAcM44RpmiV9kSSKmW1DMr9+FE8ExHfOJdmWsiSgoWglqhubCFVzYFAojVV5WWOnguNVssb+C8EE4EWc
+        4CnQdS362KILBpHyTqPzFq618zHkbI8qSCVSNWYNfUvrsKhjXBVo7tG2DZKBtCOCsTdccEuifCcGi+FI
+        CstqyM1u72DbXco3BAX0NTCKEWmGhh53embo7RW6us0GO4Ll7ANj72kQKyZbmlBiEPJkEM0FWl1x0ivB
+        cu71xUmMrtwTCE0iuCWCurzMBvI0s7xI5blQa4xOYRIC2V0oSDD52UAI6vLt6T/a/zenYI8IigdBVZDg
+        r2aN4U2XkGpMAwl63oHPuXvG3XmJDcv4X5PnbUzD591AawWjqzSWecn9BanujIs+XJZpAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_4.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHpJREFUOE9jYBhw
+        0LJ07/+WOUC89BgQg2ji+WDHgzSTA6qB+iAGAG0mB4BcCjYAZBIuAJTGkIKJgVwOdQGZBgBdjhEGINOR
+        bYXx0cVAzsIIA2yK8IlhDQN0G/EagB4GpLsATxjADCMpDEhNC0SlA3yGoqQDivICpbkZADWYbVWNc7rG
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_5.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHpJREFUOE9jYBhw
+        0LJ07/+WOUC89BgQg2ji+WDHgzSTA6qB+iAGAG0mB4BcCjYAZBIuAJTGkIKJgVwOdQGZBgBdjhEGINOR
+        bYXx0cVAzsIIA2yK8IlhDQN0G/EagB4GpLsATxjADCMpDEhNC0SlA3yGoqQDivICpbkZADWYbVWNc7rG
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_6.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAWRJREFUOE9jYKAW
+        6Jmy9T8IN0/eAsa1fRvAuLxjDRgXNC3/n9+4IhSnfSDN+ADIAJCBOA3BZcCvP//+gzDIgJuPvuI2hBgD
+        QIbAMIZXQM6DAc81HnA2yPZvv/6C8bsvP/8/ePHhf0HD/P8YBuw4eAms6cnTd//ZJrH891kR9P/2/Tf/
+        dx2593/LwXv/1+6D4A/f//zPrpmNagBTP+NdqTmi/2E45LzZf4XFov/tltuB/Q9zAUgzVgPYJ7P+73wf
+        hoLb34aADTGeb/H/zNUX/5fvvgPGIG9guADk5Mbnfii47qkP8QYw9TG+E5zO/x+GPY/p/pecI/jffZnv
+        /6t3XoP9DnPBs8+/MF0ACtENO8+AAxEUcLBAvHzrFVzz0p13/oMwTgPy6xeBDQBpAvkbZDMs9EG2wwx4
+        8vHX//TK6ZjRmFY+G2wAyAZQSINoZAzS+OA9MB0AMVYDQCFLDAZpxogFSnI0AHflBDlXLIfbAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_7.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHpJREFUOE9jYBhw
+        0LJ07/+WOUC89BgQg2ji+WDHgzSTA6qB+iAGAG0mB4BcCjYAZBIuAJTGkIKJgVwOdQGZBgBdjhEGINOR
+        bYXx0cVAzsIIA2yK8IlhDQN0G/EagB4GpLsATxjADCMpDEhNC0SlA3yGoqQDivICpbkZADWYbVWNc7rG
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_8.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAATxJREFUOE+d00tL
+        AmEUxvGTCze6Dmrl95jtQEQjZCDMdGEiEgW7DQYhsyjXLQoiUighCMKQLoN+jogIIggaIibHGUEGd+rT
+        nD6B7xz4L97F73A271SlUkmPx+MZijCxWMwh0zTziDhsqVwu58MLUK1WMRqNJo4NWyqVSgWGw+FQKDZs
+        qXj60Mo9+dh89LBx72K9+Yu1xg9Wbr+h3nwhe/2JpfoHFi/fka69YeHiFfPnL5g7e8byUb1FhZPm/wIe
+        0QXa4VWLcsd37agXZM1am3RdLw4GAwRBIBQbtqRp2la/34dhGPA8b+LYsKVMJrPNj16vJxQbtqQoyo5l
+        WYgSW5Jledf3fbiuKxQbtiRJ0l6n04GqqrBte+LYsKVUKrXf7XbhOI5QbNhSIpFYTSaTB1Fiy584HjYd
+        NisYm/gfk2K7nYJXX04AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_9.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAoBJREFUOE+Fk21I
+        U1Ecxp0D6VMRgeD3PogiRCmIoPhB15rTNHfHDIq1louNFtwxQRg6EtL5kqX5UoOkqGxkS42cm5ttDDdt
+        zbfSoSZLe1E0FSTZh8yne8/ArpR54OE59/7v/3fOeTiXF8MMPp8vYCzHRsefYp//OxAzIahfovd8wwBq
+        nzud6PF4YPf74R0bQzAUQigcxuLyMr5vbOBHJILt7W0kUVTpXwvweLwuiqLw7t7BcugTXCwkWSrN3wUx
+        AKvRaMSKTYevvdp9xdbftknwa2cHSRKJigvorqiowJeea5h9pkToyWW8fyTH5MOoph9fwmynktSHW4qx
+        vrWF+MzMPYBeg8GABasaH5jGRXcrsD6/q80ZJyY6LuLTCzV8zUWYX11FbGLinyyYI7wuLy/HnKUUYVcz
+        fq7MwNcmg69VBm+LFGtTdqxP2zHTeQXe24Wk+VhGRir3CP16vZ5sO/JtCt67FCYtZWTOyt0kIc7W3Q1n
+        SQbHxWI1FzBA0zTGHlzA5sI43HfOEXfUFxIfbCwiztZdpnySwdH09KtcwKBWq0XAXIK1jwE4GwqI20zi
+        PR40n4ejWvzPDDwajQYj7VIsh3yw1+bB36Eh8/HumqhbqxA0y9BXJSIZHE5NTePuYEilUjEACgFLJT5P
+        etBXLYStRoiBOhEGG/LgaRQjeF+KV0YhySAhO1vLBYwolUrmkhTDWXcGw08NCI+6iIJdN5jgRPDcEpH6
+        S4Mgeg+ysq5zAaMKhYK5JEV4Uy+E03Qa/dW5sN3MxYBJQN6xYusWfQ7J4Ehamo77T8zJ5XKywlBTwb5i
+        65VZccNxycllh1JSSrgAlrZEn4gNHCTdSX47t/E3W2AMAJC2+nwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_10.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdtJREFUOE9j/A8E
+        DGhgUT4TgwA/I1iUg/MfAzs7A4NF1ncGdg4OdKUMDCADkMHCPMb/K8sZ/oPojbVM/w/0Mvw/NpkBTP/5
+        8wdd+X8MA2akAoWuTf3//2Lf//+nmv8f7JGDG3Ll0iX8BoBtAGpCNuD/0ar/O9sYwHj58hWEXQA24Fwn
+        xKDjdf//78v//39rAtiATZs3E2EASAPQVjA+WPL//+6s//83Rv3Pzcz4//btW8IG/JtvB9EEwjtSwZr/
+        rQn+v2btWgzN4BhEF3358gXYySCNMM3nZgb9//TpE3EGvLu0+f+tJPn/f6Ya/P8/2/j/tok5/zdr8Py/
+        f+okYQNeTfX6/71P///tQov/O7ZvB4f6aW8JMD5gLfx/roYG/jAAaQbh941a/x9kK4PxlUhZuAE7Dfgx
+        ohIeBp+2dYE1gvCbWs3/T4tUwV65GCL9/6SHONgFIK/M5WBBSZFwA45F6II1gTDI5rtpimDbzwVI/T/i
+        KPJ/j5kg2IB18lz/kVMk3ACQDSBFII0gm2Gaj7uKQfwPtBmkeZkoB0qUwg0AJeOVFYVgQ0DOBtkMcjrI
+        dpDfQQZ0RUb+b2psRElQGOngx/fv/+/cuQNOtvMXLQbbduLEif9PnjzBmhsBFy0UGNluU/UAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_11.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAVRJREFUOE9jYKAW
+        ODPT5P/pGcb/T04z/H98iv5/kswFaUYHh/q1iDMEoXkm0Axk/P//3i7V/7valf5vb5H/v7VJ9v/mRun/
+        G+okUA0GOfv/94n//3/pw8QY7vr/f12N2P+enh6EISA//3/d+v//s8b/RyfpYsUHejX+7+lU+b+jVeH/
+        lkYZsEtAGBxOoAD7/6AarJEoALQIBBYXckNcAtZ4Jf8/JCzQwwGT/+NoAljdgjyO/3l5ef8ZQKH9/0w6
+        OArBBoDCAw9+vyccrG5eDtv/3Nzc/wwg/4EMgHgBaAAoPPDgZ5v9wOrmZLFADABFFciA/T3qEAOA4YEP
+        31npAlY3K4MJYgAonkEGgEIYbAAwPPDhywuswepmpjNCwgAEkBMJKJ5XVwr/X1Em8H9pMS84tEEBBvIz
+        yNkgm0GafXx8/jc3NyPSA4gDchKxGEUzSRmH2ooB6uoN/Rf4ffIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_12.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAQ9JREFUOE9jYKAW
+        6Jmy9T8IN0/eAsZ1fRvBuLxjDRgXNC3/n9+4IhSnfSDN+ADIAJCBOA3BZcCvP//+gzDIgJuPvuI2hBgD
+        QIbAMIZXGvrXY/UByPZvv/6C8bsvP/8/ePHhf0HD/P84DThz7v5/ED526t7//UfvgPHWQ3f/r913D4w/
+        fP/zP7tmNm4DkJ2BbDvIBSDNBA2A2Qqzecv+22Cbl+++A8Ygb2B1QVXnarDlh4/fBmNcBrz88gu7ARXt
+        K4ky4MWX39gNyK9fBDYAOeCQnb90553/IEzQAFCIwzA2A558/PU/vXI6Ziyklc8GuwDkR2QMshGkCYQf
+        vAemAyDGagAoZInBIM1YY4HcXA0AnLYiuWtint0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_13.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAuVJREFUOE+tk11I
+        k2EUx1/oTrorTUMIvIiiD5Awb4KoCJSaYGWRLi2wu8KiMqEkooXLz1zzqwwxvZifU1OrTVS0uanbcq7m
+        R266vb6as9S9j2575/Tf4zRvvenAec+P55znPOf5vzwM8z8sOt+Y8VizxB9/9lW+U79jEl1Weu8CiZLq
+        M7ZrT2cbciVmAeH3VaM7NTjwsGNQYvbglNSQG6iNLTDKxGVDrKiOw8W8Qe+r9smmzEZbW2aztS2zicam
+        jbjp0vYppajQsLJRKy7Wsxt7GUnnDJJkOux+aUastB8qzg+l1YvGCQGNNgFKmw9Kyg0TPnTQnChnAEG0
+        NqlAC0nnLJg7Sjt/rUgP5qQc8Tk6lI8IeG3gUTy0jAI9jwIjD/kQQaHBhXfjAuKytWCi5EiUG5HWbOcZ
+        cbmZ2DzAtxkv3g670cd50Wv3oIhu0E8LUFvdyB90wUjzHZNuVFrcGHf6YOKB+FIzYW6WmQi2TNa/+A/x
+        weQKsMe3hirjUoD9lN9vMT0T5/IMhImhH8OvVfRPEmSo56G18mj57sKtjzNQW1yoH15EaisHE7uM6qFF
+        vOhywjK9gq4pATF5esJcyhsgXtrNyfsQp3DAuezH6B8Bl+scIN41aNgViOg6T3nQ7kZqC4f19XWM8es4
+        m9VPmOinPYTWw/HbgzMVNswRH3UB12vt8K/6oXW4cVUxCS8dX0envFIzBUFYRfesD+EPOgkTdk9NnnfP
+        Q/KZw2HZKKQqDo+aHThYOIosyk8+sTgkG0NJzwzuKu04UTKOYvrrH6jmEJamJkxkuorquWmRMsu2iBcq
+        rQG2u3w4XzoW4AV6TVHF5rqZarwruZVnItK+oPWnB82mReyX/kArFVBpXsJROo3GSlCsdSIixwLd1DKK
+        ep048mYEfVToLN0Sgm63gQlNqNaEptRzITcUbHByLRsiVgQ8WLzJ+5IV7B7KYTQGU9+bXMOGJCrY0JQG
+        LiyhSrPT29kx/xd+bHHTFznGKwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_14.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAApRJREFUOE+tk9tP
+        knEYx99/oK112233teVa66K16gK2xmZe6JCbTiAnwbXCBZUz1lBASQPRIAxU5PCigEUEBIhWQ9GVi2oK
+        QcIUT2Njzc3l++2dF928eefv5tl+e/Z5Dvs8BHFUTyaTHZfL5Zfp6FEoFFGlUjmvVqtXdDrdlkqlWmxq
+        atI2NzdfObSeXq+vOJ1OlEolVKtVlMtl5HI55PP5g79sNguz2UwJBIIpLpfbyAAND9t+7+5R+LO3S21v
+        b2IunUY8FkUiEcdMKoHpZJz6OJukZqYTaGkRbDAA5oH+Gl8zDeN4Gj+La+jWG9DaYYHd9gLXhEMwWxy4
+        wHuOdv04WqXiCgMwNGiqBdIVPLB+RuzTCrhyE4iLUyBHrSDOB9BjIUGwXLilCUEuFa0zACZjX22tsoPl
+        chXfC+u48ciGEzdiCJKjqGsLYcQdwN3eCdjJMKRiIRPwzNBTFetScPgXDhboczkQ9DgQ8LnRqbfD759A
+        Y5sFvS8DaJWIyowODAZ9NZRZh2JwAcH4V9y8NwDiHIk3vhEQZ0lYx4IgrtLzG6KQyyRMgFbbVc18KeBb
+        YQOZbJHid46BYMeRfEvi5J0w3MEIZIbX8IZSkEhEJUYH3V3qnbb+DxibyqBczFOTpAepd5OIhoIwWjyI
+        RcLg3bfDMh6DRCxcZQA0mqfbC8tbeDy8iFf+NHW7fQjEJSfCQS+IM144/RF6BBdU1hSkEtEvBoDH4yl8
+        pHs/V9pEcu4H1ah0geDQIkUCOCWMIJKYxRMbLdX8Eu2BpPBfpWlFr2u13bViIU9N+AOYSbxHJBwC6RqF
+        sb8PHQ9V+3KZbLWhocF06E3U19ef5vP5Wdr5JTrRy2az1SwWi0fHOg6Hc+yojvcf5y8sxbHfNQancwAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_15.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdtJREFUOE9j/A8E
+        DGhgUT4TgwA/I1iUg/MfAzs7A4NF1ncGdg4OdKUMDCADkMHCPMb/K8sZ/oPojbVM/w/0Mvw/NpkBTP/5
+        8wdd+X8MA2akAoWuTf3//2Lf//+nmv8f7JGDG3Ll0iX8BoBtAGpCNuD/0ar/O9sYwHj58hWEXQA24Fwn
+        xKDjdf//78v//39rAtiATZs3E2EASAPQVjA+WPL//+6s//83Rv3Pzcz4//btW8IG/JtvB9EEwjtSwZr/
+        rQn+v2btWgzN4BhEF3358gXYySCNMM3nZgb9//TpE3EGvLu0+f+tJPn/f6Ya/P8/2/j/tok5/zdr8Py/
+        f+okYQNeTfX6/71P///tQov/O7ZvB4f6aW8JMD5gLfx/roYG/jAAaQbh941a/x9kK4PxlUhZuAE7Dfgx
+        ohIeBp+2dYE1gvCbWs3/T4tUwV65GCL9/6SHONgFIK/M5WBBSZFwA45F6II1gTDI5rtpimDbzwVI/T/i
+        KPJ/j5kg2IB18lz/kVMk3ACQDSBFII0gm2Gaj7uKQfwPtBmkeZkoB0qUwg0AJeOVFYVgQ0DOBtkMcjrI
+        dpDfQQZ0RUb+b2psRElQGOngx/fv/+/cuQNOtvMXLQbbduLEif9PnjzBmhsBFy0UGNluU/UAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout_Reference_16.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAadJREFUOE+lk9sr
+        RFEYxcntgReR4l/xVyiFkkuUe25FCSmleJIHXryI3AbjllFCyJNb8YA3lwfM9Zwzx2gmWr61OdMMMyi7
+        fu1z9rfW2t+uvRMTPkbS6OHz6+d33Kk+Pz1TiqFP3mSGJU4e3DYRDAYRCoViMrhjgoghW0gXkoVEKyC1
+        x2EgEAjEpdfhx+nNC6gTU46QIaRYAWltKzr8fj9M04xJ+4oBQh2JCFEZabU2DbquwzCMKLi2ebGK28cb
+        aJqmoFY8BUJWuIOKmY8iocnCfjaPsYNh9K13wOfzwePxgFoxFgm5PwYsns5gZG9IcXC9+zWgWMx54YCS
+        SQ1er1eJ2IXteArdG63oWmvB/tWOWmfd7XaDWjFGBxROaHC5XArb0Ryal6vQsFgOx/mqMrJ1mp1OJ6iN
+        G/CweYK71kl0dY5j93JLmf8UwLa4u716APf9djztX4TNkQHUxDxC2bSm2iTWrjy3hRXCOrXfjlA5q6sz
+        WuZ4MzXUfg1IrZ7TUWPTUbego3HJUDRFwH/WqKFWAkoi7wHvNF8aL0eVUPsL1JQKfFj/G++jkSVU0AG1
+        nwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ddFieldGridEX_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;DynamicFiltering&gt;True&lt;/DynamicFiltering&gt;&lt;Key&gt;ddField&lt;/Key&gt;&lt;Caption&gt;Table Name&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="TableId"&gt;&lt;Caption&gt;Table Id&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;TableId&lt;/DataMember&gt;&lt;Key&gt;TableId&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;40&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;/Column0&gt;&lt;Column1 ID="TableName"&gt;&lt;Caption&gt;Table Name&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;TableName&lt;/DataMember&gt;&lt;HideWhenGrouped&gt;True&lt;/HideWhenGrouped&gt;&lt;Key&gt;TableName&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column1&gt;&lt;Column2 ID="FieldId"&gt;&lt;Caption&gt;Field Id&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;FieldId&lt;/DataMember&gt;&lt;Key&gt;FieldId&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column2&gt;&lt;Column3 ID="FieldName"&gt;&lt;Caption&gt;Field Name&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;FieldName&lt;/DataMember&gt;&lt;Key&gt;FieldName&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;160&lt;/Width&gt;&lt;CellStyle&gt;&lt;FontBold&gt;True&lt;/FontBold&gt;&lt;/CellStyle&gt;&lt;/Column3&gt;&lt;Column4 ID="DataType"&gt;&lt;Caption&gt;Data Type&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;DataType&lt;/DataMember&gt;&lt;Key&gt;DataType&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;/Column4&gt;&lt;Column5 ID="FieldType"&gt;&lt;Caption&gt;Field Type&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;FieldType&lt;/DataMember&gt;&lt;Key&gt;FieldType&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;150&lt;/Width&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;ValueList Collection="true" ElementName="Item"&gt;&lt;Item0 ID="TB"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item0.Image" /&gt;&lt;Text&gt;Textbox&lt;/Text&gt;&lt;Value&gt;TB&lt;/Value&gt;&lt;/Item0&gt;&lt;Item1 ID="X"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item1.Image" /&gt;&lt;Text&gt;Checkbox&lt;/Text&gt;&lt;Value&gt;X&lt;/Value&gt;&lt;/Item1&gt;&lt;Item2 ID="C"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item2.Image" /&gt;&lt;Text&gt;Dropdown List&lt;/Text&gt;&lt;Value&gt;C&lt;/Value&gt;&lt;/Item2&gt;&lt;Item3 ID="M"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item3.Image" /&gt;&lt;Text&gt;Grid Control (Multi-Row)&lt;/Text&gt;&lt;Value&gt;M&lt;/Value&gt;&lt;/Item3&gt;&lt;Item4 ID="P"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item4.Image" /&gt;&lt;Text&gt;Percentage Textbox&lt;/Text&gt;&lt;Value&gt;P&lt;/Value&gt;&lt;/Item4&gt;&lt;Item5 ID="T"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item5.Image" /&gt;&lt;Text&gt;Textbox (Multi-Line)&lt;/Text&gt;&lt;Value&gt;T&lt;/Value&gt;&lt;/Item5&gt;&lt;Item6 ID="?"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item6.Image" /&gt;&lt;Text&gt;Upload Document&lt;/Text&gt;&lt;Value&gt;?&lt;/Value&gt;&lt;/Item6&gt;&lt;Item7 ID="B"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item7.Image" /&gt;&lt;Text&gt;Currency Textbox&lt;/Text&gt;&lt;Value&gt;B&lt;/Value&gt;&lt;/Item7&gt;&lt;Item8 ID="MC"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item8.Image" /&gt;&lt;Text&gt;Multi-Column Dropdown&lt;/Text&gt;&lt;Value&gt;MC&lt;/Value&gt;&lt;/Item8&gt;&lt;Item9 ID="AD"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item9.Image" /&gt;&lt;Text&gt;Address Control&lt;/Text&gt;&lt;Value&gt;AD&lt;/Value&gt;&lt;/Item9&gt;&lt;Item10 ID="?C"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item10.Image" /&gt;&lt;Text&gt;Select a Contact&lt;/Text&gt;&lt;Value&gt;?C&lt;/Value&gt;&lt;/Item10&gt;&lt;Item11 ID="?F"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item11.Image" /&gt;&lt;Text&gt;Select a File&lt;/Text&gt;&lt;Value&gt;?F&lt;/Value&gt;&lt;/Item11&gt;&lt;Item12 ID="?D"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item12.Image" /&gt;&lt;Text&gt;Select a Document&lt;/Text&gt;&lt;Value&gt;?D&lt;/Value&gt;&lt;/Item12&gt;&lt;Item13 ID="A"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item13.Image" /&gt;&lt;Text&gt;Calendar Dropdown&lt;/Text&gt;&lt;Value&gt;A&lt;/Value&gt;&lt;/Item13&gt;&lt;Item14 ID="?O"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item14.Image" /&gt;&lt;Text&gt;Select an Office&lt;/Text&gt;&lt;Value&gt;?O&lt;/Value&gt;&lt;/Item14&gt;&lt;Item15 ID="?W"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item15.Image" /&gt;&lt;Text&gt;Select an Officer (Workload)&lt;/Text&gt;&lt;Value&gt;?W&lt;/Value&gt;&lt;/Item15&gt;&lt;Item16 ID="?I"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column5.ValueList.Item16.Image" /&gt;&lt;Text&gt;Select an Issue&lt;/Text&gt;&lt;Value&gt;?I&lt;/Value&gt;&lt;/Item16&gt;&lt;/ValueList&gt;&lt;/Column5&gt;&lt;Column6 ID="Lookup"&gt;&lt;Caption&gt;Field's Lookup Table&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;Lookup&lt;/DataMember&gt;&lt;Key&gt;Lookup&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;125&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="LeftEng"&gt;&lt;Caption&gt;Label (Eng)&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LeftEng&lt;/DataMember&gt;&lt;Key&gt;LeftEng&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;165&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="LeftFre"&gt;&lt;Caption&gt;Label (Fre)&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LeftFre&lt;/DataMember&gt;&lt;Key&gt;LeftFre&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Width&gt;165&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="AllowInRelatedFields"&gt;&lt;Caption&gt;Allow In Related Fields&lt;/Caption&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;AllowInRelatedFields&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;AllowInRelatedFields&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column9&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;24&lt;/RowHeight&gt;&lt;TableHeader&gt;True&lt;/TableHeader&gt;&lt;StoredFilters Collection="true" ElementName="StoredFilter"&gt;&lt;StoredFilter0 ID="StoredFilter1"&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;9&lt;/ColumnIndex&gt;&lt;TypeNameValue1&gt;System.Boolean&lt;/TypeNameValue1&gt;&lt;Value1&gt;True&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;Key&gt;StoredFilter1&lt;/Key&gt;&lt;/StoredFilter0&gt;&lt;/StoredFilters&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+</root>
