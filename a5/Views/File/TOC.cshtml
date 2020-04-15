@@ -1,0 +1,182 @@
+﻿@{
+
+    atriumBE.FileManager fm = ViewBag.fm;
+    string pgTitle = ViewBag.Title;
+    string screenName = ViewBag.Screen;
+}
+
+@helper LoadTOCNode(System.Xml.XmlElement xE, atriumBE.FileManager fm)
+{
+    atriumBE.atriumManager Atmng = fm.AtMng;
+    //check permission on the node before adding it
+    string feature = xE.GetAttribute("supertype");
+    if (feature == null || feature == "")
+    {
+        feature = xE.GetAttribute("type");
+    }
+    //if (feature.ToLower() == "efile")
+    //{ 
+    //    feature = "EfileScreen";
+    //}
+    string fld = xE.Name;
+    try
+    {
+        if (fld == "fld" || Atmng.SecurityManager.CanRead(fm.CurrentFile.FileId, (atSecurity.SecurityManager.Features)Enum.Parse(typeof(atSecurity.SecurityManager.Features), feature, true)) > atSecurity.SecurityManager.LevelPermissions.No)
+        {
+            string tocTitle;
+            string tocTooltip;
+            if (Atmng.AppMan.Language.ToUpper() == "FRE")
+            {
+                tocTitle = "titlef";
+                tocTooltip = "tooltipf";
+            }
+            else
+            {
+                tocTitle = "titlee";
+                tocTooltip = "tooltipe";
+            }
+            if (fld == "fld")
+            {
+                <li>@xE.GetAttribute(tocTitle)</li>
+            }
+            else
+            {
+                if (xE.GetAttribute("type").StartsWith("acs-"))
+                {
+                    string acsid = xE.GetAttribute("type").Replace("acs-", "");
+                    <li>@Html.ActionLink(xE.GetAttribute(tocTitle), "A5", new { fileid = fm.CurrentFileId, acseriesid = acsid, linkid = xE.GetAttribute("id"), filter = xE.GetAttribute("filter") }, new { title = xE.GetAttribute(tocTooltip) })</li>
+
+                }
+                else
+                {
+                    <li>@Html.ActionLink(xE.GetAttribute(tocTitle), xE.GetAttribute("type"), new { fileid = fm.CurrentFileId, linkid = xE.GetAttribute("id"), filter = xE.GetAttribute("filter") }, new { title = xE.GetAttribute(tocTooltip) })</li>
+                }
+            }
+            //TreeNode n = nodes.Add(xE.GetAttribute(tocTitle));
+            //n.ToolTipText = xE.GetAttribute(tocTooltip);
+
+            //if (xE.GetAttribute("id") == "")
+            //    n.Tag = xE.GetAttribute("filter");
+            //else
+            //    n.Tag = xE.GetAttribute("id");
+
+            //n.Name = xE.GetAttribute("type");
+            //if (fld == "fld")
+            //{
+            //    n.Tag = "noform";
+            //    n.NodeFont = new Font("Calibri", (float)8.75, FontStyle.Bold);
+            //}
+            //else
+            //{
+            //    bool applyDefaults = false;
+            //    n.ForeColor = Color.Blue;
+
+            //    switch (feature)
+            //    {   //handle features to draw different icons
+            //        case "efile":
+            //            if (n.Parent == null) //top node only, not efile properties.
+            //            {
+            //                n.ImageIndex = setTocStatusIcon();
+            //                n.SelectedImageIndex = setTocStatusIcon();
+            //                n.NodeFont = new Font("Calibri", (float)9.25, FontStyle.Bold);
+            //                n.Text = n.Text; //c# treeview hack to redraw node properly because of font change
+            //                n.ForeColor = SystemColors.ControlText;
+            //            }
+            //            else
+            //                applyDefaults = true;
+            //            break;
+            //        default:
+            //            applyDefaults = true;
+            //            break;
+            //    }
+            //    if (applyDefaults)
+            //    {
+            //        n.ImageIndex = 25;
+            //        n.SelectedImageIndex = 25;
+            //    }
+
+
+            //    if (xE.GetAttribute("italicize") == "true")
+            //    {
+            //        n.ForeColor = SystemColors.ControlDark;
+            //        n.NodeFont = new Font("Calibri", (float)8.75, FontStyle.Italic);
+            //    }
+            //    if (xE.GetAttribute("bold") == "true")
+            //    {
+            //        n.NodeFont = new Font("Calibri", (float)8.75, FontStyle.Bold);
+            //    }
+            //    if (xE.GetAttribute("strikeout") == "true")
+            //    {
+            //        n.NodeFont = new Font("Calibri", (float)8.75, FontStyle.Strikeout);
+            //    }
+            //    if (xE.GetAttribute("icon").Length > 0)
+            //    {
+            //        n.ImageIndex = Convert.ToInt32(xE.GetAttribute("icon"));
+            //        n.SelectedImageIndex = Convert.ToInt32(xE.GetAttribute("icon"));
+            //    }
+            //}
+            <ul>
+                @foreach (System.Xml.XmlElement xc in xE.ChildNodes)
+                {
+
+                    @LoadTOCNode(xc, fm);
+
+                }
+            </ul>
+        }
+    }
+    catch (Exception x)
+    {
+    }
+
+}
+
+<div class="panel pnlToc">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-sm-12">
+                <a data-toggle="collapse" class="tocAnchor" href="#collapsenToc">
+                        <span class="glyphicon glyphicon-folder-open flIcn"></span>@pgTitle</a>
+                    <small style="margin-left:5px;">@Html.LabelForStatusCode(fm.CurrentFile.StatusCode, fm)</small>
+                <div class="dropdown tocDDDiv">
+                    <button class="btn btn-info btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        @ViewBag.Screen
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu tocDD">
+                        @{ System.Xml.XmlDocument xdToc = new System.Xml.XmlDocument(); xdToc.InnerXml = fm.CurrentFile.FileStructXml;  }
+                        @LoadTOCNode(xdToc.DocumentElement, fm)
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="collapsenToc" class="panel-collapse collapse in">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    @if(!fm.CurrentFile.IsOpponentIDNull())
+                    { 
+                    <label class="tocLbl">@Html.TranlateLabel(fm.AtMng, "SIN:", "NAS :")</label> <span class="tocV">@fm.GetCLASMng().GetDebtor().FindLoad(fm.CurrentFile.OpponentID).SIN</span><br />
+                    }
+                    <label class="tocLbl">@Html.TranlateLabel(fm.AtMng, "Name:", "Nom :")</label> <span class="tocV">@fm.CurrentFile.Name</span><br />
+                    <label class="tocLbl">@Html.TranlateLabel(fm.AtMng, "File Number:", "No. de dossier :")</label> <span class="tocV">@fm.CurrentFile.FullFileNumber</span>
+                </div>
+                <div class="col-sm-6">
+                    <label class="tocLbl">@Html.TranlateLabel(fm.AtMng, "Type:", "Type :")</label> <strong>@Html.ResolveLookup(fm.CurrentFile.FileType, "FileType", fm, null)</strong><br/>
+                    <label class="tocLbl">@Html.TranlateLabel(fm.AtMng, "Lead Office:", "Bureau responsable :")</label> <strong>@fm.CurrentFile.LeadOfficeCode</strong><br/>
+                    <label class="tocLbl">@Html.TranlateLabel(fm.AtMng, "Lead Paralegal", "Parajuriste principal :")</label>
+                    @if (!fm.CurrentFile.IsLeadParalegalIDNull())
+                    {
+                        lmDatasets.officeDB.OfficerRow orPL = fm.AtMng.GetOffice(fm.CurrentFile.OwnerOfficeId).GetOfficer().FindLoad(fm.CurrentFile.LeadParalegalID);
+                        string leadPL = orPL.LastName + ", " + orPL.FirstName + " (" + orPL.OfficerCode + ")";
+                        <strong>@leadPL</strong>
+                    }
+                </div> 
+            </div>
+            <div class="row">
+               
+            </div>
+        </div>
+    </div>
+</div>

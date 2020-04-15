@@ -1,0 +1,12 @@
+﻿
+@{
+    atriumBE.FileManager fm = ViewBag.fm;
+    ViewBag.Title = fm.CurrentFile.Name +"("+fm.CurrentFile.FullFileNumber +")";
+}
+
+<h2>@ViewBag.Title</h2>
+<div class="pull-right">@Html.Partial("TOC")</div>
+
+<form class="form-horizontal">
+
+</form>

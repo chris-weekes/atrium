@@ -1,0 +1,55 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+@{
+    ViewBag.Title = "Error";
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <div class="container">
+        <hgroup>
+            <h1>Error</h1>
+
+
+            @if (Model.Exception.GetType() == typeof(LoginException))
+            {
+                if (Model.Exception != null)
+                {
+                    <p>
+                        @Model.Exception.Message
+                    </p>
+                }
+                <p>
+                    @Html.ActionLink("Login", "Login", "Home")
+                </p>
+            }
+            else
+            {
+
+                if (Model.Exception != null)
+                {
+                    if (Request.IsLocal)
+                    {
+                        <p>
+                            @Model.Exception.Message
+                        </p>
+                    }
+                    else
+                    {
+                        <p>
+                            There was a problem with your request.  Please try again.
+                        </p>
+                    }
+                }
+
+            }
+
+        </hgroup>
+    </div>
+</body>
+</html>
