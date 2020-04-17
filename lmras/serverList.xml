@@ -28,7 +28,7 @@
     <useRemote>false</useRemote>
     <remoteUrl>http://localhost/atrium</remoteUrl>
     <proxyUrl>http://localhost/atrium</proxyUrl>
-    <dbConnect>Data Source=DOJ-Jean\SQL2014;Initial Catalog=atrium-training;</dbConnect>
+    <dbConnect>Data Source=tcp:atriumsqlsrv.database.windows.net,1433;Initial Catalog=atriumuat;</dbConnect>
     <helpUrl>http://localhost/atrium/deskbook</helpUrl>
     <reportUrl>http://localhost/ReportServer/</reportUrl>
     <reportAdminUrl>http://localhost/Reports/</reportAdminUrl>

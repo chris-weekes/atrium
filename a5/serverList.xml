@@ -24,11 +24,11 @@
   </Server>-->
   
   <Server>
-    <serverName>Atrium - Evaluation - Web Connect</serverName>
+    <serverName>Atrium - Evaluation - Local SQL</serverName>
     <useRemote>false</useRemote>
     <remoteUrl>http://localhost/atrium</remoteUrl>
     <proxyUrl>http://localhost/atrium</proxyUrl>
-    <dbConnect>Data Source=DOJ-Jean\SQL2014;Initial Catalog=atrium-training;</dbConnect>
+    <dbConnect>Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=atriumdev;</dbConnect>
     <helpUrl>http://localhost/atrium/deskbook</helpUrl>
     <reportUrl>http://localhost/ReportServer/</reportUrl>
     <reportAdminUrl>http://localhost/Reports/</reportAdminUrl>
@@ -43,14 +43,14 @@
     <ADMSWS>http://localhost/atrium/ADMS_LookupWS.svc</ADMSWS>
     <AtriumX>http://localhost/atrium/AtriumX.svc</AtriumX>
     <Compression>true</Compression>
-    <useService>true</useService>
+    <useService>false</useService>
   </Server>
   <Server>
-    <serverName>Atrium - Evaluation - WebConnect</serverName>
+    <serverName>Atrium - Evaluation - Azure</serverName>
     <useRemote>false</useRemote>
     <remoteUrl>http://jlls1.eastus.cloudapp.azure.com</remoteUrl>
     <proxyUrl>http://jlls1.eastus.cloudapp.azure.com</proxyUrl>
-    <dbConnect>DATABASE1</dbConnect>
+    <dbConnect>Data Source=tcp:atriumsqlsrv.database.windows.net,1433;Initial Catalog=atriumuat;</dbConnect>
     <helpUrl>http://jlls1.eastus.cloudapp.azure.com/deskbook</helpUrl>
     <reportUrl>http://jlls1.eastus.cloudapp.azure.com/ReportServer/</reportUrl>
     <reportAdminUrl>http://jlls1.eastus.cloudapp.azure.com/Reports/</reportAdminUrl>
@@ -65,7 +65,7 @@
     <ADMSWS>http://jlls1.eastus.cloudapp.azure.com/ADMS_LookupWS.svc</ADMSWS>
     <AtriumX>http://jlls1.eastus.cloudapp.azure.com/AtriumX.svc</AtriumX>
     <Compression>true</Compression>
-    <useService>true</useService>
+    <useService>false</useService>
   </Server>
   <!--<Server>
     <serverName>Atrium Test</serverName>

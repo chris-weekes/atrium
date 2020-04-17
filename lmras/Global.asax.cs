@@ -4,7 +4,6 @@ using System.Configuration;
 using System.Collections;
 using System.Net;
 using System.Web;
-using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
@@ -26,11 +25,11 @@ namespace lmras
         protected void Application_Start(object sender, EventArgs e)
         {
 
-            AreaRegistration.RegisterAllAreas();
+            //AreaRegistration.RegisterAllAreas();
 
-            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            //RouteConfig.RegisterRoutes(RouteTable.Routes);
+            //BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             if (lmras.Properties.Settings.Default.useAlias)
                 System.Runtime.Remoting.Services.TrackingServices.RegisterTrackingHandler(new TrackingHandler());

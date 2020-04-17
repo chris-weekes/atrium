@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Servers xmlns="http://tempuri.org/Servers.xsd">
-  
-  <!--<Server>
-    <serverName>Atrium DEV at CRA - Direct SQL Auth</serverName>
+  <Server>
+    <serverName>Local - DirectSQL</serverName>
     <useRemote>false</useRemote>
-    <remoteUrl>https://sd01itdb0031.omega.dce-eir.net/atriumDEV</remoteUrl>
-    <proxyUrl>https://sd01itdb0031.omega.dce-eir.net/atriumDEV</proxyUrl>
-    <dbConnect>Data Source=7.32.24.141, 53385;Initial Catalog=atrium-training;</dbConnect>
-    <helpUrl>https://sd01itdb0031.omega.dce-eir.net/atriumDEV/deskbook</helpUrl>
-    <reportUrl>https://sd01itdb0031.omega.dce-eir.net/reportserver</reportUrl>
-    <reportAdminUrl>https://sd01itdb0031.omega.dce-eir.net/reports</reportAdminUrl>
+    <remoteUrl>http://localhost/atrium</remoteUrl>
+    <proxyUrl>http://localhost/atrium</proxyUrl>
+    <dbConnect>Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=atriumdev;</dbConnect>
+    <helpUrl>http://localhost/atrium/deskbook</helpUrl>
+    <reportUrl>http://localhost/ReportServer/</reportUrl>
+    <reportAdminUrl>http://localhost/Reports/</reportAdminUrl>
     <reportService>/ReportService2005.asmx</reportService>
     <whatsnew>/english/?pgid=8087</whatsnew>
     <DeskbookHomePath>/english</DeskbookHomePath>
@@ -18,20 +17,20 @@
     <DeskbookQuickSearchHelpPath>/english/?pgid=549</DeskbookQuickSearchHelpPath>
     <trustedConnection>false</trustedConnection>
     <useProxy>false</useProxy>
-    <ADMSWS>https://sd01itdb0031.omega.dce-eir.net/atriumDEV/ADMS_LookupWS.svc</ADMSWS>
-    <AtriumX>https://sd01itdb0031.omega.dce-eir.net/atriumDEV/AtriumX.svc</AtriumX>
+    <ADMSWS>http://localhost/atrium/ADMS_LookupWS.svc</ADMSWS>
+    <AtriumX>http://localhost/atrium/AtriumX.svc</AtriumX>
     <Compression>true</Compression>
     <useService>false</useService>
   </Server>
   <Server>
-    <serverName>Atrium DEV at CRA - Secure Web</serverName>
+    <serverName>Azure SQL Direct</serverName>
     <useRemote>false</useRemote>
-    <remoteUrl>https://sd01itdb0031.omega.dce-eir.net/atriumDEV</remoteUrl>
-    <proxyUrl>https://sd01itdb0031.omega.dce-eir.net/atriumDEV</proxyUrl>
-    <dbConnect>Data Source=7.32.24.141, 53385;Initial Catalog=atrium-training;</dbConnect>
-    <helpUrl>https://sd01itdb0031.omega.dce-eir.net/atriumDEV/deskbook</helpUrl>
-    <reportUrl>https://sd01itdb0031.omega.dce-eir.net/reportserver</reportUrl>
-    <reportAdminUrl>https://sd01itdb0031.omega.dce-eir.net/reports</reportAdminUrl>
+    <remoteUrl>https://lmras.azurewebsites.net</remoteUrl>
+    <proxyUrl>https://lmras.azurewebsites.net</proxyUrl>
+    <dbConnect>Data Source=tcp:atriumsqlsrv.database.windows.net,1433;Initial Catalog=atriumuat;</dbConnect>
+    <helpUrl>https://lmras.azurewebsites.net/deskbook</helpUrl>
+    <reportUrl>https://lmras.azurewebsites.net/ReportServer/</reportUrl>
+    <reportAdminUrl>https://lmras.azurewebsites.net/Reports/</reportAdminUrl>
     <reportService>/ReportService2005.asmx</reportService>
     <whatsnew>/english/?pgid=8087</whatsnew>
     <DeskbookHomePath>/english</DeskbookHomePath>
@@ -40,97 +39,31 @@
     <DeskbookQuickSearchHelpPath>/english/?pgid=549</DeskbookQuickSearchHelpPath>
     <trustedConnection>false</trustedConnection>
     <useProxy>false</useProxy>
-    <ADMSWS>https://sd01itdb0031.omega.dce-eir.net/atriumDEV/ADMS_LookupWS.svc</ADMSWS>
-    <AtriumX>https://sd01itdb0031.omega.dce-eir.net/atriumDEV/AtriumX.svc</AtriumX>
+    <ADMSWS>https://lmras.azurewebsites.net/ADMS_LookupWS.svc</ADMSWS>
+    <AtriumX>https://lmras.azurewebsites.net/AtriumX.svc</AtriumX>
+    <Compression>true</Compression>
+    <useService>false</useService>
+  </Server>
+  <Server>
+    <serverName>Azure Remote</serverName>
+    <useRemote>false</useRemote>
+    <remoteUrl>https://lmras.azurewebsites.net</remoteUrl>
+    <proxyUrl>https://lmras.azurewebsites.net</proxyUrl>
+    <dbConnect>Data Source=tcp:atriumsqlsrv.database.windows.net,1433;Initial Catalog=atriumuat;</dbConnect>
+    <helpUrl>https://lmras.azurewebsites.net/deskbook</helpUrl>
+    <reportUrl>https://lmras.azurewebsites.net/ReportServer/</reportUrl>
+    <reportAdminUrl>https://lmras.azurewebsites.net/Reports/</reportAdminUrl>
+    <reportService>/ReportService2005.asmx</reportService>
+    <whatsnew>/english/?pgid=8087</whatsnew>
+    <DeskbookHomePath>/english</DeskbookHomePath>
+    <DeskbookSearchPath>/english/?pgid=549</DeskbookSearchPath>
+    <DeskbookCheatSheet>/english/?pgid=549</DeskbookCheatSheet>
+    <DeskbookQuickSearchHelpPath>/english/?pgid=549</DeskbookQuickSearchHelpPath>
+    <trustedConnection>false</trustedConnection>
+    <useProxy>false</useProxy>
+    <ADMSWS>https://lmras.azurewebsites.net/ADMS_LookupWS.svc</ADMSWS>
+    <AtriumX>https://lmras.azurewebsites.net/AtriumX.svc</AtriumX>
     <Compression>true</Compression>
     <useService>true</useService>
-  </Server>-->
-  <Server>
-    <serverName>Atrium - Trusted Connection</serverName>
-    <useRemote>false</useRemote>
-    <remoteUrl>http://localhost/atrium</remoteUrl>
-    <proxyUrl>http://localhost/atrium</proxyUrl>
-    <dbConnect>Data Source=DOJ-Jean\SQL2014;Initial Catalog=atrium-training;</dbConnect>
-    <helpUrl>http://localhost/atrium/deskbook</helpUrl>
-    <reportUrl>http://localhost/ReportServer/</reportUrl>
-    <reportAdminUrl>http://localhost/Reports/</reportAdminUrl>
-    <reportService>/ReportService2005.asmx</reportService>
-    <whatsnew>/english/?pgid=8087</whatsnew>
-    <DeskbookHomePath>/english</DeskbookHomePath>
-    <DeskbookSearchPath>/english/?pgid=549</DeskbookSearchPath>
-    <DeskbookCheatSheet>/english/?pgid=549</DeskbookCheatSheet>
-    <DeskbookQuickSearchHelpPath>/english/?pgid=549</DeskbookQuickSearchHelpPath>
-    <trustedConnection>true</trustedConnection>
-    <useProxy>false</useProxy>
-    <ADMSWS>http://localhost/atrium/ADMS_LookupWS.svc</ADMSWS>
-    <AtriumX>http://localhost/atrium/AtriumX.svc</AtriumX>
-    <Compression>true</Compression>
-    <useService>false</useService>
   </Server>
-  <Server>
-    <serverName>Evaluation - DirectSQL</serverName>
-    <useRemote>false</useRemote>
-    <remoteUrl>http://localhost/atrium</remoteUrl>
-    <proxyUrl>http://localhost/atrium</proxyUrl>
-    <dbConnect>Data Source=DOJ-Jean\SQL2014;Initial Catalog=atrium-training;</dbConnect>
-    <helpUrl>http://localhost/atrium/deskbook</helpUrl>
-    <reportUrl>http://localhost/ReportServer/</reportUrl>
-    <reportAdminUrl>http://localhost/Reports/</reportAdminUrl>
-    <reportService>/ReportService2005.asmx</reportService>
-    <whatsnew>/english/?pgid=8087</whatsnew>
-    <DeskbookHomePath>/english</DeskbookHomePath>
-    <DeskbookSearchPath>/english/?pgid=549</DeskbookSearchPath>
-    <DeskbookCheatSheet>/english/?pgid=549</DeskbookCheatSheet>
-    <DeskbookQuickSearchHelpPath>/english/?pgid=549</DeskbookQuickSearchHelpPath>
-    <trustedConnection>false</trustedConnection>
-    <useProxy>false</useProxy>
-    <ADMSWS>http://localhost/atrium/ADMS_LookupWS.svc</ADMSWS>
-    <AtriumX>http://localhost/atrium/AtriumX.svc</AtriumX>
-    <Compression>true</Compression>
-    <useService>false</useService>
-  </Server>
-  <Server>
-    <serverName>AAFC - Lotus Notes Data</serverName>
-    <useRemote>false</useRemote>
-    <remoteUrl>http://localhost/atrium</remoteUrl>
-    <proxyUrl>http://localhost/atrium</proxyUrl>
-    <dbConnect>Data Source=DOJ-Jean\SQL2014;Initial Catalog=at_aafc;</dbConnect>
-    <helpUrl>http://localhost/atrium/deskbook</helpUrl>
-    <reportUrl>http://localhost/ReportServer/</reportUrl>
-    <reportAdminUrl>http://localhost/Reports/</reportAdminUrl>
-    <reportService>/ReportService2005.asmx</reportService>
-    <whatsnew>/english/?pgid=8087</whatsnew>
-    <DeskbookHomePath>/english</DeskbookHomePath>
-    <DeskbookSearchPath>/english/?pgid=549</DeskbookSearchPath>
-    <DeskbookCheatSheet>/english/?pgid=549</DeskbookCheatSheet>
-    <DeskbookQuickSearchHelpPath>/english/?pgid=549</DeskbookQuickSearchHelpPath>
-    <trustedConnection>false</trustedConnection>
-    <useProxy>false</useProxy>
-    <ADMSWS>http://localhost/atrium/ADMS_LookupWS.svc</ADMSWS>
-    <AtriumX>http://localhost/atrium/AtriumX.svc</AtriumX>
-    <Compression>true</Compression>
-    <useService>false</useService>
-  </Server>
-  <Server>
-    <serverName>Evaluation - CloudConnect</serverName>
-    <useRemote>false</useRemote>
-    <remoteUrl>http://jlls1.eastus.cloudapp.azure.com</remoteUrl>
-    <proxyUrl>http://jlls1.eastus.cloudapp.azure.com</proxyUrl>
-    <dbConnect>DATABASE1</dbConnect>
-    <helpUrl>http://jlls1.eastus.cloudapp.azure.com/deskbook</helpUrl>
-    <reportUrl>http://jlls1.eastus.cloudapp.azure.com/ReportServer/</reportUrl>
-    <reportAdminUrl>http://jlls1.eastus.cloudapp.azure.com/Reports/</reportAdminUrl>
-    <reportService>/ReportService2005.asmx</reportService>
-    <whatsnew>/english/?pgid=8087</whatsnew>
-    <DeskbookHomePath>/english</DeskbookHomePath>
-    <DeskbookSearchPath>/english/?pgid=549</DeskbookSearchPath>
-    <DeskbookCheatSheet>/english/?pgid=549</DeskbookCheatSheet>
-    <DeskbookQuickSearchHelpPath>/english/?pgid=549</DeskbookQuickSearchHelpPath>
-    <trustedConnection>false</trustedConnection>
-    <useProxy>false</useProxy>
-    <ADMSWS>http://jlls1.eastus.cloudapp.azure.com/ADMS_LookupWS.svc</ADMSWS>
-    <AtriumX>http://jlls1.eastus.cloudapp.azure.com/AtriumX.svc</AtriumX>
-    <Compression>true</Compression>
-    <useService>true</useService>
-  </Server>-->
 </Servers>

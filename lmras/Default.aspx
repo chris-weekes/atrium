@@ -31,9 +31,9 @@
         <p>
             <a href="workflow/">Atrium Workflow Documentation Centre</a>
         </p>
-            <p>
+     <%--       <p>
             <a href="home/login">Atrium Web</a>
-        </p>
+        </p>--%>
     </div>
     
     <div style="float:right;width:390px;">
@@ -48,9 +48,9 @@
         <p>
             <a href="workflow/">Centre de documentation de processus Atrium</a>
         </p>
-            <p>
+    <%--        <p>
             <a href="home/login">Atrium Web</a>
-        </p>
+        </p>--%>
         
     </div>
     </div>

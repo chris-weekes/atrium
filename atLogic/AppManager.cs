@@ -134,9 +134,9 @@ namespace atLogic
         {
             if (myaxc == null)
             {
-                //  System.Net.ServicePointManager.SecurityProtocol =System.Net.SecurityProtocolType.Tls | System.Net.SecurityProtocolType.Tls11 | System.Net.SecurityProtocolType.Tls12;
-                //            System.Net.ServicePointManager.ServerCertificateValidationCallback =
-                //((sender, certificate, chain, sslPolicyErrors) => true);
+    //            System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls | System.Net.SecurityProtocolType.Tls11 | System.Net.SecurityProtocolType.Tls12;
+    //            System.Net.ServicePointManager.ServerCertificateValidationCallback =
+    //((sender, certificate, chain, sslPolicyErrors) => true);
 
                 AtriumX.AtriumXClient axc = new AtriumX.AtriumXClient();
 
